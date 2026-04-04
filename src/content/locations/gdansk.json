@@ -105,6 +105,20 @@
         "lat": 54.0397526,
         "lng": 19.028012699999998
       }
+    },
+    {
+      "name": "Pierogarnia Mandu",
+      "type": "culinary",
+      "icon": "gem",
+      "description": "Kleine, gemütliche Pierogi-Stube mit kreativen Füllungen weit über den Standard hinaus. Handgemacht, frisch und unverschämt günstig — ein Muss für jeden Danzig-Besuch.",
+      "duration": "1-1.5h",
+      "price": "€",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pierogarnia%20Mandu%20Gda%C5%84sk%20%C5%9Ar%C3%B3dmie%C5%9Bcie&query_place_id=ChIJhxejdXZz_UYR0HOnu0Z47iY",
+      "placeId": "ChIJhxejdXZz_UYR0HOnu0Z47iY",
+      "coordinates": {
+        "lat": 54.3537573,
+        "lng": 18.6467672
+      }
     }
   ],
   "restaurants": [

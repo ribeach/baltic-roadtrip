@@ -25,6 +25,6 @@
     "Grenzübertritt nach Lettland",
     "Ankunft in Riga am späten Nachmittag",
     { "highlightRef": "Rigaer Zentralmarkt", "note": "Abendlicher Rundgang durch die ehemaligen Zeppelinhallen" },
-    "Black Balsam probieren in der Black Magic Bar: Lettlands legendärer Kräuterlikör im mittelalterlichen Gewölbe"
+    { "highlightRef": "Black Magic Bar", "note": "Black Balsam probieren — Lettlands legendärer Kräuterlikör im mittelalterlichen Gewölbe" }
   ]
 }

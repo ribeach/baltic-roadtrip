@@ -133,6 +133,48 @@
         "lat": 54.6921057,
         "lng": 25.267252499999998
       }
+    },
+    {
+      "name": "Halės Turgus",
+      "type": "market",
+      "icon": "star",
+      "description": "Vilnius' historische Markthalle aus dem 19. Jahrhundert bietet frisches Obst, Gemüse, Käse, Fleisch und litauische Spezialitäten unter einem Dach. Perfekt für eine authentische Mittagspause.",
+      "duration": "30-60min",
+      "price": "Kostenlos (Essen extra)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hal%C4%97s%20Turgus&query_place_id=ChIJF2EqLkCU3UYR8GmknpjZAVo",
+      "placeId": "ChIJF2EqLkCU3UYR8GmknpjZAVo",
+      "coordinates": {
+        "lat": 54.6736516,
+        "lng": 25.2860853
+      }
+    },
+    {
+      "name": "Ertlio Namas",
+      "type": "culinary",
+      "icon": "gem",
+      "description": "In einem historischen Altstadthaus serviert Ertlio Namas ein Tasting-Menü, das altlitauische Rezepte mit modernen Techniken wiederbelebt. Eine kulinarische Zeitreise durch die Großfürstenzeit.",
+      "duration": "2-2.5h",
+      "price": "€€€",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ertlio%20Namas&query_place_id=ChIJPdiigBaU3UYRuLFU7GnLS1g",
+      "placeId": "ChIJPdiigBaU3UYRuLFU7GnLS1g",
+      "coordinates": {
+        "lat": 54.6819074,
+        "lng": 25.287448
+      }
+    },
+    {
+      "name": "Šnekutis",
+      "type": "culinary",
+      "icon": "gem",
+      "description": "Die legendärste Kneipe der Stadt mit litauischen Farmhouse Ales vom Fass und deftigen Snacks. Hier treffen sich Einheimische, Studenten und eingeweihte Reisende.",
+      "duration": "1-2h",
+      "price": "€",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C5%A0NEKUTIS&query_place_id=ChIJsxk72xSU3UYR6bIs9rEGdHU",
+      "placeId": "ChIJsxk72xSU3UYR6bIs9rEGdHU",
+      "coordinates": {
+        "lat": 54.6778717,
+        "lng": 25.2824831
+      }
     }
   ],
   "restaurants": [
