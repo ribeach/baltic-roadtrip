@@ -10,23 +10,23 @@ const countries = allCountries.sort((a, b) => routeOrder.indexOf(a.data.id) - ro
 const CHARGE_KWH = 54;
 
 const essentialApps = [
-  { name: 'A Better Route Planner (ABRP)', purpose: 'Routenplanung & Verbrauch', scope: 'Alle Länder' },
-  { name: 'PlugShare', purpose: 'Ladestationen finden & Erfahrungsberichte', scope: 'Alle Länder' },
-  { name: 'Plugsurfing + RFID-Karte', purpose: 'Bezahlen an 940.000+ Ladepunkten', scope: 'DE, PL, Backup Baltikum' },
-  { name: 'Mobilly', purpose: 'Einheitliche Bezahlung im Baltikum', scope: 'LT, LV, EE' },
-  { name: 'Eleport', purpose: 'Dominanter Anbieter Baltikum + Polen', scope: 'EE, LV, LT, PL' },
-  { name: 'Ignitis ON', purpose: 'QR-Code, keine Registrierung nötig', scope: 'LT, LV, EE' },
-  { name: 'GreenWay', purpose: 'Polens größtes Ladenetz', scope: 'PL' },
-  { name: 'IONITY', purpose: 'Schnellladen an Autobahnen', scope: 'DE, SE' },
-  { name: 'Fortum Charge & Drive', purpose: '38.000+ Ladepunkte Skandinavien', scope: 'FI, SE' },
+  { name: 'A Better Route Planner (ABRP)', purpose: 'Routenplanung & Verbrauch', scope: 'Alle Länder', url: 'https://abetterrouteplanner.com' },
+  { name: 'PlugShare', purpose: 'Ladestationen finden & Erfahrungsberichte', scope: 'Alle Länder', url: 'https://www.plugshare.com' },
+  { name: 'Plugsurfing + RFID-Karte', purpose: 'Bezahlen an 940.000+ Ladepunkten', scope: 'DE, PL, Backup Baltikum', url: 'https://plugsurfing.com' },
+  { name: 'Mobilly', purpose: 'Einheitliche Bezahlung im Baltikum', scope: 'LT, LV, EE', url: 'https://mobilly.lv' },
+  { name: 'Eleport', purpose: 'Dominanter Anbieter Baltikum + Polen', scope: 'EE, LV, LT, PL', url: 'https://eleport.com' },
+  { name: 'Ignitis ON', purpose: 'QR-Code, keine Registrierung nötig', scope: 'LT, LV, EE', url: 'https://ignitison.lt' },
+  { name: 'GreenWay', purpose: 'Polens größtes Ladenetz', scope: 'PL', url: 'https://greenwaypolska.pl' },
+  { name: 'IONITY', purpose: 'Schnellladen an Autobahnen', scope: 'DE, SE', url: 'https://ionity.eu' },
+  { name: 'Recharge (ehem. Fortum)', purpose: '38.000+ Ladepunkte Skandinavien', scope: 'FI, SE', url: 'https://rechargeinfra.com' },
 ];
 
 const ferryOptions = [
-  { route: 'Tallinn → Helsinki', operator: 'Eckerö Line / Tallink / Viking Line', duration: '2–2,5h', price: '50–90 € (Auto + 2 Pers.)', note: 'Autofähre nach Helsinki als Start der Finnland-Durchquerung. 12+ Abfahrten täglich, Frühfähre ~07:30 ideal. Eckerö Line oft am günstigsten.' },
-  { route: 'Turku → Stockholm', operator: 'Viking Line (Glory/Grace)', duration: '~11h (Nachtfähre)', price: '200–350 € (Auto + 2 Pers. + Kabine)', note: 'Nachtfähre durch den Turku-Archipel (20.000 Inseln!) mit Stopp auf den Åland-Inseln. Abfahrt 20:55, Ankunft Stockholm Stadsgården 07:30. Früh buchen!' },
-  { route: 'Klaipėda → Smiltynė (Kurische Nehrung)', operator: 'Lokale Fähre', duration: '~10 Min', price: '~23 € Hin+Rück (Auto)', note: 'Alle 20–30 Min. Bezahlung am Terminal. E-Autos im Mai kostenlos auf der Nehrung (Neringa-Gebühr entfällt).' },
-  { route: 'Trelleborg → Rostock (Heimreise)', operator: 'TT-Line / Stena Line', duration: '~6h', price: '150–300 € (Auto + 2 Pers.)', note: 'Empfohlene Heimreise-Option. Nachtfähre am Vorabend, morgens in Rostock, dann Autobahn nach Aalen.' },
-  { route: 'Gothenburg → Kiel (Heimreise)', operator: 'Stena Line', duration: '~14h (Nachtfähre)', price: '300–450 € (Auto + 2 Pers. + Kabine)', note: 'Komfort-Upgrade: Abfahrt 17:45, Ankunft 09:15. EV-Laden an Bord möglich (6 Plätze, vorab buchen!).' },
+  { route: 'Tallinn → Helsinki', operators: [{ name: 'Eckerö Line', url: 'https://www.eckeroline.fi' }, { name: 'Tallink', url: 'https://www.tallink.com' }, { name: 'Viking Line', url: 'https://www.vikingline.com' }], duration: '2–2,5h', price: '50–90 € (Auto + 2 Pers.)', note: 'Autofähre nach Helsinki als Start der Finnland-Durchquerung. 12+ Abfahrten täglich, Frühfähre ~07:30 ideal. Eckerö Line oft am günstigsten.' },
+  { route: 'Turku → Stockholm', operators: [{ name: 'Viking Line (Glory/Grace)', url: 'https://www.vikingline.com' }], duration: '~11h (Nachtfähre)', price: '200–350 € (Auto + 2 Pers. + Kabine)', note: 'Nachtfähre durch den Turku-Archipel (20.000 Inseln!) mit Stopp auf den Åland-Inseln. Abfahrt 20:55, Ankunft Stockholm Stadsgården 07:30. Früh buchen!' },
+  { route: 'Klaipėda → Smiltynė (Kurische Nehrung)', operators: [{ name: 'Lokale Fähre' }], duration: '~10 Min', price: '~23 € Hin+Rück (Auto)', note: 'Alle 20–30 Min. Bezahlung am Terminal. E-Autos im Mai kostenlos auf der Nehrung (Neringa-Gebühr entfällt).' },
+  { route: 'Trelleborg → Rostock (Heimreise)', operators: [{ name: 'TT-Line', url: 'https://www.ttline.com' }, { name: 'Stena Line', url: 'https://www.stenaline.de' }], duration: '~6h', price: '150–300 € (Auto + 2 Pers.)', note: 'Empfohlene Heimreise-Option. Nachtfähre am Vorabend, morgens in Rostock, dann Autobahn nach Aalen.' },
+  { route: 'Gothenburg → Kiel (Heimreise)', operators: [{ name: 'Stena Line', url: 'https://www.stenaline.de' }], duration: '~14h (Nachtfähre)', price: '300–450 € (Auto + 2 Pers. + Kabine)', note: 'Komfort-Upgrade: Abfahrt 17:45, Ankunft 09:15. EV-Laden an Bord möglich (6 Plätze, vorab buchen!).' },
 ];
 
 const evRules = [
@@ -123,7 +123,15 @@ const evRules = [
       <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
         {essentialApps.map(app => (
           <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-3">
-            <h4 class="font-semibold text-navy-800 text-sm">{app.name}</h4>
+            <h4 class="font-semibold text-sm">
+              {app.url ? (
+                <a href={app.url} target="_blank" rel="noopener noreferrer" class="text-navy-800 hover:text-amber-500 transition-colors">
+                  {app.name} ↗
+                </a>
+              ) : (
+                <span class="text-navy-800">{app.name}</span>
+              )}
+            </h4>
             <p class="text-xs text-gray-500 mt-1">{app.purpose}</p>
             <span class="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full mt-2 inline-block">{app.scope}</span>
           </div>
@@ -211,7 +219,7 @@ const evRules = [
       </div>
       <div class="mt-4 bg-blue-50 border border-blue-200 rounded-xl p-4">
         <p class="text-sm text-blue-800">
-          <strong>💡 Tipp:</strong> Eine Wise Multi-Currency-Karte ist ideal für diese Reise. EU-Roaming greift in allen Ländern auf der Route.
+          <strong>💡 Tipp:</strong> Eine <a href="https://wise.com" target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium">Wise Multi-Currency-Karte</a> ist ideal für diese Reise. EU-Roaming greift in allen Ländern auf der Route.
         </p>
       </div>
     </section>
@@ -225,7 +233,18 @@ const evRules = [
             <div class="flex items-start justify-between gap-4">
               <div>
                 <h3 class="font-bold text-navy-800">{ferry.route}</h3>
-                <p class="text-sm text-gray-500">{ferry.operator}</p>
+                <p class="text-sm text-gray-500">
+                  {ferry.operators.map((op, i) => (
+                    <>
+                      {i > 0 && ' / '}
+                      {op.url ? (
+                        <a href={op.url} target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium">{op.name}</a>
+                      ) : (
+                        <span>{op.name}</span>
+                      )}
+                    </>
+                  ))}
+                </p>
               </div>
               <div class="text-right shrink-0">
                 <div class="text-sm font-medium text-navy-800">{ferry.duration}</div>

@@ -80,5 +80,6 @@ Body: { "textQuery": "Place Name City Country" }
 
 ## Workflow
 
+- Never commit directly to `main` — all changes go through feature branches and pull requests.
 - For every fix or feature, create a dedicated branch following the pattern `fix/YYMMDD_description` or `feature/YYMMDD_description` (e.g. `feature/260404_highlights-on-day-pages`).
 - After completing the work, commit all changes, push the branch, and create a GitHub pull request.
