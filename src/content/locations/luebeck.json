@@ -1,0 +1,68 @@
+{
+  "id": "luebeck",
+  "name": "Lübeck",
+  "country": "germany",
+  "coordinates": { "lat": 53.8655, "lng": 10.6866 },
+  "description": "Die \"Königin der Hanse\" mit ihrer UNESCO-geschützten Altstadt ist ein optionaler Übernachtungsstopp auf der Rückreise, um die lange Fahrt von Halmstad nach Aalen angenehm aufzuteilen. Backsteinkirchen, das Holstentor und ein Abendspaziergang am Wasser runden den Trip stilvoll ab.",
+  "highlights": [
+    {
+      "name": "UNESCO-Altstadt",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Die von Wasser umgebene Altstadtinsel beeindruckt mit ihrer geschlossenen Backsteinarchitektur aus der Hansezeit. Sieben Kirchtürme prägen die Silhouette — ein perfektes Postkartenmotiv.",
+      "duration": "1.5-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Lübeck+Altstadt+Germany"
+    },
+    {
+      "name": "Holstentor",
+      "type": "monument",
+      "icon": "star",
+      "description": "Das schiefe Stadttor von 1478 ist Lübecks Wahrzeichen und eines der bekanntesten Bauwerke Norddeutschlands. Im Inneren befindet sich ein Museum zur Hansegeschichte.",
+      "duration": "30-45min",
+      "price": "€8 (Museum)",
+      "googleMapsUrl": "https://maps.google.com/?q=Holstentor+Lübeck+Germany"
+    },
+    {
+      "name": "Abendspaziergang an der Trave",
+      "type": "activity",
+      "icon": "info",
+      "description": "Die Uferpromenade an der Obertrave mit ihren historischen Salzspeichern und dem Blick auf die beleuchtete Altstadt ist der perfekte Ausklang eines langen Reisetags.",
+      "duration": "30-60min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Obertrave+Lübeck+Germany"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Schiffergesellschaft",
+      "cuisine": "Norddeutsch-Hanseatisch",
+      "priceRange": "€€",
+      "description": "Lübecks traditionsreichstes Restaurant in der ehemaligen Seefahrer-Gilde seit 1535. Unter Schiffsmodellen und maritimen Artefakten gibt es norddeutsche Klassiker in einzigartiger Atmosphäre.",
+      "mustTry": "Lübecker Pannfisch oder Labskaus — hanseatische Hafenküche vom Feinsten",
+      "googleMapsUrl": "https://maps.google.com/?q=Schiffergesellschaft+Lübeck"
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Radisson Blu Senator Hotel Lübeck",
+      "type": "Stadthotel",
+      "priceRange": "160-260€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Komfortables Hotel in bester Lage mit Blick auf die Altstadt und die Trave. Perfekt für eine Nacht, um die Rückreise aufzuteilen.",
+      "googleMapsUrl": "https://maps.google.com/?q=Radisson+Blu+Senator+Hotel+Lübeck"
+    }
+  ],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Optionaler Übernachtungsstopp auf der Rückreise, um die Fahrt Halmstad → Aalen (ca. 1.100km) sinnvoll aufzuteilen."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Niederegger Marzipan nicht vergessen — das berühmte Café und Geschäft liegt direkt gegenüber dem Rathaus. Lübeck ist die Marzipan-Hauptstadt der Welt."
+    }
+  ],
+  "nightlife": null
+}

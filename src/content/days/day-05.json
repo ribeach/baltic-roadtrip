@@ -1,0 +1,27 @@
+{
+  "dayNumber": 5,
+  "date": "2026-05-04",
+  "title": "Die lange Etappe nach Vilnius",
+  "subtitle": "Durch Masuren und die Suwalki-Lücke ins Baltikum",
+  "locationId": "vilnius",
+  "previousLocationId": "gdansk",
+  "overnightLocationId": "vilnius",
+  "driving": {
+    "distance": "600 km",
+    "duration": "7:00",
+    "mode": "drive",
+    "routeDescription": "Über die S7 Richtung Elbląg, dann durch die masurische Seenplatte und die Suwalki-Lücke an der litauischen Grenze. Landschaftlich reizvoll, aber dünn besiedelt – Ladeplanung ist entscheidend."
+  },
+  "evCharging": {
+    "stopsNeeded": 2,
+    "notes": "Längste Tagesetappe der Reise! Unbedingt in Danzig voll laden. Zwei Ladestopps nötig – einer im Raum Elbląg/Olsztyn, einer vor der litauischen Grenze. Ladeinfrastruktur im Suwalki-Korridor noch lückenhaft.",
+    "criticalLevel": "yellow"
+  },
+  "activities": [
+    "Früher Aufbruch – dieser Tag gehört der Straße",
+    "Fahrt durch die stille Weite Masurens: Seen, Wälder, Störche auf den Dächern",
+    "Transit durch die geopolitisch bedeutsame Suwalki-Lücke zwischen Belarus und Kaliningrad",
+    "Ankunft in Vilnius am Abend, erster Spaziergang durch die barocke Altstadt",
+    "Willkommens-Abendessen in einem litauischen Lokal"
+  ]
+}

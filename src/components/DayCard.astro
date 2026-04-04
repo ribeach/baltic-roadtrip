@@ -1,0 +1,93 @@
+---
+import EvIndicator from './EvIndicator.astro';
+
+interface Props {
+  dayNumber: number;
+  date: string;
+  title: string;
+  subtitle: string;
+  driving: {
+    distance: string;
+    duration: string;
+    mode: 'drive' | 'ferry' | 'none';
+  } | null;
+  evCharging: {
+    criticalLevel: 'green' | 'yellow' | 'red';
+    stopsNeeded: number;
+  } | null;
+  activities: string[];
+  locationId: string;
+  isLeft: boolean;
+}
+
+const { dayNumber, date, title, subtitle, driving, evCharging, activities, locationId, isLeft } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+const dateObj = new Date(date + 'T12:00:00');
+const formattedDate = dateObj.toLocaleDateString('de-DE', { weekday: 'short', day: 'numeric', month: 'short' });
+
+const modeIcon = driving?.mode === 'ferry' ? '⛴️' : driving?.mode === 'drive' ? '🚗' : '📍';
+---
+
+<div class="relative flex items-start gap-4 md:gap-8 group">
+  <!-- Timeline dot -->
+  <div class="absolute left-4 md:left-1/2 md:-translate-x-1/2 w-4 h-4 rounded-full bg-amber-400 border-4 border-navy-800 z-10 mt-6 group-hover:scale-125 transition-transform"></div>
+
+  <!-- Card -->
+  <div class:list={[
+    'ml-10 md:ml-0 md:w-[calc(50%-2rem)] bg-white rounded-xl shadow-md hover:shadow-xl transition-all border border-gray-100 overflow-hidden',
+    isLeft ? 'md:mr-auto' : 'md:ml-auto'
+  ]}>
+    <a href={`${base}tag/${dayNumber}`} class="block">
+      <!-- Header -->
+      <div class="bg-navy-800 text-white px-4 py-3 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="bg-amber-400 text-navy-800 font-bold text-sm w-8 h-8 rounded-full flex items-center justify-center">
+            {dayNumber}
+          </span>
+          <div>
+            <div class="font-semibold text-sm">{formattedDate}</div>
+          </div>
+        </div>
+        {driving && driving.mode !== 'none' && (
+          <div class="flex items-center gap-2 text-sm text-gray-300">
+            <span>{modeIcon}</span>
+            <span>{driving.distance}</span>
+            <span class="text-gray-500">|</span>
+            <span>{driving.duration}h</span>
+          </div>
+        )}
+      </div>
+
+      <!-- Body -->
+      <div class="p-4">
+        <h3 class="font-bold text-lg text-navy-800 mb-1">{title}</h3>
+        <p class="text-sm text-gray-500 mb-3">{subtitle}</p>
+
+        {evCharging && (
+          <div class="mb-3">
+            <EvIndicator level={evCharging.criticalLevel} compact />
+          </div>
+        )}
+
+        <ul class="space-y-1">
+          {activities.slice(0, 3).map(activity => (
+            <li class="text-sm text-gray-600 flex items-start gap-2">
+              <span class="text-amber-400 mt-0.5">•</span>
+              <span>{activity}</span>
+            </li>
+          ))}
+          {activities.length > 3 && (
+            <li class="text-sm text-amber-500 font-medium">
+              + {activities.length - 3} weitere...
+            </li>
+          )}
+        </ul>
+
+        <div class="mt-3 text-sm text-amber-500 font-medium group-hover:text-amber-600 transition-colors">
+          Details ansehen →
+        </div>
+      </div>
+    </a>
+  </div>
+</div>

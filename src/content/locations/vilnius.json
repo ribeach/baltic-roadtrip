@@ -1,0 +1,184 @@
+{
+  "id": "vilnius",
+  "name": "Vilnius",
+  "country": "lithuania",
+  "coordinates": { "lat": 54.6872, "lng": 25.2797 },
+  "description": "Litauens Hauptstadt überrascht mit der größten mittelalterlichen Altstadt Osteuropas, einer lebendigen Kunstszene und dem charmant-rebellischen Geist der selbsternannten Republik Užupis. Vilnius ist günstiger als erwartet, wärmer als sein Ruf und voller Geschichten, die man in keinem Reiseführer findet.",
+  "highlights": [
+    {
+      "name": "UNESCO-Altstadt",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Die größte mittelalterliche Altstadt Osteuropas ist ein Labyrinth aus barocken Kirchen, kopfsteingepflasterten Gassen und versteckten Innenhöfen. Man kann sich hier stundenlang verlieren — und will es auch.",
+      "duration": "3-4h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Vilnius+Old+Town+Lithuania"
+    },
+    {
+      "name": "Gediminas-Turm",
+      "type": "viewpoint",
+      "icon": "star",
+      "description": "Der Turm auf dem Burgberg ist Vilnius' Wahrzeichen und bietet ein 360°-Panorama über die Altstadt, die Flusslandschaft und die moderne Skyline. Am schönsten bei Sonnenuntergang.",
+      "duration": "1h",
+      "price": "€5",
+      "googleMapsUrl": "https://maps.google.com/?q=Gediminas+Tower+Vilnius"
+    },
+    {
+      "name": "KGB-Museum (Museum der Okkupationen und Freiheitskämpfe)",
+      "type": "museum",
+      "icon": "star",
+      "description": "Im ehemaligen KGB-Hauptquartier sind die Verhör- und Folterzellen im Keller erhalten. Ein beklemmender, aber unverzichtbarer Ort, um die sowjetische Besatzung Litauens zu verstehen.",
+      "duration": "2h",
+      "price": "€5",
+      "googleMapsUrl": "https://maps.google.com/?q=Museum+of+Occupations+and+Freedom+Fights+Vilnius"
+    },
+    {
+      "name": "Republik Užupis",
+      "type": "activity",
+      "icon": "gem",
+      "description": "Das selbsternannte unabhängige Künstlerviertel jenseits der Vilnia hat eine eigene Verfassung (\"Jeder Mensch hat das Recht, eine Katze zu sein\"), einen Präsidenten und am 1. April einen Nationalfeiertag.",
+      "duration": "1-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Užupis+Republic+Vilnius"
+    },
+    {
+      "name": "Tor der Morgenröte (Aušros Vartai)",
+      "type": "church",
+      "icon": "info",
+      "description": "Das einzig erhaltene Stadttor beherbergt eine Kapelle mit einer wundertätigen Madonnenikone, die von Katholiken und Orthodoxen gleichermaßen verehrt wird.",
+      "duration": "20-30min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Gate+of+Dawn+Vilnius"
+    },
+    {
+      "name": "Universität Vilnius",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Eine der ältesten Universitäten Osteuropas (gegründet 1579) mit 13 verbundenen Innenhöfen, einer barocken Bibliothek und wunderschönen Fresken.",
+      "duration": "1h",
+      "price": "€2",
+      "googleMapsUrl": "https://maps.google.com/?q=Vilnius+University+Lithuania"
+    },
+    {
+      "name": "Literatenstraße (Literatų gatvė)",
+      "type": "monument",
+      "icon": "gem",
+      "description": "Über 200 kleine Kunstinstallationen an den Hauswänden dieser schmalen Gasse ehren litauische und internationale Schriftsteller. Eine Galerie unter freiem Himmel.",
+      "duration": "20-30min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Literatų+gatvė+Vilnius"
+    },
+    {
+      "name": "Pūčkoriai Aussichtspunkt",
+      "type": "viewpoint",
+      "icon": "gem",
+      "description": "Die höchste natürliche Erhebung der Stadt bietet einen wenig bekannten Panoramablick über Vilnius. Besonders stimmungsvoll am späten Nachmittag.",
+      "duration": "30-45min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Pūčkoriai+Exposure+Vilnius"
+    },
+    {
+      "name": "Lukiškės Gefängnis 2.0",
+      "type": "activity",
+      "icon": "gem",
+      "description": "Das ehemalige Gefängnis wurde zum alternativen Kulturzentrum umfunktioniert — mit Kunstausstellungen, Events und der Möglichkeit, in einer echten Zelle zu übernachten (wer sich traut).",
+      "duration": "1-2h",
+      "price": "Variiert",
+      "googleMapsUrl": "https://maps.google.com/?q=Lukiškės+Prison+2.0+Vilnius"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Ertlio Namas",
+      "cuisine": "Litauisches Fine Dining",
+      "priceRange": "€€€",
+      "description": "In einem historischen Altstadthaus serviert Ertlio Namas ein Tasting-Menü, das altlitauische Rezepte mit modernen Techniken wiederbelebt. Eine kulinarische Zeitreise durch die Großfürstenzeit.",
+      "mustTry": "Historisches Tasting-Menü (45-60€) — jedes Gericht erzählt eine Geschichte",
+      "googleMapsUrl": "https://maps.google.com/?q=Ertlio+Namas+Vilnius"
+    },
+    {
+      "name": "Lokys (Der Bär)",
+      "cuisine": "Litauische Wildküche",
+      "priceRange": "€€",
+      "description": "Im mittelalterlichen Kellergewölbe serviert \"Der Bär\" seit Jahrzehnten Wildgerichte, die man sonst nirgendwo bekommt — darunter tatsächlich Biberfleisch. Mutig sein lohnt sich.",
+      "mustTry": "Biberfleisch-Eintopf — wann hat man sonst die Gelegenheit?",
+      "googleMapsUrl": "https://maps.google.com/?q=Lokys+Restaurant+Vilnius"
+    },
+    {
+      "name": "Senoji Trobelė",
+      "cuisine": "Traditionell Litauisch",
+      "priceRange": "€",
+      "description": "Rustikales Restaurant mit authentischer litauischer Hausmannskost in gemütlicher Holzeinrichtung. Hier kocht die Oma, nicht ein Sternekoch — und genau das macht es so gut.",
+      "mustTry": "Cepelinai — die Nationalgerichte: Kartoffelklöße gefüllt mit Hackfleisch, in Schmand ertränkt",
+      "googleMapsUrl": "https://maps.google.com/?q=Senoji+Trobelė+Vilnius"
+    },
+    {
+      "name": "Šnekutis",
+      "cuisine": "Litauische Bierbar & Snacks",
+      "priceRange": "€",
+      "description": "Die legendärste Kneipe der Stadt mit litauischen Farmhouse Ales vom Fass und deftigen Snacks. Hier treffen sich Einheimische, Studenten und eingeweihte Reisende.",
+      "mustTry": "Litauische Farmhouse Ales — nirgendwo besser als hier",
+      "googleMapsUrl": "https://maps.google.com/?q=Šnekutis+Vilnius"
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Artagonist Art Hotel",
+      "type": "Kunst-Boutique-Hotel",
+      "priceRange": "100-150€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "In einem Gebäude aus dem 15. Jahrhundert verschmelzen zeitgenössische Kunst und historische Architektur. Jedes Zimmer ist ein Unikat, die Lage mitten in der Altstadt perfekt.",
+      "googleMapsUrl": "https://maps.google.com/?q=Artagonist+Art+Hotel+Vilnius"
+    },
+    {
+      "name": "Shakespeare Boutique Hotel",
+      "type": "Boutique-Hotel",
+      "priceRange": "90-130€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Literarisch inspiriertes Hotel in der Altstadt, in dem jedes Zimmer einem Schriftsteller gewidmet ist. Charmant, persönlich und mit einem hervorragenden Frühstück.",
+      "googleMapsUrl": "https://maps.google.com/?q=Shakespeare+Boutique+Hotel+Vilnius"
+    },
+    {
+      "name": "Grotthuss Boutique Hotel",
+      "type": "Boutique-Hotel",
+      "priceRange": "110-140€",
+      "twinBeds": true,
+      "evCharging": true,
+      "description": "Elegantes Hotel in einem restaurierten Palais mit eigenem Innenhof und — für E-Auto-Fahrer entscheidend — einer eigenen Ladesäule. Klassisch-modernes Ambiente.",
+      "googleMapsUrl": "https://maps.google.com/?q=Grotthuss+Boutique+Hotel+Vilnius"
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Die \"Magische Fliese\" am Kathedralenplatz markiert den Punkt, an dem 1989 die Menschenkette des \"Baltischen Wegs\" begann. Drauf stellen, dreimal drehen und einen Wunsch äußern — so will es die Tradition."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Šaltibarščiai unbedingt probieren — die leuchtend pinke kalte Rote-Bete-Suppe ist Litauens Sommerklassiker und schmeckt viel besser, als die Farbe vermuten lässt."
+    },
+    {
+      "type": "info",
+      "text": "Vilnius ist extrem fußgängerfreundlich — die gesamte Altstadt lässt sich bequem zu Fuß erkunden. Auto am Hotel stehen lassen."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Šnekutis",
+      "description": "Tagsüber Bar, abends Institution. Die litauischen Farmhouse Ales vom Fass gibt es nur hier in dieser Auswahl. Rustikal, laut, unvergesslich.",
+      "googleMapsUrl": "https://maps.google.com/?q=Šnekutis+Vilnius"
+    },
+    {
+      "name": "Alchemikas",
+      "description": "Vilnius' beste Cocktailbar in einem atmosphärischen Kellergewölbe. Die Bartender sind echte Alchemisten — hier wird jeder Drink zum Erlebnis.",
+      "googleMapsUrl": "https://maps.google.com/?q=Alchemikas+Cocktail+Bar+Vilnius"
+    },
+    {
+      "name": "Bambalynė",
+      "description": "Versteckte Kellerbar mit nur 30 Plätzen. Man muss klingeln, um reinzukommen. Innen erwartet einen eine intime Atmosphäre, gute Drinks und das Gefühl, ein Geheimnis entdeckt zu haben.",
+      "googleMapsUrl": "https://maps.google.com/?q=Bambalynė+Bar+Vilnius"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import HighlightCard from '../../components/HighlightCard.astro';
+import RestaurantCard from '../../components/RestaurantCard.astro';
+import HotelCard from '../../components/HotelCard.astro';
+import TipBadge from '../../components/TipBadge.astro';
+import RouteMap from '../../components/RouteMap.tsx';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const locations = await getCollection('locations');
+  return locations.map(loc => ({
+    params: { locationId: loc.data.id },
+    props: { location: loc.data },
+  }));
+}
+
+const { location } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER';
+
+const allCountries = await getCollection('countries');
+const country = allCountries.find(c => c.data.id === location.country);
+
+const mapLocations = [{
+  id: location.id,
+  name: location.name,
+  lat: location.coordinates.lat,
+  lng: location.coordinates.lng,
+}];
+---
+
+<BaseLayout title={location.name}>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Breadcrumb -->
+    <div class="flex items-center gap-2 text-sm text-gray-400 mb-6">
+      <a href={base} class="hover:text-amber-500 transition-colors">Route</a>
+      <span>/</span>
+      <span class="text-navy-800 font-medium">{location.name}</span>
+    </div>
+
+    <!-- Header -->
+    <div class="mb-8">
+      <div class="flex items-center gap-3 mb-2">
+        {country && <span class="text-3xl">{country.data.flag}</span>}
+        <div>
+          <h1 class="text-3xl md:text-4xl font-extrabold text-navy-800">{location.name}</h1>
+          {country && <p class="text-gray-500">{country.data.name}</p>}
+        </div>
+      </div>
+      <p class="text-lg text-gray-600 mt-3">{location.description}</p>
+    </div>
+
+    <!-- Map -->
+    <div class="mb-10">
+      <RouteMap
+        client:visible
+        locations={mapLocations}
+        apiKey={apiKey}
+        height="300px"
+        zoom={13}
+        center={{ lat: location.coordinates.lat, lng: location.coordinates.lng }}
+      />
+    </div>
+
+    <!-- Tips -->
+    {location.tips.length > 0 && (
+      <div class="mb-10 space-y-3">
+        {location.tips.map(tip => (
+          <TipBadge type={tip.type} text={tip.text} />
+        ))}
+      </div>
+    )}
+
+    <!-- Highlights -->
+    {location.highlights.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-navy-800 mb-4">⭐ Sehenswürdigkeiten & Aktivitäten</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {location.highlights.map(h => (
+            <HighlightCard
+              name={h.name}
+              type={h.type}
+              icon={h.icon}
+              description={h.description}
+              duration={h.duration}
+              price={h.price}
+              googleMapsUrl={h.googleMapsUrl}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Restaurants -->
+    {location.restaurants.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-navy-800 mb-4">🍽️ Restaurants</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {location.restaurants.map(r => (
+            <RestaurantCard
+              name={r.name}
+              cuisine={r.cuisine}
+              priceRange={r.priceRange}
+              description={r.description}
+              mustTry={r.mustTry}
+              googleMapsUrl={r.googleMapsUrl}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Hotels -->
+    {location.hotels.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-navy-800 mb-4">🏨 Unterkünfte</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {location.hotels.map(h => (
+            <HotelCard
+              name={h.name}
+              type={h.type}
+              priceRange={h.priceRange}
+              twinBeds={h.twinBeds}
+              evCharging={h.evCharging}
+              description={h.description}
+              googleMapsUrl={h.googleMapsUrl}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Nightlife -->
+    {location.nightlife && location.nightlife.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-navy-800 mb-4">🍸 Abends ausgehen</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {location.nightlife.map(bar => (
+            <div class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow p-4">
+              <h4 class="font-semibold text-navy-800">🍺 {bar.name}</h4>
+              <p class="text-sm text-gray-600 mt-1">{bar.description}</p>
+              <a
+                href={bar.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-1 text-xs text-amber-500 hover:text-amber-600 font-medium mt-2 transition-colors"
+              >
+                📍 Google Maps
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Back -->
+    <div class="pt-8 border-t border-gray-100">
+      <a href={base} class="text-amber-500 hover:text-amber-600 font-medium transition-colors">
+        ← Zurück zur Routenübersicht
+      </a>
+    </div>
+  </div>
+</BaseLayout>

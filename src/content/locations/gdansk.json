@@ -1,0 +1,152 @@
+{
+  "id": "gdansk",
+  "name": "Danzig (Gdańsk)",
+  "country": "poland",
+  "coordinates": { "lat": 54.352, "lng": 18.6466 },
+  "description": "Die stolze Hansestadt an der Ostsee begeistert mit ihrer meisterhaft wiederaufgebauten Rechtstadt, dem bewegenden Museum des Zweiten Weltkriegs und einer kulinarischen Szene, die polnische Tradition mit modernem Flair verbindet. Hier begann mit der Solidarność-Bewegung das Ende des Kommunismus in Europa.",
+  "highlights": [
+    {
+      "name": "Museum des Zweiten Weltkriegs",
+      "type": "museum",
+      "icon": "star",
+      "description": "Eines der eindrucksvollsten Kriegsmuseen weltweit — die unterirdische Ausstellung erzählt den Krieg konsequent aus der Perspektive der Zivilbevölkerung. Emotional intensiv und hervorragend kuratiert.",
+      "duration": "3-4h",
+      "price": "€9",
+      "googleMapsUrl": "https://maps.google.com/?q=Museum+of+the+Second+World+War+Gdańsk"
+    },
+    {
+      "name": "Europäisches Solidarność-Zentrum",
+      "type": "museum",
+      "icon": "star",
+      "description": "Am historischen Tor der Danziger Werft erzählt das rostfarbene Gebäude die Geschichte der Gewerkschaftsbewegung, die den Eisernen Vorhang zum Einsturz brachte.",
+      "duration": "2-3h",
+      "price": "€8",
+      "googleMapsUrl": "https://maps.google.com/?q=European+Solidarity+Centre+Gdańsk"
+    },
+    {
+      "name": "Rechtstadt & Langer Markt",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Die farbenprächtigen Bürgerhäuser der Rechtstadt wurden nach dem Krieg originalgetreu wiederaufgebaut. Der Lange Markt mit Neptunbrunnen und Artushof ist das Herzstück der Stadt.",
+      "duration": "2-3h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Długi+Targ+Gdańsk"
+    },
+    {
+      "name": "Marienkirche",
+      "type": "church",
+      "icon": "gem",
+      "description": "Die größte Backsteinkirche der Welt belohnt den Aufstieg über 400 Stufen mit einem atemberaubenden Panorama über Danzig und die Ostsee.",
+      "duration": "1-1.5h",
+      "price": "Turm ~€4",
+      "googleMapsUrl": "https://maps.google.com/?q=Bazylika+Mariacka+Gdańsk"
+    },
+    {
+      "name": "Mariacka-Gasse (Frauengasse)",
+      "type": "market",
+      "icon": "gem",
+      "description": "Die malerischste Gasse Danzigs mit ihren charakteristischen Beischlägen (Vorbauten) ist das Zentrum des Bernsteinhandels. Perfekt zum Flanieren und Stöbern.",
+      "duration": "30-60min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=ulica+Mariacka+Gdańsk"
+    },
+    {
+      "name": "Westerplatte",
+      "type": "monument",
+      "icon": "star",
+      "description": "Hier fielen am 1. September 1939 die ersten Schüsse des Zweiten Weltkriegs. Die Halbinsel ist per Wasserbus vom Grünen Tor aus erreichbar — die Fahrt über die Mottlau ist Teil des Erlebnisses.",
+      "duration": "1.5-2h (inkl. Fahrt)",
+      "price": "Wasserbus ~€5",
+      "googleMapsUrl": "https://maps.google.com/?q=Westerplatte+Gdańsk"
+    },
+    {
+      "name": "Marienburg (Malbork)",
+      "type": "castle",
+      "icon": "gem",
+      "description": "Die größte Backsteinburg der Welt und UNESCO-Weltkulturerbe liegt nur 60km südlich von Danzig. Die gewaltige Ordensburg des Deutschen Ordens ist ein Tagesausflug, der sich absolut lohnt.",
+      "duration": "4-5h (inkl. Anfahrt)",
+      "price": "~€12",
+      "googleMapsUrl": "https://maps.google.com/?q=Malbork+Castle+Poland"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Pierogarnia Mandu",
+      "cuisine": "Polnische Pierogi",
+      "priceRange": "€",
+      "description": "Kleine, gemütliche Pierogi-Stube mit kreativen Füllungen weit über den Standard hinaus. Handgemacht, frisch und unverschämt günstig.",
+      "mustTry": "Pierogi mit Gänsebraten-Füllung — ein Danziger Original",
+      "googleMapsUrl": "https://maps.google.com/?q=Pierogarnia+Mandu+Gdańsk"
+    },
+    {
+      "name": "Brovarnia Gdańsk",
+      "cuisine": "Polnisch & Craft Beer",
+      "priceRange": "€€",
+      "description": "Hausbrauerei in einem historischen Speicher direkt an der Mottlau. Die kupfernen Sudkessel stehen mitten im Restaurant, dazu gibt es deftige polnische Küche mit Blick aufs Wasser.",
+      "mustTry": "Hausbier zum Żurek (saure Roggenmehlsuppe)",
+      "googleMapsUrl": "https://maps.google.com/?q=Brovarnia+Gdańsk"
+    },
+    {
+      "name": "Piwna 47 Food & Wine Bar",
+      "cuisine": "Modern Polnisch & Wein",
+      "priceRange": "€€",
+      "description": "Stilvolles Restaurant in der Bierstraße mit moderner Interpretation polnischer Klassiker und einer beeindruckenden Weinkarte. Gehobenes Ambiente ohne steif zu sein.",
+      "mustTry": "Tatar vom Rinderfilet als Vorspeise",
+      "googleMapsUrl": "https://maps.google.com/?q=Piwna+47+Food+Wine+Bar+Gdańsk"
+    },
+    {
+      "name": "Montownia Food Hall",
+      "cuisine": "Street Food & Craft Beer",
+      "priceRange": "€-€€",
+      "description": "In einer ehemaligen U-Boot-Fabrik der Danziger Werft vereint diese Food Hall dutzende Stände unter einem industriellen Dach. Geschichte trifft auf Gastronomie.",
+      "mustTry": "Einfach von Stand zu Stand probieren — die Auswahl wechselt ständig",
+      "googleMapsUrl": "https://maps.google.com/?q=Montownia+Food+Hall+Gdańsk"
+    }
+  ],
+  "hotels": [
+    {
+      "name": "PURO Gdańsk Stare Miasto",
+      "type": "Design-Hotel",
+      "priceRange": "80-150€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Modernes Design-Hotel in bester Altstadtlage mit durchdachten Zimmern, die polnisches Design mit skandinavischer Klarheit verbinden. Twin-Zimmer verfügbar.",
+      "googleMapsUrl": "https://maps.google.com/?q=PURO+Hotel+Gdańsk+Stare+Miasto"
+    },
+    {
+      "name": "Hotel Podewils",
+      "type": "Historisches Boutique-Hotel",
+      "priceRange": "120-150€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Barockes Herrenhaus aus dem 18. Jahrhundert direkt an der Mottlau. Stilvolle Zimmer mit historischem Charme und modernem Komfort, manche mit Flussblick.",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel+Podewils+Gdańsk"
+    }
+  ],
+  "tips": [
+    {
+      "type": "warnung",
+      "text": "1.–3. Mai ist Majówka — Polens größtes Reisewochenende. Hotels und Restaurants früh buchen! Viele Geschäfte am 1. und 3. Mai geschlossen."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Goldwasser probieren — der berühmte Danziger Kräuterlikör mit echtem Blattgold. Am besten in einer der Bars in der Rechtstadt."
+    },
+    {
+      "type": "info",
+      "text": "Bernstein ist Danzigs Gold — in der Mariacka-Gasse gibt es die beste Auswahl, aber vergleicht die Preise, bevor ihr kauft."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Pułapka",
+      "description": "Craft-Beer-Bar mit 13 Zapfhähnen und ständig wechselnder Auswahl polnischer Mikrobrauereien. Gemütliche Atmosphäre, kenntnisreiches Personal.",
+      "googleMapsUrl": "https://maps.google.com/?q=Pułapka+Craft+Beer+Gdańsk"
+    },
+    {
+      "name": "Labeerynt",
+      "description": "Unterirdische Kellerbar mit Rock-Soundtrack und einer riesigen Auswahl an polnischem Craft Beer. Die Kellner kennen jedes Bier persönlich.",
+      "googleMapsUrl": "https://maps.google.com/?q=Labeerynt+Gdańsk"
+    }
+  ]
+}

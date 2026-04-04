@@ -1,0 +1,29 @@
+{
+  "dayNumber": 8,
+  "date": "2026-05-07",
+  "title": "Kurische Nehrung",
+  "subtitle": "Wandernde Dünen, Hexen und geräucherter Fisch",
+  "locationId": "curonian-spit",
+  "previousLocationId": "klaipeda",
+  "overnightLocationId": "klaipeda",
+  "driving": {
+    "distance": "100 km",
+    "duration": "2:30",
+    "mode": "drive",
+    "routeDescription": "Fähre von Klaipėda (Smiltynė) auf die Kurische Nehrung, dann die einzige Straße Richtung Süden über Juodkrantė bis Nida nahe der russischen Grenze. Rückfahrt auf gleichem Weg."
+  },
+  "evCharging": {
+    "stopsNeeded": 0,
+    "notes": "ACHTUNG: Keine Schnellladestationen auf der Kurischen Nehrung! Unbedingt in Klaipėda auf 100 % laden. Die Rundfahrt (ca. 100 km) ist mit voller Batterie problemlos machbar, aber kein Puffer für Umwege.",
+    "criticalLevel": "red"
+  },
+  "activities": [
+    "Fährüberfahrt von Klaipėda nach Smiltynė – kurze Überfahrt über das Haff",
+    "Hexenberg (Raganų kalnas) in Juodkrantė: mystischer Skulpturenweg durch Kiefernwald",
+    "Weiterfahrt nach Nida – Parnidis-Düne erklimmen: 52 Meter hohe Wanderdüne mit Blick bis nach Russland",
+    "Bummel durch das malerische Fischerdorf Nida mit seinen bunt bemalten Holzhäusern",
+    "Mittagessen: frisch geräucherter Fisch direkt am Haff – Spezialität der Nehrung",
+    "Thomas-Mann-Haus besichtigen: das Sommerdomizil des Literaturnobelpreisträgers mit Ausstellung",
+    "Rückfahrt und Fähre zurück nach Klaipėda am Abend"
+  ]
+}

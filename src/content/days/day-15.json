@@ -1,0 +1,26 @@
+{
+  "dayNumber": 15,
+  "date": "2026-05-14",
+  "title": "Stockholm nach Halmstad",
+  "subtitle": "Schwedische Westküste im Frühling",
+  "locationId": "halmstad",
+  "previousLocationId": "tallinn",
+  "overnightLocationId": "halmstad",
+  "driving": {
+    "distance": "470 km",
+    "duration": "5:00",
+    "mode": "drive",
+    "routeDescription": "Ankunft Stockholmer Hafen gegen 10:30 Uhr. Dann über die E4 Richtung Süden, ab Jönköping auf die E6 an die Westküste nach Halmstad. Durchgehend Autobahn."
+  },
+  "evCharging": {
+    "stopsNeeded": 2,
+    "notes": "Schwedens Ladenetz ist hervorragend – Ionity, Mer und Tesla Supercharger entlang der E4/E6 in dichter Taktung. Zwei kurze Stopps reichen.",
+    "criticalLevel": "green"
+  },
+  "activities": [
+    "Ankunft in Stockholm gegen 10:30 Uhr – von der Fähre direkt auf die Autobahn",
+    "Fahrt durch Schwedens Bilderbuchlandschaft: rote Holzhäuser, Seen, Birkenwälder",
+    "Optionaler Stopp in Jönköping am Vättern-See für Kaffee und Kanelbullar",
+    "Ankunft in Halmstad am Nachmittag – Ankommen und Durchatmen"
+  ]
+}

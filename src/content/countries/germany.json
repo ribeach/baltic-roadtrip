@@ -1,0 +1,30 @@
+{
+  "id": "germany",
+  "name": "Deutschland",
+  "flag": "🇩🇪",
+  "currency": {
+    "code": "EUR",
+    "name": "Euro",
+    "cashNeeded": false,
+    "tip": "Bargeld wird in einigen kleineren Läden noch bevorzugt, aber Kartenzahlung ist inzwischen weit verbreitet."
+  },
+  "evCharging": {
+    "quality": "ausgezeichnet",
+    "medianDcPrice": "0,45–0,55 €/kWh",
+    "recommendedApps": ["IONITY", "EnBW", "Shell Recharge", "Plugsurfing"],
+    "notes": "Dichtes Schnellladenetz entlang aller Autobahnkorridore. A7/A9 Route bestens versorgt."
+  },
+  "driving": {
+    "speedLimits": { "urban": 50, "rural": 100, "motorway": 130 },
+    "tolls": "Keine Maut für Pkw.",
+    "specialRules": "Grüne Umweltplakette in Umweltzonen erforderlich — auch für E-Autos. Abblendlicht bei schlechter Sicht. Auf der Autobahn gilt kein generelles Tempolimit, 130 km/h ist jedoch die Richtgeschwindigkeit."
+  },
+  "culinary": {
+    "mustTry": [
+      "Königsberger Klopse",
+      "Berliner Currywurst",
+      "Craft Beer"
+    ],
+    "description": "Deutschland überrascht mit einer enormen regionalen Vielfalt: Von deftigen Fleischgerichten im Süden über frische Fischbrötchen an der Küste bis hin zur blühenden Craft-Beer-Szene in Berlin. Entlang der Ostseeküste und in Ostpreußen inspirierte Küche lohnen sich besonders die Königsberger Klopse — Fleischklöße in cremiger Kapernsauce."
+  }
+}

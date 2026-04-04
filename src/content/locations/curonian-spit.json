@@ -1,0 +1,111 @@
+{
+  "id": "curonian-spit",
+  "name": "Kurische Nehrung",
+  "country": "lithuania",
+  "coordinates": { "lat": 55.3, "lng": 21.0 },
+  "description": "Die schmale Landzunge zwischen Ostsee und Kurischem Haff gehört zum UNESCO-Weltkulturerbe und ist eine der dramatischsten Landschaften Europas. Wandernde Dünen, uralte Fischerdörfer und die Stille der Natur schaffen hier einen Ort, der sich anfühlt wie das Ende der Welt — im besten Sinne.",
+  "highlights": [
+    {
+      "name": "Parnidis-Düne",
+      "type": "nature",
+      "icon": "star",
+      "description": "Die 52 Meter hohe Wanderdüne bei Nida bietet ein überwältigendes 360°-Panorama über Haff, Ostsee und die russische Grenze. Eine riesige Sonnenuhr markiert den Gipfel. Bei Wind und Wolken am dramatischsten.",
+      "duration": "1-1.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Parnidis+Dune+Nida"
+    },
+    {
+      "name": "Hexenberg (Raganų Kalnas) Juodkrantė",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Ein verwunschener Waldpfad, gesäumt von rund 80 grotesken Holzskulpturen litauischer Volkssagen. Hexen, Teufel und Waldgeister wachen zwischen den Kiefern — kostenlos und magisch.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Hill+of+Witches+Juodkrantė"
+    },
+    {
+      "name": "Thomas-Mann-Haus Nida",
+      "type": "museum",
+      "icon": "info",
+      "description": "Im Sommerhaus des Nobelpreisträgers, wo er 1930-32 die Sommer verbrachte und an \"Joseph und seine Brüder\" schrieb, befindet sich heute ein kleines Museum mit Ausstellung zu seinem Leben.",
+      "duration": "30-45min",
+      "price": "€3",
+      "googleMapsUrl": "https://maps.google.com/?q=Thomas+Mann+House+Nida"
+    },
+    {
+      "name": "Nida Fischerdorf",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Das malerische Fischerdorf mit seinen charakteristischen dunkelroten Holzhäusern, den bunten Kurenwimpeln und dem beschaulichen Hafen ist der Hauptort der litauischen Nehrung. Zeitlos schön.",
+      "duration": "1-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Nida+Lithuania"
+    },
+    {
+      "name": "UNESCO-Weltkulturerbe Küstenlandschaft",
+      "type": "nature",
+      "icon": "star",
+      "description": "Die gesamte Nehrung ist UNESCO-geschützt — endlose weiße Sandstrände, Kiefernwälder und die größten Wanderdünen Europas bilden eine Landschaft von erhabener Schönheit.",
+      "duration": "Ganzer Tag",
+      "price": "Nationalpark-Eintritt 10€ (E-Autos kostenlos!)",
+      "googleMapsUrl": "https://maps.google.com/?q=Curonian+Spit+National+Park+Lithuania"
+    },
+    {
+      "name": "Vogelbeobachtung",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Die Kurische Nehrung liegt auf einem der wichtigsten Zugvogelkorridore Europas. Im Mai rasten hier Kraniche, Seeadler und hunderte andere Arten — ein Paradies für Vogelbeobachter.",
+      "duration": "1-3h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Ventės+Ragas+Ornithological+Station"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Räucherfisch am Hafen Nida",
+      "cuisine": "Fischräucherei",
+      "priceRange": "€",
+      "description": "Direkt am Hafen von Nida verkaufen Fischer frisch geräucherten Fisch — warm, rauchig und mit den Fingern zu essen. Das authentischste Esserlebnis der Nehrung.",
+      "mustTry": "Geräucherter Barsch oder Flunder — direkt aus dem Rauch auf die Hand",
+      "googleMapsUrl": "https://maps.google.com/?q=Nida+Harbour+Lithuania"
+    },
+    {
+      "name": "Nidos Seklyčia",
+      "cuisine": "Traditionell Litauisch",
+      "priceRange": "€€",
+      "description": "Gemütliches Restaurant in einem traditionellen Holzhaus mit litauischer Hausmannskost, frischem Fisch und herzlicher Bedienung. Der perfekte Ort für ein Mittagessen nach der Dünen-Wanderung.",
+      "mustTry": "Fangfrischer Ostseefisch — je nach Saison",
+      "googleMapsUrl": "https://maps.google.com/?q=Nidos+Seklyčia+Nida"
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Nidos Hotel",
+      "type": "Klassisches Strandhotel",
+      "priceRange": "140-260€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Das traditionsreichste Hotel in Nida bietet komfortable Zimmer, manche mit Haffblick, und eine hervorragende Lage. In der Hochsaison extrem früh buchen — die Kapazitäten auf der Nehrung sind begrenzt.",
+      "googleMapsUrl": "https://maps.google.com/?q=Nidos+Hotel+Nida+Lithuania"
+    }
+  ],
+  "tips": [
+    {
+      "type": "warnung",
+      "text": "KEINE Schnelllader auf der gesamten Nehrung! Nur 11kW AC-Lademöglichkeiten in Nida. Unbedingt vorher in Klaipėda vollladen."
+    },
+    {
+      "type": "info",
+      "text": "E-Autos fahren kostenlos in den Nationalpark — Verbrenner zahlen 10€ Eintritt. Den Beleg bereithalten!"
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Die dramatischsten Fotos auf der Parnidis-Düne entstehen bei Wind und ziehenden Wolken — nicht bei Sonnenschein. Anfang Mai ist perfekte Nebensaison mit wenig Touristen."
+    },
+    {
+      "type": "info",
+      "text": "Anfang Mai ist Nebensaison — weniger Touristen, dafür kann es frisch und windig sein. Warme Jacke einpacken!"
+    }
+  ],
+  "nightlife": null
+}

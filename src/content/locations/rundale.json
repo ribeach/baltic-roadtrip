@@ -1,0 +1,44 @@
+{
+  "id": "rundale",
+  "name": "Schloss Rundāle",
+  "country": "latvia",
+  "coordinates": { "lat": 56.4131, "lng": 24.0228 },
+  "description": "Das prächtige Barockschloss, erbaut vom selben Architekten wie der Winterpalais in St. Petersburg, gilt zu Recht als das \"Baltische Versailles\". Der Goldene Saal und der 10 Hektar große französische Formalgarten machen diesen Stopp zwischen Litauen und Riga zu einem echten Highlight.",
+  "highlights": [
+    {
+      "name": "Schloss Rundāle — Innenräume",
+      "type": "castle",
+      "icon": "star",
+      "description": "Der Goldene Saal, der Weiße Saal und dutzende weitere Prunkräume zeigen Rokoko-Pracht auf höchstem Niveau. Architekt Bartolomeo Rastrelli entwarf parallel den Winterpalais in St. Petersburg — die Qualität ist vergleichbar.",
+      "duration": "1.5-2h",
+      "price": "€17 (Kombiticket Schloss + Garten)",
+      "googleMapsUrl": "https://maps.google.com/?q=Rundāle+Palace+Latvia"
+    },
+    {
+      "name": "Französischer Formalgarten",
+      "type": "nature",
+      "icon": "star",
+      "description": "Der 10 Hektar große, meisterhaft restaurierte Barockgarten mit Springbrunnen, geometrischen Beeten und Skulpturen ist der schönste Schlossgarten des gesamten Baltikums.",
+      "duration": "1-1.5h",
+      "price": "Im Kombiticket enthalten",
+      "googleMapsUrl": "https://maps.google.com/?q=Rundāle+Palace+Garden+Latvia"
+    }
+  ],
+  "restaurants": [],
+  "hotels": [],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Perfekter Zwischenstopp zwischen Litauen und Riga — das Schloss liegt 77km südlich von Riga direkt an der Route."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Die meisten planen 1-2 Stunden ein, aber bleiben dann 3+. Genug Puffer einplanen! Im Mai blüht der Garten besonders schön."
+    },
+    {
+      "type": "info",
+      "text": "Geöffnet täglich 10-18 Uhr im Mai. Es gibt ein Café im Schloss für eine Pause zwischendurch."
+    }
+  ],
+  "nightlife": null
+}

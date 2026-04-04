@@ -1,0 +1,160 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const budgetItems = [
+  { category: 'Unterkünfte', icon: '🏨', estimate: '900–1.200 €', notes: '15 Nächte. Twin-Zimmer geteilt. Baltikum ~60–80 € p.P., Berlin/Schweden ~70–90 € p.P.' },
+  { category: 'Fähre (Tallinn→Stockholm)', icon: '⛴️', estimate: '140–215 €', notes: 'Hälfte von 285–430 € gesamt (Auto + 2 Pers. + Kabine). Früh buchen!' },
+  { category: 'Fähre (Helsinki Tagesausflug)', icon: '⛴️', estimate: '30–60 €', notes: 'Fußgänger Hin+Rück. Eckerö Line am günstigsten.' },
+  { category: 'E-Laden (gesamte Strecke)', icon: '⚡', estimate: '200–280 €', notes: '~3.800–4.200 km bei 18 kWh/100km, Ø 0,30–0,55 €/kWh. Baltikum deutlich günstiger als DE/SE.' },
+  { category: 'Essen & Trinken', icon: '🍽️', estimate: '700–1.000 €', notes: '16 Tage. Mix aus Markt-Mittagessen (10 €), Abendessen (25–35 €) und 2–3× Fine Dining (60–80 €).' },
+  { category: 'Eintritte & Touren', icon: '🎟️', estimate: '120–180 €', notes: 'WWII Museum, Solidarność, KGB-Museen, Burgen, Bunker-Tour, Fotografiska.' },
+  { category: 'Maut & Parkgebühren', icon: '🛣️', estimate: '80–120 €', notes: 'Polen-Maut, Stockholm City-Maut, Öresundbrücke (~55 €), Parkgebühren.' },
+  { category: 'Sonstiges', icon: '🛍️', estimate: '100–150 €', notes: 'Souvenirs, Riga Black Balsam, Trinkgelder, Unvorhergesehenes.' },
+];
+
+const totalLow = budgetItems.reduce((sum, item) => {
+  const match = item.estimate.match(/^([\d.]+)/);
+  return sum + (match ? parseInt(match[1].replace('.', '')) : 0);
+}, 0);
+
+const totalHigh = budgetItems.reduce((sum, item) => {
+  const match = item.estimate.match(/–([\d.]+)/);
+  return sum + (match ? parseInt(match[1].replace('.', '')) : 0);
+}, 0);
+
+const countryBreakdown = [
+  { country: '🇩🇪 Deutschland', nights: '2 + 1 Rückreise', accommodation: '180–260 €', food: '80–120 €', charging: '25–35 €', other: '20–30 €' },
+  { country: '🇵🇱 Polen', nights: '2', accommodation: '80–150 €', food: '50–80 €', charging: '20–35 €', other: '15–25 €' },
+  { country: '🇱🇹 Litauen', nights: '4', accommodation: '200–320 €', food: '150–220 €', charging: '30–40 €', other: '40–60 €' },
+  { country: '🇱🇻 Lettland', nights: '2', accommodation: '90–150 €', food: '80–120 €', charging: '15–25 €', other: '25–40 €' },
+  { country: '🇪🇪 Estland', nights: '2', accommodation: '100–170 €', food: '80–120 €', charging: '15–25 €', other: '40–60 €' },
+  { country: '🇫🇮 Finnland', nights: '0 (Tagesausflug)', accommodation: '—', food: '30–50 €', charging: '—', other: '30–60 €' },
+  { country: '🇸🇪 Schweden', nights: '2 + Fährnacht', accommodation: '100–160 €', food: '70–100 €', charging: '25–35 €', other: '10–20 €' },
+];
+---
+
+<BaseLayout title="Budget">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="mb-10">
+      <h1 class="text-3xl md:text-4xl font-extrabold text-navy-800">💰 Budgetplanung</h1>
+      <p class="text-lg text-gray-600 mt-2">Kostenschätzung pro Person für 17 Tage. Gehobene Mittelklasse — gute Hotels, gutes Essen, keine Kompromisse bei Erlebnissen.</p>
+    </div>
+
+    <!-- Total Summary -->
+    <section class="bg-navy-800 text-white rounded-xl p-6 md:p-8 mb-10">
+      <div class="text-center">
+        <p class="text-amber-400 font-medium text-sm uppercase tracking-widest mb-2">Gesamtkosten pro Person</p>
+        <div class="text-4xl md:text-5xl font-extrabold">
+          ~2.500–2.800 €
+        </div>
+        <p class="text-gray-400 mt-2">Sweet Spot für komfortables Reisen ohne Luxus</p>
+      </div>
+      <div class="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto">
+        <div class="text-center">
+          <div class="text-2xl font-bold text-amber-400">{totalLow.toLocaleString('de-DE')}–{totalHigh.toLocaleString('de-DE')} €</div>
+          <div class="text-sm text-gray-400">Planungsrahmen p.P.</div>
+        </div>
+        <div class="text-center">
+          <div class="text-2xl font-bold text-amber-400">{(totalLow * 2).toLocaleString('de-DE')}–{(totalHigh * 2).toLocaleString('de-DE')} €</div>
+          <div class="text-sm text-gray-400">Für beide zusammen</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Budget Breakdown -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-navy-800 mb-4">📊 Aufschlüsselung nach Kategorie</h2>
+      <div class="space-y-3">
+        {budgetItems.map(item => (
+          <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4">
+            <div class="flex items-center justify-between mb-1">
+              <h3 class="font-semibold text-navy-800 flex items-center gap-2">
+                <span>{item.icon}</span> {item.category}
+              </h3>
+              <span class="font-bold text-amber-500 text-lg">{item.estimate}</span>
+            </div>
+            <p class="text-sm text-gray-500">{item.notes}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- By Country -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-navy-800 mb-4">🌍 Aufschlüsselung nach Land</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-navy-800 text-white">
+              <th class="px-3 py-3 text-left rounded-tl-lg">Land</th>
+              <th class="px-3 py-3 text-center">Nächte</th>
+              <th class="px-3 py-3 text-right">Unterkunft</th>
+              <th class="px-3 py-3 text-right">Essen</th>
+              <th class="px-3 py-3 text-right">Laden</th>
+              <th class="px-3 py-3 text-right rounded-tr-lg">Sonstiges</th>
+            </tr>
+          </thead>
+          <tbody>
+            {countryBreakdown.map((row, i) => (
+              <tr class:list={[i % 2 === 0 ? 'bg-gray-50' : 'bg-white']}>
+                <td class="px-3 py-3 font-medium text-navy-800">{row.country}</td>
+                <td class="px-3 py-3 text-center">{row.nights}</td>
+                <td class="px-3 py-3 text-right">{row.accommodation}</td>
+                <td class="px-3 py-3 text-right">{row.food}</td>
+                <td class="px-3 py-3 text-right">{row.charging}</td>
+                <td class="px-3 py-3 text-right">{row.other}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="text-xs text-gray-400 mt-2">Alle Angaben pro Person. Unterkunft = halber Zimmerpreis bei Twin-Zimmer.</p>
+    </section>
+
+    <!-- Money Saving Tips -->
+    <section class="mb-10">
+      <h2 class="text-2xl font-bold text-navy-800 mb-4">💡 Wo man sparen kann (und wo nicht)</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-green-50 border border-green-200 rounded-xl p-4">
+          <h3 class="font-bold text-green-800 mb-2">✅ Hier lohnt sich Sparen</h3>
+          <ul class="space-y-1 text-sm text-green-700">
+            <li>• Mittagessen auf Märkten statt im Restaurant</li>
+            <li>• Hotels mit Destination-AC-Laden (über Nacht, günstiger)</li>
+            <li>• Fähre früh buchen (Preise steigen stark)</li>
+            <li>• Neste-Nighttime-Tarife in Estland (0,29 €/kWh)</li>
+            <li>• Plugsurfing RFID statt Ad-hoc-Preise</li>
+          </ul>
+        </div>
+        <div class="bg-amber-50 border border-amber-200 rounded-xl p-4">
+          <h3 class="font-bold text-amber-800 mb-2">🎯 Hier nicht sparen</h3>
+          <ul class="space-y-1 text-sm text-amber-700">
+            <li>• 1× pro Hauptstadt gehobenes Abendessen (Ertlio Namas, 3 Pavāru, Rataskaevu 16)</li>
+            <li>• Fährkabine statt Deckplatz (Schlaf = Erholung)</li>
+            <li>• Līgatne-Bunker-Tour (einzigartiges Erlebnis)</li>
+            <li>• Gute Hotels mit Twin Beds (Schlafqualität!)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value Highlight -->
+    <section class="mb-10">
+      <div class="bg-navy-800 text-white rounded-xl p-6 text-center">
+        <p class="text-amber-400 font-medium text-sm uppercase tracking-widest mb-2">Das Baltikum-Versprechen</p>
+        <p class="text-xl font-bold">
+          Boutique-Hotels und Michelin-Qualität für 60–80 % weniger als in Westeuropa.
+        </p>
+        <p class="text-gray-400 mt-2 text-sm">
+          Die gleiche Hotelqualität, die in Amsterdam 200+ € kostet, gibt es in Vilnius, Riga und Tallinn für 80–120 €.
+        </p>
+      </div>
+    </section>
+
+    <!-- Back -->
+    <div class="pt-8 border-t border-gray-100">
+      <a href={import.meta.env.BASE_URL} class="text-amber-500 hover:text-amber-600 font-medium transition-colors">
+        ← Zurück zur Routenübersicht
+      </a>
+    </div>
+  </div>
+</BaseLayout>

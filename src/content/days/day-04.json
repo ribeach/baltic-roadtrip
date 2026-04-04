@@ -1,0 +1,18 @@
+{
+  "dayNumber": 4,
+  "date": "2026-05-03",
+  "title": "Danzig – Geschichte und Genuss",
+  "subtitle": "Zwischen Weltkriegsgeschichte und polnischer Küche",
+  "locationId": "gdansk",
+  "previousLocationId": null,
+  "overnightLocationId": "gdansk",
+  "driving": null,
+  "evCharging": null,
+  "activities": [
+    "Museum des Zweiten Weltkriegs – eindrucksvolle, multimediale Ausstellung, mindestens 3–4 Stunden einplanen",
+    "Europäisches Solidarność-Zentrum auf dem ehemaligen Werftgelände: die Geschichte der Gewerkschaftsbewegung, die den Eisernen Vorhang ins Wanken brachte",
+    "Wasserbus zur Westerplatte – wo der Zweite Weltkrieg begann",
+    "Abendlicher Spaziergang am Ufer der Mottlau im goldenen Licht",
+    "Pierogi-Festmahl bei Pierogarnia Mandu – handgemachte Teigtaschen in unzähligen Variationen"
+  ]
+}

@@ -1,0 +1,144 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import DayCard from '../components/DayCard.astro';
+import RouteMap from '../components/RouteMap.tsx';
+import { getCollection } from 'astro:content';
+
+const allDays = await getCollection('days');
+const allLocations = await getCollection('locations');
+
+const days = allDays.sort((a, b) => a.data.dayNumber - b.data.dayNumber);
+
+// Build map locations from unique overnight stops
+const mapLocations = days
+  .filter(d => d.data.driving?.mode !== 'none' || d.data.dayNumber === 1)
+  .reduce((acc, day) => {
+    const loc = allLocations.find(l => l.data.id === day.data.locationId);
+    if (loc && !acc.find(a => a.id === loc.data.id)) {
+      acc.push({
+        id: loc.data.id,
+        name: loc.data.name,
+        lat: loc.data.coordinates.lat,
+        lng: loc.data.coordinates.lng,
+        dayNumber: day.data.dayNumber,
+      });
+    }
+    return acc;
+  }, [] as Array<{ id: string; name: string; lat: number; lng: number; dayNumber: number }>);
+
+const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER';
+
+const stats = [
+  { value: '17', label: 'Tage' },
+  { value: '6', label: 'Länder' },
+  { value: '~4.000', label: 'Kilometer' },
+  { value: '1', label: 'Fähre' },
+  { value: '1', label: 'Elektroauto' },
+];
+---
+
+<BaseLayout title="Startseite">
+  <!-- Hero Section -->
+  <section class="relative bg-navy-800 text-white overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 opacity-90"></div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div class="text-center">
+        <p class="text-amber-400 font-medium text-sm uppercase tracking-widest mb-3">30. April – 16. Mai 2026</p>
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4">
+          Baltikum Roadtrip
+          <span class="text-amber-400"> ⚡</span>
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-6">
+          Mit dem VW ID.4 durch sechs Länder — von den Dünen der Kurischen Nehrung bis zu den mittelalterlichen Gassen Tallinns.
+        </p>
+        <p class="text-gray-400 max-w-2xl mx-auto">
+          Aalen → Berlin → Danzig → Vilnius → Klaipėda → Riga → Tallinn → Stockholm → Halmstad → Aalen
+        </p>
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="mt-12 grid grid-cols-5 gap-4 max-w-2xl mx-auto">
+        {stats.map(stat => (
+          <div class="text-center">
+            <div class="text-2xl md:text-3xl font-extrabold text-amber-400">{stat.value}</div>
+            <div class="text-xs md:text-sm text-gray-400 mt-1">{stat.label}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Route Map -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10">
+    <RouteMap
+      client:visible
+      locations={mapLocations}
+      apiKey={apiKey}
+      height="450px"
+    />
+    <noscript>
+      <div class="bg-gray-100 rounded-xl p-8 text-center text-gray-500">
+        <p>Aktiviere JavaScript, um die interaktive Karte zu sehen.</p>
+        <a
+          href={`https://www.google.com/maps/dir/${mapLocations.map(l => `${l.lat},${l.lng}`).join('/')}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-amber-500 hover:text-amber-600 font-medium mt-2 inline-block"
+        >
+          Route in Google Maps öffnen →
+        </a>
+      </div>
+    </noscript>
+  </section>
+
+  <!-- Quick Navigation -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      <a href={`${import.meta.env.BASE_URL}kulinarik`} class="group bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-amber-200 transition-all">
+        <span class="text-3xl">🍽️</span>
+        <h3 class="font-bold text-navy-800 mt-2 group-hover:text-amber-500 transition-colors">Kulinarischer Guide</h3>
+        <p class="text-sm text-gray-500 mt-1">Must-Try-Gerichte in jedem Land</p>
+      </a>
+      <a href={`${import.meta.env.BASE_URL}praktisches`} class="group bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-amber-200 transition-all">
+        <span class="text-3xl">⚡</span>
+        <h3 class="font-bold text-navy-800 mt-2 group-hover:text-amber-500 transition-colors">Praktische Infos</h3>
+        <p class="text-sm text-gray-500 mt-1">E-Laden, Maut, Geschwindigkeit, Währungen</p>
+      </a>
+      <a href={`${import.meta.env.BASE_URL}budget`} class="group bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-amber-200 transition-all">
+        <span class="text-3xl">💰</span>
+        <h3 class="font-bold text-navy-800 mt-2 group-hover:text-amber-500 transition-colors">Budget</h3>
+        <p class="text-sm text-gray-500 mt-1">Kostenschätzung pro Person und Land</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Day-by-Day Timeline -->
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 mb-16">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-extrabold text-navy-800">Tag für Tag</h2>
+      <p class="text-gray-500 mt-2">17 Tage, von Schwaben bis Skandinavien und zurück</p>
+    </div>
+
+    <!-- Timeline -->
+    <div class="relative">
+      <!-- Vertical line -->
+      <div class="absolute left-6 md:left-1/2 top-0 bottom-0 w-0.5 bg-navy-200"></div>
+
+      <div class="space-y-8">
+        {days.map((day, i) => (
+          <DayCard
+            dayNumber={day.data.dayNumber}
+            date={day.data.date}
+            title={day.data.title}
+            subtitle={day.data.subtitle}
+            driving={day.data.driving}
+            evCharging={day.data.evCharging}
+            activities={day.data.activities}
+            locationId={day.data.locationId}
+            isLeft={i % 2 === 0}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

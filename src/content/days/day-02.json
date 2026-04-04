@@ -1,0 +1,18 @@
+{
+  "dayNumber": 2,
+  "date": "2026-05-01",
+  "title": "Berlin am 1. Mai",
+  "subtitle": "Kreuzberger Feiertagstrubel und Berliner Schnauze",
+  "locationId": "berlin",
+  "previousLocationId": null,
+  "overnightLocationId": "berlin",
+  "driving": null,
+  "evCharging": null,
+  "activities": [
+    "Ausschlafen nach der Walpurgisnacht – gemütlicher Start in den Feiertag",
+    "Kreuzberg und Mariannenplatz erkunden: das legendäre Myfest-Treiben als Zuschauer erleben",
+    "Streetfood-Mittagessen in der Markthalle Neun – von Craft Beer bis Kimchi-Bratwurst",
+    "Nachmittagsspaziergang am Landwehrkanal mit Stopp an einer der vielen Ufer-Bars",
+    "Abendessen bei Zur letzten Instanz (Berlins ältestes Gasthaus, seit 1621) oder im Katz Orange für gehobene Farm-to-Table-Küche"
+  ]
+}

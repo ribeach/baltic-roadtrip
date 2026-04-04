@@ -1,0 +1,26 @@
+{
+  "dayNumber": 1,
+  "date": "2026-04-30",
+  "title": "Aufbruch gen Norden",
+  "subtitle": "Von der Schwäbischen Alb in die Hauptstadt",
+  "locationId": "berlin",
+  "previousLocationId": null,
+  "overnightLocationId": "berlin",
+  "driving": {
+    "distance": "560 km",
+    "duration": "5:30",
+    "mode": "drive",
+    "routeDescription": "Über die A7 Richtung Würzburg, dann A9 durch Franken und Thüringen direkt nach Berlin. Gut ausgebaute Autobahnstrecke mit zuverlässiger Ladeinfrastruktur."
+  },
+  "evCharging": {
+    "stopsNeeded": 2,
+    "notes": "Zwei DC-Schnellladestopps entlang der A7/A9 einplanen – z. B. bei Würzburg und im Raum Hermsdorfer Kreuz. Ionity- und EnBW-Stationen reichlich vorhanden.",
+    "criticalLevel": "green"
+  },
+  "activities": [
+    "Früher Aufbruch aus Aalen – am besten vor 8 Uhr, um dem Feierabendverkehr in Berlin zuvorzukommen",
+    "Kaffeepause auf halber Strecke im fränkischen Hügelland",
+    "Ankunft Berlin am frühen Abend, Einchecken im Hotel",
+    "Erster Spaziergang durch die Nachbarschaft und leichtes Abendessen"
+  ]
+}

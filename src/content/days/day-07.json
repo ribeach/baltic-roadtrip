@@ -1,0 +1,27 @@
+{
+  "dayNumber": 7,
+  "date": "2026-05-06",
+  "title": "Trakai, Kaunas und weiter nach Klaipėda",
+  "subtitle": "Inselburg, Festung und Hafenstadt an einem Tag",
+  "locationId": "klaipeda",
+  "previousLocationId": "vilnius",
+  "overnightLocationId": "klaipeda",
+  "driving": {
+    "distance": "320 km",
+    "duration": "4:30",
+    "mode": "drive",
+    "routeDescription": "Zunächst kurzer Abstecher nach Trakai (30 km westlich von Vilnius), dann über die A1 nach Kaunas und weiter auf der A1/E85 bis Klaipėda an der Küste."
+  },
+  "evCharging": {
+    "stopsNeeded": 1,
+    "notes": "Ein Ladestopp in Kaunas während der Besichtigung reicht aus. Gute Ladeinfrastruktur entlang der A1.",
+    "criticalLevel": "green"
+  },
+  "activities": [
+    "Vormittags Trakai: die märchenhafte Inselburg im See besichtigen – Litauens Postkartenmotiv Nr. 1",
+    "Kibinai-Mittagessen in Trakai – die gefüllten Teigtaschen der Karäer, einer turksprachigen Minderheit",
+    "Weiterfahrt nach Kaunas: Stopp am Neunten Fort – Gedenkstätte an die Schrecken der Besatzungszeit",
+    "Spaziergang über die Laisvės alėja, Europas längste Fußgängerzone",
+    "Ankunft in der Hafenstadt Klaipėda am Abend, Bummel durch die Altstadt mit Fachwerkhäusern"
+  ]
+}

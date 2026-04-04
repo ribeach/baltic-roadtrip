@@ -1,0 +1,29 @@
+{
+  "dayNumber": 13,
+  "date": "2026-05-12",
+  "title": "Lahemaa oder Helsinki – Tag der Wahl",
+  "subtitle": "Estnische Wildnis oder finnische Hauptstadt per Fähre",
+  "locationId": "tallinn",
+  "previousLocationId": "tallinn",
+  "overnightLocationId": "tallinn",
+  "driving": {
+    "distance": "0 km",
+    "duration": "0:00",
+    "mode": "ferry",
+    "routeDescription": "Option A: Tagesausflug in den Lahemaa-Nationalpark (ca. 70 km östlich von Tallinn, eigenes Auto). Option B: Fußpassagier-Fähre Tallinn–Helsinki (2 Std. pro Richtung), Auto bleibt in Tallinn."
+  },
+  "evCharging": {
+    "stopsNeeded": 0,
+    "notes": "Bei Option A: Reichweite für Lahemaa-Rundfahrt prüfen. Bei Option B: Auto bleibt geparkt in Tallinn – keine Ladung nötig.",
+    "criticalLevel": "green"
+  },
+  "activities": [
+    "OPTION A – Lahemaa-Nationalpark: Viru-Hochmoor-Wanderung über Holzbohlenwege durch nebelverhangene Moorlandschaft",
+    "OPTION A: Jägala-Wasserfall – Estlands breitester Wasserfall",
+    "OPTION A: Fischerdorf Käsmu (‚Kapitänsdorf') mit seinen Findlingen und dem Meeresmuseum",
+    "OPTION B – Helsinki: Fähre am Morgen, Festungsinsel Suomenlinna (UNESCO-Weltkulturerbe) erkunden",
+    "OPTION B: Kauppatori (Marktplatz) am Hafen – finnische Lachssuppe und Zimtschnecken",
+    "OPTION B: Oodi-Zentralbibliothek besichtigen – architektonisches Meisterwerk und Finnlands ganzer Stolz",
+    "Abends zurück in Tallinn – letzter Abend in der estnischen Hauptstadt"
+  ]
+}

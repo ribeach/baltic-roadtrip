@@ -1,0 +1,44 @@
+{
+  "id": "hill-of-crosses",
+  "name": "Berg der Kreuze (Kryžių Kalnas)",
+  "country": "lithuania",
+  "coordinates": { "lat": 56.0153, "lng": 23.4167 },
+  "description": "Über 200.000 Kreuze bedecken diesen kleinen Hügel nördlich von Šiauliai — ein Ort von überwältigender spiritueller Kraft. Die Sowjets planierten den Berg dreimal, doch die Litauer bauten ihn jedes Mal wieder auf. Ein Symbol unbeugsamen Glaubens und Widerstands.",
+  "highlights": [
+    {
+      "name": "Berg der Kreuze",
+      "type": "monument",
+      "icon": "star",
+      "description": "Über 200.000 Kreuze in jeder erdenklichen Größe bedecken den Hügel — vom winzigen Rosenkranz bis zum meterhohen Holzkreuz. Die Sowjets planierten den Ort dreimal mit Bulldozern, doch jedes Mal kehrten die Litauer in der Nacht zurück und stellten neue Kreuze auf.",
+      "duration": "30-60min",
+      "price": "Kostenlos (Parkgebühr ~0,90€)",
+      "googleMapsUrl": "https://maps.google.com/?q=Hill+of+Crosses+Šiauliai+Lithuania"
+    },
+    {
+      "name": "Papst-Johannes-Paul-II-Kreuz",
+      "type": "monument",
+      "icon": "info",
+      "description": "Papst Johannes Paul II. besuchte den Berg 1993 und hinterließ ein Kruzifix mit der Inschrift, die den Ort als Zeichen der Hoffnung, des Friedens und der Liebe würdigt.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?q=Hill+of+Crosses+Šiauliai+Lithuania"
+    }
+  ],
+  "restaurants": [],
+  "hotels": [],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Kostenlos zugänglich, rund um die Uhr. Parkgebühr nur ca. 0,90€. 30-60 Minuten reichen für den Besuch."
+    },
+    {
+      "type": "info",
+      "text": "Direkt an der A12 nördlich von Šiauliai gelegen — perfekter kurzer Stopp auf dem Weg von Klaipėda nach Riga."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Frühmorgens oder am späten Nachmittag besuchen, wenn das Licht schräg durch die Kreuze fällt und die Reisebusse noch nicht da sind. Die Atmosphäre ist dann fast mystisch."
+    }
+  ],
+  "nightlife": null
+}

@@ -1,0 +1,14 @@
+{
+  "dayNumber": 16,
+  "date": "2026-05-15",
+  "title": "Halmstad – ein freier Tag",
+  "subtitle": "Vertraute Straßen, eigenes Programm",
+  "locationId": "halmstad",
+  "previousLocationId": null,
+  "overnightLocationId": "halmstad",
+  "driving": null,
+  "evCharging": null,
+  "activities": [
+    "Freier Tag in Halmstad – hier kennt ihr euch aus, hier braucht ihr keine Tipps"
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "tallinn",
+  "name": "Tallinn",
+  "country": "estonia",
+  "coordinates": { "lat": 59.437, "lng": 24.7536 },
+  "description": "Die besterhaltene mittelalterliche Stadt Nordeuropas verbindet kopfsteingepflasterte Gassen und gotische Türme mit einer der innovativsten Digital- und Gastro-Szenen Europas. Von der KGB-Abhörstation im Hotel Viru bis zur ehemaligen U-Boot-Werft in Noblessner — Tallinn ist ein Ort, an dem jede Epoche noch lebendig ist.",
+  "highlights": [
+    {
+      "name": "UNESCO-Altstadt",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Tallinns mittelalterliche Altstadt ist so gut erhalten, dass man sich beim Spaziergang durch die Kopfsteinpflastergassen ins 15. Jahrhundert zurückversetzt fühlt. Stadtmauern, Wehrtürme und gotische Kaufmannshäuser bilden ein einzigartiges Ensemble.",
+      "duration": "3-4h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Tallinn+Old+Town+Estonia"
+    },
+    {
+      "name": "Toompea — Kohtuotsa & Patkuli Aussichtsplattformen",
+      "type": "viewpoint",
+      "icon": "star",
+      "description": "Vom Domberg bieten zwei Aussichtsplattformen den ikonischen Blick über die roten Dächer der Unterstadt bis zum Hafen und zur Ostsee. Der Patkuli-Blick bei Sonnenuntergang ist magisch.",
+      "duration": "30-45min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Kohtuotsa+Viewing+Platform+Tallinn"
+    },
+    {
+      "name": "Lennusadam — Maritimes Museum",
+      "type": "museum",
+      "icon": "star",
+      "description": "In historischen Wasserflugzeug-Hangars aus dem Ersten Weltkrieg beherbergt dieses spektakuläre Museum ein echtes U-Boot, einen Eisbrecher und Hunderte maritimer Exponate. Interaktiv und fesselnd.",
+      "duration": "2-3h",
+      "price": "~€15",
+      "googleMapsUrl": "https://maps.google.com/?q=Lennusadam+Seaplane+Harbour+Tallinn"
+    },
+    {
+      "name": "KGB-Museum — Hotel Viru",
+      "type": "soviet",
+      "icon": "star",
+      "description": "Im 23. Stock des ehemaligen Intourist-Hotels betrieb der KGB eine geheime Abhörstation. Die Führung durch die original erhaltenen Räume mit Abhörgeräten ist ein faszinierender Blick hinter den Eisernen Vorhang.",
+      "duration": "1h",
+      "price": "€13",
+      "googleMapsUrl": "https://maps.google.com/?q=KGB+Museum+Hotel+Viru+Tallinn"
+    },
+    {
+      "name": "Telliskivi Creative City",
+      "type": "activity",
+      "icon": "gem",
+      "description": "Das ehemalige Industriegelände beherbergt heute über 250 kreative Unternehmen, Galerien, Designläden und Restaurants — darunter auch das Fotografiska (~€20). Tallinns hippster Viertel.",
+      "duration": "2-3h",
+      "price": "Kostenlos (einzelne Attraktionen kostenpflichtig)",
+      "googleMapsUrl": "https://maps.google.com/?q=Telliskivi+Creative+City+Tallinn"
+    },
+    {
+      "name": "Balti Jaama Turg — Markt",
+      "type": "market",
+      "icon": "info",
+      "description": "Der modernisierte Markt neben dem Bahnhof bietet lokale Lebensmittel, Street Food und estnisches Design. Perfekt für einen Snack zwischendurch oder ein Mitbringsel.",
+      "duration": "30-60min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Balti+Jaama+Turg+Tallinn"
+    },
+    {
+      "name": "Kalamaja — Holzhäuser-Viertel",
+      "type": "architecture",
+      "icon": "gem",
+      "description": "Das trendige Viertel mit seinen bunt gestrichenen Holzhäusern aus dem 19. Jahrhundert ist Tallinns charmanteste Wohngegend — perfekt für einen entspannten Spaziergang abseits der Touristenpfade.",
+      "duration": "1-1.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Kalamaja+Tallinn+Estonia"
+    },
+    {
+      "name": "Noblessner — Ehemaliges U-Boot-Werft-Viertel",
+      "type": "activity",
+      "icon": "gem",
+      "description": "Die ehemalige U-Boot-Werft am Meer wurde zum angesagten Kreativviertel mit Restaurants, Brauereien und dem Kai Kunstzentrum umgebaut. Industriecharme trifft auf Meerblick.",
+      "duration": "1.5-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Noblessner+Quarter+Tallinn"
+    },
+    {
+      "name": "Rummu Steinbruch",
+      "type": "activity",
+      "icon": "gem",
+      "description": "Ein gefluteter Sowjet-Gefängnissteinbruch mit türkisem Wasser und versunkenen Gebäuden, 45km westlich von Tallinn. Surreal und fotogen — wie eine Filmkulisse.",
+      "duration": "2-3h (inkl. Anfahrt)",
+      "price": "€5-8",
+      "googleMapsUrl": "https://maps.google.com/?q=Rummu+Quarry+Estonia"
+    },
+    {
+      "name": "Linnahall",
+      "type": "soviet",
+      "icon": "info",
+      "description": "Der brutalistische Olympia-Bau von 1980 am Hafen war Drehort für Christopher Nolans \"Tenet\". Die massive Betonarchitektur direkt an der Ostsee ist eindrucksvoll und verlassen zugleich.",
+      "duration": "30min",
+      "price": "Kostenlos (nur von außen)",
+      "googleMapsUrl": "https://maps.google.com/?q=Linnahall+Tallinn+Estonia"
+    },
+    {
+      "name": "Patarei Gefängnis",
+      "type": "soviet",
+      "icon": "info",
+      "description": "Die ehemalige Seefestung und spätere Gefängnisanlage wird möglicherweise ab Mai 2026 als Museum zugänglich. Aktuelle Öffnungszeiten vor Ort prüfen.",
+      "duration": "1-1.5h",
+      "price": "Noch nicht bekannt",
+      "googleMapsUrl": "https://maps.google.com/?q=Patarei+Prison+Tallinn"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Rataskaevu 16",
+      "cuisine": "Modern Estnisch",
+      "priceRange": "€€",
+      "description": "In einem Haus aus dem 15. Jahrhundert serviert dieses beliebte Restaurant moderne estnische Küche mit saisonalen Zutaten. Reservierung dringend empfohlen — es ist zurecht eines der beliebtesten Restaurants der Stadt.",
+      "mustTry": "Gebratener Ostseehering oder Elchbraten — estnische Klassiker neu interpretiert",
+      "googleMapsUrl": "https://maps.google.com/?q=Rataskaevu+16+Tallinn"
+    },
+    {
+      "name": "Leib Resto ja Aed",
+      "cuisine": "Hyperlokal Estnisch (Brot-Restaurant)",
+      "priceRange": "€€-€€€",
+      "description": "Das \"Brot-Restaurant\" backt eigenes Sauerteigbrot und serviert dazu hyperregionale Gerichte aus dem eigenen Garten und von lokalen Bauern. Im Sommer wird im Innenhof gegessen.",
+      "mustTry": "Frisch gebackenes Roggenbrot mit Butter — das einfachste und beste Gericht",
+      "googleMapsUrl": "https://maps.google.com/?q=Leib+Resto+ja+Aed+Tallinn"
+    },
+    {
+      "name": "F-Hoone",
+      "cuisine": "Gastropub",
+      "priceRange": "€-€€",
+      "description": "Lässiger Gastropub im Industrieambiente des Telliskivi Creative City. Große Portionen, faire Preise und ein Mix aus estnischer und internationaler Küche — ideal für einen unkomplizierten Abend.",
+      "mustTry": "Burger oder Tagesgericht — hier stimmt das Preis-Leistungs-Verhältnis",
+      "googleMapsUrl": "https://maps.google.com/?q=F-Hoone+Tallinn"
+    },
+    {
+      "name": "Moon",
+      "cuisine": "Slawisch-Estnisch (Michelin)",
+      "priceRange": "€€€",
+      "description": "Michelin-ausgezeichnetes Restaurant, das slawische und estnische Küche kunstvoll verbindet. Die Pelmeni und andere osteuropäische Klassiker werden hier auf Fine-Dining-Niveau gehoben.",
+      "mustTry": "Pelmeni — russische Teigtaschen, hier als Haute Cuisine",
+      "googleMapsUrl": "https://maps.google.com/?q=Moon+Restaurant+Tallinn"
+    },
+    {
+      "name": "Lore Bistroo",
+      "cuisine": "Estnisch (Bib Gourmand)",
+      "priceRange": "€€",
+      "description": "Mit dem Michelin Bib Gourmand ausgezeichnetes Bistro, das über offenem Feuer kocht. Rauchige, intensive Aromen und eine Speisekarte, die sich nach der Saison richtet.",
+      "mustTry": "Über offenem Feuer gegrillter Fisch oder Fleisch — der Geschmack des Feuers ist das Geheimnis",
+      "googleMapsUrl": "https://maps.google.com/?q=Lore+Bistroo+Tallinn"
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Von Stackelberg Hotel",
+      "type": "Historisches Boutique-Hotel",
+      "priceRange": "75-120€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Elegante baltisch-deutsche Villa aus dem 19. Jahrhundert mit Zen-Spa und einer der besten Lagen der Stadt — zwischen Altstadt und Kalamaja. Hervorragendes Preis-Leistungs-Verhältnis.",
+      "googleMapsUrl": "https://maps.google.com/?q=Von+Stackelberg+Hotel+Tallinn"
+    },
+    {
+      "name": "Schlössle Hotel",
+      "type": "Luxus-Boutique-Hotel",
+      "priceRange": "160-220€",
+      "twinBeds": true,
+      "evCharging": true,
+      "description": "Im Herzen der Altstadt in einem restaurierten Kaufmannshaus aus dem 13. Jahrhundert. Eigene E-Ladesäule — perfekt, um vor der Fähre nach Stockholm aufzuladen. Der Inbegriff baltischer Eleganz.",
+      "googleMapsUrl": "https://maps.google.com/?q=Schlössle+Hotel+Tallinn"
+    },
+    {
+      "name": "Nunne Boutique Hotel",
+      "type": "Boutique-Hotel",
+      "priceRange": "90-140€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Einzigartiges kleines Hotel, teilweise in die mittelalterliche Stadtmauer gebaut. Gemütliche Zimmer mit historischem Charakter und einer Lage, die kaum zentraler sein könnte.",
+      "googleMapsUrl": "https://maps.google.com/?q=Nunne+Boutique+Hotel+Tallinn"
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Kiluvõileib (Sprotten-Sandwich auf Schwarzbrot) ist Estlands beliebtester Snack — unbedingt auf dem Markt probieren. Dazu ein Kohuke (Quarksnack) als Dessert."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Vana Tallinn Likör als Souvenir mitnehmen — der süße estnische Likör schmeckt im Kaffee, auf Eis oder pur."
+    },
+    {
+      "type": "warnung",
+      "text": "Fähre Tallinn → Stockholm FRÜH buchen! Es gibt nur jeden 2. Tag eine Abfahrt. Auto VOR der Fähre unbedingt vollladen."
+    },
+    {
+      "type": "info",
+      "text": "Die Tallinn Card (24/48/72h) lohnt sich, wenn ihr mehrere Museen besucht — inkl. ÖPNV und Rabatte."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Whisper Sister",
+      "description": "Gilt als die beste Cocktailbar des gesamten Baltikums. Speakeasy-Konzept: Man muss den Eingang finden und klopfen. Drinnen erwarten euch Weltklasse-Cocktails in Art-Déco-Ambiente.",
+      "googleMapsUrl": "https://maps.google.com/?q=Whisper+Sister+Tallinn"
+    },
+    {
+      "name": "Põhjala Tap Room",
+      "description": "Im Noblessner-Viertel direkt am Meer schenkt Estlands berühmteste Craft-Brauerei 24 Biere vom Fass aus — dazu wird Texas-BBQ serviert. Industriecharme mit Meerblick.",
+      "googleMapsUrl": "https://maps.google.com/?q=Põhjala+Tap+Room+Tallinn"
+    },
+    {
+      "name": "Tops",
+      "description": "Sowjet-Chic trifft auf Vinyl-Bar: Retro-Möbel, Schallplatten an der Wand und eine entspannte Atmosphäre, die an eine Wohnzimmerparty bei einem estnischen Freund erinnert.",
+      "googleMapsUrl": "https://maps.google.com/?q=Tops+Bar+Tallinn"
+    },
+    {
+      "name": "Parrot MiniBar",
+      "description": "Man betritt einen scheinbar normalen Laden, geht durch einen Kleiderschrank und landet in einer versteckten Kellerbar. Die Drinks sind exzellent, das Erlebnis unvergesslich.",
+      "googleMapsUrl": "https://maps.google.com/?q=Parrot+MiniBar+Tallinn"
+    }
+  ]
+}
