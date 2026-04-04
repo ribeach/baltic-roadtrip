@@ -2,7 +2,10 @@
   "id": "curonian-spit",
   "name": "Kurische Nehrung",
   "country": "lithuania",
-  "coordinates": { "lat": 55.3, "lng": 21.0 },
+  "coordinates": {
+    "lat": 55.3,
+    "lng": 21.0
+  },
   "description": "Die schmale Landzunge zwischen Ostsee und Kurischem Haff gehört zum UNESCO-Weltkulturerbe und ist eine der dramatischsten Landschaften Europas. Wandernde Dünen, uralte Fischerdörfer und die Stille der Natur schaffen hier einen Ort, der sich anfühlt wie das Ende der Welt — im besten Sinne.",
   "highlights": [
     {
@@ -106,6 +109,5 @@
       "type": "info",
       "text": "Anfang Mai ist Nebensaison — weniger Touristen, dafür kann es frisch und windig sein. Warme Jacke einpacken!"
     }
-  ],
-  "nightlife": null
+  ]
 }

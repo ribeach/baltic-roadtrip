@@ -2,7 +2,10 @@
   "id": "helsinki",
   "name": "Helsinki",
   "country": "finland",
-  "coordinates": { "lat": 60.1699, "lng": 24.9384 },
+  "coordinates": {
+    "lat": 60.1699,
+    "lng": 24.9384
+  },
   "description": "Finnlands kompakte Hauptstadt beeindruckt mit nordischer Architektur, Design auf Weltklasse-Niveau und einer einzigartigen Mischung aus Markthal-Kulinarik und Festungs-Geschichte. Per Fähre von Tallinn in 2 Stunden erreichbar, lässt sich Helsinki perfekt als Tagesausflug erleben.",
   "highlights": [
     {
@@ -75,6 +78,5 @@
       "type": "info",
       "text": "Auto bleibt in Tallinn stehen! Helsinki ist als Fußgänger-Tagesausflug gedacht. Die Stadt ist kompakt und alles gut zu Fuß erreichbar."
     }
-  ],
-  "nightlife": null
+  ]
 }

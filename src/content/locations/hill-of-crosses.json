@@ -2,7 +2,10 @@
   "id": "hill-of-crosses",
   "name": "Berg der Kreuze (Kryžių Kalnas)",
   "country": "lithuania",
-  "coordinates": { "lat": 56.0153, "lng": 23.4167 },
+  "coordinates": {
+    "lat": 56.0153,
+    "lng": 23.4167
+  },
   "description": "Über 200.000 Kreuze bedecken diesen kleinen Hügel nördlich von Šiauliai — ein Ort von überwältigender spiritueller Kraft. Die Sowjets planierten den Berg dreimal, doch die Litauer bauten ihn jedes Mal wieder auf. Ein Symbol unbeugsamen Glaubens und Widerstands.",
   "highlights": [
     {
@@ -39,6 +42,5 @@
       "type": "geheimtipp",
       "text": "Frühmorgens oder am späten Nachmittag besuchen, wenn das Licht schräg durch die Kreuze fällt und die Reisebusse noch nicht da sind. Die Atmosphäre ist dann fast mystisch."
     }
-  ],
-  "nightlife": null
+  ]
 }

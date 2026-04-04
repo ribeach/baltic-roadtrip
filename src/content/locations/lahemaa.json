@@ -2,7 +2,10 @@
   "id": "lahemaa",
   "name": "Lahemaa-Nationalpark",
   "country": "estonia",
-  "coordinates": { "lat": 59.5289, "lng": 25.8667 },
+  "coordinates": {
+    "lat": 59.5289,
+    "lng": 25.8667
+  },
   "description": "Estlands ältester und größter Nationalpark bietet mystische Moorlandschaften, dramatische Felsklippen und maritime Dörfer, die aussehen, als wäre hier die Zeit stehen geblieben. Nur 50-70km östlich von Tallinn gelegen, ist Lahemaa der perfekte Tagesausflug in die wilde Natur des Baltikums.",
   "highlights": [
     {
@@ -57,6 +60,5 @@
       "type": "info",
       "text": "Mai ist die beste Zeit für Vogelbeobachtung — Fernglas nicht vergessen! Der Viru-Moor-Pfad ist morgens am schönsten, wenn Nebel über dem Moor liegt."
     }
-  ],
-  "nightlife": null
+  ]
 }

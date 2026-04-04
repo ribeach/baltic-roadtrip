@@ -3,7 +3,7 @@ import EvIndicator from './EvIndicator.astro';
 
 interface Props {
   dayNumber: number;
-  date: string;
+  date: Date;
   title: string;
   subtitle: string;
   driving: {
@@ -23,7 +23,8 @@ interface Props {
 const { dayNumber, date, title, subtitle, driving, evCharging, activities, locationId, isLeft } = Astro.props;
 const base = import.meta.env.BASE_URL;
 
-const dateObj = new Date(date + 'T12:00:00');
+const dateObj = new Date(date);
+dateObj.setHours(12);
 const formattedDate = dateObj.toLocaleDateString('de-DE', { weekday: 'short', day: 'numeric', month: 'short' });
 
 const modeIcon = driving?.mode === 'ferry' ? '⛴️' : driving?.mode === 'drive' ? '🚗' : '📍';

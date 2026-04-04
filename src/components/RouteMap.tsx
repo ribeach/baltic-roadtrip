@@ -19,6 +19,11 @@ interface Props {
 
 export default function RouteMap({ locations, apiKey, height = '500px', zoom, center, singleDay = false }: Props) {
   const mapRef = useRef<HTMLDivElement>(null);
+  const mapInstanceRef = useRef<google.maps.Map | null>(null);
+  const infoWindowRef = useRef<google.maps.InfoWindow | null>(null);
+  const markersRef = useRef<google.maps.marker.AdvancedMarkerElement[]>([]);
+  const polylineRef = useRef<google.maps.Polyline | null>(null);
+  
   const [mapLoaded, setMapLoaded] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -28,7 +33,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
       return;
     }
 
-    const loadMap = async () => {
+    const initMap = async () => {
       try {
         const { Loader } = await import('@googlemaps/js-api-loader');
         const loader = new Loader({
@@ -37,69 +42,76 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           libraries: ['marker'],
         });
 
-        const google = await loader.load();
+        const { Map, InfoWindow, LatLngBounds, Polyline, SymbolPath } = await loader.importLibrary('maps') as any;
+        const { AdvancedMarkerElement, PinElement } = await loader.importLibrary('marker') as any;
+
         if (!mapRef.current) return;
 
-        const bounds = new google.maps.LatLngBounds();
+        const bounds = new LatLngBounds();
         locations.forEach(loc => bounds.extend({ lat: loc.lat, lng: loc.lng }));
 
-        const map = new google.maps.Map(mapRef.current, {
-          center: center || bounds.getCenter().toJSON(),
-          zoom: zoom || undefined,
-          mapTypeControl: false,
-          streetViewControl: false,
-          fullscreenControl: true,
-          styles: [
-            { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#c9d6e5' }] },
-            { featureType: 'landscape', elementType: 'geometry', stylers: [{ color: '#f0f2f5' }] },
-            { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#e6a919' }, { weight: 1.5 }] },
-            { featureType: 'poi', stylers: [{ visibility: 'off' }] },
-          ],
-        });
+        // Initialize Map if not already done
+        if (!mapInstanceRef.current) {
+          mapInstanceRef.current = new Map(mapRef.current, {
+            center: center || bounds.getCenter().toJSON(),
+            zoom: zoom || 4,
+            mapId: 'DEMO_MAP_ID', // Required for AdvancedMarkerElement
+            mapTypeControl: false,
+            streetViewControl: false,
+            fullscreenControl: true,
+          });
 
-        if (!zoom) {
+          infoWindowRef.current = new InfoWindow();
+        }
+
+        const map = mapInstanceRef.current!;
+
+        // Clear existing markers and polyline
+        markersRef.current.forEach(m => m.map = null);
+        markersRef.current = [];
+        if (polylineRef.current) polylineRef.current.setMap(null);
+
+        if (!zoom && locations.length > 0) {
           map.fitBounds(bounds, 50);
+        } else if (center) {
+          map.setCenter(center);
         }
 
         // Add markers
         locations.forEach((loc, i) => {
-          const marker = new google.maps.Marker({
+          const pin = new PinElement({
+            background: '#e6a919',
+            borderColor: '#1a1a2e',
+            glyphColor: '#1a1a2e',
+            glyph: loc.dayNumber ? String(loc.dayNumber) : String(i + 1),
+            scale: 1.2,
+          });
+
+          const marker = new AdvancedMarkerElement({
             position: { lat: loc.lat, lng: loc.lng },
             map,
             title: loc.name,
-            label: {
-              text: loc.dayNumber ? String(loc.dayNumber) : String(i + 1),
-              color: '#1a1a2e',
-              fontWeight: 'bold',
-              fontSize: '11px',
-            },
-            icon: {
-              path: google.maps.SymbolPath.CIRCLE,
-              fillColor: '#e6a919',
-              fillOpacity: 1,
-              strokeColor: '#1a1a2e',
-              strokeWeight: 2,
-              scale: 14,
-            },
-          });
-
-          const infoWindow = new google.maps.InfoWindow({
-            content: `
-              <div style="padding: 4px 8px; font-family: Inter, system-ui, sans-serif;">
-                <strong style="color: #1a1a2e;">${loc.name}</strong>
-                ${loc.dayNumber ? `<br><span style="color: #666; font-size: 12px;">Tag ${loc.dayNumber}</span>` : ''}
-              </div>
-            `,
+            content: pin.element,
           });
 
           marker.addListener('click', () => {
-            infoWindow.open(map, marker);
+            if (infoWindowRef.current) {
+              infoWindowRef.current.setContent(`
+                <div style="padding: 4px 8px; font-family: Inter, system-ui, sans-serif;">
+                  <strong style="color: #1a1a2e;">${loc.name}</strong>
+                  ${loc.dayNumber ? `<br><span style="color: #666; font-size: 12px;">Tag ${loc.dayNumber}</span>` : ''}
+                </div>
+              `);
+              infoWindowRef.current.open(map, marker);
+            }
           });
+
+          markersRef.current.push(marker);
         });
 
         // Draw route polyline
         if (locations.length > 1) {
-          new google.maps.Polyline({
+          polylineRef.current = new Polyline({
             path: locations.map(loc => ({ lat: loc.lat, lng: loc.lng })),
             geodesic: true,
             strokeColor: '#1a1a2e',
@@ -116,7 +128,14 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
       }
     };
 
-    loadMap();
+    initMap();
+
+    // Cleanup function
+    return () => {
+      // Note: We keep the mapInstanceRef.current if we want to reuse it, 
+      // but we should clear markers if the component unmounts or locations change significantly.
+      // For a static Astro island, unmount is the main concern.
+    };
   }, [apiKey, locations, zoom, center]);
 
   if (error) {
@@ -141,12 +160,17 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
   }
 
   return (
-    <div className="relative rounded-xl overflow-hidden border border-gray-200 shadow-md">
+    <div 
+      className="relative rounded-xl overflow-hidden border border-gray-200 shadow-md"
+      aria-label="Interaktive Karte der Reiseroute"
+    >
       <div ref={mapRef} style={{ height, width: '100%' }} />
       {!mapLoaded && (
         <div
           style={{ height }}
           className="absolute inset-0 bg-gray-100 flex items-center justify-center"
+          role="status"
+          aria-live="polite"
         >
           <div className="animate-pulse text-gray-400">Karte wird geladen...</div>
         </div>

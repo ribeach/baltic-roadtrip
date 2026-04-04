@@ -2,7 +2,10 @@
   "id": "kaunas",
   "name": "Kaunas",
   "country": "lithuania",
-  "coordinates": { "lat": 54.8985, "lng": 23.9036 },
+  "coordinates": {
+    "lat": 54.8985,
+    "lng": 23.9036
+  },
   "description": "Litauens zweitgrößte Stadt war in der Zwischenkriegszeit die provisorische Hauptstadt und verbindet Art-Déco-Charme mit einigen der emotional intensivsten Gedenkstätten des Baltikums. Die längste Fußgängerzone Europas durchzieht das lebhafte Zentrum.",
   "highlights": [
     {
@@ -66,6 +69,5 @@
       "type": "geheimtipp",
       "text": "Mittagessen auf der Laisvės Alėja einplanen — die Auswahl an Cafés und Restaurants ist groß und günstig."
     }
-  ],
-  "nightlife": null
+  ]
 }

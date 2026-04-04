@@ -2,7 +2,10 @@
   "id": "luebeck",
   "name": "Lübeck",
   "country": "germany",
-  "coordinates": { "lat": 53.8655, "lng": 10.6866 },
+  "coordinates": {
+    "lat": 53.8655,
+    "lng": 10.6866
+  },
   "description": "Die \"Königin der Hanse\" mit ihrer UNESCO-geschützten Altstadt ist ein optionaler Übernachtungsstopp auf der Rückreise, um die lange Fahrt von Halmstad nach Aalen angenehm aufzuteilen. Backsteinkirchen, das Holstentor und ein Abendspaziergang am Wasser runden den Trip stilvoll ab.",
   "highlights": [
     {
@@ -63,6 +66,5 @@
       "type": "geheimtipp",
       "text": "Niederegger Marzipan nicht vergessen — das berühmte Café und Geschäft liegt direkt gegenüber dem Rathaus. Lübeck ist die Marzipan-Hauptstadt der Welt."
     }
-  ],
-  "nightlife": null
+  ]
 }

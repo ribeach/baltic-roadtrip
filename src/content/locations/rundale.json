@@ -2,7 +2,10 @@
   "id": "rundale",
   "name": "Schloss Rundāle",
   "country": "latvia",
-  "coordinates": { "lat": 56.4131, "lng": 24.0228 },
+  "coordinates": {
+    "lat": 56.4131,
+    "lng": 24.0228
+  },
   "description": "Das prächtige Barockschloss, erbaut vom selben Architekten wie der Winterpalais in St. Petersburg, gilt zu Recht als das \"Baltische Versailles\". Der Goldene Saal und der 10 Hektar große französische Formalgarten machen diesen Stopp zwischen Litauen und Riga zu einem echten Highlight.",
   "highlights": [
     {
@@ -39,6 +42,5 @@
       "type": "info",
       "text": "Geöffnet täglich 10-18 Uhr im Mai. Es gibt ein Café im Schloss für eine Pause zwischendurch."
     }
-  ],
-  "nightlife": null
+  ]
 }

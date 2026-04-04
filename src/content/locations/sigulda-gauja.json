@@ -2,7 +2,10 @@
   "id": "sigulda-gauja",
   "name": "Sigulda & Gauja-Nationalpark",
   "country": "latvia",
-  "coordinates": { "lat": 57.1536, "lng": 24.8514 },
+  "coordinates": {
+    "lat": 57.1536,
+    "lng": 24.8514
+  },
   "description": "Die \"Schweiz Lettlands\" überrascht mit bewaldeten Sandsteinklippen, einer mittelalterlichen Burg und einem geheimen Sowjetbunker tief unter der Erde. Der Gauja-Nationalpark ist Lettlands Naturjuwel und liegt direkt auf der Strecke zwischen Riga und Tallinn.",
   "highlights": [
     {
@@ -85,6 +88,5 @@
       "type": "info",
       "text": "Eleport 100kW-Schnelllader am Raibais Suns Einkaufszentrum in Sigulda — gute Gelegenheit zum Nachladen."
     }
-  ],
-  "nightlife": null
+  ]
 }

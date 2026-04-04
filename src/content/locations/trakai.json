@@ -2,7 +2,10 @@
   "id": "trakai",
   "name": "Trakai",
   "country": "lithuania",
-  "coordinates": { "lat": 54.6441, "lng": 24.9346 },
+  "coordinates": {
+    "lat": 54.6441,
+    "lng": 24.9346
+  },
   "description": "Die rote Backsteinburg auf einer Insel im Galvė-See ist Litauens meistfotografiertes Wahrzeichen und ein Märchenschloss zum Anfassen. Dazu kommt die faszinierende Kultur der Karäer — eines turkischen Volkes, das seit dem 14. Jahrhundert hier lebt.",
   "highlights": [
     {
@@ -53,6 +56,5 @@
       "type": "geheimtipp",
       "text": "Morgens vor 10 Uhr ankommen, dann hat man die Burg fast für sich allein. Am Nachmittag kommen die Reisebusse."
     }
-  ],
-  "nightlife": null
+  ]
 }

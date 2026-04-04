@@ -1,16 +1,16 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection, reference, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
 const days = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/days' }),
   schema: z.object({
     dayNumber: z.number(),
-    date: z.string(),
+    date: z.coerce.date(),
     title: z.string(),
     subtitle: z.string(),
-    locationId: z.string(),
-    previousLocationId: z.string().nullable(),
-    overnightLocationId: z.string().nullable(),
+    locationId: reference('locations'),
+    previousLocationId: reference('locations').nullable(),
+    overnightLocationId: reference('locations').nullable(),
     driving: z.object({
       distance: z.string(),
       duration: z.string(),
@@ -71,7 +71,7 @@ const locations = defineCollection({
       name: z.string(),
       description: z.string(),
       googleMapsUrl: z.string(),
-    })).nullable(),
+    })).optional().default([]),
   }),
 });
 

@@ -2,7 +2,10 @@
   "id": "klaipeda",
   "name": "Klaipėda",
   "country": "lithuania",
-  "coordinates": { "lat": 55.7033, "lng": 21.1443 },
+  "coordinates": {
+    "lat": 55.7033,
+    "lng": 21.1443
+  },
   "description": "Die einstige Hansestadt Memel ist das Tor zur Kurischen Nehrung und überrascht mit einem charmanten Fachwerk-Altstadtkern, der an eine norddeutsche Kleinstadt erinnert. Hier legt die Fähre ab, die euch zu einer der spektakulärsten Landschaften Europas bringt.",
   "highlights": [
     {
@@ -75,6 +78,5 @@
       "type": "geheimtipp",
       "text": "Abends in der Altstadt essen und den Sonnenuntergang am Hafen genießen — Klaipėda ist am stimmungsvollsten in der Abenddämmerung."
     }
-  ],
-  "nightlife": null
+  ]
 }
