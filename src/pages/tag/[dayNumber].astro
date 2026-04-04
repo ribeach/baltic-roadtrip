@@ -25,7 +25,8 @@ const prevLocation = day.previousLocationId ? allLocations.find(l => l.data.id =
 const prevDay = allDays.find(d => d.data.dayNumber === day.dayNumber - 1);
 const nextDay = allDays.find(d => d.data.dayNumber === day.dayNumber + 1);
 
-const dateObj = day.date instanceof Date ? day.date : new Date(day.date + 'T12:00:00');
+const dateObj = new Date(day.date);
+dateObj.setHours(12);
 const formattedDate = dateObj.toLocaleDateString('de-DE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
 
 const modeIcon = day.driving?.mode === 'ferry' ? '⛴️' : day.driving?.mode === 'drive' ? '🚗' : '📍';
