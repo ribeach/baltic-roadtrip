@@ -7,21 +7,21 @@ interface Props {
 const { level, compact = false } = Astro.props;
 
 const config = {
-  green: { color: 'bg-ev-green', text: 'text-green-800', label: 'Unkritisch', icon: '🔋' },
-  yellow: { color: 'bg-ev-yellow', text: 'text-yellow-800', label: 'Vorausplanen', icon: '⚡' },
-  red: { color: 'bg-ev-red', text: 'text-red-800', label: 'Kritisch', icon: '⚠️' },
+  green: { compact: 'text-green-900 bg-green-100', full: 'bg-green-50 text-green-800', label: 'Unkritisch', icon: '🔋' },
+  yellow: { compact: 'text-yellow-900 bg-yellow-100', full: 'bg-yellow-50 text-yellow-800', label: 'Vorausplanen', icon: '⚡' },
+  red: { compact: 'text-red-900 bg-red-100', full: 'bg-red-50 text-red-800', label: 'Kritisch', icon: '⚠️' },
 };
 
 const c = config[level];
 ---
 
 {compact ? (
-  <span class:list={['inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium', c.color, c.text === 'text-green-800' ? 'text-green-900 bg-green-100' : c.text === 'text-yellow-800' ? 'text-yellow-900 bg-yellow-100' : 'text-red-900 bg-red-100']}>
-    {c.icon} {c.label}
+  <span class:list={['inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium', c.compact]}>
+    <span aria-hidden="true">{c.icon}</span> {c.label}
   </span>
 ) : (
-  <div class:list={['flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium', c.text === 'text-green-800' ? 'bg-green-50 text-green-800' : c.text === 'text-yellow-800' ? 'bg-yellow-50 text-yellow-800' : 'bg-red-50 text-red-800']}>
-    <span>{c.icon}</span>
+  <div class:list={['flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium', c.full]}>
+    <span aria-hidden="true">{c.icon}</span>
     <span>{c.label}</span>
   </div>
 )}

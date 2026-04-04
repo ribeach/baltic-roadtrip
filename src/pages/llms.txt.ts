@@ -1,8 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
-
-const resolveRef = (ref: any): string =>
-  typeof ref === 'object' && ref !== null ? ref.id : ref;
+import { resolveRef } from '../lib/content';
 
 function formatDate(date: Date): string {
   const d = new Date(date);
@@ -18,7 +16,7 @@ export const GET: APIRoute = async () => {
   ]);
 
   const locMap = new Map(locations.map(l => [l.id, l]));
-  const findLoc = (ref: any) => {
+  const findLoc = (ref: { id: string; collection: string } | string) => {
     const id = resolveRef(ref);
     return locMap.get(id) || locations.find(l => l.data.id === id);
   };
@@ -89,7 +87,7 @@ export const GET: APIRoute = async () => {
     if (d.evCharging) {
       ln(`EV-Laden: ${d.evCharging.notes}`);
     }
-    ln(`Aktivitäten: ${d.activities.map((a: any) => typeof a === 'string' ? a : a.highlightRef).join(' | ')}`);
+    ln(`Aktivitäten: ${d.activities.map((a) => typeof a === 'string' ? a : a.highlightRef).join(' | ')}`);
 
     if (locData && isFirstVisit) {
       if (locData.highlights.length > 0) {

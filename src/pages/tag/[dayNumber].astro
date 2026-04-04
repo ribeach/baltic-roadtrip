@@ -4,6 +4,7 @@ import EvIndicator from '../../components/EvIndicator.astro';
 import HighlightCard from '../../components/HighlightCard.astro';
 import RouteMap from '../../components/RouteMap.tsx';
 import { getCollection } from 'astro:content';
+import { resolveRef, getBase } from '../../lib/content';
 
 export async function getStaticPaths() {
   const days = await getCollection('days');
@@ -14,23 +15,20 @@ export async function getStaticPaths() {
 }
 
 const { day } = Astro.props;
-const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const base = getBase();
 const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER';
 
 const allLocations = await getCollection('locations');
 const allDays = await getCollection('days');
 
-// reference() returns { id, collection } — extract .id for lookups
-const resolveRef = (ref: any) => typeof ref === 'object' && ref !== null ? ref.id : ref;
-const location = allLocations.find(l => l.id === resolveRef(day.locationId) || l.data.id === resolveRef(day.locationId));
-const prevLocation = day.previousLocationId ? allLocations.find(l => l.id === resolveRef(day.previousLocationId) || l.data.id === resolveRef(day.previousLocationId)) : null;
+const findLoc = (refVal: string) => allLocations.find(l => l.id === refVal || l.data.id === refVal);
+
+const location = findLoc(resolveRef(day.locationId));
+const prevLocation = day.previousLocationId ? findLoc(resolveRef(day.previousLocationId)) : null;
 
 const additionalLocationRefs = day.additionalLocationIds || [];
 const additionalLocations = additionalLocationRefs
-  .map((ref: any) => {
-    const refId = resolveRef(ref);
-    return allLocations.find(l => l.id === refId || l.data.id === refId);
-  })
+  .map((ref) => findLoc(resolveRef(ref)))
   .filter(Boolean);
 
 const prevDay = allDays.find(d => d.data.dayNumber === day.dayNumber - 1);
@@ -43,7 +41,7 @@ const formattedDate = dateObj.toLocaleDateString('de-DE', { weekday: 'long', day
 const modeIcon = day.driving?.mode === 'ferry' ? '⛴️' : day.driving?.mode === 'drive' ? '🚗' : '📍';
 
 // Build highlight lookup from all locations visited this day
-const allHighlights = new Map<string, any>();
+const allHighlights = new Map<string, { name: string; type: string; icon: 'star' | 'gem' | 'info'; description: string; duration: string | null; price: string | null; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number } }>();
 for (const loc of [location, ...additionalLocations].filter(Boolean)) {
   for (const h of loc!.data.highlights) {
     allHighlights.set(h.name, h);
@@ -133,6 +131,12 @@ const cityMapLocations = showCityMap ? [{
           apiKey={apiKey}
           height="300px"
         />
+        <noscript>
+          <div class="bg-gray-100 rounded-xl p-6 text-center text-gray-600">
+            <p>Aktiviere JavaScript, um die interaktive Karte zu sehen.</p>
+            <a href={`https://www.google.com/maps/dir/${mapLocations.map(l => `${l.lat},${l.lng}`).join('/')}`} target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium mt-2 inline-block">Route in Google Maps öffnen →</a>
+          </div>
+        </noscript>
       </div>
     )}
 
@@ -146,6 +150,12 @@ const cityMapLocations = showCityMap ? [{
           apiKey={apiKey}
           height="300px"
         />
+        <noscript>
+          <div class="bg-gray-100 rounded-xl p-6 text-center text-gray-600">
+            <p>Aktiviere JavaScript, um die interaktive Karte zu sehen.</p>
+            <a href={`https://www.google.com/maps/search/?api=1&query=${location!.data.coordinates.lat},${location!.data.coordinates.lng}`} target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium mt-2 inline-block">Karte in Google Maps öffnen →</a>
+          </div>
+        </noscript>
       </div>
     )}
 
@@ -175,7 +185,7 @@ const cityMapLocations = showCityMap ? [{
     <div class="mb-8">
       <h2 class="font-bold text-navy-800 text-lg mb-3">📋 Tagesplan</h2>
       <div class="space-y-3">
-        {day.activities.map((activity: any, i: number) => {
+        {day.activities.map((activity, i) => {
           if (typeof activity === 'string') {
             return (
               <div class="flex items-start gap-3 bg-white rounded-lg p-3 border border-gray-100">

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ribeach.github.io/baltic-roadtrip/sitemap-index.xml

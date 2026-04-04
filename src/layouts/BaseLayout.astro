@@ -2,14 +2,17 @@
 import '../styles/global.css';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
+import { getBase } from '../lib/content';
 
 interface Props {
   title: string;
   description?: string;
 }
 
-const { title, description = 'Roadtrip durch das Baltikum — 17 Tage, 6 Länder, 1 Elektroauto' } = Astro.props;
-const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const { title, description = 'Roadtrip durch das Baltikum — 17 Tage, 8 Länder, 1 Elektroauto' } = Astro.props;
+const base = getBase();
+const fullTitle = `${title} | Baltikum Roadtrip 2026`;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
@@ -20,14 +23,22 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
+    <link rel="canonical" href={canonicalURL} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:locale" content="de_DE" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://maps.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <title>{title} | Baltikum Roadtrip 2026</title>
+    <title>{fullTitle}</title>
   </head>
   <body class="min-h-screen flex flex-col">
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-[60] focus:bg-amber-400 focus:text-navy-800 focus:px-4 focus:py-2 focus:rounded-md focus:font-medium">Zum Inhalt springen</a>
     <Nav />
-    <main class="flex-1">
+    <main id="main" class="flex-1">
       <slot />
     </main>
     <Footer />
