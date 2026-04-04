@@ -45,7 +45,7 @@ export const GET: APIRoute = async () => {
   ln('- Interessen (Priorität): 1. Natur & Nationalparks, 2. Geschichte & Kultur (Sowjet-Erbe, Mittelalter, Hanse), 3. Lokale Küche & Food-Märkte, 4. Besondere Bars & Lokale am Abend');
   ln('- Fahretappen von 5–6 Stunden am Stück sind kein Problem');
   ln('- Kein Stress-Urlaub: Lieber weniger Orte richtig erleben als alles abhaken');
-  ln('- Feste Eckpunkte: 1. Mai in Berlin, Baltikum-Rundreise (LT/LV/EE), Fähre nach Stockholm, 2–3 Tage Halmstad (privat, keine Tipps nötig)');
+  ln('- Feste Eckpunkte: 1. Mai in Berlin, Baltikum-Rundreise (LT/LV/EE), Finnland-Durchquerung (Helsinki→Turku) mit Nachtfähre nach Stockholm, 2–3 Tage Halmstad (privat, keine Tipps nötig)');
   ln();
 
   // Route overview table

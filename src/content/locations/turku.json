@@ -1,0 +1,180 @@
+{
+  "id": "turku",
+  "name": "Turku",
+  "country": "finland",
+  "coordinates": {
+    "lat": 60.4518,
+    "lng": 22.2666
+  },
+  "description": "Finnlands älteste Stadt und einstige Hauptstadt überrascht mit einer mächtigen mittelalterlichen Burg, einer gotischen Kathedrale und einer lebendigen Fluss-Promenade voller Restaurant-Boote. Die Fahrt von Helsinki über die E18 führt durch sanfte finnische Landschaft, und abends wartet die Viking-Line-Nachtfähre durch den spektakulären Turku-Archipel nach Stockholm.",
+  "highlights": [
+    {
+      "name": "Burg von Turku",
+      "type": "castle",
+      "icon": "star",
+      "description": "Die um 1280 gegründete Burg ist das größte erhaltene mittelalterliche Gebäude Finnlands. Mächtige Steinmauern, Renaissance-Säle und ein faszinierendes Historisches Museum erzählen von 750 Jahren finnischer Geschichte — von Kreuzrittern bis zu schwedischen Königen.",
+      "duration": "1.5-2h",
+      "price": "~15 €",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Turku%20Castle&query_place_id=ChIJ_Y5Id6Z3jEYRALVvYF0_1V4",
+      "placeId": "ChIJ_Y5Id6Z3jEYRALVvYF0_1V4",
+      "coordinates": {
+        "lat": 60.4353436,
+        "lng": 22.2286991
+      }
+    },
+    {
+      "name": "Dom von Turku",
+      "type": "church",
+      "icon": "star",
+      "description": "Finnlands bedeutendste mittelalterliche Kirche und Nationalheiligtum. Der im 13. Jahrhundert begonnene Backsteindom beherbergt beeindruckende Fresken, Königsgräber und ein kleines Kirchenmuseum. Der 101 Meter hohe Turm prägt die Skyline der Stadt.",
+      "duration": "30-45min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Turku%20Cathedral&query_place_id=ChIJoZOTUeV2jEYRLnmeRZBioCE",
+      "placeId": "ChIJoZOTUeV2jEYRLnmeRZBioCE",
+      "coordinates": {
+        "lat": 60.4524802,
+        "lng": 22.2783251
+      }
+    },
+    {
+      "name": "Aura-Fluss Promenade",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Die Uferpromenade entlang des Aurajoki ist Turkus Lebensader — gesäumt von umgebauten Restaurantbooten, gemütlichen Cafés und Kulturstätten. Der Spaziergang vom Dom flussabwärts zur Burg verbindet die beiden Hauptattraktionen perfekt.",
+      "duration": "1-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aurajoki%20Riverside%20Turku&query_place_id=ChIJ9ywJgfx2jEYRMJHXBOT6OsM",
+      "placeId": "ChIJ9ywJgfx2jEYRMJHXBOT6OsM",
+      "coordinates": {
+        "lat": 60.4483684,
+        "lng": 22.2699556
+      }
+    },
+    {
+      "name": "Aboa Vetus & Ars Nova",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Einzigartiges Doppelmuseum am Flussufer: Im Untergeschoss führen archäologische Ausgrabungen durch mittelalterliche Straßen und Keller, darüber zeigt Ars Nova zeitgenössische Kunst. Ein spannender Kontrast zwischen Alt und Neu.",
+      "duration": "1-1.5h",
+      "price": "~12 €",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aboa%20Vetus%20Ars%20Nova&query_place_id=ChIJOXoaF_t2jEYRJ-_7twWqjRU",
+      "placeId": "ChIJOXoaF_t2jEYRJ-_7twWqjRU",
+      "coordinates": {
+        "lat": 60.4496232,
+        "lng": 22.273822
+      }
+    },
+    {
+      "name": "Luostarinmäki Handwerkermuseum",
+      "type": "museum",
+      "icon": "info",
+      "description": "Freilichtmuseum mit über 30 original erhaltenen Handwerkerhäusern aus dem 18./19. Jahrhundert — das einzige Viertel, das den Großbrand von 1827 überstand. Lebendige Vorführungen zeigen traditionelles Handwerk von Druckerei bis Sattlerei.",
+      "duration": "1-1.5h",
+      "price": "~10 €",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Luostarinm%C3%A4ki%20Handicrafts%20Museum&query_place_id=ChIJDdGgUON2jEYRR3eJpVw87pQ",
+      "placeId": "ChIJDdGgUON2jEYRR3eJpVw87pQ",
+      "coordinates": {
+        "lat": 60.4469068,
+        "lng": 22.2763941
+      }
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Restaurant Kaskis",
+      "cuisine": "Nordische Küche & Fine Dining",
+      "priceRange": "€€€",
+      "description": "Eines der besten Restaurants Finnlands — Kaskis serviert saisonale, nordische Menüs aus lokalen Zutaten in einem minimalistisch-eleganten Ambiente. Perfekt für ein besonderes Abendessen vor der Fähre.",
+      "mustTry": "Saisonales Überraschungsmenü mit finnischen Wildkräutern und Ostseefisch",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Kaskis%20Turku&query_place_id=ChIJQZaTtfx2jEYRWtEVeMZa6DA",
+      "placeId": "ChIJQZaTtfx2jEYRWtEVeMZa6DA",
+      "coordinates": {
+        "lat": 60.4466246,
+        "lng": 22.2729896
+      }
+    },
+    {
+      "name": "Restaurant Smör",
+      "cuisine": "Saisonale finnische Küche",
+      "priceRange": "€€-€€€",
+      "description": "Smör (schwedisch für Butter) setzt auf hochwertige, saisonale Zutaten aus der Region Turku. Die wechselnde Karte kombiniert finnische Tradition mit modernem nordischem Einfluss. Gemütliches Ambiente in Altstadtnähe.",
+      "mustTry": "Saisonaler Fisch aus dem Turku-Archipel",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Sm%C3%B6r%20Turku&query_place_id=ChIJ1WF0Bft2jEYRQMb8VgPaI4U",
+      "placeId": "ChIJ1WF0Bft2jEYRQMb8VgPaI4U",
+      "coordinates": {
+        "lat": 60.4501573,
+        "lng": 22.272027
+      }
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Hotel Kakola",
+      "type": "Boutique-Hotel (ehemaliges Gefängnis)",
+      "priceRange": "€€-€€€",
+      "twinBeds": true,
+      "evCharging": true,
+      "description": "Spektakuläres Designhotel in einem umgebauten Gefängnis aus dem 19. Jahrhundert auf dem Kakolanmäki-Hügel. Die ehemaligen Zellen wurden in stilvolle Zimmer verwandelt — mit Blick über die Stadt und den Fluss. E-Ladesäulen vor Ort.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Kakola%20Turku&query_place_id=ChIJrddLKeZ3jEYRRrnx8LFog5E",
+      "placeId": "ChIJrddLKeZ3jEYRRrnx8LFog5E",
+      "coordinates": {
+        "lat": 60.4446173,
+        "lng": 22.2468226
+      }
+    },
+    {
+      "name": "Radisson Blu Marina Palace Hotel",
+      "type": "Business-Hotel am Fluss",
+      "priceRange": "€€-€€€",
+      "twinBeds": true,
+      "evCharging": true,
+      "description": "Direkt am Aurajoki gelegen, fußläufig zu Dom und Burg. Modernes 4-Sterne-Haus mit Flussblick. E-Laden über das Virta-Netzwerk in der Hotelgarage.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Radisson%20Blu%20Marina%20Palace%20Turku&query_place_id=ChIJX_xFZv52jEYRML_xv0JuyxU",
+      "placeId": "ChIJX_xFZv52jEYRML_xv0JuyxU",
+      "coordinates": {
+        "lat": 60.4466147,
+        "lng": 22.2604734
+      }
+    },
+    {
+      "name": "Solo Sokos Hotel Turun Seurahuone",
+      "type": "Boutique-Hotel",
+      "priceRange": "€€€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Historisches Boutique-Hotel im Herzen der Stadt, mehrfach als bestes Hotel Finnlands ausgezeichnet. Individuell gestaltete Zimmer mit viel Charakter. Hauseigenes Restaurant mit finnischer Küche.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Solo%20Sokos%20Hotel%20Turun%20Seurahuone&query_place_id=ChIJPYY0yPt2jEYR2fhC31JZHKA",
+      "placeId": "ChIJPYY0yPt2jEYR2fhC31JZHKA",
+      "coordinates": {
+        "lat": 60.4490313,
+        "lng": 22.2610198
+      }
+    }
+  ],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Viking Line Terminal liegt am Hafen, ~10 Min. vom Stadtzentrum. Boarding ab 20:00 Uhr für die 20:55-Fähre nach Stockholm. Ankunft Stadsgården (Stockholm) um 07:30 — direkt neben Gamla Stan."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Die Fähre durch den Turku-Archipel (20.000 Inseln!) mit kurzem Stopp auf den Åland-Inseln ist eine der schönsten Fährstrecken Europas — Kabine mit Fenster buchen!"
+    },
+    {
+      "type": "info",
+      "text": "Vor dem Boarding am Viking Line Terminal unbedingt voll laden. Hotel Kakola und Radisson Blu haben E-Ladesäulen, alternativ Schnelllader am Hafen."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Restaurant-Boote am Aurajoki",
+      "description": "Turkus einzigartige Bar-Szene spielt sich auf umgebauten Schiffen am Flussufer ab. Die schwimmenden Restaurants und Bars zwischen Dom und Burg sind der perfekte Ort für einen Drink vor der Fähre.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aurajoki%20Riverside%20Turku&query_place_id=ChIJ9ywJgfx2jEYRMJHXBOT6OsM",
+      "placeId": "ChIJ9ywJgfx2jEYRMJHXBOT6OsM",
+      "coordinates": {
+        "lat": 60.4483684,
+        "lng": 22.2699556
+      }
+    }
+  ]
+}

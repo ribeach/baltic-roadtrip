@@ -4,13 +4,13 @@
   "title": "Stockholm nach Halmstad",
   "subtitle": "Schwedische Westküste im Frühling",
   "locationId": "halmstad",
-  "previousLocationId": "tallinn",
+  "previousLocationId": "turku",
   "overnightLocationId": "halmstad",
   "driving": {
     "distance": "470 km",
     "duration": "5:00",
     "mode": "drive",
-    "routeDescription": "Ankunft Stockholmer Hafen gegen 10:30 Uhr. Dann über die E4 Richtung Süden, ab Jönköping auf die E6 an die Westküste nach Halmstad. Durchgehend Autobahn."
+    "routeDescription": "Ankunft Stockholm Stadsgården (nahe Gamla Stan) um 07:30 Uhr per Viking Line aus Turku. Dann über die E4 Richtung Süden, ab Jönköping auf die E6 an die Westküste nach Halmstad. Durchgehend Autobahn."
   },
   "evCharging": {
     "stopsNeeded": 2,
@@ -18,7 +18,7 @@
     "criticalLevel": "green"
   },
   "activities": [
-    "Ankunft in Stockholm gegen 10:30 Uhr – von der Fähre direkt auf die Autobahn",
+    "Ankunft in Stockholm Stadsgården gegen 07:30 Uhr — frisch von der Viking Line aus Turku, direkt neben Gamla Stan",
     "Fahrt durch Schwedens Bilderbuchlandschaft: rote Holzhäuser, Seen, Birkenwälder",
     "Optionaler Stopp in Jönköping am Vättern-See für Kaffee und Kanelbullar",
     "Ankunft in Halmstad am Nachmittag – Ankommen und Durchatmen"

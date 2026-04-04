@@ -1,27 +1,32 @@
 {
   "dayNumber": 14,
   "date": "2026-05-13",
-  "title": "Nachtfähre nach Stockholm",
-  "subtitle": "Letzter Tallinn-Morgen und Abschied übers Meer",
-  "locationId": "tallinn",
-  "previousLocationId": null,
+  "title": "Durch Finnland nach Stockholm",
+  "subtitle": "Helsinki per Fähre, Turku per Auto, Stockholm per Nachtfähre",
+  "locationId": "turku",
+  "previousLocationId": "tallinn",
   "overnightLocationId": null,
+  "additionalLocationIds": ["helsinki"],
   "driving": {
-    "distance": "0 km",
-    "duration": "0:00",
-    "mode": "ferry",
-    "routeDescription": "Kein Autofahren heute. Nachmittags Boarding der Tallink-Nachtfähre Tallinn–Stockholm. Überfahrt dauert ca. 17 Stunden, Ankunft Stockholm am nächsten Morgen."
+    "distance": "170 km",
+    "duration": "2:00",
+    "mode": "drive",
+    "routeDescription": "Frühfähre Tallinn→Helsinki (2 Std., Auto an Bord). Dann über die E18 Helsinki→Turku (170 km, 2 Std.). Abends Viking Line Nachtfähre Turku→Stockholm (20:55 Uhr, Ankunft 07:30)."
   },
   "evCharging": {
     "stopsNeeded": 0,
-    "notes": "WICHTIG: Vor dem Boarding in Tallinn unbedingt voll laden! An Bord gibt es keine Lademöglichkeit. Voller Akku wird für die Weiterfahrt ab Stockholm benötigt. ACHTUNG FAHRPLAN: Die Tallink Baltic Queen fährt im Mai 2026 voraussichtlich nur an geraden Tagen ab Tallinn — der 13. Mai ist ungerade! Fahrplan unbedingt bei Tallink prüfen. Plan B: Fähre am 12. Mai nehmen, oder via Helsinki und Turku→Stockholm ausweichen.",
-    "criticalLevel": "yellow"
+    "notes": "Helsinki→Turku (170 km) ohne Ladestopp machbar. Hervorragendes Netz entlang der E18 (Fortum, K-Lataus). Vor Boarding in Turku voll laden! Viking Line bietet evtl. Laden an Bord (vorab buchen).",
+    "criticalLevel": "green"
   },
   "activities": [
-    { "highlightRef": "Linnahall", "note": "Vormittags" },
-    { "highlightRef": "Kalamaja — Holzhäuser-Viertel", "note": "Spaziergang durch Cafés und Boutiquen" },
-    "Letzte Souvenirs und estnische Schokolade (Kalev) einpacken",
-    "Nachmittags Einschiffen auf die Tallink-Fähre nach Stockholm",
-    "Kabinennacht auf der Ostsee – Sonnenuntergang vom Deck genießen, Bordrestaurant und Duty-Free-Shopping"
+    "Frühfähre Tallinn→Helsinki (07:30 Uhr, ~2 Std., Eckerö Line oder Tallink) — Auto an Bord, Frühstück auf der Fähre",
+    { "highlightRef": "Marktplatz & Alte Markthalle (Vanha Kauppahalli)", "note": "Ankunft Helsinki ~09:30 — Lachssuppe zum zweiten Frühstück" },
+    { "highlightRef": "Felsenkirche Temppeliaukio", "note": "In den Fels gesprengte Kirche — einzigartig, 30 Min. reichen" },
+    { "highlightRef": "Dom von Helsinki", "note": "Kurzer Fotostopp am Senatsplatz" },
+    "Fahrt Helsinki→Turku über die E18 (170 km, ~2 Std.) — Bilderbuch-Finnland mit Seen und Birkenwäldern",
+    { "highlightRef": "Burg von Turku", "note": "Finnlands älteste Burg aus dem 13. Jh. — unbedingt 1,5–2 Stunden einplanen" },
+    { "highlightRef": "Dom von Turku", "note": "Finnlands bedeutendste mittelalterliche Kirche, 10 Min. Fußweg von der Burg" },
+    { "highlightRef": "Aura-Fluss Promenade", "note": "Abendspaziergang und Dinner an den Restaurantbooten" },
+    "20:55 Uhr Viking Line Nachtfähre Turku→Stockholm — Kabinennacht durch den Turku-Archipel (20.000 Inseln!)"
   ]
 }
