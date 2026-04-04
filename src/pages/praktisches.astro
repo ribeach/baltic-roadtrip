@@ -87,7 +87,8 @@ const evRules = [
                 <td class="px-3 py-3">{country.data.evCharging.medianDcPrice}</td>
                 <td class="px-3 py-3">{
                   (() => {
-                    const prices = country.data.evCharging.medianDcPrice.match(/[\d.]+/g);
+                    const priceString = country.data.evCharging.medianDcPrice.replace(/,/g, '.');
+                    const prices = priceString.match(/[\d.]+/g);
                     if (prices && prices.length >= 1) {
                       const low = Math.round(parseFloat(prices[0]) * 54);
                       const high = prices.length >= 2 ? Math.round(parseFloat(prices[1]) * 54) : Math.round(parseFloat(prices[0]) * 54);
