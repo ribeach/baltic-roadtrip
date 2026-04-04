@@ -50,6 +50,17 @@ for (const loc of [location, ...additionalLocations].filter(Boolean)) {
   }
 }
 
+// Build POIs from highlights of all locations visited this day
+const dayPois = [location, ...additionalLocations]
+  .filter(Boolean)
+  .flatMap(loc => loc!.data.highlights.map(h => ({
+    name: h.name,
+    lat: h.coordinates.lat,
+    lng: h.coordinates.lng,
+    category: 'highlight' as const,
+    googleMapsUrl: h.googleMapsUrl,
+  })));
+
 const mapLocations = [];
 if (prevLocation) {
   mapLocations.push({
@@ -67,6 +78,15 @@ if (location) {
     lng: location.data.coordinates.lng,
   });
 }
+
+const isDrivingDay = day.driving && day.driving.mode !== 'none' && mapLocations.length > 1;
+const showCityMap = !isDrivingDay && location;
+const cityMapLocations = showCityMap ? [{
+  id: location!.data.id,
+  name: location!.data.name,
+  lat: location!.data.coordinates.lat,
+  lng: location!.data.coordinates.lng,
+}] : [];
 ---
 
 <BaseLayout title={`Tag ${day.dayNumber}: ${day.title}`}>
@@ -103,15 +123,28 @@ if (location) {
       )}
     </div>
 
-    <!-- Map (if driving day) -->
-    {day.driving && day.driving.mode !== 'none' && mapLocations.length > 1 && (
+    <!-- Map (driving day with route) -->
+    {isDrivingDay && (
       <div class="mb-8">
         <RouteMap
           client:visible
           locations={mapLocations}
+          pois={dayPois}
           apiKey={apiKey}
           height="300px"
-          singleDay
+        />
+      </div>
+    )}
+
+    <!-- Map (stationary / city day with highlights) -->
+    {showCityMap && dayPois.length > 0 && (
+      <div class="mb-8">
+        <RouteMap
+          client:visible
+          locations={cityMapLocations}
+          pois={dayPois}
+          apiKey={apiKey}
+          height="300px"
         />
       </div>
     )}

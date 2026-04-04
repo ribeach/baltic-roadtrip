@@ -7,6 +7,7 @@ interface MapLocation {
   lng: number;
   dayNumber?: number;
   link?: string;
+  label?: string;
 }
 
 interface POI {
@@ -127,7 +128,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
             map,
             title: loc.name,
             label: {
-              text: loc.dayNumber ? String(loc.dayNumber) : String(i + 1),
+              text: loc.label ?? (loc.dayNumber ? String(loc.dayNumber) : String(i + 1)),
               color: '#1a1a2e',
               fontWeight: 'bold',
               fontSize: '11px',
