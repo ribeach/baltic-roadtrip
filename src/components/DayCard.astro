@@ -21,7 +21,7 @@ interface Props {
 }
 
 const { dayNumber, date, title, subtitle, driving, evCharging, activities, locationId, isLeft } = Astro.props;
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 
 const dateObj = new Date(date);
 dateObj.setHours(12);

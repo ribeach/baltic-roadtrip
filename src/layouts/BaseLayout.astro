@@ -9,7 +9,7 @@ interface Props {
 }
 
 const { title, description = 'Roadtrip durch das Baltikum — 17 Tage, 6 Länder, 1 Elektroauto' } = Astro.props;
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 
 <!doctype html>
