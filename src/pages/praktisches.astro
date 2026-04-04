@@ -22,10 +22,12 @@ const essentialApps = [
 ];
 
 const ferryOptions = [
-  { route: 'Tallinn → Stockholm', operator: 'Tallink (Baltic Queen)', duration: '~16–17h (Nachtfähre)', price: '285–430 € gesamt (Auto + 2 Pers. + Kabine)', note: 'Empfohlen. Fahrplan prüfen (variiert saisonal). Früh buchen!' },
-  { route: 'Tallinn → Helsinki', operator: 'Tallink / Eckerö Line', duration: '2–2,5h', price: '30–60 € p.P. (Fußgänger)', note: 'Für Helsinki-Tagesausflug. 12+ Abfahrten täglich.' },
-  { route: 'Helsinki → Stockholm', operator: 'Viking Line / Tallink Silja', duration: '~17h (Nachtfähre)', price: '200–350 € (Auto + Kabine)', note: 'Alternative via Finnland. Schären-Panorama.' },
-  { route: 'Klaipėda → Smiltynė (Kurische Nehrung)', operator: 'Lokale Fähre', duration: '~10 Min', price: '~18 € Hin+Rück (Auto)', note: 'Alle 20–30 Min. Bezahlung am Terminal.' },
+  { route: 'Tallinn → Stockholm', operator: 'Tallink (Baltic Queen)', duration: '~16–17h (Nachtfähre)', price: '285–430 € gesamt (Auto + 2 Pers. + Kabine)', note: 'ACHTUNG: Im Mai 2026 voraussichtlich nur an geraden Tagen ab Tallinn. Fahrplan unbedingt bei Tallink prüfen! Früh buchen.' },
+  { route: 'Tallinn → Helsinki', operator: 'Tallink / Eckerö Line', duration: '2–2,5h', price: '30–60 € p.P. (Fußgänger) / 50–90 € (Auto)', note: 'Für Helsinki-Tagesausflug oder als Startpunkt der Finnland-Route. 12+ Abfahrten täglich.' },
+  { route: 'Turku → Stockholm', operator: 'Viking Line / Tallink Silja', duration: '~11h (Nachtfähre)', price: '200–350 € (Auto + Kabine)', note: 'Alternative via Finnland. Fahrt durch den Turku-Archipel — eine der schönsten Fährstrecken Europas.' },
+  { route: 'Klaipėda → Smiltynė (Kurische Nehrung)', operator: 'Lokale Fähre', duration: '~10 Min', price: '~23 € Hin+Rück (Auto)', note: 'Alle 20–30 Min. Bezahlung am Terminal. E-Autos im Mai kostenlos auf der Nehrung (Neringa-Gebühr entfällt).' },
+  { route: 'Trelleborg → Rostock (Heimreise)', operator: 'TT-Line / Stena Line', duration: '~6h', price: '150–300 € (Auto + 2 Pers.)', note: 'Empfohlene Heimreise-Option. Nachtfähre am Vorabend, morgens in Rostock, dann Autobahn nach Aalen.' },
+  { route: 'Gothenburg → Kiel (Heimreise)', operator: 'Stena Line', duration: '~14h (Nachtfähre)', price: '300–450 € (Auto + 2 Pers. + Kabine)', note: 'Komfort-Upgrade: Abfahrt 17:45, Ankunft 09:15. EV-Laden an Bord möglich (6 Plätze, vorab buchen!).' },
 ];
 
 const evRules = [
@@ -135,16 +137,16 @@ const evRules = [
       <h2 class="text-2xl font-bold text-navy-800 mb-4">🔴 Kritische Strecken</h2>
       <div class="space-y-3">
         <div class="bg-red-50 border border-red-200 rounded-xl p-4">
-          <h3 class="font-bold text-red-800">Kurische Nehrung (Litauen)</h3>
-          <p class="text-sm text-red-700 mt-1">KEINE Schnelllader auf der Nehrung — nur 11 kW AC in Nida. In Klaipėda (Renerga 120 kW, Baltijos pr. 40) auf 100% laden. Rundfahrt ~100 km, kein Problem bei voller Batterie.</p>
+          <h3 class="font-bold text-red-800">Kurische Nehrung mit Übernachtung in Nida</h3>
+          <p class="text-sm text-red-700 mt-1">KEINE Schnelllader auf der Nehrung — nur 11 kW AC in Nida. In Klaipėda (Renerga 120 kW, Baltijos pr. 40) auf 100% laden. Hinfahrt ~50 km, kein Problem. Über Nacht am AC-Lader in Nida hängen — reicht für die Rückfahrt nach Klaipėda. Dort Schnellladen vor der Weiterfahrt nach Riga.</p>
         </div>
         <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-4">
-          <h3 class="font-bold text-yellow-800">Danzig → Vilnius (~600 km)</h3>
-          <p class="text-sm text-yellow-700 mt-1">Längste Etappe. In Danzig vollladen, Stopp am ORLEN 400 kW Hub bei Nowy Dwór Gdański, dann nochmal bei Suwałki oder Marijampolė nachladen.</p>
+          <h3 class="font-bold text-yellow-800">Masuren → Vilnius (Suwalki-Korridor)</h3>
+          <p class="text-sm text-yellow-700 mt-1">In Masuren auf 80%+ laden (GreenWay in Giżycko/Mikołajki). Der Suwalki-Korridor zwischen Polen und Litauen hat lückenhafte Ladeinfrastruktur — Stopp bei Suwałki oder nach der Grenze bei Marijampolė einplanen.</p>
         </div>
         <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-4">
           <h3 class="font-bold text-yellow-800">Vor der Fähre in Tallinn</h3>
-          <p class="text-sm text-yellow-700 mt-1">Kein Laden an Bord! Auto mit min. 20% SOC verladen. Nach Ankunft in Stockholm sind Schnelllader verfügbar.</p>
+          <p class="text-sm text-yellow-700 mt-1">Kein Laden an Bord der Tallink-Fähre! Auto mit min. 20% SOC verladen. ACHTUNG: Baltic Queen fährt im Mai nur an geraden Tagen — Fahrplan prüfen! Nach Ankunft in Stockholm sind Schnelllader verfügbar.</p>
         </div>
       </div>
     </section>
@@ -285,7 +287,8 @@ const evRules = [
           <ul class="space-y-1 text-sm text-red-700">
             <li>• Berlin Hotel (30.4.–1.5.)</li>
             <li>• Danzig Hotel (Majówka!)</li>
-            <li>• Tallinn→Stockholm Fähre</li>
+            <li>• Tallinn→Stockholm Fähre (Fahrplan prüfen!)</li>
+            <li>• Heimreise-Fähre (Trelleborg oder Gothenburg)</li>
             <li>• Ertlio Namas Vilnius</li>
             <li>• Līgatne Bunker-Tour</li>
           </ul>
@@ -294,6 +297,8 @@ const evRules = [
           <h3 class="font-bold text-yellow-800 mb-2">🟡 2–4 Wochen vorher</h3>
           <ul class="space-y-1 text-sm text-yellow-700">
             <li>• Alle Baltikum-Hotels</li>
+            <li>• Hotel Zamek Ryn (Masuren)</li>
+            <li>• Nida Unterkunft (Kurische Nehrung)</li>
             <li>• Rataskaevu 16 Tallinn</li>
             <li>• Helsinki-Fähre</li>
           </ul>

@@ -1,20 +1,28 @@
 {
   "dayNumber": 12,
   "date": "2026-05-11",
-  "title": "Tallinn in voller Pracht",
-  "subtitle": "Mittelalterliche Gassen, Seefahrermuseum und Unterwasser-Steinbruch",
+  "title": "Gauja-Nationalpark und weiter nach Tallinn",
+  "subtitle": "Ritterburgen, Sowjetbunker und estnische Abendluft",
   "locationId": "tallinn",
-  "previousLocationId": null,
+  "previousLocationId": "riga",
   "overnightLocationId": "tallinn",
-  "driving": null,
-  "evCharging": null,
+  "additionalLocationIds": ["sigulda-gauja"],
+  "driving": {
+    "distance": "370 km",
+    "duration": "5:00",
+    "mode": "drive",
+    "routeDescription": "Zunächst Abstecher nach Sigulda im Gauja-Nationalpark (50 km nordöstlich von Riga), dann zurück auf die E67 Via Baltica Richtung Norden über Pärnu nach Tallinn."
+  },
+  "evCharging": {
+    "stopsNeeded": 1,
+    "notes": "Laden in Sigulda während der Besichtigung oder unterwegs im Raum Pärnu. Estlands Ladenetz ist gut ausgebaut.",
+    "criticalLevel": "green"
+  },
   "activities": [
-    { "highlightRef": "Toompea — Kohtuotsa & Patkuli Aussichtsplattformen", "note": "Morgendlicher Rundgang durch verwinkelte Gassen" },
-    { "highlightRef": "Lennusadam — Maritimes Museum", "note": "U-Boot Lembit, Eisbrecher und Flugboote" },
-    { "highlightRef": "Balti Jaama Turg — Markt", "note": "Mittagessen am hippen Streetfood-Markt" },
-    { "highlightRef": "Telliskivi Creative City", "note": "Dazu Fotografiska Tallinn" },
-    { "highlightRef": "Rummu Steinbruch", "note": "Nachmittagsausflug — 90 km Rundfahrt" },
-    "Abendessen im Rataskaevu 16 – estnische Küche in gemütlichem Altstadtambiente",
-    "Cocktails in der Whisper Sister – Speakeasy-Bar hinter einer versteckten Tür"
+    { "highlightRef": "Turaida Burg", "note": "Vormittags im Gauja-Nationalpark" },
+    { "highlightRef": "Gutmanis-Höhle", "note": "Lettlands größte Höhle mit jahrhundertealten Inschriften" },
+    { "highlightRef": "Līgatne Geheimer Sowjetbunker", "note": "Surreale Führung unter einem Sanatorium" },
+    "Weiterfahrt nach Tallinn über die Via Baltica",
+    "Ankunft in Tallinn am Abend, erster Spaziergang durch die mittelalterliche Altstadt"
   ]
 }

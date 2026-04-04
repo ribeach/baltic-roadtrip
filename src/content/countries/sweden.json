@@ -16,7 +16,7 @@
   },
   "driving": {
     "speedLimits": { "urban": 50, "rural": 70, "motorway": 110 },
-    "tolls": "Stockholm City-Maut: Mo–Fr 6:00–18:29, SEK 11–45 pro Passage (automatische Kennzeichen-Erfassung, Rechnung kommt per Post). Öresundbrücke ca. 55 €.",
+    "tolls": "Stockholm City-Maut: Mo–Fr 6:00–18:29, SEK 11–45 pro Passage (automatische Kennzeichen-Erfassung, Rechnung kommt per Post). Öresundbrücke ca. 63 € (470 DKK, online günstiger ab 420 DKK).",
     "specialRules": "Öresundbrücke bei Rückreise über Dänemark einplanen."
   },
   "culinary": {

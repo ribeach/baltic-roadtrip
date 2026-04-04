@@ -14,7 +14,7 @@
   },
   "evCharging": {
     "stopsNeeded": 0,
-    "notes": "WICHTIG: Vor dem Boarding in Tallinn unbedingt voll laden! An Bord gibt es keine Lademöglichkeit. Voller Akku wird für die Weiterfahrt ab Stockholm benötigt.",
+    "notes": "WICHTIG: Vor dem Boarding in Tallinn unbedingt voll laden! An Bord gibt es keine Lademöglichkeit. Voller Akku wird für die Weiterfahrt ab Stockholm benötigt. ACHTUNG FAHRPLAN: Die Tallink Baltic Queen fährt im Mai 2026 voraussichtlich nur an geraden Tagen ab Tallinn — der 13. Mai ist ungerade! Fahrplan unbedingt bei Tallink prüfen. Plan B: Fähre am 12. Mai nehmen, oder via Helsinki und Turku→Stockholm ausweichen.",
     "criticalLevel": "yellow"
   },
   "activities": [

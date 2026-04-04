@@ -1,30 +1,30 @@
 {
   "dayNumber": 9,
   "date": "2026-05-08",
-  "title": "Berg der Kreuze und auf nach Riga",
-  "subtitle": "Pilgerort im Niemandsland und lettische Hauptstadt",
-  "locationId": "riga",
+  "title": "Kurische Nehrung — Übernachtung in Nida",
+  "subtitle": "Wandernde Dünen, Hexen und Sonnenuntergang am Ende der Welt",
+  "locationId": "curonian-spit",
   "previousLocationId": "klaipeda",
-  "overnightLocationId": "riga",
-  "additionalLocationIds": ["hill-of-crosses", "rundale"],
+  "overnightLocationId": "curonian-spit",
   "driving": {
-    "distance": "400 km",
-    "duration": "5:00",
+    "distance": "100 km",
+    "duration": "2:30",
     "mode": "drive",
-    "routeDescription": "Über die Küstenstraße Richtung Norden nach Šiauliai, dann weiter über die A12 zur lettischen Grenze und auf der A8 nach Riga."
+    "routeDescription": "Fähre von Klaipėda (Smiltynė) auf die Kurische Nehrung, dann die einzige Straße Richtung Süden über Juodkrantė bis Nida nahe der russischen Grenze. Übernachtung auf der Nehrung — kein Rückfahrt-Stress."
   },
   "evCharging": {
-    "stopsNeeded": 1,
-    "notes": "Ein Ladestopp im Raum Šiauliai oder an der lettischen Grenze. Gute Abdeckung entlang der Hauptstraßen.",
-    "criticalLevel": "green"
+    "stopsNeeded": 0,
+    "notes": "ACHTUNG: Keine Schnellladestationen auf der Kurischen Nehrung! Unbedingt in Klaipėda auf 100 % laden. Die Fahrt (ca. 50 km einfach) ist mit voller Batterie problemlos. In Nida gibt es langsame AC-Lader (11 kW) für die Nacht — morgens genug Reichweite für die Rückfahrt.",
+    "criticalLevel": "red"
   },
   "activities": [
-    "Morgendlicher Aufbruch aus Klaipėda Richtung Šiauliai",
-    { "highlightRef": "Berg der Kreuze" },
-    "Grenzübertritt nach Lettland",
-    { "highlightRef": "Schloss Rundāle — Innenräume", "note": "Optional — das ‚Versailles des Baltikums'" },
-    "Ankunft in Riga am späten Nachmittag",
-    { "highlightRef": "Rigaer Zentralmarkt", "note": "Abendlicher Rundgang durch die ehemaligen Zeppelinhallen" },
-    "Black Balsam probieren in der Black Magic Bar: Lettlands legendärer Kräuterlikör im mittelalterlichen Gewölbe"
+    "Fährüberfahrt von Klaipėda nach Smiltynė – kurze Überfahrt über das Haff",
+    { "highlightRef": "Hexenberg (Raganų Kalnas) Juodkrantė", "note": "Mystischer Skulpturenweg durch Kiefernwald" },
+    { "highlightRef": "Parnidis-Düne", "note": "52 Meter hohe Wanderdüne — ABENDS zum Sonnenuntergang wiederkommen!" },
+    { "highlightRef": "Nida Fischerdorf", "note": "Bummel durch bunt bemalte Holzhäuser" },
+    "Mittagessen: frisch geräucherter Fisch direkt am Haff – Spezialität der Nehrung",
+    { "highlightRef": "Thomas-Mann-Haus Nida" },
+    "Sonnenuntergang auf der Parnidis-Düne — DAS Highlight der Nehrung, das Tagesgäste nie erleben",
+    "Nachtspaziergang am menschenleeren Strand unter endlosem Himmel"
   ]
 }

@@ -16,7 +16,7 @@
   },
   "driving": {
     "speedLimits": { "urban": 50, "rural": 80, "motorway": 130 },
-    "tolls": "Storebælt-Brücke: ~40 € (Pkw, BroBizz oder Karte). Øresundbrücke: ~55 € (Pkw, vorher online günstiger).",
+    "tolls": "Storebælt-Brücke: ~53 € (Pkw, 235 DKK bar/Karte, online 205 DKK). Øresundbrücke: ~63 € (Pkw, 470 DKK, online 420 DKK). Beide nur relevant bei Rückreise über Dänemark.",
     "specialRules": "Abblendlicht 24/7 Pflicht. 0,5 ‰ Promillegrenze. Warndreieck Pflicht."
   },
   "culinary": {

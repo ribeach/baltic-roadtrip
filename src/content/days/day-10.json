@@ -1,21 +1,30 @@
 {
   "dayNumber": 10,
   "date": "2026-05-09",
-  "title": "Riga – Jugendstil und Markthallen",
-  "subtitle": "Fassadenkunst, Kirchturmblick und Moorwanderung",
+  "title": "Von Nida über den Berg der Kreuze nach Riga",
+  "subtitle": "Dünen-Sonnenaufgang, Pilgerort und lettische Hauptstadt",
   "locationId": "riga",
-  "previousLocationId": null,
+  "previousLocationId": "curonian-spit",
   "overnightLocationId": "riga",
-  "driving": null,
-  "evCharging": null,
+  "additionalLocationIds": ["hill-of-crosses"],
+  "driving": {
+    "distance": "450 km",
+    "duration": "5:30",
+    "mode": "drive",
+    "routeDescription": "Morgens Rückfähre von der Nehrung nach Klaipėda, dann über die Küstenstraße Richtung Norden nach Šiauliai (Berg der Kreuze), weiter über die A12 zur lettischen Grenze und auf der A8 nach Riga."
+  },
+  "evCharging": {
+    "stopsNeeded": 2,
+    "notes": "Morgens nur mit AC-Ladung aus Nida gestartet — ersten Schnelllade-Stopp in Klaipėda einplanen! Zweiter Stopp im Raum Šiauliai oder an der lettischen Grenze.",
+    "criticalLevel": "yellow"
+  },
   "activities": [
-    { "highlightRef": "Alberta iela — Jugendstil-Fassaden", "note": "Nirgendwo in Europa stehen mehr Art-Nouveau-Fassaden auf einem Fleck" },
-    { "highlightRef": "Rigaer Jugendstil-Museum" },
-    { "highlightRef": "Schwarzhäupterhaus", "note": "Altstadtrundgang" },
-    { "highlightRef": "Petrikirche — Turmaussicht", "note": "Aufzug zur Aussichtsplattform für Panoramablick" },
-    { "highlightRef": "Rigaer Zentralmarkt", "note": "Morgenbesuch — frisches Brot, Räucherfisch und lettischer Käse" },
-    { "highlightRef": "Großer Ķemeri-Moor-Steg (Jūrmala)", "note": "Nachmittagsausflug" },
-    "Abendessen im 3 Pavāru – drei Köche, drei Küchen, ein Restaurant",
-    "Craft Beer im Labietis – experimentelle Braukunst mit Zutaten aus lettischen Wäldern"
+    "Sonnenaufgang auf der Parnidis-Düne — Nidas magischster Moment, den nur Übernachtungsgäste erleben",
+    "Fähre zurück nach Klaipėda, Schnellladung am Renerga-Lader",
+    { "highlightRef": "Berg der Kreuze" },
+    "Grenzübertritt nach Lettland",
+    "Ankunft in Riga am späten Nachmittag",
+    { "highlightRef": "Rigaer Zentralmarkt", "note": "Abendlicher Rundgang durch die ehemaligen Zeppelinhallen" },
+    "Black Balsam probieren in der Black Magic Bar: Lettlands legendärer Kräuterlikör im mittelalterlichen Gewölbe"
   ]
 }

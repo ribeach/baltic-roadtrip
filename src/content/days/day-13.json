@@ -1,30 +1,23 @@
 {
   "dayNumber": 13,
   "date": "2026-05-12",
-  "title": "Lahemaa oder Helsinki – Tag der Wahl",
-  "subtitle": "Estnische Wildnis oder finnische Hauptstadt per Fähre",
+  "title": "Tallinn in voller Pracht",
+  "subtitle": "Mittelalterliche Gassen, Seefahrermuseum und kreatives Kalamaja",
   "locationId": "tallinn",
-  "previousLocationId": "tallinn",
+  "previousLocationId": null,
   "overnightLocationId": "tallinn",
   "additionalLocationIds": ["lahemaa", "helsinki"],
-  "driving": {
-    "distance": "0 km",
-    "duration": "0:00",
-    "mode": "ferry",
-    "routeDescription": "Option A: Tagesausflug in den Lahemaa-Nationalpark (ca. 70 km östlich von Tallinn, eigenes Auto). Option B: Fußpassagier-Fähre Tallinn–Helsinki (2 Std. pro Richtung), Auto bleibt in Tallinn."
-  },
-  "evCharging": {
-    "stopsNeeded": 0,
-    "notes": "Bei Option A: Reichweite für Lahemaa-Rundfahrt prüfen. Bei Option B: Auto bleibt geparkt in Tallinn – keine Ladung nötig.",
-    "criticalLevel": "green"
-  },
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    { "highlightRef": "Viru-Moor-Lehrpfad", "note": "OPTION A — Lahemaa" },
-    { "highlightRef": "Jägala Wasserfall", "note": "OPTION A" },
-    { "highlightRef": "Käsmu — Kapitänsdorf", "note": "OPTION A" },
-    "OPTION B – Helsinki: Fähre am Morgen, Festungsinsel Suomenlinna (UNESCO-Weltkulturerbe) erkunden",
-    "OPTION B: Kauppatori (Marktplatz) am Hafen – finnische Lachssuppe und Zimtschnecken",
-    "OPTION B: Oodi-Zentralbibliothek besichtigen – architektonisches Meisterwerk und Finnlands ganzer Stolz",
-    "Abends zurück in Tallinn – letzter Abend in der estnischen Hauptstadt"
+    { "highlightRef": "Toompea — Kohtuotsa & Patkuli Aussichtsplattformen", "note": "Morgendlicher Rundgang durch verwinkelte Gassen" },
+    { "highlightRef": "Lennusadam — Maritimes Museum", "note": "U-Boot Lembit, Eisbrecher und Flugboote" },
+    { "highlightRef": "Balti Jaama Turg — Markt", "note": "Mittagessen am hippen Streetfood-Markt" },
+    { "highlightRef": "Telliskivi Creative City", "note": "Dazu Fotografiska Tallinn" },
+    { "highlightRef": "Kalamaja — Holzhäuser-Viertel", "note": "Cafés und Boutiquen im Szeneviertel" },
+    "ALTERNATIVE VORMITTAGS: Lahemaa-Nationalpark (Viru-Moor, Käsmu Kapitänsdorf) statt Stadtprogramm — 70 km östlich, eigenes Auto",
+    "ALTERNATIVE: Helsinki-Tagesausflug per Fußpassagier-Fähre (2 Std., Auto bleibt in Tallinn) — Suomenlinna, Kauppatori, Oodi-Bibliothek",
+    "Abendessen im Rataskaevu 16 – estnische Küche in gemütlichem Altstadtambiente",
+    "Cocktails in der Whisper Sister – Speakeasy-Bar hinter einer versteckten Tür"
   ]
 }
