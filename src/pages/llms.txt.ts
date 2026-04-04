@@ -33,6 +33,7 @@ export const GET: APIRoute = async () => {
   ln('> 17-Tage-Roadtrip mit E-Auto (VW ID.4, 77 kWh) durch 7 Länder: Deutschland, Polen, Litauen, Lettland, Estland, Finnland, Schweden. ~4.000 km Gesamtstrecke. 30. April – 16. Mai 2026.');
   ln();
   ln('Website: https://ribeach.github.io/baltic-roadtrip/');
+  ln('Repo: https://github.com/ribeach/baltic-roadtrip');
   ln('Vollständige Daten (JSON): https://ribeach.github.io/baltic-roadtrip/api/trip.json');
   ln();
 
