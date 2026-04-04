@@ -17,7 +17,7 @@
     { "highlightRef": "Kalamaja — Holzhäuser-Viertel", "note": "Cafés und Boutiquen im Szeneviertel" },
     "ALTERNATIVE VORMITTAGS: Lahemaa-Nationalpark (Viru-Moor, Käsmu Kapitänsdorf) statt Stadtprogramm — 70 km östlich, eigenes Auto",
     "ALTERNATIVE: Helsinki-Tagesausflug per Fußpassagier-Fähre (2 Std., Auto bleibt in Tallinn) — Suomenlinna, Kauppatori, Oodi-Bibliothek",
-    { "highlightRef": "Rataskaevu 16", "note": "Estnische Küche in gemütlichem Altstadtambiente" },
-    { "highlightRef": "Whisper Sister", "note": "Speakeasy-Bar hinter einer versteckten Tür" }
+    { "restaurantRef": "Rataskaevu 16", "note": "Estnische Küche in gemütlichem Altstadtambiente" },
+    { "nightlifeRef": "Whisper Sister", "note": "Speakeasy-Bar hinter einer versteckten Tür" }
   ]
 }

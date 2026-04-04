@@ -161,34 +161,6 @@
         "lat": 59.449757299999995,
         "lng": 24.740069
       }
-    },
-    {
-      "name": "Rataskaevu 16",
-      "type": "culinary",
-      "icon": "gem",
-      "description": "In einem Haus aus dem 15. Jahrhundert serviert dieses beliebte Restaurant moderne estnische Küche mit saisonalen Zutaten. Reservierung dringend empfohlen.",
-      "duration": "1.5-2h",
-      "price": "€€",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rataskaevu%20tn%2016&query_place_id=ChIJh9m5e2KTkkYRrXdDs-JBVK4",
-      "placeId": "ChIJh9m5e2KTkkYRrXdDs-JBVK4",
-      "coordinates": {
-        "lat": 59.4369781,
-        "lng": 24.7423832
-      }
-    },
-    {
-      "name": "Whisper Sister",
-      "type": "culinary",
-      "icon": "gem",
-      "description": "Gilt als die beste Cocktailbar des gesamten Baltikums. Speakeasy-Konzept: Man muss den Eingang finden und klopfen. Drinnen erwarten euch Weltklasse-Cocktails in Art-Déco-Ambiente.",
-      "duration": "1-2h",
-      "price": "€€-€€€",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Whisper%20Sister&query_place_id=ChIJwRoMF56UkkYRMzy7XcbCCS8",
-      "placeId": "ChIJwRoMF56UkkYRMzy7XcbCCS8",
-      "coordinates": {
-        "lat": 59.4346454,
-        "lng": 24.7473288
-      }
     }
   ],
   "restaurants": [

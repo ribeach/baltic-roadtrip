@@ -29,6 +29,14 @@ const days = defineCollection({
         highlightRef: z.string(),
         note: z.string().optional(),
       }),
+      z.object({
+        restaurantRef: z.string(),
+        note: z.string().optional(),
+      }),
+      z.object({
+        nightlifeRef: z.string(),
+        note: z.string().optional(),
+      }),
     ])),
   }),
 });

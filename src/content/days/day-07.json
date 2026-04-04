@@ -14,7 +14,7 @@
     { "highlightRef": "KGB-Museum (Museum der Okkupationen und Freiheitskämpfe)", "note": "Ca. 2 Stunden einplanen" },
     { "highlightRef": "Republik Užupis", "note": "Schutzengel-Statue nicht verpassen" },
     { "highlightRef": "Halės Turgus", "note": "Mittagspause — litauische Spezialitäten probieren" },
-    { "highlightRef": "Ertlio Namas", "note": "Gehobene litauische Küche in historischem Gewölbe" },
-    { "highlightRef": "Šnekutis", "note": "Urige Kneipe mit hauseigenem Met und Bier vom Fass" }
+    { "restaurantRef": "Ertlio Namas", "note": "Gehobene litauische Küche in historischem Gewölbe" },
+    { "nightlifeRef": "Šnekutis", "note": "Urige Kneipe mit hauseigenem Met und Bier vom Fass" }
   ]
 }

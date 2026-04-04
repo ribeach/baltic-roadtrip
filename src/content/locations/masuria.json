@@ -49,20 +49,6 @@
         "lat": 53.8027021,
         "lng": 21.5706044
       }
-    },
-    {
-      "name": "Restauracja Zamkowa (Refektarz)",
-      "type": "culinary",
-      "icon": "gem",
-      "description": "Das Burgrestaurant im Gewölbekeller von Zamek Ryn serviert traditionelle masurische und polnische Küche in atmosphärischer Umgebung — Kerzenlicht unter gotischen Bögen.",
-      "duration": "1.5-2h",
-      "price": "€€",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restauracja%20Zamek%20Ryn&query_place_id=ChIJW3Qv1EUh4kYRS-EekxPXNpA",
-      "placeId": "ChIJW3Qv1EUh4kYRS-EekxPXNpA",
-      "coordinates": {
-        "lat": 53.9386975,
-        "lng": 21.5461554
-      }
     }
   ],
   "restaurants": [

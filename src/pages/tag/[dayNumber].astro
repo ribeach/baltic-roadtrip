@@ -2,9 +2,11 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EvIndicator from '../../components/EvIndicator.astro';
 import HighlightCard from '../../components/HighlightCard.astro';
+import RestaurantCard from '../../components/RestaurantCard.astro';
+import NightlifeCard from '../../components/NightlifeCard.astro';
 import RouteMap from '../../components/RouteMap.tsx';
 import { getCollection } from 'astro:content';
-import { resolveRef, getBase } from '../../lib/content';
+import { resolveRef, getBase, collectLocationPois, deduplicateMapPois } from '../../lib/content';
 
 export async function getStaticPaths() {
   const days = await getCollection('days');
@@ -40,25 +42,28 @@ const formattedDate = dateObj.toLocaleDateString('de-DE', { weekday: 'long', day
 
 const modeIcon = day.driving?.mode === 'ferry' ? '⛴️' : day.driving?.mode === 'drive' ? '🚗' : '📍';
 
-// Build highlight lookup from all locations visited this day
+// Build lookup maps from all locations visited this day
 const allHighlights = new Map<string, { name: string; type: string; icon: 'star' | 'gem' | 'info'; description: string; duration: string | null; price: string | null; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number } }>();
+const allRestaurants = new Map<string, { name: string; cuisine: string; priceRange: string; description: string; mustTry: string | null; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number } }>();
+const allNightlife = new Map<string, { name: string; description: string; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number } }>();
 for (const loc of [location, ...additionalLocations].filter(Boolean)) {
   for (const h of loc!.data.highlights) {
     allHighlights.set(h.name, h);
   }
+  for (const r of loc!.data.restaurants) {
+    allRestaurants.set(r.name, r);
+  }
+  for (const n of (loc!.data.nightlife || [])) {
+    allNightlife.set(n.name, n);
+  }
 }
 
-// Build POIs from highlights of all locations visited this day
-const dayPois = [location, ...additionalLocations]
-  .filter(Boolean)
-  .flatMap(loc => loc!.data.highlights.map(h => ({
-    name: h.name,
-    lat: h.coordinates.lat,
-    lng: h.coordinates.lng,
-    category: 'highlight' as const,
-    googleMapsUrl: h.googleMapsUrl,
-    placeId: h.placeId,
-  })));
+// Build POIs from ALL categories of all locations visited this day
+const dayPois = deduplicateMapPois(
+  [location, ...additionalLocations]
+    .filter(Boolean)
+    .flatMap(loc => collectLocationPois(loc!.data))
+);
 
 const mapLocations = [];
 if (prevLocation) {
@@ -197,30 +202,79 @@ const cityMapLocations = showCityMap ? [{
               </div>
             );
           }
-          const highlight = allHighlights.get(activity.highlightRef);
-          if (!highlight) {
+          if ('highlightRef' in activity) {
+            const highlight = allHighlights.get(activity.highlightRef);
+            if (!highlight) {
+              return (
+                <div class="flex items-start gap-3 bg-white rounded-lg p-3 border border-gray-100">
+                  <span class="bg-amber-400 text-navy-800 font-bold text-xs w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                    {i + 1}
+                  </span>
+                  <p class="text-gray-700">{activity.highlightRef}</p>
+                </div>
+              );
+            }
             return (
-              <div class="flex items-start gap-3 bg-white rounded-lg p-3 border border-gray-100">
-                <span class="bg-amber-400 text-navy-800 font-bold text-xs w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
-                  {i + 1}
-                </span>
-                <p class="text-gray-700">{activity.highlightRef}</p>
-              </div>
+              <HighlightCard
+                name={highlight.name}
+                type={highlight.type}
+                icon={highlight.icon}
+                description={highlight.description}
+                duration={highlight.duration}
+                price={highlight.price}
+                googleMapsUrl={highlight.googleMapsUrl}
+                number={i + 1}
+                note={activity.note}
+              />
             );
           }
-          return (
-            <HighlightCard
-              name={highlight.name}
-              type={highlight.type}
-              icon={highlight.icon}
-              description={highlight.description}
-              duration={highlight.duration}
-              price={highlight.price}
-              googleMapsUrl={highlight.googleMapsUrl}
-              number={i + 1}
-              note={activity.note}
-            />
-          );
+          if ('restaurantRef' in activity) {
+            const restaurant = allRestaurants.get(activity.restaurantRef);
+            if (!restaurant) {
+              return (
+                <div class="flex items-start gap-3 bg-white rounded-lg p-3 border border-gray-100">
+                  <span class="bg-amber-400 text-navy-800 font-bold text-xs w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                    {i + 1}
+                  </span>
+                  <p class="text-gray-700">{activity.restaurantRef}</p>
+                </div>
+              );
+            }
+            return (
+              <RestaurantCard
+                name={restaurant.name}
+                cuisine={restaurant.cuisine}
+                priceRange={restaurant.priceRange}
+                description={restaurant.description}
+                mustTry={restaurant.mustTry}
+                googleMapsUrl={restaurant.googleMapsUrl}
+                number={i + 1}
+                note={activity.note}
+              />
+            );
+          }
+          if ('nightlifeRef' in activity) {
+            const bar = allNightlife.get(activity.nightlifeRef);
+            if (!bar) {
+              return (
+                <div class="flex items-start gap-3 bg-white rounded-lg p-3 border border-gray-100">
+                  <span class="bg-amber-400 text-navy-800 font-bold text-xs w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
+                    {i + 1}
+                  </span>
+                  <p class="text-gray-700">{activity.nightlifeRef}</p>
+                </div>
+              );
+            }
+            return (
+              <NightlifeCard
+                name={bar.name}
+                description={bar.description}
+                googleMapsUrl={bar.googleMapsUrl}
+                number={i + 1}
+                note={activity.note}
+              />
+            );
+          }
         })}
       </div>
     </div>
