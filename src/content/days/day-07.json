@@ -19,10 +19,10 @@
     "criticalLevel": "green"
   },
   "activities": [
-    "Vormittags Trakai: die märchenhafte Inselburg im See besichtigen – Litauens Postkartenmotiv Nr. 1",
+    { "highlightRef": "Wasserburg Trakai", "note": "Vormittags — Litauens Postkartenmotiv Nr. 1" },
     "Kibinai-Mittagessen in Trakai – die gefüllten Teigtaschen der Karäer, einer turksprachigen Minderheit",
-    "Weiterfahrt nach Kaunas: Stopp am Neunten Fort – Gedenkstätte an die Schrecken der Besatzungszeit",
-    "Spaziergang über die Laisvės alėja, Europas längste Fußgängerzone",
-    "Ankunft in der Hafenstadt Klaipėda am Abend, Bummel durch die Altstadt mit Fachwerkhäusern"
+    { "highlightRef": "Neuntes Fort", "note": "Stopp auf der Weiterfahrt nach Kaunas" },
+    { "highlightRef": "Laisvės Alėja (Freiheitsallee)", "note": "Europas längste Fußgängerzone" },
+    { "highlightRef": "Altstadt mit Fachwerkhäusern", "note": "Bummel am Abend nach Ankunft in Klaipėda" }
   ]
 }

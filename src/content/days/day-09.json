@@ -20,11 +20,11 @@
   },
   "activities": [
     "Morgendlicher Aufbruch aus Klaipėda Richtung Šiauliai",
-    "Berg der Kreuze (Kryžių kalnas): surrealer Wallfahrtsort mit über 200.000 Kreuzen – Zeugnis unbeugsamen Glaubens gegen sowjetische Unterdrückung (30–60 Min.)",
+    { "highlightRef": "Berg der Kreuze" },
     "Grenzübertritt nach Lettland",
-    "Optional: Abstecher zum Schloss Rundāle – das ‚Versailles des Baltikums'",
+    { "highlightRef": "Schloss Rundāle — Innenräume", "note": "Optional — das ‚Versailles des Baltikums'" },
     "Ankunft in Riga am späten Nachmittag",
-    "Abendlicher Rundgang über den Rigaer Zentralmarkt – in den ehemaligen Zeppelinhallen, einem der größten Märkte Europas",
+    { "highlightRef": "Rigaer Zentralmarkt", "note": "Abendlicher Rundgang durch die ehemaligen Zeppelinhallen" },
     "Black Balsam probieren in der Black Magic Bar: Lettlands legendärer Kräuterlikör im mittelalterlichen Gewölbe"
   ]
 }

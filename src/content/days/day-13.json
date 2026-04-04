@@ -19,9 +19,9 @@
     "criticalLevel": "green"
   },
   "activities": [
-    "OPTION A – Lahemaa-Nationalpark: Viru-Hochmoor-Wanderung über Holzbohlenwege durch nebelverhangene Moorlandschaft",
-    "OPTION A: Jägala-Wasserfall – Estlands breitester Wasserfall",
-    "OPTION A: Fischerdorf Käsmu (‚Kapitänsdorf') mit seinen Findlingen und dem Meeresmuseum",
+    { "highlightRef": "Viru-Moor-Lehrpfad", "note": "OPTION A — Lahemaa" },
+    { "highlightRef": "Jägala Wasserfall", "note": "OPTION A" },
+    { "highlightRef": "Käsmu — Kapitänsdorf", "note": "OPTION A" },
     "OPTION B – Helsinki: Fähre am Morgen, Festungsinsel Suomenlinna (UNESCO-Weltkulturerbe) erkunden",
     "OPTION B: Kauppatori (Marktplatz) am Hafen – finnische Lachssuppe und Zimtschnecken",
     "OPTION B: Oodi-Zentralbibliothek besichtigen – architektonisches Meisterwerk und Finnlands ganzer Stolz",

@@ -19,9 +19,9 @@
     "criticalLevel": "green"
   },
   "activities": [
-    "Vormittags Sigulda im Gauja-Nationalpark: Burg Turaida mit Aussichtsturm über das bewaldete Urstromtal",
-    "Gutmanis-Höhle – Lettlands größte Höhle mit jahrhundertealten Inschriften",
-    "Geheimbunker in Līgatne: surreale Führung durch den geheimen Sowjet-Atombunker unter einem Sanatorium",
+    { "highlightRef": "Turaida Burg", "note": "Vormittags im Gauja-Nationalpark" },
+    { "highlightRef": "Gutmanis-Höhle", "note": "Lettlands größte Höhle mit jahrhundertealten Inschriften" },
+    { "highlightRef": "Līgatne Geheimer Sowjetbunker", "note": "Surreale Führung unter einem Sanatorium" },
     "Weiterfahrt nach Tallinn über die Via Baltica",
     "Ankunft in Tallinn am Abend, erster Spaziergang durch die mittelalterliche Altstadt"
   ]

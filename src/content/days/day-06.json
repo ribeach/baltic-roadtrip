@@ -9,10 +9,10 @@
   "driving": null,
   "evCharging": null,
   "activities": [
-    "Ausgedehnter Spaziergang durch die UNESCO-Altstadt: Kathedrale, Universität, Pilies gatvė",
-    "Aufstieg zum Gediminas-Turm – Panoramablick über die ganze Stadt",
-    "KGB-Museum (Museum der Opfer des Genozids): beklemmende Zeitreise durch Sowjet-Terror und Widerstand, ca. 2 Stunden",
-    "Grenzübertritt in die Republik Užupis – das selbsternannte Künstlerviertel mit eigener Verfassung und Schutzengel-Statue",
+    { "highlightRef": "UNESCO-Altstadt", "note": "Ausgedehnter Spaziergang: Kathedrale, Universität, Pilies gatvė" },
+    { "highlightRef": "Gediminas-Turm" },
+    { "highlightRef": "KGB-Museum (Museum der Okkupationen und Freiheitskämpfe)", "note": "Ca. 2 Stunden einplanen" },
+    { "highlightRef": "Republik Užupis", "note": "Schutzengel-Statue nicht verpassen" },
     "Mittagspause in der Halės Turgus Markthalle: litauische Spezialitäten probieren",
     "Abendessen im Ertlio Namas – gehobene litauische Küche in historischem Gewölbe",
     "Absacker im Šnekutis – urige Kneipe mit hauseigenem Met und Bier vom Fass"
