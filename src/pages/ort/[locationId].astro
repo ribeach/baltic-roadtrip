@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 const { location } = Astro.props;
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER';
 
 const allCountries = await getCollection('countries');

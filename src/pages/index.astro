@@ -97,17 +97,17 @@ const stats = [
   <!-- Quick Navigation -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-      <a href={`${import.meta.env.BASE_URL}kulinarik`} class="group bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-amber-200 transition-all">
+      <a href={`${import.meta.env.BASE_URL.replace(/\/?$/, '/')}kulinarik`} class="group bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-amber-200 transition-all">
         <span class="text-3xl">🍽️</span>
         <h3 class="font-bold text-navy-800 mt-2 group-hover:text-amber-500 transition-colors">Kulinarischer Guide</h3>
         <p class="text-sm text-gray-500 mt-1">Must-Try-Gerichte in jedem Land</p>
       </a>
-      <a href={`${import.meta.env.BASE_URL}praktisches`} class="group bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-amber-200 transition-all">
+      <a href={`${import.meta.env.BASE_URL.replace(/\/?$/, '/')}praktisches`} class="group bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-amber-200 transition-all">
         <span class="text-3xl">⚡</span>
         <h3 class="font-bold text-navy-800 mt-2 group-hover:text-amber-500 transition-colors">Praktische Infos</h3>
         <p class="text-sm text-gray-500 mt-1">E-Laden, Maut, Geschwindigkeit, Währungen</p>
       </a>
-      <a href={`${import.meta.env.BASE_URL}budget`} class="group bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-amber-200 transition-all">
+      <a href={`${import.meta.env.BASE_URL.replace(/\/?$/, '/')}budget`} class="group bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-amber-200 transition-all">
         <span class="text-3xl">💰</span>
         <h3 class="font-bold text-navy-800 mt-2 group-hover:text-amber-500 transition-colors">Budget</h3>
         <p class="text-sm text-gray-500 mt-1">Kostenschätzung pro Person und Land</p>
