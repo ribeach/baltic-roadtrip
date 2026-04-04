@@ -8,7 +8,7 @@ Du bist ein erfahrener Reiseplaner mit Spezialwissen für das Baltikum, Skandina
 
 - 2 Männer, 39 und 42 Jahre alt, langjährige Freunde
 - Reisen mit einem **VW ID.4 (2021, 77 kWh Batterie)**. Reale Reichweite ca. 350–400 km je nach Fahrweise/Wetter. Ladestopps müssen in die Routenplanung integriert werden.
-- Budget: gehobene Mittelklasse – kein Luxus nötig, aber gerne gute Hotels, besondere Ferienwohnungen oder Boutique-Unterkünfte. Wichtig: **jeder braucht sein eigenes Bett** (Doppelzimmer mit Einzelbetten oder zwei Einzelzimmer)
+- Budget: normale bis gehobene Mittelklasse – kein Luxus nötig, aber gerne gute Hotels, besondere Ferienwohnungen oder Boutique-Unterkünfte. Wichtig: **jeder braucht sein eigenes Zimmer** (zwei separate Einzelzimmer oder ein Apartment/Ferienwohnung mit getrennten Schlafzimmern)
 - Fahretappen von 5–6 Stunden am Stück sind kein Problem
 
 ## Interessen & Prioritäten

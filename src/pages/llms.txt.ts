@@ -37,6 +37,19 @@ export const GET: APIRoute = async () => {
   ln('Vollständige Daten (JSON): https://ribeach.github.io/baltic-roadtrip/api/trip.json');
   ln();
 
+  // Trip requirements
+  ln('## Reiseanforderungen');
+  ln();
+  ln('- Reisende: 2 Männer (39 und 42), langjährige Freunde');
+  ln('- Fahrzeug: VW ID.4 (2021, 77 kWh), reale Reichweite 350–400 km, max. DC-Ladeleistung 135 kW');
+  ln('- Budget: normale bis gehobene Mittelklasse — gute Hotels, Boutique-Unterkünfte oder Ferienwohnungen');
+  ln('- Unterkünfte: Zwei separate Einzelzimmer oder Apartment mit getrennten Schlafzimmern (kein geteiltes Zimmer)');
+  ln('- Interessen (Priorität): 1. Natur & Nationalparks, 2. Geschichte & Kultur (Sowjet-Erbe, Mittelalter, Hanse), 3. Lokale Küche & Food-Märkte, 4. Besondere Bars & Lokale am Abend');
+  ln('- Fahretappen von 5–6 Stunden am Stück sind kein Problem');
+  ln('- Kein Stress-Urlaub: Lieber weniger Orte richtig erleben als alles abhaken');
+  ln('- Feste Eckpunkte: 1. Mai in Berlin, Baltikum-Rundreise (LT/LV/EE), Fähre nach Stockholm, 2–3 Tage Halmstad (privat, keine Tipps nötig)');
+  ln();
+
   // Route overview table
   ln('## Route im Überblick');
   ln();
