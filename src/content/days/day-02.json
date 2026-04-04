@@ -10,7 +10,7 @@
   "evCharging": null,
   "activities": [
     "Ausschlafen nach der Walpurgisnacht – gemütlicher Start in den Feiertag",
-    "Kreuzberg und Mariannenplatz erkunden: das legendäre Myfest-Treiben als Zuschauer erleben",
+    { "highlightRef": "Kreuzberg & Mariannenplatz", "note": "Das legendäre Myfest-Treiben als Zuschauer erleben" },
     "Streetfood-Mittagessen in der Markthalle Neun – von Craft Beer bis Kimchi-Bratwurst",
     "Nachmittagsspaziergang am Landwehrkanal mit Stopp an einer der vielen Ufer-Bars",
     "Abendessen bei Zur letzten Instanz (Berlins ältestes Gasthaus, seit 1621) oder im Katz Orange für gehobene Farm-to-Table-Küche"

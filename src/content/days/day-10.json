@@ -9,11 +9,12 @@
   "driving": null,
   "evCharging": null,
   "activities": [
-    "Jugendstil-Safari durch die Alberta iela – nirgendwo in Europa stehen mehr Art-Nouveau-Fassaden auf einem Fleck",
-    "Rigaer Jugendstilmuseum: originalgetreu eingerichtete Wohnung aus der Belle Époque",
-    "Altstadtrundgang: Schwarzhäupterhaus, Dom, St.-Petri-Kirche (Aufzug zur Aussichtsplattform für Panoramablick)",
-    "Morgenbesuch am Zentralmarkt – frisches Brot, Räucherfisch und lettischer Käse",
-    "Nachmittagsausflug zum Ķemeri-Moor: Holzbohlenweg durch mystische Moorlandschaft mit Spiegelungen im Wasser",
+    { "highlightRef": "Alberta iela — Jugendstil-Fassaden", "note": "Nirgendwo in Europa stehen mehr Art-Nouveau-Fassaden auf einem Fleck" },
+    { "highlightRef": "Rigaer Jugendstil-Museum" },
+    { "highlightRef": "Schwarzhäupterhaus", "note": "Altstadtrundgang" },
+    { "highlightRef": "Petrikirche — Turmaussicht", "note": "Aufzug zur Aussichtsplattform für Panoramablick" },
+    { "highlightRef": "Rigaer Zentralmarkt", "note": "Morgenbesuch — frisches Brot, Räucherfisch und lettischer Käse" },
+    { "highlightRef": "Großer Ķemeri-Moor-Steg (Jūrmala)", "note": "Nachmittagsausflug" },
     "Abendessen im 3 Pavāru – drei Köche, drei Küchen, ein Restaurant",
     "Craft Beer im Labietis – experimentelle Braukunst mit Zutaten aus lettischen Wäldern"
   ]

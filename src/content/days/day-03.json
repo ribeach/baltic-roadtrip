@@ -20,7 +20,7 @@
   "activities": [
     "Morgendlicher Aufbruch aus Berlin nach dem Frühstück",
     "Ankunft am frühen Nachmittag in Gdańsk",
-    "Erster Bummel durch die Altstadt entlang des Długi Targ (Langer Markt) mit Neptunbrunnen und Artushof",
+    { "highlightRef": "Rechtstadt & Langer Markt", "note": "Erster Bummel entlang des Długi Targ mit Neptunbrunnen und Artushof" },
     "Abendessen an der Mottlau-Uferpromenade mit Blick auf das beleuchtete Krantor"
   ]
 }

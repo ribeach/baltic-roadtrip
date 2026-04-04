@@ -23,7 +23,13 @@ const days = defineCollection({
       notes: z.string(),
       criticalLevel: z.enum(['green', 'yellow', 'red']),
     }).nullable(),
-    activities: z.array(z.string()),
+    activities: z.array(z.union([
+      z.string(),
+      z.object({
+        highlightRef: z.string(),
+        note: z.string().optional(),
+      }),
+    ])),
   }),
 });
 

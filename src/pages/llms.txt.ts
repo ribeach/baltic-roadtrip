@@ -75,7 +75,7 @@ export const GET: APIRoute = async () => {
     if (d.evCharging) {
       ln(`EV-Laden: ${d.evCharging.notes}`);
     }
-    ln(`Aktivitäten: ${d.activities.join(' | ')}`);
+    ln(`Aktivitäten: ${d.activities.map((a: any) => typeof a === 'string' ? a : a.highlightRef).join(' | ')}`);
 
     if (locData && isFirstVisit) {
       if (locData.highlights.length > 0) {

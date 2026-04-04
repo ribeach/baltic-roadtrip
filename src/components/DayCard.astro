@@ -15,7 +15,7 @@ interface Props {
     criticalLevel: 'green' | 'yellow' | 'red';
     stopsNeeded: number;
   } | null;
-  activities: string[];
+  activities: (string | { highlightRef: string; note?: string })[];
   locationId: string;
   isLeft: boolean;
 }
@@ -75,7 +75,7 @@ const modeIcon = driving?.mode === 'ferry' ? '⛴️' : driving?.mode === 'drive
           {activities.slice(0, 3).map(activity => (
             <li class="text-sm text-gray-600 flex items-start gap-2">
               <span class="text-amber-400 mt-0.5">•</span>
-              <span>{activity}</span>
+              <span>{typeof activity === 'string' ? activity : activity.highlightRef}</span>
             </li>
           ))}
           {activities.length > 3 && (

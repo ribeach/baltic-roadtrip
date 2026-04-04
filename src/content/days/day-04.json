@@ -9,9 +9,9 @@
   "driving": null,
   "evCharging": null,
   "activities": [
-    "Museum des Zweiten Weltkriegs – eindrucksvolle, multimediale Ausstellung, mindestens 3–4 Stunden einplanen",
-    "Europäisches Solidarność-Zentrum auf dem ehemaligen Werftgelände: die Geschichte der Gewerkschaftsbewegung, die den Eisernen Vorhang ins Wanken brachte",
-    "Wasserbus zur Westerplatte – wo der Zweite Weltkrieg begann",
+    { "highlightRef": "Museum des Zweiten Weltkriegs", "note": "Mindestens 3–4 Stunden einplanen" },
+    { "highlightRef": "Europäisches Solidarność-Zentrum", "note": "Auf dem ehemaligen Werftgelände" },
+    { "highlightRef": "Westerplatte", "note": "Per Wasserbus erreichbar" },
     "Abendlicher Spaziergang am Ufer der Mottlau im goldenen Licht",
     "Pierogi-Festmahl bei Pierogarnia Mandu – handgemachte Teigtaschen in unzähligen Variationen"
   ]

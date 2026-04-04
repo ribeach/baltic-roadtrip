@@ -19,11 +19,11 @@
   },
   "activities": [
     "Fährüberfahrt von Klaipėda nach Smiltynė – kurze Überfahrt über das Haff",
-    "Hexenberg (Raganų kalnas) in Juodkrantė: mystischer Skulpturenweg durch Kiefernwald",
-    "Weiterfahrt nach Nida – Parnidis-Düne erklimmen: 52 Meter hohe Wanderdüne mit Blick bis nach Russland",
-    "Bummel durch das malerische Fischerdorf Nida mit seinen bunt bemalten Holzhäusern",
+    { "highlightRef": "Hexenberg (Raganų Kalnas) Juodkrantė", "note": "Mystischer Skulpturenweg durch Kiefernwald" },
+    { "highlightRef": "Parnidis-Düne", "note": "52 Meter hohe Wanderdüne mit Blick bis nach Russland" },
+    { "highlightRef": "Nida Fischerdorf", "note": "Bummel durch bunt bemalte Holzhäuser" },
     "Mittagessen: frisch geräucherter Fisch direkt am Haff – Spezialität der Nehrung",
-    "Thomas-Mann-Haus besichtigen: das Sommerdomizil des Literaturnobelpreisträgers mit Ausstellung",
+    { "highlightRef": "Thomas-Mann-Haus Nida" },
     "Rückfahrt und Fähre zurück nach Klaipėda am Abend"
   ]
 }
