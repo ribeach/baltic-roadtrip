@@ -3,21 +3,29 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const allCountries = await getCollection('countries');
-const balticCountries = allCountries
-  .filter(c => ['lithuania', 'latvia', 'estonia'].includes(c.data.id))
+const fullCountries = allCountries
+  .filter(c => ['poland', 'lithuania', 'latvia', 'estonia', 'finland'].includes(c.data.id))
   .sort((a, b) => {
-    const order = ['lithuania', 'latvia', 'estonia'];
+    const order = ['poland', 'lithuania', 'latvia', 'estonia', 'finland'];
     return order.indexOf(a.data.id) - order.indexOf(b.data.id);
   });
 
 const otherCountries = allCountries
-  .filter(c => ['germany', 'poland', 'finland', 'sweden'].includes(c.data.id))
+  .filter(c => ['germany', 'sweden'].includes(c.data.id))
   .sort((a, b) => {
-    const order = ['germany', 'poland', 'finland', 'sweden'];
+    const order = ['germany', 'sweden'];
     return order.indexOf(a.data.id) - order.indexOf(b.data.id);
   });
 
-const balticDishes: Record<string, { name: string; description: string; emoji: string; url?: string }[]> = {
+const fullDishes: Record<string, { name: string; description: string; emoji: string; url?: string }[]> = {
+  poland: [
+    { name: 'Pierogi', description: 'Gefüllte Teigtaschen in allen Varianten — Kartoffel-Quark (ruskie), Sauerkraut-Pilz oder Waldbeeren. DAS polnische Nationalgericht.', emoji: '🥟', url: 'https://en.wikipedia.org/wiki/Pierogi' },
+    { name: 'Żurek', description: 'Sauerteigsuppe aus fermentiertem Roggenmehl mit Weißwurst und Ei, traditionell im ausgehöhlten Brotlaib serviert.', emoji: '🥣', url: 'https://en.wikipedia.org/wiki/%C5%BBurek' },
+    { name: 'Geräucherter Fisch', description: 'An der Ostseeküste und in Masuren allgegenwärtig: Hering, Flunder und Aal, direkt aus der Räucherei.', emoji: '🐟', url: 'https://en.wikipedia.org/wiki/Smoked_fish' },
+    { name: 'Placki ziemniaczane', description: 'Knusprige Kartoffelpuffer mit saurer Sahne oder Gulasch. Masurisches Comfort Food.', emoji: '🥞', url: 'https://en.wikipedia.org/wiki/Potato_pancake' },
+    { name: 'Gołąbki', description: 'In Kohlblätter gewickelte Fleisch-Reis-Röllchen in Tomaten- oder Pilzsauce. Polnische Hausmannskost.', emoji: '🥩', url: 'https://en.wikipedia.org/wiki/Go%C5%82%C4%85bki' },
+    { name: 'Goldwasser', description: 'Danziger Kräuterlikör mit echten 23-Karat-Goldflöckchen. Seit dem 16. Jahrhundert hergestellt.', emoji: '🥃', url: 'https://en.wikipedia.org/wiki/Goldwasser' },
+  ],
   lithuania: [
     { name: 'Cepelinai', description: 'Massive, zeppelinförmige Kartoffelklöße mit Fleischfüllung, ertränkt in saurer Sahne und Speckwürfeln. DAS Nationalgericht.', emoji: '🥟', url: 'https://en.wikipedia.org/wiki/Cepelinai' },
     { name: 'Šaltibarščiai', description: 'Leuchtend pinke, kalte Rote-Bete-Suppe mit Kefir, Gurken, Dill und Ei. Erfrischend und fotogen.', emoji: '🥣', url: 'https://en.wikipedia.org/wiki/Borscht#Cold_borscht' },
@@ -42,6 +50,14 @@ const balticDishes: Record<string, { name: string; description: string; emoji: s
     { name: 'Vana Tallinn', description: 'Süßer, dunkler Rumlikör mit Gewürzen. Pur, im Kaffee oder über Eis. DAS Souvenir.', emoji: '🥃', url: 'https://vanatallinn.eu/en/' },
     { name: 'Põhjala Craft Beer', description: 'Eine der besten Craft-Brauereien Nordeuropas. Unbedingt im Noblessner Tap Room probieren.', emoji: '🍺', url: 'https://www.pohjalabeer.com' },
   ],
+  finland: [
+    { name: 'Lohikeitto', description: 'Cremige Lachssuppe mit Kartoffeln, Dill und Sahne. DAS finnische Nationalgericht — am besten in der Alten Markthalle Helsinki.', emoji: '🥣', url: 'https://en.wikipedia.org/wiki/Lohikeitto' },
+    { name: 'Karjalanpiirakka', description: 'Karelische Piroggen mit dünner Roggenkruste und Reisbrei-Füllung, serviert mit Eibutter (munavoi).', emoji: '🥐', url: 'https://en.wikipedia.org/wiki/Karelian_pasty' },
+    { name: 'Poronkäristys', description: 'Sautiertes Rentierfleisch mit Kartoffelpüree und Preiselbeeren. Lapplands Klassiker, auch in Helsinki erhältlich.', emoji: '🫎', url: 'https://en.wikipedia.org/wiki/Saut%C3%A9ed_reindeer' },
+    { name: 'Leipäjuusto', description: 'Quietschender Brotkäse, traditionell mit Moltebeermarmelade. Samischer Ursprung.', emoji: '🧀', url: 'https://en.wikipedia.org/wiki/Leip%C3%A4juusto' },
+    { name: 'Ruisleipä', description: 'Dunkles, saures Roggenbrot — das Fundament jeder finnischen Mahlzeit. Finnland ist Weltmeister im Roggenbrotkonsum.', emoji: '🍞', url: 'https://en.wikipedia.org/wiki/Rye_bread' },
+    { name: 'Mustikkapiirakka', description: 'Finnischer Blaubeerkuchen mit Waldbeeren. Perfekt zur Kaffeepause — Finnland trinkt weltweit den meisten Kaffee pro Kopf.', emoji: '🫐', url: 'https://en.wikipedia.org/wiki/Blueberry_pie' },
+  ],
 };
 
 const marketHighlights = [
@@ -64,8 +80,8 @@ const mealCosts = [
       <p class="text-lg text-gray-600 mt-2">Die baltische Küche hat sich von der schweren sowjetischen Kantinenprägung emanzipiert. Inspiriert von der "New Nordic"-Bewegung setzen junge Köche auf Foraging, Fermentation und extreme Saisonalität.</p>
     </div>
 
-    <!-- Baltic Countries -->
-    {balticCountries.map(country => (
+    <!-- Full Countries -->
+    {fullCountries.map(country => (
       <section class="mb-12">
         <div class="flex items-center gap-3 mb-6">
           <span class="text-4xl">{country.data.flag}</span>
@@ -76,7 +92,7 @@ const mealCosts = [
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {balticDishes[country.data.id]?.map(dish => (
+          {fullDishes[country.data.id]?.map(dish => (
             <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-md transition-shadow">
               <div class="flex items-center gap-2 mb-2">
                 <span class="text-2xl">{dish.emoji}</span>
