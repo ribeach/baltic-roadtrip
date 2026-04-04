@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
 interface MapLocation {
   id: string;
@@ -8,21 +8,49 @@ interface MapLocation {
   dayNumber?: number;
 }
 
+interface POI {
+  name: string;
+  lat: number;
+  lng: number;
+  category: 'highlight' | 'restaurant' | 'hotel' | 'nightlife';
+  googleMapsUrl: string;
+}
+
+const POI_COLORS: Record<POI['category'], string> = {
+  highlight: '#e6a919',  // amber
+  restaurant: '#22c55e', // green
+  hotel: '#3b82f6',      // blue
+  nightlife: '#a855f7',  // purple
+};
+
+const POI_LABELS: Record<POI['category'], string> = {
+  highlight: '★',
+  restaurant: '🍽',
+  hotel: '🏨',
+  nightlife: '🌙',
+};
+
 interface Props {
   locations: MapLocation[];
   apiKey: string;
   height?: string;
   zoom?: number;
   center?: { lat: number; lng: number };
+  pois?: POI[];
 }
 
-export default function RouteMap({ locations, apiKey, height = '500px', zoom, center }: Props) {
+export default function RouteMap({ locations, apiKey, height = '500px', zoom, center, pois = [] }: Props) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<google.maps.Map | null>(null);
   const markersRef = useRef<google.maps.Marker[]>([]);
   const polylineRef = useRef<google.maps.Polyline | null>(null);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  // Stabilize array/object props so useEffect doesn't re-fire on every render
+  const locationsKey = useMemo(() => JSON.stringify(locations), [locations]);
+  const poisKey = useMemo(() => JSON.stringify(pois), [pois]);
+  const centerKey = useMemo(() => JSON.stringify(center), [center]);
 
   useEffect(() => {
     if (!apiKey || apiKey === 'DEIN_API_KEY_HIER') {
@@ -61,6 +89,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
 
         const bounds = new google.maps.LatLngBounds();
         locations.forEach(loc => bounds.extend({ lat: loc.lat, lng: loc.lng }));
+        pois.forEach(poi => bounds.extend({ lat: poi.lat, lng: poi.lng }));
 
         if (!mapInstanceRef.current) {
           mapInstanceRef.current = new Map(mapRef.current, {
@@ -145,6 +174,44 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           });
         }
 
+        // POI markers (categorized)
+        pois.forEach(poi => {
+          const color = POI_COLORS[poi.category];
+          const marker = new google.maps.Marker({
+            position: { lat: poi.lat, lng: poi.lng },
+            map,
+            title: poi.name,
+            icon: {
+              path: google.maps.SymbolPath.CIRCLE,
+              fillColor: color,
+              fillOpacity: 0.9,
+              strokeColor: '#ffffff',
+              strokeWeight: 2,
+              scale: 10,
+            },
+          });
+
+          marker.addListener('click', () => {
+            const content = document.createElement('div');
+            content.style.cssText = 'padding: 6px 10px; font-family: Inter, system-ui, sans-serif; max-width: 200px;';
+            const name = document.createElement('strong');
+            name.style.cssText = `color: #1a1a2e; display: block; margin-bottom: 4px;`;
+            name.textContent = poi.name;
+            content.appendChild(name);
+            const link = document.createElement('a');
+            link.href = poi.googleMapsUrl;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.style.cssText = 'color: #e6a919; font-size: 12px; text-decoration: none; font-weight: 500;';
+            link.textContent = 'In Google Maps öffnen →';
+            content.appendChild(link);
+            infoWindow.setContent(content);
+            infoWindow.open(map, marker);
+          });
+
+          markersRef.current.push(marker);
+        });
+
         if (!cancelled) setMapLoaded(true);
       } catch (err) {
         console.error('Map loading error:', err);
@@ -161,7 +228,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
       polylineRef.current?.setMap(null);
       polylineRef.current = null;
     };
-  }, [apiKey, locations, zoom, center]);
+  }, [apiKey, locationsKey, zoom, centerKey, poisKey]);
 
   if (error) {
     return (

@@ -15,7 +15,12 @@
       "description": "Über 200.000 Kreuze in jeder erdenklichen Größe bedecken den Hügel — vom winzigen Rosenkranz bis zum meterhohen Holzkreuz. Die Sowjets planierten den Ort dreimal mit Bulldozern, doch jedes Mal kehrten die Litauer in der Nacht zurück und stellten neue Kreuze auf.",
       "duration": "30-60min",
       "price": "Kostenlos (Parkgebühr ~0,90€)",
-      "googleMapsUrl": "https://maps.google.com/?q=Hill+of+Crosses+Šiauliai+Lithuania"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hill%20of%20Crosses&query_place_id=ChIJZ3cA3sf95UYRMCf0743qxN0",
+      "placeId": "ChIJZ3cA3sf95UYRMCf0743qxN0",
+      "coordinates": {
+        "lat": 56.015335699999994,
+        "lng": 23.416357899999998
+      }
     },
     {
       "name": "Papst-Johannes-Paul-II-Kreuz",
@@ -24,7 +29,12 @@
       "description": "Papst Johannes Paul II. besuchte den Berg 1993 und hinterließ ein Kruzifix mit der Inschrift, die den Ort als Zeichen der Hoffnung, des Friedens und der Liebe würdigt.",
       "duration": null,
       "price": null,
-      "googleMapsUrl": "https://maps.google.com/?q=Hill+of+Crosses+Šiauliai+Lithuania"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hill%20of%20Crosses&query_place_id=ChIJZ3cA3sf95UYRMCf0743qxN0",
+      "placeId": "ChIJZ3cA3sf95UYRMCf0743qxN0",
+      "coordinates": {
+        "lat": 56.015335699999994,
+        "lng": 23.416357899999998
+      }
     }
   ],
   "restaurants": [],

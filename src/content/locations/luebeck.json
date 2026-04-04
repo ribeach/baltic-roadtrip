@@ -15,7 +15,12 @@
       "description": "Die von Wasser umgebene Altstadtinsel beeindruckt mit ihrer geschlossenen Backsteinarchitektur aus der Hansezeit. Sieben Kirchtürme prägen die Silhouette — ein perfektes Postkartenmotiv.",
       "duration": "1.5-2h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Lübeck+Altstadt+Germany"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=L%C3%BCbecker%20Altstadt&query_place_id=ChIJC48H7lkJskcRoOhXxmOJJAU",
+      "placeId": "ChIJC48H7lkJskcRoOhXxmOJJAU",
+      "coordinates": {
+        "lat": 53.867646099999995,
+        "lng": 10.689133799999999
+      }
     },
     {
       "name": "Holstentor",
@@ -24,7 +29,12 @@
       "description": "Das schiefe Stadttor von 1478 ist Lübecks Wahrzeichen und eines der bekanntesten Bauwerke Norddeutschlands. Im Inneren befindet sich ein Museum zur Hansegeschichte.",
       "duration": "30-45min",
       "price": "€8 (Museum)",
-      "googleMapsUrl": "https://maps.google.com/?q=Holstentor+Lübeck+Germany"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Museum%20Holstentor&query_place_id=ChIJrS2izlYJskcRCN7u5pIYUOo",
+      "placeId": "ChIJrS2izlYJskcRCN7u5pIYUOo",
+      "coordinates": {
+        "lat": 53.866140699999995,
+        "lng": 10.679688599999999
+      }
     },
     {
       "name": "Abendspaziergang an der Trave",
@@ -33,7 +43,12 @@
       "description": "Die Uferpromenade an der Obertrave mit ihren historischen Salzspeichern und dem Blick auf die beleuchtete Altstadt ist der perfekte Ausklang eines langen Reisetags.",
       "duration": "30-60min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Obertrave+Lübeck+Germany"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=An%20der%20Obertrave&query_place_id=ChIJCyBu7VAJskcRuRasjgYNFLc",
+      "placeId": "ChIJCyBu7VAJskcRuRasjgYNFLc",
+      "coordinates": {
+        "lat": 53.863692,
+        "lng": 10.6808104
+      }
     }
   ],
   "restaurants": [
@@ -43,7 +58,12 @@
       "priceRange": "€€",
       "description": "Lübecks traditionsreichstes Restaurant in der ehemaligen Seefahrer-Gilde seit 1535. Unter Schiffsmodellen und maritimen Artefakten gibt es norddeutsche Klassiker in einzigartiger Atmosphäre.",
       "mustTry": "Lübecker Pannfisch oder Labskaus — hanseatische Hafenküche vom Feinsten",
-      "googleMapsUrl": "https://maps.google.com/?q=Schiffergesellschaft+Lübeck"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Schiffergesellschaft&query_place_id=ChIJLbw8o-ILskcRXGv7QbghQq8",
+      "placeId": "ChIJLbw8o-ILskcRXGv7QbghQq8",
+      "coordinates": {
+        "lat": 53.8711802,
+        "lng": 10.688088299999999
+      }
     }
   ],
   "hotels": [
@@ -54,7 +74,12 @@
       "twinBeds": true,
       "evCharging": false,
       "description": "Komfortables Hotel in bester Lage mit Blick auf die Altstadt und die Trave. Perfekt für eine Nacht, um die Rückreise aufzuteilen.",
-      "googleMapsUrl": "https://maps.google.com/?q=Radisson+Blu+Senator+Hotel+Lübeck"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Radisson%20Blu%20Senator%20Hotel%2C%20L%C3%BCbeck&query_place_id=ChIJfwivm1YJskcRMZ1Wh7YWzcY",
+      "placeId": "ChIJfwivm1YJskcRMZ1Wh7YWzcY",
+      "coordinates": {
+        "lat": 53.867801,
+        "lng": 10.6786788
+      }
     }
   ],
   "tips": [

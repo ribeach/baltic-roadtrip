@@ -15,7 +15,12 @@
       "description": "Die ehemalige zaristische Festung wurde unter den Nazis zum Massenmordort. Das 32 Meter hohe brutalistische Denkmal und die Ausstellung dokumentieren die Ermordung von über 50.000 Menschen. Ein Ort, der sprachlos macht.",
       "duration": "1.5-2h",
       "price": "€5",
-      "googleMapsUrl": "https://maps.google.com/?q=Ninth+Fort+Kaunas"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaunas%20Ninth%20Fort%20Museum&query_place_id=ChIJDdKVrhcf50YRAtXNeAAc2SQ",
+      "placeId": "ChIJDdKVrhcf50YRAtXNeAAc2SQ",
+      "coordinates": {
+        "lat": 54.9440891,
+        "lng": 23.875206100000003
+      }
     },
     {
       "name": "Teufelsmuseum",
@@ -24,7 +29,12 @@
       "description": "Das weltweit einzige Museum, das über 3.000 Teufels-Skulpturen und -Darstellungen aus aller Welt sammelt. Skurril, humorvoll und ein perfekter Kontrast zum Neunten Fort.",
       "duration": "45-60min",
       "price": "€3",
-      "googleMapsUrl": "https://maps.google.com/?q=Devils+Museum+Kaunas"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Devils'%20Museum&query_place_id=ChIJuW7Sygoi50YRE0SrxARUXjE",
+      "placeId": "ChIJuW7Sygoi50YRE0SrxARUXjE",
+      "coordinates": {
+        "lat": 54.9008495,
+        "lng": 23.910752799999997
+      }
     },
     {
       "name": "Laisvės Alėja (Freiheitsallee)",
@@ -33,7 +43,12 @@
       "description": "Mit 1,6 Kilometern die längste Fußgängerzone Europas, gesäumt von Linden, Art-Déco-Fassaden, Cafés und Boutiquen. Hier pulsiert das Kaunaser Leben.",
       "duration": "1h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Laisvės+Alėja+Kaunas"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Laisv%C4%97s%20al%C4%97ja&query_place_id=ChIJV_Hxnnci50YRpK9e1zN57b8",
+      "placeId": "ChIJV_Hxnnci50YRpK9e1zN57b8",
+      "coordinates": {
+        "lat": 54.8969783,
+        "lng": 23.9205158
+      }
     },
     {
       "name": "Žaliakalnis Standseilbahn",
@@ -42,7 +57,12 @@
       "description": "Eine der ältesten Standseilbahnen Europas (seit 1931) verbindet die Altstadt mit dem Stadtteil Žaliakalnis. Kurze Fahrt, großer Charme.",
       "duration": "15min",
       "price": "€1",
-      "googleMapsUrl": "https://maps.google.com/?q=Žaliakalnis+Funicular+Kaunas"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Zaliakalnis%20Funicular&query_place_id=ChIJZWHPIJ4Y50YRwJBrS0wxGrM",
+      "placeId": "ChIJZWHPIJ4Y50YRwJBrS0wxGrM",
+      "coordinates": {
+        "lat": 54.9014118,
+        "lng": 23.9178278
+      }
     },
     {
       "name": "Kaunaser Altstadt",
@@ -51,7 +71,12 @@
       "description": "Der kompakte historische Kern rund um das Rathaus (\"Weißer Schwan\") und die gotische Vytautas-Kirche lässt sich in einer Stunde erkunden — perfekt für einen Zwischenstopp.",
       "duration": "1h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Kaunas+Old+Town+Lithuania"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kaunas%20Town%20Hall&query_place_id=ChIJ094KTgUi50YRmHj1rY3yWAM",
+      "placeId": "ChIJ094KTgUi50YRmHj1rY3yWAM",
+      "coordinates": {
+        "lat": 54.8968224,
+        "lng": 23.886122
+      }
     }
   ],
   "restaurants": [],
