@@ -1,29 +1,28 @@
 {
   "dayNumber": 8,
   "date": "2026-05-07",
-  "title": "Kurische Nehrung",
-  "subtitle": "Wandernde Dünen, Hexen und geräucherter Fisch",
-  "locationId": "curonian-spit",
-  "previousLocationId": "klaipeda",
+  "title": "Trakai, Kaunas und weiter nach Klaipėda",
+  "subtitle": "Inselburg, Festung und Hafenstadt an einem Tag",
+  "locationId": "klaipeda",
+  "previousLocationId": "vilnius",
   "overnightLocationId": "klaipeda",
+  "additionalLocationIds": ["trakai", "kaunas"],
   "driving": {
-    "distance": "100 km",
-    "duration": "2:30",
+    "distance": "320 km",
+    "duration": "4:30",
     "mode": "drive",
-    "routeDescription": "Fähre von Klaipėda (Smiltynė) auf die Kurische Nehrung, dann die einzige Straße Richtung Süden über Juodkrantė bis Nida nahe der russischen Grenze. Rückfahrt auf gleichem Weg."
+    "routeDescription": "Zunächst kurzer Abstecher nach Trakai (30 km westlich von Vilnius), dann über die A1 nach Kaunas und weiter auf der A1/E85 bis Klaipėda an der Küste."
   },
   "evCharging": {
-    "stopsNeeded": 0,
-    "notes": "ACHTUNG: Keine Schnellladestationen auf der Kurischen Nehrung! Unbedingt in Klaipėda auf 100 % laden. Die Rundfahrt (ca. 100 km) ist mit voller Batterie problemlos machbar, aber kein Puffer für Umwege.",
-    "criticalLevel": "red"
+    "stopsNeeded": 1,
+    "notes": "Ein Ladestopp in Kaunas während der Besichtigung reicht aus. Gute Ladeinfrastruktur entlang der A1. WICHTIG: In Klaipėda unbedingt auf 100 % laden — morgen geht es auf die Kurische Nehrung, wo es KEINE Schnelllader gibt!",
+    "criticalLevel": "green"
   },
   "activities": [
-    "Fährüberfahrt von Klaipėda nach Smiltynė – kurze Überfahrt über das Haff",
-    { "highlightRef": "Hexenberg (Raganų Kalnas) Juodkrantė", "note": "Mystischer Skulpturenweg durch Kiefernwald" },
-    { "highlightRef": "Parnidis-Düne", "note": "52 Meter hohe Wanderdüne mit Blick bis nach Russland" },
-    { "highlightRef": "Nida Fischerdorf", "note": "Bummel durch bunt bemalte Holzhäuser" },
-    "Mittagessen: frisch geräucherter Fisch direkt am Haff – Spezialität der Nehrung",
-    { "highlightRef": "Thomas-Mann-Haus Nida" },
-    "Rückfahrt und Fähre zurück nach Klaipėda am Abend"
+    { "highlightRef": "Wasserburg Trakai", "note": "Vormittags — Litauens Postkartenmotiv Nr. 1" },
+    "Kibinai-Mittagessen in Trakai – die gefüllten Teigtaschen der Karäer, einer turksprachigen Minderheit",
+    { "highlightRef": "Neuntes Fort", "note": "Stopp auf der Weiterfahrt nach Kaunas" },
+    { "highlightRef": "Laisvės Alėja (Freiheitsallee)", "note": "Europas längste Fußgängerzone" },
+    { "highlightRef": "Altstadt mit Fachwerkhäusern", "note": "Bummel am Abend nach Ankunft in Klaipėda" }
   ]
 }

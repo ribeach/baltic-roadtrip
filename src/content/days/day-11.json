@@ -1,28 +1,21 @@
 {
   "dayNumber": 11,
   "date": "2026-05-10",
-  "title": "Gauja-Nationalpark und weiter nach Tallinn",
-  "subtitle": "Ritterburgen, Sowjetbunker und estnische Abendluft",
-  "locationId": "tallinn",
-  "previousLocationId": "riga",
-  "overnightLocationId": "tallinn",
-  "additionalLocationIds": ["sigulda-gauja"],
-  "driving": {
-    "distance": "370 km",
-    "duration": "5:00",
-    "mode": "drive",
-    "routeDescription": "Zunächst Abstecher nach Sigulda im Gauja-Nationalpark (50 km nordöstlich von Riga), dann zurück auf die E67 Via Baltica Richtung Norden über Pärnu nach Tallinn."
-  },
-  "evCharging": {
-    "stopsNeeded": 1,
-    "notes": "Laden in Sigulda während der Besichtigung oder unterwegs im Raum Pärnu. Estlands Ladenetz ist gut ausgebaut.",
-    "criticalLevel": "green"
-  },
+  "title": "Riga – Jugendstil und Markthallen",
+  "subtitle": "Fassadenkunst, Kirchturmblick und Moorwanderung",
+  "locationId": "riga",
+  "previousLocationId": null,
+  "overnightLocationId": "riga",
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    { "highlightRef": "Turaida Burg", "note": "Vormittags im Gauja-Nationalpark" },
-    { "highlightRef": "Gutmanis-Höhle", "note": "Lettlands größte Höhle mit jahrhundertealten Inschriften" },
-    { "highlightRef": "Līgatne Geheimer Sowjetbunker", "note": "Surreale Führung unter einem Sanatorium" },
-    "Weiterfahrt nach Tallinn über die Via Baltica",
-    "Ankunft in Tallinn am Abend, erster Spaziergang durch die mittelalterliche Altstadt"
+    { "highlightRef": "Alberta iela — Jugendstil-Fassaden", "note": "Nirgendwo in Europa stehen mehr Art-Nouveau-Fassaden auf einem Fleck" },
+    { "highlightRef": "Rigaer Jugendstil-Museum" },
+    { "highlightRef": "Schwarzhäupterhaus", "note": "Altstadtrundgang" },
+    { "highlightRef": "Petrikirche — Turmaussicht", "note": "Aufzug zur Aussichtsplattform für Panoramablick" },
+    { "highlightRef": "Rigaer Zentralmarkt", "note": "Morgenbesuch — frisches Brot, Räucherfisch und lettischer Käse" },
+    { "highlightRef": "Großer Ķemeri-Moor-Steg (Jūrmala)", "note": "Nachmittagsausflug" },
+    "Abendessen im 3 Pavāru – drei Köche, drei Küchen, ein Restaurant",
+    "Craft Beer im Labietis – experimentelle Braukunst mit Zutaten aus lettischen Wäldern"
   ]
 }

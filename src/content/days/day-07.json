@@ -1,28 +1,20 @@
 {
   "dayNumber": 7,
   "date": "2026-05-06",
-  "title": "Trakai, Kaunas und weiter nach Klaipėda",
-  "subtitle": "Inselburg, Festung und Hafenstadt an einem Tag",
-  "locationId": "klaipeda",
-  "previousLocationId": "vilnius",
-  "overnightLocationId": "klaipeda",
-  "additionalLocationIds": ["trakai", "kaunas"],
-  "driving": {
-    "distance": "320 km",
-    "duration": "4:30",
-    "mode": "drive",
-    "routeDescription": "Zunächst kurzer Abstecher nach Trakai (30 km westlich von Vilnius), dann über die A1 nach Kaunas und weiter auf der A1/E85 bis Klaipėda an der Küste."
-  },
-  "evCharging": {
-    "stopsNeeded": 1,
-    "notes": "Ein Ladestopp in Kaunas während der Besichtigung reicht aus. Gute Ladeinfrastruktur entlang der A1.",
-    "criticalLevel": "green"
-  },
+  "title": "Vilnius entdecken",
+  "subtitle": "Barock, KGB-Keller und die Republik Užupis",
+  "locationId": "vilnius",
+  "previousLocationId": null,
+  "overnightLocationId": "vilnius",
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    { "highlightRef": "Wasserburg Trakai", "note": "Vormittags — Litauens Postkartenmotiv Nr. 1" },
-    "Kibinai-Mittagessen in Trakai – die gefüllten Teigtaschen der Karäer, einer turksprachigen Minderheit",
-    { "highlightRef": "Neuntes Fort", "note": "Stopp auf der Weiterfahrt nach Kaunas" },
-    { "highlightRef": "Laisvės Alėja (Freiheitsallee)", "note": "Europas längste Fußgängerzone" },
-    { "highlightRef": "Altstadt mit Fachwerkhäusern", "note": "Bummel am Abend nach Ankunft in Klaipėda" }
+    { "highlightRef": "UNESCO-Altstadt", "note": "Ausgedehnter Spaziergang: Kathedrale, Universität, Pilies gatvė" },
+    { "highlightRef": "Gediminas-Turm" },
+    { "highlightRef": "KGB-Museum (Museum der Okkupationen und Freiheitskämpfe)", "note": "Ca. 2 Stunden einplanen" },
+    { "highlightRef": "Republik Užupis", "note": "Schutzengel-Statue nicht verpassen" },
+    "Mittagspause in der Halės Turgus Markthalle: litauische Spezialitäten probieren",
+    "Abendessen im Ertlio Namas – gehobene litauische Küche in historischem Gewölbe",
+    "Absacker im Šnekutis – urige Kneipe mit hauseigenem Met und Bier vom Fass"
   ]
 }

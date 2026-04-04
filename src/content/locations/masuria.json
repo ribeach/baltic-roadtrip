@@ -1,0 +1,96 @@
+{
+  "id": "masuria",
+  "name": "Masuren (Mazury)",
+  "country": "poland",
+  "coordinates": {
+    "lat": 53.9389,
+    "lng": 21.546
+  },
+  "description": "Das \u201ELand der Tausend Seen\u201C (tatsächlich über 2.000) im Nordosten Polens war einst Kernland des Deutschen Ordens und im Zweiten Weltkrieg Schauplatz von Hitlers Hauptquartier \u201EWolfsschanze\u201C. Heute locken Wälder, Seen und ein Tempo, das langsamer tickt als in jeder Hauptstadt an der Route. Eine Nacht im Ordensritter-Schloss von Ryn ist die ideale Unterbrechung der längsten Fahretappe.",
+  "highlights": [
+    {
+      "name": "Hotel Zamek Ryn (Ordensburg)",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Die vollständig restaurierte Ordensburg des Deutschen Ordens aus dem 14. Jahrhundert dient heute als 4-Sterne-Hotel. Auch ohne Übernachtung lohnt sich ein Rundgang durch die gotischen Gewölbe, den Innenhof und die Burgmauern mit Blick auf den Ryńskie-See.",
+      "duration": "1-2h",
+      "price": "Kostenlos (Außenbereich)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Zamek%20Ryn&query_place_id=ChIJ0xrRmKch4kYROd1kY5FnxNk",
+      "placeId": "ChIJ0xrRmKch4kYROd1kY5FnxNk",
+      "coordinates": {
+        "lat": 53.9388675,
+        "lng": 21.5460042
+      }
+    },
+    {
+      "name": "Wolfsschanze (Wilczy Szaniec)",
+      "type": "museum",
+      "icon": "star",
+      "description": "Hitlers Hauptquartier an der Ostfront — riesige, moosbewachsene Betonbunker im dichten Wald bei Kętrzyn. Hier fand das Stauffenberg-Attentat vom 20. Juli 1944 statt. Ein beklemmender, aber historisch unverzichtbarer Ort. Am besten mit dem optionalen Audioguide erkunden.",
+      "duration": "2-3h",
+      "price": "PLN 25 (~€6)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Wolf%27s%20Lair&query_place_id=ChIJk-GXI1wl4kYRJRyBd-m3Y08",
+      "placeId": "ChIJk-GXI1wl4kYRJRyBd-m3Y08",
+      "coordinates": {
+        "lat": 54.0806539,
+        "lng": 21.4942846
+      }
+    },
+    {
+      "name": "Masurische Seenplatte",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Über 2.000 Seen, endlose Kiefernwälder und Störche auf jedem zweiten Dach — Masuren ist Polens grüne Lunge. Ein Spaziergang am Ufer des Ryńskie- oder Niegocin-Sees am Abend gehört zu den stillen Höhepunkten der Reise.",
+      "duration": "1-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Miko%C5%82ajki%20Masuria&query_place_id=ChIJK05eI9r14UYRaCSh5pWMCV4",
+      "placeId": "ChIJK05eI9r14UYRaCSh5pWMCV4",
+      "coordinates": {
+        "lat": 53.8027021,
+        "lng": 21.5706044
+      }
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Restauracja Zamkowa (Refektarz)",
+      "cuisine": "Polnisch Traditional / Regional",
+      "priceRange": "€€",
+      "description": "Das Burgrestaurant im Gewölbekeller von Zamek Ryn serviert traditionelle masurische und polnische Küche in atmosphärischer Umgebung — Kerzenlicht unter gotischen Bögen.",
+      "mustTry": "Masurischer Fischcarpaccio aus frischem Seefisch oder Wild aus lokalen Wäldern",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restauracja%20Zamek%20Ryn&query_place_id=ChIJW3Qv1EUh4kYRS-EekxPXNpA",
+      "placeId": "ChIJW3Qv1EUh4kYRS-EekxPXNpA",
+      "coordinates": {
+        "lat": 53.9386975,
+        "lng": 21.5461554
+      }
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Hotel Zamek Ryn",
+      "type": "Ordensburg-Hotel (4 Sterne)",
+      "priceRange": "100-180€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Übernachten in einer Burg des Deutschen Ordens aus dem 14. Jahrhundert — 143 Zimmer, Spa mit Pool in gotischen Gewölben und Seeblick von der Terrasse. Restaurierte Ritterrüstungen und Kreuzgänge inklusive. EV-Laden in Giżycko (15 km) oder Mikołajki (20 km) möglich.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Zamek%20Ryn&query_place_id=ChIJ0xrRmKch4kYROd1kY5FnxNk",
+      "placeId": "ChIJ0xrRmKch4kYROd1kY5FnxNk",
+      "coordinates": {
+        "lat": 53.9388675,
+        "lng": 21.5460042
+      }
+    }
+  ],
+  "tips": [
+    {
+      "type": "info",
+      "text": "EV-Laden: In Masuren ist das Schnelllade-Netz dünner als an der Autobahn. GreenWay- und ORLEN-Charge-Stationen gibt es in Giżycko und Mikołajki — dort vorher auf mindestens 80 % laden."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Die Wolfsschanze liegt ca. 40 km nördlich von Ryn bei Kętrzyn. Ein lohnender Vormittagsausflug, bevor es weiter nach Vilnius geht."
+    }
+  ],
+  "nightlife": []
+}

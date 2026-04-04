@@ -1,27 +1,27 @@
 {
   "dayNumber": 5,
   "date": "2026-05-04",
-  "title": "Die lange Etappe nach Vilnius",
-  "subtitle": "Durch Masuren und die Suwalki-Lücke ins Baltikum",
-  "locationId": "vilnius",
+  "title": "Durch Masuren ins Land der tausend Seen",
+  "subtitle": "Ordensburgen, Storchennester und ein Abend am See",
+  "locationId": "masuria",
   "previousLocationId": "gdansk",
-  "overnightLocationId": "vilnius",
+  "overnightLocationId": "masuria",
   "driving": {
-    "distance": "600 km",
-    "duration": "7:00",
+    "distance": "300 km",
+    "duration": "3:30",
     "mode": "drive",
-    "routeDescription": "Über die S7 Richtung Elbląg, dann durch die masurische Seenplatte und die Suwalki-Lücke an der litauischen Grenze. Landschaftlich reizvoll, aber dünn besiedelt – Ladeplanung ist entscheidend."
+    "routeDescription": "Über die S7 Richtung Elbląg, dann durch die masurische Seenplatte nach Ryn. Landschaftlich wunderschön — Seen, Wälder, Störche auf den Dächern. Deutlich entspannter als die alte 600-km-Etappe direkt nach Vilnius."
   },
   "evCharging": {
-    "stopsNeeded": 2,
-    "notes": "Längste Tagesetappe der Reise! Unbedingt in Danzig voll laden. Zwei Ladestopps nötig – einer im Raum Elbląg/Olsztyn, einer vor der litauischen Grenze. Ladeinfrastruktur im Suwalki-Korridor noch lückenhaft.",
-    "criticalLevel": "yellow"
+    "stopsNeeded": 1,
+    "notes": "Ein Ladestopp im Raum Elbląg oder Olsztyn. ORLEN-Charge-Hubs mit bis zu 400 kW entlang der S7. In Masuren selbst laden: GreenWay-Stationen in Giżycko und Mikołajki.",
+    "criticalLevel": "green"
   },
   "activities": [
-    "Früher Aufbruch – dieser Tag gehört der Straße",
-    "Fahrt durch die stille Weite Masurens: Seen, Wälder, Störche auf den Dächern",
-    "Transit durch die geopolitisch bedeutsame Suwalki-Lücke zwischen Belarus und Kaliningrad",
-    "Ankunft in Vilnius am Abend, erster Spaziergang durch die barocke Altstadt",
-    "Willkommens-Abendessen in einem litauischen Lokal"
+    "Aufbruch aus Danzig am Vormittag — heute geht es gemütlich zu",
+    "Fahrt durch Masurens stille Weite: Seen, Kiefernwälder, Störche auf jedem Dach",
+    { "highlightRef": "Hotel Zamek Ryn (Ordensburg)", "note": "Ankunft am frühen Nachmittag — Rundgang durch die gotischen Gewölbe" },
+    { "highlightRef": "Masurische Seenplatte", "note": "Nachmittagsspaziergang am Ufer des Ryńskie-Sees" },
+    "Abendessen im Burgrestaurant Refektarz — polnische Küche unter gotischen Bögen"
   ]
 }

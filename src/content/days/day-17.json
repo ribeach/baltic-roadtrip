@@ -2,27 +2,26 @@
   "dayNumber": 17,
   "date": "2026-05-16",
   "title": "Heimreise nach Aalen",
-  "subtitle": "Über die Öresundbrücke und quer durch Europa nach Hause",
+  "subtitle": "Per Fähre und Autobahn — entspannt statt erschöpft nach Hause",
   "locationId": "aalen",
   "previousLocationId": "halmstad",
   "overnightLocationId": null,
-  "additionalLocationIds": ["luebeck"],
   "driving": {
-    "distance": "1.050 km",
-    "duration": "11:30",
+    "distance": "750 km",
+    "duration": "7:30",
     "mode": "drive",
-    "routeDescription": "Über die E6 nach Malmö, Öresundbrücke nach Kopenhagen, E47/E45 durch Dänemark, A7 durch Schleswig-Holstein und Niedersachsen, weiter über Kassel und Würzburg nach Aalen. Alternative: Fähre Trelleborg–Rostock, um die Fahrzeit zu verkürzen."
+    "routeDescription": "EMPFOHLEN: Nachtfähre Trelleborg→Rostock (TT-Line, ~6 Std., Abfahrt am Vorabend) — ausgeruht in Rostock ankommen und dann über die A19/A24/A7 durch Deutschland nach Aalen. KOMFORT-UPGRADE: Nachtfähre Gothenburg→Kiel (Stena Line, ~14 Std.) — in Kiel aussteigen und über die A7 nach Aalen. ALTERNATIVE: Direktfahrt über Öresundbrücke und Dänemark (1.050 km) — nur als Notfall-Plan."
   },
   "evCharging": {
-    "stopsNeeded": 4,
-    "notes": "Längster Fahrtag der Reise – vier Ladestopps einplanen. Hervorragende Infrastruktur in Schweden, Dänemark und Deutschland. Storebælt-Brücke (~40€) und Øresundbrücke (~55€) nicht vergessen! Alternative Trelleborg–Rostock-Fähre spart ~200 km, Laden an Bord jedoch nicht möglich.",
+    "stopsNeeded": 3,
+    "notes": "Nach Fährankunft in Rostock bzw. Kiel: Hervorragende Schnellladeinfrastruktur in Deutschland (IONITY, EnBW, Fastned). Drei Ladestopps auf der Autobahn einplanen. Stena-Line-Fähre Gothenburg→Kiel bietet sogar EV-Laden an Bord (6 Plätze, vorab buchen!). TT-Line: kein Laden an Bord, aber die Batterie wird während der 6-stündigen Überfahrt nicht beansprucht.",
     "criticalLevel": "green"
   },
   "activities": [
-    "Früher Aufbruch aus Halmstad – der längste Fahrtag wartet",
-    "Überquerung der Öresundbrücke: 16 km Ingenieurskunst zwischen Schweden und Dänemark",
-    "Durch Dänemark und Schleswig-Holstein – Landschaft wechselt von skandinavisch zu norddeutsch",
-    "Alternative: Fähre Trelleborg–Rostock (ca. 6 Std.) zum Entspannen und Kilometer sparen",
+    "OPTION A (Trelleborg→Rostock): Ankunft Rostock morgens nach Nachtfähre — frisch und ausgeruht auf die Autobahn",
+    "OPTION B (Gothenburg→Kiel): Ankunft Kiel 09:15 — Frühstück an Bord, dann 700 km nach Aalen mit 2 Ladestopps. Ankunft ~18:00",
+    "Fahrt über die A7 durch Schleswig-Holstein, Niedersachsen, Kassel, Würzburg nach Aalen",
+    "Alternative: Direktfahrt über Öresundbrücke (~63 €) und Storebælt-Brücke (~53 €) durch Dänemark — 1.050 km, 11+ Stunden, 4 Ladestopps. Nur wenn beide Fähroptionen nicht klappen.",
     "Ankunft in Aalen am Abend – 17 Tage, 7 Länder, unzählige Eindrücke"
   ]
 }

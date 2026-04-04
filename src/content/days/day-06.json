@@ -1,20 +1,27 @@
 {
   "dayNumber": 6,
   "date": "2026-05-05",
-  "title": "Vilnius entdecken",
-  "subtitle": "Barock, KGB-Keller und die Republik Užupis",
+  "title": "Von Masuren nach Vilnius",
+  "subtitle": "Wolfsschanze, Suwalki-Lücke und Ankunft im Baltikum",
   "locationId": "vilnius",
-  "previousLocationId": null,
+  "previousLocationId": "masuria",
   "overnightLocationId": "vilnius",
-  "driving": null,
-  "evCharging": null,
+  "driving": {
+    "distance": "300 km",
+    "duration": "3:30",
+    "mode": "drive",
+    "routeDescription": "Optional: Vormittags Abstecher zur Wolfsschanze (40 km nördlich von Ryn). Dann Richtung Südosten durch die geopolitisch bedeutsame Suwalki-Lücke zwischen Kaliningrad und Belarus nach Vilnius."
+  },
+  "evCharging": {
+    "stopsNeeded": 1,
+    "notes": "Ein Ladestopp vor der litauischen Grenze — im Raum Suwałki oder Marijampolė. Der Suwalki-Korridor hat noch lückenhafte Ladeinfrastruktur, daher vorher in Masuren auf mindestens 80 % laden.",
+    "criticalLevel": "yellow"
+  },
   "activities": [
-    { "highlightRef": "UNESCO-Altstadt", "note": "Ausgedehnter Spaziergang: Kathedrale, Universität, Pilies gatvė" },
-    { "highlightRef": "Gediminas-Turm" },
-    { "highlightRef": "KGB-Museum (Museum der Okkupationen und Freiheitskämpfe)", "note": "Ca. 2 Stunden einplanen" },
-    { "highlightRef": "Republik Užupis", "note": "Schutzengel-Statue nicht verpassen" },
-    "Mittagspause in der Halės Turgus Markthalle: litauische Spezialitäten probieren",
-    "Abendessen im Ertlio Namas – gehobene litauische Küche in historischem Gewölbe",
-    "Absacker im Šnekutis – urige Kneipe mit hauseigenem Met und Bier vom Fass"
+    { "highlightRef": "Wolfsschanze (Wilczy Szaniec)", "note": "Optional am Vormittag — Hitlers Ostfront-HQ im Wald (40 km, 2–3 Stunden)" },
+    "Fahrt durch die geopolitisch bedeutsame Suwalki-Lücke — NATOs verwundbarster Punkt in Europa",
+    "Grenzübertritt nach Litauen",
+    "Ankunft in Vilnius am Nachmittag — erster Spaziergang durch die barocke Altstadt",
+    "Willkommens-Abendessen in einem litauischen Lokal — Cepelinai und kalte Rote-Bete-Suppe probieren"
   ]
 }
