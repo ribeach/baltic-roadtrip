@@ -16,13 +16,14 @@ interface POI {
   lng: number;
   category: 'highlight' | 'restaurant' | 'hotel' | 'nightlife';
   googleMapsUrl: string;
+  placeId?: string;
 }
 
-const POI_COLORS: Record<POI['category'], string> = {
-  highlight: '#e6a919',  // amber
-  restaurant: '#22c55e', // green
-  hotel: '#3b82f6',      // blue
-  nightlife: '#a855f7',  // purple
+const POI_STYLES: Record<POI['category'], { background: string; border: string; glyph: string }> = {
+  highlight: { background: '#e6a919', border: '#b8860b', glyph: '\u2605' },   // ★
+  restaurant: { background: '#22c55e', border: '#16a34a', glyph: '\uD83C\uDF74' }, // 🍴
+  hotel: { background: '#3b82f6', border: '#2563eb', glyph: '\uD83C\uDFE8' },     // 🏨
+  nightlife: { background: '#a855f7', border: '#7c3aed', glyph: '\uD83C\uDF78' }, // 🍸
 };
 
 interface Props {
@@ -72,11 +73,13 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
 
         const mapsLib = await importLibrary('maps') as google.maps.MapsLibrary;
         const markerLib = await importLibrary('marker') as google.maps.MarkerLibrary;
+        // Load places library so gmp-place-details-compact web component is registered
+        await importLibrary('places');
 
         if (cancelled || !mapRef.current) return;
 
         const { Map, InfoWindow, Polyline } = mapsLib;
-        const { AdvancedMarkerElement } = markerLib;
+        const { AdvancedMarkerElement, PinElement } = markerLib;
 
         // Clean up previous markers and polyline
         markersRef.current.forEach(m => { m.map = null; });
@@ -183,40 +186,67 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           });
         }
 
-        // POI markers (categorized) with custom HTML circles
+        // POI markers with PinElement pins and Places UI Kit info cards
         pois.forEach(poi => {
-          const color = POI_COLORS[poi.category];
+          const style = POI_STYLES[poi.category];
 
-          const poiDiv = document.createElement('div');
-          poiDiv.style.cssText = `
-            width: 20px; height: 20px; border-radius: 50%;
-            background: ${color}; border: 2px solid #ffffff;
-            opacity: 0.9; cursor: pointer;
-          `;
+          const pin = new PinElement({
+            background: style.background,
+            borderColor: style.border,
+            glyphColor: '#ffffff',
+            glyphText: style.glyph,
+            scale: 1.0,
+          });
 
           const marker = new AdvancedMarkerElement({
             position: { lat: poi.lat, lng: poi.lng },
             map,
             title: poi.name,
-            content: poiDiv,
+            content: pin,
             gmpClickable: true,
           });
 
           marker.addListener('gmp-click', () => {
-            const content = document.createElement('div');
-            content.style.cssText = 'padding: 6px 10px; font-family: Inter, system-ui, sans-serif; max-width: 200px;';
-            const name = document.createElement('strong');
-            name.style.cssText = `color: #1a1a2e; display: block; margin-bottom: 4px;`;
-            name.textContent = poi.name;
-            content.appendChild(name);
-            const link = document.createElement('a');
-            link.href = poi.googleMapsUrl;
-            link.target = '_blank';
-            link.rel = 'noopener noreferrer';
-            link.style.cssText = 'color: #e6a919; font-size: 12px; text-decoration: none; font-weight: 500;';
-            link.textContent = 'In Google Maps öffnen →';
-            content.appendChild(link);
-            infoWindow.setContent(content);
+            if (poi.placeId) {
+              // Rich place info card via Places UI Kit
+              const placeDetails = document.createElement('gmp-place-details-compact') as HTMLElement;
+              placeDetails.setAttribute('orientation', 'horizontal');
+              placeDetails.setAttribute('truncation-preferred', '');
+              placeDetails.style.cssText = 'width: 350px; border: none; padding: 0; margin: 0;';
+
+              const placeRequest = document.createElement('gmp-place-details-place-request');
+              placeRequest.setAttribute('place', poi.placeId);
+              placeDetails.appendChild(placeRequest);
+
+              const contentConfig = document.createElement('gmp-place-content-config');
+              contentConfig.innerHTML = [
+                '<gmp-place-media lightbox-preferred></gmp-place-media>',
+                '<gmp-place-rating></gmp-place-rating>',
+                '<gmp-place-type></gmp-place-type>',
+                '<gmp-place-price></gmp-place-price>',
+                '<gmp-place-open-now-status></gmp-place-open-now-status>',
+                '<gmp-place-attribution></gmp-place-attribution>',
+              ].join('');
+              placeDetails.appendChild(contentConfig);
+
+              infoWindow.setContent(placeDetails);
+            } else {
+              // Fallback: simple name + link
+              const content = document.createElement('div');
+              content.style.cssText = 'padding: 6px 10px; font-family: Inter, system-ui, sans-serif; max-width: 200px;';
+              const name = document.createElement('strong');
+              name.style.cssText = 'color: #1a1a2e; display: block; margin-bottom: 4px;';
+              name.textContent = poi.name;
+              content.appendChild(name);
+              const link = document.createElement('a');
+              link.href = poi.googleMapsUrl;
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+              link.style.cssText = 'color: #e6a919; font-size: 12px; text-decoration: none; font-weight: 500;';
+              link.textContent = 'In Google Maps öffnen →';
+              content.appendChild(link);
+              infoWindow.setContent(content);
+            }
             infoWindow.open({ map, anchor: marker });
           });
 
