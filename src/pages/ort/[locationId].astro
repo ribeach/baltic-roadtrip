@@ -34,19 +34,19 @@ const mapLocations = [{
 const pois = [
   ...location.highlights.map(h => ({
     name: h.name, lat: h.coordinates.lat, lng: h.coordinates.lng,
-    category: 'highlight' as const, googleMapsUrl: h.googleMapsUrl,
+    category: 'highlight' as const, googleMapsUrl: h.googleMapsUrl, placeId: h.placeId,
   })),
   ...location.restaurants.map(r => ({
     name: r.name, lat: r.coordinates.lat, lng: r.coordinates.lng,
-    category: 'restaurant' as const, googleMapsUrl: r.googleMapsUrl,
+    category: 'restaurant' as const, googleMapsUrl: r.googleMapsUrl, placeId: r.placeId,
   })),
   ...location.hotels.map(h => ({
     name: h.name, lat: h.coordinates.lat, lng: h.coordinates.lng,
-    category: 'hotel' as const, googleMapsUrl: h.googleMapsUrl,
+    category: 'hotel' as const, googleMapsUrl: h.googleMapsUrl, placeId: h.placeId,
   })),
   ...(location.nightlife || []).map(n => ({
     name: n.name, lat: n.coordinates.lat, lng: n.coordinates.lng,
-    category: 'nightlife' as const, googleMapsUrl: n.googleMapsUrl,
+    category: 'nightlife' as const, googleMapsUrl: n.googleMapsUrl, placeId: n.placeId,
   })),
 ];
 ---

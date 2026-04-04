@@ -16,13 +16,14 @@ interface POI {
   lng: number;
   category: 'highlight' | 'restaurant' | 'hotel' | 'nightlife';
   googleMapsUrl: string;
+  placeId?: string;
 }
 
-const POI_COLORS: Record<POI['category'], string> = {
-  highlight: '#e6a919',  // amber
-  restaurant: '#22c55e', // green
-  hotel: '#3b82f6',      // blue
-  nightlife: '#a855f7',  // purple
+const POI_STYLES: Record<POI['category'], { background: string; border: string; glyph: string }> = {
+  highlight: { background: '#e6a919', border: '#b8860b', glyph: '\u2605' },   // ★
+  restaurant: { background: '#22c55e', border: '#16a34a', glyph: '\uD83C\uDF74' }, // 🍴
+  hotel: { background: '#3b82f6', border: '#2563eb', glyph: '\uD83C\uDFE8' },     // 🏨
+  nightlife: { background: '#a855f7', border: '#7c3aed', glyph: '\uD83C\uDF78' }, // 🍸
 };
 
 interface Props {
@@ -37,7 +38,7 @@ interface Props {
 export default function RouteMap({ locations, apiKey, height = '500px', zoom, center, pois = [] }: Props) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<google.maps.Map | null>(null);
-  const markersRef = useRef<google.maps.Marker[]>([]);
+  const markersRef = useRef<google.maps.marker.AdvancedMarkerElement[]>([]);
   const polylineRef = useRef<google.maps.Polyline | null>(null);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -71,13 +72,17 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
         setOptions({ key: apiKey, version: 'weekly' } as { key: string; version: string });
 
         const mapsLib = await importLibrary('maps') as google.maps.MapsLibrary;
+        const markerLib = await importLibrary('marker') as google.maps.MarkerLibrary;
+        // Load places library so gmp-place-details-compact web component is registered
+        await importLibrary('places');
 
         if (cancelled || !mapRef.current) return;
 
         const { Map, InfoWindow, Polyline } = mapsLib;
+        const { AdvancedMarkerElement, PinElement } = markerLib;
 
         // Clean up previous markers and polyline
-        markersRef.current.forEach(m => m.setMap(null));
+        markersRef.current.forEach(m => { m.map = null; });
         markersRef.current = [];
         polylineRef.current?.setMap(null);
         polylineRef.current = null;
@@ -90,15 +95,10 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           mapInstanceRef.current = new Map(mapRef.current, {
             center: center || bounds.getCenter().toJSON(),
             zoom: zoom || 4,
+            mapId: 'DEMO_MAP_ID',
             mapTypeControl: false,
             streetViewControl: false,
             fullscreenControl: true,
-            styles: [
-              { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#c9d6e5' }] },
-              { featureType: 'landscape', elementType: 'geometry', stylers: [{ color: '#f0f2f5' }] },
-              { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#e6a919' }, { weight: 1.5 }] },
-              { featureType: 'poi', stylers: [{ visibility: 'off' }] },
-            ],
           });
         }
 
@@ -114,29 +114,30 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
         // Shared info window (reused across markers)
         const infoWindow = new InfoWindow();
 
-        // Standard Markers (no mapId required)
+        // AdvancedMarkerElement with custom HTML for circular amber markers
         locations.forEach((loc, i) => {
-          const marker = new google.maps.Marker({
+          const labelText = loc.label ?? (loc.dayNumber ? String(loc.dayNumber) : String(i + 1));
+
+          const markerDiv = document.createElement('div');
+          markerDiv.style.cssText = `
+            width: 28px; height: 28px; border-radius: 50%;
+            background: #e6a919; border: 2px solid #1a1a2e;
+            display: flex; align-items: center; justify-content: center;
+            font-family: Inter, system-ui, sans-serif;
+            font-size: 11px; font-weight: bold; color: #1a1a2e;
+            cursor: pointer;
+          `;
+          markerDiv.textContent = labelText;
+
+          const marker = new AdvancedMarkerElement({
             position: { lat: loc.lat, lng: loc.lng },
             map,
             title: loc.name,
-            label: {
-              text: loc.label ?? (loc.dayNumber ? String(loc.dayNumber) : String(i + 1)),
-              color: '#1a1a2e',
-              fontWeight: 'bold',
-              fontSize: '11px',
-            },
-            icon: {
-              path: google.maps.SymbolPath.CIRCLE,
-              fillColor: '#e6a919',
-              fillOpacity: 1,
-              strokeColor: '#1a1a2e',
-              strokeWeight: 2,
-              scale: 14,
-            },
+            content: markerDiv,
+            gmpClickable: true,
           });
 
-          marker.addListener('click', () => {
+          marker.addListener('gmp-click', () => {
             const content = document.createElement('div');
             content.style.cssText = 'padding: 4px 8px; font-family: Inter, system-ui, sans-serif;';
             if (loc.link) {
@@ -167,7 +168,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
               }
             }
             infoWindow.setContent(content);
-            infoWindow.open(map, marker);
+            infoWindow.open({ map, anchor: marker });
           });
 
           markersRef.current.push(marker);
@@ -185,39 +186,68 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           });
         }
 
-        // POI markers (categorized)
+        // POI markers with PinElement pins and Places UI Kit info cards
         pois.forEach(poi => {
-          const color = POI_COLORS[poi.category];
-          const marker = new google.maps.Marker({
+          const style = POI_STYLES[poi.category];
+
+          const pin = new PinElement({
+            background: style.background,
+            borderColor: style.border,
+            glyphColor: '#ffffff',
+            glyphText: style.glyph,
+            scale: 1.0,
+          });
+
+          const marker = new AdvancedMarkerElement({
             position: { lat: poi.lat, lng: poi.lng },
             map,
             title: poi.name,
-            icon: {
-              path: google.maps.SymbolPath.CIRCLE,
-              fillColor: color,
-              fillOpacity: 0.9,
-              strokeColor: '#ffffff',
-              strokeWeight: 2,
-              scale: 10,
-            },
+            content: pin,
+            gmpClickable: true,
           });
 
-          marker.addListener('click', () => {
-            const content = document.createElement('div');
-            content.style.cssText = 'padding: 6px 10px; font-family: Inter, system-ui, sans-serif; max-width: 200px;';
-            const name = document.createElement('strong');
-            name.style.cssText = `color: #1a1a2e; display: block; margin-bottom: 4px;`;
-            name.textContent = poi.name;
-            content.appendChild(name);
-            const link = document.createElement('a');
-            link.href = poi.googleMapsUrl;
-            link.target = '_blank';
-            link.rel = 'noopener noreferrer';
-            link.style.cssText = 'color: #e6a919; font-size: 12px; text-decoration: none; font-weight: 500;';
-            link.textContent = 'In Google Maps öffnen →';
-            content.appendChild(link);
-            infoWindow.setContent(content);
-            infoWindow.open(map, marker);
+          marker.addListener('gmp-click', () => {
+            if (poi.placeId) {
+              // Rich place info card via Places UI Kit
+              const placeDetails = document.createElement('gmp-place-details-compact') as HTMLElement;
+              placeDetails.setAttribute('orientation', 'horizontal');
+              placeDetails.setAttribute('truncation-preferred', '');
+              placeDetails.style.cssText = 'width: 350px; border: none; padding: 0; margin: 0;';
+
+              const placeRequest = document.createElement('gmp-place-details-place-request');
+              placeRequest.setAttribute('place', poi.placeId);
+              placeDetails.appendChild(placeRequest);
+
+              const contentConfig = document.createElement('gmp-place-content-config');
+              contentConfig.innerHTML = [
+                '<gmp-place-media lightbox-preferred></gmp-place-media>',
+                '<gmp-place-rating></gmp-place-rating>',
+                '<gmp-place-type></gmp-place-type>',
+                '<gmp-place-price></gmp-place-price>',
+                '<gmp-place-open-now-status></gmp-place-open-now-status>',
+                '<gmp-place-attribution></gmp-place-attribution>',
+              ].join('');
+              placeDetails.appendChild(contentConfig);
+
+              infoWindow.setContent(placeDetails);
+            } else {
+              // Fallback: simple name + link
+              const content = document.createElement('div');
+              content.style.cssText = 'padding: 6px 10px; font-family: Inter, system-ui, sans-serif; max-width: 200px;';
+              const name = document.createElement('strong');
+              name.style.cssText = 'color: #1a1a2e; display: block; margin-bottom: 4px;';
+              name.textContent = poi.name;
+              content.appendChild(name);
+              const link = document.createElement('a');
+              link.href = poi.googleMapsUrl;
+              link.target = '_blank';
+              link.rel = 'noopener noreferrer';
+              link.style.cssText = 'color: #e6a919; font-size: 12px; text-decoration: none; font-weight: 500;';
+              link.textContent = 'In Google Maps öffnen →';
+              content.appendChild(link);
+              infoWindow.setContent(content);
+            }
+            infoWindow.open({ map, anchor: marker });
           });
 
           markersRef.current.push(marker);
@@ -234,7 +264,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
 
     return () => {
       cancelled = true;
-      markersRef.current.forEach(m => m.setMap(null));
+      markersRef.current.forEach(m => { m.map = null; });
       markersRef.current = [];
       polylineRef.current?.setMap(null);
       polylineRef.current = null;

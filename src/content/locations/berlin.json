@@ -105,6 +105,20 @@
         "lat": 52.5209565,
         "lng": 13.387212199999999
       }
+    },
+    {
+      "name": "Markthalle Neun",
+      "type": "market",
+      "icon": "star",
+      "description": "Die historische Kreuzberger Markthalle bietet täglich regionale Spezialitäten und Frischwaren. Donnerstags findet der legendäre Street Food Thursday statt — dutzende Stände mit Küche aus aller Welt.",
+      "duration": "1-1.5h",
+      "price": "Kostenlos (Essen extra)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Markthalle%20Neun&query_place_id=ChIJvaZWgElOqEcRElWjL2P9AZg",
+      "placeId": "ChIJvaZWgElOqEcRElWjL2P9AZg",
+      "coordinates": {
+        "lat": 52.502135,
+        "lng": 13.4315988
+      }
     }
   ],
   "restaurants": [

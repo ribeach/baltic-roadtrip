@@ -15,7 +15,7 @@
     { "highlightRef": "Petrikirche — Turmaussicht", "note": "Aufzug zur Aussichtsplattform für Panoramablick" },
     { "highlightRef": "Rigaer Zentralmarkt", "note": "Morgenbesuch — frisches Brot, Räucherfisch und lettischer Käse" },
     { "highlightRef": "Großer Ķemeri-Moor-Steg (Jūrmala)", "note": "Nachmittagsausflug" },
-    "Abendessen im 3 Pavāru – drei Köche, drei Küchen, ein Restaurant",
-    "Craft Beer im Labietis – experimentelle Braukunst mit Zutaten aus lettischen Wäldern"
+    { "highlightRef": "3 Pavāru Restorāns", "note": "Drei Köche, drei Küchen, ein Restaurant" },
+    { "highlightRef": "Labietis", "note": "Experimentelle Braukunst mit Zutaten aus lettischen Wäldern" }
   ]
 }
