@@ -20,13 +20,15 @@ No test framework is configured.
 
 ### Content Collections (src/content/)
 
-All trip data lives in JSON files validated by Zod schemas defined in `src/content/content.config.ts`:
+All trip data lives in JSON files validated by Zod schemas defined in `src/content.config.ts` (project root, not inside `src/content/`):
 
 - **days/** — 17 files (day-01.json to day-17.json): itinerary per day with driving info, EV charging status, activities
 - **locations/** — 17 files: city details with highlights, restaurants, hotels, tips, nightlife
 - **countries/** — 7 files: currency, EV charging infrastructure, driving rules, culinary info
 
 Collections reference each other: days → locations (via `locationId`), locations → countries (via `country`).
+
+**Important:** Astro's `reference()` returns `{ id: string, collection: string }` objects at runtime, not plain strings. Code that resolves references typically uses a helper: `const resolveRef = (ref: any) => typeof ref === 'object' && ref !== null ? ref.id : ref;`
 
 ### Routing (src/pages/)
 
@@ -36,6 +38,8 @@ All routes are statically generated via `getStaticPaths()`:
 - `/tag/[1-17]` — Day detail pages (generated from days collection)
 - `/ort/[locationId]` — Location detail pages (generated from locations collection)
 - `/kulinarik`, `/praktisches`, `/budget` — Static info pages
+- `/llms.txt` — AI-consumable plaintext summary of the trip (generated from collections)
+- `/api/trip.json` — Full trip data as structured JSON (for LLM/API consumption)
 
 ### React Island
 
@@ -76,5 +80,5 @@ Body: { "textQuery": "Place Name City Country" }
 
 ## Workflow
 
-- For every fix or feature, create a dedicated feature branch (e.g. `fix/description` or `feat/description`).
+- For every fix or feature, create a dedicated branch following the pattern `fix/YYMMDD_description` or `feature/YYMMDD_description` (e.g. `feature/260404_highlights-on-day-pages`).
 - After completing the work, commit all changes, push the branch, and create a GitHub pull request.
