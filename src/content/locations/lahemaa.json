@@ -15,7 +15,12 @@
       "description": "Ein 3,5 km langer Bohlensteg führt durch eine surreale Moorlandschaft mit Torfteichen, Zwergkiefern und einem Aussichtsturm. Bei Morgennebel fühlt es sich an wie in einer anderen Welt. Dauer ca. 1,5 Stunden.",
       "duration": "1.5h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Viru+Bog+Trail+Lahemaa+Estonia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Viru%20bog%20nature%20trail&query_place_id=ChIJrUsS1t8Bk0YRy-bgAmlMaCQ",
+      "placeId": "ChIJrUsS1t8Bk0YRy-bgAmlMaCQ",
+      "coordinates": {
+        "lat": 59.4646379,
+        "lng": 25.6387294
+      }
     },
     {
       "name": "Jägala Wasserfall",
@@ -24,7 +29,12 @@
       "description": "Mit 50 Metern Breite der eindrucksvollste Wasserfall Estlands — besonders spektakulär Anfang Mai, wenn die Schneeschmelze das Wasservolumen vervielfacht. Liegt auf dem Weg von Tallinn nach Lahemaa.",
       "duration": "30min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Jägala+Waterfall+Estonia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=J%C3%A4gala%20Waterfall&query_place_id=ChIJsTOgEgHwkkYR8COuuJyjMZc",
+      "placeId": "ChIJsTOgEgHwkkYR8COuuJyjMZc",
+      "coordinates": {
+        "lat": 59.449800399999994,
+        "lng": 25.1787507
+      }
     },
     {
       "name": "Käsmu — Kapitänsdorf",
@@ -33,7 +43,12 @@
       "description": "Das ehemalige Dorf der Schmuggelkapitäne besticht mit seinen maritimen Holzhäusern, der dramatischen Felsküste und einer Atmosphäre, die Estlands raue Ostseeseele perfekt einfängt.",
       "duration": "1-2h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Käsmu+Village+Estonia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=K%C3%A4smu&query_place_id=ChIJy-kBkhysk0YRHMzP7bQGGZw",
+      "placeId": "ChIJy-kBkhysk0YRHMzP7bQGGZw",
+      "coordinates": {
+        "lat": 59.598757299999995,
+        "lng": 25.8976349
+      }
     },
     {
       "name": "Vogelbeobachtung",
@@ -42,7 +57,12 @@
       "description": "Im Mai ist Lahemaa ein Paradies für Vogelbeobachter: Kraniche, Seeadler und dutzende Zugvogelarten rasten hier auf ihrer Route. Ein Fernglas lohnt sich.",
       "duration": "1-3h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Lahemaa+National+Park+Estonia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lahemaa%20National%20Park&query_place_id=ChIJa78uHtqrk0YRcHJs8m2zAA8",
+      "placeId": "ChIJa78uHtqrk0YRcHJs8m2zAA8",
+      "coordinates": {
+        "lat": 59.567661699999995,
+        "lng": 25.7810189
+      }
     }
   ],
   "restaurants": [],

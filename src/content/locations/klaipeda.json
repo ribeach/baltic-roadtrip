@@ -15,7 +15,12 @@
       "description": "Das kleinste historische Zentrum der baltischen Städte hat seinen deutschen Fachwerk-Charakter bewahrt. Kopfsteinpflaster, Skulpturen an jeder Ecke und das Theater am Theaterplatz, wo 1939 Hitler die Rückgabe Memels verkündete.",
       "duration": "1-1.5h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Klaipėda+Old+Town+Lithuania"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Welcome%20to%20Klaipeda%20-Free%20Old%20Town%20Tour&query_place_id=ChIJuUuxIgDb5EYRAyyIoXbGHY0",
+      "placeId": "ChIJuUuxIgDb5EYRAyyIoXbGHY0",
+      "coordinates": {
+        "lat": 55.705311599999995,
+        "lng": 21.122730300000004
+      }
     },
     {
       "name": "Fährhafen zur Kurischen Nehrung",
@@ -24,7 +29,12 @@
       "description": "Die Smiltynė-Fähre bringt euch in nur 10 Minuten auf die Kurische Nehrung. Fähren verkehren alle 20-30 Minuten, das Auto fährt mit.",
       "duration": "10min Überfahrt",
       "price": "~€18 Hin+Rück (Auto + 2 Personen)",
-      "googleMapsUrl": "https://maps.google.com/?q=Smiltynės+perkėla+Klaipėda"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=New%20Ferry%20Terminal%2C%20Smiltyn%C4%97&query_place_id=ChIJHZqfFHjc5EYRQbu_MHuS-dA",
+      "placeId": "ChIJHZqfFHjc5EYRQbu_MHuS-dA",
+      "coordinates": {
+        "lat": 55.685664599999996,
+        "lng": 21.130498499999998
+      }
     },
     {
       "name": "Smiltynė Meeresmuseum & Delfin-Show",
@@ -33,7 +43,12 @@
       "description": "Das Meeresmuseum in einer alten Festung auf der Nehrungsseite bietet Aquarien und Delfin-Shows. Besonders lohnenswert, wenn man Kinder dabeihat.",
       "duration": "2h",
       "price": "€10-12",
-      "googleMapsUrl": "https://maps.google.com/?q=Lithuanian+Sea+Museum+Smiltynė"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lithuanian%20Sea%20Museum&query_place_id=ChIJPwdPNdvb5EYRdbTqTfouGxI",
+      "placeId": "ChIJPwdPNdvb5EYRdbTqTfouGxI",
+      "coordinates": {
+        "lat": 55.716667699999995,
+        "lng": 21.0997654
+      }
     }
   ],
   "restaurants": [
@@ -43,7 +58,12 @@
       "priceRange": "€€",
       "description": "In einer historischen Passage serviert dieses stilvolle Restaurant moderne litauische Küche mit saisonalen Zutaten. Eine der besten Adressen der Stadt.",
       "mustTry": "Frischer Ostseefisch — je nach Tagesfang",
-      "googleMapsUrl": "https://maps.google.com/?q=Friedricho+Pasažas+Klaipėda"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Friedricho%20pasa%C5%BEas&query_place_id=ChIJG3kPOvfb5EYRTbn-FwMUX8M",
+      "placeId": "ChIJG3kPOvfb5EYRTbn-FwMUX8M",
+      "coordinates": {
+        "lat": 55.706980699999995,
+        "lng": 21.1376886
+      }
     },
     {
       "name": "Memelio Baras",
@@ -51,7 +71,12 @@
       "priceRange": "€",
       "description": "Gemütliche Craft-Beer-Bar im Herzen der Altstadt mit einer guten Auswahl litauischer Mikrobrauereien und solider Pub-Küche.",
       "mustTry": "Lokales Craft Beer — die litauische Bierszene ist unterschätzt",
-      "googleMapsUrl": "https://maps.google.com/?q=Memelio+Baras+Klaipėda"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Memelio%20maistas&query_place_id=ChIJ3dXwfmXc5EYRCUt6cvdPVHs",
+      "placeId": "ChIJ3dXwfmXc5EYRCUt6cvdPVHs",
+      "coordinates": {
+        "lat": 55.683450099999995,
+        "lng": 21.1506001
+      }
     }
   ],
   "hotels": [
@@ -62,7 +87,12 @@
       "twinBeds": true,
       "evCharging": false,
       "description": "Zentral gelegenes Hotel direkt am Fluss mit modernen Zimmern und gutem Frühstück. Twin-Zimmer verfügbar. Perfekte Basis für den Abend vor der Nehrung.",
-      "googleMapsUrl": "https://maps.google.com/?q=Amberton+Klaipėda+Hotel"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Amberton%20Hotel%20Klaip%C4%97da&query_place_id=ChIJBTWSUuXb5EYRfID8wMj5KDo",
+      "placeId": "ChIJBTWSUuXb5EYRfID8wMj5KDo",
+      "coordinates": {
+        "lat": 55.7105937,
+        "lng": 21.129342299999998
+      }
     }
   ],
   "tips": [

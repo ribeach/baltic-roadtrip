@@ -15,7 +15,12 @@
       "description": "Die UNESCO-geschützte Seefestung auf sechs Inseln vor Helsinki ist ein Labyrinth aus Bastionen, Tunneln und Museen. Die Fähre vom Marktplatz braucht nur 15 Minuten — und die Festung verdient locker 2-3 Stunden.",
       "duration": "2-3h",
       "price": "Fähre ~€5 (Hin+Rück), Festung kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Suomenlinna+Helsinki+Finland"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Suomenlinna&query_place_id=ChIJ-1ZkcY4LkkYRsDmSuVO1AAo",
+      "placeId": "ChIJ-1ZkcY4LkkYRsDmSuVO1AAo",
+      "coordinates": {
+        "lat": 60.1446643,
+        "lng": 24.9827935
+      }
     },
     {
       "name": "Marktplatz & Alte Markthalle (Vanha Kauppahalli)",
@@ -24,7 +29,12 @@
       "description": "Der Marktplatz am Hafen und die historische Markthalle von 1889 sind Helsinkis kulinarisches Herz. Fangfrischer Lachs, Rentier-Produkte und die berühmte Lachssuppe machen jeden Besuch zum Genuss.",
       "duration": "1-1.5h",
       "price": "Kostenlos (Essen extra)",
-      "googleMapsUrl": "https://maps.google.com/?q=Old+Market+Hall+Helsinki+Finland"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Old%20Market%20Hall&query_place_id=ChIJWS7idIkLkkYRnDd0_KVobL4",
+      "placeId": "ChIJWS7idIkLkkYRnDd0_KVobL4",
+      "coordinates": {
+        "lat": 60.1661637,
+        "lng": 24.952819299999998
+      }
     },
     {
       "name": "Oodi Zentralbibliothek",
@@ -33,7 +43,12 @@
       "description": "Die 2018 eröffnete Zentralbibliothek ist ein architektonisches Meisterwerk aus Holz und Glas — und gleichzeitig ein öffentliches Wohnzimmer mit 3D-Druckern, Tonstudio und Panoramaterrasse. Eintritt frei.",
       "duration": "30-60min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Oodi+Library+Helsinki+Finland"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Helsinki%20Central%20Library%20Oodi&query_place_id=ChIJ67v8tsoLkkYR3XU-Jmnz2m4",
+      "placeId": "ChIJ67v8tsoLkkYR3XU-Jmnz2m4",
+      "coordinates": {
+        "lat": 60.1736833,
+        "lng": 24.9379191
+      }
     },
     {
       "name": "Felsenkirche Temppeliaukio",
@@ -42,7 +57,12 @@
       "description": "In den nackten Fels gesprengt und mit einer Kupferkuppel gekrönt — diese Kirche ist ein architektonisches Unikat. Die Akustik unter der Kuppel ist atemberaubend.",
       "duration": "30min",
       "price": "€5",
-      "googleMapsUrl": "https://maps.google.com/?q=Temppeliaukio+Church+Helsinki"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Temppeliaukio%20Church&query_place_id=ChIJsQw2ZzEKkkYRn0OBJ6_9uoA",
+      "placeId": "ChIJsQw2ZzEKkkYRn0OBJ6_9uoA",
+      "coordinates": {
+        "lat": 60.1730251,
+        "lng": 24.925235
+      }
     },
     {
       "name": "Dom von Helsinki",
@@ -51,7 +71,12 @@
       "description": "Der strahlend weiße neoklassizistische Dom thront über dem Senatsplatz und ist Helsinkis bekanntestes Wahrzeichen. Die breite Treppe davor ist der beliebteste Sitzplatz der Stadt.",
       "duration": "20-30min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Helsinki+Cathedral+Finland"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Helsinki%20Cathedral&query_place_id=ChIJtxnDRs4LkkYRousRCbTXpyg",
+      "placeId": "ChIJtxnDRs4LkkYRousRCbTXpyg",
+      "coordinates": {
+        "lat": 60.17037069999999,
+        "lng": 24.9521309
+      }
     }
   ],
   "restaurants": [
@@ -61,7 +86,12 @@
       "priceRange": "€-€€",
       "description": "In der historischen Markthalle von 1889 reihen sich Stände mit finnischen Delikatessen aneinander. Die Lachssuppe hier ist legendär und der perfekte Start in den Helsinki-Tag.",
       "mustTry": "Lachssuppe (Lohikeitto) — cremig, reichhaltig und mit großen Lachsstücken",
-      "googleMapsUrl": "https://maps.google.com/?q=Old+Market+Hall+Helsinki+Finland"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Old%20Market%20Hall&query_place_id=ChIJWS7idIkLkkYRnDd0_KVobL4",
+      "placeId": "ChIJWS7idIkLkkYRnDd0_KVobL4",
+      "coordinates": {
+        "lat": 60.1661637,
+        "lng": 24.952819299999998
+      }
     }
   ],
   "hotels": [],

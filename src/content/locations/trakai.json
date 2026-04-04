@@ -15,7 +15,12 @@
       "description": "Die einzige Wasserburg Osteuropas thront auf einer Insel im Galvė-See und ist über eine Holzbrücke erreichbar. Im Inneren befindet sich ein Museum zur Geschichte des Großfürstentums Litauen.",
       "duration": "1.5-2h",
       "price": "€8",
-      "googleMapsUrl": "https://maps.google.com/?q=Trakai+Island+Castle+Lithuania"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Trakai%20Island%20Castle&query_place_id=ChIJ44t4JGzz3UYRMmC6aN1UI8Q",
+      "placeId": "ChIJ44t4JGzz3UYRMmC6aN1UI8Q",
+      "coordinates": {
+        "lat": 54.652402599999995,
+        "lng": 24.933695999999998
+      }
     },
     {
       "name": "Karäer-Gemeinschaft",
@@ -24,7 +29,12 @@
       "description": "Die Karäer, ein turkisches Volk, wurden im 14. Jahrhundert vom Großfürsten Vytautas als Leibwächter nach Trakai gebracht. Ihre bunten Holzhäuser, Kenessa (Gebetshaus) und die einzigartige Küche sind bis heute lebendig.",
       "duration": "30-60min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Karaim+Ethnographic+Exhibition+Trakai"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Karaite%20ethnografic%20museum&query_place_id=ChIJ8_jkY3Lz3UYR9CDN2OU-Azo",
+      "placeId": "ChIJ8_jkY3Lz3UYR9CDN2OU-Azo",
+      "coordinates": {
+        "lat": 54.64721290000001,
+        "lng": 24.933287399999998
+      }
     },
     {
       "name": "Galvė-See",
@@ -33,7 +43,12 @@
       "description": "Der See mit 21 Inseln umgibt die Burg und bietet Tretboot-Verleih und herrliche Spazierwege entlang des Ufers mit wechselnden Perspektiven auf die Burg.",
       "duration": "1h",
       "price": "Kostenlos (Tretboot ca. €10/h)",
-      "googleMapsUrl": "https://maps.google.com/?q=Lake+Galvė+Trakai"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lake%20Galv%C4%97&query_place_id=ChIJq7oe4XTz3UYRWD0T4Ihn9IY",
+      "placeId": "ChIJq7oe4XTz3UYRWD0T4Ihn9IY",
+      "coordinates": {
+        "lat": 54.661575899999995,
+        "lng": 24.9342774
+      }
     }
   ],
   "restaurants": [
@@ -43,7 +58,12 @@
       "priceRange": "€",
       "description": "Direkt am Seeufer serviert dieses gemütliche Restaurant die berühmten Kibinai — halbmondförmige Fleischpasteten der Karäer. Das Nationalgericht von Trakai, frisch aus dem Ofen, mit Blick auf die Burg.",
       "mustTry": "Kibinai mit Lammfüllung — knuspriger Teig, saftiges Fleisch, seit 600 Jahren perfekt",
-      "googleMapsUrl": "https://maps.google.com/?q=Kybynlar+Trakai"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kybynlar&query_place_id=ChIJu0kFiXLz3UYRW2Des_t36bY",
+      "placeId": "ChIJu0kFiXLz3UYRW2Des_t36bY",
+      "coordinates": {
+        "lat": 54.6476421,
+        "lng": 24.9335259
+      }
     }
   ],
   "hotels": [],

@@ -2,7 +2,10 @@
   "id": "riga",
   "name": "Riga",
   "country": "latvia",
-  "coordinates": { "lat": 56.9496, "lng": 24.1052 },
+  "coordinates": {
+    "lat": 56.9496,
+    "lng": 24.1052
+  },
   "description": "Lettlands Hauptstadt vereint mittelalterliche Gassen mit der weltweit größten Dichte an Jugendstil-Architektur und einem Zentralmarkt in ehemaligen Zeppelin-Hangars. Am 4. Mai feiert Riga seinen Unabhängigkeitstag — perfektes Timing für einen Besuch voller Nationalstolz, Kultur und dem berüchtigten Riga Black Balsam.",
   "highlights": [
     {
@@ -12,7 +15,12 @@
       "description": "Rigas mittelalterliche Altstadt verbindet gotische Kirchen, Hansekontore und Barockpaläste auf engstem Raum. Der Dom, die Petrikirche und die verwinkelten Gassen laden zum stundenlangen Entdecken ein.",
       "duration": "3-4h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Riga+Old+Town+Latvia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vecr%C4%ABga&query_place_id=ChIJxeROBdfP7kYRD8N4fl17ivM",
+      "placeId": "ChIJxeROBdfP7kYRD8N4fl17ivM",
+      "coordinates": {
+        "lat": 56.9492755,
+        "lng": 24.104899099999997
+      }
     },
     {
       "name": "Alberta iela — Jugendstil-Fassaden",
@@ -21,7 +29,12 @@
       "description": "Die Alberta-Straße ist ein Freiluftmuseum des Jugendstils: Jede Fassade übertrifft die nächste mit Sphinxen, Drachen und Masken. Fast alle stammen vom exzentrischen Architekten Michail Eisenstein.",
       "duration": "30-60min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Alberta+iela+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Albert%20Street&query_place_id=ChIJt1kumMXP7kYRtnrQh34Pzcc",
+      "placeId": "ChIJt1kumMXP7kYRtnrQh34Pzcc",
+      "coordinates": {
+        "lat": 56.9595006,
+        "lng": 24.1079011
+      }
     },
     {
       "name": "Rigaer Jugendstil-Museum",
@@ -30,7 +43,12 @@
       "description": "Eine original eingerichtete Jugendstil-Wohnung aus dem Jahr 1903 zeigt, wie die Rigaer Bourgeoisie damals lebte — vom Kachelofen bis zum Silberbesteck.",
       "duration": "45-60min",
       "price": "€5",
-      "googleMapsUrl": "https://maps.google.com/?q=Riga+Art+Nouveau+Museum"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Riga%20Art%20Nouveau%20Center&query_place_id=ChIJmx59usXP7kYR-GmhGihukkg",
+      "placeId": "ChIJmx59usXP7kYR-GmhGihukkg",
+      "coordinates": {
+        "lat": 56.95955790000001,
+        "lng": 24.1084449
+      }
     },
     {
       "name": "Rigaer Zentralmarkt",
@@ -39,7 +57,12 @@
       "description": "Europas größter Markt in fünf ehemaligen Zeppelin-Hangars mit über 3.000 Ständen: Fisch, Fleisch, Käse, Brot und lokale Spezialitäten. Ein Fest für alle Sinne, am besten vor 10 Uhr morgens.",
       "duration": "1.5-2h",
       "price": "Kostenlos (Essen kosten natürlich extra)",
-      "googleMapsUrl": "https://maps.google.com/?q=Riga+Central+Market+Latvia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Riga%20Central%20Market&query_place_id=ChIJ4zbC0dTP7kYR1Atmanhp1zg",
+      "placeId": "ChIJ4zbC0dTP7kYR1Atmanhp1zg",
+      "coordinates": {
+        "lat": 56.9438573,
+        "lng": 24.1149982
+      }
     },
     {
       "name": "Schwarzhäupterhaus",
@@ -48,7 +71,12 @@
       "description": "Das prachtvolle Gildehaus der unverheirateten Kaufleute am Rathausplatz wurde nach der Zerstörung im Krieg originalgetreu wiederaufgebaut — eine der fotogensten Fassaden des Baltikums.",
       "duration": "30-45min",
       "price": "€6 (Museum)",
-      "googleMapsUrl": "https://maps.google.com/?q=House+of+the+Blackheads+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=House%20of%20the%20Black%20Heads&query_place_id=ChIJDWyy-dbP7kYRH6ESKobk6Sk",
+      "placeId": "ChIJDWyy-dbP7kYRH6ESKobk6Sk",
+      "coordinates": {
+        "lat": 56.9471695,
+        "lng": 24.106770599999997
+      }
     },
     {
       "name": "Freiheitsdenkmal (Milda)",
@@ -57,7 +85,12 @@
       "description": "Die 42 Meter hohe \"Milda\" mit den drei goldenen Sternen ist Lettlands wichtigstes nationales Symbol. Am 4. Mai (Unabhängigkeitstag) finden hier Militärparaden und Feierlichkeiten statt.",
       "duration": "15min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Freedom+Monument+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Freedom%20Monument&query_place_id=ChIJocMsdNHP7kYRgUZD8gCAQCU",
+      "placeId": "ChIJocMsdNHP7kYRgUZD8gCAQCU",
+      "coordinates": {
+        "lat": 56.9514905,
+        "lng": 24.1133043
+      }
     },
     {
       "name": "Petrikirche — Turmaussicht",
@@ -66,7 +99,12 @@
       "description": "Der Aufzug bringt euch auf 72 Meter Höhe zum Panoramablick über die gesamte Altstadt, die Düna und das Jugendstil-Viertel. Der beste Überblick über Riga.",
       "duration": "30-45min",
       "price": "€9",
-      "googleMapsUrl": "https://maps.google.com/?q=St+Peters+Church+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=St.%20Peter's%20Church&query_place_id=ChIJs_EtltbP7kYR7J7MVsBfJ9I",
+      "placeId": "ChIJs_EtltbP7kYR7J7MVsBfJ9I",
+      "coordinates": {
+        "lat": 56.9474394,
+        "lng": 24.1086532
+      }
     },
     {
       "name": "Drei Brüder",
@@ -75,7 +113,12 @@
       "description": "Der älteste Wohnhauskomplex Rigas — drei Häuser aus dem 15., 17. und 18. Jahrhundert nebeneinander, die die architektonische Entwicklung der Stadt auf einen Blick zeigen.",
       "duration": "15min",
       "price": "Kostenlos (Außenansicht)",
-      "googleMapsUrl": "https://maps.google.com/?q=Three+Brothers+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Three%20Brothers%2C%20Latvian%20Museum%20of%20Architecture&query_place_id=ChIJLxCfVNfP7kYRVLxQDt5z1nE",
+      "placeId": "ChIJLxCfVNfP7kYRVLxQDt5z1nE",
+      "coordinates": {
+        "lat": 56.950364,
+        "lng": 24.1042986
+      }
     },
     {
       "name": "Akademie der Wissenschaften — Aussichtsplattform",
@@ -84,7 +127,12 @@
       "description": "Der sowjetische \"Hochzeitstorten\"-Bau im Zuckerbäckerstil bietet von seiner Aussichtsplattform einen einzigartigen Blick über Riga — und ist selbst ein Denkmal der Sowjet-Architektur.",
       "duration": "30min",
       "price": "€5",
-      "googleMapsUrl": "https://maps.google.com/?q=Latvian+Academy+of+Sciences+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Latvian%20Academy%20of%20Sciences&query_place_id=ChIJq6qa-irO7kYR4-O7KZugWk8",
+      "placeId": "ChIJq6qa-irO7kYR4-O7KZugWk8",
+      "coordinates": {
+        "lat": 56.9432184,
+        "lng": 24.1217819
+      }
     },
     {
       "name": "Großer Ķemeri-Moor-Steg (Jūrmala)",
@@ -93,7 +141,12 @@
       "description": "Ein 3,4 km langer Bohlensteg führt durch eine mystische Moorlandschaft im Ķemeri-Nationalpark bei Jūrmala. Aussichtsturm mit Panorama über die endlose Weite. Perfekt für einen Morgenausflug.",
       "duration": "1.5-2h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Ķemeri+Great+Swamp+Boardwalk+Jūrmala"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Start%20of%20the%20Kemeri%20Bog%20walk&query_place_id=ChIJ76ywpUDi7kYR3AZs34YF4lU",
+      "placeId": "ChIJ76ywpUDi7kYR3AZs34YF4lU",
+      "coordinates": {
+        "lat": 56.9125105,
+        "lng": 23.4594399
+      }
     }
   ],
   "restaurants": [
@@ -103,7 +156,12 @@
       "priceRange": "€€",
       "description": "Riesige Bierhalle im Kellergewölbe mit 28 lettischen Bieren vom Fass, Live-Volksmusik und deftiger lettischer Küche. Laut, gesellig und absolut authentisch.",
       "mustTry": "Graue Erbsen mit Speck (pelēkie zirņi) — Lettlands inoffizielles Nationalgericht",
-      "googleMapsUrl": "https://maps.google.com/?q=Folkklubs+Ala+Pagrabs+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ala%20Pagrabs&query_place_id=ChIJ41S6Z9bP7kYR6UWuLYaX4-U",
+      "placeId": "ChIJ41S6Z9bP7kYR6UWuLYaX4-U",
+      "coordinates": {
+        "lat": 56.94608170000001,
+        "lng": 24.107812
+      }
     },
     {
       "name": "3 Pavāru Restorāns",
@@ -111,7 +169,12 @@
       "priceRange": "€€€",
       "description": "Drei Köche aus verschiedenen kulinarischen Welten teilen sich eine Küche und kreieren ein gemeinsames Tasting-Menü, das lettische Zutaten in unerwartete Richtungen führt.",
       "mustTry": "Tasting-Menü (55-75€) — jeder Gang eine Überraschung",
-      "googleMapsUrl": "https://maps.google.com/?q=3+Pavāru+Restorāns+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=3%20pav%C4%81ru%20restor%C4%81ns%20%22Tam%20labam%20b%C5%ABs%20augt%22&query_place_id=ChIJKWec69DP7kYRmv9_qgDSh60",
+      "placeId": "ChIJKWec69DP7kYRmv9_qgDSh60",
+      "coordinates": {
+        "lat": 56.951541999999996,
+        "lng": 24.1078801
+      }
     },
     {
       "name": "MĀSA",
@@ -119,7 +182,12 @@
       "priceRange": "€€€",
       "description": "Michelin-ausgezeichnetes Restaurant mit konsequent saisonaler lettischer Küche. Jeder Teller erzählt eine Geschichte von lettischen Wäldern, Feldern und Gewässern.",
       "mustTry": "Saisonales Menü — die Karte wechselt mit der Natur",
-      "googleMapsUrl": "https://maps.google.com/?q=MĀSA+Restaurant+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C4%81sa%20restaurant&query_place_id=ChIJA5FHJcvP7kYR1q8JaLZ18mk",
+      "placeId": "ChIJA5FHJcvP7kYR1q8JaLZ18mk",
+      "coordinates": {
+        "lat": 56.959059800000006,
+        "lng": 24.112253199999998
+      }
     },
     {
       "name": "Lido Vērmanītis",
@@ -127,7 +195,12 @@
       "priceRange": "€",
       "description": "Die berühmte Lido-Kette ist Lettlands kulinarische Institution: Riesiges Buffet mit dutzenden lettischen Gerichten zum Selbst-Zusammenstellen. Günstig, reichlich und perfekt zum Durchprobieren.",
       "mustTry": "Einfach von allem etwas nehmen — Schnitzel, Sauerkraut, Kartoffelpuffer, Brot",
-      "googleMapsUrl": "https://maps.google.com/?q=Lido+Vērmanītis+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=LIDO%20V%C4%93rman%C4%ABtis&query_place_id=ChIJq8l1c9LP7kYR4jUf0h6VIfM",
+      "placeId": "ChIJq8l1c9LP7kYR4jUf0h6VIfM",
+      "coordinates": {
+        "lat": 56.952872799999994,
+        "lng": 24.119785699999998
+      }
     }
   ],
   "hotels": [
@@ -138,7 +211,12 @@
       "twinBeds": true,
       "evCharging": false,
       "description": "Wunderschönes Jugendstil-Hotel direkt am Domplatz mit freigelegten Originaldetails, hohen Decken und einem der besten Frühstücke der Stadt. Die Lage ist unschlagbar.",
-      "googleMapsUrl": "https://maps.google.com/?q=Hotel+Neiburgs+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Neiburgs%20Hotel%20%26%20Restaurant&query_place_id=ChIJS47CFtfP7kYRt3QeTUl50ZM",
+      "placeId": "ChIJS47CFtfP7kYRt3QeTUl50ZM",
+      "coordinates": {
+        "lat": 56.948319,
+        "lng": 24.105454
+      }
     },
     {
       "name": "Boutique Hotel Justus",
@@ -147,7 +225,12 @@
       "twinBeds": true,
       "evCharging": false,
       "description": "Stilvolles Hotel mit freigelegten Ziegelwänden und modernem Design in einem historischen Gebäude. Twin Rooms verfügbar, ruhige Lage in der Altstadt.",
-      "googleMapsUrl": "https://maps.google.com/?q=Boutique+Hotel+Justus+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Justus&query_place_id=ChIJy16YFtfP7kYRCXXcdYQ0hzI",
+      "placeId": "ChIJy16YFtfP7kYRCXXcdYQ0hzI",
+      "coordinates": {
+        "lat": 56.948354599999995,
+        "lng": 24.1051622
+      }
     }
   ],
   "tips": [
@@ -168,22 +251,42 @@
     {
       "name": "Black Magic Bar",
       "description": "In einem mittelalterlichen Apothekengewölbe werden hier Cocktails mit dem berühmten Riga Black Balsam gemixt. Die Atmosphäre zwischen Alchemie und Bar ist einzigartig in Europa.",
-      "googleMapsUrl": "https://maps.google.com/?q=Black+Magic+Bar+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20%22Riga%20Black%20Magic%22&query_place_id=ChIJ5Xw2xdbP7kYRv5_7mHNBWb0",
+      "placeId": "ChIJ5Xw2xdbP7kYRv5_7mHNBWb0",
+      "coordinates": {
+        "lat": 56.948684300000004,
+        "lng": 24.1088745
+      }
     },
     {
       "name": "Gimlet Nordic Cocktail Bar",
       "description": "Speakeasy-Bar im nordischen Stil mit kreativen Cocktails, die nordische Zutaten wie Birke, Moos und Beeren verwenden. Klingeln, eintreten, staunen.",
-      "googleMapsUrl": "https://maps.google.com/?q=Gimlet+Nordic+Cocktail+Bar+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gimlet%20Nordic%20Cocktail%20Bar&query_place_id=ChIJC8CAzVjP7kYR9LtoUT4uXIo",
+      "placeId": "ChIJC8CAzVjP7kYR9LtoUT4uXIo",
+      "coordinates": {
+        "lat": 56.9587927,
+        "lng": 24.1228183
+      }
     },
     {
       "name": "Labietis",
       "description": "Rigas Kult-Craft-Brauerei braut experimentelle Biere mit Zutaten wie Kiefernadeln, Rhabarber und lettischen Kräutern. Die Taproom-Atmosphäre ist entspannt und die Biere überraschend gut.",
-      "googleMapsUrl": "https://maps.google.com/?q=Labietis+Brewery+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Labietis&query_place_id=ChIJyzSZxbXP7kYR-Is255urAnc",
+      "placeId": "ChIJyzSZxbXP7kYR-Is255urAnc",
+      "coordinates": {
+        "lat": 56.9654552,
+        "lng": 24.1306908
+      }
     },
     {
       "name": "Skyline Bar",
       "description": "Im 26. Stock des Radisson Blu bietet diese Bar ein atemberaubendes 360°-Panorama über ganz Riga. Perfekt für einen Sundowner — die Preise sind der Aussicht angemessen.",
-      "googleMapsUrl": "https://maps.google.com/?q=Skyline+Bar+Radisson+Blu+Riga"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Skyline%20bar&query_place_id=ChIJT_GkCM7P7kYRgdiqiGmys9c",
+      "placeId": "ChIJT_GkCM7P7kYRgdiqiGmys9c",
+      "coordinates": {
+        "lat": 56.954982699999995,
+        "lng": 24.117929399999998
+      }
     }
   ]
 }

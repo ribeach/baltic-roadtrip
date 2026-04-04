@@ -45,6 +45,8 @@ const locations = defineCollection({
       duration: z.string().nullable(),
       price: z.string().nullable(),
       googleMapsUrl: z.string(),
+      placeId: z.string(),
+      coordinates: z.object({ lat: z.number(), lng: z.number() }),
     })),
     restaurants: z.array(z.object({
       name: z.string(),
@@ -53,6 +55,8 @@ const locations = defineCollection({
       description: z.string(),
       mustTry: z.string().nullable(),
       googleMapsUrl: z.string(),
+      placeId: z.string(),
+      coordinates: z.object({ lat: z.number(), lng: z.number() }),
     })),
     hotels: z.array(z.object({
       name: z.string(),
@@ -62,6 +66,8 @@ const locations = defineCollection({
       evCharging: z.boolean(),
       description: z.string(),
       googleMapsUrl: z.string(),
+      placeId: z.string(),
+      coordinates: z.object({ lat: z.number(), lng: z.number() }),
     })),
     tips: z.array(z.object({
       type: z.enum(['geheimtipp', 'warnung', 'info']),
@@ -71,6 +77,8 @@ const locations = defineCollection({
       name: z.string(),
       description: z.string(),
       googleMapsUrl: z.string(),
+      placeId: z.string(),
+      coordinates: z.object({ lat: z.number(), lng: z.number() }),
     })).optional().default([]),
   }),
 });

@@ -15,7 +15,12 @@
       "description": "Die imposante rote Backsteinburg aus dem 13. Jahrhundert thront über dem Gauja-Tal. Der Aufstieg auf den Turm belohnt mit einem spektakulären Panorama über endlose Wälder und den Fluss.",
       "duration": "1.5-2h",
       "price": "€6",
-      "googleMapsUrl": "https://maps.google.com/?q=Turaida+Castle+Sigulda+Latvia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Turaida%20Castle&query_place_id=ChIJ0yaF_dBR6UYRqisTsSu6gLk",
+      "placeId": "ChIJ0yaF_dBR6UYRqisTsSu6gLk",
+      "coordinates": {
+        "lat": 57.1822685,
+        "lng": 24.8502842
+      }
     },
     {
       "name": "Gutmanis-Höhle",
@@ -24,7 +29,12 @@
       "description": "Die größte Höhle des Baltikums beeindruckt mit historischen Graffiti aus dem 17. Jahrhundert an den Sandsteinwänden. Der Legende nach hat das Quellwasser Heilkräfte.",
       "duration": "30min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Gutmanis+Cave+Sigulda+Latvia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gutman's%20Cave&query_place_id=ChIJS6DQ2tdR6UYRJ1WjbMPsiAk",
+      "placeId": "ChIJS6DQ2tdR6UYRJ1WjbMPsiAk",
+      "coordinates": {
+        "lat": 57.176168399999995,
+        "lng": 24.8423584
+      }
     },
     {
       "name": "Gauja-Tal Wanderwege",
@@ -33,7 +43,12 @@
       "description": "Sandsteinklippen in leuchtenden Rottönen, uralte Wälder und der mäandernde Gauja-Fluss — die Wanderwege im Nationalpark bieten Natur pur, nur 53km von Riga entfernt.",
       "duration": "1-3h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Gauja+National+Park+Latvia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gauja%20National%20Park&query_place_id=ChIJjdWcvJVX6UYR2e-oYxA4e5w",
+      "placeId": "ChIJjdWcvJVX6UYR2e-oYxA4e5w",
+      "coordinates": {
+        "lat": 57.332055399999994,
+        "lng": 25.2123009
+      }
     },
     {
       "name": "Seilbahn über das Gauja-Tal",
@@ -42,7 +57,12 @@
       "description": "Die einzige Seilbahn des Baltikums schwebt über das Gauja-Tal und bietet einen atemberaubenden Blick auf die Schlucht, die Wälder und die Burgruinen.",
       "duration": "15min (eine Richtung)",
       "price": "€12 Hin+Rück",
-      "googleMapsUrl": "https://maps.google.com/?q=Sigulda+Cable+Car+Latvia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=SIGULDA%20ADVENTURES&query_place_id=ChIJza-NFS1O6UYRHKWSG1CBECU",
+      "placeId": "ChIJza-NFS1O6UYRHKWSG1CBECU",
+      "coordinates": {
+        "lat": 57.1644619,
+        "lng": 24.8457093
+      }
     },
     {
       "name": "Līgatne Geheimer Sowjetbunker",
@@ -51,7 +71,12 @@
       "description": "9 Meter unter einer Rehabilitationsklinik versteckt, wurde dieser Bunker für 250 Mitglieder der Sowjet-Elite gebaut — komplett mit Kreml-Hotline, Dekontaminationsschleusen und Kommandozentrale. Nur mit Führung zugänglich.",
       "duration": "1.5h",
       "price": "€10",
-      "googleMapsUrl": "https://maps.google.com/?q=Soviet+Secret+Bunker+Līgatne+Latvia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Soviet%20Secret%20Bunker&query_place_id=ChIJR8mfXMdZ6UYRIKuIe2w3qhk",
+      "placeId": "ChIJR8mfXMdZ6UYRIKuIe2w3qhk",
+      "coordinates": {
+        "lat": 57.255855399999994,
+        "lng": 25.069069400000004
+      }
     }
   ],
   "restaurants": [
@@ -61,7 +86,12 @@
       "priceRange": "€€",
       "description": "Rustikales Restaurant in Sigulda mit traditioneller lettischer Landküche — hausgemachte Gerichte mit regionalen Zutaten in gemütlichem Ambiente.",
       "mustTry": "Saisonale lettische Gerichte mit Pilzen und Beeren aus den Wäldern der Gauja",
-      "googleMapsUrl": "https://maps.google.com/?q=Aparjods+Restaurant+Sigulda"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Viesn%C4%ABca%20un%20restor%C4%81ns%20Aparjods&query_place_id=ChIJbYRUYbBP6UYRuiawY5Gs67Q",
+      "placeId": "ChIJbYRUYbBP6UYRuiawY5Gs67Q",
+      "coordinates": {
+        "lat": 57.1413228,
+        "lng": 24.844258399999998
+      }
     }
   ],
   "hotels": [
@@ -72,7 +102,12 @@
       "twinBeds": true,
       "evCharging": false,
       "description": "Elegantes Boutique-Landhaus im nahegelegenen Cēsis mit liebevoll eingerichteten Zimmern und einem hervorragenden Restaurant. Perfekt für eine Nacht in lettischer Natur.",
-      "googleMapsUrl": "https://maps.google.com/?q=Villa+Santa+Hotel+Cēsis+Latvia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Villa%20Santa%20Hotel&query_place_id=ChIJLUz3nD3i60YRWMoosfPc3i0",
+      "placeId": "ChIJLUz3nD3i60YRWMoosfPc3i0",
+      "coordinates": {
+        "lat": 57.311258699999996,
+        "lng": 25.230442099999998
+      }
     }
   ],
   "tips": [

@@ -28,6 +28,25 @@ const mapLocations = [{
   lat: location.coordinates.lat,
   lng: location.coordinates.lng,
 }];
+
+const pois = [
+  ...location.highlights.map(h => ({
+    name: h.name, lat: h.coordinates.lat, lng: h.coordinates.lng,
+    category: 'highlight' as const, googleMapsUrl: h.googleMapsUrl,
+  })),
+  ...location.restaurants.map(r => ({
+    name: r.name, lat: r.coordinates.lat, lng: r.coordinates.lng,
+    category: 'restaurant' as const, googleMapsUrl: r.googleMapsUrl,
+  })),
+  ...location.hotels.map(h => ({
+    name: h.name, lat: h.coordinates.lat, lng: h.coordinates.lng,
+    category: 'hotel' as const, googleMapsUrl: h.googleMapsUrl,
+  })),
+  ...(location.nightlife || []).map(n => ({
+    name: n.name, lat: n.coordinates.lat, lng: n.coordinates.lng,
+    category: 'nightlife' as const, googleMapsUrl: n.googleMapsUrl,
+  })),
+];
 ---
 
 <BaseLayout title={location.name}>
@@ -56,10 +75,9 @@ const mapLocations = [{
       <RouteMap
         client:visible
         locations={mapLocations}
+        pois={pois}
         apiKey={apiKey}
-        height="300px"
-        zoom={13}
-        center={{ lat: location.coordinates.lat, lng: location.coordinates.lng }}
+        height="400px"
       />
     </div>
 

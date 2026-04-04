@@ -15,7 +15,12 @@
       "description": "Der Goldene Saal, der Weiße Saal und dutzende weitere Prunkräume zeigen Rokoko-Pracht auf höchstem Niveau. Architekt Bartolomeo Rastrelli entwarf parallel den Winterpalais in St. Petersburg — die Qualität ist vergleichbar.",
       "duration": "1.5-2h",
       "price": "€17 (Kombiticket Schloss + Garten)",
-      "googleMapsUrl": "https://maps.google.com/?q=Rundāle+Palace+Latvia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rund%C4%81le%20Palace%20Museum&query_place_id=ChIJ1Vnh_iDK6EYRKogkclD3kAA",
+      "placeId": "ChIJ1Vnh_iDK6EYRKogkclD3kAA",
+      "coordinates": {
+        "lat": 56.41343320000001,
+        "lng": 24.0244908
+      }
     },
     {
       "name": "Französischer Formalgarten",
@@ -24,7 +29,12 @@
       "description": "Der 10 Hektar große, meisterhaft restaurierte Barockgarten mit Springbrunnen, geometrischen Beeten und Skulpturen ist der schönste Schlossgarten des gesamten Baltikums.",
       "duration": "1-1.5h",
       "price": "Im Kombiticket enthalten",
-      "googleMapsUrl": "https://maps.google.com/?q=Rundāle+Palace+Garden+Latvia"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rund%C4%81le%20Palace%20Museum&query_place_id=ChIJ1Vnh_iDK6EYRKogkclD3kAA",
+      "placeId": "ChIJ1Vnh_iDK6EYRKogkclD3kAA",
+      "coordinates": {
+        "lat": 56.41343320000001,
+        "lng": 24.0244908
+      }
     }
   ],
   "restaurants": [],

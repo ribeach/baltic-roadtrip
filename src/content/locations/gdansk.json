@@ -2,7 +2,10 @@
   "id": "gdansk",
   "name": "Danzig (Gdańsk)",
   "country": "poland",
-  "coordinates": { "lat": 54.352, "lng": 18.6466 },
+  "coordinates": {
+    "lat": 54.352,
+    "lng": 18.6466
+  },
   "description": "Die stolze Hansestadt an der Ostsee begeistert mit ihrer meisterhaft wiederaufgebauten Rechtstadt, dem bewegenden Museum des Zweiten Weltkriegs und einer kulinarischen Szene, die polnische Tradition mit modernem Flair verbindet. Hier begann mit der Solidarność-Bewegung das Ende des Kommunismus in Europa.",
   "highlights": [
     {
@@ -12,7 +15,12 @@
       "description": "Eines der eindrucksvollsten Kriegsmuseen weltweit — die unterirdische Ausstellung erzählt den Krieg konsequent aus der Perspektive der Zivilbevölkerung. Emotional intensiv und hervorragend kuratiert.",
       "duration": "3-4h",
       "price": "€9",
-      "googleMapsUrl": "https://maps.google.com/?q=Museum+of+the+Second+World+War+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Museum%20of%20the%20Second%20World%20War&query_place_id=ChIJcyyBngxz_UYR4Drm0rTDtKA",
+      "placeId": "ChIJcyyBngxz_UYR4Drm0rTDtKA",
+      "coordinates": {
+        "lat": 54.3560788,
+        "lng": 18.6599927
+      }
     },
     {
       "name": "Europäisches Solidarność-Zentrum",
@@ -21,7 +29,12 @@
       "description": "Am historischen Tor der Danziger Werft erzählt das rostfarbene Gebäude die Geschichte der Gewerkschaftsbewegung, die den Eisernen Vorhang zum Einsturz brachte.",
       "duration": "2-3h",
       "price": "€8",
-      "googleMapsUrl": "https://maps.google.com/?q=European+Solidarity+Centre+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=European%20Solidarity%20Centre&query_place_id=ChIJ-XCXDXFz_UYRrUVhTl8MAeI",
+      "placeId": "ChIJ-XCXDXFz_UYRrUVhTl8MAeI",
+      "coordinates": {
+        "lat": 54.361312999999996,
+        "lng": 18.649739999999998
+      }
     },
     {
       "name": "Rechtstadt & Langer Markt",
@@ -30,7 +43,12 @@
       "description": "Die farbenprächtigen Bürgerhäuser der Rechtstadt wurden nach dem Krieg originalgetreu wiederaufgebaut. Der Lange Markt mit Neptunbrunnen und Artushof ist das Herzstück der Stadt.",
       "duration": "2-3h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=Długi+Targ+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=D%C5%82ugi%20Targ&query_place_id=ChIJc6lfy6Fz_UYRr1BwQbkrbls",
+      "placeId": "ChIJc6lfy6Fz_UYRr1BwQbkrbls",
+      "coordinates": {
+        "lat": 54.348326899999996,
+        "lng": 18.6540422
+      }
     },
     {
       "name": "Marienkirche",
@@ -39,7 +57,12 @@
       "description": "Die größte Backsteinkirche der Welt belohnt den Aufstieg über 400 Stufen mit einem atemberaubenden Panorama über Danzig und die Ostsee.",
       "duration": "1-1.5h",
       "price": "Turm ~€4",
-      "googleMapsUrl": "https://maps.google.com/?q=Bazylika+Mariacka+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=St.%20Mary's%20Church&query_place_id=ChIJ5ymnjZ9z_UYRDRWYS9R5hvo",
+      "placeId": "ChIJ5ymnjZ9z_UYRDRWYS9R5hvo",
+      "coordinates": {
+        "lat": 54.3498349,
+        "lng": 18.653056100000004
+      }
     },
     {
       "name": "Mariacka-Gasse (Frauengasse)",
@@ -48,7 +71,12 @@
       "description": "Die malerischste Gasse Danzigs mit ihren charakteristischen Beischlägen (Vorbauten) ist das Zentrum des Bernsteinhandels. Perfekt zum Flanieren und Stöbern.",
       "duration": "30-60min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://maps.google.com/?q=ulica+Mariacka+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mariacka%20Street&query_place_id=ChIJo3L-P6Bz_UYRQt4zUiyJTPg",
+      "placeId": "ChIJo3L-P6Bz_UYRQt4zUiyJTPg",
+      "coordinates": {
+        "lat": 54.3496106,
+        "lng": 18.6554812
+      }
     },
     {
       "name": "Westerplatte",
@@ -57,7 +85,12 @@
       "description": "Hier fielen am 1. September 1939 die ersten Schüsse des Zweiten Weltkriegs. Die Halbinsel ist per Wasserbus vom Grünen Tor aus erreichbar — die Fahrt über die Mottlau ist Teil des Erlebnisses.",
       "duration": "1.5-2h (inkl. Fahrt)",
       "price": "Wasserbus ~€5",
-      "googleMapsUrl": "https://maps.google.com/?q=Westerplatte+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Westerplatte&query_place_id=ChIJ1yazczN1_UYRorW0dRJlp2k",
+      "placeId": "ChIJ1yazczN1_UYRorW0dRJlp2k",
+      "coordinates": {
+        "lat": 54.4066936,
+        "lng": 18.6669688
+      }
     },
     {
       "name": "Marienburg (Malbork)",
@@ -66,7 +99,12 @@
       "description": "Die größte Backsteinburg der Welt und UNESCO-Weltkulturerbe liegt nur 60km südlich von Danzig. Die gewaltige Ordensburg des Deutschen Ordens ist ein Tagesausflug, der sich absolut lohnt.",
       "duration": "4-5h (inkl. Anfahrt)",
       "price": "~€12",
-      "googleMapsUrl": "https://maps.google.com/?q=Malbork+Castle+Poland"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Malbork%20Castle&query_place_id=ChIJUxu-TAtZ_UYRln6bQfTjg3U",
+      "placeId": "ChIJUxu-TAtZ_UYRln6bQfTjg3U",
+      "coordinates": {
+        "lat": 54.0397526,
+        "lng": 19.028012699999998
+      }
     }
   ],
   "restaurants": [
@@ -76,7 +114,12 @@
       "priceRange": "€",
       "description": "Kleine, gemütliche Pierogi-Stube mit kreativen Füllungen weit über den Standard hinaus. Handgemacht, frisch und unverschämt günstig.",
       "mustTry": "Pierogi mit Gänsebraten-Füllung — ein Danziger Original",
-      "googleMapsUrl": "https://maps.google.com/?q=Pierogarnia+Mandu+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pierogarnia%20Mandu%20Gda%C5%84sk%20%C5%9Ar%C3%B3dmie%C5%9Bcie&query_place_id=ChIJhxejdXZz_UYR0HOnu0Z47iY",
+      "placeId": "ChIJhxejdXZz_UYR0HOnu0Z47iY",
+      "coordinates": {
+        "lat": 54.3537573,
+        "lng": 18.6467672
+      }
     },
     {
       "name": "Brovarnia Gdańsk",
@@ -84,7 +127,12 @@
       "priceRange": "€€",
       "description": "Hausbrauerei in einem historischen Speicher direkt an der Mottlau. Die kupfernen Sudkessel stehen mitten im Restaurant, dazu gibt es deftige polnische Küche mit Blick aufs Wasser.",
       "mustTry": "Hausbier zum Żurek (saure Roggenmehlsuppe)",
-      "googleMapsUrl": "https://maps.google.com/?q=Brovarnia+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Brovarnia%20Gda%C5%84sk%20I%20Restauracja%20i%20Browar%20w%20Gda%C5%84sku&query_place_id=ChIJwYDnu6Bz_UYRi2SVMWBkrbY",
+      "placeId": "ChIJwYDnu6Bz_UYRi2SVMWBkrbY",
+      "coordinates": {
+        "lat": 54.34923190000001,
+        "lng": 18.6606351
+      }
     },
     {
       "name": "Piwna 47 Food & Wine Bar",
@@ -92,7 +140,12 @@
       "priceRange": "€€",
       "description": "Stilvolles Restaurant in der Bierstraße mit moderner Interpretation polnischer Klassiker und einer beeindruckenden Weinkarte. Gehobenes Ambiente ohne steif zu sein.",
       "mustTry": "Tatar vom Rinderfilet als Vorspeise",
-      "googleMapsUrl": "https://maps.google.com/?q=Piwna+47+Food+Wine+Bar+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Piwna47%20Food%20%26%20Wine%20Bar&query_place_id=ChIJid_W7J9z_UYRVj0WNyLiGjM",
+      "placeId": "ChIJid_W7J9z_UYRVj0WNyLiGjM",
+      "coordinates": {
+        "lat": 54.350144199999995,
+        "lng": 18.6520129
+      }
     },
     {
       "name": "Montownia Food Hall",
@@ -100,7 +153,12 @@
       "priceRange": "€-€€",
       "description": "In einer ehemaligen U-Boot-Fabrik der Danziger Werft vereint diese Food Hall dutzende Stände unter einem industriellen Dach. Geschichte trifft auf Gastronomie.",
       "mustTry": "Einfach von Stand zu Stand probieren — die Auswahl wechselt ständig",
-      "googleMapsUrl": "https://maps.google.com/?q=Montownia+Food+Hall+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=MONTOWNIA%20FOOD%20HALL&query_place_id=ChIJg8dsp35z_UYRYLOEqEkKcew",
+      "placeId": "ChIJg8dsp35z_UYRYLOEqEkKcew",
+      "coordinates": {
+        "lat": 54.3596015,
+        "lng": 18.654095500000004
+      }
     }
   ],
   "hotels": [
@@ -111,7 +169,12 @@
       "twinBeds": true,
       "evCharging": false,
       "description": "Modernes Design-Hotel in bester Altstadtlage mit durchdachten Zimmern, die polnisches Design mit skandinavischer Klarheit verbinden. Twin-Zimmer verfügbar.",
-      "googleMapsUrl": "https://maps.google.com/?q=PURO+Hotel+Gdańsk+Stare+Miasto"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=PURO%20Hotel%20Gda%C5%84sk%20Stare%20Miasto&query_place_id=ChIJ5SjXTJ5z_UYRdE9tGIljxM0",
+      "placeId": "ChIJ5SjXTJ5z_UYRdE9tGIljxM0",
+      "coordinates": {
+        "lat": 54.347552799999995,
+        "lng": 18.658569399999998
+      }
     },
     {
       "name": "Hotel Podewils",
@@ -120,7 +183,12 @@
       "twinBeds": true,
       "evCharging": false,
       "description": "Barockes Herrenhaus aus dem 18. Jahrhundert direkt an der Mottlau. Stilvolle Zimmer mit historischem Charme und modernem Komfort, manche mit Flussblick.",
-      "googleMapsUrl": "https://maps.google.com/?q=Hotel+Podewils+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Podewils%20Old%20Town%20Gda%C5%84sk&query_place_id=ChIJKZjkdApz_UYRaq5_fZCcUa8",
+      "placeId": "ChIJKZjkdApz_UYRaq5_fZCcUa8",
+      "coordinates": {
+        "lat": 54.3504692,
+        "lng": 18.6602679
+      }
     }
   ],
   "tips": [
@@ -141,12 +209,22 @@
     {
       "name": "Pułapka",
       "description": "Craft-Beer-Bar mit 13 Zapfhähnen und ständig wechselnder Auswahl polnischer Mikrobrauereien. Gemütliche Atmosphäre, kenntnisreiches Personal.",
-      "googleMapsUrl": "https://maps.google.com/?q=Pułapka+Craft+Beer+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pu%C5%82apka%20Craft%20Beer%20%26%20Pizza&query_place_id=ChIJR5HWQXVz_UYRL-KiYGr4lQE",
+      "placeId": "ChIJR5HWQXVz_UYRL-KiYGr4lQE",
+      "coordinates": {
+        "lat": 54.3522675,
+        "lng": 18.6562379
+      }
     },
     {
       "name": "Labeerynt",
       "description": "Unterirdische Kellerbar mit Rock-Soundtrack und einer riesigen Auswahl an polnischem Craft Beer. Die Kellner kennen jedes Bier persönlich.",
-      "googleMapsUrl": "https://maps.google.com/?q=Labeerynt+Gdańsk"
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Labeerynt&query_place_id=ChIJp9rEqgpz_UYRB1mY-FsdPu4",
+      "placeId": "ChIJp9rEqgpz_UYRB1mY-FsdPu4",
+      "coordinates": {
+        "lat": 54.351298,
+        "lng": 18.6544609
+      }
     }
   ]
 }
