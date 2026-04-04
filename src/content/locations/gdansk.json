@@ -166,9 +166,8 @@
       "name": "PURO Gdańsk Stare Miasto",
       "type": "Design-Hotel",
       "priceRange": "80-150€",
-      "twinBeds": true,
       "evCharging": false,
-      "description": "Modernes Design-Hotel in bester Altstadtlage mit durchdachten Zimmern, die polnisches Design mit skandinavischer Klarheit verbinden. Twin-Zimmer verfügbar.",
+      "description": "Modernes Design-Hotel in bester Altstadtlage mit durchdachten Zimmern, die polnisches Design mit skandinavischer Klarheit verbinden. Separate Zimmer buchbar.",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=PURO%20Hotel%20Gda%C5%84sk%20Stare%20Miasto&query_place_id=ChIJ5SjXTJ5z_UYRdE9tGIljxM0",
       "placeId": "ChIJ5SjXTJ5z_UYRdE9tGIljxM0",
       "coordinates": {
@@ -180,7 +179,6 @@
       "name": "Hotel Podewils",
       "type": "Historisches Boutique-Hotel",
       "priceRange": "120-150€",
-      "twinBeds": true,
       "evCharging": false,
       "description": "Barockes Herrenhaus aus dem 18. Jahrhundert direkt an der Mottlau. Stilvolle Zimmer mit historischem Charme und modernem Komfort, manche mit Flussblick.",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Podewils%20Old%20Town%20Gda%C5%84sk&query_place_id=ChIJKZjkdApz_UYRaq5_fZCcUa8",

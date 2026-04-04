@@ -84,9 +84,8 @@
       "name": "Amberton Klaipėda",
       "type": "Stadthotel",
       "priceRange": "80-120€",
-      "twinBeds": true,
       "evCharging": false,
-      "description": "Zentral gelegenes Hotel direkt am Fluss mit modernen Zimmern und gutem Frühstück. Twin-Zimmer verfügbar. Perfekte Basis für den Abend vor der Nehrung.",
+      "description": "Zentral gelegenes Hotel direkt am Fluss mit modernen Zimmern und gutem Frühstück. Separate Zimmer buchbar. Perfekte Basis für den Abend vor der Nehrung.",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Amberton%20Hotel%20Klaip%C4%97da&query_place_id=ChIJBTWSUuXb5EYRfID8wMj5KDo",
       "placeId": "ChIJBTWSUuXb5EYRfID8wMj5KDo",
       "coordinates": {
