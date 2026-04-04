@@ -29,15 +29,34 @@ const mapLocations = days
       });
     }
     return acc;
-  }, [] as Array<{ id: string; name: string; lat: number; lng: number; dayNumber: number; link: string }>);
+  }, [] as Array<{ id: string; name: string; lat: number; lng: number; dayNumber?: number; link: string; label?: string }>);
+
+// Close the loop: Aalen is start and end of the circular route
+const aalenLoc = allLocations.find(l => l.data.id === 'aalen');
+if (aalenLoc) {
+  const aalenIdx = mapLocations.findIndex(loc => loc.id === 'aalen');
+  if (aalenIdx !== -1) {
+    mapLocations.splice(aalenIdx, 1);
+  }
+  const aalenBase = {
+    id: 'aalen',
+    name: 'Aalen (Start/Ziel)',
+    lat: aalenLoc.data.coordinates.lat,
+    lng: aalenLoc.data.coordinates.lng,
+    link: `${base}tag/17`,
+    label: '⌂',
+  };
+  mapLocations.unshift(aalenBase);
+  mapLocations.push({ ...aalenBase, id: 'aalen-return' });
+}
 
 const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER';
 
 const stats = [
   { value: '17', label: 'Tage' },
-  { value: '6', label: 'Länder' },
-  { value: '~4.000', label: 'Kilometer' },
-  { value: '1', label: 'Fähre' },
+  { value: '8', label: 'Länder' },
+  { value: '~4.500', label: 'Kilometer' },
+  { value: '3', label: 'Fähren' },
   { value: '1', label: 'Elektroauto' },
 ];
 ---

@@ -113,8 +113,8 @@
       "priceRange": "€€",
       "description": "Gemütliches Restaurant in einem traditionellen Holzhaus mit litauischer Hausmannskost, frischem Fisch und herzlicher Bedienung. Der perfekte Ort für ein Mittagessen nach der Dünen-Wanderung.",
       "mustTry": "Fangfrischer Ostseefisch — je nach Saison",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nidos%20prieplauka&query_place_id=ChIJ-RXBJ76X5EYRpSwNtGAGyus",
-      "placeId": "ChIJ-RXBJ76X5EYRpSwNtGAGyus",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nidos%20Seklycia&query_place_id=ChIJ3XWSJZWX5EYRc7hAxH2h3cE",
+      "placeId": "ChIJ3XWSJZWX5EYRc7hAxH2h3cE",
       "coordinates": {
         "lat": 55.3026327,
         "lng": 21.0094082
@@ -144,7 +144,7 @@
     },
     {
       "type": "info",
-      "text": "E-Autos fahren kostenlos in den Nationalpark — Verbrenner zahlen 10€ Eintritt. Den Beleg bereithalten!"
+      "text": "E-Autos fahren in der Regel kostenlos in den Nationalpark (Verbrenner zahlen ~10€). Diese Regelung kann saisonal variieren — vor Reiseantritt aktuellen Status prüfen."
     },
     {
       "type": "geheimtipp",

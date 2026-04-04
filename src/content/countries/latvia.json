@@ -17,7 +17,7 @@
   "driving": {
     "speedLimits": { "urban": 50, "rural": 90, "motorway": 110 },
     "tolls": "Keine Maut für Pkw.",
-    "specialRules": "Abblendlicht 24/7 Pflicht. 0,05 ‰ Promillegrenze."
+    "specialRules": "Abblendlicht 24/7 Pflicht. 0,5 ‰ Promillegrenze."
   },
   "culinary": {
     "mustTry": [

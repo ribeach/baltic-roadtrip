@@ -17,7 +17,7 @@
   "driving": {
     "speedLimits": { "urban": 50, "rural": 90, "motorway": 140 },
     "tolls": "A1 Konzessionsabschnitt mautpflichtig (Mautstationen). Staatliche Autobahnen für Pkw frei seit 2023.",
-    "specialRules": "Abblendlicht 24/7 Pflicht. Sehr niedrige Promillegrenze (0,02 ‰)."
+    "specialRules": "Abblendlicht 24/7 Pflicht. Sehr niedrige Promillegrenze (0,2 ‰)."
   },
   "culinary": {
     "mustTry": [

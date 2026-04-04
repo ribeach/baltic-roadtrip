@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const allCountries = await getCollection('countries');
-const routeOrder = ['germany', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden'];
+const routeOrder = ['germany', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden', 'denmark'];
 const countries = allCountries.sort((a, b) => routeOrder.indexOf(a.data.id) - routeOrder.indexOf(b.data.id));
 
 const essentialApps = [
@@ -19,7 +19,7 @@ const essentialApps = [
 ];
 
 const ferryOptions = [
-  { route: 'Tallinn → Stockholm', operator: 'Tallink (Baltic Queen)', duration: '~16–17h (Nachtfähre)', price: '285–430 € gesamt (Auto + 2 Pers. + Kabine)', note: 'Empfohlen. Nur jeden 2. Tag! Früh buchen.' },
+  { route: 'Tallinn → Stockholm', operator: 'Tallink (Baltic Queen)', duration: '~16–17h (Nachtfähre)', price: '285–430 € gesamt (Auto + 2 Pers. + Kabine)', note: 'Empfohlen. Fahrplan prüfen (variiert saisonal). Früh buchen!' },
   { route: 'Tallinn → Helsinki', operator: 'Tallink / Eckerö Line', duration: '2–2,5h', price: '30–60 € p.P. (Fußgänger)', note: 'Für Helsinki-Tagesausflug. 12+ Abfahrten täglich.' },
   { route: 'Helsinki → Stockholm', operator: 'Viking Line / Tallink Silja', duration: '~17h (Nachtfähre)', price: '200–350 € (Auto + Kabine)', note: 'Alternative via Finnland. Schären-Panorama.' },
   { route: 'Klaipėda → Smiltynė (Kurische Nehrung)', operator: 'Lokale Fähre', duration: '~10 Min', price: '~18 € Hin+Rück (Auto)', note: 'Alle 20–30 Min. Bezahlung am Terminal.' },
@@ -27,7 +27,7 @@ const ferryOptions = [
 
 const evRules = [
   'Auto VOR der Fähre vollladen — kein Laden an Bord möglich',
-  'Fahrzeug bei Buchung als "Electric Vehicle" deklarieren',
+  'Bei der Buchung Fahrzeugmaße und Kennzeichen korrekt angeben',
   'Alarmsysteme auf der Fähre deaktivieren (Seegang)',
   'Mit min. 20% SoC verladen für Ausschiffung + Fahrt zum ersten Lader',
   'Autodeck ist während der Überfahrt nicht zugänglich',
@@ -58,7 +58,7 @@ const evRules = [
           <div class="text-gray-400 text-sm">Reale Reichweite</div>
         </div>
         <div>
-          <div class="text-amber-400 font-bold text-lg">bis 175 kW</div>
+          <div class="text-amber-400 font-bold text-lg">bis 135 kW</div>
           <div class="text-gray-400 text-sm">Max. Ladeleistung (DC)</div>
         </div>
       </div>
@@ -169,7 +169,7 @@ const evRules = [
           </tbody>
         </table>
       </div>
-      <p class="text-xs text-gray-400 mt-2">Alle Länder: Abblendlicht 24/7 Pflicht. Sehr niedrige Promillegrenzen (0,02–0,05%). Estland: ZWEI Warndreiecke! Litauen: Feuerlöscher Pflicht.</p>
+      <p class="text-xs text-gray-400 mt-2">Abblendlicht 24/7 Pflicht in allen Ländern außer Deutschland (dort nur bei schlechter Sicht). Niedrige Promillegrenzen (0,2–0,5 ‰). Estland: ZWEI Warndreiecke! Litauen: Feuerlöscher Pflicht.</p>
     </section>
 
     <!-- Tolls -->

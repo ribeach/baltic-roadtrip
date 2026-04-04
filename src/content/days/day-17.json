@@ -8,14 +8,14 @@
   "overnightLocationId": null,
   "additionalLocationIds": ["luebeck"],
   "driving": {
-    "distance": "900 km",
-    "duration": "10:00",
+    "distance": "1.050 km",
+    "duration": "11:30",
     "mode": "drive",
     "routeDescription": "Über die E6 nach Malmö, Öresundbrücke nach Kopenhagen, E47/E45 durch Dänemark, A7 durch Schleswig-Holstein und Niedersachsen, weiter über Kassel und Würzburg nach Aalen. Alternative: Fähre Trelleborg–Rostock, um die Fahrzeit zu verkürzen."
   },
   "evCharging": {
-    "stopsNeeded": 3,
-    "notes": "Langer Fahrtag – drei Ladestopps einplanen. Hervorragende Infrastruktur in Schweden, Dänemark und Deutschland. Alternative Trelleborg–Rostock-Fähre spart 200 km Fahrtstrecke, Laden an Bord jedoch nicht möglich.",
+    "stopsNeeded": 4,
+    "notes": "Längster Fahrtag der Reise – vier Ladestopps einplanen. Hervorragende Infrastruktur in Schweden, Dänemark und Deutschland. Storebælt-Brücke (~40€) und Øresundbrücke (~55€) nicht vergessen! Alternative Trelleborg–Rostock-Fähre spart ~200 km, Laden an Bord jedoch nicht möglich.",
     "criticalLevel": "green"
   },
   "activities": [
