@@ -4,9 +4,9 @@
 
 Statische Website zur Planung eines 17-tägigen Roadtrips durch das Baltikum mit dem VW ID.4.
 
-**Route:** Aalen - Berlin - Danzig - Vilnius - Klaipeda - Riga - Tallinn - Stockholm - Halmstad - Aalen
+**Route:** Aalen - Berlin - Danzig - Vilnius - Klaipeda - Riga - Tallinn - Helsinki - Turku - Stockholm - Halmstad - Aalen
 
-**Zeitraum:** 30. April - 16. Mai 2026 | **Strecke:** ~4.000 km | **Laender:** 6
+**Zeitraum:** 30. April - 16. Mai 2026 | **Strecke:** ~4.200 km | **Laender:** 7
 
 ## Schnellstart
 

@@ -12,7 +12,7 @@
     "quality": "sehr gut",
     "medianDcPrice": "0,35–0,59 €/kWh",
     "recommendedApps": ["Virta", "K-Lataus", "Fortum Charge & Drive"],
-    "notes": "Starkes, roadtrip-freundliches Netz. K-Lataus an Supermärkten günstig (0,35 €/kWh). Für den Helsinki-Tagesausflug als Fußgänger nicht relevant."
+    "notes": "Starkes, roadtrip-freundliches Netz. K-Lataus an Supermärkten günstig (0,35 €/kWh). Helsinki–Turku-Korridor (E18) hervorragend mit Fortum-Schnellladern ausgestattet."
   },
   "driving": {
     "speedLimits": { "urban": 50, "rural": 80, "motorway": 120 },
