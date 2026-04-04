@@ -42,21 +42,19 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
         setError(null);
         setMapLoaded(false);
 
-        // v2 API: use setOptions + importLibrary
         const { setOptions, importLibrary } = await import('@googlemaps/js-api-loader');
-
-        setOptions({ apiKey, version: 'weekly' });
+        // v2 loader converts camelCase to snake_case for URL params:
+        // "apiKey" becomes "api_key" but Google expects "key"
+        setOptions({ key: apiKey, version: 'weekly' } as any);
 
         const mapsLib = await importLibrary('maps') as google.maps.MapsLibrary;
-        const markerLib = await importLibrary('marker') as google.maps.MarkerLibrary;
 
         if (cancelled || !mapRef.current) return;
 
         const { Map, InfoWindow, Polyline } = mapsLib;
-        const { AdvancedMarkerElement, PinElement } = markerLib;
 
         // Clean up previous markers and polyline
-        markersRef.current.forEach(m => (m as any).map = null);
+        markersRef.current.forEach(m => m.setMap(null));
         markersRef.current = [];
         polylineRef.current?.setMap(null);
         polylineRef.current = null;
@@ -64,15 +62,19 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
         const bounds = new google.maps.LatLngBounds();
         locations.forEach(loc => bounds.extend({ lat: loc.lat, lng: loc.lng }));
 
-        // Create or reuse map
         if (!mapInstanceRef.current) {
           mapInstanceRef.current = new Map(mapRef.current, {
             center: center || bounds.getCenter().toJSON(),
             zoom: zoom || 4,
-            mapId: 'baltic-roadtrip-map',
             mapTypeControl: false,
             streetViewControl: false,
             fullscreenControl: true,
+            styles: [
+              { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#c9d6e5' }] },
+              { featureType: 'landscape', elementType: 'geometry', stylers: [{ color: '#f0f2f5' }] },
+              { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#e6a919' }, { weight: 1.5 }] },
+              { featureType: 'poi', stylers: [{ visibility: 'off' }] },
+            ],
           });
         }
 
@@ -85,24 +87,29 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           map.setZoom(zoom);
         }
 
-        // Shared info window
+        // Shared info window (reused across markers)
         const infoWindow = new InfoWindow();
 
-        // Add markers
+        // Standard Markers (no mapId required)
         locations.forEach((loc, i) => {
-          const pin = new PinElement({
-            background: '#e6a919',
-            borderColor: '#1a1a2e',
-            glyphColor: '#1a1a2e',
-            glyph: loc.dayNumber ? String(loc.dayNumber) : String(i + 1),
-            scale: 1.2,
-          });
-
-          const marker = new AdvancedMarkerElement({
+          const marker = new google.maps.Marker({
             position: { lat: loc.lat, lng: loc.lng },
             map,
             title: loc.name,
-            content: pin.element,
+            label: {
+              text: loc.dayNumber ? String(loc.dayNumber) : String(i + 1),
+              color: '#1a1a2e',
+              fontWeight: 'bold',
+              fontSize: '11px',
+            },
+            icon: {
+              path: google.maps.SymbolPath.CIRCLE,
+              fillColor: '#e6a919',
+              fillOpacity: 1,
+              strokeColor: '#1a1a2e',
+              strokeWeight: 2,
+              scale: 14,
+            },
           });
 
           marker.addListener('click', () => {
@@ -120,13 +127,13 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
               content.appendChild(span);
             }
             infoWindow.setContent(content);
-            infoWindow.open({ map, anchor: marker });
+            infoWindow.open(map, marker);
           });
 
-          markersRef.current.push(marker as any);
+          markersRef.current.push(marker);
         });
 
-        // Draw route polyline
+        // Route polyline
         if (locations.length > 1) {
           polylineRef.current = new Polyline({
             path: locations.map(loc => ({ lat: loc.lat, lng: loc.lng })),
@@ -149,7 +156,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
 
     return () => {
       cancelled = true;
-      markersRef.current.forEach(m => (m as any).map = null);
+      markersRef.current.forEach(m => m.setMap(null));
       markersRef.current = [];
       polylineRef.current?.setMap(null);
       polylineRef.current = null;
