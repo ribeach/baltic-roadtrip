@@ -6,7 +6,7 @@
     "lat": 55.7033,
     "lng": 21.1443
   },
-  "description": "Die einstige Hansestadt Memel ist das Tor zur Kurischen Nehrung und überrascht mit einem charmanten Fachwerk-Altstadtkern, der an eine norddeutsche Kleinstadt erinnert. Hier legt die Fähre ab, die euch zu einer der spektakulärsten Landschaften Europas bringt.",
+  "description": "Die einstige Hansestadt Memel ist das Tor zur Kurischen Nehrung und überrascht mit einem charmanten Fachwerk-Altstadtkern, der an eine norddeutsche Kleinstadt erinnert. Hier legt die Fähre ab, die uns zu einer der spektakulärsten Landschaften Europas bringt.",
   "highlights": [
     {
       "name": "Altstadt mit Fachwerkhäusern",
@@ -26,7 +26,7 @@
       "name": "Fährhafen zur Kurischen Nehrung",
       "type": "activity",
       "icon": "star",
-      "description": "Die Smiltynė-Fähre bringt euch in nur 10 Minuten auf die Kurische Nehrung. Fähren verkehren alle 20-30 Minuten, das Auto fährt mit.",
+      "description": "Die Smiltynė-Fähre bringt uns in nur 10 Minuten auf die Kurische Nehrung. Fähren verkehren alle 20-30 Minuten, das Auto fährt mit.",
       "duration": "10min Überfahrt",
       "price": "~€18 Hin+Rück (Auto + 2 Personen)",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=New%20Ferry%20Terminal%2C%20Smiltyn%C4%97&query_place_id=ChIJHZqfFHjc5EYRQbu_MHuS-dA",
