@@ -10,10 +10,13 @@ const allLocations = await getCollection('locations');
 const days = allDays.sort((a, b) => a.data.dayNumber - b.data.dayNumber);
 
 // Build map locations from unique overnight stops
+// reference() returns { id: string, collection: string } — extract .id
 const mapLocations = days
   .filter(d => d.data.driving?.mode !== 'none' || d.data.dayNumber === 1)
   .reduce((acc, day) => {
-    const loc = allLocations.find(l => l.data.id === day.data.locationId);
+    const locRef = day.data.locationId;
+    const locId = typeof locRef === 'object' && locRef !== null ? (locRef as any).id : locRef;
+    const loc = allLocations.find(l => l.id === locId || l.data.id === locId);
     if (loc && !acc.find(a => a.id === loc.data.id)) {
       acc.push({
         id: loc.data.id,

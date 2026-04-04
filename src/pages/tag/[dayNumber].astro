@@ -19,8 +19,10 @@ const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER'
 const allLocations = await getCollection('locations');
 const allDays = await getCollection('days');
 
-const location = allLocations.find(l => l.data.id === day.locationId);
-const prevLocation = day.previousLocationId ? allLocations.find(l => l.data.id === day.previousLocationId) : null;
+// reference() returns { id, collection } — extract .id for lookups
+const resolveRef = (ref: any) => typeof ref === 'object' && ref !== null ? ref.id : ref;
+const location = allLocations.find(l => l.id === resolveRef(day.locationId) || l.data.id === resolveRef(day.locationId));
+const prevLocation = day.previousLocationId ? allLocations.find(l => l.id === resolveRef(day.previousLocationId) || l.data.id === resolveRef(day.previousLocationId)) : null;
 
 const prevDay = allDays.find(d => d.data.dayNumber === day.dayNumber - 1);
 const nextDay = allDays.find(d => d.data.dayNumber === day.dayNumber + 1);
