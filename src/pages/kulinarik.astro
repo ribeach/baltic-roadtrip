@@ -17,30 +17,30 @@ const otherCountries = allCountries
     return order.indexOf(a.data.id) - order.indexOf(b.data.id);
   });
 
-const balticDishes: Record<string, { name: string; description: string; emoji: string }[]> = {
+const balticDishes: Record<string, { name: string; description: string; emoji: string; url?: string }[]> = {
   lithuania: [
-    { name: 'Cepelinai', description: 'Massive, zeppelinförmige Kartoffelklöße mit Fleischfüllung, ertränkt in saurer Sahne und Speckwürfeln. DAS Nationalgericht.', emoji: '🥟' },
-    { name: 'Šaltibarščiai', description: 'Leuchtend pinke, kalte Rote-Bete-Suppe mit Kefir, Gurken, Dill und Ei. Erfrischend und fotogen.', emoji: '🥣' },
-    { name: 'Kibinai', description: 'Karäische Fleischpasteten aus Trakai. Halbmondförmig, würzig, am besten am Seeufer.', emoji: '🥐' },
-    { name: 'Kepta duona', description: 'Frittiertes Roggenbrot mit Knoblauch und Käsesauce. DER Biersnack in jeder litauischen Bar.', emoji: '🍞' },
-    { name: 'Šakotis', description: 'Spektakulärer Baumkuchen, der über offenem Feuer gedreht wird. Festtagsdessert.', emoji: '🎂' },
-    { name: 'Midus', description: 'Litauischer Met — von süß bis trocken. Jahrhundertealte Tradition.', emoji: '🍯' },
+    { name: 'Cepelinai', description: 'Massive, zeppelinförmige Kartoffelklöße mit Fleischfüllung, ertränkt in saurer Sahne und Speckwürfeln. DAS Nationalgericht.', emoji: '🥟', url: 'https://en.wikipedia.org/wiki/Cepelinai' },
+    { name: 'Šaltibarščiai', description: 'Leuchtend pinke, kalte Rote-Bete-Suppe mit Kefir, Gurken, Dill und Ei. Erfrischend und fotogen.', emoji: '🥣', url: 'https://en.wikipedia.org/wiki/Borscht#Cold_borscht' },
+    { name: 'Kibinai', description: 'Karäische Fleischpasteten aus Trakai. Halbmondförmig, würzig, am besten am Seeufer.', emoji: '🥐', url: 'https://en.wikipedia.org/wiki/Kibinai' },
+    { name: 'Kepta duona', description: 'Frittiertes Roggenbrot mit Knoblauch und Käsesauce. DER Biersnack in jeder litauischen Bar.', emoji: '🍞', url: 'https://lt.wikipedia.org/wiki/Kepta_duona' },
+    { name: 'Šakotis', description: 'Spektakulärer Baumkuchen, der über offenem Feuer gedreht wird. Festtagsdessert.', emoji: '🎂', url: 'https://en.wikipedia.org/wiki/%C5%A0akotis' },
+    { name: 'Midus', description: 'Litauischer Met — von süß bis trocken. Jahrhundertealte Tradition.', emoji: '🍯', url: 'https://en.wikipedia.org/wiki/Midus' },
   ],
   latvia: [
-    { name: 'Pelēkie zirņi ar speķi', description: 'Graue Erbsen mit Speck und Zwiebeln. Lettlands Comfort Food seit Jahrhunderten.', emoji: '🫘' },
-    { name: 'Rupjmaize', description: 'Dunkles Roggenbrot — das spirituelle Fundament der lettischen Küche. Auch als Dessert!', emoji: '🍞' },
-    { name: 'Pirādziņi', description: 'Halbmondförmige Speck-Zwiebel-Hörnchen. Süchtig machend.', emoji: '🥐' },
-    { name: 'Sklandrausis', description: 'Roggenteig-Törtchen mit Karotten-Kartoffel-Füllung und Kümmel. Einzigartig lettisch.', emoji: '🥧' },
-    { name: 'Riga Black Balsam', description: 'Tiefschwarzer Kräuterlikör (45%) aus 24 Zutaten seit 1752. Pur mutig, im heißen Johannisbeersaft perfekt.', emoji: '🥃' },
-    { name: 'Geräucherter Fisch', description: 'Sprotten, Hering, Aal — die Vielfalt auf dem Zentralmarkt ist überwältigend.', emoji: '🐟' },
+    { name: 'Pelēkie zirņi ar speķi', description: 'Graue Erbsen mit Speck und Zwiebeln. Lettlands Comfort Food seit Jahrhunderten.', emoji: '🫘', url: 'https://en.wikipedia.org/wiki/Grey_peas' },
+    { name: 'Rupjmaize', description: 'Dunkles Roggenbrot — das spirituelle Fundament der lettischen Küche. Auch als Dessert!', emoji: '🍞', url: 'https://en.wikipedia.org/wiki/Rupjmaize' },
+    { name: 'Pirādziņi', description: 'Halbmondförmige Speck-Zwiebel-Hörnchen. Süchtig machend.', emoji: '🥐', url: 'https://en.wikipedia.org/wiki/Spe%C4%B7rau%C5%A1i' },
+    { name: 'Sklandrausis', description: 'Roggenteig-Törtchen mit Karotten-Kartoffel-Füllung und Kümmel. Einzigartig lettisch.', emoji: '🥧', url: 'https://en.wikipedia.org/wiki/Sklandrausis' },
+    { name: 'Riga Black Balsam', description: 'Tiefschwarzer Kräuterlikör (45%) aus 24 Zutaten seit 1752. Pur mutig, im heißen Johannisbeersaft perfekt.', emoji: '🥃', url: 'https://www.rigablack.com/en' },
+    { name: 'Geräucherter Fisch', description: 'Sprotten, Hering, Aal — die Vielfalt auf dem Zentralmarkt ist überwältigend.', emoji: '🐟', url: 'https://en.wikipedia.org/wiki/European_sprat' },
   ],
   estonia: [
-    { name: 'Kiluvõileib', description: 'Sprotten auf dunklem Roggenbrot mit Butter und Ei. Estlands ikonisches offenes Sandwich.', emoji: '🐟' },
-    { name: 'Kama', description: 'Geröstete Mehlmischung aus Gerste, Roggen, Hafer und Erbsen mit Buttermilch. Archaisch und einzigartig.', emoji: '🥣' },
-    { name: 'Verivorst', description: 'Blutwurst mit Gerste. Traditionell zu Weihnachten, aber ganzjährig verfügbar.', emoji: '🌭' },
-    { name: 'Must leib', description: 'Sehr dunkles, leicht süßliches Roggenbrot mit gesalzener Butter zu jeder Mahlzeit.', emoji: '🍞' },
-    { name: 'Vana Tallinn', description: 'Süßer, dunkler Rumlikör mit Gewürzen. Pur, im Kaffee oder über Eis. DAS Souvenir.', emoji: '🥃' },
-    { name: 'Põhjala Craft Beer', description: 'Eine der besten Craft-Brauereien Nordeuropas. Unbedingt im Noblessner Tap Room probieren.', emoji: '🍺' },
+    { name: 'Kiluvõileib', description: 'Sprotten auf dunklem Roggenbrot mit Butter und Ei. Estlands ikonisches offenes Sandwich.', emoji: '🐟', url: 'https://et.wikipedia.org/wiki/Kiluv%C3%B5ileib' },
+    { name: 'Kama', description: 'Geröstete Mehlmischung aus Gerste, Roggen, Hafer und Erbsen mit Buttermilch. Archaisch und einzigartig.', emoji: '🥣', url: 'https://en.wikipedia.org/wiki/Kama_(food)' },
+    { name: 'Verivorst', description: 'Blutwurst mit Gerste. Traditionell zu Weihnachten, aber ganzjährig verfügbar.', emoji: '🌭', url: 'https://en.wikipedia.org/wiki/Blood_sausage' },
+    { name: 'Must leib', description: 'Sehr dunkles, leicht süßliches Roggenbrot mit gesalzener Butter zu jeder Mahlzeit.', emoji: '🍞', url: 'https://en.wikipedia.org/wiki/Rye_bread' },
+    { name: 'Vana Tallinn', description: 'Süßer, dunkler Rumlikör mit Gewürzen. Pur, im Kaffee oder über Eis. DAS Souvenir.', emoji: '🥃', url: 'https://vanatallinn.eu/en/' },
+    { name: 'Põhjala Craft Beer', description: 'Eine der besten Craft-Brauereien Nordeuropas. Unbedingt im Noblessner Tap Room probieren.', emoji: '🍺', url: 'https://www.pohjalabeer.com' },
   ],
 };
 
@@ -80,7 +80,15 @@ const mealCosts = [
             <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-md transition-shadow">
               <div class="flex items-center gap-2 mb-2">
                 <span class="text-2xl">{dish.emoji}</span>
-                <h3 class="font-bold text-navy-800">{dish.name}</h3>
+                <h3 class="font-bold">
+                  {dish.url ? (
+                    <a href={dish.url} target="_blank" rel="noopener noreferrer" class="text-navy-800 hover:text-amber-500 transition-colors">
+                      {dish.name} ↗
+                    </a>
+                  ) : (
+                    <span class="text-navy-800">{dish.name}</span>
+                  )}
+                </h3>
               </div>
               <p class="text-sm text-gray-600">{dish.description}</p>
             </div>

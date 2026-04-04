@@ -3,13 +3,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 const budgetItems = [
   { category: 'Unterkünfte', icon: '🏨', estimate: '900–1.200 €', notes: '15 Nächte. Separate Zimmer / Apartments. Baltikum ~60–80 € p.P., Berlin/Schweden ~70–90 € p.P.' },
-  { category: 'Fähren Finnland (Tallinn→Helsinki + Turku→Stockholm)', icon: '⛴️', estimate: '145–220 €', notes: 'Hälfte von 290–440 € gesamt. Tallinn→Helsinki ~50–90 € (Auto), Turku→Stockholm ~200–350 € (Auto + Kabine). Viking Line Turku→Stockholm früh buchen!' },
+  { category: 'Fähren Finnland (Tallinn→Helsinki + Turku→Stockholm)', icon: '⛴️', estimate: '145–220 €', notes: 'Hälfte von 290–440 € gesamt. Tallinn→Helsinki ~50–90 € (Auto), Turku→Stockholm ~200–350 € (Auto + Kabine). <a href="https://www.vikingline.com" target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium">Viking Line</a> Turku→Stockholm früh buchen!' },
   { category: 'E-Laden (gesamte Strecke)', icon: '⚡', estimate: '200–280 €', notes: '~3.800–4.200 km bei 18 kWh/100km, Ø 0,30–0,55 €/kWh. Baltikum deutlich günstiger als DE/SE.' },
   { category: 'Essen & Trinken', icon: '🍽️', estimate: '700–1.000 €', notes: '16 Tage. Mix aus Markt-Mittagessen (10 €), Abendessen (25–35 €) und 2–3× Fine Dining (60–80 €).' },
   { category: 'Eintritte & Touren', icon: '🎟️', estimate: '120–180 €', notes: 'WWII Museum, Solidarność, KGB-Museen, Burgen, Bunker-Tour, Fotografiska.' },
-  { category: 'Fähre Heimreise', icon: '⛴️', estimate: '75–225 €', notes: 'Hälfte von 150–450 € gesamt. Option A: Trelleborg→Rostock (TT-Line, ~150–300 €). Option B: Gothenburg→Kiel (Stena Line, ~300–450 € mit Kabine). Brückenkosten entfallen bei Fähre.' },
+  { category: 'Fähre Heimreise', icon: '⛴️', estimate: '75–225 €', notes: 'Hälfte von 150–450 € gesamt. Option A: Trelleborg→Rostock (<a href="https://www.ttline.com" target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium">TT-Line</a>, ~150–300 €). Option B: Gothenburg→Kiel (<a href="https://www.stenaline.de" target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium">Stena Line</a>, ~300–450 € mit Kabine). Brückenkosten entfallen bei Fähre.' },
   { category: 'Maut & Brücken & Parken', icon: '🛣️', estimate: '30–70 €', notes: 'Stockholm City-Maut, Parkgebühren. Brückenkosten (Øresund ~63 €, Storebælt ~53 €) nur bei Direkt-Rückreise über Dänemark.' },
-  { category: 'Sonstiges', icon: '🛍️', estimate: '100–150 €', notes: 'Souvenirs, Riga Black Balsam, Trinkgelder, Unvorhergesehenes.' },
+  { category: 'Sonstiges', icon: '🛍️', estimate: '100–150 €', notes: 'Souvenirs, <a href="https://www.rigablack.com/en" target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium">Riga Black Balsam</a>, Trinkgelder, Unvorhergesehenes.' },
 ];
 
 const totalLow = budgetItems.reduce((sum, item) => {
@@ -74,7 +74,7 @@ const countryBreakdown = [
               </h3>
               <span class="font-bold text-amber-500 text-lg">{item.estimate}</span>
             </div>
-            <p class="text-sm text-gray-500">{item.notes}</p>
+            <p class="text-sm text-gray-500" set:html={item.notes} />
           </div>
         ))}
       </div>
@@ -123,8 +123,8 @@ const countryBreakdown = [
             <li>• Mittagessen auf Märkten statt im Restaurant</li>
             <li>• Hotels mit Destination-AC-Laden (über Nacht, günstiger)</li>
             <li>• Fähre früh buchen (Preise steigen stark)</li>
-            <li>• Neste-Nighttime-Tarife in Estland (0,29 €/kWh)</li>
-            <li>• Plugsurfing RFID statt Ad-hoc-Preise</li>
+            <li>• <a href="https://www.neste.ee" target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium">Neste</a>-Nighttime-Tarife in Estland (0,29 €/kWh)</li>
+            <li>• <a href="https://plugsurfing.com" target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium">Plugsurfing</a> RFID statt Ad-hoc-Preise</li>
           </ul>
         </div>
         <div class="bg-amber-50 border border-amber-200 rounded-xl p-4">
