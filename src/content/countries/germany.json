@@ -17,7 +17,7 @@
   "driving": {
     "speedLimits": { "urban": 50, "rural": 100, "motorway": 130 },
     "tolls": "Keine Maut für Pkw.",
-    "specialRules": "Grüne Umweltplakette in Umweltzonen erforderlich — auch für E-Autos. Abblendlicht bei schlechter Sicht. Auf der Autobahn gilt kein generelles Tempolimit, 130 km/h ist jedoch die Richtgeschwindigkeit."
+    "specialRules": "Umweltzonen: Deutsche E-Autos mit E-Kennzeichen sind befreit, ausländische Fahrzeuge benötigen ggf. eine grüne Plakette. Abblendlicht bei schlechter Sicht. Auf der Autobahn gilt kein generelles Tempolimit, 130 km/h ist jedoch die Richtgeschwindigkeit."
   },
   "culinary": {
     "mustTry": [

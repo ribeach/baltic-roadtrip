@@ -112,7 +112,7 @@
       "name": "Markthalle Neun",
       "cuisine": "Internationales Street Food",
       "priceRange": "€-€€",
-      "description": "In der historischen Kreuzberger Markthalle finden wir an jedem Donnerstag den legendären Street Food Thursday — dutzende Stände mit Küche aus aller Welt.",
+      "description": "Die historische Kreuzberger Markthalle bietet täglich regionale Spezialitäten und Frischwaren. Donnerstags findet der legendäre Street Food Thursday statt — dutzende Stände mit Küche aus aller Welt. Aber auch an den übrigen Tagen lohnt sich ein Besuch.",
       "mustTry": "Wechselnde Stände, einfach durchprobieren",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Markthalle%20Neun&query_place_id=ChIJvaZWgElOqEcRElWjL2P9AZg",
       "placeId": "ChIJvaZWgElOqEcRElWjL2P9AZg",
@@ -194,11 +194,11 @@
   "tips": [
     {
       "type": "warnung",
-      "text": "Grüne Umweltplakette ist in Berlin Pflicht — auch für Elektroautos! Ohne Plakette drohen 80€ Bußgeld."
+      "text": "Berliner Umweltzone: Deutsche E-Autos mit E-Kennzeichen sind befreit. Ausländische Fahrzeuge sollten sicherheitshalber eine grüne Umweltplakette mitführen oder die aktuellen Regeln vorab prüfen."
     },
     {
       "type": "info",
-      "text": "BVG Tagesticket kostet ca. 8,80€ und deckt U-Bahn, S-Bahn, Bus und Tram ab. Am 1. Mai das Auto unbedingt stehen lassen."
+      "text": "BVG Tagesticket AB kostet ca. 11,20€ und deckt U-Bahn, S-Bahn, Bus und Tram ab. Am 1. Mai das Auto unbedingt stehen lassen."
     },
     {
       "type": "geheimtipp",

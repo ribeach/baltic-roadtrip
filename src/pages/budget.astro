@@ -8,7 +8,7 @@ const budgetItems = [
   { category: 'E-Laden (gesamte Strecke)', icon: '⚡', estimate: '200–280 €', notes: '~3.800–4.200 km bei 18 kWh/100km, Ø 0,30–0,55 €/kWh. Baltikum deutlich günstiger als DE/SE.' },
   { category: 'Essen & Trinken', icon: '🍽️', estimate: '700–1.000 €', notes: '16 Tage. Mix aus Markt-Mittagessen (10 €), Abendessen (25–35 €) und 2–3× Fine Dining (60–80 €).' },
   { category: 'Eintritte & Touren', icon: '🎟️', estimate: '120–180 €', notes: 'WWII Museum, Solidarność, KGB-Museen, Burgen, Bunker-Tour, Fotografiska.' },
-  { category: 'Maut & Parkgebühren', icon: '🛣️', estimate: '80–120 €', notes: 'Polen-Maut, Stockholm City-Maut, Öresundbrücke (~55 €), Parkgebühren.' },
+  { category: 'Maut & Brücken & Parken', icon: '🛣️', estimate: '120–160 €', notes: 'Øresundbrücke (~55 €), Storebælt-Brücke (~40 €), Stockholm City-Maut, Parkgebühren. Hälfte der Brückenkosten p.P.' },
   { category: 'Sonstiges', icon: '🛍️', estimate: '100–150 €', notes: 'Souvenirs, Riga Black Balsam, Trinkgelder, Unvorhergesehenes.' },
 ];
 
@@ -30,6 +30,7 @@ const countryBreakdown = [
   { country: '🇪🇪 Estland', nights: '2', accommodation: '100–170 €', food: '80–120 €', charging: '15–25 €', other: '40–60 €' },
   { country: '🇫🇮 Finnland', nights: '0 (Tagesausflug)', accommodation: '—', food: '30–50 €', charging: '—', other: '30–60 €' },
   { country: '🇸🇪 Schweden', nights: '2 + Fährnacht', accommodation: '100–160 €', food: '70–100 €', charging: '25–35 €', other: '10–20 €' },
+  { country: '🇩🇰 Dänemark', nights: '0 (Durchreise)', accommodation: '—', food: '10–20 €', charging: '15–25 €', other: '50–55 €' },
 ];
 ---
 
@@ -45,9 +46,9 @@ const countryBreakdown = [
       <div class="text-center">
         <p class="text-amber-400 font-medium text-sm uppercase tracking-widest mb-2">Gesamtkosten pro Person</p>
         <div class="text-4xl md:text-5xl font-extrabold">
-          ~2.500–2.800 €
+          ~{totalLow.toLocaleString('de-DE')}–{totalHigh.toLocaleString('de-DE')} €
         </div>
-        <p class="text-gray-400 mt-2">Sweet Spot für komfortables Reisen ohne Luxus</p>
+        <p class="text-gray-400 mt-2">Spanne von sparsam bis komfortabel — je nach Hotelwahl und Fine-Dining-Frequenz</p>
       </div>
       <div class="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto">
         <div class="text-center">

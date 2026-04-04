@@ -1,0 +1,30 @@
+{
+  "id": "denmark",
+  "name": "Dänemark",
+  "flag": "🇩🇰",
+  "currency": {
+    "code": "DKK",
+    "name": "Dänische Krone",
+    "cashNeeded": false,
+    "tip": "Kein Euro-Land! Dänische Kronen (DKK), aber Kartenzahlung überall Standard. 1 € ≈ 7,5 DKK."
+  },
+  "evCharging": {
+    "quality": "ausgezeichnet",
+    "medianDcPrice": "0,40–0,55 €/kWh",
+    "recommendedApps": ["Clever", "IONITY", "Shell Recharge", "Plugsurfing"],
+    "notes": "Dichtes Schnellladenetz entlang der E45/E47. Clever ist Dänemarks größter Anbieter. Storebælt-Rastplätze haben Schnelllader."
+  },
+  "driving": {
+    "speedLimits": { "urban": 50, "rural": 80, "motorway": 130 },
+    "tolls": "Storebælt-Brücke: ~40 € (Pkw, BroBizz oder Karte). Øresundbrücke: ~55 € (Pkw, vorher online günstiger).",
+    "specialRules": "Abblendlicht 24/7 Pflicht. 0,5 ‰ Promillegrenze. Warndreieck Pflicht."
+  },
+  "culinary": {
+    "mustTry": [
+      "Smørrebrød (belegtes Roggenbrot)",
+      "Pølser (dänische Hot Dogs)",
+      "Wienerbrød (Kopenhagener Gebäck)"
+    ],
+    "description": "Dänemark ist Heimat der New Nordic Cuisine, aber auf dem Durchreise-Stopp locken vor allem die klassischen Smørrebrød — kunstvoll belegte Roggenbrote mit Hering, Ei oder Roastbeef. An Raststätten gibt es die legendären roten Pølser-Wagen."
+  }
+}

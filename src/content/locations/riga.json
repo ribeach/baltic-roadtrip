@@ -6,7 +6,7 @@
     "lat": 56.9496,
     "lng": 24.1052
   },
-  "description": "Lettlands Hauptstadt vereint mittelalterliche Gassen mit der weltweit größten Dichte an Jugendstil-Architektur und einem Zentralmarkt in ehemaligen Zeppelin-Hangars. Am 4. Mai feiert Riga seinen Unabhängigkeitstag — perfektes Timing für einen Besuch voller Nationalstolz, Kultur und dem berüchtigten Riga Black Balsam.",
+  "description": "Lettlands Hauptstadt vereint mittelalterliche Gassen mit der weltweit größten Dichte an Jugendstil-Architektur und einem Zentralmarkt in ehemaligen Zeppelin-Hangars. Anfang Mai erwacht Riga mit dem Frühling zum Leben — die Straßencafés öffnen, der Zentralmarkt quillt über vor frischer Ware, und die Stadt vibriert zwischen Nationalstolz (Unabhängigkeitstag am 4. Mai) und dem berüchtigten Riga Black Balsam.",
   "highlights": [
     {
       "name": "UNESCO-Altstadt",
@@ -82,7 +82,7 @@
       "name": "Freiheitsdenkmal (Milda)",
       "type": "monument",
       "icon": "info",
-      "description": "Die 42 Meter hohe \"Milda\" mit den drei goldenen Sternen ist Lettlands wichtigstes nationales Symbol. Am 4. Mai (Unabhängigkeitstag) finden hier Militärparaden und Feierlichkeiten statt.",
+      "description": "Die 42 Meter hohe \"Milda\" mit den drei goldenen Sternen ist Lettlands wichtigstes nationales Symbol. Am 4. Mai (Unabhängigkeitstag) finden hier Militärparaden statt — aber auch außerhalb des Feiertags ein eindrucksvoller Ort.",
       "duration": "15min",
       "price": "Kostenlos",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Freedom%20Monument&query_place_id=ChIJocMsdNHP7kYRgUZD8gCAQCU",
@@ -236,7 +236,7 @@
   "tips": [
     {
       "type": "geheimtipp",
-      "text": "Am 4. Mai ist Lettlands Unabhängigkeitstag — Militärparade am Freiheitsdenkmal, Feierlichkeiten in der ganzen Stadt. Ein besonderes Erlebnis, wenn das Timing stimmt!"
+      "text": "Lettlands Unabhängigkeitstag ist am 4. Mai — wenige Tage vor unserer Ankunft. Die Nachwirkungen (Flaggen, Dekoration, Nationalstolz) sind aber auch danach noch spürbar."
     },
     {
       "type": "geheimtipp",

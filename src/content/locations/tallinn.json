@@ -68,7 +68,7 @@
       "name": "Telliskivi Creative City",
       "type": "activity",
       "icon": "gem",
-      "description": "Das ehemalige Industriegelände beherbergt heute über 250 kreative Unternehmen, Galerien, Designläden und Restaurants — darunter auch das Fotografiska (~€20). Tallinns hippster Viertel.",
+      "description": "Das ehemalige Industriegelände beherbergt heute über 250 kreative Unternehmen, Galerien, Designläden und Restaurants — darunter auch das Fotografiska (~€20). Tallinns hipster Viertel.",
       "duration": "2-3h",
       "price": "Kostenlos (einzelne Attraktionen kostenpflichtig)",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Telliskivi%20Creative%20City&query_place_id=ChIJS4pp8H2TkkYRZWMfJVezO3o",
@@ -152,9 +152,9 @@
       "name": "Patarei Gefängnis",
       "type": "soviet",
       "icon": "info",
-      "description": "Die ehemalige Seefestung und spätere Gefängnisanlage wird möglicherweise ab Mai 2026 als Museum zugänglich. Aktuelle Öffnungszeiten vor Ort prüfen.",
-      "duration": "1-1.5h",
-      "price": "Noch nicht bekannt",
+      "description": "Die ehemalige Seefestung und spätere Gefängnisanlage wird derzeit renoviert — Wiedereröffnung als Museum voraussichtlich 2027. Nur von außen besichtigbar, aber die massive Anlage am Meer ist auch so eindrucksvoll.",
+      "duration": "30min (außen)",
+      "price": "Kostenlos (nur Außenbesichtigung)",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Patarei%20Merekindlus&query_place_id=ChIJoRWzx3CTkkYRqLuDtIJpTcg",
       "placeId": "ChIJoRWzx3CTkkYRqLuDtIJpTcg",
       "coordinates": {
@@ -178,12 +178,12 @@
       }
     },
     {
-      "name": "Leib Resto ja Aed",
-      "cuisine": "Hyperlokal Estnisch (Brot-Restaurant)",
+      "name": "Lee Brasserie (ehem. Leib Resto ja Aed)",
+      "cuisine": "Hyperlokal Estnisch",
       "priceRange": "€€-€€€",
       "description": "Das \"Brot-Restaurant\" backt eigenes Sauerteigbrot und serviert dazu hyperregionale Gerichte aus dem eigenen Garten und von lokalen Bauern. Im Sommer wird im Innenhof gegessen.",
       "mustTry": "Frisch gebackenes Roggenbrot mit Butter — das einfachste und beste Gericht",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lee%20Brasserie&query_place_id=ChIJR7Jb9mOTkkYR0Ut5oBBCS-4",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lee%20Brasserie%20Tallinn&query_place_id=ChIJR7Jb9mOTkkYR0Ut5oBBCS-4",
       "placeId": "ChIJR7Jb9mOTkkYR0Ut5oBBCS-4",
       "coordinates": {
         "lat": 59.4411808,
@@ -285,7 +285,7 @@
     },
     {
       "type": "warnung",
-      "text": "Fähre Tallinn → Stockholm FRÜH buchen! Es gibt nur jeden 2. Tag eine Abfahrt. Auto VOR der Fähre unbedingt vollladen."
+      "text": "Fähre Tallinn → Stockholm FRÜH buchen! Fahrplan variiert saisonal — Abfahrten prüfen. Auto VOR der Fähre unbedingt vollladen."
     },
     {
       "type": "info",

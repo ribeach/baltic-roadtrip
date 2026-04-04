@@ -16,8 +16,8 @@
   },
   "driving": {
     "speedLimits": { "urban": 50, "rural": 90, "motorway": 130 },
-    "tolls": "Keine Maut für Pkw. Kurische Nehrung: E-Autos fahren kostenlos in den Nationalpark (sonst 10 €).",
-    "specialRules": "Abblendlicht 24/7 Pflicht. Feuerlöscher im Auto vorgeschrieben. 0,04 ‰ Promillegrenze."
+    "tolls": "Keine Maut für Pkw. Kurische Nehrung: E-Autos in der Regel kostenlos (Verbrenner ~10 €, saisonal variabel — vorher prüfen).",
+    "specialRules": "Abblendlicht 24/7 Pflicht. Feuerlöscher im Auto vorgeschrieben. 0,4 ‰ Promillegrenze."
   },
   "culinary": {
     "mustTry": [
