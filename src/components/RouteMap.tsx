@@ -37,7 +37,7 @@ interface Props {
 export default function RouteMap({ locations, apiKey, height = '500px', zoom, center, pois = [] }: Props) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<google.maps.Map | null>(null);
-  const markersRef = useRef<google.maps.Marker[]>([]);
+  const markersRef = useRef<google.maps.marker.AdvancedMarkerElement[]>([]);
   const polylineRef = useRef<google.maps.Polyline | null>(null);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -71,13 +71,15 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
         setOptions({ key: apiKey, version: 'weekly' } as { key: string; version: string });
 
         const mapsLib = await importLibrary('maps') as google.maps.MapsLibrary;
+        const markerLib = await importLibrary('marker') as google.maps.MarkerLibrary;
 
         if (cancelled || !mapRef.current) return;
 
         const { Map, InfoWindow, Polyline } = mapsLib;
+        const { AdvancedMarkerElement } = markerLib;
 
         // Clean up previous markers and polyline
-        markersRef.current.forEach(m => m.setMap(null));
+        markersRef.current.forEach(m => { m.map = null; });
         markersRef.current = [];
         polylineRef.current?.setMap(null);
         polylineRef.current = null;
@@ -90,15 +92,10 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           mapInstanceRef.current = new Map(mapRef.current, {
             center: center || bounds.getCenter().toJSON(),
             zoom: zoom || 4,
+            mapId: 'DEMO_MAP_ID',
             mapTypeControl: false,
             streetViewControl: false,
             fullscreenControl: true,
-            styles: [
-              { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#c9d6e5' }] },
-              { featureType: 'landscape', elementType: 'geometry', stylers: [{ color: '#f0f2f5' }] },
-              { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#e6a919' }, { weight: 1.5 }] },
-              { featureType: 'poi', stylers: [{ visibility: 'off' }] },
-            ],
           });
         }
 
@@ -114,29 +111,30 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
         // Shared info window (reused across markers)
         const infoWindow = new InfoWindow();
 
-        // Standard Markers (no mapId required)
+        // AdvancedMarkerElement with custom HTML for circular amber markers
         locations.forEach((loc, i) => {
-          const marker = new google.maps.Marker({
+          const labelText = loc.label ?? (loc.dayNumber ? String(loc.dayNumber) : String(i + 1));
+
+          const markerDiv = document.createElement('div');
+          markerDiv.style.cssText = `
+            width: 28px; height: 28px; border-radius: 50%;
+            background: #e6a919; border: 2px solid #1a1a2e;
+            display: flex; align-items: center; justify-content: center;
+            font-family: Inter, system-ui, sans-serif;
+            font-size: 11px; font-weight: bold; color: #1a1a2e;
+            cursor: pointer;
+          `;
+          markerDiv.textContent = labelText;
+
+          const marker = new AdvancedMarkerElement({
             position: { lat: loc.lat, lng: loc.lng },
             map,
             title: loc.name,
-            label: {
-              text: loc.label ?? (loc.dayNumber ? String(loc.dayNumber) : String(i + 1)),
-              color: '#1a1a2e',
-              fontWeight: 'bold',
-              fontSize: '11px',
-            },
-            icon: {
-              path: google.maps.SymbolPath.CIRCLE,
-              fillColor: '#e6a919',
-              fillOpacity: 1,
-              strokeColor: '#1a1a2e',
-              strokeWeight: 2,
-              scale: 14,
-            },
+            content: markerDiv,
+            gmpClickable: true,
           });
 
-          marker.addListener('click', () => {
+          marker.addListener('gmp-click', () => {
             const content = document.createElement('div');
             content.style.cssText = 'padding: 4px 8px; font-family: Inter, system-ui, sans-serif;';
             if (loc.link) {
@@ -167,7 +165,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
               }
             }
             infoWindow.setContent(content);
-            infoWindow.open(map, marker);
+            infoWindow.open({ map, anchor: marker });
           });
 
           markersRef.current.push(marker);
@@ -185,24 +183,26 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           });
         }
 
-        // POI markers (categorized)
+        // POI markers (categorized) with custom HTML circles
         pois.forEach(poi => {
           const color = POI_COLORS[poi.category];
-          const marker = new google.maps.Marker({
+
+          const poiDiv = document.createElement('div');
+          poiDiv.style.cssText = `
+            width: 20px; height: 20px; border-radius: 50%;
+            background: ${color}; border: 2px solid #ffffff;
+            opacity: 0.9; cursor: pointer;
+          `;
+
+          const marker = new AdvancedMarkerElement({
             position: { lat: poi.lat, lng: poi.lng },
             map,
             title: poi.name,
-            icon: {
-              path: google.maps.SymbolPath.CIRCLE,
-              fillColor: color,
-              fillOpacity: 0.9,
-              strokeColor: '#ffffff',
-              strokeWeight: 2,
-              scale: 10,
-            },
+            content: poiDiv,
+            gmpClickable: true,
           });
 
-          marker.addListener('click', () => {
+          marker.addListener('gmp-click', () => {
             const content = document.createElement('div');
             content.style.cssText = 'padding: 6px 10px; font-family: Inter, system-ui, sans-serif; max-width: 200px;';
             const name = document.createElement('strong');
@@ -217,7 +217,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
             link.textContent = 'In Google Maps öffnen →';
             content.appendChild(link);
             infoWindow.setContent(content);
-            infoWindow.open(map, marker);
+            infoWindow.open({ map, anchor: marker });
           });
 
           markersRef.current.push(marker);
@@ -234,7 +234,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
 
     return () => {
       cancelled = true;
-      markersRef.current.forEach(m => m.setMap(null));
+      markersRef.current.forEach(m => { m.map = null; });
       markersRef.current = [];
       polylineRef.current?.setMap(null);
       polylineRef.current = null;

@@ -1,0 +1,144 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { resolveRef, getBase } from '../lib/content';
+
+const base = getBase();
+
+const allDays = await getCollection('days');
+const allLocations = await getCollection('locations');
+const allCountries = await getCollection('countries');
+
+const days = allDays.sort((a, b) => a.data.dayNumber - b.data.dayNumber);
+
+const findLoc = (refVal: string) => allLocations.find(l => l.id === refVal || l.data.id === refVal);
+const findCountry = (id: string) => allCountries.find(c => c.data.id === id);
+
+const countryOrder = ['germany', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden'];
+const locationsByCountry = countryOrder
+  .map(cid => {
+    const country = findCountry(cid);
+    const locs = allLocations
+      .filter(l => l.data.country === cid)
+      .sort((a, b) => a.data.name.localeCompare(b.data.name));
+    return { country, locations: locs };
+  })
+  .filter(g => g.locations.length > 0);
+
+const infoPages = [
+  { href: `${base}`, emoji: '🗺️', label: 'Startseite', desc: 'Routenübersicht mit interaktiver Karte und Tages-Timeline' },
+  { href: `${base}kulinarik`, emoji: '🍽️', label: 'Kulinarik', desc: 'Kulinarischer Guide für alle baltischen Länder' },
+  { href: `${base}praktisches`, emoji: '⚡', label: 'Praktisches', desc: 'EV-Laden, Fähren, Verkehrsregeln und Währungen' },
+  { href: `${base}budget`, emoji: '💰', label: 'Budget', desc: 'Kostenübersicht und Budget-Planung pro Person' },
+];
+
+const formatDate = (dateStr: string) => {
+  const d = new Date(dateStr);
+  d.setHours(12);
+  return d.toLocaleDateString('de-DE', { weekday: 'short', day: 'numeric', month: 'short' });
+};
+
+const modeEmoji = (mode: string) => {
+  if (mode === 'ferry') return '⛴️';
+  if (mode === 'none') return '📍';
+  return '🚗';
+};
+---
+
+<BaseLayout title="Alle Seiten">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <h1 class="text-3xl font-bold text-navy-800 mb-2">Alle Seiten</h1>
+    <p class="text-gray-500 mb-10">Übersicht aller Seiten dieser Roadtrip-Planung</p>
+
+    <!-- Tagesübersicht -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-navy-800 mb-6">📅 Tagesübersicht</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {days.map(day => {
+          const loc = findLoc(resolveRef(day.data.locationId));
+          return (
+            <a
+              href={`${base}tag/${day.data.dayNumber}`}
+              class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-md hover:border-amber-200 transition-all group block"
+            >
+              <div class="flex items-start gap-3">
+                <span class="flex-shrink-0 w-9 h-9 rounded-full bg-amber-400 text-navy-800 font-bold text-sm flex items-center justify-center">
+                  {day.data.dayNumber}
+                </span>
+                <div class="min-w-0">
+                  <p class="text-xs text-gray-400">{formatDate(day.data.date)}</p>
+                  <h3 class="font-semibold text-navy-800 group-hover:text-amber-500 transition-colors text-sm leading-tight">
+                    {day.data.title}
+                  </h3>
+                  {loc && <p class="text-xs text-gray-500 mt-1">📍 {loc.data.name}</p>}
+                  {day.data.driving?.distance && (
+                    <p class="text-xs text-gray-400 mt-1">
+                      {modeEmoji(day.data.driving.mode)} {day.data.driving.distance} km
+                    </p>
+                  )}
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- Orte -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-navy-800 mb-6">📍 Orte</h2>
+      {locationsByCountry.map(group => (
+        <div class="mb-6">
+          <h3 class="text-lg font-semibold text-navy-700 mb-3">
+            {group.country?.data.flag} {group.country?.data.name}
+          </h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {group.locations.map(loc => (
+              <a
+                href={`${base}ort/${loc.data.id}`}
+                class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-md hover:border-amber-200 transition-all group block"
+              >
+                <h4 class="font-semibold text-navy-800 group-hover:text-amber-500 transition-colors">
+                  {loc.data.name}
+                </h4>
+                <p class="text-xs text-gray-400 mt-1">
+                  {loc.data.highlights.length} Highlight{loc.data.highlights.length !== 1 ? 's' : ''}
+                  · {loc.data.restaurants.length} Restaurant{loc.data.restaurants.length !== 1 ? 's' : ''}
+                </p>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    <!-- Infoseiten -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-navy-800 mb-6">📖 Infoseiten</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {infoPages.map(page => (
+          <a
+            href={page.href}
+            class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-md hover:border-amber-200 transition-all group block"
+          >
+            <div class="flex items-center gap-3">
+              <span class="text-2xl">{page.emoji}</span>
+              <div>
+                <h3 class="font-semibold text-navy-800 group-hover:text-amber-500 transition-colors">
+                  {page.label}
+                </h3>
+                <p class="text-xs text-gray-500 mt-0.5">{page.desc}</p>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <div class="pt-8 border-t border-gray-100">
+      <a href={base} class="text-amber-500 hover:text-amber-600 font-medium transition-colors">
+        ← Zurück zur Routenübersicht
+      </a>
+    </div>
+  </div>
+</BaseLayout>
