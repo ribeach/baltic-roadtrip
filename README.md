@@ -1,5 +1,7 @@
 # Baltikum Roadtrip 2026
 
+**https://ribeach.github.io/baltic-roadtrip/**
+
 Statische Website zur Planung eines 17-tägigen Roadtrips durch das Baltikum mit dem VW ID.4.
 
 **Route:** Aalen - Berlin - Danzig - Vilnius - Klaipeda - Riga - Tallinn - Stockholm - Halmstad - Aalen
