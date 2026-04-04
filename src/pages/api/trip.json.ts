@@ -1,21 +1,20 @@
 import type { APIRoute } from 'astro';
+import type { CollectionEntry } from 'astro:content';
 import { getCollection } from 'astro:content';
+import { resolveRef } from '../../lib/content';
 
-const resolveRef = (ref: any): string =>
-  typeof ref === 'object' && ref !== null ? ref.id : ref;
-
-function stripLocation(loc: any) {
+function stripLocation(loc: CollectionEntry<'locations'>) {
   const { coordinates, ...data } = loc.data;
   return {
     name: data.name,
     country: data.country,
     coordinates,
     description: data.description,
-    highlights: data.highlights.map(({ placeId, coordinates, icon, ...h }: any) => h),
-    restaurants: data.restaurants.map(({ placeId, coordinates, ...r }: any) => r),
-    hotels: data.hotels.map(({ placeId, coordinates, ...h }: any) => h),
+    highlights: data.highlights.map(({ placeId, coordinates: _c, icon: _i, ...h }) => h),
+    restaurants: data.restaurants.map(({ placeId, coordinates: _c, ...r }) => r),
+    hotels: data.hotels.map(({ placeId, coordinates: _c, ...h }) => h),
     tips: data.tips,
-    nightlife: (data.nightlife || []).map(({ placeId, coordinates, ...n }: any) => n),
+    nightlife: (data.nightlife || []).map(({ placeId, coordinates: _c, ...n }) => n),
   };
 }
 
@@ -27,7 +26,7 @@ export const GET: APIRoute = async () => {
   ]);
 
   const locMap = new Map(locations.map(l => [l.id, l]));
-  const findLoc = (ref: any) => {
+  const findLoc = (ref: { id: string; collection: string } | string) => {
     const id = resolveRef(ref);
     return locMap.get(id) || locations.find(l => l.data.id === id);
   };
@@ -39,7 +38,7 @@ export const GET: APIRoute = async () => {
     const loc = findLoc(d.locationId);
     const overnightLoc = d.overnightLocationId ? findLoc(d.overnightLocationId) : null;
     const additionalLocs = (d.additionalLocationIds || [])
-      .map((ref: any) => findLoc(ref))
+      .map((ref) => findLoc(ref))
       .filter(Boolean);
 
     return {

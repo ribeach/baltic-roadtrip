@@ -6,6 +6,9 @@ const allCountries = await getCollection('countries');
 const routeOrder = ['germany', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden', 'denmark'];
 const countries = allCountries.sort((a, b) => routeOrder.indexOf(a.data.id) - routeOrder.indexOf(b.data.id));
 
+// Usable battery capacity for 10→80% charge (kWh) — VW ID.4 (77 kWh * ~70%)
+const CHARGE_KWH = 54;
+
 const essentialApps = [
   { name: 'A Better Route Planner (ABRP)', purpose: 'Routenplanung & Verbrauch', scope: 'Alle Länder' },
   { name: 'PlugShare', purpose: 'Ladestationen finden & Erfahrungsberichte', scope: 'Alle Länder' },
@@ -70,6 +73,7 @@ const evRules = [
       <h2 class="text-2xl font-bold text-navy-800 mb-4">⚡ Ladeinfrastruktur nach Land</h2>
       <div class="overflow-x-auto">
         <table class="w-full text-sm">
+          <caption class="sr-only">Ladeinfrastruktur und DC-Preise nach Land</caption>
           <thead>
             <tr class="bg-navy-800 text-white">
               <th class="px-3 py-3 text-left rounded-tl-lg">Land</th>
@@ -87,10 +91,11 @@ const evRules = [
                 <td class="px-3 py-3">{country.data.evCharging.medianDcPrice}</td>
                 <td class="px-3 py-3">{
                   (() => {
-                    const prices = country.data.evCharging.medianDcPrice.match(/[\d.]+/g);
+                    const priceString = country.data.evCharging.medianDcPrice.replace(/,/g, '.');
+                    const prices = priceString.match(/[\d.]+/g);
                     if (prices && prices.length >= 1) {
-                      const low = Math.round(parseFloat(prices[0]) * 54);
-                      const high = prices.length >= 2 ? Math.round(parseFloat(prices[1]) * 54) : Math.round(parseFloat(prices[0]) * 54);
+                      const low = Math.round(parseFloat(prices[0]) * CHARGE_KWH);
+                      const high = prices.length >= 2 ? Math.round(parseFloat(prices[1]) * CHARGE_KWH) : Math.round(parseFloat(prices[0]) * CHARGE_KWH);
                       return `${low}–${high} €`;
                     }
                     return '—';
@@ -149,6 +154,7 @@ const evRules = [
       <h2 class="text-2xl font-bold text-navy-800 mb-4">🚦 Geschwindigkeitsbegrenzungen</h2>
       <div class="overflow-x-auto">
         <table class="w-full text-sm">
+          <caption class="sr-only">Geschwindigkeitsbegrenzungen nach Land</caption>
           <thead>
             <tr class="bg-navy-800 text-white">
               <th class="px-4 py-3 text-left rounded-tl-lg">Land</th>

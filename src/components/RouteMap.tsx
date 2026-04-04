@@ -25,13 +25,6 @@ const POI_COLORS: Record<POI['category'], string> = {
   nightlife: '#a855f7',  // purple
 };
 
-const POI_LABELS: Record<POI['category'], string> = {
-  highlight: '★',
-  restaurant: '🍽',
-  hotel: '🏨',
-  nightlife: '🌙',
-};
-
 interface Props {
   locations: MapLocation[];
   apiKey: string;
@@ -75,7 +68,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
         const { setOptions, importLibrary } = await import('@googlemaps/js-api-loader');
         // v2 loader converts camelCase to snake_case for URL params:
         // "apiKey" becomes "api_key" but Google expects "key"
-        setOptions({ key: apiKey, version: 'weekly' } as any);
+        setOptions({ key: apiKey, version: 'weekly' } as { key: string; version: string });
 
         const mapsLib = await importLibrary('maps') as google.maps.MapsLibrary;
 

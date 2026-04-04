@@ -1,5 +1,6 @@
 ---
 import EvIndicator from './EvIndicator.astro';
+import { getBase } from '../lib/content';
 
 interface Props {
   dayNumber: number;
@@ -16,12 +17,11 @@ interface Props {
     stopsNeeded: number;
   } | null;
   activities: (string | { highlightRef: string; note?: string })[];
-  locationId: string;
   isLeft: boolean;
 }
 
-const { dayNumber, date, title, subtitle, driving, evCharging, activities, locationId, isLeft } = Astro.props;
-const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const { dayNumber, date, title, subtitle, driving, evCharging, activities, isLeft } = Astro.props;
+const base = getBase();
 
 const dateObj = new Date(date);
 dateObj.setHours(12);
