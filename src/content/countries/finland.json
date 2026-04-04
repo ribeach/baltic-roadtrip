@@ -1,0 +1,30 @@
+{
+  "id": "finland",
+  "name": "Finnland",
+  "flag": "🇫🇮",
+  "currency": {
+    "code": "EUR",
+    "name": "Euro",
+    "cashNeeded": false,
+    "tip": "Euro-Land. Kartenzahlung überall Standard."
+  },
+  "evCharging": {
+    "quality": "sehr gut",
+    "medianDcPrice": "0,35–0,59 €/kWh",
+    "recommendedApps": ["Virta", "K-Lataus", "Fortum Charge & Drive"],
+    "notes": "Starkes, roadtrip-freundliches Netz. K-Lataus an Supermärkten günstig (0,35 €/kWh). Für den Helsinki-Tagesausflug als Fußgänger nicht relevant."
+  },
+  "driving": {
+    "speedLimits": { "urban": 50, "rural": 80, "motorway": 120 },
+    "tolls": "Keine Maut.",
+    "specialRules": "Abblendlicht 24/7 Pflicht."
+  },
+  "culinary": {
+    "mustTry": [
+      "Lohikeitto (Lachssuppe)",
+      "Karjalanpiirakka (Karelische Piroggen)",
+      "Korvapuusti (Zimtschnecken)"
+    ],
+    "description": "Die finnische Küche setzt auf frische, natürliche Zutaten — allen voran Lachs, Rentier und Waldbeeren. In den Markthallen von Helsinki dampft die cremige Lohikeitto, und an jeder Ecke locken frisch gebackene Karelische Piroggen mit Reisbrei-Füllung. Dazu gehört eine Tasse starker finnischer Kaffee — Finnland ist Weltmeister im Pro-Kopf-Verbrauch."
+  }
+}

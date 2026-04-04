@@ -1,0 +1,24 @@
+---
+interface Props {
+  type: 'geheimtipp' | 'warnung' | 'info';
+  text: string;
+}
+
+const { type, text } = Astro.props;
+
+const config = {
+  geheimtipp: { icon: '💎', bg: 'bg-purple-50', border: 'border-purple-200', text: 'text-purple-800', label: 'Geheimtipp' },
+  warnung: { icon: '⚠️', bg: 'bg-red-50', border: 'border-red-200', text: 'text-red-800', label: 'Wichtig' },
+  info: { icon: 'ℹ️', bg: 'bg-blue-50', border: 'border-blue-200', text: 'text-blue-800', label: 'Info' },
+};
+
+const c = config[type];
+---
+
+<div class:list={['rounded-lg border p-3 flex items-start gap-3', c.bg, c.border]}>
+  <span class="text-lg mt-0.5">{c.icon}</span>
+  <div>
+    <span class:list={['text-xs font-semibold uppercase tracking-wide', c.text]}>{c.label}</span>
+    <p class:list={['text-sm mt-0.5', c.text]}>{text}</p>
+  </div>
+</div>

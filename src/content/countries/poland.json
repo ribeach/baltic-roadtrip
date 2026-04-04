@@ -1,0 +1,31 @@
+{
+  "id": "poland",
+  "name": "Polen",
+  "flag": "🇵🇱",
+  "currency": {
+    "code": "PLN",
+    "name": "Złoty",
+    "cashNeeded": false,
+    "tip": "Euronet-Geldautomaten vermeiden (schlechte Kurse). Kreditkarte fast überall akzeptiert."
+  },
+  "evCharging": {
+    "quality": "gut",
+    "medianDcPrice": "0,35–0,67 €/kWh",
+    "recommendedApps": ["GreenWay", "Eleport", "Plugsurfing", "ORLEN"],
+    "notes": "Sehr gut entlang Hauptkorridore (A1, A2, S6). GreenWay ist lokaler Platzhirsch. ORLEN teuer (0,67 €), meiden. In tiefen Masuren nur 50-kW-Lader."
+  },
+  "driving": {
+    "speedLimits": { "urban": 50, "rural": 90, "motorway": 140 },
+    "tolls": "A1 Konzessionsabschnitt mautpflichtig (Mautstationen). Staatliche Autobahnen für Pkw frei seit 2023.",
+    "specialRules": "Abblendlicht 24/7 Pflicht. Sehr niedrige Promillegrenze (0,02 ‰)."
+  },
+  "culinary": {
+    "mustTry": [
+      "Pierogi",
+      "Żurek (Sauerteigsuppe)",
+      "Goldwasser (Kräuterlikör mit Blattgold)",
+      "Oscypek (geräucherter Bergkäse)"
+    ],
+    "description": "Die polnische Küche ist herzhaft, sättigend und voller Seele. Pierogi in allen Varianten — von Kartoffel-Quark bis Waldbeeren — sind das Nationalgericht schlechthin. Dazu locken würzige Suppen wie Żurek, serviert im Brotlaib, und regionale Spezialitäten wie der goldene Danziger Likör."
+  }
+}

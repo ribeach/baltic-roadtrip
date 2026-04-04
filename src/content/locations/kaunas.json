@@ -1,0 +1,73 @@
+{
+  "id": "kaunas",
+  "name": "Kaunas",
+  "country": "lithuania",
+  "coordinates": {
+    "lat": 54.8985,
+    "lng": 23.9036
+  },
+  "description": "Litauens zweitgrößte Stadt war in der Zwischenkriegszeit die provisorische Hauptstadt und verbindet Art-Déco-Charme mit einigen der emotional intensivsten Gedenkstätten des Baltikums. Die längste Fußgängerzone Europas durchzieht das lebhafte Zentrum.",
+  "highlights": [
+    {
+      "name": "Neuntes Fort",
+      "type": "monument",
+      "icon": "star",
+      "description": "Die ehemalige zaristische Festung wurde unter den Nazis zum Massenmordort. Das 32 Meter hohe brutalistische Denkmal und die Ausstellung dokumentieren die Ermordung von über 50.000 Menschen. Ein Ort, der sprachlos macht.",
+      "duration": "1.5-2h",
+      "price": "€5",
+      "googleMapsUrl": "https://maps.google.com/?q=Ninth+Fort+Kaunas"
+    },
+    {
+      "name": "Teufelsmuseum",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Das weltweit einzige Museum, das über 3.000 Teufels-Skulpturen und -Darstellungen aus aller Welt sammelt. Skurril, humorvoll und ein perfekter Kontrast zum Neunten Fort.",
+      "duration": "45-60min",
+      "price": "€3",
+      "googleMapsUrl": "https://maps.google.com/?q=Devils+Museum+Kaunas"
+    },
+    {
+      "name": "Laisvės Alėja (Freiheitsallee)",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Mit 1,6 Kilometern die längste Fußgängerzone Europas, gesäumt von Linden, Art-Déco-Fassaden, Cafés und Boutiquen. Hier pulsiert das Kaunaser Leben.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Laisvės+Alėja+Kaunas"
+    },
+    {
+      "name": "Žaliakalnis Standseilbahn",
+      "type": "activity",
+      "icon": "info",
+      "description": "Eine der ältesten Standseilbahnen Europas (seit 1931) verbindet die Altstadt mit dem Stadtteil Žaliakalnis. Kurze Fahrt, großer Charme.",
+      "duration": "15min",
+      "price": "€1",
+      "googleMapsUrl": "https://maps.google.com/?q=Žaliakalnis+Funicular+Kaunas"
+    },
+    {
+      "name": "Kaunaser Altstadt",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Der kompakte historische Kern rund um das Rathaus (\"Weißer Schwan\") und die gotische Vytautas-Kirche lässt sich in einer Stunde erkunden — perfekt für einen Zwischenstopp.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Kaunas+Old+Town+Lithuania"
+    }
+  ],
+  "restaurants": [],
+  "hotels": [],
+  "tips": [
+    {
+      "type": "info",
+      "text": "3-4 Stunden reichen für die Highlights. Perfekter Zwischenstopp auf dem Weg von Vilnius zur Kurischen Nehrung."
+    },
+    {
+      "type": "warnung",
+      "text": "Das Neunte Fort ist emotional extrem intensiv. Genug Zeit für eine Pause danach einplanen — das Teufelsmuseum als leichteren Kontrast danach einbauen."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Mittagessen auf der Laisvės Alėja einplanen — die Auswahl an Cafés und Restaurants ist groß und günstig."
+    }
+  ]
+}

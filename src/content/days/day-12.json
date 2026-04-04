@@ -1,0 +1,20 @@
+{
+  "dayNumber": 12,
+  "date": "2026-05-11",
+  "title": "Tallinn in voller Pracht",
+  "subtitle": "Mittelalterliche Gassen, Seefahrermuseum und Unterwasser-Steinbruch",
+  "locationId": "tallinn",
+  "previousLocationId": null,
+  "overnightLocationId": "tallinn",
+  "driving": null,
+  "evCharging": null,
+  "activities": [
+    "Morgendlicher Rundgang durch die Altstadt: Domberg (Toompea), Aussichtsplattformen Patkuli und Kohtuotsa, verwinkelte Gassen",
+    "Lennusadam – Estnisches Meeresmuseum im historischen Wasserflugzeug-Hangar: U-Boot Lembit, Eisbrecher und Flugboote",
+    "Mittagessen am Balti Jaama Turg – hipper Streetfood-Markt neben dem Bahnhof",
+    "Telliskivi Creative City erkunden: Galerien, Cafés und Street Art im ehemaligen Industrieviertel, dazu Fotografiska Tallinn",
+    "Nachmittagsausflug zum Rummu-Steinbruch (90 km Rundfahrt): surreal türkisblaues Wasser über versunkenen Gefängnismauern",
+    "Abendessen im Rataskaevu 16 – estnische Küche in gemütlichem Altstadtambiente",
+    "Cocktails in der Whisper Sister – Speakeasy-Bar hinter einer versteckten Tür"
+  ]
+}

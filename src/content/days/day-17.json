@@ -1,0 +1,27 @@
+{
+  "dayNumber": 17,
+  "date": "2026-05-16",
+  "title": "Heimreise nach Aalen",
+  "subtitle": "Über die Öresundbrücke und quer durch Europa nach Hause",
+  "locationId": "aalen",
+  "previousLocationId": "halmstad",
+  "overnightLocationId": null,
+  "driving": {
+    "distance": "900 km",
+    "duration": "10:00",
+    "mode": "drive",
+    "routeDescription": "Über die E6 nach Malmö, Öresundbrücke nach Kopenhagen, E47/E45 durch Dänemark, A7 durch Schleswig-Holstein und Niedersachsen, weiter über Kassel und Würzburg nach Aalen. Alternative: Fähre Trelleborg–Rostock, um die Fahrzeit zu verkürzen."
+  },
+  "evCharging": {
+    "stopsNeeded": 3,
+    "notes": "Langer Fahrtag – drei Ladestopps einplanen. Hervorragende Infrastruktur in Schweden, Dänemark und Deutschland. Alternative Trelleborg–Rostock-Fähre spart 200 km Fahrtstrecke, Laden an Bord jedoch nicht möglich.",
+    "criticalLevel": "green"
+  },
+  "activities": [
+    "Früher Aufbruch aus Halmstad – der längste Fahrtag wartet",
+    "Überquerung der Öresundbrücke: 16 km Ingenieurskunst zwischen Schweden und Dänemark",
+    "Durch Dänemark und Schleswig-Holstein – Landschaft wechselt von skandinavisch zu norddeutsch",
+    "Alternative: Fähre Trelleborg–Rostock (ca. 6 Std.) zum Entspannen und Kilometer sparen",
+    "Ankunft in Aalen am Abend – 17 Tage, 7 Länder, unzählige Eindrücke"
+  ]
+}

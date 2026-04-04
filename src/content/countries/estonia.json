@@ -1,0 +1,33 @@
+{
+  "id": "estonia",
+  "name": "Estland",
+  "flag": "🇪🇪",
+  "currency": {
+    "code": "EUR",
+    "name": "Euro",
+    "cashNeeded": false,
+    "tip": "Hochdigitalisierte Gesellschaft. Kartenzahlung überall, auch für Kleinstbeträge."
+  },
+  "evCharging": {
+    "quality": "sehr gut",
+    "medianDcPrice": "0,22–0,41 €/kWh",
+    "recommendedApps": ["Enefit Volt", "Eleport", "Mobilly", "Plugsurfing"],
+    "notes": "Estland war 2013 erstes Land weltweit mit flächendeckendem nationalem Ladenetz. Exzellent um Tallinn und auf Hauptkorridoren. Neste bietet nachts günstige Tarife (0,29 €/kWh)."
+  },
+  "driving": {
+    "speedLimits": { "urban": 50, "rural": 90, "motorway": 110 },
+    "tolls": "Keine Maut.",
+    "specialRules": "Abblendlicht 24/7 Pflicht. ZWEI Warndreiecke vorgeschrieben! 0,02 ‰ Promillegrenze (strengste im Baltikum)."
+  },
+  "culinary": {
+    "mustTry": [
+      "Kiluvõileib (Sprotten-Sandwich auf Schwarzbrot)",
+      "Kama (geröstetes Mehl-Dessert mit Buttermilch)",
+      "Verivorst (Blutwurst mit Gerste)",
+      "Mulgikapsad (Sauerkraut mit Schwein und Gerste)",
+      "Kohuke (Quarksnack)",
+      "Vana Tallinn (Likör)"
+    ],
+    "description": "Estlands Küche verbindet nordische Schlichtheit mit mittelalterlichem Erbe. In Tallinns Altstadt speist man in Gewölbekellern Gerichte, die sich seit Jahrhunderten kaum verändert haben. Kiluvõileib — Sprotten auf dunklem Brot — ist das estnische Sinnbild für ehrliches Essen, und der Vana Tallinn Likör rundet jeden Abend perfekt ab."
+  }
+}

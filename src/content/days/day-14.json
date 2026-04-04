@@ -1,0 +1,27 @@
+{
+  "dayNumber": 14,
+  "date": "2026-05-13",
+  "title": "Nachtfähre nach Stockholm",
+  "subtitle": "Letzter Tallinn-Morgen und Abschied übers Meer",
+  "locationId": "tallinn",
+  "previousLocationId": null,
+  "overnightLocationId": "ferry",
+  "driving": {
+    "distance": "0 km",
+    "duration": "0:00",
+    "mode": "ferry",
+    "routeDescription": "Kein Autofahren heute. Nachmittags Boarding der Tallink-Nachtfähre Tallinn–Stockholm. Überfahrt dauert ca. 17 Stunden, Ankunft Stockholm am nächsten Morgen."
+  },
+  "evCharging": {
+    "stopsNeeded": 0,
+    "notes": "WICHTIG: Vor dem Boarding in Tallinn unbedingt voll laden! An Bord gibt es keine Lademöglichkeit. Voller Akku wird für die Weiterfahrt ab Stockholm benötigt.",
+    "criticalLevel": "yellow"
+  },
+  "activities": [
+    "Vormittags Linnahall erkunden – die brutalistische Konzerthalle aus der Sowjetzeit, direkt am Meer",
+    "Spaziergang durch Kalamaja – Tallinns hippes Holzhausviertel mit Cafés und Boutiquen",
+    "Letzte Souvenirs und estnische Schokolade (Kalev) einpacken",
+    "Nachmittags Einschiffen auf die Tallink-Fähre nach Stockholm",
+    "Kabinennacht auf der Ostsee – Sonnenuntergang vom Deck genießen, Bordrestaurant und Duty-Free-Shopping"
+  ]
+}

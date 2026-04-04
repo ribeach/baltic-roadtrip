@@ -1,0 +1,152 @@
+{
+  "id": "berlin",
+  "name": "Berlin",
+  "country": "germany",
+  "coordinates": { "lat": 52.52, "lng": 13.405 },
+  "description": "Die pulsierende Hauptstadt empfängt euch Anfang Mai mit der unvergleichlichen 1.-Mai-Atmosphäre in Kreuzberg, Weltgeschichte an jeder Ecke und einer Gastro-Szene, die ihresgleichen sucht. Zwischen Reichstag und Treptower Park, zwischen Kaltem Krieg und Craft Beer erlebt ihr ein Berlin, das nie stillsteht.",
+  "highlights": [
+    {
+      "name": "Kreuzberg & Mariannenplatz",
+      "type": "activity",
+      "icon": "star",
+      "description": "Am 1. Mai verwandelt sich Kreuzberg in ein riesiges Straßenfest mit Live-Musik, Streetfood und einer einzigartigen Atmosphäre zwischen Politkunst und Feierlaune.",
+      "duration": "3-5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Mariannenplatz+Berlin+Germany"
+    },
+    {
+      "name": "Reichstagsgebäude",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Die gläserne Kuppel von Norman Foster bietet einen atemberaubenden 360°-Blick über Berlin. Voranmeldung online zwingend erforderlich.",
+      "duration": "1-1.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Reichstag+Berlin+Germany"
+    },
+    {
+      "name": "Berliner Mauer Gedenkstätte",
+      "type": "monument",
+      "icon": "star",
+      "description": "Die zentrale Gedenkstätte an der Bernauer Straße dokumentiert mit originalem Mauerstreifen, Wachturm und Ausstellung das geteilte Berlin eindrücklich und bewegend.",
+      "duration": "1.5-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Gedenkstätte+Berliner+Mauer+Bernauer+Straße+Berlin"
+    },
+    {
+      "name": "Teufelsberg",
+      "type": "soviet",
+      "icon": "gem",
+      "description": "Auf diesem künstlichen Trümmerberg thront eine verlassene NSA-Abhörstation aus dem Kalten Krieg. Die Kuppeln sind heute mit Street Art gefüllt und bieten einen surrealen Blick über den Grunewald.",
+      "duration": "2-3h",
+      "price": "€8",
+      "googleMapsUrl": "https://maps.google.com/?q=Teufelsberg+Berlin+Germany"
+    },
+    {
+      "name": "Sowjetisches Ehrenmal Treptower Park",
+      "type": "soviet",
+      "icon": "star",
+      "description": "Das monumentale Soldatendenkmal mit der 12 Meter hohen Statue eines sowjetischen Soldaten, der ein Kind trägt, ist eine der eindrucksvollsten Kriegsgedenkstätten Europas.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Sowjetisches+Ehrenmal+Treptower+Park+Berlin"
+    },
+    {
+      "name": "Berliner Unterwelten",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Geführte Touren durch Berlins unterirdische Bunker, Tunnel und Fluchtwege aus dem Zweiten Weltkrieg und der DDR-Zeit. Nichts für Klaustrophobiker, aber unvergesslich.",
+      "duration": "1.5-2h",
+      "price": "€15-18",
+      "googleMapsUrl": "https://maps.google.com/?q=Berliner+Unterwelten+Berlin+Germany"
+    },
+    {
+      "name": "Tränenpalast",
+      "type": "museum",
+      "icon": "info",
+      "description": "Die ehemalige Ausreisehalle am Bahnhof Friedrichstraße erzählt mit persönlichen Geschichten von den tränenreichen Abschieden zwischen Ost und West.",
+      "duration": "1-1.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Tränenpalast+Berlin+Germany"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Markthalle Neun",
+      "cuisine": "Internationales Street Food",
+      "priceRange": "€-€€",
+      "description": "In der historischen Kreuzberger Markthalle findet ihr an jedem Donnerstag den legendären Street Food Thursday — dutzende Stände mit Küche aus aller Welt.",
+      "mustTry": "Wechselnde Stände, einfach durchprobieren",
+      "googleMapsUrl": "https://maps.google.com/?q=Markthalle+Neun+Berlin"
+    },
+    {
+      "name": "Zur letzten Instanz",
+      "cuisine": "Traditionell Berlinerisch",
+      "priceRange": "€€",
+      "description": "Berlins ältestes Restaurant seit 1621, direkt neben der ehemaligen Stadtmauer. Deftige Berliner Hausmannskost in historischem Ambiente mit Geschichten von Napoleon bis Beethoven.",
+      "mustTry": "Königsberger Klopse — Berlins Seelenfutter schlechthin",
+      "googleMapsUrl": "https://maps.google.com/?q=Zur+letzten+Instanz+Berlin"
+    },
+    {
+      "name": "Katz Orange",
+      "cuisine": "Modern Farm-to-Table",
+      "priceRange": "€€€",
+      "description": "Im versteckten Hinterhof einer ehemaligen Brauerei serviert Katz Orange slow-cooked Duroc-Schwein, das nach 12 Stunden im Ofen butterzart auf den Teller kommt.",
+      "mustTry": "Slow Roasted Duroc Pork — das Signature-Gericht, zu Recht legendär",
+      "googleMapsUrl": "https://maps.google.com/?q=Katz+Orange+Berlin"
+    },
+    {
+      "name": "BRLO BRWHOUSE",
+      "cuisine": "Craft Beer & Sharing Plates",
+      "priceRange": "€€",
+      "description": "Berlins coolste Brauerei aus recycelten Überseecontainern am Gleisdreieck-Park. Eigene Craft-Biere, dazu kreative Sharing-Gerichte mit regionalen Zutaten.",
+      "mustTry": "BRLO German Pale Ale mit einer Auswahl an Sharing Plates",
+      "googleMapsUrl": "https://maps.google.com/?q=BRLO+BRWHOUSE+Berlin"
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Gorki Apartments",
+      "type": "Design-Apartments",
+      "priceRange": "180-220€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Stylische Apartments in Berlin-Mitte mit individueller Einrichtung, Küche und dem Gefühl, wie ein Berliner zu wohnen statt wie ein Tourist. Perfekte Lage zwischen Hackeschem Markt und Rosenthaler Platz.",
+      "googleMapsUrl": "https://maps.google.com/?q=Gorki+Apartments+Berlin"
+    },
+    {
+      "name": "Hotel The YARD",
+      "type": "Boutique-Hotel",
+      "priceRange": "110-140€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Modernes Boutique-Hotel in Kreuzberg mit Pool und Sauna — ein echtes Highlight nach einem langen Tag auf den Beinen. Ruhig gelegen und trotzdem mittendrin.",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel+The+YARD+Berlin"
+    }
+  ],
+  "tips": [
+    {
+      "type": "warnung",
+      "text": "Grüne Umweltplakette ist in Berlin Pflicht — auch für Elektroautos! Ohne Plakette drohen 80€ Bußgeld."
+    },
+    {
+      "type": "info",
+      "text": "BVG Tagesticket kostet ca. 8,80€ und deckt U-Bahn, S-Bahn, Bus und Tram ab. Am 1. Mai das Auto unbedingt stehen lassen."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Am 1. Mai früh zum MyFest am Mariannenplatz kommen — nachmittags wird es richtig voll. Abends dann rüber in die Bars am Landwehrkanal."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Prater Garten",
+      "description": "Berlins ältester Biergarten seit 1837 unter alten Kastanien in Prenzlauer Berg. Kein Schnickschnack, kein Reservieren — einfach Bier holen und hinsetzen.",
+      "googleMapsUrl": "https://maps.google.com/?q=Prater+Garten+Berlin"
+    },
+    {
+      "name": "Freischwimmer",
+      "description": "Bar direkt am Flutgraben in Kreuzberg mit Terrasse über dem Wasser. Perfekt für einen entspannten Drink in der Abendsonne nach dem 1.-Mai-Trubel.",
+      "googleMapsUrl": "https://maps.google.com/?q=Freischwimmer+Berlin+Kreuzberg"
+    }
+  ]
+}

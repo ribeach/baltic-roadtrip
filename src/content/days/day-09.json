@@ -1,0 +1,29 @@
+{
+  "dayNumber": 9,
+  "date": "2026-05-08",
+  "title": "Berg der Kreuze und auf nach Riga",
+  "subtitle": "Pilgerort im Niemandsland und lettische Hauptstadt",
+  "locationId": "riga",
+  "previousLocationId": "klaipeda",
+  "overnightLocationId": "riga",
+  "driving": {
+    "distance": "400 km",
+    "duration": "5:00",
+    "mode": "drive",
+    "routeDescription": "Über die Küstenstraße Richtung Norden nach Šiauliai, dann weiter über die A12 zur lettischen Grenze und auf der A8 nach Riga."
+  },
+  "evCharging": {
+    "stopsNeeded": 1,
+    "notes": "Ein Ladestopp im Raum Šiauliai oder an der lettischen Grenze. Gute Abdeckung entlang der Hauptstraßen.",
+    "criticalLevel": "green"
+  },
+  "activities": [
+    "Morgendlicher Aufbruch aus Klaipėda Richtung Šiauliai",
+    "Berg der Kreuze (Kryžių kalnas): surrealer Wallfahrtsort mit über 200.000 Kreuzen – Zeugnis unbeugsamen Glaubens gegen sowjetische Unterdrückung (30–60 Min.)",
+    "Grenzübertritt nach Lettland",
+    "Optional: Abstecher zum Schloss Rundāle – das ‚Versailles des Baltikums'",
+    "Ankunft in Riga am späten Nachmittag",
+    "Abendlicher Rundgang über den Rigaer Zentralmarkt – in den ehemaligen Zeppelinhallen, einem der größten Märkte Europas",
+    "Black Balsam probieren in der Black Magic Bar: Lettlands legendärer Kräuterlikör im mittelalterlichen Gewölbe"
+  ]
+}

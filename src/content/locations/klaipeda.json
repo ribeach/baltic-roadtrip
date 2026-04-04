@@ -1,0 +1,82 @@
+{
+  "id": "klaipeda",
+  "name": "Klaipėda",
+  "country": "lithuania",
+  "coordinates": {
+    "lat": 55.7033,
+    "lng": 21.1443
+  },
+  "description": "Die einstige Hansestadt Memel ist das Tor zur Kurischen Nehrung und überrascht mit einem charmanten Fachwerk-Altstadtkern, der an eine norddeutsche Kleinstadt erinnert. Hier legt die Fähre ab, die euch zu einer der spektakulärsten Landschaften Europas bringt.",
+  "highlights": [
+    {
+      "name": "Altstadt mit Fachwerkhäusern",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Das kleinste historische Zentrum der baltischen Städte hat seinen deutschen Fachwerk-Charakter bewahrt. Kopfsteinpflaster, Skulpturen an jeder Ecke und das Theater am Theaterplatz, wo 1939 Hitler die Rückgabe Memels verkündete.",
+      "duration": "1-1.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Klaipėda+Old+Town+Lithuania"
+    },
+    {
+      "name": "Fährhafen zur Kurischen Nehrung",
+      "type": "activity",
+      "icon": "star",
+      "description": "Die Smiltynė-Fähre bringt euch in nur 10 Minuten auf die Kurische Nehrung. Fähren verkehren alle 20-30 Minuten, das Auto fährt mit.",
+      "duration": "10min Überfahrt",
+      "price": "~€18 Hin+Rück (Auto + 2 Personen)",
+      "googleMapsUrl": "https://maps.google.com/?q=Smiltynės+perkėla+Klaipėda"
+    },
+    {
+      "name": "Smiltynė Meeresmuseum & Delfin-Show",
+      "type": "museum",
+      "icon": "info",
+      "description": "Das Meeresmuseum in einer alten Festung auf der Nehrungsseite bietet Aquarien und Delfin-Shows. Besonders lohnenswert, wenn man Kinder dabeihat.",
+      "duration": "2h",
+      "price": "€10-12",
+      "googleMapsUrl": "https://maps.google.com/?q=Lithuanian+Sea+Museum+Smiltynė"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Friedricho Pasažas",
+      "cuisine": "Modern Litauisch",
+      "priceRange": "€€",
+      "description": "In einer historischen Passage serviert dieses stilvolle Restaurant moderne litauische Küche mit saisonalen Zutaten. Eine der besten Adressen der Stadt.",
+      "mustTry": "Frischer Ostseefisch — je nach Tagesfang",
+      "googleMapsUrl": "https://maps.google.com/?q=Friedricho+Pasažas+Klaipėda"
+    },
+    {
+      "name": "Memelio Baras",
+      "cuisine": "Craft Beer & Pub Food",
+      "priceRange": "€",
+      "description": "Gemütliche Craft-Beer-Bar im Herzen der Altstadt mit einer guten Auswahl litauischer Mikrobrauereien und solider Pub-Küche.",
+      "mustTry": "Lokales Craft Beer — die litauische Bierszene ist unterschätzt",
+      "googleMapsUrl": "https://maps.google.com/?q=Memelio+Baras+Klaipėda"
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Amberton Klaipėda",
+      "type": "Stadthotel",
+      "priceRange": "80-120€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Zentral gelegenes Hotel direkt am Fluss mit modernen Zimmern und gutem Frühstück. Twin-Zimmer verfügbar. Perfekte Basis für den Abend vor der Nehrung.",
+      "googleMapsUrl": "https://maps.google.com/?q=Amberton+Klaipėda+Hotel"
+    }
+  ],
+  "tips": [
+    {
+      "type": "warnung",
+      "text": "Unbedingt VOR der Kurischen Nehrung auf 100% laden! Renerga 120kW-Schnelllader an der Baltijos pr. 40. Auf der Nehrung gibt es KEINE Schnelllader."
+    },
+    {
+      "type": "info",
+      "text": "Die Fähre nach Smiltynė fährt alle 20-30 Minuten und braucht nur 10 Minuten. Kosten ca. 18€ Hin+Rück für Auto mit 2 Personen."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Abends in der Altstadt essen und den Sonnenuntergang am Hafen genießen — Klaipėda ist am stimmungsvollsten in der Abenddämmerung."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "dayNumber": 3,
+  "date": "2026-05-02",
+  "title": "Auf nach Danzig",
+  "subtitle": "Durch die Weite Pommerns an die polnische Ostsee",
+  "locationId": "gdansk",
+  "previousLocationId": "berlin",
+  "overnightLocationId": "gdansk",
+  "driving": {
+    "distance": "510 km",
+    "duration": "5:30",
+    "mode": "drive",
+    "routeDescription": "Über die A11 nach Szczecin, dann auf der polnischen S6/S7 entlang der Küste bis Gdańsk. Ab Stettin gut ausgebaute Schnellstraßen."
+  },
+  "evCharging": {
+    "stopsNeeded": 2,
+    "notes": "Ein Ladestopp noch in Deutschland (Raum Prenzlau/Stettin), ein weiterer in Nordpolen – Orlen- und Greenway-Stationen entlang der S6 verfügbar.",
+    "criticalLevel": "green"
+  },
+  "activities": [
+    "Morgendlicher Aufbruch aus Berlin nach dem Frühstück",
+    "Ankunft am frühen Nachmittag in Gdańsk",
+    "Erster Bummel durch die Altstadt entlang des Długi Targ (Langer Markt) mit Neptunbrunnen und Artushof",
+    "Abendessen an der Mottlau-Uferpromenade mit Blick auf das beleuchtete Krantor"
+  ]
+}

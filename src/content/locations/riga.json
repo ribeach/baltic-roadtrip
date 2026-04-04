@@ -1,0 +1,189 @@
+{
+  "id": "riga",
+  "name": "Riga",
+  "country": "latvia",
+  "coordinates": { "lat": 56.9496, "lng": 24.1052 },
+  "description": "Lettlands Hauptstadt vereint mittelalterliche Gassen mit der weltweit größten Dichte an Jugendstil-Architektur und einem Zentralmarkt in ehemaligen Zeppelin-Hangars. Am 4. Mai feiert Riga seinen Unabhängigkeitstag — perfektes Timing für einen Besuch voller Nationalstolz, Kultur und dem berüchtigten Riga Black Balsam.",
+  "highlights": [
+    {
+      "name": "UNESCO-Altstadt",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Rigas mittelalterliche Altstadt verbindet gotische Kirchen, Hansekontore und Barockpaläste auf engstem Raum. Der Dom, die Petrikirche und die verwinkelten Gassen laden zum stundenlangen Entdecken ein.",
+      "duration": "3-4h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Riga+Old+Town+Latvia"
+    },
+    {
+      "name": "Alberta iela — Jugendstil-Fassaden",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Die Alberta-Straße ist ein Freiluftmuseum des Jugendstils: Jede Fassade übertrifft die nächste mit Sphinxen, Drachen und Masken. Fast alle stammen vom exzentrischen Architekten Michail Eisenstein.",
+      "duration": "30-60min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Alberta+iela+Riga"
+    },
+    {
+      "name": "Rigaer Jugendstil-Museum",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Eine original eingerichtete Jugendstil-Wohnung aus dem Jahr 1903 zeigt, wie die Rigaer Bourgeoisie damals lebte — vom Kachelofen bis zum Silberbesteck.",
+      "duration": "45-60min",
+      "price": "€5",
+      "googleMapsUrl": "https://maps.google.com/?q=Riga+Art+Nouveau+Museum"
+    },
+    {
+      "name": "Rigaer Zentralmarkt",
+      "type": "market",
+      "icon": "star",
+      "description": "Europas größter Markt in fünf ehemaligen Zeppelin-Hangars mit über 3.000 Ständen: Fisch, Fleisch, Käse, Brot und lokale Spezialitäten. Ein Fest für alle Sinne, am besten vor 10 Uhr morgens.",
+      "duration": "1.5-2h",
+      "price": "Kostenlos (Essen kosten natürlich extra)",
+      "googleMapsUrl": "https://maps.google.com/?q=Riga+Central+Market+Latvia"
+    },
+    {
+      "name": "Schwarzhäupterhaus",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Das prachtvolle Gildehaus der unverheirateten Kaufleute am Rathausplatz wurde nach der Zerstörung im Krieg originalgetreu wiederaufgebaut — eine der fotogensten Fassaden des Baltikums.",
+      "duration": "30-45min",
+      "price": "€6 (Museum)",
+      "googleMapsUrl": "https://maps.google.com/?q=House+of+the+Blackheads+Riga"
+    },
+    {
+      "name": "Freiheitsdenkmal (Milda)",
+      "type": "monument",
+      "icon": "info",
+      "description": "Die 42 Meter hohe \"Milda\" mit den drei goldenen Sternen ist Lettlands wichtigstes nationales Symbol. Am 4. Mai (Unabhängigkeitstag) finden hier Militärparaden und Feierlichkeiten statt.",
+      "duration": "15min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Freedom+Monument+Riga"
+    },
+    {
+      "name": "Petrikirche — Turmaussicht",
+      "type": "viewpoint",
+      "icon": "gem",
+      "description": "Der Aufzug bringt euch auf 72 Meter Höhe zum Panoramablick über die gesamte Altstadt, die Düna und das Jugendstil-Viertel. Der beste Überblick über Riga.",
+      "duration": "30-45min",
+      "price": "€9",
+      "googleMapsUrl": "https://maps.google.com/?q=St+Peters+Church+Riga"
+    },
+    {
+      "name": "Drei Brüder",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Der älteste Wohnhauskomplex Rigas — drei Häuser aus dem 15., 17. und 18. Jahrhundert nebeneinander, die die architektonische Entwicklung der Stadt auf einen Blick zeigen.",
+      "duration": "15min",
+      "price": "Kostenlos (Außenansicht)",
+      "googleMapsUrl": "https://maps.google.com/?q=Three+Brothers+Riga"
+    },
+    {
+      "name": "Akademie der Wissenschaften — Aussichtsplattform",
+      "type": "soviet",
+      "icon": "gem",
+      "description": "Der sowjetische \"Hochzeitstorten\"-Bau im Zuckerbäckerstil bietet von seiner Aussichtsplattform einen einzigartigen Blick über Riga — und ist selbst ein Denkmal der Sowjet-Architektur.",
+      "duration": "30min",
+      "price": "€5",
+      "googleMapsUrl": "https://maps.google.com/?q=Latvian+Academy+of+Sciences+Riga"
+    },
+    {
+      "name": "Großer Ķemeri-Moor-Steg (Jūrmala)",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Ein 3,4 km langer Bohlensteg führt durch eine mystische Moorlandschaft im Ķemeri-Nationalpark bei Jūrmala. Aussichtsturm mit Panorama über die endlose Weite. Perfekt für einen Morgenausflug.",
+      "duration": "1.5-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?q=Ķemeri+Great+Swamp+Boardwalk+Jūrmala"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Folkklubs Ala Pagrabs",
+      "cuisine": "Lettisch Traditional & Craft Beer",
+      "priceRange": "€€",
+      "description": "Riesige Bierhalle im Kellergewölbe mit 28 lettischen Bieren vom Fass, Live-Volksmusik und deftiger lettischer Küche. Laut, gesellig und absolut authentisch.",
+      "mustTry": "Graue Erbsen mit Speck (pelēkie zirņi) — Lettlands inoffizielles Nationalgericht",
+      "googleMapsUrl": "https://maps.google.com/?q=Folkklubs+Ala+Pagrabs+Riga"
+    },
+    {
+      "name": "3 Pavāru Restorāns",
+      "cuisine": "Kreativ Lettisch (3-Köche-Konzept)",
+      "priceRange": "€€€",
+      "description": "Drei Köche aus verschiedenen kulinarischen Welten teilen sich eine Küche und kreieren ein gemeinsames Tasting-Menü, das lettische Zutaten in unerwartete Richtungen führt.",
+      "mustTry": "Tasting-Menü (55-75€) — jeder Gang eine Überraschung",
+      "googleMapsUrl": "https://maps.google.com/?q=3+Pavāru+Restorāns+Riga"
+    },
+    {
+      "name": "MĀSA",
+      "cuisine": "Modern Lettisch (Michelin)",
+      "priceRange": "€€€",
+      "description": "Michelin-ausgezeichnetes Restaurant mit konsequent saisonaler lettischer Küche. Jeder Teller erzählt eine Geschichte von lettischen Wäldern, Feldern und Gewässern.",
+      "mustTry": "Saisonales Menü — die Karte wechselt mit der Natur",
+      "googleMapsUrl": "https://maps.google.com/?q=MĀSA+Restaurant+Riga"
+    },
+    {
+      "name": "Lido Vērmanītis",
+      "cuisine": "Lettische Kantine",
+      "priceRange": "€",
+      "description": "Die berühmte Lido-Kette ist Lettlands kulinarische Institution: Riesiges Buffet mit dutzenden lettischen Gerichten zum Selbst-Zusammenstellen. Günstig, reichlich und perfekt zum Durchprobieren.",
+      "mustTry": "Einfach von allem etwas nehmen — Schnitzel, Sauerkraut, Kartoffelpuffer, Brot",
+      "googleMapsUrl": "https://maps.google.com/?q=Lido+Vērmanītis+Riga"
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Hotel Neiburgs",
+      "type": "Jugendstil-Boutique-Hotel",
+      "priceRange": "95-150€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Wunderschönes Jugendstil-Hotel direkt am Domplatz mit freigelegten Originaldetails, hohen Decken und einem der besten Frühstücke der Stadt. Die Lage ist unschlagbar.",
+      "googleMapsUrl": "https://maps.google.com/?q=Hotel+Neiburgs+Riga"
+    },
+    {
+      "name": "Boutique Hotel Justus",
+      "type": "Boutique-Hotel",
+      "priceRange": "90-130€",
+      "twinBeds": true,
+      "evCharging": false,
+      "description": "Stilvolles Hotel mit freigelegten Ziegelwänden und modernem Design in einem historischen Gebäude. Twin Rooms verfügbar, ruhige Lage in der Altstadt.",
+      "googleMapsUrl": "https://maps.google.com/?q=Boutique+Hotel+Justus+Riga"
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Am 4. Mai ist Lettlands Unabhängigkeitstag — Militärparade am Freiheitsdenkmal, Feierlichkeiten in der ganzen Stadt. Ein besonderes Erlebnis, wenn das Timing stimmt!"
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Riga Black Balsam unbedingt probieren — den legendären lettischen Kräuterlikör gibt es pur (nur für Hartgesottene), mit Cola oder am besten in heißem Schwarzen-Johannisbeersaft."
+    },
+    {
+      "type": "info",
+      "text": "Zentralmarkt am besten vor 10 Uhr morgens besuchen — dann ist die Ware am frischesten und die Atmosphäre am lebendigsten."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Black Magic Bar",
+      "description": "In einem mittelalterlichen Apothekengewölbe werden hier Cocktails mit dem berühmten Riga Black Balsam gemixt. Die Atmosphäre zwischen Alchemie und Bar ist einzigartig in Europa.",
+      "googleMapsUrl": "https://maps.google.com/?q=Black+Magic+Bar+Riga"
+    },
+    {
+      "name": "Gimlet Nordic Cocktail Bar",
+      "description": "Speakeasy-Bar im nordischen Stil mit kreativen Cocktails, die nordische Zutaten wie Birke, Moos und Beeren verwenden. Klingeln, eintreten, staunen.",
+      "googleMapsUrl": "https://maps.google.com/?q=Gimlet+Nordic+Cocktail+Bar+Riga"
+    },
+    {
+      "name": "Labietis",
+      "description": "Rigas Kult-Craft-Brauerei braut experimentelle Biere mit Zutaten wie Kiefernadeln, Rhabarber und lettischen Kräutern. Die Taproom-Atmosphäre ist entspannt und die Biere überraschend gut.",
+      "googleMapsUrl": "https://maps.google.com/?q=Labietis+Brewery+Riga"
+    },
+    {
+      "name": "Skyline Bar",
+      "description": "Im 26. Stock des Radisson Blu bietet diese Bar ein atemberaubendes 360°-Panorama über ganz Riga. Perfekt für einen Sundowner — die Preise sind der Aussicht angemessen.",
+      "googleMapsUrl": "https://maps.google.com/?q=Skyline+Bar+Radisson+Blu+Riga"
+    }
+  ]
+}

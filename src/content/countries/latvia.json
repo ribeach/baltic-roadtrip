@@ -1,0 +1,32 @@
+{
+  "id": "latvia",
+  "name": "Lettland",
+  "flag": "🇱🇻",
+  "currency": {
+    "code": "EUR",
+    "name": "Euro",
+    "cashNeeded": false,
+    "tip": "Euro überall akzeptiert. Einfahrt nach Jūrmala kostet ca. 3 € Umweltgebühr."
+  },
+  "evCharging": {
+    "quality": "gut",
+    "medianDcPrice": "0,28–0,42 €/kWh",
+    "recommendedApps": ["Mobilly", "Eleport", "Elektrum Drive", "Virši"],
+    "notes": "Auf den Hauptrouten ausreichend. Virši akzeptiert Bankkarten direkt am Lader. In ländlichen Gebieten (Kurland) konservative Puffer einplanen."
+  },
+  "driving": {
+    "speedLimits": { "urban": 50, "rural": 90, "motorway": 110 },
+    "tolls": "Keine Maut für Pkw.",
+    "specialRules": "Abblendlicht 24/7 Pflicht. 0,05 ‰ Promillegrenze."
+  },
+  "culinary": {
+    "mustTry": [
+      "Pelēkie zirņi ar speķi (Graue Erbsen mit Speck)",
+      "Rupjmaize (dunkles Roggenbrot)",
+      "Pirādziņi (Speck-Hörnchen)",
+      "Sklandrausis (Karotten-Kartoffel-Pastete)",
+      "Riga Black Balsam (Kräuterlikör seit 1752)"
+    ],
+    "description": "Lettlands Küche ist geprägt von dunklem Roggenbrot, Waldpilzen und den Aromen der Ostsee. Rupjmaize ist weit mehr als nur Brot — es ist ein Kulturgut und findet sich sogar in Desserts wieder. Der legendäre Riga Black Balsam, ein rabenschwarzer Kräuterlikör, wird seit über 250 Jahren nach demselben Rezept hergestellt."
+  }
+}

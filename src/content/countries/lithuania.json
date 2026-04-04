@@ -1,0 +1,33 @@
+{
+  "id": "lithuania",
+  "name": "Litauen",
+  "flag": "🇱🇹",
+  "currency": {
+    "code": "EUR",
+    "name": "Euro",
+    "cashNeeded": false,
+    "tip": "Euro ist Zahlungsmittel. Kartenzahlung fast überall möglich."
+  },
+  "evCharging": {
+    "quality": "gut",
+    "medianDcPrice": "0,30–0,40 €/kWh",
+    "recommendedApps": ["Ignitis ON", "Eleport", "Mobilly", "Plugsurfing"],
+    "notes": "Eines der günstigsten Ladenetze Europas. Via Baltica lückenlos versorgt. KEINE Schnelllader auf der Kurischen Nehrung! In Klaipėda vor der Nehrung auf 100 % laden."
+  },
+  "driving": {
+    "speedLimits": { "urban": 50, "rural": 90, "motorway": 130 },
+    "tolls": "Keine Maut für Pkw. Kurische Nehrung: E-Autos fahren kostenlos in den Nationalpark (sonst 10 €).",
+    "specialRules": "Abblendlicht 24/7 Pflicht. Feuerlöscher im Auto vorgeschrieben. 0,04 ‰ Promillegrenze."
+  },
+  "culinary": {
+    "mustTry": [
+      "Cepelinai (Kartoffelklöße)",
+      "Šaltibarščiai (kalte pinke Rote-Bete-Suppe)",
+      "Kibinai (Karäer-Pasteten in Trakai)",
+      "Kepta duona (frittiertes Knoblauchbrot)",
+      "Šakotis (Baumkuchen)",
+      "Midus (Met)"
+    ],
+    "description": "Litauens Küche dreht sich um die Kartoffel — und das auf überraschend kreative Weise. Die zeppelinförmigen Cepelinai sind gefüllt mit Fleisch oder Quark und ein absolutes Muss. Im Sommer erfrischt die leuchtend pinke Šaltibarščiai, und in Trakai sollte man unbedingt die Kibinai probieren, eine Spezialität der karäischen Minderheit."
+  }
+}

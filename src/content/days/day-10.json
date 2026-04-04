@@ -1,0 +1,20 @@
+{
+  "dayNumber": 10,
+  "date": "2026-05-09",
+  "title": "Riga – Jugendstil und Markthallen",
+  "subtitle": "Fassadenkunst, Kirchturmblick und Moorwanderung",
+  "locationId": "riga",
+  "previousLocationId": null,
+  "overnightLocationId": "riga",
+  "driving": null,
+  "evCharging": null,
+  "activities": [
+    "Jugendstil-Safari durch die Alberta iela – nirgendwo in Europa stehen mehr Art-Nouveau-Fassaden auf einem Fleck",
+    "Rigaer Jugendstilmuseum: originalgetreu eingerichtete Wohnung aus der Belle Époque",
+    "Altstadtrundgang: Schwarzhäupterhaus, Dom, St.-Petri-Kirche (Aufzug zur Aussichtsplattform für Panoramablick)",
+    "Morgenbesuch am Zentralmarkt – frisches Brot, Räucherfisch und lettischer Käse",
+    "Nachmittagsausflug zum Ķemeri-Moor: Holzbohlenweg durch mystische Moorlandschaft mit Spiegelungen im Wasser",
+    "Abendessen im 3 Pavāru – drei Köche, drei Küchen, ein Restaurant",
+    "Craft Beer im Labietis – experimentelle Braukunst mit Zutaten aus lettischen Wäldern"
+  ]
+}

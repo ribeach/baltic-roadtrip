@@ -1,0 +1,19 @@
+{
+  "id": "halmstad",
+  "name": "Halmstad",
+  "country": "sweden",
+  "coordinates": {
+    "lat": 56.6745,
+    "lng": 12.8578
+  },
+  "description": "Halmstad an der schwedischen Westküste ist kein touristischer Stopp, sondern ein persönlicher — beide Reisenden haben hier gelebt. Ein fester Block zum Ankommen, Freunde treffen und schwedische Vertrautheit genießen.",
+  "highlights": [],
+  "restaurants": [],
+  "hotels": [],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Fester Block ohne Aktivitätsvorschläge — beide Reisenden haben hier gelebt und kennen die Stadt. Eigene Kontakte vor Ort."
+    }
+  ]
+}

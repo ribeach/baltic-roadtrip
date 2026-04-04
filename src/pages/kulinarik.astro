@@ -1,0 +1,169 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allCountries = await getCollection('countries');
+const balticCountries = allCountries
+  .filter(c => ['lithuania', 'latvia', 'estonia'].includes(c.data.id))
+  .sort((a, b) => {
+    const order = ['lithuania', 'latvia', 'estonia'];
+    return order.indexOf(a.data.id) - order.indexOf(b.data.id);
+  });
+
+const otherCountries = allCountries
+  .filter(c => ['germany', 'poland', 'finland', 'sweden'].includes(c.data.id))
+  .sort((a, b) => {
+    const order = ['germany', 'poland', 'finland', 'sweden'];
+    return order.indexOf(a.data.id) - order.indexOf(b.data.id);
+  });
+
+const balticDishes: Record<string, { name: string; description: string; emoji: string }[]> = {
+  lithuania: [
+    { name: 'Cepelinai', description: 'Massive, zeppelinförmige Kartoffelklöße mit Fleischfüllung, ertränkt in saurer Sahne und Speckwürfeln. DAS Nationalgericht.', emoji: '🥟' },
+    { name: 'Šaltibarščiai', description: 'Leuchtend pinke, kalte Rote-Bete-Suppe mit Kefir, Gurken, Dill und Ei. Erfrischend und fotogen.', emoji: '🥣' },
+    { name: 'Kibinai', description: 'Karäische Fleischpasteten aus Trakai. Halbmondförmig, würzig, am besten am Seeufer.', emoji: '🥐' },
+    { name: 'Kepta duona', description: 'Frittiertes Roggenbrot mit Knoblauch und Käsesauce. DER Biersnack in jeder litauischen Bar.', emoji: '🍞' },
+    { name: 'Šakotis', description: 'Spektakulärer Baumkuchen, der über offenem Feuer gedreht wird. Festtagsdessert.', emoji: '🎂' },
+    { name: 'Midus', description: 'Litauischer Met — von süß bis trocken. Jahrhundertealte Tradition.', emoji: '🍯' },
+  ],
+  latvia: [
+    { name: 'Pelēkie zirņi ar speķi', description: 'Graue Erbsen mit Speck und Zwiebeln. Lettlands Comfort Food seit Jahrhunderten.', emoji: '🫘' },
+    { name: 'Rupjmaize', description: 'Dunkles Roggenbrot — das spirituelle Fundament der lettischen Küche. Auch als Dessert!', emoji: '🍞' },
+    { name: 'Pirādziņi', description: 'Halbmondförmige Speck-Zwiebel-Hörnchen. Süchtig machend.', emoji: '🥐' },
+    { name: 'Sklandrausis', description: 'Roggenteig-Törtchen mit Karotten-Kartoffel-Füllung und Kümmel. Einzigartig lettisch.', emoji: '🥧' },
+    { name: 'Riga Black Balsam', description: 'Tiefschwarzer Kräuterlikör (45%) aus 24 Zutaten seit 1752. Pur mutig, im heißen Johannisbeersaft perfekt.', emoji: '🥃' },
+    { name: 'Geräucherter Fisch', description: 'Sprotten, Hering, Aal — die Vielfalt auf dem Zentralmarkt ist überwältigend.', emoji: '🐟' },
+  ],
+  estonia: [
+    { name: 'Kiluvõileib', description: 'Sprotten auf dunklem Roggenbrot mit Butter und Ei. Estlands ikonisches offenes Sandwich.', emoji: '🐟' },
+    { name: 'Kama', description: 'Geröstete Mehlmischung aus Gerste, Roggen, Hafer und Erbsen mit Buttermilch. Archaisch und einzigartig.', emoji: '🥣' },
+    { name: 'Verivorst', description: 'Blutwurst mit Gerste. Traditionell zu Weihnachten, aber ganzjährig verfügbar.', emoji: '🌭' },
+    { name: 'Must leib', description: 'Sehr dunkles, leicht süßliches Roggenbrot mit gesalzener Butter zu jeder Mahlzeit.', emoji: '🍞' },
+    { name: 'Vana Tallinn', description: 'Süßer, dunkler Rumlikör mit Gewürzen. Pur, im Kaffee oder über Eis. DAS Souvenir.', emoji: '🥃' },
+    { name: 'Põhjala Craft Beer', description: 'Eine der besten Craft-Brauereien Nordeuropas. Unbedingt im Noblessner Tap Room probieren.', emoji: '🍺' },
+  ],
+};
+
+const marketHighlights = [
+  { country: '🇱🇹', name: 'Halės Turgus, Vilnius', description: 'Seit 1906. Tagsüber Frischwaren, abends verwandelt sich der Markt in eine Nightlife-Location.', url: 'https://maps.google.com/?q=Hales+Market+Vilnius' },
+  { country: '🇱🇻', name: 'Rigaer Zentralmarkt', description: '5 ehemalige Zeppelin-Hangars mit 3.000+ Ständen. Europas größter Markt. VOR 10 Uhr kommen!', url: 'https://maps.google.com/?q=Riga+Central+Market' },
+  { country: '🇪🇪', name: 'Balti Jaama Turg, Tallinn', description: 'Mehrstöckiger Markt am Bahnhof mit Street-Food-Zeile. Perfekt für Mittagessen und Tastings.', url: 'https://maps.google.com/?q=Balti+Jaama+Turg+Tallinn' },
+];
+
+const mealCosts = [
+  { city: 'Vilnius', lunch: '8–12 €', dinner: '20–30 €', fine: '45–70 €', beer: '3–4 €' },
+  { city: 'Riga', lunch: '8–14 €', dinner: '20–35 €', fine: '55–85 €', beer: '3–5 €' },
+  { city: 'Tallinn', lunch: '10–15 €', dinner: '25–40 €', fine: '50–80 €', beer: '4–6 €' },
+];
+---
+
+<BaseLayout title="Kulinarischer Guide">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div class="mb-10">
+      <h1 class="text-3xl md:text-4xl font-extrabold text-navy-800">🍽️ Kulinarischer Guide</h1>
+      <p class="text-lg text-gray-600 mt-2">Die baltische Küche hat sich von der schweren sowjetischen Kantinenprägung emanzipiert. Inspiriert von der "New Nordic"-Bewegung setzen junge Köche auf Foraging, Fermentation und extreme Saisonalität.</p>
+    </div>
+
+    <!-- Baltic Countries -->
+    {balticCountries.map(country => (
+      <section class="mb-12">
+        <div class="flex items-center gap-3 mb-6">
+          <span class="text-4xl">{country.data.flag}</span>
+          <div>
+            <h2 class="text-2xl font-bold text-navy-800">{country.data.name}</h2>
+            <p class="text-gray-500">{country.data.culinary.description}</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {balticDishes[country.data.id]?.map(dish => (
+            <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-md transition-shadow">
+              <div class="flex items-center gap-2 mb-2">
+                <span class="text-2xl">{dish.emoji}</span>
+                <h3 class="font-bold text-navy-800">{dish.name}</h3>
+              </div>
+              <p class="text-sm text-gray-600">{dish.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+
+    <!-- Food Markets -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-navy-800 mb-4">🏪 Die großen Märkte</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {marketHighlights.map(market => (
+          <div class="bg-amber-50 rounded-xl border border-amber-200 p-4">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="text-2xl">{market.country}</span>
+              <h3 class="font-bold text-navy-800">{market.name}</h3>
+            </div>
+            <p class="text-sm text-gray-600 mb-3">{market.description}</p>
+            <a href={market.url} target="_blank" rel="noopener noreferrer" class="text-xs text-amber-500 hover:text-amber-600 font-medium">
+              📍 Google Maps →
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Meal Costs -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-navy-800 mb-4">💰 Was kostet Essen im Baltikum?</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-navy-800 text-white">
+              <th class="px-4 py-3 text-left rounded-tl-lg">Stadt</th>
+              <th class="px-4 py-3 text-left">Mittagessen</th>
+              <th class="px-4 py-3 text-left">Abendessen (mittel)</th>
+              <th class="px-4 py-3 text-left">Fine Dining</th>
+              <th class="px-4 py-3 text-left rounded-tr-lg">Bier (0,5l)</th>
+            </tr>
+          </thead>
+          <tbody>
+            {mealCosts.map((row, i) => (
+              <tr class:list={[i % 2 === 0 ? 'bg-gray-50' : 'bg-white']}>
+                <td class="px-4 py-3 font-medium text-navy-800">{row.city}</td>
+                <td class="px-4 py-3">{row.lunch}</td>
+                <td class="px-4 py-3">{row.dinner}</td>
+                <td class="px-4 py-3">{row.fine}</td>
+                <td class="px-4 py-3">{row.beer}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p class="text-xs text-gray-400 mt-2">Pro Person. Das Baltikum bietet außergewöhnlichen Gegenwert — gleiche Qualität kostet in Westeuropa das Doppelte.</p>
+    </section>
+
+    <!-- Other Countries -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold text-navy-800 mb-4">🌍 Weitere Länder auf der Route</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {otherCountries.map(country => (
+          <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="text-2xl">{country.data.flag}</span>
+              <h3 class="font-bold text-navy-800">{country.data.name}</h3>
+            </div>
+            <p class="text-sm text-gray-600 mb-2">{country.data.culinary.description}</p>
+            <div class="flex flex-wrap gap-1">
+              {country.data.culinary.mustTry.map(dish => (
+                <span class="text-xs bg-amber-50 text-amber-700 px-2 py-0.5 rounded-full">{dish}</span>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Back -->
+    <div class="pt-8 border-t border-gray-100">
+      <a href={import.meta.env.BASE_URL} class="text-amber-500 hover:text-amber-600 font-medium transition-colors">
+        ← Zurück zur Routenübersicht
+      </a>
+    </div>
+  </div>
+</BaseLayout>

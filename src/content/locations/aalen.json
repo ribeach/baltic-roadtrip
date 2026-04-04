@@ -1,0 +1,14 @@
+{
+  "id": "aalen",
+  "name": "Aalen",
+  "country": "germany",
+  "coordinates": {
+    "lat": 48.8376,
+    "lng": 10.0933
+  },
+  "description": "Start- und Endpunkt der Reise. Von hier geht es los und hierhin führt der Weg zurück.",
+  "highlights": [],
+  "restaurants": [],
+  "hotels": [],
+  "tips": []
+}
