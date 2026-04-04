@@ -6,6 +6,7 @@ interface MapLocation {
   lat: number;
   lng: number;
   dayNumber?: number;
+  link?: string;
 }
 
 interface POI {
@@ -144,16 +145,32 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           marker.addListener('click', () => {
             const content = document.createElement('div');
             content.style.cssText = 'padding: 4px 8px; font-family: Inter, system-ui, sans-serif;';
-            const strong = document.createElement('strong');
-            strong.style.color = '#1a1a2e';
-            strong.textContent = loc.name;
-            content.appendChild(strong);
-            if (loc.dayNumber) {
-              content.appendChild(document.createElement('br'));
-              const span = document.createElement('span');
-              span.style.cssText = 'color: #666; font-size: 12px;';
-              span.textContent = `Tag ${loc.dayNumber}`;
-              content.appendChild(span);
+            if (loc.link) {
+              const link = document.createElement('a');
+              link.href = loc.link;
+              link.style.cssText = 'color: #1a1a2e; text-decoration: none; font-weight: bold;';
+              link.textContent = loc.name;
+              content.appendChild(link);
+              if (loc.dayNumber) {
+                content.appendChild(document.createElement('br'));
+                const dayLink = document.createElement('a');
+                dayLink.href = loc.link;
+                dayLink.style.cssText = 'color: #e6a919; font-size: 12px; text-decoration: none; font-weight: 500;';
+                dayLink.textContent = `Tag ${loc.dayNumber} →`;
+                content.appendChild(dayLink);
+              }
+            } else {
+              const strong = document.createElement('strong');
+              strong.style.color = '#1a1a2e';
+              strong.textContent = loc.name;
+              content.appendChild(strong);
+              if (loc.dayNumber) {
+                content.appendChild(document.createElement('br'));
+                const span = document.createElement('span');
+                span.style.cssText = 'color: #666; font-size: 12px;';
+                span.textContent = `Tag ${loc.dayNumber}`;
+                content.appendChild(span);
+              }
             }
             infoWindow.setContent(content);
             infoWindow.open(map, marker);
