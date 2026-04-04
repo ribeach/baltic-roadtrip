@@ -6,6 +6,7 @@
   "locationId": "tallinn",
   "previousLocationId": "riga",
   "overnightLocationId": "tallinn",
+  "additionalLocationIds": ["sigulda-gauja"],
   "driving": {
     "distance": "370 km",
     "duration": "5:00",

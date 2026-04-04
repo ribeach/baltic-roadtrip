@@ -6,6 +6,7 @@
   "locationId": "klaipeda",
   "previousLocationId": "vilnius",
   "overnightLocationId": "klaipeda",
+  "additionalLocationIds": ["trakai", "kaunas"],
   "driving": {
     "distance": "320 km",
     "duration": "4:30",

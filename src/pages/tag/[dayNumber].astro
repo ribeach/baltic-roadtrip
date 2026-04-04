@@ -24,6 +24,14 @@ const resolveRef = (ref: any) => typeof ref === 'object' && ref !== null ? ref.i
 const location = allLocations.find(l => l.id === resolveRef(day.locationId) || l.data.id === resolveRef(day.locationId));
 const prevLocation = day.previousLocationId ? allLocations.find(l => l.id === resolveRef(day.previousLocationId) || l.data.id === resolveRef(day.previousLocationId)) : null;
 
+const additionalLocationRefs = day.additionalLocationIds || [];
+const additionalLocations = additionalLocationRefs
+  .map((ref: any) => {
+    const refId = resolveRef(ref);
+    return allLocations.find(l => l.id === refId || l.data.id === refId);
+  })
+  .filter(Boolean);
+
 const prevDay = allDays.find(d => d.data.dayNumber === day.dayNumber - 1);
 const nextDay = allDays.find(d => d.data.dayNumber === day.dayNumber + 1);
 
@@ -136,22 +144,31 @@ if (location) {
       </div>
     </div>
 
-    <!-- Link to location -->
-    {location && location.data.highlights.length > 0 && (
-      <a
-        href={`${base}ort/${location.data.id}`}
-        class="block bg-amber-50 border border-amber-200 rounded-xl p-6 hover:bg-amber-100 transition-colors mb-8"
-      >
-        <div class="flex items-center justify-between">
-          <div>
-            <h3 class="font-bold text-navy-800">📍 {location.data.name}</h3>
-            <p class="text-sm text-gray-600 mt-1">{location.data.description}</p>
-          </div>
-          <span class="text-amber-500 font-medium text-sm whitespace-nowrap ml-4">
-            Alle Details →
-          </span>
+    <!-- Location cards -->
+    {(location?.data.highlights.length > 0 || additionalLocations.length > 0) && (
+      <div class="mb-8">
+        <h2 class="font-bold text-navy-800 text-lg mb-3">📍 Orte an diesem Tag</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {location && location.data.highlights.length > 0 && (
+            <a href={`${base}ort/${location.data.id}`}
+               class="block bg-amber-50 border border-amber-200 rounded-xl p-5 hover:bg-amber-100 transition-colors">
+              <span class="text-xs bg-amber-200 text-amber-800 font-medium px-2 py-0.5 rounded-full">Tagesziel</span>
+              <h3 class="font-bold text-navy-800 mt-2">{location.data.name}</h3>
+              <p class="text-sm text-gray-600 mt-1 line-clamp-2">{location.data.description}</p>
+              <span class="text-amber-500 font-medium text-sm mt-2 inline-block">Details →</span>
+            </a>
+          )}
+          {additionalLocations.map(loc => loc && (
+            <a href={`${base}ort/${loc.data.id}`}
+               class="block bg-gray-50 border border-gray-200 rounded-xl p-5 hover:bg-gray-100 transition-colors">
+              <span class="text-xs bg-gray-200 text-gray-700 font-medium px-2 py-0.5 rounded-full">Unterwegs</span>
+              <h3 class="font-bold text-navy-800 mt-2">{loc.data.name}</h3>
+              <p class="text-sm text-gray-600 mt-1 line-clamp-2">{loc.data.description}</p>
+              <span class="text-amber-500 font-medium text-sm mt-2 inline-block">Details →</span>
+            </a>
+          ))}
         </div>
-      </a>
+      </div>
     )}
 
     <!-- Navigation -->

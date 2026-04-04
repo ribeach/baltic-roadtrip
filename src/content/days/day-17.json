@@ -6,6 +6,7 @@
   "locationId": "aalen",
   "previousLocationId": "halmstad",
   "overnightLocationId": null,
+  "additionalLocationIds": ["luebeck"],
   "driving": {
     "distance": "900 km",
     "duration": "10:00",

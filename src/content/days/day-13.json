@@ -6,6 +6,7 @@
   "locationId": "tallinn",
   "previousLocationId": "tallinn",
   "overnightLocationId": "tallinn",
+  "additionalLocationIds": ["lahemaa", "helsinki"],
   "driving": {
     "distance": "0 km",
     "duration": "0:00",
