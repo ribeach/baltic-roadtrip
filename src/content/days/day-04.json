@@ -13,6 +13,6 @@
     { "highlightRef": "Europäisches Solidarność-Zentrum", "note": "Auf dem ehemaligen Werftgelände" },
     { "highlightRef": "Westerplatte", "note": "Per Wasserbus erreichbar" },
     "Abendlicher Spaziergang am Ufer der Mottlau im goldenen Licht",
-    { "highlightRef": "Pierogarnia Mandu", "note": "Pierogi-Festmahl — handgemachte Teigtaschen in unzähligen Variationen" }
+    { "restaurantRef": "Pierogarnia Mandu", "note": "Pierogi-Festmahl — handgemachte Teigtaschen in unzähligen Variationen" }
   ]
 }

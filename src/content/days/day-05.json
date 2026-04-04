@@ -22,6 +22,6 @@
     "Fahrt durch Masurens stille Weite: Seen, Kiefernwälder, Störche auf jedem Dach",
     { "highlightRef": "Hotel Zamek Ryn (Ordensburg)", "note": "Ankunft am frühen Nachmittag — Rundgang durch die gotischen Gewölbe" },
     { "highlightRef": "Masurische Seenplatte", "note": "Nachmittagsspaziergang am Ufer des Ryńskie-Sees" },
-    { "highlightRef": "Restauracja Zamkowa (Refektarz)", "note": "Polnische Küche unter gotischen Bögen" }
+    { "restaurantRef": "Restauracja Zamkowa (Refektarz)", "note": "Polnische Küche unter gotischen Bögen" }
   ]
 }

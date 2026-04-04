@@ -147,48 +147,6 @@
         "lat": 56.9125105,
         "lng": 23.4594399
       }
-    },
-    {
-      "name": "Black Magic Bar",
-      "type": "culinary",
-      "icon": "gem",
-      "description": "In einem mittelalterlichen Apothekengewölbe werden hier Cocktails mit dem berühmten Riga Black Balsam gemixt. Die Atmosphäre zwischen Alchemie und Bar ist einzigartig in Europa.",
-      "duration": "1h",
-      "price": "€-€€",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bar%20%22Riga%20Black%20Magic%22&query_place_id=ChIJ5Xw2xdbP7kYRv5_7mHNBWb0",
-      "placeId": "ChIJ5Xw2xdbP7kYRv5_7mHNBWb0",
-      "coordinates": {
-        "lat": 56.9486843,
-        "lng": 24.1088745
-      }
-    },
-    {
-      "name": "3 Pavāru Restorāns",
-      "type": "culinary",
-      "icon": "gem",
-      "description": "Drei Köche aus verschiedenen kulinarischen Welten teilen sich eine Küche und kreieren ein gemeinsames Tasting-Menü, das lettische Zutaten in unerwartete Richtungen führt.",
-      "duration": "2-2.5h",
-      "price": "€€€",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=3%20pav%C4%81ru%20restor%C4%81ns%20%22Tam%20labam%20b%C5%ABs%20augt%22&query_place_id=ChIJKWec69DP7kYRmv9_qgDSh60",
-      "placeId": "ChIJKWec69DP7kYRmv9_qgDSh60",
-      "coordinates": {
-        "lat": 56.951542,
-        "lng": 24.1078801
-      }
-    },
-    {
-      "name": "Labietis",
-      "type": "culinary",
-      "icon": "gem",
-      "description": "Rigas Kult-Craft-Brauerei braut experimentelle Biere mit Zutaten wie Kiefernadeln, Rhabarber und lettischen Kräutern. Die Taproom-Atmosphäre ist entspannt und die Biere überraschend gut.",
-      "duration": "1-2h",
-      "price": "€-€€",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Labietis&query_place_id=ChIJyzSZxbXP7kYR-Is255urAnc",
-      "placeId": "ChIJyzSZxbXP7kYR-Is255urAnc",
-      "coordinates": {
-        "lat": 56.9654552,
-        "lng": 24.1306908
-      }
     }
   ],
   "restaurants": [

@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import HighlightCard from '../../components/HighlightCard.astro';
 import RestaurantCard from '../../components/RestaurantCard.astro';
 import HotelCard from '../../components/HotelCard.astro';
+import NightlifeCard from '../../components/NightlifeCard.astro';
 import TipBadge from '../../components/TipBadge.astro';
 import RouteMap from '../../components/RouteMap.tsx';
 import { getCollection } from 'astro:content';
@@ -15,7 +16,7 @@ export async function getStaticPaths() {
   }));
 }
 
-import { getBase } from '../../lib/content';
+import { getBase, collectLocationPois, deduplicateMapPois } from '../../lib/content';
 
 const { location } = Astro.props;
 const base = getBase();
@@ -31,24 +32,7 @@ const mapLocations = [{
   lng: location.coordinates.lng,
 }];
 
-const pois = [
-  ...location.highlights.map(h => ({
-    name: h.name, lat: h.coordinates.lat, lng: h.coordinates.lng,
-    category: 'highlight' as const, googleMapsUrl: h.googleMapsUrl, placeId: h.placeId,
-  })),
-  ...location.restaurants.map(r => ({
-    name: r.name, lat: r.coordinates.lat, lng: r.coordinates.lng,
-    category: 'restaurant' as const, googleMapsUrl: r.googleMapsUrl, placeId: r.placeId,
-  })),
-  ...location.hotels.map(h => ({
-    name: h.name, lat: h.coordinates.lat, lng: h.coordinates.lng,
-    category: 'hotel' as const, googleMapsUrl: h.googleMapsUrl, placeId: h.placeId,
-  })),
-  ...(location.nightlife || []).map(n => ({
-    name: n.name, lat: n.coordinates.lat, lng: n.coordinates.lng,
-    category: 'nightlife' as const, googleMapsUrl: n.googleMapsUrl, placeId: n.placeId,
-  })),
-];
+const pois = deduplicateMapPois(collectLocationPois(location));
 ---
 
 <BaseLayout title={location.name}>
@@ -163,18 +147,11 @@ const pois = [
         <h2 class="text-2xl font-bold text-navy-800 mb-4">🍸 Abends ausgehen</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           {location.nightlife.map(bar => (
-            <div class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow p-4">
-              <h4 class="font-semibold text-navy-800">🍺 {bar.name}</h4>
-              <p class="text-sm text-gray-600 mt-1">{bar.description}</p>
-              <a
-                href={bar.googleMapsUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="inline-flex items-center gap-1 text-xs text-amber-500 hover:text-amber-600 font-medium mt-2 transition-colors"
-              >
-                📍 Google Maps
-              </a>
-            </div>
+            <NightlifeCard
+              name={bar.name}
+              description={bar.description}
+              googleMapsUrl={bar.googleMapsUrl}
+            />
           ))}
         </div>
       </section>
