@@ -6,6 +6,7 @@
   "locationId": "riga",
   "previousLocationId": "klaipeda",
   "overnightLocationId": "riga",
+  "additionalLocationIds": ["hill-of-crosses", "rundale"],
   "driving": {
     "distance": "400 km",
     "duration": "5:00",

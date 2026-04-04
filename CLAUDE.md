@@ -73,3 +73,8 @@ Body: { "textQuery": "Place Name City Country" }
 - Requires Node.js ≥22.12.0
 - `.env` file with `PUBLIC_GOOGLE_MAPS_API_KEY` (see `.env.example`)
 - GitHub Actions deploys on push to `main`, injecting the API key from repository secrets
+
+## Workflow
+
+- For every fix or feature, create a dedicated feature branch (e.g. `fix/description` or `feat/description`).
+- After completing the work, commit all changes, push the branch, and create a GitHub pull request.
