@@ -77,7 +77,6 @@ const locations = defineCollection({
       name: z.string(),
       type: z.string(),
       priceRange: z.string(),
-      twinBeds: z.boolean(),
       evCharging: z.boolean(),
       description: z.string(),
       googleMapsUrl: z.string().url(),

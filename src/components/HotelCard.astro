@@ -3,13 +3,12 @@ interface Props {
   name: string;
   type: string;
   priceRange: string;
-  twinBeds: boolean;
   evCharging: boolean;
   description: string;
   googleMapsUrl: string;
 }
 
-const { name, type, priceRange, twinBeds, evCharging, description, googleMapsUrl } = Astro.props;
+const { name, type, priceRange, evCharging, description, googleMapsUrl } = Astro.props;
 ---
 
 <div class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow overflow-hidden">
@@ -26,11 +25,6 @@ const { name, type, priceRange, twinBeds, evCharging, description, googleMapsUrl
     <p class="text-sm text-gray-600 mb-3">{description}</p>
     <div class="flex items-center justify-between">
       <div class="flex items-center gap-2">
-        {twinBeds && (
-          <span class="inline-flex items-center gap-1 text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">
-            🛏️ Twin Beds
-          </span>
-        )}
         {evCharging && (
           <span class="inline-flex items-center gap-1 text-xs bg-green-50 text-green-700 px-2 py-0.5 rounded-full">
             🔌 E-Laden
