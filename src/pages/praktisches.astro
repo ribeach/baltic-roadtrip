@@ -178,7 +178,7 @@ const evRules = [
                 <td class="px-4 py-3 font-medium text-navy-800">{country.data.flag} {country.data.name}</td>
                 <td class="px-4 py-3 text-center">{country.data.driving.speedLimits.urban} km/h</td>
                 <td class="px-4 py-3 text-center">{country.data.driving.speedLimits.rural} km/h</td>
-                <td class="px-4 py-3 text-center">{country.data.driving.speedLimits.motorway} km/h</td>
+                <td class="px-4 py-3 text-center">{typeof country.data.driving.speedLimits.motorway === 'number' ? `${country.data.driving.speedLimits.motorway} km/h` : country.data.driving.speedLimits.motorway}</td>
               </tr>
             ))}
           </tbody>
