@@ -119,7 +119,7 @@ const countries = defineCollection({
       speedLimits: z.object({
         urban: z.number(),
         rural: z.number(),
-        motorway: z.number(),
+        motorway: z.union([z.number(), z.string()]),
       }),
       tolls: z.string(),
       specialRules: z.string(),

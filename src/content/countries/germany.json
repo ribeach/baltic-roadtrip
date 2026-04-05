@@ -15,7 +15,7 @@
     "notes": "Dichtes Schnellladenetz entlang aller Autobahnkorridore. A7/A9 Route bestens versorgt."
   },
   "driving": {
-    "speedLimits": { "urban": 50, "rural": 100, "motorway": 130 },
+    "speedLimits": { "urban": 50, "rural": 100, "motorway": "unbegrenzt" },
     "tolls": "Keine Maut für Pkw.",
     "specialRules": "Umweltzonen: Deutsche E-Autos mit E-Kennzeichen sind befreit, ausländische Fahrzeuge benötigen ggf. eine grüne Plakette. Abblendlicht bei schlechter Sicht. Auf der Autobahn gilt kein generelles Tempolimit, 130 km/h ist jedoch die Richtgeschwindigkeit."
   },
