@@ -17,6 +17,12 @@ pnpm-debug.log*
 .env
 .env.production
 
+# MCP server config (contains API key)
+.mcp.json
+
+# Claude Code skills (project-local)
+.claude/skills/
+
 # macOS-specific files
 .DS_Store
 
