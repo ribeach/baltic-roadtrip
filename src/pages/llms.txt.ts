@@ -23,12 +23,21 @@ export const GET: APIRoute = async () => {
 
   const sortedDays = [...days].sort((a, b) => a.data.dayNumber - b.data.dayNumber);
 
+  // Track which locations are assigned to days
+  const assignedLocationIds = new Set<string>();
+  for (const day of sortedDays) {
+    assignedLocationIds.add(resolveRef(day.data.locationId));
+    for (const ref of day.data.additionalLocationIds || []) assignedLocationIds.add(resolveRef(ref));
+    for (const ref of day.data.transitLocationIds || []) assignedLocationIds.add(resolveRef(ref));
+  }
+  const unassignedLocations = locations.filter(l => !assignedLocationIds.has(l.data.id) && !assignedLocationIds.has(l.id));
+
   const lines: string[] = [];
   const ln = (s = '') => lines.push(s);
 
   ln('# Baltic Roadtrip 2026');
   ln();
-  ln('> 18-Tage-Roadtrip mit E-Auto (VW ID.4, 77 kWh) durch 10 Länder: Deutschland, Tschechien, Polen, Litauen, Lettland, Estland, Finnland, Schweden, Norwegen, Dänemark. ~5.500 km Gesamtstrecke. 30. April – 17. Mai 2026.');
+  ln(`> ${sortedDays.length}-Tage-Roadtrip mit E-Auto (VW ID.4, 77 kWh) durch ${countries.length} Länder. ${locations.length} Orte gesammelt (${sortedDays.length} Tage geplant, ${unassignedLocations.length} weitere Optionen). 30. April – 17. Mai 2026.`);
   ln();
   ln('Website: https://ribeach.github.io/baltic-roadtrip/');
   ln('Repo: https://github.com/ribeach/baltic-roadtrip');
@@ -79,7 +88,8 @@ export const GET: APIRoute = async () => {
     const isFirstVisit = locId && !shownLocations.has(locId);
     if (locId) shownLocations.add(locId);
 
-    ln(`### Tag ${d.dayNumber}: ${d.title} (${formatDate(d.date)})`);
+    const status = d.status ?? 'planned';
+    ln(`### Tag ${d.dayNumber}: ${d.title} (${formatDate(d.date)}) [${status}]`);
     ln(`*${d.subtitle}*`);
     if (d.driving) {
       ln(`Fahrt: ${d.driving.distance}, ${d.driving.duration}h (${d.driving.mode}) — ${d.driving.routeDescription}`);
@@ -112,6 +122,27 @@ export const GET: APIRoute = async () => {
       ln(`Ort: ${locData.name} (siehe oben)`);
     }
     ln();
+  }
+
+  // Unassigned locations (not yet in itinerary)
+  if (unassignedLocations.length > 0) {
+    ln('## Weitere Orte (nicht eingeplant)');
+    ln();
+    for (const loc of unassignedLocations) {
+      const locData = loc.data;
+      ln(`### ${locData.name} (${locData.country})`);
+      ln(locData.description);
+      if (locData.highlights.length > 0) {
+        ln(`Highlights: ${locData.highlights.map(h => h.name).join(', ')}`);
+      }
+      if (locData.restaurants.length > 0) {
+        ln(`Restaurants: ${locData.restaurants.map(r => `${r.name} (${r.cuisine}, ${r.priceRange})`).join(', ')}`);
+      }
+      if (locData.hotels.length > 0) {
+        ln(`Hotels: ${locData.hotels.map(h => `${h.name} (${h.priceRange}${h.evCharging ? ', EV-Laden' : ''})`).join(', ')}`);
+      }
+      ln();
+    }
   }
 
   // Country info

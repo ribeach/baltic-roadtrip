@@ -6,12 +6,20 @@ const currentPath = Astro.url.pathname;
 
 const links = [
   { href: `${base}`, label: 'Route' },
+  { href: `${base}orte`, label: 'Orte' },
   { href: `${base}kulinarik`, label: 'Kulinarik' },
   { href: `${base}praktisches`, label: 'Praktisches' },
   { href: `${base}budget`, label: 'Budget' },
 ];
 
-const isActive = (href: string) => currentPath === href || currentPath === href + '/';
+const isActive = (href: string) => {
+  if (currentPath === href || currentPath === href + '/') return true;
+  // Highlight "Orte" nav item for /ort/* sub-pages too
+  if (href.endsWith('/orte') || href.endsWith('/orte/')) {
+    return currentPath.includes('/ort/');
+  }
+  return false;
+};
 ---
 
 <nav class="bg-navy-800/95 backdrop-blur-md text-white sticky top-0 z-50 border-b border-navy-700" aria-label="Hauptnavigation">

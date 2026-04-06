@@ -8,6 +8,7 @@ interface MapLocation {
   dayNumber?: number;
   link?: string;
   label?: string;
+  assigned?: boolean;
 }
 
 interface POI {
@@ -141,19 +142,26 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
         // Shared info window (reused across markers)
         const infoWindow = new InfoWindow();
 
-        // AdvancedMarkerElement with custom HTML for circular amber markers
+        // AdvancedMarkerElement with custom HTML for circular markers
+        // Assigned (default) locations get amber markers; unassigned get muted gray
         locations.forEach((loc, i) => {
-          const labelText = loc.label ?? (loc.dayNumber ? String(loc.dayNumber) : String(i + 1));
+          const isAssigned = loc.assigned !== false;
+          const labelText = loc.label ?? (loc.dayNumber ? String(loc.dayNumber) : isAssigned ? String(i + 1) : '');
 
           const markerDiv = document.createElement('div');
-          markerDiv.style.cssText = `
-            width: 28px; height: 28px; border-radius: 50%;
-            background: #e6a919; border: 2px solid #1a1a2e;
-            display: flex; align-items: center; justify-content: center;
-            font-family: Inter, system-ui, sans-serif;
-            font-size: 11px; font-weight: bold; color: #1a1a2e;
-            cursor: pointer;
-          `;
+          markerDiv.style.cssText = isAssigned
+            ? `width: 28px; height: 28px; border-radius: 50%;
+               background: #e6a919; border: 2px solid #1a1a2e;
+               display: flex; align-items: center; justify-content: center;
+               font-family: Inter, system-ui, sans-serif;
+               font-size: 11px; font-weight: bold; color: #1a1a2e;
+               cursor: pointer;`
+            : `width: 22px; height: 22px; border-radius: 50%;
+               background: #9ca3af; border: 2px solid #6b7280;
+               display: flex; align-items: center; justify-content: center;
+               font-family: Inter, system-ui, sans-serif;
+               font-size: 9px; font-weight: bold; color: #fff;
+               cursor: pointer; opacity: 0.8;`;
           markerDiv.textContent = labelText;
 
           const marker = new AdvancedMarkerElement({
