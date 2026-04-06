@@ -71,6 +71,22 @@
       },
       "rating": 4.5,
       "userRatingCount": 1850
+    },
+    {
+      "name": "Švyturys-Brauerei",
+      "type": "activity",
+      "icon": "gem",
+      "description": "Litauens älteste Brauerei (gegründet 1784) — Führungen und Verkostungen in der historischen Produktionsstätte. Das Švyturys Ekstra ist ein Klassiker.",
+      "duration": "1-1.5h",
+      "price": "Führung ca. €10",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C5%A0vyturys%20Brewery&query_place_id=ChIJXZ-lXqPb5EYRL4RA23eA3R0",
+      "placeId": "ChIJXZ-lXqPb5EYRL4RA23eA3R0",
+      "coordinates": {
+        "lat": 55.707033599999995,
+        "lng": 21.141231402
+      },
+      "rating": 4.7,
+      "userRatingCount": 3508
     }
   ],
   "restaurants": [
@@ -103,6 +119,21 @@
       },
       "rating": 4.2,
       "userRatingCount": 67
+    },
+    {
+      "name": "Monai",
+      "cuisine": "Modern Baltisch / Fine Dining",
+      "priceRange": "€€-€€€",
+      "description": "Zwei Jahre in Folge im Michelin Guide — offene Küche mit raffinierten Gerichten aus frischem Ostseefisch und hyperregionalen Zutaten. Eines der besten Restaurants im Baltikum.",
+      "mustTry": "Degustationsmenü mit Ostseefisch",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=monai&query_place_id=ChIJg496xvrb5EYRB1Mj7CjhU_E",
+      "placeId": "ChIJg496xvrb5EYRB1Mj7CjhU_E",
+      "coordinates": {
+        "lat": 55.711715005,
+        "lng": 21.132820798
+      },
+      "rating": 4.7,
+      "userRatingCount": 1577
     }
   ],
   "hotels": [

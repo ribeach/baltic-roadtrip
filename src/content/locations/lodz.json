@@ -1,0 +1,184 @@
+{
+  "id": "lodz",
+  "name": "Łódź",
+  "country": "poland",
+  "coordinates": {
+    "lat": 51.7592,
+    "lng": 19.456
+  },
+  "description": "Polens postindustrielle Verwandlungsstadt war einst als „Manchester des Ostens“ bekannt — riesige Textilfabriken prägten das Stadtbild. Heute sind die Backsteinhallen zu Kulturzentren, Lofts und Gastro-Hotspots umgebaut. Łódź ist zudem Polens Filmhauptstadt: Polanski, Wajda und Kieślowski studierten hier an der berühmten Filmhochschule. Die kreative Szene und das vibrierende Nachtleben machen die Stadt zu einer echten Entdeckung abseits der üblichen Touristenpfade.",
+  "highlights": [
+    {
+      "name": "Manufaktura",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Europas größtes renoviertes Industriegelände — die ehemalige Textilfabrik von Izrael Poznański wurde in ein beeindruckendes Kultur-, Einkaufs- und Unterhaltungszentrum verwandelt.",
+      "duration": "2-3h",
+      "price": "Kostenlos (Gelände)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Manufaktura&query_place_id=ChIJWZsRxFbLG0cRW_Y07H_xp_w",
+      "placeId": "ChIJWZsRxFbLG0cRW_Y07H_xp_w",
+      "coordinates": {
+        "lat": 51.7791128,
+        "lng": 19.4441324
+      },
+      "rating": 4.7,
+      "userRatingCount": 98148
+    },
+    {
+      "name": "Piotrkowska-Straße",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Eine der längsten Einkaufsstraßen Europas (4,2 km) — gesäumt von Jugendstilbauten, Cafés, Galerien und Denkmälern. Das pulsierende Herz der Stadt.",
+      "duration": "1-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Piotrkowska%20Street&query_place_id=ChIJUcgvt9Y0GkcRsHTULIzr25Y",
+      "placeId": "ChIJUcgvt9Y0GkcRsHTULIzr25Y",
+      "coordinates": {
+        "lat": 51.7605694,
+        "lng": 19.458271
+      },
+      "rating": 4.7,
+      "userRatingCount": 2818
+    },
+    {
+      "name": "OFF Piotrkowska",
+      "type": "market",
+      "icon": "gem",
+      "description": "Ehemaliger Fabrikhof mit Container-Restaurants, Craft-Beer-Bars und Livemusik — Łódź' kreativstes Viertel auf engstem Raum.",
+      "duration": "2-3h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=OFF%20Piotrkowska&query_place_id=ChIJmU7-XdQ0GkcRNSi5uEiZNHg",
+      "placeId": "ChIJmU7-XdQ0GkcRNSi5uEiZNHg",
+      "coordinates": {
+        "lat": 51.7611118,
+        "lng": 19.4604054
+      },
+      "rating": 4.7,
+      "userRatingCount": 13260
+    },
+    {
+      "name": "EC1 — Zentrum für Wissenschaft und Kultur",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Ehemaliges Kraftwerk, spektakulär zum Wissenschafts- und Kulturzentrum umgebaut. Interaktive Ausstellungen, Planetarium und ein beeindruckendes Industriedenkmal in einem.",
+      "duration": "2-3h",
+      "price": "ca. €5-8",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=EC1%20%C5%81%C3%B3d%C5%BA%20-%20Miasto%20Kultury&query_place_id=ChIJt6cxESzLG0cR2BgqHho5Y-4",
+      "placeId": "ChIJt6cxESzLG0cR2BgqHho5Y-4",
+      "coordinates": {
+        "lat": 51.7681411,
+        "lng": 19.469138299999997
+      },
+      "rating": 4.6,
+      "userRatingCount": 8130
+    },
+    {
+      "name": "Bahnhof Radegast — Holocaust-Gedenkstätte",
+      "type": "monument",
+      "icon": "info",
+      "description": "Abfahrtsort der Juden aus dem Łódźer Ghetto in die Vernichtungslager. Eine tief bewegende Gedenkstätte mit originalen Viehwaggons und einem Tunnel der Erinnerung.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Radegast%20Train%20Station&query_place_id=ChIJl1Q87_7KG0cR8XeyLUlPbyo",
+      "placeId": "ChIJl1Q87_7KG0cR8XeyLUlPbyo",
+      "coordinates": {
+        "lat": 51.8017341,
+        "lng": 19.4808982
+      },
+      "rating": 4.8,
+      "userRatingCount": 1293
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Anatewka",
+      "cuisine": "Jüdisch-Polnisch",
+      "priceRange": "€€",
+      "description": "Jüdisch-polnische Küche, die das multikulturelle Erbe von Łódź auf den Teller bringt. Das liebevoll eingerichtete Restaurant erinnert an die Zeit, als die Stadt eines der größten jüdischen Zentren Europas war.",
+      "mustTry": "Gefilte Fisch und Kreplach",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Anatewka%20-%20Zyner%E2%80%99s%20Restauracje&query_place_id=ChIJj2dqstXKG0cR3-kWMnM3Loc",
+      "placeId": "ChIJj2dqstXKG0cR3-kWMnM3Loc",
+      "coordinates": {
+        "lat": 51.7703406,
+        "lng": 19.454669199999998
+      },
+      "rating": 4.5,
+      "userRatingCount": 2914
+    },
+    {
+      "name": "Ato Ramen",
+      "cuisine": "Japanisch / Ramen",
+      "priceRange": "€-€€",
+      "description": "Einer der besten Ramen-Spots Polens — authentische japanische Brühen, stundenlang eingekocht, in lässigem Ambiente im OFF Piotrkowska-Viertel.",
+      "mustTry": "Tonkotsu Ramen",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ato%20Ramen&query_place_id=ChIJ5azLTdQ0GkcRV7TreS5HwaY",
+      "placeId": "ChIJ5azLTdQ0GkcRV7TreS5HwaY",
+      "coordinates": {
+        "lat": 51.7608083,
+        "lng": 19.4597586
+      },
+      "rating": 4.7,
+      "userRatingCount": 8238
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Vienna House by Wyndham Andel's Łódź",
+      "type": "Design-Hotel in ehemaliger Textilfabrik",
+      "priceRange": "80-140€",
+      "evCharging": true,
+      "description": "Industrial-Chic-Design in einer umgebauten Textilfabrik im Manufaktura-Komplex. Glasüberdachter Rooftop-Pool, permanente Kunstsammlung und EV-Ladestationen in der Tiefgarage.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vienna%20House%20by%20Wyndham%20Andel's%20Lodz&query_place_id=ChIJbRcRw9I0GkcRqYK4Y1n3380",
+      "placeId": "ChIJbRcRw9I0GkcRqYK4Y1n3380",
+      "coordinates": {
+        "lat": 51.7784329,
+        "lng": 19.4485635
+      },
+      "rating": 4.7,
+      "userRatingCount": 6726
+    },
+    {
+      "name": "Stare Kino Cinema Residence",
+      "type": "Film-Boutique-Hotel",
+      "priceRange": "70-100€",
+      "evCharging": false,
+      "description": "Ehemaliges Kino an der Piotrkowska-Straße, umgebaut zum Boutique-Hotel mit filmthematischen Zimmern — eine Hommage an Łódź als Polens Filmhauptstadt.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Stare%20Kino%20%C5%81%C3%B3d%C5%BA&query_place_id=ChIJAYKEG9U0GkcRvBCEPVUffSs",
+      "placeId": "ChIJAYKEG9U0GkcRvBCEPVUffSs",
+      "coordinates": {
+        "lat": 51.762939499999995,
+        "lng": 19.4588969
+      },
+      "rating": 4.6,
+      "userRatingCount": 2103
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "OFF Piotrkowska",
+      "description": "Abends verwandelt sich der Fabrikhof in eine lebendige Szene — wähle zwischen Craft-Beer-Bars, Cocktail-Lounges, Livemusik-Bühnen und Streetfood-Trucks. Jeder Besuch ist ein anderes Erlebnis.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=OFF%20Piotrkowska&query_place_id=ChIJmU7-XdQ0GkcRNSi5uEiZNHg",
+      "placeId": "ChIJmU7-XdQ0GkcRNSi5uEiZNHg",
+      "coordinates": {
+        "lat": 51.7611118,
+        "lng": 19.4604054
+      },
+      "rating": 4.7,
+      "userRatingCount": 13260
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Abends unbedingt den OFF Piotrkowska-Komplex erkunden — der Innenhof verwandelt sich nach Einbruch der Dunkelheit in eine lebendige Szene aus Bars, Musik und Streetfood."
+    },
+    {
+      "type": "info",
+      "text": "Łódź liegt genau auf der Route zwischen Breslau und Warschau und eignet sich ideal als Übernachtungsstopp, um die lange Fahrt aufzuteilen."
+    },
+    {
+      "type": "info",
+      "text": "Die Stadt ist Polens Filmhauptstadt — Polanski, Wajda und Kieślowski haben hier studiert. Das Filmmuseum in der Piotrkowska 135 ist sehenswert."
+    }
+  ]
+}

@@ -103,8 +103,55 @@
       "userRatingCount": 5378
     }
   ],
-  "restaurants": [],
-  "hotels": [],
+  "restaurants": [
+    {
+      "name": "Uoksas",
+      "cuisine": "Modern Litauisch / Fine Dining",
+      "priceRange": "€€-€€€",
+      "description": "Eines der besten Restaurants Litauens — modernes litauisches Menü mit regionalen Zutaten und kreativer Präsentation in stilvollem Ambiente.",
+      "mustTry": "Saisonales Degustationsmenü mit litauischen Produkten",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Uoksas&query_place_id=ChIJd8xFv3Qi50YRvNxfu-mrOwU",
+      "placeId": "ChIJd8xFv3Qi50YRvNxfu-mrOwU",
+      "coordinates": {
+        "lat": 54.898156199999995,
+        "lng": 23.909943199999997
+      },
+      "rating": 4.6,
+      "userRatingCount": 900
+    },
+    {
+      "name": "Momo Grill",
+      "cuisine": "Grill / International",
+      "priceRange": "€€",
+      "description": "Beliebtes Grillrestaurant an der Laisvės Alėja — perfekt für einen entspannten Abend mit gutem Fleisch und Craft Beer.",
+      "mustTry": "Gegrilltes Rindfleisch mit saisonalen Beilagen",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Momo%20grill%20Kaunas&query_place_id=ChIJTXNF2esj50YR6SQHfS2T6kg",
+      "placeId": "ChIJTXNF2esj50YR6SQHfS2T6kg",
+      "coordinates": {
+        "lat": 54.8945471,
+        "lng": 23.8976118
+      },
+      "rating": 4.7,
+      "userRatingCount": 1265
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Monte Pacis",
+      "type": "Kloster-Gästehaus",
+      "priceRange": "120-180€",
+      "evCharging": false,
+      "description": "Historisches Gästehaus am Pažaislis-Kloster — eines der wertvollsten Barockensembles Osteuropas. Absolute Ruhe, Klostergarten und gehobene Küche machen den Aufenthalt selbst zum Höhepunkt. Perfekte Kombination mit dem Pažaislis-Kloster-Besuch.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E2%80%9EMonte%20Pacis%E2%80%9C&query_place_id=ChIJN16Np1c950YRd9GmayUg6Gs",
+      "placeId": "ChIJN16Np1c950YRd9GmayUg6Gs",
+      "coordinates": {
+        "lat": 54.8762714,
+        "lng": 24.02088
+      },
+      "rating": 4.5,
+      "userRatingCount": 1378
+    }
+  ],
   "tips": [
     {
       "type": "info",

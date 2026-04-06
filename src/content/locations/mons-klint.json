@@ -1,0 +1,93 @@
+{
+  "id": "mons-klint",
+  "name": "Møns Klint",
+  "country": "denmark",
+  "coordinates": {
+    "lat": 54.988,
+    "lng": 12.542
+  },
+  "description": "Atemberaubende Kreidefelsen an Dänemarks Ostküste — 120 Meter hohe weiße Klippen stürzen in türkisblaues Ostseewasser. Seit Juli 2025 UNESCO-Weltnaturerbe, dazu International Dark Sky Park. Der ideale Abstecher zwischen Kopenhagen und Berlin für Natur und Geologie.",
+  "highlights": [
+    {
+      "name": "Kreidefelsen Møns Klint",
+      "type": "nature",
+      "icon": "star",
+      "description": "Die spektakulärsten Klippen Nordeuropas — über 70 Millionen Jahre alt, geformt von eiszeitlichen Gletschern. Sieben markierte Wanderwege (2,2–14,5 km) führen entlang der Klippen und hinunter zum Strand, wo man nach Fossilien suchen kann.",
+      "duration": "2-4h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C3%B8ns%20Klint&query_place_id=ChIJL_Jjei0uU0YRKYTzU4bRvCc",
+      "placeId": "ChIJL_Jjei0uU0YRKYTzU4bRvCc",
+      "coordinates": {
+        "lat": 54.965730099999995,
+        "lng": 12.5505826
+      },
+      "rating": 4.8,
+      "userRatingCount": 5039
+    },
+    {
+      "name": "GeoCenter Møns Klint",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Interaktives Naturkundemuseum am Klippenrand — erklärt die gewaltsame geologische Entstehung der Ostsee und die Kreidezeit. Geöffnet April–Mai Di–So 11–17 Uhr.",
+      "duration": "1-1.5h",
+      "price": "ca. DKK 145 (~€20)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=GeoCenter%20M%C3%B8ns%20Klint&query_place_id=ChIJvay1o9cxU0YR2meExps2yWI",
+      "placeId": "ChIJvay1o9cxU0YR2meExps2yWI",
+      "coordinates": {
+        "lat": 54.966184,
+        "lng": 12.548115
+      },
+      "rating": 4.5,
+      "userRatingCount": 6099
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Restaurant Bryghuset Møn",
+      "cuisine": "Dänisch / Brauhaus",
+      "priceRange": "€€",
+      "description": "Qualitätsrestaurant in der Kleinstadt Stege auf dem Weg zu den Klippen — lokale dänische Küche mit hauseigenen Bieren.",
+      "mustTry": "Frischer Ostseefisch mit saisonaler Beilage",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Bryghuset%20M%C3%B8n&query_place_id=ChIJl2_ajSHWUkYRiTTd0an7qhk",
+      "placeId": "ChIJl2_ajSHWUkYRiTTd0an7qhk",
+      "coordinates": {
+        "lat": 54.9828317,
+        "lng": 12.2850509
+      },
+      "rating": 4.3,
+      "userRatingCount": 937
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Egn Boutique Hotel",
+      "type": "Boutique-Hotel",
+      "priceRange": "120-180€",
+      "evCharging": false,
+      "description": "Adults-orientiertes Boutique-Hotel mit Restaurant in der Nähe von Møns Klint — stilvolle Basis für den Klippen-Besuch. Ruhige Insellage.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Egn%20Boutique%20Hotel%20%26%20Restaurant&query_place_id=ChIJhUZ9akApU0YR28g9YzKMfL0",
+      "placeId": "ChIJhUZ9akApU0YR28g9YzKMfL0",
+      "coordinates": {
+        "lat": 54.969297999999995,
+        "lng": 12.386825
+      },
+      "rating": 4.7,
+      "userRatingCount": 153
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Møn ist ein International Dark Sky Park — bei wolkenlosem Himmel sind die Sterne hier sensationell. Perfekt für Nachtfotografie."
+    },
+    {
+      "type": "info",
+      "text": "Der Abstecher von der E47 (Kopenhagen→Puttgarden-Fähre) dauert ca. 1 Stunde — ideal als Halbtages-Stopp auf der Fahrt nach Deutschland."
+    },
+    {
+      "type": "info",
+      "text": "GeoCenter-Öffnungszeiten im Mai 2026: 7. April – 13. Mai Di–So 11–17 Uhr, rund um Christi Himmelfahrt (14.–17. Mai) erweiterte Zeiten."
+    }
+  ],
+  "nightlife": []
+}

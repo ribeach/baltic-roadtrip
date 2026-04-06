@@ -87,8 +87,55 @@
       "userRatingCount": 1659
     }
   ],
-  "restaurants": [],
-  "hotels": [],
+  "restaurants": [
+    {
+      "name": "Altja Kõrts",
+      "cuisine": "Estnisch Traditional / Schenke",
+      "priceRange": "€-€€",
+      "description": "Historische Schenke im Herzen des Lahemaa-Nationalparks — rustikale estnische Küche in authentischer Atmosphäre. Von der estnischen Tourismusbehörde als Highlight empfohlen.",
+      "mustTry": "Geräucherter Fisch und Roggenbrot",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Altja%20k%C3%B5rts&query_place_id=ChIJbz7VxpClk0YR3ftdybmEKlM",
+      "placeId": "ChIJbz7VxpClk0YR3ftdybmEKlM",
+      "coordinates": {
+        "lat": 59.5826561,
+        "lng": 26.1123114
+      },
+      "rating": 4.5,
+      "userRatingCount": 605
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Vihula Manor Country Club & Spa",
+      "type": "Gutshof-Hotel im Nationalpark",
+      "priceRange": "120-200€",
+      "evCharging": false,
+      "description": "Herrschaftliches Gutshaus-Resort direkt im Lahemaa-Nationalpark — Spa, historische Gebäude und weitläufiger Park. Perfekt für einen 'Destination Stay', bei dem die Unterkunft selbst zum Erlebnis wird.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vihula%20Manor%20Country%20Club%20%26%20Spa&query_place_id=ChIJl4pByRekk0YRGrxZehyoL7g",
+      "placeId": "ChIJl4pByRekk0YRGrxZehyoL7g",
+      "coordinates": {
+        "lat": 59.5465683,
+        "lng": 26.1826467
+      },
+      "rating": 4.7,
+      "userRatingCount": 2195
+    },
+    {
+      "name": "Sagadi Manor Hotel",
+      "type": "Historisches Gutshaus",
+      "priceRange": "90-150€",
+      "evCharging": false,
+      "description": "Elegantes Gutshaus inmitten des Nationalparks mit Waldmuseum und Naturlehrpfaden direkt vor der Tür. Ruhige, geschichtsträchtige Atmosphäre.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sagadi.%20Manor%20Hotel&query_place_id=ChIJHy4lzm2mk0YRuuAORkX-4D0",
+      "placeId": "ChIJHy4lzm2mk0YRuuAORkX-4D0",
+      "coordinates": {
+        "lat": 59.537423399999994,
+        "lng": 26.086235799999997
+      },
+      "rating": 4.4,
+      "userRatingCount": 54
+    }
+  ],
   "tips": [
     {
       "type": "info",
@@ -101,6 +148,10 @@
     {
       "type": "info",
       "text": "Mai ist die beste Zeit für Vogelbeobachtung — Fernglas nicht vergessen! Der Viru-Moor-Pfad ist morgens am schönsten, wenn Nebel über dem Moor liegt."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Für eine besondere Übernachtung im Park: Vihula Manor bietet Gutshof-Romantik mit Spa, Sagadi Manor punktet mit Natur und Geschichte direkt vor der Zimmertür."
     }
   ]
 }

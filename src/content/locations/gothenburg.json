@@ -1,0 +1,87 @@
+{
+  "id": "gothenburg",
+  "name": "Göteborg",
+  "country": "sweden",
+  "coordinates": {
+    "lat": 57.7089,
+    "lng": 11.9746
+  },
+  "description": "Schwedens kulinarische Hauptstadt und zweitgrößte Stadt lockt mit erstklassigen Meeresfrüchten von der Westküste, der frisch renovierten Feskekörka (2024 wiedereröffnet nach vierjähriger Sanierung) und dem charmanten Haga-Viertel mit seinen Holzhäusern aus dem 17. Jahrhundert. Vor der Küste liegt ein Schärengarten, der per öffentlicher Fähre erreichbar ist.",
+  "highlights": [
+    {
+      "name": "Haga-Viertel",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Göteborgs besterhaltenes Viertel mit Holzhäusern aus dem 17. Jahrhundert, legendären Zimtschnecken (so groß wie ein Teller), gemütlichen Cafés und kleinen Boutiquen. Die Haga Nygata ist die Hauptstraße zum Flanieren.",
+      "duration": "1-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Haga&query_place_id=ChIJB_eTm2vzT0YR60eTfh0lMiQ",
+      "placeId": "ChIJB_eTm2vzT0YR60eTfh0lMiQ",
+      "coordinates": {
+        "lat": 57.698553000000004,
+        "lng": 11.9563423
+      }
+    },
+    {
+      "name": "Feskekörka — Fischkirche",
+      "type": "market",
+      "icon": "star",
+      "description": "Wahrzeichen von 1874 im Stil einer Stabkirche — Göteborgs ikonische Fischhalle wurde 2024 nach vierjähriger Renovierung wiedereröffnet. Drei Restaurants und eine 28 Meter lange Fischtheke mit den besten Meeresfrüchten der Westküste.",
+      "duration": "1-2h",
+      "price": "Kostenlos (Eintritt)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Feskek%C3%B6rka&query_place_id=ChIJ16JcrWnzT0YRFDeNKgFBHhI",
+      "placeId": "ChIJ16JcrWnzT0YRFDeNKgFBHhI",
+      "coordinates": {
+        "lat": 57.7010542,
+        "lng": 11.9577603
+      },
+      "rating": 4.2,
+      "userRatingCount": 4729
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Familjen",
+      "cuisine": "Modern Schwedisch",
+      "priceRange": "€€-€€€",
+      "description": "Moderne Brasserie mit saisonaler schwedischer Küche in stilvollem Ambiente. Die Terrasse ist im Sommer ein Hotspot — serviert werden kreative Gerichte mit Fokus auf Westküsten-Zutaten.",
+      "mustTry": "Saisonale schwedische Meeresfrüchte",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Familjen&query_place_id=ChIJ_cKfbnHzT0YRQsIyJ3paSeE",
+      "placeId": "ChIJ_cKfbnHzT0YRQsIyJ3paSeE",
+      "coordinates": {
+        "lat": 57.69756369999999,
+        "lng": 11.976390499999999
+      },
+      "rating": 4.4,
+      "userRatingCount": 1698
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Hotel Pigalle",
+      "type": "Belle-Époque-Boutique-Hotel",
+      "priceRange": "130-200€",
+      "evCharging": false,
+      "description": "Pariser Eleganz an der Avenyn — opulente Interieurs mit Samt, Marmor und Kronleuchtern, Dachterrasse mit Stadtblick und eine theatralische Atmosphäre, die an ein französisches Grandhotel erinnert.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Pigalle&query_place_id=ChIJCTJX9GTzT0YR9tPbLDpN3aI",
+      "placeId": "ChIJCTJX9GTzT0YR9tPbLDpN3aI",
+      "coordinates": {
+        "lat": 57.707057299999995,
+        "lng": 11.9707318
+      },
+      "rating": 4.4,
+      "userRatingCount": 2022
+    }
+  ],
+  "tips": [
+    {
+      "type": "warnung",
+      "text": "Göteborg liegt ca. 300 km abseits der direkten Stockholm–Oslo-Route. Lohnt sich nur, wenn die Westküste, Meeresfrüchte und eine Extra-Nacht ins Programm passen."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Die Göteborger Schären sind per öffentliche Fähre erreichbar — ideal für einen halben Tag mit Inselhüpfen und frischen Krabben am Kai."
+    }
+  ],
+  "nightlife": []
+}

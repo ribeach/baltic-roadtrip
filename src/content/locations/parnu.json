@@ -1,0 +1,153 @@
+{
+  "id": "parnu",
+  "name": "Pärnu",
+  "country": "estonia",
+  "coordinates": {
+    "lat": 58.3859,
+    "lng": 24.4971
+  },
+  "description": "Estlands ‚Sommerhauptstadt' ist ein historischer Badeort mit prachtvoller Jugendstil-Architektur, die einst für den russischen Adel errichtet wurde. Die breite Strandpromenade, das Kurviertel und eine lebendige Spa-Kultur machen Pärnu zum perfekten Zwischenstopp auf der E67 zwischen Riga und Tallinn. Anfang Mai ist die Stadt angenehm ruhig — die Saison beginnt gerade erst, aber Restaurants und Spas haben bereits geöffnet.",
+  "highlights": [
+    {
+      "name": "Strandpromenade & Kurort-Viertel",
+      "type": "nature",
+      "icon": "star",
+      "description": "Über 2 Kilometer lange Promenade durch das Kurviertel aus der russischen Zarenzeit mit weißem Sandstrand, historischen Holzvillen und gepflegten Parkanlagen. Der breite, flach abfallende Strand gehört zu den schönsten an der Ostsee.",
+      "duration": "1-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C3%A4rnu%20Beach&query_place_id=ChIJXduDxRr97EYRYGXoH5u31v0",
+      "placeId": "ChIJXduDxRr97EYRYGXoH5u31v0",
+      "coordinates": {
+        "lat": 58.3720152,
+        "lng": 24.5025953
+      },
+      "rating": 4.7,
+      "userRatingCount": 2633
+    },
+    {
+      "name": "Villa Ammende",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Außergewöhnliches Jugendstil-Meisterwerk von 1905 — erbaut als Privatvilla, später Casino, sowjetische Zahnklinik und Bibliothek, bevor es liebevoll restauriert wurde. Auch wer hier nicht übernachtet, sollte die prachtvolle Fassade und den Garten besichtigen.",
+      "duration": "30-60min",
+      "price": "Kostenlos (Besichtigung außen)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Villa%20Ammende%20Restoran%20ja%20Hotell&query_place_id=ChIJs5WRJfD97EYRN1gp4UoH3ew",
+      "placeId": "ChIJs5WRJfD97EYRN1gp4UoH3ew",
+      "coordinates": {
+        "lat": 58.3805696,
+        "lng": 24.4920261
+      },
+      "rating": 4.7,
+      "userRatingCount": 820
+    },
+    {
+      "name": "Altstadt Pärnu",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Kompakte Altstadt mit dem Roten Turm (letzter Rest der mittelalterlichen Stadtmauer), dem Tallinner Tor (barockes Stadttor von 1710) und der Elisabethkirche (1747). Ein gemütlicher Rundgang verbindet alle Sehenswürdigkeiten.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Town%20Hall&query_place_id=ChIJMf6WZz397EYRw62UMm5IALo",
+      "placeId": "ChIJMf6WZz397EYRw62UMm5IALo",
+      "coordinates": {
+        "lat": 58.3854602,
+        "lng": 24.4991949
+      },
+      "rating": 4.6,
+      "userRatingCount": 175
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Supelsaksad",
+      "cuisine": "Estnisch / Europäisch",
+      "priceRange": "€€",
+      "description": "Beliebte lokale Institution in einem 150 Jahre alten Holzblockhaus mit bohèmem Interieur — Vintage-Möbel, Bücherregale und Kerzenlicht. Die Küche setzt auf regionale estnische Wohlfühlgerichte mit saisonalen Zutaten von lokalen Bauernhöfen.",
+      "mustTry": "Saisonale estnische Gerichte mit lokalen Zutaten",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Supelsaksad%20P%C3%A4rnu&query_place_id=ChIJlXxEpBn97EYRNGdhy--6xT0",
+      "placeId": "ChIJlXxEpBn97EYRNGdhy--6xT0",
+      "coordinates": {
+        "lat": 58.3803825,
+        "lng": 24.5012302
+      },
+      "rating": 4.7,
+      "userRatingCount": 2246
+    },
+    {
+      "name": "Restaurant Raimond",
+      "cuisine": "Modern Nordisch",
+      "priceRange": "€€-€€€",
+      "description": "Fine-Dining-Option im Hedon-Komplex direkt am Strand. Die Küche kombiniert gesammelte Zutaten aus den Soomaa-Wäldern mit frischem Ostseefisch — kreative nordische Gerichte in elegantem Ambiente mit Meerblick.",
+      "mustTry": "Frischer Ostseefisch mit saisonaler Beilage",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restoran%20Raimond&query_place_id=ChIJnyRU7hr97EYRu7f2JueYObM",
+      "placeId": "ChIJnyRU7hr97EYRu7f2JueYObM",
+      "coordinates": {
+        "lat": 58.3755639,
+        "lng": 24.4952492
+      },
+      "rating": 4.3,
+      "userRatingCount": 163
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Villa Ammende",
+      "type": "Jugendstil-Meisterwerk",
+      "priceRange": "90-200€",
+      "evCharging": true,
+      "description": "Übernachten in einem der schönsten Jugendstilgebäude des Baltikums — 5 individuell gestaltete Zimmer mit Originaldetails und Stilmöbeln. Kostenlose EV-Ladestation, Gartenrestaurant und eine Atmosphäre wie aus einem Wes-Anderson-Film.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Villa%20Ammende%20Restoran%20ja%20Hotell&query_place_id=ChIJs5WRJfD97EYRN1gp4UoH3ew",
+      "placeId": "ChIJs5WRJfD97EYRN1gp4UoH3ew",
+      "coordinates": {
+        "lat": 58.3805696,
+        "lng": 24.4920261
+      },
+      "rating": 4.7,
+      "userRatingCount": 820
+    },
+    {
+      "name": "Hedon Spa & Hotel",
+      "type": "Spa-Hotel",
+      "priceRange": "100-180€",
+      "evCharging": false,
+      "description": "Klassisches Pärnu-Spa-Erlebnis im historischen neoklassizistischen Moorbad-Gebäude. Umfangreiches Wellness-Angebot mit buchbaren Spa-Paketen, Schwimmbad und Saunalandschaft — ideal nach einem langen Fahrtag.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hedon%20SPA%20%26%20HOTEL&query_place_id=ChIJvw_P8Rr97EYRiydXj6-GQgk",
+      "placeId": "ChIJvw_P8Rr97EYRiydXj6-GQgk",
+      "coordinates": {
+        "lat": 58.3758583,
+        "lng": 24.4961821
+      },
+      "rating": 4.6,
+      "userRatingCount": 2320
+    },
+    {
+      "name": "Frost Boutique Hotel",
+      "type": "Boutique-Hotel",
+      "priceRange": "80-120€",
+      "evCharging": false,
+      "description": "Designorientiertes Kleinhotel in einem renovierten historischen Gebäude mitten in der Altstadt. Modernes, skandinavisch-minimalistisches Interieur und ein hauseigenes Restaurant mit saisonaler Karte.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Frost%20Boutique%20Hotel&query_place_id=ChIJkcGR7hf97EYRIBwMElx2LHo",
+      "placeId": "ChIJkcGR7hf97EYRIBwMElx2LHo",
+      "coordinates": {
+        "lat": 58.3837357,
+        "lng": 24.4985676
+      },
+      "rating": 4.6,
+      "userRatingCount": 109
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Pärnu füllt die große Lücke zwischen Riga und Tallinn — perfekt für eine entspannte Übernachtung mit Strandspaziergang und Spa-Abend."
+    },
+    {
+      "type": "info",
+      "text": "Anfang Mai ist Vorsaison — die Stadt ist angenehm ruhig, die meisten Restaurants und Spas sind aber bereits geöffnet."
+    },
+    {
+      "type": "info",
+      "text": "Der nahegelegene Soomaa-Nationalpark (40 Min. Fahrt) bietet einzigartige Moorwanderungen auf Holzstegen — perfekt als Vormittagsprogramm."
+    }
+  ]
+}

@@ -162,7 +162,7 @@
         "lat": 50.0776426,
         "lng": 14.4173902
       },
-      "rating": 5.0,
+      "rating": 5,
       "userRatingCount": 1077
     }
   ],
@@ -204,6 +204,30 @@
       },
       "rating": 4.4,
       "userRatingCount": 6680
+    },
+    {
+      "name": "Bunkr Parukářka",
+      "description": "Echter Kalter-Krieg-Atombunker unter dem Parukářka-Park — massiver Schutzraum aus den 1950er-Jahren, heute Veranstaltungsort für Partys und kulturelle Events. Schwere Stahltüren, Dekontaminationsduschen und Kommunikationsausrüstung sind erhalten. Ein düster-faszinierendes Erlebnis.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nuclear%20Bunker&query_place_id=ChIJlYevlJuTC0cRBR5RKX6Vj1s",
+      "placeId": "ChIJlYevlJuTC0cRBR5RKX6Vj1s",
+      "coordinates": {
+        "lat": 50.0842732,
+        "lng": 14.458002098
+      },
+      "rating": 4.1,
+      "userRatingCount": 117
+    },
+    {
+      "name": "Anonymous Bar",
+      "description": "Speakeasy-Bar im Vinohrady-Viertel — die Cocktailkarte ist ein Rorschach-Test und die Barkeeper spielen 'Therapeuten'. UV-Licht enthüllt die geheime Karte. Kreative Drinks in verwunschenem Ambiente.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Anonymous%20Bar&query_place_id=ChIJMfepuO6UC0cRyCS058Lx7GI",
+      "placeId": "ChIJMfepuO6UC0cRyCS058Lx7GI",
+      "coordinates": {
+        "lat": 50.085353,
+        "lng": 14.420081
+      },
+      "rating": 4.4,
+      "userRatingCount": 4017
     }
   ]
 }

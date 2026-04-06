@@ -67,6 +67,22 @@
       },
       "rating": 4.9,
       "userRatingCount": 951
+    },
+    {
+      "name": "Neon Side Gallery",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Open-Air-Galerie mit restaurierten Neon-Leuchtreklamen aus der kommunistischen Ära — ein fotogener Blick in Polens Designgeschichte. Besonders stimmungsvoll nach Einbruch der Dunkelheit.",
+      "duration": "30-60min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Galeria%20Neon%20Side&query_place_id=ChIJXeor3GzDD0cR91kLJ8SCOK4",
+      "placeId": "ChIJXeor3GzDD0cR91kLJ8SCOK4",
+      "coordinates": {
+        "lat": 51.109965499999994,
+        "lng": 17.0245627
+      },
+      "rating": 4.5,
+      "userRatingCount": 3616
     }
   ],
   "restaurants": [
@@ -101,7 +117,38 @@
       "userRatingCount": 15704
     }
   ],
-  "hotels": [],
+  "hotels": [
+    {
+      "name": "PURO Wrocław Stare Miasto",
+      "type": "Design-Hotel",
+      "priceRange": "90-130€",
+      "evCharging": false,
+      "description": "Modernes skandinavisch-polnisches Design-Hotel nur 500m vom Marktplatz entfernt. Stilvolles Restaurant und Cocktailbar im Haus.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=PURO%20Wroc%C5%82aw%20Stare%20Miasto&query_place_id=ChIJ92UOXAvCD0cRf4uvSR8erCo",
+      "placeId": "ChIJ92UOXAvCD0cRf4uvSR8erCo",
+      "coordinates": {
+        "lat": 51.1079917,
+        "lng": 17.0248927
+      },
+      "rating": 4.6,
+      "userRatingCount": 2371
+    },
+    {
+      "name": "Hotel Monopol",
+      "type": "Jugendstil-Grandhotel",
+      "priceRange": "120-180€",
+      "evCharging": false,
+      "description": "Art-Nouveau-Wahrzeichen seit 1892 — Innenpool, zwei Restaurants und eine der ältesten Hotelbars der Stadt. Hier residierten schon Pablo Picasso und Marlene Dietrich.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Monopol&query_place_id=ChIJh_zG8nPCD0cRe42gCFPqZoA",
+      "placeId": "ChIJh_zG8nPCD0cRe42gCFPqZoA",
+      "coordinates": {
+        "lat": 51.1060879,
+        "lng": 17.0310289
+      },
+      "rating": 4.5,
+      "userRatingCount": 2616
+    }
+  ],
   "tips": [
     {
       "type": "geheimtipp",
@@ -112,5 +159,18 @@
       "text": "Breslau ist ein idealer Zwischenstopp auf der Strecke Prag–Warschau (jeweils ca. 280–350 km). Direkt am Rynek gibt es mehrere Parkhäuser."
     }
   ],
-  "nightlife": []
+  "nightlife": [
+    {
+      "name": "Przedwojenna",
+      "description": "Retro-Bistro und Bar im Stil der Vorkriegszeit mit sehr späten Öffnungszeiten. Perfekt für einen letzten Drink nach einem Abend in der Altstadt — besonders wenn man spät anreist.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Prewar&query_place_id=ChIJzaT-uXXCD0cRyD5YRuggie8",
+      "placeId": "ChIJzaT-uXXCD0cRyD5YRuggie8",
+      "coordinates": {
+        "lat": 51.11109030000001,
+        "lng": 17.0304243
+      },
+      "rating": 4.6,
+      "userRatingCount": 5636
+    }
+  ]
 }

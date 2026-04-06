@@ -50,7 +50,7 @@
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=East%20Side%20Gallery&query_place_id=ChIJZ0KxF_JRqEcRrLHB-4r-U-o",
       "placeId": "ChIJZ0KxF_JRqEcRrLHB-4r-U-o",
       "coordinates": {
-        "lat": 52.5050,
+        "lat": 52.505,
         "lng": 13.4397
       },
       "rating": 4.6,
@@ -181,6 +181,36 @@
       },
       "rating": 4.4,
       "userRatingCount": 636
+    },
+    {
+      "name": "Hüttenpalast",
+      "type": "Wohnwagen-Hotel in Fabrikhalle",
+      "priceRange": "80-140€",
+      "evCharging": false,
+      "description": "Schlafen im Vintage-Wohnwagen oder Holzhäuschen — aufgebaut in einer ehemaligen Staubsaugerfabrik in Neukölln. Liebevoll gestaltet, mit Indoor-Garten und eigenem Café. Berlins kreativstes Übernachtungskonzept.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=H%C3%BCttenpalast&query_place_id=ChIJqSvn_rZPqEcRZXRmxhKHMnU",
+      "placeId": "ChIJqSvn_rZPqEcRZXRmxhKHMnU",
+      "coordinates": {
+        "lat": 52.4892548,
+        "lng": 13.426405899
+      },
+      "rating": 4.6,
+      "userRatingCount": 339
+    },
+    {
+      "name": "Hotel Oderberger",
+      "type": "Historisches Badehaus-Hotel",
+      "priceRange": "120-200€",
+      "evCharging": false,
+      "description": "Liebevoll restauriertes Stadtbad von 1902 in Prenzlauer Berg — das erhaltene 20-Meter-Schwimmbecken steht exklusiv den Hotelgästen zur Verfügung. Hohe Gewölbedecken, Originalfliesen und der Charme der Gründerzeit.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Oderberger%20Berlin&query_place_id=ChIJo5LTjf5RqEcRUa2Ss1jXGH8",
+      "placeId": "ChIJo5LTjf5RqEcRUa2Ss1jXGH8",
+      "coordinates": {
+        "lat": 52.5377364,
+        "lng": 13.410288999
+      },
+      "rating": 4.4,
+      "userRatingCount": 1854
     }
   ],
   "tips": [

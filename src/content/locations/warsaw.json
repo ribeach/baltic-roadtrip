@@ -85,6 +85,38 @@
       },
       "rating": 4.7,
       "userRatingCount": 13815
+    },
+    {
+      "name": "Neon-Museum",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Im rauen Stadtteil Praga — eine leuchtende Sammlung restaurierter Neonreklamen aus der kommunistischen Ära in einer alten Fabrikhalle. Die 'Neonisierung' war ein staatliches Programm, um westliche Leuchtreklamen-Ästhetik in den Ostblock zu bringen.",
+      "duration": "1-1.5h",
+      "price": "ca. €4",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Neon%20Museum&query_place_id=ChIJVVXFfbXNHkcRYARvzX3LLiU",
+      "placeId": "ChIJVVXFfbXNHkcRYARvzX3LLiU",
+      "coordinates": {
+        "lat": 52.2318484,
+        "lng": 21.00677
+      },
+      "rating": 4.4,
+      "userRatingCount": 2036
+    },
+    {
+      "name": "Polnisches Wodka-Museum",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Im Koneser-Komplex — einer ehemaligen Wodka-Brennerei im Stadtteil Praga. Interaktive Ausstellung zur 500-jährigen Geschichte des polnischen Wodkas, inklusive Verkostung am Ende.",
+      "duration": "1.5h",
+      "price": "ca. €8 (mit Verkostung)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Polish%20Vodka%20Museum&query_place_id=ChIJAzq9HzjMHkcRgZRw9xYyg-M",
+      "placeId": "ChIJAzq9HzjMHkcRgZRw9xYyg-M",
+      "coordinates": {
+        "lat": 52.255364099999994,
+        "lng": 21.0460039
+      },
+      "rating": 4.7,
+      "userRatingCount": 4774
     }
   ],
   "restaurants": [
@@ -132,6 +164,21 @@
       },
       "rating": 4.7,
       "userRatingCount": 21948
+    },
+    {
+      "name": "Bar Mleczny Prasowy",
+      "cuisine": "Polnisch Traditional / Milchbar",
+      "priceRange": "€",
+      "description": "Authentische kommunistische 'Milchbar' (Bar Mleczny) — einst staatlich subventionierte Kantinen, heute Kult. Kassenband-System, Linoleum-Tische und ehrliche polnische Hausmannskost zu Spottpreisen. Das echte polnische Arbeiterklasse-Erlebnis.",
+      "mustTry": "Pierogi ruskie und Barszcz (Rote-Bete-Suppe)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Prasowy&query_place_id=ChIJIS2CPOfMHkcRKoOBFyhNApY",
+      "placeId": "ChIJIS2CPOfMHkcRKoOBFyhNApY",
+      "coordinates": {
+        "lat": 52.2157968,
+        "lng": 21.0207117
+      },
+      "rating": 4.3,
+      "userRatingCount": 5312
     }
   ],
   "hotels": [
@@ -164,6 +211,21 @@
       },
       "rating": 4.7,
       "userRatingCount": 703
+    },
+    {
+      "name": "Hotel Warszawa",
+      "type": "Sozialistisch-Realistisches Grandhotel",
+      "priceRange": "100-150€",
+      "evCharging": false,
+      "description": "Im ikonischen Prudential-Hochhaus am Plac Konstytucji — sozialistisch-realistische Pracht der 1950er-Jahre. Wer sowjetische Ästhetik liebt, wird hier glücklich.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Warszawa%20in%20the%20Prudential%20Building&query_place_id=ChIJIbpZNPXMHkcRK-TQEAofKVY",
+      "placeId": "ChIJIbpZNPXMHkcRK-TQEAofKVY",
+      "coordinates": {
+        "lat": 52.235708699999996,
+        "lng": 21.012645000000003
+      },
+      "rating": 4.6,
+      "userRatingCount": 1957
     }
   ],
   "tips": [
@@ -190,7 +252,7 @@
         "lat": 52.2248373,
         "lng": 20.9912719
       },
-      "rating": 4.0,
+      "rating": 4,
       "userRatingCount": 3640
     }
   ]

@@ -95,7 +95,26 @@
       "price": "Kostenlos",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Design%20District&query_place_id=ChIJ5ajml8kLkkYRaXdKH8RxGn8",
       "placeId": "ChIJ5ajml8kLkkYRaXdKH8RxGn8",
-      "coordinates": { "lat": 60.1633589, "lng": 24.941832299999998 }
+      "coordinates": {
+        "lat": 60.1633589,
+        "lng": 24.941832299999998
+      }
+    },
+    {
+      "name": "Löyly Sauna & Restaurant",
+      "type": "activity",
+      "icon": "star",
+      "description": "Spektakuläre Design-Sauna direkt am Meer — die skulpturale Holzfassade ist ein Wahrzeichen moderner finnischer Architektur. Zwischen den Saunagängen springt man direkt in die Ostsee. Restaurant mit nordischer Küche auf der Terrasse. Vorab buchen!",
+      "duration": "2-3h",
+      "price": "Sauna ca. €21",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=L%C3%B6yly%20Helsinki&query_place_id=ChIJ7WWs57ELkkYRJJRbVu2rgfo",
+      "placeId": "ChIJ7WWs57ELkkYRJJRbVu2rgfo",
+      "coordinates": {
+        "lat": 60.1520656,
+        "lng": 24.9302737
+      },
+      "rating": 4.4,
+      "userRatingCount": 7489
     }
   ],
   "restaurants": [
@@ -113,6 +132,21 @@
       },
       "rating": 4.5,
       "userRatingCount": 3913
+    },
+    {
+      "name": "Café Regatta",
+      "cuisine": "Finnisch / Café",
+      "priceRange": "€",
+      "description": "Winzige rote Holzhütte am Wasser in Töölö — hier grillt man eigene Würstchen am offenen Feuer und trinkt Kaffee am Kamin. Ein Stück echtes Finnland fernab der Touristenpfade.",
+      "mustTry": "Korvapuusti (Finnische Zimtschnecke) am Lagerfeuer",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Regatta&query_place_id=ChIJPQrZrSQKkkYRxPQN1mE_SUM",
+      "placeId": "ChIJPQrZrSQKkkYRxPQN1mE_SUM",
+      "coordinates": {
+        "lat": 60.1801568,
+        "lng": 24.9117599
+      },
+      "rating": 4.6,
+      "userRatingCount": 6289
     }
   ],
   "hotels": [
@@ -145,6 +179,21 @@
       },
       "rating": 4.4,
       "userRatingCount": 954
+    },
+    {
+      "name": "Home Hotel Katajanokka",
+      "type": "Gefängnis-Hotel",
+      "priceRange": "100-180€",
+      "evCharging": false,
+      "description": "Ehemaliges zaristisches Gefängnis von 1837 — heute ein atmosphärisches Boutique-Hotel mit 106 Zimmern in ehemaligen Zelltrakten. Meterdicke Mauern sorgen für absolute Ruhe. Frühstück im ehemaligen Speisesaal der Häftlinge.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Home%20Hotel%20Katajanokka&query_place_id=ChIJ-QaGV24LkkYRYK2oSABHmKY",
+      "placeId": "ChIJ-QaGV24LkkYRYK2oSABHmKY",
+      "coordinates": {
+        "lat": 60.1666837,
+        "lng": 24.9692789
+      },
+      "rating": 4.6,
+      "userRatingCount": 265
     }
   ],
   "tips": [
@@ -163,6 +212,20 @@
     {
       "type": "info",
       "text": "Finlandia Hall (Alvar Aalto) wurde 2025 nach umfassender Renovierung wiedereröffnet — lohnt sich architektonisch auch nur von außen, direkt an der Töölö-Bucht."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Ateljee Bar",
+      "description": "Rooftop-Bar im historischen Hotel Torni — Helsinkis ikonischste Aussichtsbar mit 360°-Panorama über die Stadt. Perfekt für einen Drink bei Sonnenuntergang, besonders an langen Mai-Abenden.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ateljee%20Bar&query_place_id=ChIJPcJLgssLkkYRY7ufctWDEAY",
+      "placeId": "ChIJPcJLgssLkkYRY7ufctWDEAY",
+      "coordinates": {
+        "lat": 60.1676916,
+        "lng": 24.9387683
+      },
+      "rating": 4.3,
+      "userRatingCount": 1178
     }
   ]
 }

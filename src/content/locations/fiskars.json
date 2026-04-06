@@ -1,0 +1,117 @@
+{
+  "id": "fiskars",
+  "name": "Fiskars Village",
+  "country": "finland",
+  "coordinates": {
+    "lat": 60.1296265,
+    "lng": 23.5422364
+  },
+  "description": "Geburtsstätte der weltbekannten Fiskars-Marke (gegründet 1649): Ein Eisenhüttendorf aus dem 17. Jahrhundert, das sich zu Finnlands führender Design-Gemeinde gewandelt hat. Über 30 Werkstätten von Glasbläsern, Keramikern und Schmieden, dazu eine Craft-Brauerei und eine Gin-Destillerie beleben die historischen Backsteingebäude am Fluss. Fiskars liegt nur 30 Minuten abseits der Strecke Helsinki–Turku und lohnt sich als halbtägiger Zwischenstopp.",
+  "highlights": [
+    {
+      "name": "Fiskars Eisenhüttendorf & Werkstätten",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Das historische Eisenhüttendorf aus dem 17. Jahrhundert ist heute ein lebendiges Zentrum für Kunsthandwerk und Design. Über 30 aktive Werkstätten — von Glasbläsern über Keramiker bis zu Messerschmieden — laden zum Stöbern und Zuschauen ein. Die backsteinerne Industriearchitektur am Fluss bildet eine einzigartige Kulisse.",
+      "duration": "2-3h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fiskars&query_place_id=ChIJ9RWp32mujUYRweMYPFK1ACY",
+      "placeId": "ChIJ9RWp32mujUYRweMYPFK1ACY",
+      "coordinates": {
+        "lat": 60.1296265,
+        "lng": 23.5422364
+      }
+    },
+    {
+      "name": "Fiskars Museum",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Das Dorfmuseum erzählt die faszinierende Geschichte der Eisenhütte von der Gründung 1649 über die industrielle Blütezeit bis zur heutigen Transformation in eine Design-Gemeinde. Originalwerkzeuge, historische Fotografien und interaktive Ausstellungen beleuchten 375 Jahre Handwerkskultur.",
+      "duration": "1h",
+      "price": "ca. €8",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fiskars%20Museum&query_place_id=ChIJ0zjU10CujUYRJcUejbbyueQ",
+      "placeId": "ChIJ0zjU10CujUYRJcUejbbyueQ",
+      "coordinates": {
+        "lat": 60.1317482,
+        "lng": 23.5545641
+      },
+      "rating": 4.2,
+      "userRatingCount": 507
+    },
+    {
+      "name": "Ägräs Brennerei & Taproom",
+      "type": "activity",
+      "icon": "gem",
+      "description": "Handwerklich gebrannter Gin und Aquavit aus wild gesammelten finnischen Botanicals — Wacholder, Birkenblätter und Waldbeeren aus der Umgebung. Im Taproom können Verkostungen gebucht werden, bei denen die Destillateure persönlich durch das Sortiment führen.",
+      "duration": "1h",
+      "price": "Verkostung ca. €15",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C3%84gr%C3%A4s%20Taproom&query_place_id=ChIJHeLXjUGujUYRSxejgAF5938",
+      "placeId": "ChIJHeLXjUGujUYRSxejgAF5938",
+      "coordinates": {
+        "lat": 60.1309696,
+        "lng": 23.5500085
+      },
+      "rating": 4.4,
+      "userRatingCount": 10
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Restaurant Kuparipaja",
+      "cuisine": "Modern Finnisch",
+      "priceRange": "€€-€€€",
+      "description": "Dining in der historischen Kupferschmiede direkt am Fluss — das Flaggschiff-Restaurant von Fiskars Village. Die Küche setzt auf lokales Wild, Flussfisch und gesammelte Waldkräuter aus der Umgebung. Die Terrasse über dem Wasser ist bei gutem Wetter ein Traum.",
+      "mustTry": "Saisonale finnische Wildgerichte",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Kuparipaja&query_place_id=ChIJcdar32mujUYRkBluMLa637g",
+      "placeId": "ChIJcdar32mujUYRkBluMLa637g",
+      "coordinates": {
+        "lat": 60.1274912,
+        "lng": 23.5412004
+      },
+      "rating": 3.8,
+      "userRatingCount": 793
+    },
+    {
+      "name": "Fiskars Wärdshus",
+      "cuisine": "Nordisch Traditional",
+      "priceRange": "€€",
+      "description": "Finnlands ältester durchgehend betriebener Gasthof (seit 1836) serviert klassische nordische Küche in gemütlich-rustikaler Atmosphäre. Deftige Hausmannskost mit frischen Zutaten aus der Region — ein Stück lebendige Geschichte.",
+      "mustTry": "Traditioneller finnischer Lachs",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Oy%20W%C3%A4rssy%20Ravintolat%20Ab&query_place_id=ChIJ01_X4R6ujUYRBXC0ah7YWbc",
+      "placeId": "ChIJ01_X4R6ujUYRBXC0ah7YWbc",
+      "coordinates": {
+        "lat": 60.1273221,
+        "lng": 23.538469
+      },
+      "rating": 4.3,
+      "userRatingCount": 402
+    }
+  ],
+  "hotels": [
+    {
+      "name": "The Torby",
+      "type": "Design-Hotel in historischer Messerfabrik",
+      "priceRange": "120-180€",
+      "evCharging": true,
+      "description": "24-Zimmer-Designhotel in der ehemaligen Messerwerkstatt von 1832, in der einst die berühmten Fiskars-Scheren erfunden wurden. Eingerichtet mit finnischen Designermöbeln von Nikari, dazu eine hauseigene Weinbar. 4 EV-Ladestationen auf dem Gelände.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Torby&query_place_id=ChIJ2xKZ6aivjUYRxI--HTbdNos",
+      "placeId": "ChIJ2xKZ6aivjUYRxI--HTbdNos",
+      "coordinates": {
+        "lat": 60.1276304,
+        "lng": 23.5404036
+      },
+      "rating": 4,
+      "userRatingCount": 43
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Fiskars liegt nur 30 Minuten abseits der Route Helsinki–Turku und lohnt sich als halbtägiger Zwischenstopp für Design- und Handwerksliebhaber."
+    },
+    {
+      "type": "info",
+      "text": "Die meisten Geschäfte und Werkstätten sind ganzjährig geöffnet, aber einzelne Betriebe können im Mai eingeschränkte Öffnungszeiten haben."
+    }
+  ]
+}

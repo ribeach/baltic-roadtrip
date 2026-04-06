@@ -34,7 +34,7 @@
       "googleMapsUrl": "https://maps.google.com/?cid=16116289650480717372",
       "placeId": "ChIJAyFCjeuQTEYRPB41ogyQqN8",
       "coordinates": {
-        "lat": 55.692860,
+        "lat": 55.69286,
         "lng": 12.5992828
       },
       "rating": 4.1,
@@ -71,6 +71,22 @@
       },
       "rating": 4.5,
       "userRatingCount": 31297
+    },
+    {
+      "name": "Cisternerne",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Unterirdische Kunsthalle in den ehemaligen Wasserreservoirs unter dem Søndermarken-Park. Die endlosen Kolonnaden, das tropfende Wasser und die Dunkelheit schaffen eine einzigartige Atmosphäre für zeitgenössische Installationen.",
+      "duration": "1h",
+      "price": "ca. €10",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cisterns%20in%20S%C3%B8ndermarken&query_place_id=ChIJfyjMH5dTUkYRb6MBP3wrqC0",
+      "placeId": "ChIJfyjMH5dTUkYRb6MBP3wrqC0",
+      "coordinates": {
+        "lat": 55.669537399999996,
+        "lng": 12.5242031
+      },
+      "rating": 4.3,
+      "userRatingCount": 2116
     }
   ],
   "restaurants": [
@@ -120,6 +136,21 @@
       },
       "rating": 4.3,
       "userRatingCount": 3054
+    },
+    {
+      "name": "CPH Living",
+      "type": "Schwimmendes Boutique-Hotel",
+      "priceRange": "130-200€",
+      "evCharging": false,
+      "description": "Permanent im Hafen vertäutes Boutique-Hotel — Hafenblick durch bodentiefe Fenster, Sonnendeck auf dem Dach und das sanfte Schaukeln der Wellen als Einschlafhilfe.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Cph%20Living&query_place_id=ChIJDZXGPhVTUkYRTDssKCzg_Lc",
+      "placeId": "ChIJDZXGPhVTUkYRTDssKCzg_Lc",
+      "coordinates": {
+        "lat": 55.6702098,
+        "lng": 12.580093399999999
+      },
+      "rating": 4.5,
+      "userRatingCount": 252
     }
   ],
   "tips": [
@@ -132,5 +163,30 @@
       "text": "Am Nyhavn gibt es auf der sonnigen Seite (gerade Hausnummern) die Cafés — auf der schattigen Seite ist weniger los und man kann sich mit einem Bier an den Kanal setzen."
     }
   ],
-  "nightlife": []
+  "nightlife": [
+    {
+      "name": "Lidkoeb",
+      "description": "Versteckt in einer ehemaligen Apotheke in Vesterbro — drei Stockwerke mit unterschiedlichem Charakter, der Kamin-Lounge im Dachgeschoss ist legendär. Kopenhagens beste Cocktailbar.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lidkoeb&query_place_id=ChIJbZ3drgpTUkYRkQazSR_D_U4",
+      "placeId": "ChIJbZ3drgpTUkYRkQazSR_D_U4",
+      "coordinates": {
+        "lat": 55.6728044,
+        "lng": 12.551612299999999
+      },
+      "rating": 4.5,
+      "userRatingCount": 1499
+    },
+    {
+      "name": "War Pigs",
+      "description": "Kooperation von Mikkeller und Three Floyds in einer ehemaligen Schlachterei im Kødbyen (Fleischpackerviertel). ~22 hausgebraute Biere plus Texas-BBQ — laut, voll und fantastisch.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Warpigs%20Brewpub&query_place_id=ChIJrfd4pHNTUkYRxMf6Mns9ZPk",
+      "placeId": "ChIJrfd4pHNTUkYRxMf6Mns9ZPk",
+      "coordinates": {
+        "lat": 55.668502399999994,
+        "lng": 12.5599359
+      },
+      "rating": 4.4,
+      "userRatingCount": 12587
+    }
+  ]
 }

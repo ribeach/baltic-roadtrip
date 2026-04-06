@@ -85,6 +85,38 @@
       },
       "rating": 4.7,
       "userRatingCount": 14639
+    },
+    {
+      "name": "Kistefos-Museum & The Twist",
+      "type": "museum",
+      "icon": "star",
+      "description": "Skulpturenpark und Kunstmuseum in einem ehemaligen Holzzellstoff-Werk — die Hauptattraktion ist 'The Twist' von BIG Architects: zugleich Galerie, Brücke und Skulptur. Werke von Anish Kapoor, Yayoi Kusama und Fernando Botero in norwegischer Waldlandschaft. Saison 2026 ab 9. Mai.",
+      "duration": "3-4h",
+      "price": "ca. NOK 200 (~€18)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kistefos%20Museum&query_place_id=ChIJQS1QNGCoQUYRnc0RDOsJwRw",
+      "placeId": "ChIJQS1QNGCoQUYRnc0RDOsJwRw",
+      "coordinates": {
+        "lat": 60.2219243,
+        "lng": 10.3637076
+      },
+      "rating": 4.6,
+      "userRatingCount": 3389
+    },
+    {
+      "name": "Festung Oscarsborg",
+      "type": "castle",
+      "icon": "gem",
+      "description": "Inselfestung im Oslofjord, die 1940 den deutschen Kreuzer Blücher versenkte — der Verzögerung verdankt Norwegen die Flucht von König, Regierung und Goldreserven. Fähre ab Drøbak (35 km südlich von Oslo). Geöffnet täglich April–Oktober.",
+      "duration": "3-4h (inkl. Fähre)",
+      "price": "Fähre + Eintritt ca. NOK 150",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Oscarsborg%20Fortress&query_place_id=ChIJO8k6bKRGQUYRdfBdUuSJEOk",
+      "placeId": "ChIJO8k6bKRGQUYRdfBdUuSJEOk",
+      "coordinates": {
+        "lat": 59.6734457,
+        "lng": 10.6071177
+      },
+      "rating": 4.6,
+      "userRatingCount": 1856
     }
   ],
   "restaurants": [
