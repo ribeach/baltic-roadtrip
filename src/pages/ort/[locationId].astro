@@ -96,6 +96,8 @@ const pois = deduplicateMapPois(collectLocationPois(location));
               duration={h.duration}
               price={h.price}
               googleMapsUrl={h.googleMapsUrl}
+              rating={h.rating}
+              userRatingCount={h.userRatingCount}
             />
           ))}
         </div>
@@ -115,6 +117,8 @@ const pois = deduplicateMapPois(collectLocationPois(location));
               description={r.description}
               mustTry={r.mustTry}
               googleMapsUrl={r.googleMapsUrl}
+              rating={r.rating}
+              userRatingCount={r.userRatingCount}
             />
           ))}
         </div>
@@ -134,6 +138,8 @@ const pois = deduplicateMapPois(collectLocationPois(location));
               evCharging={h.evCharging}
               description={h.description}
               googleMapsUrl={h.googleMapsUrl}
+              rating={h.rating}
+              userRatingCount={h.userRatingCount}
             />
           ))}
         </div>
@@ -150,6 +156,8 @@ const pois = deduplicateMapPois(collectLocationPois(location));
               name={bar.name}
               description={bar.description}
               googleMapsUrl={bar.googleMapsUrl}
+              rating={bar.rating}
+              userRatingCount={bar.userRatingCount}
             />
           ))}
         </div>

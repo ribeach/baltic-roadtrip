@@ -1,13 +1,17 @@
 ---
+import RatingDisplay from './RatingDisplay.astro';
+
 interface Props {
   name: string;
   description: string;
   googleMapsUrl: string;
   number?: number;
   note?: string;
+  rating?: number;
+  userRatingCount?: number;
 }
 
-const { name, description, googleMapsUrl, number, note } = Astro.props;
+const { name, description, googleMapsUrl, number, note, rating, userRatingCount } = Astro.props;
 ---
 
 <div class="bg-paper rounded-xl border border-sand-200 hover:shadow-md transition-all p-5">
@@ -21,12 +25,15 @@ const { name, description, googleMapsUrl, number, note } = Astro.props;
   </div>
   {note && <p class="text-sm text-amber-600 italic mt-1">{note}</p>}
   <p class="text-sm text-gray-600 mt-1">{description}</p>
-  <a
-    href={googleMapsUrl}
-    target="_blank"
-    rel="noopener noreferrer"
-    class="inline-flex items-center gap-1 text-xs text-teal-600 hover:text-teal-700 font-medium mt-2 transition-colors"
-  >
-    📍 Google Maps
-  </a>
+  <div class="flex items-center justify-between mt-2">
+    <RatingDisplay rating={rating} userRatingCount={userRatingCount} />
+    <a
+      href={googleMapsUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="inline-flex items-center gap-1 text-xs text-teal-600 hover:text-teal-700 font-medium transition-colors"
+    >
+      📍 Google Maps
+    </a>
+  </div>
 </div>

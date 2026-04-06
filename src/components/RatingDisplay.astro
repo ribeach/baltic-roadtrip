@@ -1,0 +1,16 @@
+---
+interface Props {
+  rating?: number;
+  userRatingCount?: number;
+}
+
+const { rating, userRatingCount } = Astro.props;
+---
+
+{rating && (
+  <span class="inline-flex items-center gap-1 text-xs text-gray-500">
+    <span class="text-amber-400">★</span>
+    <span class="font-medium text-navy-800">{rating.toFixed(1)}</span>
+    {userRatingCount && <span>({userRatingCount.toLocaleString('de-DE')})</span>}
+  </span>
+)}

@@ -64,6 +64,8 @@ const locations = defineCollection({
       googleMapsUrl: z.string().url(),
       placeId: z.string(),
       coordinates: z.object({ lat: z.number(), lng: z.number() }),
+      rating: z.number().min(1).max(5).optional(),
+      userRatingCount: z.number().int().nonnegative().optional(),
     })),
     restaurants: z.array(z.object({
       name: z.string(),
@@ -74,6 +76,8 @@ const locations = defineCollection({
       googleMapsUrl: z.string().url(),
       placeId: z.string(),
       coordinates: z.object({ lat: z.number(), lng: z.number() }),
+      rating: z.number().min(1).max(5).optional(),
+      userRatingCount: z.number().int().nonnegative().optional(),
     })),
     hotels: z.array(z.object({
       name: z.string(),
@@ -84,6 +88,8 @@ const locations = defineCollection({
       googleMapsUrl: z.string().url(),
       placeId: z.string(),
       coordinates: z.object({ lat: z.number(), lng: z.number() }),
+      rating: z.number().min(1).max(5).optional(),
+      userRatingCount: z.number().int().nonnegative().optional(),
     })),
     tips: z.array(z.object({
       type: z.enum(['geheimtipp', 'warnung', 'info']),
@@ -95,6 +101,8 @@ const locations = defineCollection({
       googleMapsUrl: z.string().url(),
       placeId: z.string(),
       coordinates: z.object({ lat: z.number(), lng: z.number() }),
+      rating: z.number().min(1).max(5).optional(),
+      userRatingCount: z.number().int().nonnegative().optional(),
     })).optional().default([]),
   }),
 });

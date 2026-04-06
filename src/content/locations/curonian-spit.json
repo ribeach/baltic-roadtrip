@@ -20,7 +20,9 @@
       "coordinates": {
         "lat": 55.290335,
         "lng": 20.992527
-      }
+      },
+      "rating": 4.9,
+      "userRatingCount": 159
     },
     {
       "name": "Hexenberg (Raganų Kalnas) Juodkrantė",
@@ -34,7 +36,9 @@
       "coordinates": {
         "lat": 55.535555599999995,
         "lng": 21.1172222
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 5429
     },
     {
       "name": "Thomas-Mann-Haus Nida",
@@ -48,7 +52,9 @@
       "coordinates": {
         "lat": 55.3134739,
         "lng": 21.0133635
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 1670
     },
     {
       "name": "Nida Fischerdorf",
@@ -76,7 +82,9 @@
       "coordinates": {
         "lat": 55.5421127,
         "lng": 21.1207501
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 12528
     },
     {
       "name": "Vogelbeobachtung",
@@ -90,7 +98,9 @@
       "coordinates": {
         "lat": 55.3411609,
         "lng": 21.190308299999998
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 431
     }
   ],
   "restaurants": [
@@ -105,7 +115,9 @@
       "coordinates": {
         "lat": 55.302233699999995,
         "lng": 21.008415499999998
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 1571
     },
     {
       "name": "Nidos Seklyčia",
@@ -133,7 +145,9 @@
       "coordinates": {
         "lat": 55.3109443,
         "lng": 21.0104404
-      }
+      },
+      "rating": 4,
+      "userRatingCount": 458
     }
   ],
   "tips": [

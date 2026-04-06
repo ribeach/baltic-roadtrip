@@ -20,7 +20,9 @@
       "coordinates": {
         "lat": 54.9440891,
         "lng": 23.875206100000003
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 5692
     },
     {
       "name": "Teufelsmuseum",
@@ -34,7 +36,9 @@
       "coordinates": {
         "lat": 54.9008495,
         "lng": 23.910752799999997
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 2383
     },
     {
       "name": "Laisvės Alėja (Freiheitsallee)",
@@ -48,7 +52,9 @@
       "coordinates": {
         "lat": 54.8969783,
         "lng": 23.9205158
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 347
     },
     {
       "name": "Žaliakalnis Standseilbahn",
@@ -76,7 +82,9 @@
       "coordinates": {
         "lat": 54.8968224,
         "lng": 23.886122
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 1483
     }
   ],
   "restaurants": [],

@@ -20,7 +20,9 @@
       "coordinates": {
         "lat": 56.41343320000001,
         "lng": 24.0244908
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 13803
     },
     {
       "name": "Französischer Formalgarten",
@@ -34,7 +36,9 @@
       "coordinates": {
         "lat": 56.41343320000001,
         "lng": 24.0244908
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 13803
     }
   ],
   "restaurants": [],

@@ -34,7 +34,9 @@
       "coordinates": {
         "lat": 53.866140699999995,
         "lng": 10.679688599999999
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 9487
     },
     {
       "name": "Abendspaziergang an der Trave",
@@ -63,7 +65,9 @@
       "coordinates": {
         "lat": 53.8711802,
         "lng": 10.688088299999999
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 3789
     }
   ],
   "hotels": [
@@ -78,7 +82,9 @@
       "coordinates": {
         "lat": 53.867801,
         "lng": 10.6786788
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 3186
     }
   ],
   "tips": [
