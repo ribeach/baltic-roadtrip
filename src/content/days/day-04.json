@@ -10,7 +10,8 @@
     "distance": "250 km",
     "duration": "3:00",
     "mode": "drive",
-    "routeDescription": "Über die S7/S51 Richtung Nordosten durch die masurische Seenplatte nach Ryn. Landschaftlich wunderschön — Seen, Wälder, Störche auf den Dächern."
+    "routeDescription": "Über die S7/S51 Richtung Nordosten durch die masurische Seenplatte nach Ryn. Landschaftlich wunderschön — Seen, Wälder, Störche auf den Dächern.",
+    "encodedPolyline": "sbx}Ho}f_CgOwfAiGqxAqx@x_A_mApcBw_B|wAmuAjx@oaB|sEcb@nbCkdB``Cq]tj@}Sf|@_i@tpBoSjv@io@xr@kv@`pCiu@rhDoe@xvBc~AzjHaHppAqk@xgAg}@nrAaz@teB_PlxAuZpqAw}AnwAig@zaDql@p}DyYhv@seAxz@akAx}@yf@zdAkjDnfC_l@bDep@b[muBdzByx@jo@skArv@uhAnnAid@`jBkb@jgA}q@paEgm@hfBco@f|@gaAaHct@`z@ug@vc@qh@sDwn@uXqa@lK_h@bS_aA`_@qn@xs@ceBjcCop@xv@c|DnfAy}A`d@izAxjBo~AfeAkq@jdAgy@~Vir@DgaAng@}p@hFkiA_|@y`Bk{Aeo@Gyl@ji@{y@vy@eaA~i@cm@iUml@_r@_|@_{@kgAwDen@_Q_l@si@qwBg}A_zBupDqp@_g@s_@aD_dAzb@eZhQ{^AsrAgaA}~@qp@_xC}aAeo@yd@mo@azAi}@opB{u@ai@oo@{Bqm@nLuo@Ra|@_d@ym@_j@sy@o\\ctBnDgnAsHm}@uPkh@mT}e@yAer@xRctAb~@av@~N_i@kUw{@{EgeAqLmlAcp@qfA_\\atBtMeaD}Rid@fWo[vv@{MfoB{c@btAsfA|\\{dArRgz@blA{hAjl@{s@~aAwZhsAge@lZomAxQqtAyXmi@fUgh@dcAu]hWoZdAwuA~EegBpEurAzs@{`AjbAod@r{@epA|tAgb@zR_`A`RaxCj_A}x@ng@cQ}@yfA}dA{Qgn@sTipCyOuiBsz@gzByfA_`BeeDuaGcv@}z@kvAqt@wq@}Kg_Awg@coAw^}p@}o@w@_Xz`AwkBzJglBmPwnBl@_hAyQogAwe@{]gf@kcAwq@iy@_}@ge@c{@{Taq@a@seAme@qr@wr@mk@ouAwT_vBuOitAsv@m|@cy@gqAi|@opAik@cuCcm@_tAu_@w~Ao_@uoGth@iwDrf@kpAtEi~AbLeaAeGkzAiJybBfOqrAvAwcByUqyAwJwnB{FivAmUy{AgeAeiD}CcxBva@kzCdd@_fClUcoDdRk|A}HqoBuq@_tEa[wqBfAcfBvNklBvEc{E{G{vByV{bBke@}qAuK{aBnOyfAiTsBwc@`Acn@|Vwb@{^wk@_iCyQsf@qFa{@pZqpCi^_cDnO_XgCyZuK}oCkJet@uK{OeOtMeP{KwYgk@ol@ge@sUygAoIof@}[}Tkm@u|Ak_@{mBwJcvAsj@_xBxJqzAqMykBlBi]sG@t@pO"
   },
   "evCharging": {
     "stopsNeeded": 1,
@@ -20,8 +21,17 @@
   "activities": [
     "Morgendlicher Aufbruch aus Warschau — heute wird es ländlich",
     "Fahrt durch Masurens stille Weite: Seen, Kiefernwälder, Störche auf jedem Dach",
-    { "highlightRef": "Hotel Zamek Ryn (Ordensburg)", "note": "Ankunft am frühen Nachmittag — Rundgang durch die gotischen Gewölbe" },
-    { "highlightRef": "Masurische Seenplatte", "note": "Nachmittagsspaziergang am Ufer des Ryńskie-Sees" },
-    { "restaurantRef": "Restauracja Zamkowa (Refektarz)", "note": "Polnische Küche unter gotischen Bögen" }
+    {
+      "highlightRef": "Hotel Zamek Ryn (Ordensburg)",
+      "note": "Ankunft am frühen Nachmittag — Rundgang durch die gotischen Gewölbe"
+    },
+    {
+      "highlightRef": "Masurische Seenplatte",
+      "note": "Nachmittagsspaziergang am Ufer des Ryńskie-Sees"
+    },
+    {
+      "restaurantRef": "Restauracja Zamkowa (Refektarz)",
+      "note": "Polnische Küche unter gotischen Bögen"
+    }
   ]
 }

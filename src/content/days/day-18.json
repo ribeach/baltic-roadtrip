@@ -13,7 +13,8 @@
     "distance": "560 km",
     "duration": "5:30",
     "mode": "drive",
-    "routeDescription": "Vormittags Berlin erkunden, dann über die A9/A7 durch Thüringen und Franken zurück nach Aalen. Gut ausgebaute Autobahnstrecke mit zuverlässiger Ladeinfrastruktur."
+    "routeDescription": "Vormittags Berlin erkunden, dann über die A9/A7 durch Thüringen und Franken zurück nach Aalen. Gut ausgebaute Autobahnstrecke mit zuverlässiger Ladeinfrastruktur.",
+    "encodedPolyline": "ayp_IidypAra@p`JhOnsF`XrlDpj@nf@vpBlnCxnEb~Fv_BrtB`qAcSbw@oFdx@`z@xoAv{D~mBrm@piAfz@hvA_Ans@v_@dkB`gFvgBtnAlMtjFcMj}E|IlxGbo@`sEro@hsBp{C`o@dtBkx@fgB`c@ptBp}BhkArvBrhBjsEzjA|lGf_BheCjoBd_CnkDbdHleCpqE`cBl{AtbBjeApyAtuChbGvdMfmBfkFntBlwHhqGxyChqBxtDpzCzwCvfClzH|eCvgBx}EzwF~dBneBvmBfbDlxBjuAzwCza@xdJxbAleIhqBvjC{\\~pD`El{Fyz@|xFojBpaDt^|lDpcBxxCnqA`}Coi@tcD`M``EbyCpnGftIdvCboFljCthChqEjqE|bH|iFtaCthBllE`J`gCxIhyBdhAbuCvv@h_D|aBhyAzwCt\\ztBbl@vfAdw@vf@vk@rcBf|@rf@fiA}OjcCg]xyB}R`zFqoAfbDkqC~sAkmA`cDiHppBpaBptBhjBxyBfxA`qAu\\leAfQ`vFvxDffChsBvkEhx@beF~lB~yAyuAbfAib@zm@yx@|{@qGnhAld@bvA``@d{B_iAltDja@~iBeV`~@ne@|bD`pDjk@j_@rd@uj@fcA}hBjZcYvz@`\\lk@jd@zo@mXvrAyI|dBok@deFcpBnsFleD|zAhp@l`BwWxtGt{E~~B_GroBnc@rkDbqFrfBhtCrbA~zCv}@ndEnnCxn@|jCbaAroB_a@bbHrRvxCzUl~CwJxsBnk@`c@l}@nAlyBrn@jaDl[~_CdwBni@~_BbmAn_CdY`n@wKzd@fe@jb@pBhd@olAlo@cj@pw@ta@xsDog@zcAp@jr@deB|e@hoBtqB~uAnqCaQpfAh@tv@f|@nwAt_D`pCh|Drr@lyDx}AraCzbB|l@deDjbCxiBn_@zqBrjAv|BvlCruFxxFflFruFr{@jp@bhAcKz]t}@hPhyCx{Bt`Fx`B`vBnzAbxEnzBdsDpq@`mBdLdrDrd@t`G~@psEsiAnxH`f@dyGbYntGzKlkCfnAlcDrjBloClcAbdDpoAjqJgs@fvGcb@~|KbiAniEwDzbFn@|iFvz@bcFjwA|nMfs@l_FvkBjjDnhAyQf`AiS~kAktAvdAqaAv{@kExbCnl@|YlzAjz@fiAnxAxxBzpCztAllBxzB|_A`Atx@el@pbBgdAlgA`CbmCfBvuBlx@hhHeq@~nCrdB`|AnxAuY|x@hLrqBxT`|FhkA{]`TbNbfAnGpx@xm@ng@rAfJqT"
   },
   "evCharging": {
     "stopsNeeded": 2,

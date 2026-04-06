@@ -13,7 +13,8 @@
     "distance": "700 km",
     "duration": "7:30",
     "mode": "drive",
-    "routeDescription": "Über die E6 südwärts nach Gothenburg (290 km), weiter auf der E6 nach Halmstad (150 km) für einen kurzen Halt, dann E6 bis Malmö und über die Øresundbrücke nach Kopenhagen (260 km). Längste Fahretappe der Reise."
+    "routeDescription": "Über die E6 südwärts nach Gothenburg (290 km), weiter auf der E6 nach Halmstad (150 km) für einen kurzen Halt, dann E6 bis Malmö und über die Øresundbrücke nach Kopenhagen (260 km). Längste Fahretappe der Reise.",
+    "encodedPolyline": "c}tlJybs`A`Rs^nA{G~n@kBzs@rFh~A_hBlkBo{@|~Adr@noCdCbrAh]zdB~cAz|EsgBtZgj@xy@dIfsBviC|{AvgC`vB`\\xdB{u@taBeJdrEp{@|rCsT|kAxCbnBroAncBfObiBy]jbBgMf_Alh@jqBzx@jyC~jArcCnIrjCmp@tcA`b@jq@iX`|CunI|tA_}HjcBkyMpQgkBjEsu@loAunCd}@yl@xBw`AjN{wAbe@}vC~A_vErjBacFh~@qyAlvAuvAf|B{gAxaE{xIjgBikBfs@uwBveBis@xrBqtBhyC_eFbrAykAhlBn~AfoCba@`dBxXnlBmo@jhAkMzh@vz@hoAvm@vjAd]`xCxLzoAiBhrAow@j_AkwAhyAj@psC_yA`yCoLbcDyg@~{AuRvs@p`@`oAcj@loCh[`lCv_@`wBcq@xqAouBlu@gjAfg@c{Dd}AsrAfj@gyCv`B{nChhBgm@`pBwmBfiB_j@pdCyoBtpFnHnjCgjGjwCaiGhoDigDdcAmcA|_@ozBkNkkCjy@cbB`iCsaD|v@}gA|\\}rCxzBiaDdhGg|HliE{oHvvBqvAlmBgyCvpBs^z|A{qBfhHo`ErvAgVxrAzi@l_CzIrjBteBzmD|i@bfEjc@zzFebApaD|jGdwMj]n|Hi_HxtDoyIrxCobF~bA__C~_Hgj@bbEpcAj_Ept@hzAjh@djAakAlnBwKt}Am`AtsFqwBxkF{vC|{AerAnkCxl@f_Ih]tvBGnmB~l@n{Ec}KzjBiaIftE}kDrtDujBjnEd@nbDqs@jdJoX`oGsiDl{GudGn~JydIvzE{hBv|E}|DdhHozFxgG{dMllFm~O`bEcfKtxBadFjhAm`CzqBwe@fcA}jCn]opDbdA}zCtqB}`ClwB_iGxxCgkDnwAon@hlA`kAvrCl|Bbg@bj@@mvAzkBskGd~B_KzaCg}@bdDsdDloD}tAvxAweAddBnOtoEx~@vvD`yA|fDkmA|oMlvBdi@mCdl@rz@jsBzdAjoE`z@paFj`AzaEmS~xBdvAj|A`vCp`ChoA|oEhZp`EtfEtkD|eEj`Jeb@v_G|QnsHqoF~qCatEtjBqtAbzDelAloCahEhiIekIrnDe`DdgBohF`lAadHpqAu`BrqB}f@ddFqJn_D{d@t|Cas@vwDtCpeCldEbcA`zBdJ|pDiIr~N{y@l{Ag^pwDyZ~gJ{{AtaKqmClnIcpCzbJ`EnsFpCnmDgTvl@{t@vVuj@zg@_tAcI{^xMkEzq@g`@feAgLfX"
   },
   "evCharging": {
     "stopsNeeded": 3,
