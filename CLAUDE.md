@@ -20,7 +20,7 @@ No test framework is configured.
 
 ### Content Collections (src/content/)
 
-All trip data lives in JSON files validated by Zod schemas defined in `src/content.config.ts` (project root, not inside `src/content/`):
+All trip data lives in JSON files validated by Zod schemas defined in `src/content.config.ts`:
 
 - **days/** — 17 files (day-01.json to day-17.json): itinerary per day with driving info, EV charging status, activities
 - **locations/** — 17 files: city details with highlights, restaurants, hotels, tips, nightlife
@@ -28,7 +28,7 @@ All trip data lives in JSON files validated by Zod schemas defined in `src/conte
 
 Collections reference each other: days → locations (via `locationId`), locations → countries (via `country`).
 
-**Important:** Astro's `reference()` returns `{ id: string, collection: string }` objects at runtime, not plain strings. Code that resolves references typically uses a helper: `const resolveRef = (ref: any) => typeof ref === 'object' && ref !== null ? ref.id : ref;`
+**Important:** Astro's `reference()` returns `{ id: string, collection: string }` objects at runtime, not plain strings. Use the helpers in `src/lib/content.ts`: `resolveRef()` to extract the ID string, `getBase()` for a trailing-slash-normalized BASE_URL, and `collectLocationPois()`/`deduplicateMapPois()` for building map marker data from location arrays.
 
 ### Routing (src/pages/)
 
@@ -37,6 +37,7 @@ All routes are statically generated via `getStaticPaths()`:
 - `/` — Homepage with map + timeline
 - `/tag/[1-17]` — Day detail pages (generated from days collection)
 - `/ort/[locationId]` — Location detail pages (generated from locations collection)
+- `/uebersicht` — Overview/summary page
 - `/kulinarik`, `/praktisches`, `/budget` — Static info pages
 - `/llms.txt` — AI-consumable plaintext summary of the trip (generated from collections)
 - `/api/trip.json` — Full trip data as structured JSON (for LLM/API consumption)
