@@ -33,6 +33,14 @@ export const GET: APIRoute = async () => {
 
   const sortedDays = [...days].sort((a, b) => a.data.dayNumber - b.data.dayNumber);
 
+  // Track which locations are assigned to days
+  const assignedLocationIds = new Set<string>();
+  for (const day of sortedDays) {
+    assignedLocationIds.add(resolveRef(day.data.locationId));
+    for (const ref of day.data.additionalLocationIds || []) assignedLocationIds.add(resolveRef(ref));
+    for (const ref of day.data.transitLocationIds || []) assignedLocationIds.add(resolveRef(ref));
+  }
+
   const itinerary = sortedDays.map(day => {
     const d = day.data;
     const loc = findLoc(d.locationId);
@@ -46,6 +54,7 @@ export const GET: APIRoute = async () => {
       date: d.date,
       title: d.title,
       subtitle: d.subtitle,
+      status: d.status ?? 'planned',
       driving: d.driving,
       evCharging: d.evCharging,
       activities: d.activities,
@@ -55,19 +64,24 @@ export const GET: APIRoute = async () => {
     };
   });
 
+  const unassignedLocations = locations
+    .filter(l => !assignedLocationIds.has(l.data.id) && !assignedLocationIds.has(l.id))
+    .map(stripLocation);
+
   const payload = {
     meta: {
       title: 'Baltic Roadtrip 2026',
       dates: '30. April – 17. Mai 2026',
-      days: 18,
-      countries: 10,
+      days: sortedDays.length,
+      totalLocations: locations.length,
+      countries: countries.length,
       vehicle: 'VW ID.4 (77 kWh)',
-      totalDistance: '~5.500 km',
       url: 'https://ribeach.github.io/baltic-roadtrip/',
       llmsTxt: 'https://ribeach.github.io/baltic-roadtrip/llms.txt',
     },
     countries: countries.map(c => c.data),
     itinerary,
+    unassignedLocations,
   };
 
   return new Response(JSON.stringify(payload), {

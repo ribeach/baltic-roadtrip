@@ -11,6 +11,16 @@ const allLocations = await getCollection('locations');
 const days = allDays.sort((a, b) => a.data.dayNumber - b.data.dayNumber);
 
 const base = getBase();
+
+// Build set of location IDs that are assigned to days
+const assignedLocationIds = new Set<string>();
+for (const day of days) {
+  assignedLocationIds.add(resolveRef(day.data.locationId));
+  for (const ref of day.data.additionalLocationIds || []) assignedLocationIds.add(resolveRef(ref));
+  for (const ref of day.data.transitLocationIds || []) assignedLocationIds.add(resolveRef(ref));
+}
+
+// Route locations from days (assigned, with day numbers and polylines)
 const mapLocations = days
   .filter(d => d.data.driving?.mode !== 'none' || d.data.dayNumber === 1)
   .reduce((acc, day) => {
@@ -26,6 +36,7 @@ const mapLocations = days
           lng: tLoc.data.coordinates.lng,
           dayNumber: day.data.dayNumber,
           link: `${base}tag/${day.data.dayNumber}`,
+          assigned: true,
         });
       }
     }
@@ -39,10 +50,11 @@ const mapLocations = days
         lng: loc.data.coordinates.lng,
         dayNumber: day.data.dayNumber,
         link: `${base}tag/${day.data.dayNumber}`,
+        assigned: true,
       });
     }
     return acc;
-  }, [] as Array<{ id: string; name: string; lat: number; lng: number; dayNumber?: number; link: string; label?: string }>);
+  }, [] as Array<{ id: string; name: string; lat: number; lng: number; dayNumber?: number; link: string; label?: string; assigned?: boolean }>);
 
 // Close the loop: Aalen is start and end of the circular route
 const aalenLoc = allLocations.find(l => l.data.id === 'aalen');
@@ -56,11 +68,26 @@ if (aalenLoc) {
     name: 'Aalen (Start/Ziel)',
     lat: aalenLoc.data.coordinates.lat,
     lng: aalenLoc.data.coordinates.lng,
-    link: `${base}tag/18`,
+    link: `${base}ort/aalen`,
     label: '⌂',
+    assigned: true,
   };
   mapLocations.unshift(aalenBase);
   mapLocations.push({ ...aalenBase, id: 'aalen-return' });
+}
+
+// Add unassigned locations as muted markers
+for (const loc of allLocations) {
+  if (!assignedLocationIds.has(loc.data.id) && !mapLocations.find(m => m.id === loc.data.id)) {
+    mapLocations.push({
+      id: loc.data.id,
+      name: loc.data.name,
+      lat: loc.data.coordinates.lat,
+      lng: loc.data.coordinates.lng,
+      link: `${base}ort/${loc.data.id}`,
+      assigned: false,
+    });
+  }
 }
 
 const routePolylines = days
@@ -70,13 +97,31 @@ const routePolylines = days
 
 const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER';
 
+// Dynamic stats computed from data
+const plannedDays = days.filter(d => ['planned', 'completed'].includes(d.data.status ?? 'planned'));
+const visitedCountries = new Set(
+  plannedDays.map(d => {
+    const loc = allLocations.find(l => l.id === resolveRef(d.data.locationId) || l.data.id === resolveRef(d.data.locationId));
+    return loc?.data.country;
+  }).filter(Boolean)
+);
+
 const stats = [
-  { value: '18', label: 'Tage' },
-  { value: '10', label: 'Länder' },
-  { value: '~5.500', label: 'Kilometer' },
-  { value: '4', label: 'Fähren' },
+  { value: String(plannedDays.length), label: 'Tage geplant' },
+  { value: String(visitedCountries.size), label: 'Länder' },
+  { value: String(allLocations.length), label: 'Orte gesammelt' },
   { value: '1', label: 'Elektroauto' },
 ];
+
+// Dynamic city sequence from planned days
+const routeCities = plannedDays
+  .map(d => {
+    const loc = allLocations.find(l => l.id === resolveRef(d.data.locationId) || l.data.id === resolveRef(d.data.locationId));
+    return loc?.data.name;
+  })
+  .filter(Boolean) as string[];
+// Deduplicate consecutive same-city entries
+const uniqueRouteCities = routeCities.filter((city, i) => city !== routeCities[i - 1]);
 ---
 
 <BaseLayout title="Startseite">
@@ -91,10 +136,10 @@ const stats = [
           <span class="text-amber-400"> ⚡</span>
         </h1>
         <p class="text-xl md:text-2xl text-gray-300 mb-6">
-          Mit dem VW ID.4 durch zehn Länder — von Prags Türmen über die Kurische Nehrung bis nach Oslo und zurück.
+          Mit dem VW ID.4 durch {visitedCountries.size} Länder rund um die Ostsee — {allLocations.length} Orte zum Entdecken.
         </p>
         <p class="text-sm text-gray-400 flex flex-wrap gap-x-1 gap-y-1">
-          {['Aalen', 'Prag', 'Warschau', 'Masuren', 'Vilnius', 'Klaipėda', 'Riga', 'Tallinn', 'Helsinki', 'Turku', 'Stockholm', 'Oslo', 'Kopenhagen', 'Berlin', 'Aalen'].map((city, i, arr) => (
+          {uniqueRouteCities.map((city, i, arr) => (
             <span class="inline-flex items-center">
               <span class="bg-navy-700 px-2 py-0.5 rounded-full text-gray-300 text-xs">{city}</span>
               {i < arr.length - 1 && <span class="text-amber-400 mx-0.5">→</span>}
@@ -164,7 +209,7 @@ const stats = [
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20 mb-20">
     <div class="text-center mb-12">
       <h2 class="text-3xl font-extrabold text-navy-800">Tag für Tag</h2>
-      <p class="text-gray-500 mt-2">18 Tage, von Schwaben über Prag und das Baltikum bis Oslo und zurück</p>
+      <p class="text-gray-500 mt-2">{plannedDays.length} Tage geplant — <a href={`${base}orte`} class="text-teal-600 hover:text-teal-700 transition-colors">alle {allLocations.length} Orte erkunden →</a></p>
     </div>
 
     <!-- Timeline -->

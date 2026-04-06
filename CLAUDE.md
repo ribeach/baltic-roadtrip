@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Static website for a 17-day EV roadtrip through the Baltic region, built with Astro 6, React (islands), Tailwind CSS v4, and TypeScript. Deployed to GitHub Pages at `https://ribeach.github.io/baltic-roadtrip/`.
+Static website for an EV roadtrip through the Baltic region, built with Astro 6, React (islands), Tailwind CSS v4, and TypeScript. Deployed to GitHub Pages at `https://ribeach.github.io/baltic-roadtrip/`.
+
+The site uses a **location-first** information architecture: locations are the primary browsable content (independent of any day assignment), while days are an optional planning overlay. This allows flexible trip planning — adding locations as a library, assigning them to days only when needed, and changing the schedule without breaking the site.
 
 ## Commands
 
@@ -22,11 +24,11 @@ No test framework is configured.
 
 All trip data lives in JSON files validated by Zod schemas defined in `src/content.config.ts`:
 
-- **days/** — 17 files (day-01.json to day-17.json): itinerary per day with driving info, EV charging status, activities
-- **locations/** — 17 files: city details with highlights, restaurants, hotels, tips, nightlife
-- **countries/** — 8 files: currency, EV charging infrastructure, driving rules, culinary info
+- **days/** — itinerary per day with driving info, EV charging status, activities. Each day has a `status` field (`completed`, `planned`, or `idea`) that defaults to `planned`.
+- **locations/** — city/place details with highlights, restaurants, hotels, tips, nightlife. Locations are **independent of days** — they can exist without being assigned to any day. Optional `suggestedDays` and `region` fields support trip planning.
+- **countries/** — currency, EV charging infrastructure, driving rules, culinary info
 
-Collections reference each other: days → locations (via `locationId`), locations → countries (via `country`).
+Collections reference each other: days → locations (via `locationId`), locations → countries (via `country`). Not all locations need to be assigned to a day — unassigned locations appear in the location library and on maps as available options.
 
 **Important:** Astro's `reference()` returns `{ id: string, collection: string }` objects at runtime, not plain strings. Use the helpers in `src/lib/content.ts`: `resolveRef()` to extract the ID string, `getBase()` for a trailing-slash-normalized BASE_URL, and `collectLocationPois()`/`deduplicateMapPois()` for building map marker data from location arrays.
 
@@ -34,8 +36,9 @@ Collections reference each other: days → locations (via `locationId`), locatio
 
 All routes are statically generated via `getStaticPaths()`:
 
-- `/` — Homepage with map + timeline
-- `/tag/[1-17]` — Day detail pages (generated from days collection)
+- `/` — Homepage with map (shows all locations), dynamic stats, and day timeline
+- `/orte` — Location library: browsable index of ALL locations grouped by country, with map
+- `/tag/[dayNumber]` — Day detail pages (generated from days collection)
 - `/ort/[locationId]` — Location detail pages (generated from locations collection)
 - `/uebersicht` — Overview/summary page
 - `/kulinarik`, `/praktisches`, `/budget` — Static info pages

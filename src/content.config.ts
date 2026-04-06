@@ -6,6 +6,7 @@ const days = defineCollection({
   schema: z.object({
     dayNumber: z.number(),
     date: z.coerce.date(),
+    status: z.enum(['completed', 'planned', 'idea']).default('planned'),
     title: z.string(),
     subtitle: z.string(),
     locationId: reference('locations'),
@@ -54,6 +55,8 @@ const locations = defineCollection({
       lng: z.number(),
     }),
     description: z.string(),
+    suggestedDays: z.string().optional(),
+    region: z.string().optional(),
     highlights: z.array(z.object({
       name: z.string(),
       type: z.string(),

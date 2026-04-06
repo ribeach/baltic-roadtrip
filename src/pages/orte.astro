@@ -1,0 +1,158 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RouteMap from '../components/RouteMap.tsx';
+import { getCollection } from 'astro:content';
+import { resolveRef, getBase } from '../lib/content';
+
+const base = getBase();
+const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER';
+
+const allDays = await getCollection('days');
+const allLocations = await getCollection('locations');
+const allCountries = await getCollection('countries');
+
+const days = allDays.sort((a, b) => a.data.dayNumber - b.data.dayNumber);
+
+const findCountry = (id: string) => allCountries.find(c => c.data.id === id);
+
+// Build a map of locationId -> assigned day(s)
+const locationDayMap = new Map<string, { dayNumber: number; title: string }[]>();
+for (const day of days) {
+  const locIds = [
+    resolveRef(day.data.locationId),
+    ...(day.data.additionalLocationIds || []).map(resolveRef),
+    ...(day.data.transitLocationIds || []).map(resolveRef),
+  ];
+  for (const locId of locIds) {
+    if (!locationDayMap.has(locId)) locationDayMap.set(locId, []);
+    locationDayMap.get(locId)!.push({ dayNumber: day.data.dayNumber, title: day.data.title });
+  }
+}
+
+// Map locations: assigned get amber markers with day numbers, unassigned get gray
+const mapLocations = allLocations.map(loc => {
+  const assignedDays = locationDayMap.get(loc.data.id);
+  const isAssigned = !!assignedDays && assignedDays.length > 0;
+  return {
+    id: loc.data.id,
+    name: loc.data.name,
+    lat: loc.data.coordinates.lat,
+    lng: loc.data.coordinates.lng,
+    dayNumber: isAssigned ? assignedDays[0].dayNumber : undefined,
+    link: `${base}ort/${loc.data.id}`,
+    assigned: isAssigned,
+  };
+});
+
+// Group locations by country
+const countryOrder = ['germany', 'czech-republic', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden', 'norway', 'denmark'];
+const locationsByCountry = countryOrder
+  .map(cid => {
+    const country = findCountry(cid);
+    const locs = allLocations
+      .filter(l => l.data.country === cid)
+      .sort((a, b) => a.data.name.localeCompare(b.data.name));
+    return { country, locations: locs };
+  })
+  .filter(g => g.locations.length > 0);
+
+const assignedCount = allLocations.filter(l => locationDayMap.has(l.data.id)).length;
+const unassignedCount = allLocations.length - assignedCount;
+---
+
+<BaseLayout title="Alle Orte">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <!-- Header -->
+    <div class="mb-8">
+      <h1 class="text-3xl md:text-4xl font-extrabold text-navy-800">Alle Orte</h1>
+      <p class="text-gray-500 mt-2">
+        {allLocations.length} Orte in {locationsByCountry.length} Ländern
+        <span class="text-sm">
+          — {assignedCount} eingeplant, {unassignedCount} weitere Optionen
+        </span>
+      </p>
+    </div>
+
+    <!-- Map with all locations -->
+    <div class="mb-10">
+      <RouteMap
+        client:visible
+        locations={mapLocations}
+        apiKey={apiKey}
+        height="450px"
+      />
+      <noscript>
+        <div class="bg-paper rounded-xl p-6 text-center text-gray-600 border border-sand-200">
+          <p>Aktiviere JavaScript, um die interaktive Karte zu sehen.</p>
+        </div>
+      </noscript>
+      <p class="text-xs text-gray-400 mt-2 text-center">
+        <span class="inline-flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-amber-400 border border-navy-800 inline-block"></span> Eingeplant</span>
+        <span class="mx-2">·</span>
+        <span class="inline-flex items-center gap-1"><span class="w-3 h-3 rounded-full bg-gray-400 border border-gray-500 inline-block"></span> Weitere Optionen</span>
+      </p>
+    </div>
+
+    <!-- Locations grouped by country -->
+    {locationsByCountry.map(group => (
+      <section class="mb-8">
+        <h2 class="text-xl font-bold text-navy-800 mb-4 flex items-center gap-2">
+          <span>{group.country?.data.flag}</span>
+          <span>{group.country?.data.name}</span>
+          <span class="text-sm font-normal text-gray-400">({group.locations.length})</span>
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {group.locations.map(loc => {
+            const assignedDays = locationDayMap.get(loc.data.id);
+            const isAssigned = !!assignedDays && assignedDays.length > 0;
+            return (
+              <a
+                href={`${base}ort/${loc.data.id}`}
+                class:list={[
+                  'bg-paper rounded-xl border p-5 hover:shadow-md hover:-translate-y-0.5 transition-all group block',
+                  isAssigned ? 'border-amber-200' : 'border-sand-200',
+                ]}
+              >
+                <div class="flex items-start justify-between gap-2">
+                  <h3 class="font-semibold text-navy-800 group-hover:text-teal-600 transition-colors">
+                    {loc.data.name}
+                  </h3>
+                  {isAssigned && (
+                    <span class="text-xs bg-amber-100 text-amber-700 font-medium px-2 py-0.5 rounded-full whitespace-nowrap flex-shrink-0">
+                      Tag {assignedDays.map(d => d.dayNumber).join(', ')}
+                    </span>
+                  )}
+                </div>
+                <p class="text-sm text-gray-600 mt-1 line-clamp-2">{loc.data.description}</p>
+                <div class="flex items-center gap-3 mt-3 text-xs text-gray-400">
+                  {loc.data.highlights.length > 0 && (
+                    <span>⭐ {loc.data.highlights.length}</span>
+                  )}
+                  {loc.data.restaurants.length > 0 && (
+                    <span>🍽️ {loc.data.restaurants.length}</span>
+                  )}
+                  {loc.data.hotels.length > 0 && (
+                    <span>🏨 {loc.data.hotels.length}</span>
+                  )}
+                  {(loc.data.nightlife?.length ?? 0) > 0 && (
+                    <span>🍸 {loc.data.nightlife?.length}</span>
+                  )}
+                  {loc.data.suggestedDays && (
+                    <span class="ml-auto text-teal-600">~{loc.data.suggestedDays} Tage</span>
+                  )}
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    ))}
+
+    <!-- Back -->
+    <div class="pt-8 border-t border-sand-200">
+      <a href={base} class="text-teal-600 hover:text-teal-700 font-medium transition-colors">
+        ← Zurück zur Routenübersicht
+      </a>
+    </div>
+  </div>
+</BaseLayout>
