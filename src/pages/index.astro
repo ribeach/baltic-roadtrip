@@ -62,6 +62,11 @@ if (aalenLoc) {
   mapLocations.push({ ...aalenBase, id: 'aalen-return' });
 }
 
+const routePolylines = days
+  .filter(d => d.data.driving?.encodedPolyline)
+  .sort((a, b) => a.data.dayNumber - b.data.dayNumber)
+  .map(d => d.data.driving!.encodedPolyline!);
+
 const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER';
 
 const stats = [
@@ -111,6 +116,7 @@ const stats = [
       locations={mapLocations}
       apiKey={apiKey}
       height="450px"
+      polylines={routePolylines.length > 0 ? routePolylines : undefined}
     />
     <noscript>
       <div class="bg-gray-100 rounded-xl p-8 text-center text-gray-500">

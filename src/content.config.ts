@@ -18,6 +18,7 @@ const days = defineCollection({
       duration: z.string(),
       mode: z.enum(['drive', 'ferry', 'none']),
       routeDescription: z.string(),
+      encodedPolyline: z.string().optional(),
     }).nullable(),
     evCharging: z.object({
       stopsNeeded: z.number(),

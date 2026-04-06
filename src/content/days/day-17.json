@@ -6,12 +6,15 @@
   "locationId": "aalen",
   "previousLocationId": "halmstad",
   "overnightLocationId": null,
-  "transitLocationIds": ["rostock"],
+  "transitLocationIds": [
+    "rostock"
+  ],
   "driving": {
     "distance": "750 km",
     "duration": "7:30",
     "mode": "drive",
-    "routeDescription": "EMPFOHLEN: Nachtfähre Trelleborg→Rostock (TT-Line, ~6 Std., Abfahrt am Vorabend) — ausgeruht in Rostock ankommen und dann über die A19/A24/A7 durch Deutschland nach Aalen. KOMFORT-UPGRADE: Nachtfähre Gothenburg→Kiel (Stena Line, ~14 Std.) — in Kiel aussteigen und über die A7 nach Aalen. ALTERNATIVE: Direktfahrt über Öresundbrücke und Dänemark (1.050 km) — nur als Notfall-Plan."
+    "routeDescription": "EMPFOHLEN: Nachtfähre Trelleborg→Rostock (TT-Line, ~6 Std., Abfahrt am Vorabend) — ausgeruht in Rostock ankommen und dann über die A19/A24/A7 durch Deutschland nach Aalen. KOMFORT-UPGRADE: Nachtfähre Gothenburg→Kiel (Stena Line, ~14 Std.) — in Kiel aussteigen und über die A7 nach Aalen. ALTERNATIVE: Direktfahrt über Öresundbrücke und Dänemark (1.050 km) — nur als Notfall-Plan.",
+    "encodedPolyline": "ie|xI}qnmAjtBsvGfcFyiAr{IehF`hEgsAtjEhz@loDfaB|tDsmAnoM`{Bz|DjzBr~Ejs@h~Kro@tvExyE|eIzuBtsJ`mKv|QbB~kPgpOnnEsxAhsCyuDv~Ha{IjdH_tJxlAgjHxyDk~CldKki@pwIc`A~dFhlMUbuOsbB~tFofB|iVopCpeJ_~ClnP`SnvThhAn{KmuAt}InsBppQncGvwNfnFjmGjnFzcDhlC~yG`jNx|DzfFpiCpnDj_Fx|LpyGxbZj~IxxF}jCzwDghDnoDpCpkHstBz~E~`GnjFf{Ft{DtfIrVljBxiCoj@tlHqpA|lCqfHh}E_P~iIheBxuNaxD`fD|bAhWiNro[g}En_L{pBd}]}jRzmAkp@nvBm_A|iB~LeCeL~HyFvf@sDhLmSxKg_B~TnbFqE|uBxcEiCzrAwiL{qAczJbeSoy@`aIfIvaFohFrfHgeCxeFqwFfxGclA~bH}rDvdHesDtmGjFdjHlL~uCt`GhcCp[`pFsoFp}A}dCxtC{DbaE}kBrfBikCpuEkgDptMw~D`lMb`E|qMkT|sG}|@b_EiaGvaN_|MrzN_bTxgIchL`pJ_vFrlJk{CtzB_eL`zD{rOfo@kxFr|H|m@|{LvhEvtM~eAnlDqT~gCxrC|yGdwCl_CrtK~nDfzEfyFsa@`sB{nIpvB_mF~kB`N``Fwh@rjFpuE|aJzbVtnKlaRt}DdyC~kEbdKn`GhbNfcCz_Hn}CddAffFdkGtjH`}M~_MxxMdjFdmElaIp|@nwJbcBduGfBhwPinBjiGhEvqIdeDvzIlOzeHx_HdsOzqTjeOnwKrwInX`wGpgCfiFfyGdvD~jH`zOuuAh~IorGbzGbhBbtFl}DdfD~a@voFhbDxlJblDhmE`gAvoCgjCnoD`EbrHka@z{DbGp{C~qCldAn{AhqA}fAtbAazAd`Bvl@~jDe^zwE{vBrfFlm@rzEb_CpxNzpE~dEpiDl_Et~GffC~mIhbHntAjqPtNd`Gvq@~fAb~It~CngDdhFhdAfhAll@bhAmhBrsHcb@neBd`ErhDbvBnmCoSr|B~kBdyEh{IpyCrdH`uNfqHvaNvuN`qFrrCpqDpjM~~DzaJxnBx|Clp@tgHtm@dbHepAt~Ob`AvgPhrEbhKbaCtiQmjAbmNxoAtwJIleMjnAfvMh~BlpL`sAb_D|dBgf@pxGa_DdgE`uErzF~eFbhBh{ApjCc|A|bHoPhjG|M~gDdBb_C`}Btp@jlG|c@~tEfnAs\\r_Bbc@jxAdF"
   },
   "evCharging": {
     "stopsNeeded": 3,

@@ -6,13 +6,20 @@
   "locationId": "klaipeda",
   "previousLocationId": "vilnius",
   "overnightLocationId": "klaipeda",
-  "additionalLocationIds": ["trakai", "kaunas"],
-  "transitLocationIds": ["trakai", "kaunas"],
+  "additionalLocationIds": [
+    "trakai",
+    "kaunas"
+  ],
+  "transitLocationIds": [
+    "trakai",
+    "kaunas"
+  ],
   "driving": {
     "distance": "320 km",
     "duration": "4:30",
     "mode": "drive",
-    "routeDescription": "Zunächst kurzer Abstecher nach Trakai (30 km westlich von Vilnius), dann über die A1 nach Kaunas und weiter auf der A1/E85 bis Klaipėda an der Küste."
+    "routeDescription": "Zunächst kurzer Abstecher nach Trakai (30 km westlich von Vilnius), dann über die A1 nach Kaunas und weiter auf der A1/E85 bis Klaipėda an der Küste.",
+    "encodedPolyline": "abxlIolhyCbJhGlAjKyLpa@iGpz@tCtJjOhF|Kvr@db@rUlg@zq@l`@hFpT|KtSjNpUhg@b]tt@vVzh@pm@dxB^pSeNlU_@nM|P`WdWnr@pJldBrJ`z@pg@ztDzNngA~QjnCg_@lfMaVvvJcKviAah@xJwLIaTpFsG}DmC}DuAdIoHgBcQzM}YtpA_v@|ZySnJsW`TsRiEmTWs\\d_@_TxMsSvOi_@~Ksw@joAqSlXqIfNyUlGcYxVmJFqFqGyd@qZ{`@fC{\\tM}Yzu@i_@p`Aws@fiA}QpE_f@rBgJ`DaGsDiZ_ScCmAk@p@hBb@hAtb@sD~x@cNr}@{[ngBwQ~cBc[z{FaVfnEuPhyGgf@b{RkMnrDgRd|Cg[vrDqXhvCof@zhDmyBlbM}wAhzH}{ApcJubA|aF__AzlF{yAnyGcjAxvE{eAp|CsI`j@yAhj@mCp{@iLneE}YtgGcHf{EsA~nAcH~f@y@jFWbI`GvAnEnA~IrCdOfFhc@rKneAfThPhNrXfh@`a@v~@`KcB|F}QhA{`@oBuNnBtNiAz`@}F|QuLwFkFxN{DjLcEbDuGsD_a@rAuPyQ_C|Ia@dGyIuCq`@cXqc@~Yol@da@qUSqMvQeKbQmf@v]gqA~~@{bBbcA_tEtaBsxCxfAsqAr\\igCx^wz@~Lmj@`MqPfL_\\nf@eXfq@iu@|kBcjCjsFiqCf|FoeE|{Im~AbmCoh@dgAk\\fjA}u@jkEoj@tfC_n@fzCo]x_CeqBv{Jud@j_Cy_@z~Ckl@dzF_k@nlGm`AthD}hB|~Fsk@zcCyVn~Fm]bnEyh@fwE{o@hsDkhArsFa`AdaHuu@heGmoAddIgsAl}FgbArbDuGjYkRtxBkFbtAiUppBkj@~oB{pAfjDeu@~wA}cA|oByO|c@uMth@yQ|iAcL~aBkNtkCo_@hiCsVltA{SjbCwPtbB_VtsCiLpjDkd@|cDsO|`BgF`_B_I`fD}]zbDs[liBmj@jeBoe@vqAa]xoB{_@rpEwXh~A_Y|w@{j@ltBkXvvBs]hdF}]fwBa_@~nAgrBvrE}[~z@wb@jiBoc@|~CqNpgBwIjtCmLz|BmUvgByd@v|B}q@jaEsNhwBob@x`Foc@b~EaGfeFsQbrCi_@lvB}aAlfG_c@ftB_^~cAofA~kCw[dxAmb@l~Ewp@ruHwLt`GsEttIeCfeBmNz`B_~Ax~GgTnsAcL`gBo@`qAnIpmBjo@vpFvX~}BnxAtuLpw@~jF`Ql`AcAdMcz@jlAmMfUhBz\\xCzj@dBp]"
   },
   "evCharging": {
     "stopsNeeded": 1,
@@ -20,11 +27,23 @@
     "criticalLevel": "green"
   },
   "activities": [
-    { "highlightRef": "Wasserburg Trakai", "note": "Vormittags — Litauens Postkartenmotiv Nr. 1" },
+    {
+      "highlightRef": "Wasserburg Trakai",
+      "note": "Vormittags — Litauens Postkartenmotiv Nr. 1"
+    },
     "Kibinai-Mittagessen in Trakai – die gefüllten Teigtaschen der Karäer, einer turksprachigen Minderheit",
-    { "highlightRef": "Neuntes Fort", "note": "Stopp auf der Weiterfahrt nach Kaunas" },
-    { "highlightRef": "Laisvės Alėja (Freiheitsallee)", "note": "Europas längste Fußgängerzone" },
+    {
+      "highlightRef": "Neuntes Fort",
+      "note": "Stopp auf der Weiterfahrt nach Kaunas"
+    },
+    {
+      "highlightRef": "Laisvės Alėja (Freiheitsallee)",
+      "note": "Europas längste Fußgängerzone"
+    },
     "PACING-TIPP: Kaunas (Neuntes Fort + Freiheitsallee) ist optional — bei Zeitdruck lieber entspannt in Klaipėda ankommen",
-    { "highlightRef": "Altstadt mit Fachwerkhäusern", "note": "Bummel am Abend nach Ankunft in Klaipėda" }
+    {
+      "highlightRef": "Altstadt mit Fachwerkhäusern",
+      "note": "Bummel am Abend nach Ankunft in Klaipėda"
+    }
   ]
 }

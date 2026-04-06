@@ -6,12 +6,15 @@
   "locationId": "halmstad",
   "previousLocationId": "turku",
   "overnightLocationId": "halmstad",
-  "transitLocationIds": ["stockholm"],
+  "transitLocationIds": [
+    "stockholm"
+  ],
   "driving": {
     "distance": "470 km",
     "duration": "5:00",
     "mode": "drive",
-    "routeDescription": "Ankunft Stockholm Stadsgården (nahe Gamla Stan) um 07:30 Uhr per Viking Line aus Turku. Dann über die E4 Richtung Süden, ab Jönköping auf die E6 an die Westküste nach Halmstad. Durchgehend Autobahn."
+    "routeDescription": "Ankunft Stockholm Stadsgården (nahe Gamla Stan) um 07:30 Uhr per Viking Line aus Turku. Dann über die E4 Richtung Süden, ab Jönköping auf die E6 an die Westküste nach Halmstad. Durchgehend Autobahn.",
+    "encodedPolyline": "o~}oJ_t{fC|j@n|DbW|n@tvCbnQppWvrS`hCliPhx@fnKt{@lwJtaDllNpuCt_i@zuCltOjoLhwa@nhCvtd@fUzom@inAnxNmR|`IgaDdaQtI~yEpr@l`PbgAdfCeQhrE_iAlmUn@lx@lExy@lj@|sBh}BffAhn@|nEtdAb_WvN|kEaJ~dFgyBti@cqA~qAyy@xS{J~}CqWpmBxOnmFbq@hXd}@{L|cCrFzjFjiGbhK`sPjnMnrYbsK`zVlmIfpZv}F`q]~tBlh_@}Avc@`BfUqA`Qe@nJaP|rApJviCpTz}G_h@jbUyy@ztPqm@`qWnHzhHraBvdGlwAbkBfU~dCfDtqA|f@`_CjkAluHbyDhiLx}CzbGlbFznI`{BhzDldCtaAn~D~kGlnEptCnoBpNxx@nmA`zArlBrc@rdEnwB|{FnwAdxCdpBkw@tbBqKzrAav@tcAQxrAwu@t{@s^vNxgC}^~iD~f@zaBjj@`]vv@uy@tv@y}@~}@~sCtQl|GtkAlrErhB~dDf`ChpLpmAtiEdoAz{Drl@noMneBlxE`p@|_@tv@sa@ptAdFnrAuW~uAbo@tpBjcEdbHfgDx`LbdHx}Bjl@hhAzvCjx@noI|sBflCftB`jHr_E`dVpeGjaLpgGbgNntE~pQh[|qDvqBfhDaOxfJ{n@lfTjg@jlHoi@~eLd[rsRvoAfuW~dAdpHlaCflHd`AbjC|}AxnA`e@p{Hjq@tcKfqDllHxfDnqCnjAhxAj|@wK~gAb_BzlAzmF~dB~bCpkBpjBlr@~nCpuCnpDn}ArgKrgB~{S|fBtbHd|BleP{YdzQzf@zgLvmD~fMjdBvsHjdAtyKbxAvjKbvD`o\\vhDxyWliA|bMpYnfD|qAfiCdpAfhCb}@xvDdgAb|MlbAbxHlm@`bExeAbhAzgBnnEblClvCbvB~y@buEx`BxdDrjArqEddFxeEzhDncDzmEh_Cz{IptBtaGhaClfCdkIfuHnzC~gBj~HeUlsChiAzf@dwD~p@xfE|dA`|@bUlmExbAiThaFu@h_BjJvgCutAlxE{mBz`KztFzwJndFxfKb{ArlEy`@xiH`L~bCqYnyDd`@daE`sAfvD|Vb}EpXdmHi@xtHbqBp~HkI|vCbHbpCbmAtoDrrAzoIjxEzgCjhC|qDr`BzhDpz@jrCn`CxpAhjCvbBte@hxA|~CfeAp|DllDvlIdj@x_E~Bb`S|c@pb\\xrBpvRdiBzdV~GfaLs[fjHaIbeHhiAhfJxg@~mIrvAv{Jb}AjnNcDtzB"
   },
   "evCharging": {
     "stopsNeeded": 2,

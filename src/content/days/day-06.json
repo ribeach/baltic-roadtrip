@@ -6,12 +6,15 @@
   "locationId": "vilnius",
   "previousLocationId": "masuria",
   "overnightLocationId": "vilnius",
-  "additionalLocationIds": ["masuria"],
+  "additionalLocationIds": [
+    "masuria"
+  ],
   "driving": {
     "distance": "300 km",
     "duration": "3:30",
     "mode": "drive",
-    "routeDescription": "Optional: Vormittags Abstecher zur Wolfsschanze (40 km nördlich von Ryn). Dann Richtung Südosten durch die geopolitisch bedeutsame Suwalki-Lücke zwischen Kaliningrad und Belarus nach Vilnius."
+    "routeDescription": "Optional: Vormittags Abstecher zur Wolfsschanze (40 km nördlich von Ryn). Dann Richtung Südosten durch die geopolitisch bedeutsame Suwalki-Lücke zwischen Kaliningrad und Belarus nach Vilnius.",
+    "encodedPolyline": "s~ehIceobClBxKxReXhiBal@pzAa|@xw@}s@hk@cL~g@me@d^ix@lIcVhc@uMzd@ic@fl@m|@zLoMt@o]vAaaAdJsPqHsWwm@_h@ca@mo@jCc~@xVemBfR_`B{m@imCaLeqAb@{p@fXweB~Q_vA|X}m@vd@ez@xg@sThr@wEfx@mXjCsiBxZqkApD{rAds@wdAv_@m|@da@eyBe@q}Bko@i`GeI{l@pAab@rEcj@zWoOnk@Upd@{e@bGmnBpEo}Bs@{{CzA}uDiCapIgIcNqJuc@~HqtBvPa`D{YuwDsB_nA_QogAyImyAaU}s@kc@}rBqc@we@}Xuj@uk@ow@sTc}@a@i`Ao[upC{ZoOsQeXqFwm@eXkmDjTopDlXszB~Usx@aPaLqd@uyB_aA}zCkFkaEu@kzK}b@ejDoy@acF_a@}vB_k@krAmcBquCkqBuqG_`AspBeaAir@wiBil@cq@}j@ecCk|Cc`AaoA{}@odFaWylAie@gt@yhC_vBmb@}Lsa@dDqkAdc@gbEbkBup@_Bce@}UcbAyc@gy@sY_h@_eAiKukA~@aiCfA_cB{HygBkbA{qBib@gs@mq@uT{{@uJyqAe{@}_AmyAyYss@}p@i}@qsA{y@wlAchCgh@}z@}i@_Usx@qLkk@oc@e_A_kByvAuh@gm@_Uwl@fAwc@sG_i@c{@ql@gsAg{Aq}Aos@cn@wdA{b@sbBcsAcbA}dAytAqbBwd@iBuo@bYqjA|OklCzA_uAnHyfBe_B}xAsp@ezAqg@cbFmrCuuAubAcv@ewAebB{dD}a@{`FaHcrEoe@kiAikBueCezB{mAwd@m|AsW}bE_ZghAa|@uwA{hBsyCqSooAyLuzBeP{rB{gAkjCsuBg~EcpAu|Fsf@knBa|A}tD{vAs|Bio@_oBgvAykCqa@ma@wm@snBkt@y}Cyy@_oDuQwgAaErQo`Ahp@yw@zJaz@~Tgv@|e@grAd}@mhBdmAc]~Fgu@ar@cz@mj@cw@iD{v@aaAs_@}_@iZkrA{h@obA{Isp@jN}iCfOafKdb@y{JbKsnDxRywBjrAa`E~yAqiGrbC_hMb|Em`XhfDqoRlcA{sKv^c}H~WutK~b@}gP|_@qeHts@wmHnn@ytEbq@oyCpQ{sD|k@}_Erj@cnAd|BeoCbx@_pBll@kcBbgAgsDre@y{Bbc@s`Anz@mkFhm@szCbkCqbJdL}m@}b@egBu{@}lBq{@wfAca@uIi_@_^ci@ca@{L}_@yDwm@ma@eIgTePfJwX~H{|@|PQ"
   },
   "evCharging": {
     "stopsNeeded": 1,
@@ -19,7 +22,10 @@
     "criticalLevel": "yellow"
   },
   "activities": [
-    { "highlightRef": "Wolfsschanze (Wilczy Szaniec)", "note": "Optional am Vormittag — Hitlers Ostfront-HQ im Wald (40 km, 2–3 Stunden)" },
+    {
+      "highlightRef": "Wolfsschanze (Wilczy Szaniec)",
+      "note": "Optional am Vormittag — Hitlers Ostfront-HQ im Wald (40 km, 2–3 Stunden)"
+    },
     "Fahrt durch die geopolitisch bedeutsame Suwalki-Lücke — NATOs verwundbarster Punkt in Europa",
     "Grenzübertritt nach Litauen",
     "Ankunft in Vilnius am Nachmittag — erster Spaziergang durch die barocke Altstadt",
