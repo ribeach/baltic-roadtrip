@@ -34,7 +34,9 @@
       "coordinates": {
         "lat": 59.437807,
         "lng": 24.7418795
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 6884
     },
     {
       "name": "Lennusadam — Maritimes Museum",
@@ -48,7 +50,9 @@
       "coordinates": {
         "lat": 59.451705999999994,
         "lng": 24.7383739
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 17475
     },
     {
       "name": "KGB-Museum — Hotel Viru",
@@ -62,7 +66,9 @@
       "coordinates": {
         "lat": 59.436484699999994,
         "lng": 24.7549107
-      }
+      },
+      "rating": 4.2,
+      "userRatingCount": 1954
     },
     {
       "name": "Telliskivi Creative City",
@@ -76,7 +82,9 @@
       "coordinates": {
         "lat": 59.439840800000006,
         "lng": 24.728987399999998
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 5057
     },
     {
       "name": "Balti Jaama Turg — Markt",
@@ -90,7 +98,9 @@
       "coordinates": {
         "lat": 59.4411326,
         "lng": 24.7354436
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 25638
     },
     {
       "name": "Kalamaja — Holzhäuser-Viertel",
@@ -118,7 +128,9 @@
       "coordinates": {
         "lat": 59.453191999999994,
         "lng": 24.7315196
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 1726
     },
     {
       "name": "Rummu Steinbruch",
@@ -132,7 +144,9 @@
       "coordinates": {
         "lat": 59.2273404,
         "lng": 24.196036
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 4560
     },
     {
       "name": "Linnahall",
@@ -146,7 +160,9 @@
       "coordinates": {
         "lat": 59.446579500000006,
         "lng": 24.7535044
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 2639
     },
     {
       "name": "Patarei Gefängnis",
@@ -160,7 +176,9 @@
       "coordinates": {
         "lat": 59.449757299999995,
         "lng": 24.740069
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 186
     }
   ],
   "restaurants": [
@@ -188,7 +206,9 @@
       "coordinates": {
         "lat": 59.4411808,
         "lng": 24.7492944
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 1434
     },
     {
       "name": "F-Hoone",
@@ -201,7 +221,9 @@
       "coordinates": {
         "lat": 59.439620000000005,
         "lng": 24.7291536
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 6238
     },
     {
       "name": "Moon",
@@ -214,7 +236,9 @@
       "coordinates": {
         "lat": 59.4396681,
         "lng": 24.731865799999998
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 2185
     },
     {
       "name": "Lore Bistroo",
@@ -227,7 +251,9 @@
       "coordinates": {
         "lat": 59.4526198,
         "lng": 24.7308125
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 1239
     }
   ],
   "hotels": [
@@ -242,7 +268,9 @@
       "coordinates": {
         "lat": 59.43468609999999,
         "lng": 24.7327444
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 1104
     },
     {
       "name": "Schlössle Hotel",
@@ -255,7 +283,9 @@
       "coordinates": {
         "lat": 59.438713299999996,
         "lng": 24.7474854
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 532
     },
     {
       "name": "Nunne Boutique Hotel",
@@ -268,7 +298,9 @@
       "coordinates": {
         "lat": 59.438907900000004,
         "lng": 24.7422881
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 310
     }
   ],
   "tips": [
@@ -298,7 +330,9 @@
       "coordinates": {
         "lat": 59.43464540000001,
         "lng": 24.7473288
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 940
     },
     {
       "name": "Põhjala Tap Room",
@@ -308,7 +342,9 @@
       "coordinates": {
         "lat": 59.450270499999995,
         "lng": 24.7272078
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 1687
     },
     {
       "name": "Tops",
@@ -318,7 +354,9 @@
       "coordinates": {
         "lat": 59.4457746,
         "lng": 24.7389257
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 690
     },
     {
       "name": "Parrot MiniBar",
@@ -328,7 +366,9 @@
       "coordinates": {
         "lat": 59.4354727,
         "lng": 24.7452577
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 593
     }
   ]
 }

@@ -20,7 +20,9 @@
       "coordinates": {
         "lat": 60.4353436,
         "lng": 22.2286991
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 10532
     },
     {
       "name": "Dom von Turku",
@@ -34,7 +36,9 @@
       "coordinates": {
         "lat": 60.4524802,
         "lng": 22.2783251
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 4842
     },
     {
       "name": "Aura-Fluss Promenade",
@@ -48,7 +52,9 @@
       "coordinates": {
         "lat": 60.4483684,
         "lng": 22.2699556
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 363
     },
     {
       "name": "Aboa Vetus & Ars Nova",
@@ -62,7 +68,9 @@
       "coordinates": {
         "lat": 60.4496232,
         "lng": 22.273822
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 2398
     },
     {
       "name": "Luostarinmäki Handwerkermuseum",
@@ -76,7 +84,9 @@
       "coordinates": {
         "lat": 60.4469068,
         "lng": 22.2763941
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 2149
     }
   ],
   "restaurants": [
@@ -91,7 +101,9 @@
       "coordinates": {
         "lat": 60.4466246,
         "lng": 22.2729896
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 787
     },
     {
       "name": "Restaurant Smör",
@@ -104,7 +116,9 @@
       "coordinates": {
         "lat": 60.4501573,
         "lng": 22.272027
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 630
     }
   ],
   "hotels": [
@@ -119,7 +133,9 @@
       "coordinates": {
         "lat": 60.4446173,
         "lng": 22.2468226
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 1278
     },
     {
       "name": "Radisson Blu Marina Palace Hotel",
@@ -132,7 +148,9 @@
       "coordinates": {
         "lat": 60.4466147,
         "lng": 22.2604734
-      }
+      },
+      "rating": 4.3,
+      "userRatingCount": 2708
     },
     {
       "name": "Solo Sokos Hotel Turun Seurahuone",
@@ -145,7 +163,9 @@
       "coordinates": {
         "lat": 60.4490313,
         "lng": 22.2610198
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 1492
     }
   ],
   "tips": [
@@ -171,7 +191,9 @@
       "coordinates": {
         "lat": 60.4483684,
         "lng": 22.2699556
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 363
     }
   ]
 }

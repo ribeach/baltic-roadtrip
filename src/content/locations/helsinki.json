@@ -34,7 +34,9 @@
       "coordinates": {
         "lat": 60.1661637,
         "lng": 24.952819299999998
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 3913
     },
     {
       "name": "Oodi Zentralbibliothek",
@@ -48,7 +50,9 @@
       "coordinates": {
         "lat": 60.1736833,
         "lng": 24.9379191
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 4955
     },
     {
       "name": "Felsenkirche Temppeliaukio",
@@ -62,7 +66,9 @@
       "coordinates": {
         "lat": 60.1730251,
         "lng": 24.925235
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 16131
     },
     {
       "name": "Dom von Helsinki",
@@ -76,7 +82,9 @@
       "coordinates": {
         "lat": 60.17037069999999,
         "lng": 24.9521309
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 13535
     }
   ],
   "restaurants": [
@@ -91,7 +99,9 @@
       "coordinates": {
         "lat": 60.1661637,
         "lng": 24.952819299999998
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 3913
     }
   ],
   "hotels": [
@@ -106,7 +116,9 @@
       "coordinates": {
         "lat": 60.1665672,
         "lng": 24.9514339
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 1250
     },
     {
       "name": "Scandic Grand Central Helsinki",
@@ -119,7 +131,9 @@
       "coordinates": {
         "lat": 60.1720869,
         "lng": 24.9429452
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 954
     }
   ],
   "tips": [

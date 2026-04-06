@@ -48,9 +48,9 @@ const formattedDate = dateObj.toLocaleDateString('de-DE', { weekday: 'long', day
 const modeIcon = day.driving?.mode === 'ferry' ? '⛴️' : day.driving?.mode === 'drive' ? '🚗' : '📍';
 
 // Build lookup maps from all locations visited this day
-const allHighlights = new Map<string, { name: string; type: string; icon: 'star' | 'gem' | 'info'; description: string; duration: string | null; price: string | null; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number } }>();
-const allRestaurants = new Map<string, { name: string; cuisine: string; priceRange: string; description: string; mustTry: string | null; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number } }>();
-const allNightlife = new Map<string, { name: string; description: string; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number } }>();
+const allHighlights = new Map<string, { name: string; type: string; icon: 'star' | 'gem' | 'info'; description: string; duration: string | null; price: string | null; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number }; rating?: number; userRatingCount?: number }>();
+const allRestaurants = new Map<string, { name: string; cuisine: string; priceRange: string; description: string; mustTry: string | null; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number }; rating?: number; userRatingCount?: number }>();
+const allNightlife = new Map<string, { name: string; description: string; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number }; rating?: number; userRatingCount?: number }>();
 for (const loc of [location, ...additionalLocations].filter(Boolean)) {
   for (const h of loc!.data.highlights) {
     allHighlights.set(h.name, h);
@@ -253,6 +253,8 @@ const cityMapLocations = showCityMap ? [{
                 googleMapsUrl={highlight.googleMapsUrl}
                 number={i + 1}
                 note={activity.note}
+                rating={highlight.rating}
+                userRatingCount={highlight.userRatingCount}
               />
             );
           }
@@ -278,6 +280,8 @@ const cityMapLocations = showCityMap ? [{
                 googleMapsUrl={restaurant.googleMapsUrl}
                 number={i + 1}
                 note={activity.note}
+                rating={restaurant.rating}
+                userRatingCount={restaurant.userRatingCount}
               />
             );
           }
@@ -300,6 +304,8 @@ const cityMapLocations = showCityMap ? [{
                 googleMapsUrl={bar.googleMapsUrl}
                 number={i + 1}
                 note={activity.note}
+                rating={bar.rating}
+                userRatingCount={bar.userRatingCount}
               />
             );
           }

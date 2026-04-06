@@ -6,7 +6,7 @@
     "lat": 53.9389,
     "lng": 21.546
   },
-  "description": "Das \u201ELand der Tausend Seen\u201C (tatsächlich über 2.000) im Nordosten Polens war einst Kernland des Deutschen Ordens und im Zweiten Weltkrieg Schauplatz von Hitlers Hauptquartier \u201EWolfsschanze\u201C. Heute locken Wälder, Seen und ein Tempo, das langsamer tickt als in jeder Hauptstadt an der Route. Eine Nacht im Ordensritter-Schloss von Ryn ist die ideale Unterbrechung der längsten Fahretappe.",
+  "description": "Das „Land der Tausend Seen“ (tatsächlich über 2.000) im Nordosten Polens war einst Kernland des Deutschen Ordens und im Zweiten Weltkrieg Schauplatz von Hitlers Hauptquartier „Wolfsschanze“. Heute locken Wälder, Seen und ein Tempo, das langsamer tickt als in jeder Hauptstadt an der Route. Eine Nacht im Ordensritter-Schloss von Ryn ist die ideale Unterbrechung der längsten Fahretappe.",
   "highlights": [
     {
       "name": "Hotel Zamek Ryn (Ordensburg)",
@@ -20,7 +20,9 @@
       "coordinates": {
         "lat": 53.9388675,
         "lng": 21.5460042
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 8409
     },
     {
       "name": "Wolfsschanze (Wilczy Szaniec)",
@@ -34,7 +36,9 @@
       "coordinates": {
         "lat": 54.0806539,
         "lng": 21.4942846
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 28698
     },
     {
       "name": "Masurische Seenplatte",
@@ -63,7 +67,9 @@
       "coordinates": {
         "lat": 53.9386975,
         "lng": 21.5461554
-      }
+      },
+      "rating": 4.2,
+      "userRatingCount": 193
     }
   ],
   "hotels": [
@@ -78,7 +84,9 @@
       "coordinates": {
         "lat": 53.9388675,
         "lng": 21.5460042
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 8409
     }
   ],
   "tips": [

@@ -34,7 +34,9 @@
       "coordinates": {
         "lat": 52.5186202,
         "lng": 13.3761871
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 9718
     },
     {
       "name": "Berliner Mauer Gedenkstätte",
@@ -48,7 +50,9 @@
       "coordinates": {
         "lat": 52.535052099999994,
         "lng": 13.3901898
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 45484
     },
     {
       "name": "Teufelsberg",
@@ -62,7 +66,9 @@
       "coordinates": {
         "lat": 52.497222199999996,
         "lng": 13.2411111
-      }
+      },
+      "rating": 4.3,
+      "userRatingCount": 2284
     },
     {
       "name": "Sowjetisches Ehrenmal Treptower Park",
@@ -76,7 +82,9 @@
       "coordinates": {
         "lat": 52.486139400000006,
         "lng": 13.471957699999999
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 3689
     },
     {
       "name": "Berliner Unterwelten",
@@ -90,7 +98,9 @@
       "coordinates": {
         "lat": 52.5477911,
         "lng": 13.3889929
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 12555
     },
     {
       "name": "Tränenpalast",
@@ -104,7 +114,9 @@
       "coordinates": {
         "lat": 52.5209565,
         "lng": 13.387212199999999
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 6991
     },
     {
       "name": "Markthalle Neun",
@@ -118,7 +130,9 @@
       "coordinates": {
         "lat": 52.502135,
         "lng": 13.4315988
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 19540
     }
   ],
   "restaurants": [
@@ -133,7 +147,9 @@
       "coordinates": {
         "lat": 52.502134999999996,
         "lng": 13.4315988
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 19540
     },
     {
       "name": "Zur letzten Instanz",
@@ -146,7 +162,9 @@
       "coordinates": {
         "lat": 52.5173692,
         "lng": 13.4137999
-      }
+      },
+      "rating": 4.2,
+      "userRatingCount": 3381
     },
     {
       "name": "Katz Orange",
@@ -159,7 +177,9 @@
       "coordinates": {
         "lat": 52.5314438,
         "lng": 13.394624499999999
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 2867
     },
     {
       "name": "BRLO BRWHOUSE",
@@ -172,7 +192,9 @@
       "coordinates": {
         "lat": 52.500196599999995,
         "lng": 13.3737
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 4031
     }
   ],
   "hotels": [
@@ -187,7 +209,9 @@
       "coordinates": {
         "lat": 52.530603199999995,
         "lng": 13.4017216
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 515
     },
     {
       "name": "Hotel The YARD",
@@ -200,7 +224,9 @@
       "coordinates": {
         "lat": 52.4990895,
         "lng": 13.3997355
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 636
     }
   ],
   "tips": [
@@ -226,7 +252,9 @@
       "coordinates": {
         "lat": 52.540099,
         "lng": 13.4097855
-      }
+      },
+      "rating": 4.3,
+      "userRatingCount": 6247
     },
     {
       "name": "Freischwimmer",
@@ -236,7 +264,9 @@
       "coordinates": {
         "lat": 52.4973384,
         "lng": 13.4507506
-      }
+      },
+      "rating": 4.1,
+      "userRatingCount": 2853
     }
   ]
 }

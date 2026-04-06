@@ -20,7 +20,9 @@
       "coordinates": {
         "lat": 56.015335699999994,
         "lng": 23.416357899999998
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 11764
     },
     {
       "name": "Papst-Johannes-Paul-II-Kreuz",
@@ -34,7 +36,9 @@
       "coordinates": {
         "lat": 56.015335699999994,
         "lng": 23.416357899999998
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 11764
     }
   ],
   "restaurants": [],

@@ -20,7 +20,9 @@
       "coordinates": {
         "lat": 54.652402599999995,
         "lng": 24.933695999999998
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 29886
     },
     {
       "name": "Karäer-Gemeinschaft",
@@ -34,7 +36,9 @@
       "coordinates": {
         "lat": 54.64721290000001,
         "lng": 24.933287399999998
-      }
+      },
+      "rating": 4.2,
+      "userRatingCount": 133
     },
     {
       "name": "Galvė-See",
@@ -48,7 +52,9 @@
       "coordinates": {
         "lat": 54.661575899999995,
         "lng": 24.9342774
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 352
     }
   ],
   "restaurants": [
@@ -63,7 +69,9 @@
       "coordinates": {
         "lat": 54.6476421,
         "lng": 24.9335259
-      }
+      },
+      "rating": 4,
+      "userRatingCount": 2742
     }
   ],
   "hotels": [],

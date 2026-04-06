@@ -20,7 +20,9 @@
       "coordinates": {
         "lat": 55.705311599999995,
         "lng": 21.122730300000004
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 5669
     },
     {
       "name": "Fährhafen zur Kurischen Nehrung",
@@ -34,7 +36,9 @@
       "coordinates": {
         "lat": 55.685664599999996,
         "lng": 21.130498499999998
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 4301
     },
     {
       "name": "Smiltynė Meeresmuseum & Delfin-Show",
@@ -48,7 +52,9 @@
       "coordinates": {
         "lat": 55.716667699999995,
         "lng": 21.0997654
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 15785
     }
   ],
   "restaurants": [
@@ -63,7 +69,9 @@
       "coordinates": {
         "lat": 55.706980699999995,
         "lng": 21.1376886
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 2136
     },
     {
       "name": "Memelio Baras",
@@ -76,7 +84,9 @@
       "coordinates": {
         "lat": 55.683450099999995,
         "lng": 21.1506001
-      }
+      },
+      "rating": 4.2,
+      "userRatingCount": 67
     }
   ],
   "hotels": [
@@ -91,7 +101,9 @@
       "coordinates": {
         "lat": 55.7105937,
         "lng": 21.129342299999998
-      }
+      },
+      "rating": 4.1,
+      "userRatingCount": 3997
     }
   ],
   "tips": [

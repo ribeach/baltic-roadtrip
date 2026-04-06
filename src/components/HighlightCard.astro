@@ -1,4 +1,6 @@
 ---
+import RatingDisplay from './RatingDisplay.astro';
+
 interface Props {
   name: string;
   type: string;
@@ -9,9 +11,11 @@ interface Props {
   googleMapsUrl: string;
   number?: number;
   note?: string;
+  rating?: number;
+  userRatingCount?: number;
 }
 
-const { name, type, icon, description, duration, price, googleMapsUrl, number, note } = Astro.props;
+const { name, type, icon, description, duration, price, googleMapsUrl, number, note, rating, userRatingCount } = Astro.props;
 
 const iconMap = {
   star: '⭐',
@@ -55,6 +59,7 @@ const typeLabels: Record<string, string> = {
       <div class="flex items-center gap-3 text-xs text-gray-400">
         {duration && <span>🕐 {duration}</span>}
         {price && <span>💰 {price}</span>}
+        <RatingDisplay rating={rating} userRatingCount={userRatingCount} />
       </div>
       <a
         href={googleMapsUrl}

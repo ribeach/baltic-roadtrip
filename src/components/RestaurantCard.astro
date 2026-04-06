@@ -1,4 +1,6 @@
 ---
+import RatingDisplay from './RatingDisplay.astro';
+
 interface Props {
   name: string;
   cuisine: string;
@@ -8,9 +10,11 @@ interface Props {
   googleMapsUrl: string;
   number?: number;
   note?: string;
+  rating?: number;
+  userRatingCount?: number;
 }
 
-const { name, cuisine, priceRange, description, mustTry, googleMapsUrl, number, note } = Astro.props;
+const { name, cuisine, priceRange, description, mustTry, googleMapsUrl, number, note, rating, userRatingCount } = Astro.props;
 ---
 
 <div class="bg-paper rounded-xl border border-sand-200 hover:shadow-md transition-all overflow-hidden">
@@ -29,6 +33,7 @@ const { name, cuisine, priceRange, description, mustTry, googleMapsUrl, number, 
         <div class="flex items-center gap-2 mt-1">
           <span class="text-xs bg-sand-100 text-gray-600 px-2 py-0.5 rounded-full">{cuisine}</span>
           <span class="text-xs text-gray-400">{priceRange}</span>
+          <RatingDisplay rating={rating} userRatingCount={userRatingCount} />
         </div>
       </div>
       </div>

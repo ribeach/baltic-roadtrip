@@ -20,7 +20,9 @@
       "coordinates": {
         "lat": 59.4646379,
         "lng": 25.6387294
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 243
     },
     {
       "name": "Jägala Wasserfall",
@@ -34,7 +36,9 @@
       "coordinates": {
         "lat": 59.449800399999994,
         "lng": 25.1787507
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 7399
     },
     {
       "name": "Käsmu — Kapitänsdorf",
@@ -62,7 +66,9 @@
       "coordinates": {
         "lat": 59.567661699999995,
         "lng": 25.7810189
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 5670
     }
   ],
   "restaurants": [],

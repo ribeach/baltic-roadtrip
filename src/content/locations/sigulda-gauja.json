@@ -20,7 +20,9 @@
       "coordinates": {
         "lat": 57.1822685,
         "lng": 24.8502842
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 8014
     },
     {
       "name": "Gutmanis-Höhle",
@@ -34,7 +36,9 @@
       "coordinates": {
         "lat": 57.176168399999995,
         "lng": 24.8423584
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 5004
     },
     {
       "name": "Gauja-Tal Wanderwege",
@@ -48,7 +52,9 @@
       "coordinates": {
         "lat": 57.332055399999994,
         "lng": 25.2123009
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 11252
     },
     {
       "name": "Seilbahn über das Gauja-Tal",
@@ -62,7 +68,9 @@
       "coordinates": {
         "lat": 57.1644619,
         "lng": 24.8457093
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 1435
     },
     {
       "name": "Līgatne Geheimer Sowjetbunker",
@@ -76,7 +84,9 @@
       "coordinates": {
         "lat": 57.255855399999994,
         "lng": 25.069069400000004
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 1621
     }
   ],
   "restaurants": [
@@ -91,7 +101,9 @@
       "coordinates": {
         "lat": 57.1413228,
         "lng": 24.844258399999998
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 967
     }
   ],
   "hotels": [
@@ -106,7 +118,9 @@
       "coordinates": {
         "lat": 57.311258699999996,
         "lng": 25.230442099999998
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 520
     }
   ],
   "tips": [

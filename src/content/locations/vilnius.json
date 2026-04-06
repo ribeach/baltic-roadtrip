@@ -34,7 +34,9 @@
       "coordinates": {
         "lat": 54.6868341,
         "lng": 25.290697299999998
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 12624
     },
     {
       "name": "KGB-Museum (Museum der Okkupationen und Freiheitskämpfe)",
@@ -48,7 +50,9 @@
       "coordinates": {
         "lat": 54.6879376,
         "lng": 25.2704751
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 5408
     },
     {
       "name": "Republik Užupis",
@@ -62,7 +66,9 @@
       "coordinates": {
         "lat": 54.6800461,
         "lng": 25.2958005
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 2085
     },
     {
       "name": "Tor der Morgenröte (Aušros Vartai)",
@@ -76,7 +82,9 @@
       "coordinates": {
         "lat": 54.6743507,
         "lng": 25.289529599999998
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 14134
     },
     {
       "name": "Universität Vilnius",
@@ -90,7 +98,9 @@
       "coordinates": {
         "lat": 54.6825757,
         "lng": 25.2876469
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 814
     },
     {
       "name": "Literatenstraße (Literatų gatvė)",
@@ -104,7 +114,9 @@
       "coordinates": {
         "lat": 54.6822525,
         "lng": 25.2902835
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 157
     },
     {
       "name": "Pūčkoriai Aussichtspunkt",
@@ -118,7 +130,9 @@
       "coordinates": {
         "lat": 54.6922558,
         "lng": 25.352956799999998
-      }
+      },
+      "rating": 4.9,
+      "userRatingCount": 3259
     },
     {
       "name": "Lukiškės Gefängnis 2.0",
@@ -132,7 +146,9 @@
       "coordinates": {
         "lat": 54.6921057,
         "lng": 25.267252499999998
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 7318
     },
     {
       "name": "Halės Turgus",
@@ -146,7 +162,9 @@
       "coordinates": {
         "lat": 54.6736516,
         "lng": 25.2860853
-      }
+      },
+      "rating": 4.3,
+      "userRatingCount": 9932
     }
   ],
   "restaurants": [
@@ -161,7 +179,9 @@
       "coordinates": {
         "lat": 54.6819074,
         "lng": 25.287447999999998
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 1637
     },
     {
       "name": "Lokys (Der Bär)",
@@ -174,7 +194,9 @@
       "coordinates": {
         "lat": 54.6799344,
         "lng": 25.2863904
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 3967
     },
     {
       "name": "Senoji Trobelė",
@@ -187,7 +209,9 @@
       "coordinates": {
         "lat": 54.6745155,
         "lng": 25.2695649
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 4958
     },
     {
       "name": "Šnekutis",
@@ -200,7 +224,9 @@
       "coordinates": {
         "lat": 54.6778717,
         "lng": 25.2824831
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 5549
     }
   ],
   "hotels": [
@@ -215,7 +241,9 @@
       "coordinates": {
         "lat": 54.681852299999996,
         "lng": 25.289282099999998
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 629
     },
     {
       "name": "Shakespeare Boutique Hotel",
@@ -228,7 +256,9 @@
       "coordinates": {
         "lat": 54.683532,
         "lng": 25.291676
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 851
     },
     {
       "name": "Grotthuss Boutique Hotel",
@@ -241,7 +271,9 @@
       "coordinates": {
         "lat": 54.6762995,
         "lng": 25.282959800000004
-      }
+      },
+      "rating": 4.3,
+      "userRatingCount": 81
     }
   ],
   "tips": [
@@ -267,7 +299,9 @@
       "coordinates": {
         "lat": 54.6778717,
         "lng": 25.2824831
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 5549
     },
     {
       "name": "Alchemikas",
@@ -277,7 +311,9 @@
       "coordinates": {
         "lat": 54.683967599999995,
         "lng": 25.2788433
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 1428
     },
     {
       "name": "Bambalynė",
@@ -287,7 +323,9 @@
       "coordinates": {
         "lat": 54.6799663,
         "lng": 25.286578400000003
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 475
     }
   ]
 }

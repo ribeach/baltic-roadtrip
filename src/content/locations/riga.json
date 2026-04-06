@@ -34,7 +34,9 @@
       "coordinates": {
         "lat": 56.9595006,
         "lng": 24.1079011
-      }
+      },
+      "rating": 4.8,
+      "userRatingCount": 248
     },
     {
       "name": "Rigaer Jugendstil-Museum",
@@ -48,7 +50,9 @@
       "coordinates": {
         "lat": 56.95955790000001,
         "lng": 24.1084449
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 3574
     },
     {
       "name": "Rigaer Zentralmarkt",
@@ -62,7 +66,9 @@
       "coordinates": {
         "lat": 56.9438573,
         "lng": 24.1149982
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 53942
     },
     {
       "name": "Schwarzhäupterhaus",
@@ -76,7 +82,9 @@
       "coordinates": {
         "lat": 56.9471695,
         "lng": 24.106770599999997
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 12210
     },
     {
       "name": "Freiheitsdenkmal (Milda)",
@@ -90,7 +98,9 @@
       "coordinates": {
         "lat": 56.9514905,
         "lng": 24.1133043
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 11936
     },
     {
       "name": "Petrikirche — Turmaussicht",
@@ -104,7 +114,9 @@
       "coordinates": {
         "lat": 56.9474394,
         "lng": 24.1086532
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 7962
     },
     {
       "name": "Drei Brüder",
@@ -118,7 +130,9 @@
       "coordinates": {
         "lat": 56.950364,
         "lng": 24.1042986
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 5119
     },
     {
       "name": "Akademie der Wissenschaften — Aussichtsplattform",
@@ -132,7 +146,9 @@
       "coordinates": {
         "lat": 56.9432184,
         "lng": 24.1217819
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 724
     },
     {
       "name": "Großer Ķemeri-Moor-Steg (Jūrmala)",
@@ -146,7 +162,9 @@
       "coordinates": {
         "lat": 56.9125105,
         "lng": 23.4594399
-      }
+      },
+      "rating": 4.9,
+      "userRatingCount": 1157
     }
   ],
   "restaurants": [
@@ -161,7 +179,9 @@
       "coordinates": {
         "lat": 56.94608170000001,
         "lng": 24.107812
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 9002
     },
     {
       "name": "3 Pavāru Restorāns",
@@ -174,7 +194,9 @@
       "coordinates": {
         "lat": 56.951541999999996,
         "lng": 24.1078801
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 1325
     },
     {
       "name": "MĀSA",
@@ -187,7 +209,9 @@
       "coordinates": {
         "lat": 56.959059800000006,
         "lng": 24.112253199999998
-      }
+      },
+      "rating": 4.6,
+      "userRatingCount": 234
     },
     {
       "name": "Lido Vērmanītis",
@@ -200,7 +224,9 @@
       "coordinates": {
         "lat": 56.952872799999994,
         "lng": 24.119785699999998
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 9455
     }
   ],
   "hotels": [
@@ -215,7 +241,9 @@
       "coordinates": {
         "lat": 56.948319,
         "lng": 24.105454
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 916
     },
     {
       "name": "Boutique Hotel Justus",
@@ -228,7 +256,9 @@
       "coordinates": {
         "lat": 56.948354599999995,
         "lng": 24.1051622
-      }
+      },
+      "rating": 4.4,
+      "userRatingCount": 624
     }
   ],
   "tips": [
@@ -254,7 +284,9 @@
       "coordinates": {
         "lat": 56.948684300000004,
         "lng": 24.1088745
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 2265
     },
     {
       "name": "Gimlet Nordic Cocktail Bar",
@@ -264,7 +296,9 @@
       "coordinates": {
         "lat": 56.9587927,
         "lng": 24.1228183
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 434
     },
     {
       "name": "Labietis",
@@ -274,7 +308,9 @@
       "coordinates": {
         "lat": 56.9654552,
         "lng": 24.1306908
-      }
+      },
+      "rating": 4.7,
+      "userRatingCount": 2536
     },
     {
       "name": "Skyline Bar",
@@ -284,7 +320,9 @@
       "coordinates": {
         "lat": 56.954982699999995,
         "lng": 24.117929399999998
-      }
+      },
+      "rating": 4.5,
+      "userRatingCount": 6183
     }
   ]
 }
