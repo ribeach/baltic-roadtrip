@@ -24,7 +24,7 @@ All trip data lives in JSON files validated by Zod schemas defined in `src/conte
 
 - **days/** — 17 files (day-01.json to day-17.json): itinerary per day with driving info, EV charging status, activities
 - **locations/** — 17 files: city details with highlights, restaurants, hotels, tips, nightlife
-- **countries/** — 7 files: currency, EV charging infrastructure, driving rules, culinary info
+- **countries/** — 8 files: currency, EV charging infrastructure, driving rules, culinary info
 
 Collections reference each other: days → locations (via `locationId`), locations → countries (via `country`).
 
