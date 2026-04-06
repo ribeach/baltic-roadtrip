@@ -3,7 +3,6 @@ import '../styles/global.css';
 import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import { getBase } from '../lib/content';
-import { pwaInfo } from 'virtual:pwa-info';
 
 interface Props {
   title: string;
@@ -40,12 +39,6 @@ const ogImage = new URL(`${base}images/og-cover.png`, Astro.site);
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
     <meta name="theme-color" content="#F5F0EB" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Baltikum" />
-    <link rel="apple-touch-icon" href={`${base}apple-touch-icon-180x180.png`} />
-    <link rel="mask-icon" href={`${base}favicon.svg`} color="#e6a919" />
-    {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="dns-prefetch" href="https://maps.googleapis.com" />
@@ -59,9 +52,5 @@ const ogImage = new URL(`${base}images/og-cover.png`, Astro.site);
       <slot />
     </main>
     <Footer />
-    <script>
-      import { registerSW } from 'virtual:pwa-register';
-      registerSW({ immediate: true });
-    </script>
   </body>
 </html>
