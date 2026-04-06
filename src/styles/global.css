@@ -21,11 +21,23 @@
   --color-amber-600: #9c720f;
   --color-amber-700: #74550b;
 
+  --color-sand-50: #faf8f5;
+  --color-sand-100: #F5F0EB;
+  --color-sand-200: #E8E0D4;
+  --color-sand-300: #D9C6A3;
+
+  --color-paper: #FFFDF7;
+
+  --color-teal-500: #218182;
+  --color-teal-600: #1B6B6D;
+  --color-teal-700: #155758;
+
   --color-ev-green: #22c55e;
   --color-ev-yellow: #eab308;
   --color-ev-red: #ef4444;
 
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'DM Serif Display', Georgia, serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -37,10 +49,10 @@
 @layer base {
 
   body {
-    @apply bg-white text-navy-800 font-sans antialiased;
+    @apply bg-sand-100 text-navy-800 font-sans antialiased;
   }
 
   h1, h2, h3, h4 {
-    @apply font-bold tracking-tight;
+    @apply font-bold tracking-tight font-display;
   }
 }

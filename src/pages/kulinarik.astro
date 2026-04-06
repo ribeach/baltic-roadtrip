@@ -96,12 +96,12 @@ const mealCosts = [
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {fullDishes[country.data.id]?.map(dish => (
-            <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-md transition-shadow">
+            <div class="bg-paper rounded-xl border border-sand-200 p-5 hover:shadow-md transition-all">
               <div class="flex items-center gap-2 mb-2">
                 <span class="text-2xl">{dish.emoji}</span>
                 <h3 class="font-bold">
                   {dish.url ? (
-                    <a href={dish.url} target="_blank" rel="noopener noreferrer" class="text-navy-800 hover:text-amber-500 transition-colors">
+                    <a href={dish.url} target="_blank" rel="noopener noreferrer" class="text-navy-800 hover:text-teal-600 transition-colors">
                       {dish.name} ↗
                     </a>
                   ) : (
@@ -121,13 +121,13 @@ const mealCosts = [
       <h2 class="text-2xl font-bold text-navy-800 mb-4">🏪 Die großen Märkte</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         {marketHighlights.map(market => (
-          <div class="bg-amber-50 rounded-xl border border-amber-200 p-4">
+          <div class="bg-paper rounded-xl border border-amber-200 p-4">
             <div class="flex items-center gap-2 mb-2">
               <span class="text-2xl">{market.country}</span>
               <h3 class="font-bold text-navy-800">{market.name}</h3>
             </div>
             <p class="text-sm text-gray-600 mb-3">{market.description}</p>
-            <a href={market.url} target="_blank" rel="noopener noreferrer" class="text-xs text-amber-500 hover:text-amber-600 font-medium">
+            <a href={market.url} target="_blank" rel="noopener noreferrer" class="text-xs text-teal-600 hover:text-teal-700 font-medium">
               📍 Google Maps →
             </a>
           </div>
@@ -152,7 +152,7 @@ const mealCosts = [
           </thead>
           <tbody>
             {mealCosts.map((row, i) => (
-              <tr class:list={[i % 2 === 0 ? 'bg-gray-50' : 'bg-white']}>
+              <tr class:list={[i % 2 === 0 ? 'bg-sand-50' : 'bg-paper']}>
                 <td class="px-4 py-3 font-medium text-navy-800">{row.city}</td>
                 <td class="px-4 py-3">{row.lunch}</td>
                 <td class="px-4 py-3">{row.dinner}</td>
@@ -171,7 +171,7 @@ const mealCosts = [
       <h2 class="text-2xl font-bold text-navy-800 mb-4">🌍 Weitere Länder auf der Route</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         {otherCountries.map(country => (
-          <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4">
+          <div class="bg-paper rounded-xl border border-sand-200 p-4">
             <div class="flex items-center gap-2 mb-2">
               <span class="text-2xl">{country.data.flag}</span>
               <h3 class="font-bold text-navy-800">{country.data.name}</h3>
@@ -188,8 +188,8 @@ const mealCosts = [
     </section>
 
     <!-- Back -->
-    <div class="pt-8 border-t border-gray-100">
-      <a href={base} class="text-amber-500 hover:text-amber-600 font-medium transition-colors">
+    <div class="pt-8 border-t border-sand-200">
+      <a href={base} class="text-teal-600 hover:text-teal-700 font-medium transition-colors">
         ← Zurück zur Routenübersicht
       </a>
     </div>

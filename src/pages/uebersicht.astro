@@ -59,7 +59,7 @@ const modeEmoji = (mode: string) => {
           return (
             <a
               href={`${base}tag/${day.data.dayNumber}`}
-              class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-md hover:border-amber-200 transition-all group block"
+              class="bg-paper rounded-xl border border-sand-200 p-4 hover:shadow-md hover:-translate-y-0.5 transition-all group block"
             >
               <div class="flex items-start gap-3">
                 <span class="flex-shrink-0 w-9 h-9 rounded-full bg-amber-400 text-navy-800 font-bold text-sm flex items-center justify-center">
@@ -67,7 +67,7 @@ const modeEmoji = (mode: string) => {
                 </span>
                 <div class="min-w-0">
                   <p class="text-xs text-gray-400">{formatDate(day.data.date)}</p>
-                  <h3 class="font-semibold text-navy-800 group-hover:text-amber-500 transition-colors text-sm leading-tight">
+                  <h3 class="font-semibold text-navy-800 group-hover:text-teal-600 transition-colors text-sm leading-tight">
                     {day.data.title}
                   </h3>
                   {loc && <p class="text-xs text-gray-500 mt-1">📍 {loc.data.name}</p>}
@@ -96,9 +96,9 @@ const modeEmoji = (mode: string) => {
             {group.locations.map(loc => (
               <a
                 href={`${base}ort/${loc.data.id}`}
-                class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-md hover:border-amber-200 transition-all group block"
+                class="bg-paper rounded-xl border border-sand-200 p-4 hover:shadow-md hover:-translate-y-0.5 transition-all group block"
               >
-                <h4 class="font-semibold text-navy-800 group-hover:text-amber-500 transition-colors">
+                <h4 class="font-semibold text-navy-800 group-hover:text-teal-600 transition-colors">
                   {loc.data.name}
                 </h4>
                 <p class="text-xs text-gray-400 mt-1">
@@ -119,12 +119,12 @@ const modeEmoji = (mode: string) => {
         {infoPages.map(page => (
           <a
             href={page.href}
-            class="bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-md hover:border-amber-200 transition-all group block"
+            class="bg-paper rounded-xl border border-sand-200 p-4 hover:shadow-md hover:-translate-y-0.5 transition-all group block"
           >
             <div class="flex items-center gap-3">
               <span class="text-2xl">{page.emoji}</span>
               <div>
-                <h3 class="font-semibold text-navy-800 group-hover:text-amber-500 transition-colors">
+                <h3 class="font-semibold text-navy-800 group-hover:text-teal-600 transition-colors">
                   {page.label}
                 </h3>
                 <p class="text-xs text-gray-500 mt-0.5">{page.desc}</p>
@@ -135,8 +135,8 @@ const modeEmoji = (mode: string) => {
       </div>
     </section>
 
-    <div class="pt-8 border-t border-gray-100">
-      <a href={base} class="text-amber-500 hover:text-amber-600 font-medium transition-colors">
+    <div class="pt-8 border-t border-sand-200">
+      <a href={base} class="text-teal-600 hover:text-teal-700 font-medium transition-colors">
         ← Zurück zur Routenübersicht
       </a>
     </div>
