@@ -101,6 +101,22 @@
       },
       "rating": 4.6,
       "userRatingCount": 1925
+    },
+    {
+      "name": "Festung Boyen (Twierdza Boyen)",
+      "type": "castle",
+      "icon": "gem",
+      "description": "Gut erhaltene preußische Festung von 1844 auf der Landenge zwischen Niegocin- und Kisajno-See in Giżycko — strategisch angelegt, um die Masurische Seenplatte zu verteidigen. 15 km vom Hotel Zamek Ryn entfernt und thematisch ein spannender Kontrast zur Wolfsschanze.",
+      "duration": "1–1,5 Std.",
+      "price": "PLN 25 (~€6)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Boyen%20Fortress&query_place_id=ChIJQYceGwyI4UYRuQWFOIlde-U",
+      "placeId": "ChIJQYceGwyI4UYRuQWFOIlde-U",
+      "coordinates": {
+        "lat": 54.03416,
+        "lng": 21.749918299999997
+      },
+      "rating": 4.4,
+      "userRatingCount": 14109
     }
   ],
   "restaurants": [

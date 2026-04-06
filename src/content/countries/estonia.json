@@ -17,7 +17,7 @@
   "driving": {
     "speedLimits": { "urban": 50, "rural": 90, "motorway": 110 },
     "tolls": "Keine Maut.",
-    "specialRules": "Abblendlicht 24/7 Pflicht. ZWEI Warndreiecke vorgeschrieben! 0,2 ‰ Promillegrenze (strengste im Baltikum)."
+    "specialRules": "Abblendlicht 24/7 Pflicht. Warndreieck + Feuerlöscher + Unterlegkeil + Warnweste vorgeschrieben. 0,2 ‰ Promillegrenze (strengste im Baltikum)."
   },
   "culinary": {
     "mustTry": [

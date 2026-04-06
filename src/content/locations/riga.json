@@ -213,6 +213,22 @@
       },
       "rating": 4.3,
       "userRatingCount": 8344
+    },
+    {
+      "name": "Stūra māja (Corner House) — KGB-Museum",
+      "type": "soviet",
+      "icon": "star",
+      "description": "Die ehemalige KGB-Zentrale Lettlands mit originalerhaltenen Verhörzellen und Gefängnistrakten im Keller. Stündliche englische Führungen zeigen die Mechanismen der Sowjet-Repression. Ein wichtiger Erinnerungsort, betrieben vom Museum der Okkupation Lettlands.",
+      "duration": "1–1,5 Std.",
+      "price": "~€15 (mit Führung)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Corner%20House&query_place_id=ChIJ598uC8zP7kYRzbrg8afceGA",
+      "placeId": "ChIJ598uC8zP7kYRzbrg8afceGA",
+      "coordinates": {
+        "lat": 56.958144999999995,
+        "lng": 24.124124
+      },
+      "rating": 4.4,
+      "userRatingCount": 3736
     }
   ],
   "restaurants": [

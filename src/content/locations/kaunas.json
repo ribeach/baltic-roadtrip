@@ -6,7 +6,7 @@
     "lat": 54.8985,
     "lng": 23.9036
   },
-  "description": "Litauens zweitgrößte Stadt war in der Zwischenkriegszeit die provisorische Hauptstadt und verbindet Art-Déco-Charme mit einigen der emotional intensivsten Gedenkstätten des Baltikums. Die längste Fußgängerzone Europas durchzieht das lebhafte Zentrum.",
+  "description": "Litauens zweitgrößte Stadt war in der Zwischenkriegszeit die provisorische Hauptstadt und verbindet Art-Déco-Charme mit einigen der emotional intensivsten Gedenkstätten des Baltikums. Eine der längsten Fußgängerzonen Europas durchzieht das lebhafte Zentrum.",
   "highlights": [
     {
       "name": "Neuntes Fort",
@@ -85,6 +85,22 @@
       },
       "rating": 4.7,
       "userRatingCount": 1483
+    },
+    {
+      "name": "Pažaislis-Kloster",
+      "type": "church",
+      "icon": "gem",
+      "description": "Eines der schönsten Barockensembles Nordosteuropas — das Kloster liegt malerisch am Kaunas-Stausee, 15 Minuten vom Zentrum. Die Kirche mit ihren Fresken und Marmorsäulen ist ein architektonischer Kontrast zum schweren Erbe der Stadt.",
+      "duration": "1–1,5 Std.",
+      "price": "~€5",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pa%C5%BEaislis%20Monastery%20and%20Church&query_place_id=ChIJqaC-cAAY50YREQHA6mF2a0I",
+      "placeId": "ChIJqaC-cAAY50YREQHA6mF2a0I",
+      "coordinates": {
+        "lat": 54.8762859,
+        "lng": 24.022278099999998
+      },
+      "rating": 4.7,
+      "userRatingCount": 5378
     }
   ],
   "restaurants": [],

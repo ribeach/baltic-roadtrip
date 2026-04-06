@@ -197,6 +197,22 @@
       },
       "rating": 4.6,
       "userRatingCount": 3931
+    },
+    {
+      "name": "Hügel der drei Kreuze (Trijų Kryžių kalnas)",
+      "type": "monument",
+      "icon": "star",
+      "description": "Drei weiße Kreuze auf einem Hügel über der Altstadt — ein Symbol des litauischen Widerstands. Die Sowjets sprengten die Originale 1950, 1989 wurden sie als Zeichen der Unabhängigkeit neu errichtet. Der Panoramablick ist sogar besser als vom Gediminas-Turm, weil dieser selbst im Bild ist. 15 Min. Aufstieg vom Bernardinergarten.",
+      "duration": "30–45 Min.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Three%20Crosses%20Monument&query_place_id=ChIJUWJBoCKU3UYR4j0F93YDxxc",
+      "placeId": "ChIJUWJBoCKU3UYR4j0F93YDxxc",
+      "coordinates": {
+        "lat": 54.6867879,
+        "lng": 25.2975748
+      },
+      "rating": 4.7,
+      "userRatingCount": 5461
     }
   ],
   "restaurants": [
