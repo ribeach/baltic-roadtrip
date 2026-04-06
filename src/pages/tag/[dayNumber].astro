@@ -163,6 +163,7 @@ const cityMapLocations = showCityMap ? [{
           pois={dayPois}
           apiKey={apiKey}
           height="300px"
+          polylines={day.driving?.encodedPolyline ? [day.driving.encodedPolyline] : undefined}
         />
         <noscript>
           <div class="bg-gray-100 rounded-xl p-6 text-center text-gray-600">

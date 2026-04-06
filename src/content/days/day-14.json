@@ -6,13 +6,18 @@
   "locationId": "turku",
   "previousLocationId": "tallinn",
   "overnightLocationId": null,
-  "additionalLocationIds": ["helsinki"],
-  "transitLocationIds": ["helsinki"],
+  "additionalLocationIds": [
+    "helsinki"
+  ],
+  "transitLocationIds": [
+    "helsinki"
+  ],
   "driving": {
     "distance": "170 km",
     "duration": "2:00",
     "mode": "drive",
-    "routeDescription": "Frühfähre Tallinn→Helsinki (2 Std., Auto an Bord). Dann über die E18 Helsinki→Turku (170 km, 2 Std.). Abends Viking Line Nachtfähre Turku→Stockholm (20:55 Uhr, Ankunft 07:30)."
+    "routeDescription": "Frühfähre Tallinn→Helsinki (2 Std., Auto an Bord). Dann über die E18 Helsinki→Turku (170 km, 2 Std.). Abends Viking Line Nachtfähre Turku→Stockholm (20:55 Uhr, Ankunft 07:30).",
+    "encodedPolyline": "{wwiJmravCWiFs@vCgTyA|DmTa@yd@oTufBmBkFyDhEhIx`AkBO}a@{v@}NuNuk@lDquEz}A_bBfdAs~HtkFc}F`yDa_@~Luw@gBwz@gd@gjNukM}~AuvAojOgxJ_zDo~@ym`@moF}fLs_BeaLi`@onAokA_EjAsB`@gJeKmBMiGsC_C|BsZTcBuAoAgAgCxD}I~AsQDqHc\\aJmg@b@ui@zC~@lHhYpFfRY~ANz@xDpAjDpSzBrJ~A|~@kElV{Hln@lP`aD~JjsAu^vkDoL`vBdEh`DxCzxBpGd}AeBnYyEnAiLgEa]uKyOfCgRpSyU~MoQ~A{PjJ_YnTsTcGmX{LcVpCMgLrG`V|NvaAfHxpBsBli@kMxs@k_@rlAifAlcGg`@vzEuKr}@qKzq@m_@b|@oWdWg^~z@_Lzs@mL|yAog@`}C{FxfAqNr|@kNpm@sXvk@iTxjA{SnfAsPxs@_[~]kRxh@oSvgBqT`fAqE~n@sLxkAaJ`r@m@rc@FdqAeExuAxGdwAlFvk@]tb@_OfcAae@vzCyMvkBbCznB~Dl~@xFloAgAl`@aH`jACxrAfK`aAh]hpAzo@nhCfLtfAhEzjAxH`bC{ExtAeY|tAae@jmBun@voAaXhhA{ShiBcVv`CsA~o@iDfxAgP|}@o[~m@aUjjAuVt~As_@dg@sS~TqRnb@eV`cAee@phAwd@ng@i_@je@e_@`iA_Kjs@{Hh|AoHxdAsNnq@yPz`A}D|q@kFtzA}JbrA}DhdAbAn~@pI|lAbMvuBnLlcA|P|w@zSfpAzDnfAn@jtBwGr_A{^f}A_[tpAeUvbBgMlqAgSj}@gO`sA}HhoCvDtlEhSntA|Uro@vNxu@vCh_@KruBuCjzCtBtlAfFhw@n[`rBdQfuBu@nxBqHnaBwQn{BkO|v@{f@|_BiOjiAoMzjBuNdcAqWpnAsXd_Cy\\vyAu`@noCmZr}BuLt_B\\z`CtEbnC{E|nBaUdsBgThhCqGps@qE`|AsE~yAiXpkDkObzD`L|aDfR`sD`KtgCJ`qDa@pwAtFthBvFriBxKj_AjEpkAwE`xCmUrvDnElhBpQdoBn@`aAqLd_BmVdbAyTvi@w\\vvBcY`kBcFpoDcNjmD~@rjA_FziAkDpy@fAhiArTliCrQv`BrFph@lQzs@|h@|gBpRzaArHxw@bBjnCNf~AnEteAnEh_BcClgA}KdfAaXbr@ydAtiAqx@dbB{\\hg@aUtQoQf^fGxc@Qrf@DvWnGnRpApFf@vBfBcBrFqIrDgGtJrWzD_G"
   },
   "evCharging": {
     "stopsNeeded": 0,
@@ -21,14 +26,32 @@
   },
   "activities": [
     "Frühfähre Tallinn→Helsinki (07:30 Uhr, ~2 Std., Eckerö Line oder Tallink) — Auto an Bord, Frühstück auf der Fähre",
-    { "highlightRef": "Marktplatz & Alte Markthalle (Vanha Kauppahalli)", "note": "Ankunft Helsinki ~09:30 — Lachssuppe zum zweiten Frühstück" },
-    { "highlightRef": "Felsenkirche Temppeliaukio", "note": "In den Fels gesprengte Kirche — einzigartig, 30 Min. reichen" },
-    { "highlightRef": "Dom von Helsinki", "note": "Kurzer Fotostopp am Senatsplatz" },
+    {
+      "highlightRef": "Marktplatz & Alte Markthalle (Vanha Kauppahalli)",
+      "note": "Ankunft Helsinki ~09:30 — Lachssuppe zum zweiten Frühstück"
+    },
+    {
+      "highlightRef": "Felsenkirche Temppeliaukio",
+      "note": "In den Fels gesprengte Kirche — einzigartig, 30 Min. reichen"
+    },
+    {
+      "highlightRef": "Dom von Helsinki",
+      "note": "Kurzer Fotostopp am Senatsplatz"
+    },
     "PACING-TIPP: Helsinki und Turku an einem Tag ist sportlich — bei Zeitdruck Helsinki auf Markthalle + Felsenkirche beschränken",
     "Fahrt Helsinki→Turku über die E18 (170 km, ~2 Std.) — Bilderbuch-Finnland mit Seen und Birkenwäldern",
-    { "highlightRef": "Burg von Turku", "note": "Finnlands älteste Burg aus dem 13. Jh. — unbedingt 1,5–2 Stunden einplanen" },
-    { "highlightRef": "Dom von Turku", "note": "Finnlands bedeutendste mittelalterliche Kirche, 10 Min. Fußweg von der Burg" },
-    { "highlightRef": "Aura-Fluss Promenade", "note": "Abendspaziergang und Dinner an den Restaurantbooten" },
+    {
+      "highlightRef": "Burg von Turku",
+      "note": "Finnlands älteste Burg aus dem 13. Jh. — unbedingt 1,5–2 Stunden einplanen"
+    },
+    {
+      "highlightRef": "Dom von Turku",
+      "note": "Finnlands bedeutendste mittelalterliche Kirche, 10 Min. Fußweg von der Burg"
+    },
+    {
+      "highlightRef": "Aura-Fluss Promenade",
+      "note": "Abendspaziergang und Dinner an den Restaurantbooten"
+    },
     "20:55 Uhr Viking Line Nachtfähre Turku→Stockholm — Kabinennacht durch den Turku-Archipel (20.000 Inseln!)"
   ]
 }

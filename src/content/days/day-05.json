@@ -10,7 +10,8 @@
     "distance": "300 km",
     "duration": "3:30",
     "mode": "drive",
-    "routeDescription": "Über die S7 Richtung Elbląg, dann durch die masurische Seenplatte nach Ryn. Landschaftlich wunderschön — Seen, Wälder, Störche auf den Dächern. Deutlich entspannter als die alte 600-km-Etappe direkt nach Vilnius."
+    "routeDescription": "Über die S7 Richtung Elbląg, dann durch die masurische Seenplatte nach Ryn. Landschaftlich wunderschön — Seen, Wälder, Störche auf den Dächern. Deutlich entspannter als die alte 600-km-Etappe direkt nach Vilnius.",
+    "encodedPolyline": "asvjIo|xpBhZhFfSelBqD{\\sPcLcE_aAs@w|ArGeNb^p@dl@_]fhAoPjj@~CgCvMkFsHiLakAdDcoBl`Cs_NfdAuvCpaB}kGdt@odDva@ifEtWqnDn_@clCpb@exA|Z{rB|j@uwCfw@mhCdr@{eErOm`@do@sg@t\\kh@jTgpAro@{bF`_@mdAlb@mq@dWeeArGwkAvl@sqEtFadH{@srFfGmiCvX{}@`h@ub@d[uo@h|@ymFnPkqBiH{aAeD_l@bN}c@hz@{k@f^{n@jcA_wBbVgjBl\\u{Ek@e|@rRew@ja@g~@tGs~@bI}wAze@uz@fhAgvAnu@sn@hy@ikAhb@y|@nc@gpAdWax@x`@}]f|AwErw@a\\n}@_o@luAso@jnAqIbbB|Cjf@|D`h@_LhwAcbAhcAkjAxj@s]~eA{h@zl@yGdr@wAvs@gR|iBijAdjA{Snu@cm@rTg[|eAqlA|}@e^fy@mm@hoBaaAfm@elArg@w~DvHcYv\\ib@x`@iZnXsp@ty@{yBp^}hAtzA}qGnOob@t^aZ~Uy[|Jsf@`SqhAjXu[bWwCrp@qc@ra@uj@va@kpBd\\ev@pf@iItbApQ~d@{CbM}Gx^aq@|s@w`Bbc@s]n{@g]~aAch@xm@ur@vm@{sArc@m}BrIclB?{_BnK_y@zi@s|C{BauBaW}nCsCkgCpTwbBxOiYtHyFcCeE{QfC_k@m]uo@wrAi]eqEkZazAyg@ilAqd@ab@utAaoCidCyiE{oAmaAog@mT}n@iHc`Aai@_j@kJ{w@cb@mc@sf@|@}[lm@c_AxYgsA_EynB_IoxAo@aoA}]_v@kj@_f@}_@_cAey@{q@woAec@kq@wKoc@`BqdA_o@mq@i`Ack@g_BsGidCoKa`@gZmT}u@qiA}{@i|A}^wb@mVgo@kd@wtC_n@o~@gV}|BwSq~Cy@afBxSg}Atf@qxA`QudAzOc}BuOi~Cl@saAdSudBuRo}AsYwhEiD{yAch@muAqb@svAeSssAb@wdAtM{z@rb@{iDhb@azBtUwgDdBwkBqRgeBcn@q}DeU{bCj[e}EjBocBeMm}B^ccBud@wwAa^{rAvAwpBtFu[ce@{B_a@~Qi\\rIaWcKaVij@ad@qtBuT{q@Bc_AzSckAOipBeWstAz@k\\|JgT}E_o@_Dw~AqIm^lB{WeO{Y{CyFkJtG_P~H}P{d@ae@yg@}SiPcPai@cIep@cTa^oSe[{n@q~Aub@ixBgFihAoPkjA_QwLdAm]|CsnBgKgnAvAyK@oM{FcDh@fS"
   },
   "evCharging": {
     "stopsNeeded": 1,
@@ -21,8 +22,17 @@
     "Aufbruch aus Danzig am Vormittag — heute geht es gemütlich zu",
     "OPTIONAL: Marienburg/Malbork (30 km Umweg ab Elbląg) — die größte Backsteinburg der Welt, UNESCO-Welterbe. Nur bei frühem Aufbruch, 2–3 Stunden einplanen",
     "Fahrt durch Masurens stille Weite: Seen, Kiefernwälder, Störche auf jedem Dach",
-    { "highlightRef": "Hotel Zamek Ryn (Ordensburg)", "note": "Ankunft am frühen Nachmittag — Rundgang durch die gotischen Gewölbe" },
-    { "highlightRef": "Masurische Seenplatte", "note": "Nachmittagsspaziergang am Ufer des Ryńskie-Sees" },
-    { "restaurantRef": "Restauracja Zamkowa (Refektarz)", "note": "Polnische Küche unter gotischen Bögen" }
+    {
+      "highlightRef": "Hotel Zamek Ryn (Ordensburg)",
+      "note": "Ankunft am frühen Nachmittag — Rundgang durch die gotischen Gewölbe"
+    },
+    {
+      "highlightRef": "Masurische Seenplatte",
+      "note": "Nachmittagsspaziergang am Ufer des Ryńskie-Sees"
+    },
+    {
+      "restaurantRef": "Restauracja Zamkowa (Refektarz)",
+      "note": "Polnische Küche unter gotischen Bögen"
+    }
   ]
 }

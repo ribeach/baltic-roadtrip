@@ -19,6 +19,31 @@ interface POI {
   placeId?: string;
 }
 
+function decodePolyline(encoded: string): Array<{ lat: number; lng: number }> {
+  const points: Array<{ lat: number; lng: number }> = [];
+  let index = 0;
+  let lat = 0;
+  let lng = 0;
+
+  while (index < encoded.length) {
+    for (const target of ['lat', 'lng'] as const) {
+      let shift = 0;
+      let result = 0;
+      let byte: number;
+      do {
+        byte = encoded.charCodeAt(index++) - 63;
+        result |= (byte & 0x1f) << shift;
+        shift += 5;
+      } while (byte >= 0x20);
+      const delta = result & 1 ? ~(result >> 1) : result >> 1;
+      if (target === 'lat') lat += delta;
+      else lng += delta;
+    }
+    points.push({ lat: lat / 1e5, lng: lng / 1e5 });
+  }
+  return points;
+}
+
 const POI_STYLES: Record<POI['category'], { background: string; border: string; glyph: string }> = {
   highlight: { background: '#e6a919', border: '#b8860b', glyph: '\u2605' },   // ★
   restaurant: { background: '#22c55e', border: '#16a34a', glyph: '\uD83C\uDF74' }, // 🍴
@@ -33,13 +58,14 @@ interface Props {
   zoom?: number;
   center?: { lat: number; lng: number };
   pois?: POI[];
+  polylines?: string[];
 }
 
-export default function RouteMap({ locations, apiKey, height = '500px', zoom, center, pois = [] }: Props) {
+export default function RouteMap({ locations, apiKey, height = '500px', zoom, center, pois = [], polylines = [] }: Props) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<google.maps.Map | null>(null);
   const markersRef = useRef<google.maps.marker.AdvancedMarkerElement[]>([]);
-  const polylineRef = useRef<google.maps.Polyline | null>(null);
+  const polylinesRef = useRef<google.maps.Polyline[]>([]);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -47,6 +73,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
   const locationsKey = useMemo(() => JSON.stringify(locations), [locations]);
   const poisKey = useMemo(() => JSON.stringify(pois), [pois]);
   const centerKey = useMemo(() => JSON.stringify(center), [center]);
+  const polylinesKey = useMemo(() => JSON.stringify(polylines), [polylines]);
 
   useEffect(() => {
     if (!apiKey || apiKey === 'DEIN_API_KEY_HIER') {
@@ -81,11 +108,11 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
         const { Map, InfoWindow, Polyline } = mapsLib;
         const { AdvancedMarkerElement, PinElement } = markerLib;
 
-        // Clean up previous markers and polyline
+        // Clean up previous markers and polylines
         markersRef.current.forEach(m => { m.map = null; });
         markersRef.current = [];
-        polylineRef.current?.setMap(null);
-        polylineRef.current = null;
+        polylinesRef.current.forEach(p => p.setMap(null));
+        polylinesRef.current = [];
 
         const bounds = new google.maps.LatLngBounds();
         locations.forEach(loc => bounds.extend({ lat: loc.lat, lng: loc.lng }));
@@ -174,16 +201,27 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           markersRef.current.push(marker);
         });
 
-        // Route polyline
-        if (locations.length > 1) {
-          polylineRef.current = new Polyline({
+        // Route polylines
+        if (polylines.length > 0) {
+          for (const encoded of polylines) {
+            const path = decodePolyline(encoded);
+            polylinesRef.current.push(new Polyline({
+              path,
+              strokeColor: '#1a1a2e',
+              strokeOpacity: 0.7,
+              strokeWeight: 3,
+              map,
+            }));
+          }
+        } else if (locations.length > 1) {
+          polylinesRef.current.push(new Polyline({
             path: locations.map(loc => ({ lat: loc.lat, lng: loc.lng })),
             geodesic: true,
             strokeColor: '#1a1a2e',
             strokeOpacity: 0.7,
             strokeWeight: 3,
             map,
-          });
+          }));
         }
 
         // POI markers with PinElement pins and Places UI Kit info cards
@@ -266,10 +304,10 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
       cancelled = true;
       markersRef.current.forEach(m => { m.map = null; });
       markersRef.current = [];
-      polylineRef.current?.setMap(null);
-      polylineRef.current = null;
+      polylinesRef.current.forEach(p => p.setMap(null));
+      polylinesRef.current = [];
     };
-  }, [apiKey, locationsKey, zoom, centerKey, poisKey]);
+  }, [apiKey, locationsKey, zoom, centerKey, poisKey, polylinesKey]);
 
   if (error) {
     return (

@@ -10,7 +10,8 @@
     "distance": "560 km",
     "duration": "5:30",
     "mode": "drive",
-    "routeDescription": "Über die A7 Richtung Würzburg, dann A9 durch Franken und Thüringen direkt nach Berlin. Gut ausgebaute Autobahnstrecke mit zuverlässiger Ladeinfrastruktur."
+    "routeDescription": "Über die A7 Richtung Würzburg, dann A9 durch Franken und Thüringen direkt nach Berlin. Gut ausgebaute Autobahnstrecke mit zuverlässiger Ladeinfrastruktur.",
+    "encodedPolyline": "eqaiHgcr|@cjBgt@anBwoAkyAq|D~A{jC{cBoiBqwBedAerCdT{iCn_@k{Be{@wrC}CwdBdIerAtfAq`A~c@is@_PgzByqCgnCmiAsjBgdCkbAssCoaDu[kiC~nCy|Bje@qxAujBywA_nDkbBwwPs_AcnFbImqFwG}bFmfAabFpmAk{OdDogE}r@yzDiw@o|DaaCiaEwsAecDwQozBea@moIo[eiGp}@gdGdBwyGsZ{hHqoAemFukBm{Ca{A{zE{xBkuCcjA_tBaa@u`DsKqeBm[wg@kg@bQugAqXwiAolAyuCccDsaFacFc`FmlFm}Cmv@kvBceA}{BieC}kBkqA}x@k~CmuBi`E_}AmhBeuAq~Cy`DfCktAb@{dBuyAed@yaCk|@ysAsvDxs@o|Beb@msAfwB}aAco@m|AjIcqAuWivAmkAo_Ciw@o\\ubCya@wtAq@euCgTgjAghAif@oiCqPydEoUk|BtJ{nFsNwkB~OirCwhA}pAwIkv@{jAu^{vC_pCavGy`EwaGmvBuf@upC}CqjFubEadBlDug@jLoy@_g@skB{}AgkCkrAcoB|a@{oDpgBynBtLqjAtd@qcBw~@gnApaBc\\f`Aer@dH{~@cxAocB}dBqcBos@ikBjIstA_HquBf@{t@t}@sxAmc@gwCa`@gaA~fAgwAldAmeAhc@{bFeiBk`FgnAsvIanGgoAwXeqAp[eqCywBsuBknAccAypAeqCgOy`B`mAocDxoCehGz|AczEne@k~Bz[qwBqbDucA_v@w`@u`C}i@c}BkgAkz@okD{hBqzCyy@gjC{{@ywD_AqpCoe@wjBy}AojGeuEceEcdEe|BozBywCuyEm~Ew`IqbBozAkbBqsAqbC}`AufCfKuqBp`@wiIqqDqbCml@{y@pK}zBpiAk{Gf{@ugCh]knA_Rg|Anb@qkC}PgxCy}@ehJqiAigHghAa{B}_B{xBeeE}_EweE_gCg`CekA}s@ex@uiBelB}{F{dDusCesBs{DqiCs}@gnAcb@}jAg{B}yBglJkoDmbGejBewEw`BupD_mAqjAotBsxAmaCqeEudEoiIw}B{oCkv@e_Aqs@qqCwc@wqCumB}`E}n@}_ConAeuAuqCc_CioAn^}qB~Ug}Bij@me@qvB{u@soFhJmxMmA}{E{cCcgB_`B}}EggC}Va|DyrBkeAqjDqv@q|@qp@@iaAl^e|AmrAkcFgyG_bBqzB}Ug`AvhCcuFdVwaEjXerC}IsfA}~Au@mqA{u@{gAos@_Zcb@{T`W"
   },
   "evCharging": {
     "stopsNeeded": 2,
