@@ -314,7 +314,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
       <div
         role="alert"
         style={{ height }}
-        className="bg-gray-100 rounded-xl flex flex-col items-center justify-center text-gray-500 border border-gray-200"
+        className="bg-paper rounded-xl flex flex-col items-center justify-center text-gray-500 border border-sand-200"
       >
         <span className="text-4xl mb-2" aria-hidden="true">🗺️</span>
         <p className="text-sm font-medium">{error}</p>
@@ -323,7 +323,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           href={`https://www.google.com/maps/dir/${locations.map(l => `${l.lat},${l.lng}`).join('/')}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-3 text-sm text-amber-500 hover:text-amber-600 font-medium"
+          className="mt-3 text-sm text-teal-600 hover:text-teal-700 font-medium"
         >
           Route in Google Maps öffnen →
         </a>
@@ -333,7 +333,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
 
   return (
     <div
-      className="relative rounded-xl overflow-hidden border border-gray-200 shadow-md"
+      className="relative rounded-xl overflow-hidden border border-sand-200 shadow-sm"
       aria-label="Interaktive Karte der Reiseroute"
     >
       <div ref={mapRef} style={{ height, width: '100%' }} />
@@ -342,7 +342,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           role="status"
           aria-live="polite"
           style={{ height }}
-          className="absolute inset-0 bg-gray-100 flex items-center justify-center"
+          className="absolute inset-0 bg-sand-100 flex items-center justify-center"
         >
           <div className="animate-pulse text-gray-400">Karte wird geladen...</div>
         </div>

@@ -83,26 +83,31 @@ const stats = [
   <section class="relative bg-navy-800 text-white overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 opacity-90"></div>
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-      <div class="text-center">
+      <div class="max-w-3xl">
         <p class="text-amber-400 font-medium text-sm uppercase tracking-widest mb-3">30. April – 16. Mai 2026</p>
-        <h1 class="text-4xl md:text-6xl font-extrabold mb-4">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-4 font-display">
           Baltikum Roadtrip
           <span class="text-amber-400"> ⚡</span>
         </h1>
-        <p class="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto mb-6">
+        <p class="text-xl md:text-2xl text-gray-300 mb-6">
           Mit dem VW ID.4 durch acht Länder — von den Dünen der Kurischen Nehrung bis zu den mittelalterlichen Gassen Tallinns.
         </p>
-        <p class="text-gray-400 max-w-2xl mx-auto">
-          Aalen → Berlin → Danzig → Masuren → Vilnius → Klaipėda → Riga → Tallinn → Helsinki → Turku → Stockholm → Halmstad → Aalen
+        <p class="text-sm text-gray-400 flex flex-wrap gap-x-1 gap-y-1">
+          {['Aalen', 'Berlin', 'Danzig', 'Masuren', 'Vilnius', 'Klaipėda', 'Riga', 'Tallinn', 'Helsinki', 'Turku', 'Stockholm', 'Halmstad', 'Aalen'].map((city, i, arr) => (
+            <span class="inline-flex items-center">
+              <span class="bg-navy-700 px-2 py-0.5 rounded-full text-gray-300 text-xs">{city}</span>
+              {i < arr.length - 1 && <span class="text-amber-400 mx-0.5">→</span>}
+            </span>
+          ))}
         </p>
       </div>
 
       <!-- Stats Bar -->
-      <div class="mt-12 grid grid-cols-5 gap-4 max-w-2xl mx-auto">
+      <div class="mt-12 flex flex-wrap gap-3 max-w-3xl">
         {stats.map(stat => (
-          <div class="text-center">
-            <div class="text-2xl md:text-3xl font-extrabold text-amber-400">{stat.value}</div>
-            <div class="text-xs md:text-sm text-gray-400 mt-1">{stat.label}</div>
+          <div class="bg-teal-600 text-white px-4 py-2 rounded-full flex items-center gap-2">
+            <span class="text-lg md:text-xl font-extrabold">{stat.value}</span>
+            <span class="text-xs md:text-sm text-teal-100">{stat.label}</span>
           </div>
         ))}
       </div>
@@ -119,13 +124,13 @@ const stats = [
       polylines={routePolylines.length > 0 ? routePolylines : undefined}
     />
     <noscript>
-      <div class="bg-gray-100 rounded-xl p-8 text-center text-gray-500">
+      <div class="bg-paper rounded-xl p-8 text-center text-gray-500 border border-sand-200">
         <p>Aktiviere JavaScript, um die interaktive Karte zu sehen.</p>
         <a
           href={`https://www.google.com/maps/dir/${mapLocations.map(l => `${l.lat},${l.lng}`).join('/')}`}
           target="_blank"
           rel="noopener noreferrer"
-          class="text-amber-500 hover:text-amber-600 font-medium mt-2 inline-block"
+          class="text-teal-600 hover:text-teal-700 font-medium mt-2 inline-block"
         >
           Route in Google Maps öffnen →
         </a>
@@ -136,26 +141,26 @@ const stats = [
   <!-- Quick Navigation -->
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-      <a href={`${base}kulinarik`} class="group bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-amber-200 transition-all">
+      <a href={`${base}kulinarik`} class="group bg-paper rounded-xl border-l-4 border-l-amber-400 border border-sand-200 p-6 hover:-translate-y-0.5 hover:shadow-md transition-all">
         <span class="text-3xl">🍽️</span>
-        <h3 class="font-bold text-navy-800 mt-2 group-hover:text-amber-500 transition-colors">Kulinarischer Guide</h3>
+        <h3 class="font-bold text-navy-800 mt-2 group-hover:text-teal-600 transition-colors">Kulinarischer Guide</h3>
         <p class="text-sm text-gray-500 mt-1">Must-Try-Gerichte in jedem Land</p>
       </a>
-      <a href={`${base}praktisches`} class="group bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-amber-200 transition-all">
+      <a href={`${base}praktisches`} class="group bg-paper rounded-xl border-l-4 border-l-teal-600 border border-sand-200 p-6 hover:-translate-y-0.5 hover:shadow-md transition-all">
         <span class="text-3xl">⚡</span>
-        <h3 class="font-bold text-navy-800 mt-2 group-hover:text-amber-500 transition-colors">Praktische Infos</h3>
+        <h3 class="font-bold text-navy-800 mt-2 group-hover:text-teal-600 transition-colors">Praktische Infos</h3>
         <p class="text-sm text-gray-500 mt-1">E-Laden, Maut, Geschwindigkeit, Währungen</p>
       </a>
-      <a href={`${base}budget`} class="group bg-white rounded-xl shadow-sm border border-gray-100 p-6 hover:shadow-md hover:border-amber-200 transition-all">
+      <a href={`${base}budget`} class="group bg-paper rounded-xl border-l-4 border-l-navy-600 border border-sand-200 p-6 hover:-translate-y-0.5 hover:shadow-md transition-all">
         <span class="text-3xl">💰</span>
-        <h3 class="font-bold text-navy-800 mt-2 group-hover:text-amber-500 transition-colors">Budget</h3>
+        <h3 class="font-bold text-navy-800 mt-2 group-hover:text-teal-600 transition-colors">Budget</h3>
         <p class="text-sm text-gray-500 mt-1">Kostenschätzung pro Person und Land</p>
       </a>
     </div>
   </section>
 
   <!-- Day-by-Day Timeline -->
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 mb-16">
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20 mb-20">
     <div class="text-center mb-12">
       <h2 class="text-3xl font-extrabold text-navy-800">Tag für Tag</h2>
       <p class="text-gray-500 mt-2">17 Tage, von Schwaben bis Skandinavien und zurück</p>
@@ -164,7 +169,7 @@ const stats = [
     <!-- Timeline -->
     <div class="relative">
       <!-- Vertical line -->
-      <div class="absolute left-6 md:left-1/2 top-0 bottom-0 w-0.5 bg-navy-200"></div>
+      <div class="absolute left-6 md:left-1/2 top-0 bottom-0 w-0.5 bg-sand-300"></div>
 
       <div class="space-y-8">
         {days.map((day, i) => (

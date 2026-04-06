@@ -10,7 +10,7 @@ interface Props {
 const { name, description, googleMapsUrl, number, note } = Astro.props;
 ---
 
-<div class="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow p-4">
+<div class="bg-paper rounded-xl border border-sand-200 hover:shadow-md transition-all p-5">
   <div class="flex items-start gap-2">
     {number && (
       <span class="bg-amber-400 text-navy-800 font-bold text-xs w-6 h-6 rounded-full flex items-center justify-center shrink-0 mt-0.5">
@@ -25,7 +25,7 @@ const { name, description, googleMapsUrl, number, note } = Astro.props;
     href={googleMapsUrl}
     target="_blank"
     rel="noopener noreferrer"
-    class="inline-flex items-center gap-1 text-xs text-amber-500 hover:text-amber-600 font-medium mt-2 transition-colors"
+    class="inline-flex items-center gap-1 text-xs text-teal-600 hover:text-teal-700 font-medium mt-2 transition-colors"
   >
     📍 Google Maps
   </a>

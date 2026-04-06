@@ -89,7 +89,7 @@ const evRules = [
           </thead>
           <tbody>
             {countries.map((country, i) => (
-              <tr class:list={[i % 2 === 0 ? 'bg-gray-50' : 'bg-white']}>
+              <tr class:list={[i % 2 === 0 ? 'bg-sand-50' : 'bg-paper']}>
                 <td class="px-3 py-3 font-medium text-navy-800">{country.data.flag} {country.data.name}</td>
                 <td class="px-3 py-3">{country.data.evCharging.quality}</td>
                 <td class="px-3 py-3">{country.data.evCharging.medianDcPrice}</td>
@@ -125,10 +125,10 @@ const evRules = [
       <h2 class="text-2xl font-bold text-navy-800 mb-4">📱 Unverzichtbare Apps</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
         {essentialApps.map(app => (
-          <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-3">
+          <div class="bg-paper rounded-lg border border-sand-200 p-3">
             <h4 class="font-semibold text-sm">
               {app.url ? (
-                <a href={app.url} target="_blank" rel="noopener noreferrer" class="text-navy-800 hover:text-amber-500 transition-colors">
+                <a href={app.url} target="_blank" rel="noopener noreferrer" class="text-navy-800 hover:text-teal-600 transition-colors">
                   {app.name} ↗
                 </a>
               ) : (
@@ -136,7 +136,7 @@ const evRules = [
               )}
             </h4>
             <p class="text-xs text-gray-500 mt-1">{app.purpose}</p>
-            <span class="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full mt-2 inline-block">{app.scope}</span>
+            <span class="text-xs bg-sand-100 text-gray-600 px-2 py-0.5 rounded-full mt-2 inline-block">{app.scope}</span>
           </div>
         ))}
       </div>
@@ -177,7 +177,7 @@ const evRules = [
           </thead>
           <tbody>
             {countries.map((country, i) => (
-              <tr class:list={[i % 2 === 0 ? 'bg-gray-50' : 'bg-white']}>
+              <tr class:list={[i % 2 === 0 ? 'bg-sand-50' : 'bg-paper']}>
                 <td class="px-4 py-3 font-medium text-navy-800">{country.data.flag} {country.data.name}</td>
                 <td class="px-4 py-3 text-center">{country.data.driving.speedLimits.urban} km/h</td>
                 <td class="px-4 py-3 text-center">{country.data.driving.speedLimits.rural} km/h</td>
@@ -195,7 +195,7 @@ const evRules = [
       <h2 class="text-2xl font-bold text-navy-800 mb-4">💳 Maut & Gebühren</h2>
       <div class="space-y-3">
         {countries.map(country => (
-          <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+          <div class="bg-paper rounded-lg border border-sand-200 p-4">
             <h3 class="font-semibold text-navy-800">{country.data.flag} {country.data.name}</h3>
             <p class="text-sm text-gray-600 mt-1">{country.data.driving.tolls}</p>
             {country.data.driving.specialRules && (
@@ -210,23 +210,23 @@ const evRules = [
     <section class="mb-10">
       <h2 class="text-2xl font-bold text-navy-800 mb-4">🅿️ Parken in Altstädten</h2>
       <div class="space-y-3">
-        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+        <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">🇱🇹 Vilnius</h3>
           <p class="text-sm text-gray-600 mt-1">Altstadt weitgehend autofrei. Parkhäuser am Rand: Go9 (EV-Laden möglich), CityPark Gedimino. ~2–5 €/Std.</p>
         </div>
-        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+        <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">🇱🇻 Riga</h3>
           <p class="text-sm text-gray-600 mt-1">Altstadt autofrei. Parkhäuser an der Esplanade oder Origo Center. ~2–4 €/Std.</p>
         </div>
-        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+        <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">🇪🇪 Tallinn</h3>
           <p class="text-sm text-gray-600 mt-1">Altstadt komplett autofrei. Parkhaus Viru Keskus am Rand der Altstadt (überdacht, EV-Laden). ~3–5 €/Std.</p>
         </div>
-        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+        <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">🇵🇱 Danzig</h3>
           <p class="text-sm text-gray-600 mt-1">Altstadt stark eingeschränkt. Parkhaus Hala Targowa am Rand der Rechtstadt. ~2–3 €/Std.</p>
         </div>
-        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+        <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">🇸🇪 Stockholm</h3>
           <p class="text-sm text-gray-600 mt-1">City-Maut (Trängselskatt, ~3–5 €). Garage Norrmalm oder Hötorget. P+R Liljeholmen als günstige Alternative.</p>
         </div>
@@ -243,7 +243,7 @@ const evRules = [
       <h2 class="text-2xl font-bold text-navy-800 mb-4">💶 Währungen & Zahlungsmittel</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
         {countries.map(country => (
-          <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+          <div class="bg-paper rounded-lg border border-sand-200 p-4">
             <div class="flex items-center justify-between mb-1">
               <h3 class="font-semibold text-navy-800">{country.data.flag} {country.data.name}</h3>
               <span class="text-sm font-medium text-amber-500">{country.data.currency.code}</span>
@@ -254,7 +254,7 @@ const evRules = [
       </div>
       <div class="mt-4 bg-blue-50 border border-blue-200 rounded-xl p-4">
         <p class="text-sm text-blue-800">
-          <strong>💡 Tipp:</strong> Eine <a href="https://wise.com" target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium">Wise Multi-Currency-Karte</a> ist ideal für diese Reise. EU-Roaming greift in allen Ländern auf der Route.
+          <strong>💡 Tipp:</strong> Eine <a href="https://wise.com" target="_blank" rel="noopener noreferrer" class="text-teal-600 hover:text-teal-700 font-medium">Wise Multi-Currency-Karte</a> ist ideal für diese Reise. EU-Roaming greift in allen Ländern auf der Route.
         </p>
         <p class="text-sm text-blue-800 mt-2">
           <strong>🏥 Versicherung:</strong> Europäische Krankenversicherungskarte (EHIC) mitnehmen — gilt in allen EU-Ländern auf der Route. Für Extras (Rücktransport, Gepäckverlust) lohnt sich eine zusätzliche Reiseversicherung.
@@ -266,11 +266,11 @@ const evRules = [
     <section class="mb-10">
       <h2 class="text-2xl font-bold text-navy-800 mb-4">🕐 Zeitzonen</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+        <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">MEZ (UTC+1)</h3>
           <p class="text-sm text-gray-600 mt-1">🇩🇪 Deutschland, 🇩🇰 Dänemark, 🇸🇪 Schweden, 🇵🇱 Polen</p>
         </div>
-        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+        <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">OEZ (UTC+2)</h3>
           <p class="text-sm text-gray-600 mt-1">🇱🇹 Litauen, 🇱🇻 Lettland, 🇪🇪 Estland, 🇫🇮 Finnland</p>
         </div>
@@ -291,7 +291,7 @@ const evRules = [
             <strong>✅ Schengen-Raum:</strong> Alle Länder auf der Route sind im Schengen-Raum — keine Passkontrollen, kein Anhalten an der Grenze. Personalausweis oder Reisepass trotzdem mitführen (gesetzliche Pflicht).
           </p>
         </div>
-        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+        <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">⛴️ Fähren</h3>
           <p class="text-sm text-gray-600 mt-1">Beim Boarding gültigen Ausweis bereithalten — Fährgesellschaften führen Passagierlisten. Gilt für Tallinn→Helsinki, Turku→Stockholm und die Heimreise-Fähren.</p>
         </div>
@@ -308,7 +308,7 @@ const evRules = [
       <h2 class="text-2xl font-bold text-navy-800 mb-4">⛴️ Fährverbindungen</h2>
       <div class="space-y-3">
         {ferryOptions.map(ferry => (
-          <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-4">
+          <div class="bg-paper rounded-xl border border-sand-200 p-4">
             <div class="flex items-start justify-between gap-4">
               <div>
                 <h3 class="font-bold text-navy-800">{ferry.route}</h3>
@@ -317,7 +317,7 @@ const evRules = [
                     <>
                       {i > 0 && ' / '}
                       {op.url ? (
-                        <a href={op.url} target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium">{op.name}</a>
+                        <a href={op.url} target="_blank" rel="noopener noreferrer" class="text-teal-600 hover:text-teal-700 font-medium">{op.name}</a>
                       ) : (
                         <span>{op.name}</span>
                       )}
@@ -354,7 +354,7 @@ const evRules = [
     <!-- Weather -->
     <section class="mb-10">
       <h2 class="text-2xl font-bold text-navy-800 mb-4">🌤️ Wetter Anfang Mai</h2>
-      <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+      <div class="bg-paper rounded-xl border border-sand-200 p-6">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div>
             <h3 class="font-semibold text-navy-800">Temperaturen</h3>
@@ -414,8 +414,8 @@ const evRules = [
     </section>
 
     <!-- Back -->
-    <div class="pt-8 border-t border-gray-100">
-      <a href={base} class="text-amber-500 hover:text-amber-600 font-medium transition-colors">
+    <div class="pt-8 border-t border-sand-200">
+      <a href={base} class="text-teal-600 hover:text-teal-700 font-medium transition-colors">
         ← Zurück zur Routenübersicht
       </a>
     </div>
