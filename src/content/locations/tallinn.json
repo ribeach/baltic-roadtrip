@@ -249,7 +249,7 @@
       "type": "Luxus-Boutique-Hotel",
       "priceRange": "160-220€",
       "evCharging": true,
-      "description": "Im Herzen der Altstadt in einem restaurierten Kaufmannshaus aus dem 13. Jahrhundert. Eigene E-Ladesäule — perfekt, um vor der Fähre nach Stockholm aufzuladen. Der Inbegriff baltischer Eleganz.",
+      "description": "Im Herzen der Altstadt in einem restaurierten Kaufmannshaus aus dem 13. Jahrhundert. Eigene E-Ladesäule — perfekt, um vor der Fähre nach Helsinki aufzuladen. Der Inbegriff baltischer Eleganz.",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Schl%C3%B6ssle%20Hotel&query_place_id=ChIJ_SaBzWOTkkYRSMpeR32py0s",
       "placeId": "ChIJ_SaBzWOTkkYRSMpeR32py0s",
       "coordinates": {
@@ -282,7 +282,7 @@
     },
     {
       "type": "warnung",
-      "text": "Fähre Tallinn → Stockholm FRÜH buchen! Fahrplan variiert saisonal — Abfahrten prüfen. Auto VOR der Fähre unbedingt vollladen."
+      "text": "Fähre Tallinn → Helsinki FRÜH buchen! 12+ Abfahrten täglich, 2–2,5h Fahrt (Eckerö Line oft am günstigsten). Auto VOR der Fähre unbedingt vollladen."
     },
     {
       "type": "info",

@@ -32,7 +32,7 @@ Die Seite ist dann unter `http://localhost:4321/baltic-roadtrip/` erreichbar.
 
 | Technologie | Zweck |
 |---|---|
-| [Astro 5](https://astro.build) | Static Site Generator (SSG) |
+| [Astro 6](https://astro.build) | Static Site Generator (SSG) |
 | TypeScript | Typsicherheit |
 | [Tailwind CSS v4](https://tailwindcss.com) | Styling |
 | React | Google Maps Island-Komponente |
@@ -43,8 +43,8 @@ Die Seite ist dann unter `http://localhost:4321/baltic-roadtrip/` erreichbar.
 
 ```
 src/
++-- content.config.ts           # Zod-Schemas (Validierung)
 +-- content/                    # <-- HIER die Reisedaten bearbeiten
-|   +-- content.config.ts       # Zod-Schemas (Validierung)
 |   +-- days/                   # Ein JSON pro Reisetag
 |   |   +-- day-01.json         # Tag 1: Aalen -> Berlin
 |   |   +-- day-02.json         # Tag 2: Berlin (1. Mai)
@@ -53,11 +53,11 @@ src/
 |   |   +-- berlin.json
 |   |   +-- gdansk.json
 |   |   +-- vilnius.json
-|   |   +-- ...                 # 17 Orte insgesamt
+|   |   +-- ...                 # 21 Orte insgesamt
 |   +-- countries/              # Ein JSON pro Land
 |       +-- germany.json
 |       +-- poland.json
-|       +-- ...                 # 7 Laender insgesamt
+|       +-- ...                 # 8 Laender insgesamt
 +-- components/                 # UI-Komponenten
 +-- layouts/                    # Seitenlayout
 +-- pages/                      # Seitenrouten

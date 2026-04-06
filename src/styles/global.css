@@ -28,10 +28,13 @@
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-@layer base {
+@media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
   }
+}
+
+@layer base {
 
   body {
     @apply bg-white text-navy-800 font-sans antialiased;
