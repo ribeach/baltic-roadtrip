@@ -1,38 +1,29 @@
 {
   "dayNumber": 5,
   "date": "2026-05-04",
-  "title": "Durch Masuren ins Land der tausend Seen",
-  "subtitle": "Ordensburgen, Storchennester und ein Abend am See",
-  "locationId": "masuria",
-  "previousLocationId": "gdansk",
-  "overnightLocationId": "masuria",
+  "title": "Von Masuren nach Vilnius",
+  "subtitle": "Wolfsschanze, Suwałki-Lücke und Ankunft im Baltikum",
+  "locationId": "vilnius",
+  "previousLocationId": "masuria",
+  "overnightLocationId": "vilnius",
+  "additionalLocationIds": ["masuria"],
   "driving": {
     "distance": "300 km",
     "duration": "3:30",
     "mode": "drive",
-    "routeDescription": "Über die S7 Richtung Elbląg, dann durch die masurische Seenplatte nach Ryn. Landschaftlich wunderschön — Seen, Wälder, Störche auf den Dächern. Deutlich entspannter als die alte 600-km-Etappe direkt nach Vilnius.",
-    "encodedPolyline": "asvjIo|xpBhZhFfSelBqD{\\sPcLcE_aAs@w|ArGeNb^p@dl@_]fhAoPjj@~CgCvMkFsHiLakAdDcoBl`Cs_NfdAuvCpaB}kGdt@odDva@ifEtWqnDn_@clCpb@exA|Z{rB|j@uwCfw@mhCdr@{eErOm`@do@sg@t\\kh@jTgpAro@{bF`_@mdAlb@mq@dWeeArGwkAvl@sqEtFadH{@srFfGmiCvX{}@`h@ub@d[uo@h|@ymFnPkqBiH{aAeD_l@bN}c@hz@{k@f^{n@jcA_wBbVgjBl\\u{Ek@e|@rRew@ja@g~@tGs~@bI}wAze@uz@fhAgvAnu@sn@hy@ikAhb@y|@nc@gpAdWax@x`@}]f|AwErw@a\\n}@_o@luAso@jnAqIbbB|Cjf@|D`h@_LhwAcbAhcAkjAxj@s]~eA{h@zl@yGdr@wAvs@gR|iBijAdjA{Snu@cm@rTg[|eAqlA|}@e^fy@mm@hoBaaAfm@elArg@w~DvHcYv\\ib@x`@iZnXsp@ty@{yBp^}hAtzA}qGnOob@t^aZ~Uy[|Jsf@`SqhAjXu[bWwCrp@qc@ra@uj@va@kpBd\\ev@pf@iItbApQ~d@{CbM}Gx^aq@|s@w`Bbc@s]n{@g]~aAch@xm@ur@vm@{sArc@m}BrIclB?{_BnK_y@zi@s|C{BauBaW}nCsCkgCpTwbBxOiYtHyFcCeE{QfC_k@m]uo@wrAi]eqEkZazAyg@ilAqd@ab@utAaoCidCyiE{oAmaAog@mT}n@iHc`Aai@_j@kJ{w@cb@mc@sf@|@}[lm@c_AxYgsA_EynB_IoxAo@aoA}]_v@kj@_f@}_@_cAey@{q@woAec@kq@wKoc@`BqdA_o@mq@i`Ack@g_BsGidCoKa`@gZmT}u@qiA}{@i|A}^wb@mVgo@kd@wtC_n@o~@gV}|BwSq~Cy@afBxSg}Atf@qxA`QudAzOc}BuOi~Cl@saAdSudBuRo}AsYwhEiD{yAch@muAqb@svAeSssAb@wdAtM{z@rb@{iDhb@azBtUwgDdBwkBqRgeBcn@q}DeU{bCj[e}EjBocBeMm}B^ccBud@wwAa^{rAvAwpBtFu[ce@{B_a@~Qi\\rIaWcKaVij@ad@qtBuT{q@Bc_AzSckAOipBeWstAz@k\\|JgT}E_o@_Dw~AqIm^lB{WeO{Y{CyFkJtG_P~H}P{d@ae@yg@}SiPcPai@cIep@cTa^oSe[{n@q~Aub@ixBgFihAoPkjA_QwLdAm]|CsnBgKgnAvAyK@oM{FcDh@fS"
+    "routeDescription": "Optional: Vormittags Abstecher zur Wolfsschanze (40 km nördlich von Ryn). Dann Richtung Südosten durch die geopolitisch bedeutsame Suwałki-Lücke zwischen Kaliningrad und Belarus nach Vilnius.",
+    "encodedPolyline": "s~ehIceobClBxKxReXhiBal@pzAa|@xw@}s@hk@cL~g@me@d^ix@lIcVhc@uMzd@ic@fl@m|@zLoMt@o]vAaaAdJsPqHsWwm@_h@ca@mo@jCc~@xVemBfR_`B{m@imCaLeqAb@{p@fXweB~Q_vA|X}m@vd@ez@xg@sThr@wEfx@mXjCsiBxZqkApD{rAds@wdAv_@m|@da@eyBe@q}Bko@i`GeI{l@pAab@rEcj@zWoOnk@Upd@{e@bGmnBpEo}Bs@{{CzA}uDiCapIgIcNqJuc@~HqtBvPa`D{YuwDsB_nA_QogAyImyAaU}s@kc@}rBqc@we@}Xuj@uk@ow@sTc}@a@i`Ao[upC{ZoOsQeXqFwm@eXkmDjTopDlXszB~Usx@aPaLqd@uyB_aA}zCkFkaEu@kzK}b@ejDoy@acF_a@}vB_k@krAmcBquCkqBuqG_`AspBeaAir@wiBil@cq@}j@ecCk|Cc`AaoA{}@odFaWylAie@gt@yhC_vBmb@}Lsa@dDqkAdc@gbEbkBup@_Bce@}UcbAyc@gy@sY_h@_eAiKukA~@aiCfA_cB{HygBkbA{qBib@gs@mq@uT{{@uJyqAe{@}_AmyAyYss@}p@i}@qsA{y@wlAchCgh@}z@}i@_Usx@qLkk@oc@e_A_kByvAuh@gm@_Uwl@fAwc@sG_i@c{@ql@gsAg{Aq}Aos@cn@wdA{b@sbBcsAcbA}dAytAqbBwd@iBuo@bYqjA|OklCzA_uAnHyfBe_B}xAsp@ezAqg@cbFmrCuuAubAcv@ewAebB{dD}a@{`FaHcrEoe@kiAikBueCezB{mAwd@m|AsW}bE_ZghAa|@uwA{hBsyCqSooAyLuzBeP{rB{gAkjCsuBg~EcpAu|Fsf@knBa|A}tD{vAs|Bio@_oBgvAykCqa@ma@wm@snBkt@y}Cyy@_oDuQwgAaErQo`Ahp@yw@zJaz@~Tgv@|e@grAd}@mhBdmAc]~Fgu@ar@cz@mj@cw@iD{v@aaAs_@}_@iZkrA{h@obA{Isp@jN}iCfOafKdb@y{JbKsnDxRywBjrAa`E~yAqiGrbC_hMb|Em`XhfDqoRlcA{sKv^c}H~WutK~b@}gP|_@qeHts@wmHnn@ytEbq@oyCpQ{sD|k@}_Erj@cnAd|BeoCbx@_pBll@kcBbgAgsDre@y{Bbc@s`Anz@mkFhm@szCbkCqbJdL}m@}b@egBu{@}lBq{@wfAca@uIi_@_^ci@ca@{L}_@yDwm@ma@eIgTePfJwX~H{|@|PQ"
   },
   "evCharging": {
     "stopsNeeded": 1,
-    "notes": "Ein Ladestopp im Raum Elbląg oder Olsztyn. ORLEN-Charge-Hubs mit bis zu 400 kW entlang der S7. In Masuren selbst laden: GreenWay-Stationen in Giżycko und Mikołajki.",
-    "criticalLevel": "green"
+    "notes": "Ein Ladestopp vor der litauischen Grenze — im Raum Suwałki oder Marijampolė. Der Suwałki-Korridor hat noch lückenhafte Ladeinfrastruktur, daher vorher in Masuren auf mindestens 80 % laden.",
+    "criticalLevel": "yellow"
   },
   "activities": [
-    "Aufbruch aus Danzig am Vormittag — heute geht es gemütlich zu",
-    "OPTIONAL: Marienburg/Malbork (30 km Umweg ab Elbląg) — die größte Backsteinburg der Welt, UNESCO-Welterbe. Nur bei frühem Aufbruch, 2–3 Stunden einplanen",
-    "Fahrt durch Masurens stille Weite: Seen, Kiefernwälder, Störche auf jedem Dach",
-    {
-      "highlightRef": "Hotel Zamek Ryn (Ordensburg)",
-      "note": "Ankunft am frühen Nachmittag — Rundgang durch die gotischen Gewölbe"
-    },
-    {
-      "highlightRef": "Masurische Seenplatte",
-      "note": "Nachmittagsspaziergang am Ufer des Ryńskie-Sees"
-    },
-    {
-      "restaurantRef": "Restauracja Zamkowa (Refektarz)",
-      "note": "Polnische Küche unter gotischen Bögen"
-    }
+    { "highlightRef": "Wolfsschanze (Wilczy Szaniec)", "note": "Optional am Vormittag — Hitlers Ostfront-HQ im Wald (40 km, 2–3 Stunden)" },
+    "Fahrt durch die geopolitisch bedeutsame Suwałki-Lücke — NATOs verwundbarster Punkt in Europa",
+    "Grenzübertritt nach Litauen",
+    "Ankunft in Vilnius am Nachmittag — erster Spaziergang durch die barocke Altstadt",
+    "Willkommens-Abendessen in einem litauischen Lokal — Cepelinai und kalte Rote-Bete-Suppe probieren"
   ]
 }

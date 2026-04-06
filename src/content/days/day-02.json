@@ -1,18 +1,30 @@
 {
   "dayNumber": 2,
   "date": "2026-05-01",
-  "title": "Berlin am 1. Mai",
-  "subtitle": "Kreuzberger Feiertagstrubel und Berliner Schnauze",
-  "locationId": "berlin",
-  "previousLocationId": null,
-  "overnightLocationId": "berlin",
-  "driving": null,
-  "evCharging": null,
+  "title": "Durch Schlesien nach Warschau",
+  "subtitle": "Breslaus Rynek, Zwerge und dann weiter in die polnische Hauptstadt",
+  "locationId": "warsaw",
+  "previousLocationId": "prague",
+  "overnightLocationId": "warsaw",
+  "transitLocationIds": ["wroclaw"],
+  "driving": {
+    "distance": "630 km",
+    "duration": "7:00",
+    "mode": "drive",
+    "routeDescription": "Über die D11/S3 nach Breslau (280 km, 3 Std.), dort 3 Stunden Pause für Mittagessen und Altstadt. Dann weiter auf der A8/A1/A2 nach Warschau (350 km, 3,5 Std.)."
+  },
+  "evCharging": {
+    "stopsNeeded": 2,
+    "notes": "Erster Ladestopp in Breslau während der Stadtbesichtigung (ideal!). Zweiter Stopp im Raum Łódź auf der A2. GreenWay- und ORLEN-Stationen.",
+    "criticalLevel": "green"
+  },
   "activities": [
-    "Ausschlafen nach der Walpurgisnacht – gemütlicher Start in den Feiertag",
-    { "highlightRef": "Kreuzberg & Mariannenplatz", "note": "1. Mai in Kreuzberg — traditionell Straßenfeste rund um den Mariannenplatz (Programm variiert jährlich)" },
-    { "highlightRef": "Markthalle Neun", "note": "Kreuzbergs historische Markthalle — regionaler Genuss und internationales Street Food" },
-    "Nachmittagsspaziergang am Landwehrkanal mit Stopp an einer der vielen Ufer-Bars",
-    "Abendessen bei Zur letzten Instanz (Berlins ältestes Gasthaus, seit 1621) oder im Katz Orange für gehobene Farm-to-Table-Küche"
+    "Morgendlicher Aufbruch aus Prag nach dem Frühstück",
+    "Ankunft in Breslau gegen Mittag — das Auto lädt, während ihr die Stadt erkundet",
+    { "highlightRef": "Rynek (Marktplatz)", "note": "Mittagspause am schönsten Marktplatz Polens" },
+    { "highlightRef": "Breslauer Zwerge (Krasnale)", "note": "Zwergenjagd in der Altstadt — über 300 kleine Bronzefiguren verstecken sich in den Gassen" },
+    { "restaurantRef": "Konspira", "note": "Lunch im kommunistischen Untergrund-Restaurant — versteckter Eingang inklusive" },
+    "Nachmittags weiter auf der A8/A1/A2 Richtung Warschau",
+    "Ankunft in Warschau am Abend — Einchecken und erste Eindrücke der polnischen Hauptstadt"
   ]
 }

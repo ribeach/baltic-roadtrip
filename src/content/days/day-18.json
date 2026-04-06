@@ -1,0 +1,44 @@
+{
+  "dayNumber": 18,
+  "date": "2026-05-17",
+  "title": "Heimreise nach Aalen",
+  "subtitle": "Ein letzter Morgen in Berlin und dann zurück auf die Schwäbische Alb",
+  "locationId": "aalen",
+  "previousLocationId": "berlin",
+  "overnightLocationId": null,
+  "transitLocationIds": [
+    "berlin"
+  ],
+  "driving": {
+    "distance": "560 km",
+    "duration": "5:30",
+    "mode": "drive",
+    "routeDescription": "Vormittags Berlin erkunden, dann über die A9/A7 durch Thüringen und Franken zurück nach Aalen. Gut ausgebaute Autobahnstrecke mit zuverlässiger Ladeinfrastruktur."
+  },
+  "evCharging": {
+    "stopsNeeded": 2,
+    "notes": "Zwei DC-Schnellladestopps entlang der A9/A7 — z. B. bei Hermsdorfer Kreuz und im Raum Würzburg. Ionity- und EnBW-Stationen reichlich vorhanden.",
+    "criticalLevel": "green"
+  },
+  "activities": [
+    {
+      "highlightRef": "Brandenburger Tor & Pariser Platz",
+      "note": "Morgenspaziergang zum Symbol der deutschen Einheit"
+    },
+    {
+      "highlightRef": "Reichstagsgebäude",
+      "note": "Wenn vorab gebucht: Kuppelbesuch mit 360°-Blick über Berlin"
+    },
+    {
+      "highlightRef": "East Side Gallery",
+      "note": "Letzte Portion Berliner Geschichte — die bemalte Mauer an der Spree"
+    },
+    {
+      "restaurantRef": "Markthalle Neun",
+      "note": "Mittagessen in der Kreuzberger Markthalle"
+    },
+    "Aufbruch Richtung Aalen am frühen Nachmittag",
+    "Fahrt über die A9/A7 durch Thüringen und Franken",
+    "Ankunft in Aalen am Abend — 18 Tage, 10 Länder, unzählige Eindrücke"
+  ]
+}

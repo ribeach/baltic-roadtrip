@@ -1,23 +1,57 @@
 {
   "dayNumber": 13,
   "date": "2026-05-12",
-  "title": "Tallinn in voller Pracht",
-  "subtitle": "Mittelalterliche Gassen, Seefahrermuseum und kreatives Kalamaja",
-  "locationId": "tallinn",
-  "previousLocationId": null,
-  "overnightLocationId": "tallinn",
-  "additionalLocationIds": ["lahemaa"],
-  "driving": null,
-  "evCharging": null,
+  "title": "Durch Finnland nach Stockholm",
+  "subtitle": "Helsinki per Fähre, Turku per Auto, Stockholm per Nachtfähre",
+  "locationId": "turku",
+  "previousLocationId": "tallinn",
+  "overnightLocationId": null,
+  "additionalLocationIds": [
+    "helsinki"
+  ],
+  "transitLocationIds": [
+    "helsinki"
+  ],
+  "driving": {
+    "distance": "170 km",
+    "duration": "2:00",
+    "mode": "drive",
+    "routeDescription": "Frühfähre Tallinn→Helsinki (2 Std., Auto an Bord). Dann über die E18 Helsinki→Turku (170 km, 2 Std.). Abends Viking Line Nachtfähre Turku→Stockholm (20:55 Uhr, Ankunft 07:30).",
+    "encodedPolyline": "{wwiJmravCWiFs@vCgTyA|DmTa@yd@oTufBmBkFyDhEhIx`AkBO}a@{v@}NuNuk@lDquEz}A_bBfdAs~HtkFc}F`yDa_@~Luw@gBwz@gd@gjNukM}~AuvAojOgxJ_zDo~@ym`@moF}fLs_BeaLi`@onAokA_EjAsB`@gJeKmBMiGsC_C|BsZTcBuAoAgAgCxD}I~AsQDqHc\\aJmg@b@ui@zC~@lHhYpFfRY~ANz@xDpAjDpSzBrJ~A|~@kElV{Hln@lP`aD~JjsAu^vkDoL`vBdEh`DxCzxBpGd}AeBnYyEnAiLgEa]uKyOfCgRpSyU~MoQ~A{PjJ_YnTsTcGmX{LcVpCMgLrG`V|NvaAfHxpBsBli@kMxs@k_@rlAifAlcGg`@vzEuKr}@qKzq@m_@b|@oWdWg^~z@_Lzs@mL|yAog@`}C{FxfAqNr|@kNpm@sXvk@iTxjA{SnfAsPxs@_[~]kRxh@oSvgBqT`fAqE~n@sLxkAaJ`r@m@rc@FdqAeExuAxGdwAlFvk@]tb@_OfcAae@vzCyMvkBbCznB~Dl~@xFloAgAl`@aH`jACxrAfK`aAh]hpAzo@nhCfLtfAhEzjAxH`bC{ExtAeY|tAae@jmBun@voAaXhhA{ShiBcVv`CsA~o@iDfxAgP|}@o[~m@aUjjAuVt~As_@dg@sS~TqRnb@eV`cAee@phAwd@ng@i_@je@e_@`iA_Kjs@{Hh|AoHxdAsNnq@yPz`A}D|q@kFtzA}JbrA}DhdAbAn~@pI|lAbMvuBnLlcA|P|w@zSfpAzDnfAn@jtBwGr_A{^f}A_[tpAeUvbBgMlqAgSj}@gO`sA}HhoCvDtlEhSntA|Uro@vNxu@vCh_@KruBuCjzCtBtlAfFhw@n[`rBdQfuBu@nxBqHnaBwQn{BkO|v@{f@|_BiOjiAoMzjBuNdcAqWpnAsXd_Cy\\vyAu`@noCmZr}BuLt_B\\z`CtEbnC{E|nBaUdsBgThhCqGps@qE`|AsE~yAiXpkDkObzD`L|aDfR`sD`KtgCJ`qDa@pwAtFthBvFriBxKj_AjEpkAwE`xCmUrvDnElhBpQdoBn@`aAqLd_BmVdbAyTvi@w\\vvBcY`kBcFpoDcNjmD~@rjA_FziAkDpy@fAhiArTliCrQv`BrFph@lQzs@|h@|gBpRzaArHxw@bBjnCNf~AnEteAnEh_BcClgA}KdfAaXbr@ydAtiAqx@dbB{\\hg@aUtQoQf^fGxc@Qrf@DvWnGnRpApFf@vBfBcBrFqIrDgGtJrWzD_G"
+  },
+  "evCharging": {
+    "stopsNeeded": 0,
+    "notes": "Helsinki→Turku (170 km) ohne Ladestopp machbar. Hervorragendes Netz entlang der E18 (Recharge, K-Lataus). Vor Boarding in Turku voll laden! Viking Line bietet evtl. Laden an Bord (vorab buchen).",
+    "criticalLevel": "green"
+  },
   "activities": [
-    { "highlightRef": "Toompea — Kohtuotsa & Patkuli Aussichtsplattformen", "note": "Morgendlicher Rundgang durch verwinkelte Gassen" },
-    { "highlightRef": "Lennusadam — Maritimes Museum", "note": "U-Boot Lembit, Eisbrecher und Flugboote" },
-    { "highlightRef": "Balti Jaama Turg — Markt", "note": "Mittagessen am hippen Streetfood-Markt" },
-    { "highlightRef": "Telliskivi Creative City", "note": "Dazu Fotografiska Tallinn" },
-    { "highlightRef": "Kalamaja — Holzhäuser-Viertel", "note": "Cafés und Boutiquen im Szeneviertel" },
-    "ALTERNATIVE VORMITTAGS: Lahemaa-Nationalpark (Viru-Moor, Käsmu Kapitänsdorf) statt Stadtprogramm — 70 km östlich, eigenes Auto",
-    "Morgen früh: Autofähre nach Helsinki (07:30 Uhr) — Auto heute Abend schon hafennah parken und voll laden",
-    { "restaurantRef": "Rataskaevu 16", "note": "Estnische Küche in gemütlichem Altstadtambiente" },
-    { "nightlifeRef": "Whisper Sister", "note": "Speakeasy-Bar hinter einer versteckten Tür" }
+    "Frühfähre Tallinn→Helsinki (07:30 Uhr, ~2 Std., Eckerö Line oder Tallink) — Auto an Bord, Frühstück auf der Fähre",
+    {
+      "highlightRef": "Marktplatz & Alte Markthalle (Vanha Kauppahalli)",
+      "note": "Ankunft Helsinki ~09:30 — Lachssuppe zum zweiten Frühstück"
+    },
+    {
+      "highlightRef": "Felsenkirche Temppeliaukio",
+      "note": "In den Fels gesprengte Kirche — einzigartig, 30 Min. reichen"
+    },
+    {
+      "highlightRef": "Dom von Helsinki",
+      "note": "Kurzer Fotostopp am Senatsplatz"
+    },
+    "PACING-TIPP: Helsinki und Turku an einem Tag ist sportlich — bei Zeitdruck Helsinki auf Markthalle + Felsenkirche beschränken",
+    "Fahrt Helsinki→Turku über die E18 (170 km, ~2 Std.) — Bilderbuch-Finnland mit Seen und Birkenwäldern",
+    {
+      "highlightRef": "Burg von Turku",
+      "note": "Finnlands älteste Burg aus dem 13. Jh. — unbedingt 1,5–2 Stunden einplanen"
+    },
+    {
+      "highlightRef": "Dom von Turku",
+      "note": "Finnlands bedeutendste mittelalterliche Kirche, 10 Min. Fußweg von der Burg"
+    },
+    {
+      "highlightRef": "Aura-Fluss Promenade",
+      "note": "Abendspaziergang und Dinner an den Restaurantbooten"
+    },
+    "20:55 Uhr Viking Line Nachtfähre Turku→Stockholm — Kabinennacht durch den Turku-Archipel (20.000 Inseln!)"
   ]
 }

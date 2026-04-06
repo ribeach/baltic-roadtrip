@@ -1,0 +1,209 @@
+{
+  "id": "prague",
+  "name": "Prag",
+  "country": "czech-republic",
+  "coordinates": {
+    "lat": 50.0755,
+    "lng": 14.4378
+  },
+  "description": "Die 'Stadt der hundert Türme' empfängt uns mit einer der am besten erhaltenen historischen Altstädte Europas. Zwischen gotischen Kirchen, barocken Palästen und der majestätischen Moldau erleben wir den Zauber Böhmens, während wir die moderne tschechische Küche und das weltbeste Bier genießen.",
+  "highlights": [
+    {
+      "name": "Prager Burg (Pražský hrad)",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Die größte geschlossene Burganlage der Welt thront über der Stadt. Besichtigung des Veitsdoms, des Alten Königspalastes und des Goldenen Gässchens ist ein Muss.",
+      "duration": "3-4h",
+      "price": "ca. €10-16",
+      "googleMapsUrl": "https://maps.google.com/?cid=3084750827522499999",
+      "placeId": "ChIJw7ckbB6VC0cRnyUSr4g8zyo",
+      "coordinates": {
+        "lat": 50.0910966,
+        "lng": 14.4016165
+      },
+      "rating": 4.7,
+      "userRatingCount": 194387
+    },
+    {
+      "name": "Karlsbrücke (Karlův most)",
+      "type": "monument",
+      "icon": "star",
+      "description": "Die historische Brücke aus dem 14. Jahrhundert verbindet Altstadt und Kleinseite. Am besten zum Sonnenaufgang besuchen, um den Touristenmassen zu entgehen.",
+      "duration": "0.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=8439911971986583846",
+      "placeId": "ChIJn7WO5eWUC0cRJrHT0TiXIHU",
+      "coordinates": {
+        "lat": 50.0864771,
+        "lng": 14.4114366
+      },
+      "rating": 4.8,
+      "userRatingCount": 190901
+    },
+    {
+      "name": "Altstädter Ring",
+      "type": "activity",
+      "icon": "star",
+      "description": "Das Herz der Prager Altstadt mit der berühmten astronomischen Uhr am Rathaus, die zu jeder vollen Stunde ein mechanisches Schauspiel bietet.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=398640908928881463",
+      "placeId": "ChIJF6gfPumUC0cRNxOlactBiAU",
+      "coordinates": {
+        "lat": 50.0874682,
+        "lng": 14.4207565
+      }
+    },
+    {
+      "name": "Josefov (Jüdisches Viertel)",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Eines der besterhaltenen jüdischen Viertel Europas mit sechs Synagogen und dem beeindruckenden Alten Jüdischen Friedhof.",
+      "duration": "2h",
+      "price": "ca. €15 (Kombiticket)",
+      "googleMapsUrl": "https://maps.google.com/?cid=4900073656064517193",
+      "placeId": "ChIJKee8y-mUC0cRSaT5SgePAEQ",
+      "coordinates": {
+        "lat": 50.0905184,
+        "lng": 14.4203456
+      },
+      "rating": 4.4,
+      "userRatingCount": 1733
+    },
+    {
+      "name": "Tanzendes Haus",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Die dekonstruktivistische Architekturikone von Frank Gehry an der Moldau ist ein spannender Kontrast zum historischen Stadtbild.",
+      "duration": "0.5h",
+      "price": "Kostenlos (Dachterrasse kostenpflichtig)",
+      "googleMapsUrl": "https://maps.google.com/?cid=10592859085534344004",
+      "placeId": "ChIJFz83wvaUC0cRRDMLBTdlAZM",
+      "coordinates": {
+        "lat": 50.075403,
+        "lng": 14.4141786
+      },
+      "rating": 4.3,
+      "userRatingCount": 67331
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Lokál Dlouhááá",
+      "cuisine": "Tschechisch / Pub",
+      "priceRange": "€€",
+      "description": "Legendäres Gasthaus mit dem frischesten Pilsner Urquell der Stadt und ehrlicher tschechischer Hausmannskost ohne Schnickschnack.",
+      "mustTry": "Smažený sýr (gebackener Käse) und frisch gezapftes Tankové Pivo",
+      "googleMapsUrl": "https://maps.google.com/?cid=206514556876385506",
+      "placeId": "ChIJGWh--8GUC0cR4myQM-Wv3QI",
+      "coordinates": {
+        "lat": 50.0906931,
+        "lng": 14.4257574
+      },
+      "rating": 4.4,
+      "userRatingCount": 22364
+    },
+    {
+      "name": "Café Louvre",
+      "cuisine": "Café / Bistro",
+      "priceRange": "€€",
+      "description": "Historisches Café im Wiener Stil, in dem schon Einstein und Kafka saßen. Perfekt für Frühstück oder eine Kaffeepause.",
+      "mustTry": "Warmer Apfelstrudel oder böhmische Svíčková",
+      "googleMapsUrl": "https://maps.google.com/?cid=8752616699535741001",
+      "placeId": "ChIJj5XMEO6UC0cRSdD6zoOKd3k",
+      "coordinates": {
+        "lat": 50.0820693,
+        "lng": 14.4186192
+      },
+      "rating": 4.6,
+      "userRatingCount": 22504
+    },
+    {
+      "name": "Kantýna",
+      "cuisine": "Grill / Fleischspezialitäten",
+      "priceRange": "€€-€€€",
+      "description": "In einer ehemaligen Bankhalle werden hier Fleischspezialitäten direkt am Tresen ausgesucht und frisch zubereitet — ein Paradies für Fleischliebhaber.",
+      "mustTry": "Carpaccio oder das Dry-Aged Steak",
+      "googleMapsUrl": "https://maps.google.com/?cid=9349203207034510355",
+      "placeId": "ChIJvfeLMZOUC0cRExw8WMgKv4E",
+      "coordinates": {
+        "lat": 50.0835041,
+        "lng": 14.4289189
+      },
+      "rating": 4.6,
+      "userRatingCount": 13059
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Botanique Hotel Prague",
+      "type": "Eco-Lifestyle Hotel",
+      "priceRange": "90-130€",
+      "evCharging": true,
+      "description": "Modernes, nachhaltiges Hotel mit Fokus auf Natur und Komfort. Verfügt über eine eigene Tiefgarage mit mehreren 11kW Ladestationen.",
+      "googleMapsUrl": "https://maps.google.com/?cid=15623142847069704188",
+      "placeId": "ChIJe9ghf76UC0cR_E_G-qSN0Ng",
+      "coordinates": {
+        "lat": 50.0915412,
+        "lng": 14.4396656
+      },
+      "rating": 4.6,
+      "userRatingCount": 3584
+    },
+    {
+      "name": "THE MANES Boutique Hotel",
+      "type": "Design Hotel",
+      "priceRange": "120-160€",
+      "evCharging": true,
+      "description": "Elegantes Boutique-Hotel im Stadtzentrum, das sich durch sein stilvolles Design und die Integration von Schnelllademöglichkeiten auszeichnet.",
+      "googleMapsUrl": "https://maps.google.com/?cid=5933729710010840375",
+      "placeId": "ChIJ26-EthCVC0cRN7VgprvXWFI",
+      "coordinates": {
+        "lat": 50.0776426,
+        "lng": 14.4173902
+      },
+      "rating": 5.0,
+      "userRatingCount": 1077
+    }
+  ],
+  "tips": [
+    {
+      "type": "warnung",
+      "text": "E-Vignette: Für Autobahnen ist eine elektronische Vignette Pflicht. Nur auf dem offiziellen Portal edalnice.cz kaufen — Straßenverkäufer verlangen überhöhte Gebühren."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Der Letná-Park bietet den besten Ausblick auf die Brücken über die Moldau. Der dortige Biergarten ist bei Einheimischen extrem beliebt — perfekt für ein Feierabend-Pivo."
+    },
+    {
+      "type": "info",
+      "text": "Prag hat eine strikte Parkzonen-Regelung. Blaue Zonen sind für Anwohner. Am besten im Hotelparkhaus oder am P+R-Platz außerhalb der Innenstadt parken."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Hemingway Bar",
+      "description": "Exzellente Cocktailbar mit einer beeindruckenden Auswahl an Rum und Absinth. Eine Reservierung ist dringend empfohlen.",
+      "googleMapsUrl": "https://maps.google.com/?cid=2095651347638903815",
+      "placeId": "ChIJexiRhu-UC0cRB-QVJcw_FR0",
+      "coordinates": {
+        "lat": 50.0793105,
+        "lng": 14.4162871
+      },
+      "rating": 4.7,
+      "userRatingCount": 4599
+    },
+    {
+      "name": "Lucerna Music Bar",
+      "description": "Legendärer Club für Live-Musik und die berühmten 80er/90er Video-Partys am Wochenende. Ein echtes Prager Original.",
+      "googleMapsUrl": "https://maps.google.com/?cid=6635049526233341367",
+      "placeId": "ChIJG3Qbau2UC0cRtx1D3mNuFFw",
+      "coordinates": {
+        "lat": 50.081353,
+        "lng": 14.4254136
+      },
+      "rating": 4.4,
+      "userRatingCount": 6680
+    }
+  ]
+}

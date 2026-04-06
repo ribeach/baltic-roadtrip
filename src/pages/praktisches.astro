@@ -6,7 +6,7 @@ import { getBase } from '../lib/content';
 const base = getBase();
 
 const allCountries = await getCollection('countries');
-const routeOrder = ['germany', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden', 'denmark'];
+const routeOrder = ['germany', 'czech-republic', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden', 'norway', 'denmark'];
 const countries = allCountries.sort((a, b) => routeOrder.indexOf(a.data.id) - routeOrder.indexOf(b.data.id));
 
 // Usable battery capacity for 10→80% charge (kWh) — VW ID.4 (77 kWh * ~70%)
@@ -28,8 +28,7 @@ const ferryOptions = [
   { route: 'Tallinn → Helsinki', operators: [{ name: 'Eckerö Line', url: 'https://www.eckeroline.fi' }, { name: 'Tallink', url: 'https://www.tallink.com' }, { name: 'Viking Line', url: 'https://www.vikingline.com' }], duration: '2–2,5h', price: '50–90 € (Auto + 2 Pers.)', note: 'Autofähre nach Helsinki als Start der Finnland-Durchquerung. 12+ Abfahrten täglich, Frühfähre ~07:30 ideal. Eckerö Line oft am günstigsten.' },
   { route: 'Turku → Stockholm', operators: [{ name: 'Viking Line (Glory/Grace)', url: 'https://www.vikingline.com' }], duration: '~11h (Nachtfähre)', price: '200–350 € (Auto + 2 Pers. + Kabine)', note: 'Nachtfähre durch den Turku-Archipel (20.000 Inseln!) mit Stopp auf den Åland-Inseln. Abfahrt 20:55, Ankunft Stockholm Stadsgården 07:30. Früh buchen!' },
   { route: 'Klaipėda → Smiltynė (Kurische Nehrung)', operators: [{ name: 'Lokale Fähre' }], duration: '~10 Min', price: '~23 € Hin+Rück (Auto)', note: 'Alle 20–30 Min. Bezahlung am Terminal. E-Autos im Mai kostenlos auf der Nehrung (Neringa-Gebühr entfällt).' },
-  { route: 'Trelleborg → Rostock (Heimreise)', operators: [{ name: 'TT-Line', url: 'https://www.ttline.com' }, { name: 'Stena Line', url: 'https://www.stenaline.de' }], duration: '~6h', price: '150–300 € (Auto + 2 Pers.)', note: 'Empfohlene Heimreise-Option. Nachtfähre am Vorabend, morgens in Rostock, dann Autobahn nach Aalen.' },
-  { route: 'Gothenburg → Kiel (Heimreise)', operators: [{ name: 'Stena Line', url: 'https://www.stenaline.de' }], duration: '~14h (Nachtfähre)', price: '300–450 € (Auto + 2 Pers. + Kabine)', note: 'Komfort-Upgrade: Abfahrt 17:45, Ankunft 09:15. EV-Laden an Bord möglich (6 Plätze, vorab buchen!).' },
+  { route: 'Rødby → Puttgarden', operators: [{ name: 'Scandlines', url: 'https://www.scandlines.de' }], duration: '~45 Min', price: '60–100 € (Auto + 2 Pers.)', note: 'Fähre von Dänemark nach Deutschland. Abfahrt alle 30 Minuten, keine Reservierung nötig. Schnellste Verbindung nach Norddeutschland/Berlin.' },
 ];
 
 const evRules = [
@@ -223,8 +222,8 @@ const evRules = [
           <p class="text-sm text-gray-600 mt-1">Altstadt komplett autofrei. Parkhaus Viru Keskus am Rand der Altstadt (überdacht, EV-Laden). ~3–5 €/Std.</p>
         </div>
         <div class="bg-paper rounded-lg border border-sand-200 p-4">
-          <h3 class="font-semibold text-navy-800">🇵🇱 Danzig</h3>
-          <p class="text-sm text-gray-600 mt-1">Altstadt stark eingeschränkt. Parkhaus Hala Targowa am Rand der Rechtstadt. ~2–3 €/Std.</p>
+          <h3 class="font-semibold text-navy-800">🇨🇿 Prag</h3>
+          <p class="text-sm text-gray-600 mt-1">Strikte Parkzonen-Regelung. Blaue Zonen für Anwohner. Am besten im Hotelparkhaus oder P+R außerhalb der Innenstadt. ~3–5 €/Std.</p>
         </div>
         <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">🇸🇪 Stockholm</h3>
@@ -268,7 +267,7 @@ const evRules = [
       <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
         <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">MEZ (UTC+1)</h3>
-          <p class="text-sm text-gray-600 mt-1">🇩🇪 Deutschland, 🇩🇰 Dänemark, 🇸🇪 Schweden, 🇵🇱 Polen</p>
+          <p class="text-sm text-gray-600 mt-1">🇩🇪 Deutschland, 🇨🇿 Tschechien, 🇩🇰 Dänemark, 🇸🇪 Schweden, 🇳🇴 Norwegen, 🇵🇱 Polen</p>
         </div>
         <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">OEZ (UTC+2)</h3>
@@ -277,7 +276,7 @@ const evRules = [
       </div>
       <div class="mt-4 bg-yellow-50 border border-yellow-200 rounded-xl p-4">
         <p class="text-sm text-yellow-800">
-          <strong>⚠️ Achtung:</strong> Beim Grenzübertritt Polen → Litauen (Tag 6) geht <strong>1 Stunde verloren</strong>. Umgekehrt gewinnt man 1 Stunde beim Wechsel von Estland/Finnland nach Schweden. Fährzeiten werden immer in lokaler Zeit des jeweiligen Hafens angegeben!
+          <strong>⚠️ Achtung:</strong> Beim Grenzübertritt Polen → Litauen (Tag 5) geht <strong>1 Stunde verloren</strong>. Umgekehrt gewinnt man 1 Stunde beim Wechsel von Estland/Finnland nach Schweden. Fährzeiten werden immer in lokaler Zeit des jeweiligen Hafens angegeben!
         </p>
       </div>
     </section>
@@ -382,8 +381,9 @@ const evRules = [
         <div class="bg-red-50 border border-red-200 rounded-xl p-4">
           <h3 class="font-bold text-red-800 mb-2">🔴 Sofort buchen</h3>
           <ul class="space-y-1 text-sm text-red-700">
-            <li>• Berlin Hotel (30.4.–1.5.)</li>
-            <li>• Danzig Hotel (Majówka!)</li>
+            <li>• Prag Hotel (30.4.)</li>
+            <li>• Warschau Hotel (1.–2.5.)</li>
+            <li>• Oslo Hotel (13.–14.5.)</li>
             <li>• Viking Line Turku→Stockholm (Kabine + Auto)</li>
             <li>• Tallinn→Helsinki Fähre</li>
             <li>• Heimreise-Fähre (Trelleborg oder Gothenburg)</li>

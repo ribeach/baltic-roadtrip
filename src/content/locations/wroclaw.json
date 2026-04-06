@@ -1,0 +1,116 @@
+{
+  "id": "wroclaw",
+  "name": "Breslau (Wrocław)",
+  "country": "poland",
+  "coordinates": {
+    "lat": 51.1079,
+    "lng": 17.0385
+  },
+  "description": "Breslau — das polnische Venedig — liegt auf zwölf Inseln an der Oder und besticht mit einem der schönsten Marktplätze Europas. Die Stadt ist ein Schmelztiegel aus böhmischer, preußischer und polnischer Geschichte und überrascht mit über 300 bronzenen Zwergen, die sich in der ganzen Altstadt verstecken.",
+  "highlights": [
+    {
+      "name": "Rynek (Marktplatz)",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Einer der größten und schönsten mittelalterlichen Marktplätze Europas. Das gotische Rathaus in der Mitte und die farbenfrohen Bürgerhäuser drumherum sind atemberaubend.",
+      "duration": "1-1.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=8867570796151384736",
+      "placeId": "ChIJV8-mpXXCD0cRoCo7HajwD3s",
+      "coordinates": {
+        "lat": 51.1106992,
+        "lng": 17.0323662
+      }
+    },
+    {
+      "name": "Dominsel (Ostrów Tumski)",
+      "type": "architecture",
+      "icon": "gem",
+      "description": "Die älteste Siedlung Breslaus auf einer Oderinsel. Abends werden die Gaslaternen noch von Hand angezündet — ein magischer Anblick. Der gotische Dom ist das Highlight.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=11704347592576436713",
+      "placeId": "ChIJSw9zz93pD0cR6Yk3hx8ybqI",
+      "coordinates": {
+        "lat": 51.1144235,
+        "lng": 17.0462646
+      }
+    },
+    {
+      "name": "Jahrhunderthalle (Hala Stulecia)",
+      "type": "architecture",
+      "icon": "info",
+      "description": "UNESCO-Welterbe und Meisterwerk der modernen Architektur von 1913. Die Betonkuppel war damals die größte der Welt. Davor liegt die spektakuläre Pergola mit Multimedia-Brunnen.",
+      "duration": "1h",
+      "price": "ca. €4",
+      "googleMapsUrl": "https://maps.google.com/?cid=10763621538599936407",
+      "placeId": "ChIJaT7HDCfoD0cRlyH-4MIQYLU",
+      "coordinates": {
+        "lat": 51.1069534,
+        "lng": 17.0773287
+      },
+      "rating": 4.7,
+      "userRatingCount": 14573
+    },
+    {
+      "name": "Breslauer Zwerge (Krasnale)",
+      "type": "activity",
+      "icon": "gem",
+      "description": "Über 300 kleine Bronzezwerge verstecken sich in der ganzen Altstadt — eine spielerische Schnitzeljagd, die an die Anti-Regime-Bewegung der 1980er erinnert.",
+      "duration": "0.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=4049625525270242765",
+      "placeId": "ChIJjbBwNHTCD0cRzWUWm_UoMzg",
+      "coordinates": {
+        "lat": 51.1089384,
+        "lng": 17.0328886
+      },
+      "rating": 4.9,
+      "userRatingCount": 951
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Konspira",
+      "cuisine": "Polnisch / Historisch",
+      "priceRange": "€€",
+      "description": "Ein einzigartiges Restaurant im Stil einer kommunistischen Untergrundorganisation. Authentische polnische Küche in einem historisch dekorierten Gewölbe.",
+      "mustTry": "Żurek im Brotlaib oder Pierogi in verschiedenen Varianten",
+      "googleMapsUrl": "https://maps.google.com/?cid=6545979536414081205",
+      "placeId": "ChIJOTTS3HTCD0cRtQDwzrT911o",
+      "coordinates": {
+        "lat": 51.1091955,
+        "lng": 17.0283516
+      },
+      "rating": 4.6,
+      "userRatingCount": 11378
+    },
+    {
+      "name": "Pierogarnia Stary Młyn",
+      "cuisine": "Polnisch (Pierogi)",
+      "priceRange": "€",
+      "description": "Direkt am Rynek gelegen, bietet dieses unkomplizierte Restaurant handgemachte Pierogi in unzähligen Variationen — von herzhaft bis süß.",
+      "mustTry": "Pierogi z mięsem (mit Fleischfüllung) oder die süße Variante mit Heidelbeeren",
+      "googleMapsUrl": "https://maps.google.com/?cid=4234046604344017483",
+      "placeId": "ChIJ79kpwkbDD0cRS8JfJvRawjo",
+      "coordinates": {
+        "lat": 51.1092085,
+        "lng": 17.0331316
+      },
+      "rating": 4.4,
+      "userRatingCount": 15704
+    }
+  ],
+  "hotels": [],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Die Dominsel (Ostrów Tumski) bei Dämmerung besuchen — dann zündet der Laternenanzünder noch per Hand die historischen Gaslaternen an. Einer der romantischsten Orte Polens."
+    },
+    {
+      "type": "info",
+      "text": "Breslau ist ein idealer Zwischenstopp auf der Strecke Prag–Warschau (jeweils ca. 280–350 km). Direkt am Rynek gibt es mehrere Parkhäuser."
+    }
+  ],
+  "nightlife": []
+}

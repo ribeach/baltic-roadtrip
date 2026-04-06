@@ -1,0 +1,30 @@
+{
+  "id": "czech-republic",
+  "name": "Tschechien",
+  "flag": "🇨🇿",
+  "currency": {
+    "code": "CZK",
+    "name": "Tschechische Krone",
+    "cashNeeded": false,
+    "tip": "Kein Euro-Land! Tschechische Kronen (CZK), aber Kartenzahlung fast überall möglich. 1 € ≈ 25 CZK. In Touristengebieten wird oft Euro akzeptiert, aber zu schlechtem Kurs — lieber mit Karte zahlen."
+  },
+  "evCharging": {
+    "quality": "gut",
+    "medianDcPrice": "0,35–0,50 €/kWh",
+    "recommendedApps": ["ČEZ (FUTUR/E/GO)", "Plugsurfing", "Shell Recharge", "IONITY"],
+    "notes": "Gute Abdeckung entlang der Autobahnen D1/D5/D11. ČEZ ist der größte lokale Anbieter. In Prag zahlreiche Schnelllader in Einkaufszentren und Parkhäusern."
+  },
+  "driving": {
+    "speedLimits": { "urban": 50, "rural": 90, "motorway": 130 },
+    "tolls": "Elektronische Vignette (e-Dálniční známka) Pflicht auf Autobahnen: 10-Tages-Vignette ~12 €. Nur auf dem offiziellen Portal edalnice.cz kaufen.",
+    "specialRules": "Strikte 0,0 ‰ Alkoholgrenze (absolutes Alkoholverbot am Steuer!). Abblendlicht 24/7 Pflicht. Warnweste im Auto Pflicht."
+  },
+  "culinary": {
+    "mustTry": [
+      "Svíčková na smetaně (Lendenbraten in Rahmsoße)",
+      "Trdelník (Baumstriezel)",
+      "Pilsner Urquell / Budvar"
+    ],
+    "description": "Die tschechische Küche ist deftig, herzhaft und perfekt zum Bier. Svíčková — zarter Lendenbraten in cremiger Gemüse-Sahne-Sauce mit Preiselbeeren und Knödeln — gilt als Nationalgericht. Dazu das beste Bier der Welt: Tschechien hat den höchsten Pro-Kopf-Bierkonsum weltweit."
+  }
+}

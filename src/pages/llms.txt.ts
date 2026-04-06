@@ -28,7 +28,7 @@ export const GET: APIRoute = async () => {
 
   ln('# Baltic Roadtrip 2026');
   ln();
-  ln('> 17-Tage-Roadtrip mit E-Auto (VW ID.4, 77 kWh) durch 8 Länder: Deutschland, Polen, Litauen, Lettland, Estland, Finnland, Schweden, Dänemark. ~4.500 km Gesamtstrecke. 30. April – 16. Mai 2026.');
+  ln('> 18-Tage-Roadtrip mit E-Auto (VW ID.4, 77 kWh) durch 10 Länder: Deutschland, Tschechien, Polen, Litauen, Lettland, Estland, Finnland, Schweden, Norwegen, Dänemark. ~5.500 km Gesamtstrecke. 30. April – 17. Mai 2026.');
   ln();
   ln('Website: https://ribeach.github.io/baltic-roadtrip/');
   ln('Repo: https://github.com/ribeach/baltic-roadtrip');
@@ -45,7 +45,7 @@ export const GET: APIRoute = async () => {
   ln('- Interessen (Priorität): 1. Natur & Nationalparks, 2. Geschichte & Kultur (Sowjet-Erbe, Mittelalter, Hanse), 3. Lokale Küche & Food-Märkte, 4. Besondere Bars & Lokale am Abend');
   ln('- Fahretappen von 5–6 Stunden am Stück sind kein Problem');
   ln('- Kein Stress-Urlaub: Lieber weniger Orte richtig erleben als alles abhaken');
-  ln('- Feste Eckpunkte: 1. Mai in Berlin, Baltikum-Rundreise (LT/LV/EE), Finnland-Durchquerung (Helsinki→Turku) mit Nachtfähre nach Stockholm, 2–3 Tage Halmstad (privat, keine Tipps nötig)');
+  ln('- Feste Eckpunkte: Prag als Startpunkt, Warschau & Masuren, Baltikum-Rundreise (LT/LV/EE), Finnland-Durchquerung (Helsinki→Turku) mit Nachtfähre nach Stockholm, Oslo, Kopenhagen (Kurzstopp), Berlin zum Abschluss');
   ln();
 
   // Route overview table
