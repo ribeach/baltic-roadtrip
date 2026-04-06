@@ -1,0 +1,69 @@
+{
+  "id": "orebro",
+  "name": "Örebro",
+  "country": "sweden",
+  "coordinates": {
+    "lat": 59.2753,
+    "lng": 15.2134
+  },
+  "description": "Praktischster Zwischenstopp auf der Route Stockholm→Oslo — ein Märchenschloss auf einer Flussinsel, ein charmantes Freilichtmuseum und genug Substanz für einen entspannten halben Tag. Die Stadt liegt direkt an der E18/E20 und teilt die lange Fahrt perfekt auf.",
+  "highlights": [
+    {
+      "name": "Schloss Örebro",
+      "type": "castle",
+      "icon": "star",
+      "description": "Mittelalterliche Wasserburg auf einer Insel im Fluss Svartån — märchenhaftes Schloss mit Jahrhunderten Geschichte, Führungen verfügbar.",
+      "duration": "1-1.5h",
+      "price": "Führung ca. SEK 120 (~€10)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C3%96rebro%20Castle&query_place_id=ChIJBSxTjuIUXEYRy780BuRQqa8",
+      "placeId": "ChIJBSxTjuIUXEYRy780BuRQqa8",
+      "coordinates": {
+        "lat": 59.273976,
+        "lng": 15.2154432
+      },
+      "rating": 4.3,
+      "userRatingCount": 7425
+    },
+    {
+      "name": "Wadköping Freilichtmuseum",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Freilichtmuseum mit roten Holzhäusern aus dem 17.–19. Jahrhundert — Handwerksbetriebe, Bäckereien und Museen. Freier Eintritt, perfekt zum Flanieren.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Wadk%C3%B6ping&query_place_id=ChIJr9ahIv4UXEYR9b50M99yLXk",
+      "placeId": "ChIJr9ahIv4UXEYR9b50M99yLXk",
+      "coordinates": {
+        "lat": 59.272618,
+        "lng": 15.232751
+      },
+      "rating": 4.5,
+      "userRatingCount": 4398
+    }
+  ],
+  "restaurants": [],
+  "hotels": [
+    {
+      "name": "Clarion Hotel Örebro",
+      "type": "Design-Hotel",
+      "priceRange": "110-180€",
+      "evCharging": true,
+      "description": "Pariser Flair trifft schwedisches Design — Rooftop-Spa mit Pool und E-Ladestation im Innenhof. Gute Lage zwischen Schloss und Bahnhof.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Clarion%20Hotel%20%C3%96rebro&query_place_id=ChIJ1SVwn-MUXEYR7799VbUbBSY",
+      "placeId": "ChIJ1SVwn-MUXEYR7799VbUbBSY",
+      "coordinates": {
+        "lat": 59.270390899999995,
+        "lng": 15.213802300000001
+      },
+      "rating": 4.2,
+      "userRatingCount": 1797
+    }
+  ],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Örebro liegt genau auf der Hälfte der Strecke Stockholm→Oslo und eignet sich perfekt als Mittagspause oder kurzer Zwischenstopp."
+    }
+  ],
+  "nightlife": []
+}

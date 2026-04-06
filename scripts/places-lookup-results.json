@@ -1,38 +1,920 @@
 {
-  "kaunas/pazaislis": {
-    "placeId": "ChIJqaC-cAAY50YREQHA6mF2a0I",
-    "displayName": "Pažaislis Monastery and Church",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pa%C5%BEaislis%20Monastery%20and%20Church&query_place_id=ChIJqaC-cAAY50YREQHA6mF2a0I",
+  "lodz/manufaktura": {
+    "placeId": "ChIJWZsRxFbLG0cRW_Y07H_xp_w",
+    "displayName": "Manufaktura",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Manufaktura&query_place_id=ChIJWZsRxFbLG0cRW_Y07H_xp_w",
     "coordinates": {
-      "lat": 54.8762859,
-      "lng": 24.022278099999998
+      "lat": 51.7791128,
+      "lng": 19.4441324
     }
   },
-  "riga/corner-house": {
-    "placeId": "ChIJ598uC8zP7kYRzbrg8afceGA",
-    "displayName": "The Corner House",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Corner%20House&query_place_id=ChIJ598uC8zP7kYRzbrg8afceGA",
+  "lodz/piotrkowska": {
+    "placeId": "ChIJUcgvt9Y0GkcRsHTULIzr25Y",
+    "displayName": "Piotrkowska Street",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Piotrkowska%20Street&query_place_id=ChIJUcgvt9Y0GkcRsHTULIzr25Y",
     "coordinates": {
-      "lat": 56.958144999999995,
-      "lng": 24.124124
+      "lat": 51.7605694,
+      "lng": 19.458271
     }
   },
-  "vilnius/three-crosses": {
-    "placeId": "ChIJUWJBoCKU3UYR4j0F93YDxxc",
-    "displayName": "Three Crosses Monument",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Three%20Crosses%20Monument&query_place_id=ChIJUWJBoCKU3UYR4j0F93YDxxc",
+  "lodz/off-piotrkowska": {
+    "placeId": "ChIJmU7-XdQ0GkcRNSi5uEiZNHg",
+    "displayName": "OFF Piotrkowska",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=OFF%20Piotrkowska&query_place_id=ChIJmU7-XdQ0GkcRNSi5uEiZNHg",
     "coordinates": {
-      "lat": 54.6867879,
-      "lng": 25.2975748
+      "lat": 51.7611118,
+      "lng": 19.4604054
     }
   },
-  "masuria/fort-boyen": {
-    "placeId": "ChIJQYceGwyI4UYRuQWFOIlde-U",
-    "displayName": "Boyen Fortress",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Boyen%20Fortress&query_place_id=ChIJQYceGwyI4UYRuQWFOIlde-U",
+  "lodz/ec1": {
+    "placeId": "ChIJt6cxESzLG0cR2BgqHho5Y-4",
+    "displayName": "EC1 Łódź - Miasto Kultury",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=EC1%20%C5%81%C3%B3d%C5%BA%20-%20Miasto%20Kultury&query_place_id=ChIJt6cxESzLG0cR2BgqHho5Y-4",
     "coordinates": {
-      "lat": 54.03416,
-      "lng": 21.749918299999997
+      "lat": 51.7681411,
+      "lng": 19.469138299999997
+    }
+  },
+  "lodz/radegast": {
+    "placeId": "ChIJl1Q87_7KG0cR8XeyLUlPbyo",
+    "displayName": "Radegast Train Station",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Radegast%20Train%20Station&query_place_id=ChIJl1Q87_7KG0cR8XeyLUlPbyo",
+    "coordinates": {
+      "lat": 51.8017341,
+      "lng": 19.4808982
+    }
+  },
+  "lodz/anatewka": {
+    "placeId": "ChIJj2dqstXKG0cR3-kWMnM3Loc",
+    "displayName": "Anatewka - Zyner’s Restauracje",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Anatewka%20-%20Zyner%E2%80%99s%20Restauracje&query_place_id=ChIJj2dqstXKG0cR3-kWMnM3Loc",
+    "coordinates": {
+      "lat": 51.7703406,
+      "lng": 19.454669199999998
+    }
+  },
+  "lodz/ato-ramen": {
+    "placeId": "ChIJ5azLTdQ0GkcRV7TreS5HwaY",
+    "displayName": "Ato Ramen",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ato%20Ramen&query_place_id=ChIJ5azLTdQ0GkcRV7TreS5HwaY",
+    "coordinates": {
+      "lat": 51.7608083,
+      "lng": 19.4597586
+    }
+  },
+  "lodz/andels": {
+    "placeId": "ChIJbRcRw9I0GkcRqYK4Y1n3380",
+    "displayName": "Vienna House by Wyndham Andel's Lodz",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vienna%20House%20by%20Wyndham%20Andel's%20Lodz&query_place_id=ChIJbRcRw9I0GkcRqYK4Y1n3380",
+    "coordinates": {
+      "lat": 51.7784329,
+      "lng": 19.4485635
+    }
+  },
+  "lodz/stare-kino": {
+    "placeId": "ChIJAYKEG9U0GkcRvBCEPVUffSs",
+    "displayName": "Hotel Stare Kino Łódź",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Stare%20Kino%20%C5%81%C3%B3d%C5%BA&query_place_id=ChIJAYKEG9U0GkcRvBCEPVUffSs",
+    "coordinates": {
+      "lat": 51.762939499999995,
+      "lng": 19.4588969
+    }
+  },
+  "lodz/off-nightlife": {
+    "placeId": "ChIJmU7-XdQ0GkcRNSi5uEiZNHg",
+    "displayName": "OFF Piotrkowska",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=OFF%20Piotrkowska&query_place_id=ChIJmU7-XdQ0GkcRNSi5uEiZNHg",
+    "coordinates": {
+      "lat": 51.7611118,
+      "lng": 19.4604054
+    }
+  },
+  "fiskars/village": {
+    "placeId": "ChIJ9RWp32mujUYRweMYPFK1ACY",
+    "displayName": "Fiskars",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fiskars&query_place_id=ChIJ9RWp32mujUYRweMYPFK1ACY",
+    "coordinates": {
+      "lat": 60.1296265,
+      "lng": 23.542236400000004
+    }
+  },
+  "fiskars/museum": {
+    "placeId": "ChIJ0zjU10CujUYRJcUejbbyueQ",
+    "displayName": "Fiskars Museum",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fiskars%20Museum&query_place_id=ChIJ0zjU10CujUYRJcUejbbyueQ",
+    "coordinates": {
+      "lat": 60.1317482,
+      "lng": 23.5545641
+    }
+  },
+  "fiskars/agras": {
+    "placeId": "ChIJHeLXjUGujUYRSxejgAF5938",
+    "displayName": "Ägräs Taproom",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C3%84gr%C3%A4s%20Taproom&query_place_id=ChIJHeLXjUGujUYRSxejgAF5938",
+    "coordinates": {
+      "lat": 60.1309696,
+      "lng": 23.5500085
+    }
+  },
+  "fiskars/kuparipaja": {
+    "placeId": "ChIJcdar32mujUYRkBluMLa637g",
+    "displayName": "Restaurant Kuparipaja",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Kuparipaja&query_place_id=ChIJcdar32mujUYRkBluMLa637g",
+    "coordinates": {
+      "lat": 60.1274912,
+      "lng": 23.541200399999997
+    }
+  },
+  "fiskars/wardshus": {
+    "placeId": "ChIJ01_X4R6ujUYRBXC0ah7YWbc",
+    "displayName": "Oy Wärssy Ravintolat Ab",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Oy%20W%C3%A4rssy%20Ravintolat%20Ab&query_place_id=ChIJ01_X4R6ujUYRBXC0ah7YWbc",
+    "coordinates": {
+      "lat": 60.12732210000001,
+      "lng": 23.538469000000003
+    }
+  },
+  "fiskars/torby": {
+    "placeId": "ChIJ2xKZ6aivjUYRxI--HTbdNos",
+    "displayName": "The Torby",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Torby&query_place_id=ChIJ2xKZ6aivjUYRxI--HTbdNos",
+    "coordinates": {
+      "lat": 60.127630399999994,
+      "lng": 23.540403599999998
+    }
+  },
+  "kutna-hora/ossuary": {
+    "placeId": "ChIJT8VaY_xADEcRjlDxpcrJDDI",
+    "displayName": "Sedlec Ossuary",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sedlec%20Ossuary&query_place_id=ChIJT8VaY_xADEcRjlDxpcrJDDI",
+    "coordinates": {
+      "lat": 49.961738499999996,
+      "lng": 15.288171399999998
+    }
+  },
+  "kutna-hora/st-barbara": {
+    "placeId": "ChIJiZuB0qZBDEcRiwbGe_Rc2r8",
+    "displayName": "Saint Barbara's Church",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Saint%20Barbara's%20Church&query_place_id=ChIJiZuB0qZBDEcRiwbGe_Rc2r8",
+    "coordinates": {
+      "lat": 49.9449743,
+      "lng": 15.263676900000002
+    }
+  },
+  "kutna-hora/silver-museum": {
+    "placeId": "ChIJF09tWqZBDEcRqlZkTALr-C8",
+    "displayName": "Czech Museum of Silver",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Czech%20Museum%20of%20Silver&query_place_id=ChIJF09tWqZBDEcRqlZkTALr-C8",
+    "coordinates": {
+      "lat": 49.947567299999996,
+      "lng": 15.265435799999999
+    }
+  },
+  "kutna-hora/dacicky": {
+    "placeId": "ChIJkUqyQaZBDEcRxIuFpeNjnnw",
+    "displayName": "Restaurace Dačický",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurace%20Da%C4%8Dick%C3%BD&query_place_id=ChIJkUqyQaZBDEcRxIuFpeNjnnw",
+    "coordinates": {
+      "lat": 49.948304,
+      "lng": 15.264718700000001
+    }
+  },
+  "kutna-hora/v-ruthardce": {
+    "placeId": "ChIJDcBRtKdBDEcRmWreiiii_8k",
+    "displayName": "Restaurace V Ruthardce",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurace%20V%20Ruthardce&query_place_id=ChIJDcBRtKdBDEcRmWreiiii_8k",
+    "coordinates": {
+      "lat": 49.9481125,
+      "lng": 15.2666578
+    }
+  },
+  "kutna-hora/u-kata": {
+    "placeId": "ChIJiTIzzAdBDEcRv8kFKs-P9xc",
+    "displayName": "Hotel U Kata",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20U%20Kata&query_place_id=ChIJiTIzzAdBDEcRv8kFKs-P9xc",
+    "coordinates": {
+      "lat": 49.949511199999996,
+      "lng": 15.274791200000001
+    }
+  },
+  "parnu/beach": {
+    "placeId": "ChIJXduDxRr97EYRYGXoH5u31v0",
+    "displayName": "Pärnu Beach",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C3%A4rnu%20Beach&query_place_id=ChIJXduDxRr97EYRYGXoH5u31v0",
+    "coordinates": {
+      "lat": 58.37201520000001,
+      "lng": 24.5025953
+    }
+  },
+  "parnu/villa-ammende": {
+    "placeId": "ChIJs5WRJfD97EYRN1gp4UoH3ew",
+    "displayName": "Villa Ammende Restoran ja Hotell",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Villa%20Ammende%20Restoran%20ja%20Hotell&query_place_id=ChIJs5WRJfD97EYRN1gp4UoH3ew",
+    "coordinates": {
+      "lat": 58.380569599999994,
+      "lng": 24.4920261
+    }
+  },
+  "parnu/old-town": {
+    "placeId": "ChIJMf6WZz397EYRw62UMm5IALo",
+    "displayName": "Town Hall",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Town%20Hall&query_place_id=ChIJMf6WZz397EYRw62UMm5IALo",
+    "coordinates": {
+      "lat": 58.385460200000004,
+      "lng": 24.4991949
+    }
+  },
+  "parnu/supelsaksad": {
+    "placeId": "ChIJlXxEpBn97EYRNGdhy--6xT0",
+    "displayName": "Supelsaksad Pärnu",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Supelsaksad%20P%C3%A4rnu&query_place_id=ChIJlXxEpBn97EYRNGdhy--6xT0",
+    "coordinates": {
+      "lat": 58.380382499999996,
+      "lng": 24.5012302
+    }
+  },
+  "parnu/raimond": {
+    "placeId": "ChIJnyRU7hr97EYRu7f2JueYObM",
+    "displayName": "Restoran Raimond",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restoran%20Raimond&query_place_id=ChIJnyRU7hr97EYRu7f2JueYObM",
+    "coordinates": {
+      "lat": 58.3755639,
+      "lng": 24.4952492
+    }
+  },
+  "parnu/hedon-spa": {
+    "placeId": "ChIJvw_P8Rr97EYRiydXj6-GQgk",
+    "displayName": "Hedon SPA & HOTEL",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hedon%20SPA%20%26%20HOTEL&query_place_id=ChIJvw_P8Rr97EYRiydXj6-GQgk",
+    "coordinates": {
+      "lat": 58.3758583,
+      "lng": 24.4961821
+    }
+  },
+  "parnu/frost": {
+    "placeId": "ChIJkcGR7hf97EYRIBwMElx2LHo",
+    "displayName": "Frost Boutique Hotel",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Frost%20Boutique%20Hotel&query_place_id=ChIJkcGR7hf97EYRIBwMElx2LHo",
+    "coordinates": {
+      "lat": 58.3837357,
+      "lng": 24.498567599999998
+    }
+  },
+  "rostock/warnemunde-lighthouse": {
+    "placeId": "ChIJnXIXxqH4rEcR0eqDTHcAaP4",
+    "displayName": "Warnemünde lighthouse",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Warnem%C3%BCnde%20lighthouse&query_place_id=ChIJnXIXxqH4rEcR0eqDTHcAaP4",
+    "coordinates": {
+      "lat": 54.181421099999994,
+      "lng": 12.085846199999999
+    }
+  },
+  "rostock/teepott": {
+    "placeId": "ChIJDcZOx6H4rEcRsB8-NXbj63U",
+    "displayName": "Teepott Warnemünde",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Teepott%20Warnem%C3%BCnde&query_place_id=ChIJDcZOx6H4rEcRsB8-NXbj63U",
+    "coordinates": {
+      "lat": 54.181690599999996,
+      "lng": 12.0856423
+    }
+  },
+  "rostock/kunsthalle": {
+    "placeId": "ChIJ5_fO7ihXrEcR3pqglDqm_v8",
+    "displayName": "Rostock Art Gallery",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rostock%20Art%20Gallery&query_place_id=ChIJ5_fO7ihXrEcR3pqglDqm_v8",
+    "coordinates": {
+      "lat": 54.0986031,
+      "lng": 12.0877286
+    }
+  },
+  "rostock/brauhaus": {
+    "placeId": "ChIJp6Yl3lFXrEcRmrMHtROMARE",
+    "displayName": "Braugasthaus Zum alten Fritz",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Braugasthaus%20Zum%20alten%20Fritz&query_place_id=ChIJp6Yl3lFXrEcRmrMHtROMARE",
+    "coordinates": {
+      "lat": 54.0921417,
+      "lng": 12.1269639
+    }
+  },
+  "rostock/neptun": {
+    "placeId": "ChIJl25AJVJXrEcR-HRQcpbLvS8",
+    "displayName": "Hotel Neptun",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Neptun&query_place_id=ChIJl25AJVJXrEcR-HRQcpbLvS8",
+    "coordinates": {
+      "lat": 54.178979999999996,
+      "lng": 12.07757
+    }
+  },
+  "stockholm/langholmen": {
+    "placeId": "ChIJL7Eg29F3X0YRtYAR-70zV7o",
+    "displayName": "Långholmen Hotel Stockholm",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=L%C3%A5ngholmen%20Hotel%20Stockholm&query_place_id=ChIJL7Eg29F3X0YRtYAR-70zV7o",
+    "coordinates": {
+      "lat": 59.3212521,
+      "lng": 18.0252409
+    }
+  },
+  "stockholm/hotel-rival": {
+    "placeId": "ChIJmyzqNeR3X0YRfhATfm0KISQ",
+    "displayName": "Hotel Rival",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Rival&query_place_id=ChIJmyzqNeR3X0YRfhATfm0KISQ",
+    "coordinates": {
+      "lat": 59.3181838,
+      "lng": 18.0637996
+    }
+  },
+  "stockholm/tjoget": {
+    "placeId": "ChIJrZBLWMR3X0YR-K4amPgKyas",
+    "displayName": "Tjoget",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tjoget&query_place_id=ChIJrZBLWMR3X0YR-K4amPgKyas",
+    "coordinates": {
+      "lat": 59.3162112,
+      "lng": 18.0347985
+    }
+  },
+  "stockholm/mosebacke": {
+    "placeId": "ChIJRZYadlZ3X0YREnx9XvTFzxk",
+    "displayName": "Mosebacketerrassen",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mosebacketerrassen&query_place_id=ChIJRZYadlZ3X0YREnx9XvTFzxk",
+    "coordinates": {
+      "lat": 59.318476000000004,
+      "lng": 18.0751684
+    }
+  },
+  "stockholm/kvarnen": {
+    "placeId": "ChIJa14naPp3X0YRmkZmDwg0-5s",
+    "displayName": "Restaurang Kvarnen",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurang%20Kvarnen&query_place_id=ChIJa14naPp3X0YRmkZmDwg0-5s",
+    "coordinates": {
+      "lat": 59.31478310000001,
+      "lng": 18.0742765
+    }
+  },
+  "stockholm/city-hall": {
+    "placeId": "ChIJ6c2SkN93X0YRwJQTkQ3Jr64",
+    "displayName": "Stockholm City Hall",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Stockholm%20City%20Hall&query_place_id=ChIJ6c2SkN93X0YRwJQTkQ3Jr64",
+    "coordinates": {
+      "lat": 59.327788999999996,
+      "lng": 18.0551787
+    }
+  },
+  "stockholm/tunnelbana-solna": {
+    "placeId": "ChIJy_q7OsCdX0YR04EVHfAPH0w",
+    "displayName": "Solna Centrum",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Solna%20Centrum&query_place_id=ChIJy_q7OsCdX0YR04EVHfAPH0w",
+    "coordinates": {
+      "lat": 59.361454300000005,
+      "lng": 17.996442
+    }
+  },
+  "helsinki/loyly": {
+    "placeId": "ChIJ7WWs57ELkkYRJJRbVu2rgfo",
+    "displayName": "Löyly Helsinki",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=L%C3%B6yly%20Helsinki&query_place_id=ChIJ7WWs57ELkkYRJJRbVu2rgfo",
+    "coordinates": {
+      "lat": 60.15206559999999,
+      "lng": 24.930273699999997
+    }
+  },
+  "helsinki/katajanokka": {
+    "placeId": "ChIJ-QaGV24LkkYRYK2oSABHmKY",
+    "displayName": "Home Hotel Katajanokka",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Home%20Hotel%20Katajanokka&query_place_id=ChIJ-QaGV24LkkYRYK2oSABHmKY",
+    "coordinates": {
+      "lat": 60.16668369999999,
+      "lng": 24.9692789
+    }
+  },
+  "helsinki/cafe-regatta": {
+    "placeId": "ChIJPQrZrSQKkkYRxPQN1mE_SUM",
+    "displayName": "Cafe Regatta",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Regatta&query_place_id=ChIJPQrZrSQKkkYRxPQN1mE_SUM",
+    "coordinates": {
+      "lat": 60.1801568,
+      "lng": 24.911759900000003
+    }
+  },
+  "helsinki/ateljee-bar": {
+    "placeId": "ChIJPcJLgssLkkYRY7ufctWDEAY",
+    "displayName": "Ateljee Bar",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ateljee%20Bar&query_place_id=ChIJPcJLgssLkkYRY7ufctWDEAY",
+    "coordinates": {
+      "lat": 60.167691600000005,
+      "lng": 24.9387683
+    }
+  },
+  "wroclaw/puro": {
+    "placeId": "ChIJ92UOXAvCD0cRf4uvSR8erCo",
+    "displayName": "PURO Wrocław Stare Miasto",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=PURO%20Wroc%C5%82aw%20Stare%20Miasto&query_place_id=ChIJ92UOXAvCD0cRf4uvSR8erCo",
+    "coordinates": {
+      "lat": 51.1079917,
+      "lng": 17.0248927
+    }
+  },
+  "wroclaw/monopol": {
+    "placeId": "ChIJh_zG8nPCD0cRe42gCFPqZoA",
+    "displayName": "Hotel Monopol",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Monopol&query_place_id=ChIJh_zG8nPCD0cRe42gCFPqZoA",
+    "coordinates": {
+      "lat": 51.1060879,
+      "lng": 17.0310289
+    }
+  },
+  "wroclaw/przedwojenna": {
+    "placeId": "ChIJzaT-uXXCD0cRyD5YRuggie8",
+    "displayName": "Prewar",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Prewar&query_place_id=ChIJzaT-uXXCD0cRyD5YRuggie8",
+    "coordinates": {
+      "lat": 51.11109030000001,
+      "lng": 17.0304243
+    }
+  },
+  "wroclaw/neon-gallery": {
+    "placeId": "ChIJXeor3GzDD0cR91kLJ8SCOK4",
+    "displayName": "Galeria Neon Side",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Galeria%20Neon%20Side&query_place_id=ChIJXeor3GzDD0cR91kLJ8SCOK4",
+    "coordinates": {
+      "lat": 51.109965499999994,
+      "lng": 17.0245627
+    }
+  },
+  "kaunas/uoksas": {
+    "placeId": "ChIJd8xFv3Qi50YRvNxfu-mrOwU",
+    "displayName": "Uoksas",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Uoksas&query_place_id=ChIJd8xFv3Qi50YRvNxfu-mrOwU",
+    "coordinates": {
+      "lat": 54.898156199999995,
+      "lng": 23.909943199999997
+    }
+  },
+  "kaunas/monte-pacis": {
+    "placeId": "ChIJN16Np1c950YRd9GmayUg6Gs",
+    "displayName": "„Monte Pacis“",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%E2%80%9EMonte%20Pacis%E2%80%9C&query_place_id=ChIJN16Np1c950YRd9GmayUg6Gs",
+    "coordinates": {
+      "lat": 54.8762714,
+      "lng": 24.02088
+    }
+  },
+  "kaunas/momo-grill": {
+    "placeId": "ChIJTXNF2esj50YR6SQHfS2T6kg",
+    "displayName": "Momo grill Kaunas",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Momo%20grill%20Kaunas&query_place_id=ChIJTXNF2esj50YR6SQHfS2T6kg",
+    "coordinates": {
+      "lat": 54.8945471,
+      "lng": 23.8976118
+    }
+  },
+  "copenhagen/cisternerne": {
+    "placeId": "ChIJfyjMH5dTUkYRb6MBP3wrqC0",
+    "displayName": "Cisterns in Søndermarken",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cisterns%20in%20S%C3%B8ndermarken&query_place_id=ChIJfyjMH5dTUkYRb6MBP3wrqC0",
+    "coordinates": {
+      "lat": 55.669537399999996,
+      "lng": 12.5242031
+    }
+  },
+  "copenhagen/cph-living": {
+    "placeId": "ChIJDZXGPhVTUkYRTDssKCzg_Lc",
+    "displayName": "Hotel Cph Living",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Cph%20Living&query_place_id=ChIJDZXGPhVTUkYRTDssKCzg_Lc",
+    "coordinates": {
+      "lat": 55.6702098,
+      "lng": 12.580093399999999
+    }
+  },
+  "copenhagen/lidkoeb": {
+    "placeId": "ChIJbZ3drgpTUkYRkQazSR_D_U4",
+    "displayName": "Lidkoeb",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lidkoeb&query_place_id=ChIJbZ3drgpTUkYRkQazSR_D_U4",
+    "coordinates": {
+      "lat": 55.6728044,
+      "lng": 12.551612299999999
+    }
+  },
+  "copenhagen/war-pigs": {
+    "placeId": "ChIJrfd4pHNTUkYRxMf6Mns9ZPk",
+    "displayName": "Warpigs Brewpub",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Warpigs%20Brewpub&query_place_id=ChIJrfd4pHNTUkYRxMf6Mns9ZPk",
+    "coordinates": {
+      "lat": 55.668502399999994,
+      "lng": 12.5599359
+    }
+  },
+  "warsaw/neon-museum": {
+    "placeId": "ChIJVVXFfbXNHkcRYARvzX3LLiU",
+    "displayName": "Neon Museum",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Neon%20Museum&query_place_id=ChIJVVXFfbXNHkcRYARvzX3LLiU",
+    "coordinates": {
+      "lat": 52.2318484,
+      "lng": 21.00677
+    }
+  },
+  "warsaw/vodka-museum": {
+    "placeId": "ChIJAzq9HzjMHkcRgZRw9xYyg-M",
+    "displayName": "Polish Vodka Museum",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Polish%20Vodka%20Museum&query_place_id=ChIJAzq9HzjMHkcRgZRw9xYyg-M",
+    "coordinates": {
+      "lat": 52.255364099999994,
+      "lng": 21.0460039
+    }
+  },
+  "warsaw/bar-prasowy": {
+    "placeId": "ChIJIS2CPOfMHkcRKoOBFyhNApY",
+    "displayName": "Prasowy",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Prasowy&query_place_id=ChIJIS2CPOfMHkcRKoOBFyhNApY",
+    "coordinates": {
+      "lat": 52.2157968,
+      "lng": 21.0207117
+    }
+  },
+  "warsaw/hotel-warszawa": {
+    "placeId": "ChIJIbpZNPXMHkcRK-TQEAofKVY",
+    "displayName": "Hotel Warszawa in the Prudential Building",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Warszawa%20in%20the%20Prudential%20Building&query_place_id=ChIJIbpZNPXMHkcRK-TQEAofKVY",
+    "coordinates": {
+      "lat": 52.235708699999996,
+      "lng": 21.012645000000003
+    }
+  },
+  "lahemaa/vihula-manor": {
+    "placeId": "ChIJl4pByRekk0YRGrxZehyoL7g",
+    "displayName": "Vihula Manor Country Club & Spa",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vihula%20Manor%20Country%20Club%20%26%20Spa&query_place_id=ChIJl4pByRekk0YRGrxZehyoL7g",
+    "coordinates": {
+      "lat": 59.5465683,
+      "lng": 26.1826467
+    }
+  },
+  "lahemaa/altja-tavern": {
+    "placeId": "ChIJbz7VxpClk0YR3ftdybmEKlM",
+    "displayName": "Altja kõrts",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Altja%20k%C3%B5rts&query_place_id=ChIJbz7VxpClk0YR3ftdybmEKlM",
+    "coordinates": {
+      "lat": 59.5826561,
+      "lng": 26.1123114
+    }
+  },
+  "lahemaa/sagadi-manor": {
+    "placeId": "ChIJHy4lzm2mk0YRuuAORkX-4D0",
+    "displayName": "Sagadi. Manor Hotel",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sagadi.%20Manor%20Hotel&query_place_id=ChIJHy4lzm2mk0YRuuAORkX-4D0",
+    "coordinates": {
+      "lat": 59.537423399999994,
+      "lng": 26.086235799999997
+    }
+  },
+  "luebeck/hansemuseum": {
+    "placeId": "ChIJMzCT6VcJskcR9GYxaQ7gmww",
+    "displayName": "European Hansemuseum",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=European%20Hansemuseum&query_place_id=ChIJMzCT6VcJskcR9GYxaQ7gmww",
+    "coordinates": {
+      "lat": 53.8741412,
+      "lng": 10.6895337
+    }
+  },
+  "luebeck/niederegger": {
+    "placeId": "ChIJU8HM5lkJskcRj1xyKlVhF8Y",
+    "displayName": "Niederegger - arcades Cafe",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Niederegger%20-%20arcades%20Cafe&query_place_id=ChIJU8HM5lkJskcRj1xyKlVhF8Y",
+    "coordinates": {
+      "lat": 53.866588,
+      "lng": 10.6853543
+    }
+  },
+  "luebeck/anno-1216": {
+    "placeId": "ChIJ_zpC-FYJskcR7sKABDBkJ6c",
+    "displayName": "Hotel Anno 1216",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Anno%201216&query_place_id=ChIJ_zpC-FYJskcR7sKABDBkJ6c",
+    "coordinates": {
+      "lat": 53.8683263,
+      "lng": 10.6806023
+    }
+  },
+  "oslo/kistefos": {
+    "placeId": "ChIJQS1QNGCoQUYRnc0RDOsJwRw",
+    "displayName": "Kistefos Museum",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kistefos%20Museum&query_place_id=ChIJQS1QNGCoQUYRnc0RDOsJwRw",
+    "coordinates": {
+      "lat": 60.2219243,
+      "lng": 10.3637076
+    }
+  },
+  "oslo/oscarsborg": {
+    "placeId": "ChIJO8k6bKRGQUYRdfBdUuSJEOk",
+    "displayName": "Oscarsborg Fortress",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Oscarsborg%20Fortress&query_place_id=ChIJO8k6bKRGQUYRdfBdUuSJEOk",
+    "coordinates": {
+      "lat": 59.673445699999995,
+      "lng": 10.6071177
+    }
+  },
+  "klaipeda/monai": {
+    "placeId": "ChIJg496xvrb5EYRB1Mj7CjhU_E",
+    "displayName": "monai",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=monai&query_place_id=ChIJg496xvrb5EYRB1Mj7CjhU_E",
+    "coordinates": {
+      "lat": 55.711715000000005,
+      "lng": 21.132820799999998
+    }
+  },
+  "klaipeda/svyturys": {
+    "placeId": "ChIJXZ-lXqPb5EYRL4RA23eA3R0",
+    "displayName": "Švyturys Brewery",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C5%A0vyturys%20Brewery&query_place_id=ChIJXZ-lXqPb5EYRL4RA23eA3R0",
+    "coordinates": {
+      "lat": 55.707033599999995,
+      "lng": 21.141231400000002
+    }
+  },
+  "prague/bunker-bar": {
+    "placeId": "ChIJlYevlJuTC0cRBR5RKX6Vj1s",
+    "displayName": "Nuclear Bunker",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nuclear%20Bunker&query_place_id=ChIJlYevlJuTC0cRBR5RKX6Vj1s",
+    "coordinates": {
+      "lat": 50.0842732,
+      "lng": 14.458002099999998
+    }
+  },
+  "prague/anonymous-bar": {
+    "placeId": "ChIJMfepuO6UC0cRyCS058Lx7GI",
+    "displayName": "Anonymous Bar",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Anonymous%20Bar&query_place_id=ChIJMfepuO6UC0cRyCS058Lx7GI",
+    "coordinates": {
+      "lat": 50.085353,
+      "lng": 14.420081
+    }
+  },
+  "berlin/huttenpalast": {
+    "placeId": "ChIJqSvn_rZPqEcRZXRmxhKHMnU",
+    "displayName": "Hüttenpalast",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=H%C3%BCttenpalast&query_place_id=ChIJqSvn_rZPqEcRZXRmxhKHMnU",
+    "coordinates": {
+      "lat": 52.4892548,
+      "lng": 13.426405899999999
+    }
+  },
+  "berlin/oderberger": {
+    "placeId": "ChIJo5LTjf5RqEcRUa2Ss1jXGH8",
+    "displayName": "Hotel Oderberger Berlin",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Oderberger%20Berlin&query_place_id=ChIJo5LTjf5RqEcRUa2Ss1jXGH8",
+    "coordinates": {
+      "lat": 52.53773640000001,
+      "lng": 13.410288999999999
+    }
+  },
+  "gothenburg/haga": {
+    "placeId": "ChIJB_eTm2vzT0YR60eTfh0lMiQ",
+    "displayName": "Haga",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Haga&query_place_id=ChIJB_eTm2vzT0YR60eTfh0lMiQ",
+    "coordinates": {
+      "lat": 57.698553000000004,
+      "lng": 11.9563423
+    }
+  },
+  "gothenburg/feskekorka": {
+    "placeId": "ChIJ16JcrWnzT0YRFDeNKgFBHhI",
+    "displayName": "Feskekörka",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Feskek%C3%B6rka&query_place_id=ChIJ16JcrWnzT0YRFDeNKgFBHhI",
+    "coordinates": {
+      "lat": 57.7010542,
+      "lng": 11.9577603
+    }
+  },
+  "gothenburg/familjen": {
+    "placeId": "ChIJ_cKfbnHzT0YRQsIyJ3paSeE",
+    "displayName": "Familjen",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Familjen&query_place_id=ChIJ_cKfbnHzT0YRQsIyJ3paSeE",
+    "coordinates": {
+      "lat": 57.69756369999999,
+      "lng": 11.976390499999999
+    }
+  },
+  "gothenburg/pigalle": {
+    "placeId": "ChIJCTJX9GTzT0YR9tPbLDpN3aI",
+    "displayName": "Hotel Pigalle",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Pigalle&query_place_id=ChIJCTJX9GTzT0YR9tPbLDpN3aI",
+    "coordinates": {
+      "lat": 57.707057299999995,
+      "lng": 11.9707318
+    }
+  },
+  "leipzig/stasi-museum": {
+    "placeId": "ChIJ67cVliD4pkcRL17dJBWNLC8",
+    "displayName": "Memorial Museum in the \"Round Corner\"",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Memorial%20Museum%20in%20the%20%22Round%20Corner%22&query_place_id=ChIJ67cVliD4pkcRL17dJBWNLC8",
+    "coordinates": {
+      "lat": 51.341727600000006,
+      "lng": 12.3698642
+    }
+  },
+  "leipzig/spinnerei": {
+    "placeId": "ChIJBeRT1Qf3pkcRuWFuJJHgYKM",
+    "displayName": "Leipziger Baumwollspinnerei",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Leipziger%20Baumwollspinnerei&query_place_id=ChIJBeRT1Qf3pkcRuWFuJJHgYKM",
+    "coordinates": {
+      "lat": 51.3278254,
+      "lng": 12.320043499999999
+    }
+  },
+  "leipzig/thomaskirche": {
+    "placeId": "ChIJm5GBxCb4pkcR6HlLyYwhay0",
+    "displayName": "St. Thomas Church",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=St.%20Thomas%20Church&query_place_id=ChIJm5GBxCb4pkcR6HlLyYwhay0",
+    "coordinates": {
+      "lat": 51.339317,
+      "lng": 12.372679699999999
+    }
+  },
+  "leipzig/auerbachs": {
+    "placeId": "ChIJq4gT_yP4pkcRaivi1YYzVns",
+    "displayName": "Auerbachs Keller",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Auerbachs%20Keller&query_place_id=ChIJq4gT_yP4pkcRaivi1YYzVns",
+    "coordinates": {
+      "lat": 51.3396848,
+      "lng": 12.3754921
+    }
+  },
+  "leipzig/bayerischer": {
+    "placeId": "ChIJGYNNfDH4pkcR43a6-vTEMbw",
+    "displayName": "Bayerischer Bahnhof",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bayerischer%20Bahnhof&query_place_id=ChIJGYNNfDH4pkcR43a6-vTEMbw",
+    "coordinates": {
+      "lat": 51.3288041,
+      "lng": 12.3814659
+    }
+  },
+  "leipzig/bach14": {
+    "placeId": "ChIJeybkwCb4pkcRtdzVjEpWU_M",
+    "displayName": "Townhouse Leipzig A Vagabond Club",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Townhouse%20Leipzig%20A%20Vagabond%20Club&query_place_id=ChIJeybkwCb4pkcRtdzVjEpWU_M",
+    "coordinates": {
+      "lat": 51.3388808,
+      "lng": 12.3725626
+    }
+  },
+  "bamberg/schlenkerla": {
+    "placeId": "ChIJjSbp9RYjokcRPgC6cIlZSb0",
+    "displayName": "Schlenkerla, Rauchbierbrauerei",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Schlenkerla%2C%20Rauchbierbrauerei&query_place_id=ChIJjSbp9RYjokcRPgC6cIlZSb0",
+    "coordinates": {
+      "lat": 49.891703299999996,
+      "lng": 10.8849476
+    }
+  },
+  "bamberg/altes-rathaus": {
+    "placeId": "ChIJSR4exxYjokcR8Hgp7XBufDo",
+    "displayName": "Altes Rathaus",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Altes%20Rathaus&query_place_id=ChIJSR4exxYjokcR8Hgp7XBufDo",
+    "coordinates": {
+      "lat": 49.891644899999996,
+      "lng": 10.8868071
+    }
+  },
+  "bamberg/dom": {
+    "placeId": "ChIJvTmYNBYjokcRwWcNRzrydwg",
+    "displayName": "Bamberg Cathedral",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bamberg%20Cathedral&query_place_id=ChIJvTmYNBYjokcRwWcNRzrydwg",
+    "coordinates": {
+      "lat": 49.8907746,
+      "lng": 10.882515
+    }
+  },
+  "bamberg/spezial": {
+    "placeId": "ChIJvwayOhMjokcR6wYyeoNAZ4M",
+    "displayName": "Brauerei Spezial",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Brauerei%20Spezial&query_place_id=ChIJvwayOhMjokcR6wYyeoNAZ4M",
+    "coordinates": {
+      "lat": 49.8968596,
+      "lng": 10.8928067
+    }
+  },
+  "bamberg/nepomuk": {
+    "placeId": "ChIJcR73yRAjokcRrmnFoy94qTU",
+    "displayName": "Hotel Nepomuk",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Nepomuk&query_place_id=ChIJcR73yRAjokcRrmnFoy94qTU",
+    "coordinates": {
+      "lat": 49.889234699999996,
+      "lng": 10.8876761
+    }
+  },
+  "schwerin/castle": {
+    "placeId": "ChIJQ2IIbPrZrUcRKynafkGOesw",
+    "displayName": "Schwerin Castle",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Schwerin%20Castle&query_place_id=ChIJQ2IIbPrZrUcRKynafkGOesw",
+    "coordinates": {
+      "lat": 53.6247045,
+      "lng": 11.418242399999999
+    }
+  },
+  "schwerin/weinhaus-uhle": {
+    "placeId": "ChIJCeWM4h3arUcRFMt-7Mas-sI",
+    "displayName": "Weinhaus Uhle",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Weinhaus%20Uhle&query_place_id=ChIJCeWM4h3arUcRFMt-7Mas-sI",
+    "coordinates": {
+      "lat": 53.6281841,
+      "lng": 11.4139907
+    }
+  },
+  "schwerin/weinhaus-wohler": {
+    "placeId": "ChIJ9yE7NhzarUcRqWkt3fHqtYc",
+    "displayName": "Weinhaus Wöhler",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Weinhaus%20W%C3%B6hler&query_place_id=ChIJ9yE7NhzarUcRqWkt3fHqtYc",
+    "coordinates": {
+      "lat": 53.630276099999996,
+      "lng": 11.416450099999999
+    }
+  },
+  "tykocin/synagogue": {
+    "placeId": "ChIJKVS3NAneH0cRwSw9dVaJUYw",
+    "displayName": "Tykocin Synagogue",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tykocin%20Synagogue&query_place_id=ChIJKVS3NAneH0cRwSw9dVaJUYw",
+    "coordinates": {
+      "lat": 53.2067087,
+      "lng": 22.7672439
+    }
+  },
+  "tykocin/tejsza": {
+    "placeId": "ChIJL79TGQneH0cRT9wiuS7oQcU",
+    "displayName": "Tejsza",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tejsza&query_place_id=ChIJL79TGQneH0cRT9wiuS7oQcU",
+    "coordinates": {
+      "lat": 53.2065621,
+      "lng": 22.7667373
+    }
+  },
+  "tykocin/zamek": {
+    "placeId": "ChIJTaY0IBLeH0cRcYENRuA0cBI",
+    "displayName": "Tykocin Castle",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tykocin%20Castle&query_place_id=ChIJTaY0IBLeH0cRcYENRuA0cBI",
+    "coordinates": {
+      "lat": 53.213082,
+      "lng": 22.770605999999997
+    }
+  },
+  "orebro/castle": {
+    "placeId": "ChIJBSxTjuIUXEYRy780BuRQqa8",
+    "displayName": "Örebro Castle",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C3%96rebro%20Castle&query_place_id=ChIJBSxTjuIUXEYRy780BuRQqa8",
+    "coordinates": {
+      "lat": 59.273976,
+      "lng": 15.2154432
+    }
+  },
+  "orebro/wadkoping": {
+    "placeId": "ChIJr9ahIv4UXEYR9b50M99yLXk",
+    "displayName": "Wadköping",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Wadk%C3%B6ping&query_place_id=ChIJr9ahIv4UXEYR9b50M99yLXk",
+    "coordinates": {
+      "lat": 59.272618,
+      "lng": 15.232751
+    }
+  },
+  "orebro/clarion": {
+    "placeId": "ChIJ1SVwn-MUXEYR7799VbUbBSY",
+    "displayName": "Clarion Hotel Örebro",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Clarion%20Hotel%20%C3%96rebro&query_place_id=ChIJ1SVwn-MUXEYR7799VbUbBSY",
+    "coordinates": {
+      "lat": 59.270390899999995,
+      "lng": 15.213802300000001
+    }
+  },
+  "mons-klint/cliffs": {
+    "placeId": "ChIJL_Jjei0uU0YRKYTzU4bRvCc",
+    "displayName": "Møns Klint",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C3%B8ns%20Klint&query_place_id=ChIJL_Jjei0uU0YRKYTzU4bRvCc",
+    "coordinates": {
+      "lat": 54.965730099999995,
+      "lng": 12.5505826
+    }
+  },
+  "mons-klint/geocenter": {
+    "placeId": "ChIJvay1o9cxU0YR2meExps2yWI",
+    "displayName": "GeoCenter Møns Klint",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=GeoCenter%20M%C3%B8ns%20Klint&query_place_id=ChIJvay1o9cxU0YR2meExps2yWI",
+    "coordinates": {
+      "lat": 54.966184,
+      "lng": 12.548115
+    }
+  },
+  "mons-klint/bryghus": {
+    "placeId": "ChIJl2_ajSHWUkYRiTTd0an7qhk",
+    "displayName": "Restaurant Bryghuset Møn",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Bryghuset%20M%C3%B8n&query_place_id=ChIJl2_ajSHWUkYRiTTd0an7qhk",
+    "coordinates": {
+      "lat": 54.9828317,
+      "lng": 12.2850509
+    }
+  },
+  "mons-klint/egn-hotel": {
+    "placeId": "ChIJhUZ9akApU0YR28g9YzKMfL0",
+    "displayName": "Egn Boutique Hotel & Restaurant",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Egn%20Boutique%20Hotel%20%26%20Restaurant&query_place_id=ChIJhUZ9akApU0YR28g9YzKMfL0",
+    "coordinates": {
+      "lat": 54.969297999999995,
+      "lng": 12.386825
     }
   }
 }

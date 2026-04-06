@@ -1,0 +1,124 @@
+{
+  "id": "leipzig",
+  "name": "Leipzig",
+  "country": "germany",
+  "coordinates": {
+    "lat": 51.3397,
+    "lng": 12.3731
+  },
+  "description": "Die 'Heldenstadt der Friedlichen Revolution', in der im Oktober 1989 das DDR-Regime ins Wanken geriet. Das Stasi-Museum im originalen Hauptquartier, die Baumwollspinnerei als einer der wichtigsten Orte zeitgenössischer Kunst in Europa, Bachs Thomaskirche und die einzigartige Leipziger Gose — ein säuerlich-salziges Weizenbier, das es nur hier gibt.",
+  "highlights": [
+    {
+      "name": "Museum in der Runden Ecke — Stasi-Museum",
+      "type": "museum",
+      "icon": "star",
+      "description": "Das ehemalige Stasi-Hauptquartier, so erhalten, wie es die Demonstranten 1989 vorfanden: originale Büros, Überwachungstechnik, Verkleidungssets und Geruchskonserven zur Verfolgung von Dissidenten. Freier Eintritt.",
+      "duration": "1.5-2h",
+      "price": "Kostenlos (Audioguide €5)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Memorial%20Museum%20in%20the%20%22Round%20Corner%22&query_place_id=ChIJ67cVliD4pkcRL17dJBWNLC8",
+      "placeId": "ChIJ67cVliD4pkcRL17dJBWNLC8",
+      "coordinates": {
+        "lat": 51.341727600000006,
+        "lng": 12.3698642
+      },
+      "rating": 4.4,
+      "userRatingCount": 1737
+    },
+    {
+      "name": "Baumwollspinnerei",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Ehemalige Baumwollspinnerei, heute einer der wichtigsten Orte für zeitgenössische Kunst in Europa. Neo Rauch hat hier studiert und gearbeitet. Galerien, Ateliers und Projekträume auf einem weitläufigen Industriegelände. Freier Eintritt.",
+      "duration": "1-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Leipziger%20Baumwollspinnerei&query_place_id=ChIJBeRT1Qf3pkcRuWFuJJHgYKM",
+      "placeId": "ChIJBeRT1Qf3pkcRuWFuJJHgYKM",
+      "coordinates": {
+        "lat": 51.3278254,
+        "lng": 12.320043499999999
+      },
+      "rating": 4.4,
+      "userRatingCount": 1083
+    },
+    {
+      "name": "Thomaskirche",
+      "type": "church",
+      "icon": "info",
+      "description": "Johann Sebastian Bach wirkte hier 27 Jahre als Thomaskantor, Martin Luther predigte in dieser Kirche. Regelmäßige Konzerte und Motetten des Thomanerchors.",
+      "duration": "30-60min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=St.%20Thomas%20Church&query_place_id=ChIJm5GBxCb4pkcR6HlLyYwhay0",
+      "placeId": "ChIJm5GBxCb4pkcR6HlLyYwhay0",
+      "coordinates": {
+        "lat": 51.339317,
+        "lng": 12.372679699999999
+      },
+      "rating": 4.7,
+      "userRatingCount": 5305
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Auerbachs Keller",
+      "cuisine": "Sächsisch Traditional",
+      "priceRange": "€€-€€€",
+      "description": "Zweitältestes Restaurant Leipzigs (seit 1438), berühmt durch Goethes Faust. Fünf historische Speisesäle mit traditioneller sächsischer Küche in einzigartiger Atmosphäre.",
+      "mustTry": "Leipziger Allerlei und Wildschweinbraten",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Auerbachs%20Keller&query_place_id=ChIJq4gT_yP4pkcRaivi1YYzVns",
+      "placeId": "ChIJq4gT_yP4pkcRaivi1YYzVns",
+      "coordinates": {
+        "lat": 51.3396848,
+        "lng": 12.3754921
+      },
+      "rating": 4.4,
+      "userRatingCount": 9514
+    },
+    {
+      "name": "Bayerischer Bahnhof",
+      "cuisine": "Sächsisch / Brauhaus",
+      "priceRange": "€€",
+      "description": "Im ältesten erhaltenen Kopfbahnhof der Welt wird die originale Leipziger Gose gebraut — ein säuerlich-salziges Weizenbier mit Koriander, das es nur in Leipzig gibt. Dazu deftige Brauhausküche.",
+      "mustTry": "Original Leipziger Gose vom Fass",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bayerischer%20Bahnhof&query_place_id=ChIJGYNNfDH4pkcR43a6-vTEMbw",
+      "placeId": "ChIJGYNNfDH4pkcR43a6-vTEMbw",
+      "coordinates": {
+        "lat": 51.3288041,
+        "lng": 12.3814659
+      },
+      "rating": 4.4,
+      "userRatingCount": 2737
+    }
+  ],
+  "hotels": [
+    {
+      "name": "arcona LIVING BACH14",
+      "type": "Boutique-Apartments",
+      "priceRange": "90-150€",
+      "evCharging": false,
+      "description": "Boutique-Apartments direkt gegenüber der Thomaskirche und dem Bach-Museum. Musik-inspiriertes Design (Orgelpfeifen-Beleuchtung, Bach-Motive) in einem Renaissancegebäude von 1590.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Townhouse%20Leipzig%20A%20Vagabond%20Club&query_place_id=ChIJeybkwCb4pkcRtdzVjEpWU_M",
+      "placeId": "ChIJeybkwCb4pkcRtdzVjEpWU_M",
+      "coordinates": {
+        "lat": 51.3388808,
+        "lng": 12.3725626
+      },
+      "rating": 4.7,
+      "userRatingCount": 717
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Die Karl-Liebknecht-Straße ('KarLi') ist Leipzigs Bar-Meile — dutzende Kneipen, Cocktailbars und Live-Musik. Südvorstadt/Connewitz ist das Epizentrum des Nachtlebens."
+    },
+    {
+      "type": "info",
+      "text": "Leipzig ist der stärkste Zwischenstopp auf der Rückreise Berlin→Aalen — nur 190 km von Berlin entfernt, mit genug Substanz für eine volle Übernachtung."
+    },
+    {
+      "type": "info",
+      "text": "Die Leipziger Gose — ein säuerlich-salziges Weizenbier mit Koriander — wird nur hier gebraut und ist ein absolutes Muss für Bierliebhaber."
+    }
+  ],
+  "nightlife": []
+}

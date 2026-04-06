@@ -1,0 +1,109 @@
+{
+  "id": "bamberg",
+  "name": "Bamberg",
+  "country": "germany",
+  "coordinates": {
+    "lat": 49.8988,
+    "lng": 10.9028
+  },
+  "description": "Eine der am besten erhaltenen mittelalterlichen Städte Europas — UNESCO-Weltkulturerbe mit über 2.000 denkmalgeschützten Gebäuden, die den Zweiten Weltkrieg unbeschadet überstanden. Doch der wahre Grund für einen Halt: Bamberg ist die Bierhauptstadt der Welt mit mehr Brauereien pro Kopf als jede andere Stadt. Heimat des legendären Rauchbiers — ein Erlebnis, das es nirgendwo sonst gibt.",
+  "highlights": [
+    {
+      "name": "Schlenkerla — Rauchbierbrauerei",
+      "type": "activity",
+      "icon": "star",
+      "description": "Seit 1405 wird hier das berühmte Rauchbier gebraut — dunkles Bier mit intensivem Raucharoma, direkt vom Holzfass gezapft. Die gotische Taverne mit niedrigen Decken und schweren Holztischen ist atmosphärisch einzigartig. Der wichtigste kulinarische Stopp der gesamten Reise.",
+      "duration": "1-2h",
+      "price": "Bier ab €3,50",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Schlenkerla%2C%20Rauchbierbrauerei&query_place_id=ChIJjSbp9RYjokcRPgC6cIlZSb0",
+      "placeId": "ChIJjSbp9RYjokcRPgC6cIlZSb0",
+      "coordinates": {
+        "lat": 49.891703299999996,
+        "lng": 10.8849476
+      },
+      "rating": 4.2,
+      "userRatingCount": 3570
+    },
+    {
+      "name": "Altes Rathaus",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Absurd malerisches Rathaus auf einer künstlichen Insel im Fluss Regnitz — barocke Fassadenfresken und eine Brücke, die zwei Stadtteile verbindet. Bambergs Wahrzeichen.",
+      "duration": "30min",
+      "price": "Kostenlos (Außenbesichtigung)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Altes%20Rathaus&query_place_id=ChIJSR4exxYjokcR8Hgp7XBufDo",
+      "placeId": "ChIJSR4exxYjokcR8Hgp7XBufDo",
+      "coordinates": {
+        "lat": 49.891644899999996,
+        "lng": 10.8868071
+      },
+      "rating": 4.7,
+      "userRatingCount": 8784
+    },
+    {
+      "name": "Bamberger Dom",
+      "type": "church",
+      "icon": "gem",
+      "description": "Der einzige Papstgrab nördlich der Alpen — romanisch-gotischer Dom aus dem 13. Jahrhundert mit dem berühmten Bamberger Reiter.",
+      "duration": "30-60min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bamberg%20Cathedral&query_place_id=ChIJvTmYNBYjokcRwWcNRzrydwg",
+      "placeId": "ChIJvTmYNBYjokcRwWcNRzrydwg",
+      "coordinates": {
+        "lat": 49.8907746,
+        "lng": 10.882515
+      },
+      "rating": 4.7,
+      "userRatingCount": 6101
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Brauerei Spezial",
+      "cuisine": "Fränkisch / Brauhaus",
+      "priceRange": "€-€€",
+      "description": "Die andere authentische Rauchbier-Brauerei — subtilerer Rauch als Schlenkerla, gemütliche Gaststube, bei Einheimischen sehr beliebt. Deftige fränkische Küche.",
+      "mustTry": "Spezial Rauchbier Lagerbier und Schäufele (Schweineschulter)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Brauerei%20Spezial&query_place_id=ChIJvwayOhMjokcR6wYyeoNAZ4M",
+      "placeId": "ChIJvwayOhMjokcR6wYyeoNAZ4M",
+      "coordinates": {
+        "lat": 49.8968596,
+        "lng": 10.8928067
+      },
+      "rating": 4.4,
+      "userRatingCount": 1973
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Hotel Nepomuk",
+      "type": "Boutique-Hotel am Fluss",
+      "priceRange": "120-180€",
+      "evCharging": false,
+      "description": "Einzigartige Lage direkt am Kanal neben dem Alten Rathaus — Flussblick aus den Zimmern und ein gehobenes Restaurant mit Blick auf das UNESCO-Ensemble.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Nepomuk&query_place_id=ChIJcR73yRAjokcRrmnFoy94qTU",
+      "placeId": "ChIJcR73yRAjokcRrmnFoy94qTU",
+      "coordinates": {
+        "lat": 49.889234699999996,
+        "lng": 10.8876761
+      },
+      "rating": 4.5,
+      "userRatingCount": 356
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Biergärten öffnen ab Ostern — im Mai perfektes Timing. Unbedingt auch die Brauerei Fässla probieren, wo man über der Brauerei in einfachen, günstigen Zimmern schlafen kann (ab ca. 60€)."
+    },
+    {
+      "type": "info",
+      "text": "Klein-Venedig — die ehemalige Fischersiedlung am Flussufer — ist besonders bei Sonnenuntergang fotogen."
+    },
+    {
+      "type": "info",
+      "text": "Bamberg liegt auf der Rückreise Berlin→Aalen nur ca. 30 Minuten abseits der A9 — ideal für eine letzte Übernachtung mit Bierkultur."
+    }
+  ],
+  "nightlife": []
+}

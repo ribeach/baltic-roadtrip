@@ -1,0 +1,73 @@
+{
+  "id": "schwerin",
+  "name": "Schwerin",
+  "country": "germany",
+  "coordinates": {
+    "lat": 53.6294,
+    "lng": 11.4148
+  },
+  "description": "Märchenhaftes Schloss auf einer Seeinsel, UNESCO-Weltkulturerbe seit 2024 — Schwerin überrascht als glanzvolles Gegengewicht zur hanseatischen Backsteinarchitektur im Norden. Die 'Residenzensemble'-Auszeichnung macht den Stopp zwischen Kopenhagen und Berlin besonders aktuell.",
+  "highlights": [
+    {
+      "name": "Schweriner Schloss",
+      "type": "castle",
+      "icon": "star",
+      "description": "Romantisches Schloss auf einer Insel im Schweriner See — das 'Neuschwanstein des Nordens'. Museum Di–So 10–18 Uhr (April–Oktober). Der Burggarten und die Seepromenade sind frei zugänglich.",
+      "duration": "2-3h",
+      "price": "ca. €8",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Schwerin%20Castle&query_place_id=ChIJQ2IIbPrZrUcRKynafkGOesw",
+      "placeId": "ChIJQ2IIbPrZrUcRKynafkGOesw",
+      "coordinates": {
+        "lat": 53.6247045,
+        "lng": 11.418242399999999
+      },
+      "rating": 4.8,
+      "userRatingCount": 32900
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Weinhaus Wöhler",
+      "cuisine": "Deutsch / Weinhaus",
+      "priceRange": "€€",
+      "description": "Klassisches Weinhaus in der Altstadt mit Kerzenlicht-Atmosphäre — regionale Küche und eine exzellente Weinkarte.",
+      "mustTry": "Mecklenburger Rinderroulade mit Rotkohl",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Weinhaus%20W%C3%B6hler&query_place_id=ChIJ9yE7NhzarUcRqWkt3fHqtYc",
+      "placeId": "ChIJ9yE7NhzarUcRqWkt3fHqtYc",
+      "coordinates": {
+        "lat": 53.630276099999996,
+        "lng": 11.416450099999999
+      },
+      "rating": 4.3,
+      "userRatingCount": 597
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Weinhaus Uhle",
+      "type": "Historisches Weinhaus-Hotel",
+      "priceRange": "140-200€",
+      "evCharging": false,
+      "description": "Hotel, Restaurant und Weinhaus in einem — Schwerins ältestes Weinhaus verknüpft sich geschickt mit dem UNESCO-Ensemble. Gehobene Atmosphäre ohne Luxuspreise, perfekt für eine Nacht zwischen Kopenhagen und Berlin.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Weinhaus%20Uhle&query_place_id=ChIJCeWM4h3arUcRFMt-7Mas-sI",
+      "placeId": "ChIJCeWM4h3arUcRFMt-7Mas-sI",
+      "coordinates": {
+        "lat": 53.6281841,
+        "lng": 11.4139907
+      },
+      "rating": 4.7,
+      "userRatingCount": 1074
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Abends am Seeufer spazieren gehen — das beleuchtete Schloss spiegelt sich im Wasser und bietet ein fotogenes Postkartenmotiv."
+    },
+    {
+      "type": "info",
+      "text": "Schwerin liegt direkt an der A24 zwischen Hamburg und Berlin — perfekter Zwischenstopp auf der Fahrt von Kopenhagen/Rostock nach Berlin."
+    }
+  ],
+  "nightlife": []
+}

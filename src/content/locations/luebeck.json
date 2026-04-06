@@ -51,6 +51,38 @@
         "lat": 53.863692,
         "lng": 10.6808104
       }
+    },
+    {
+      "name": "Europäisches Hansemuseum",
+      "type": "museum",
+      "icon": "star",
+      "description": "Eines der besten Hanseatischen Geschichtsmuseen der Welt — immersive Multimedia-Ausstellung erzählt die gesamte Geschichte der Hanse. 2015 eröffnet und preisgekrönt.",
+      "duration": "2-3h",
+      "price": "ca. €15",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=European%20Hansemuseum&query_place_id=ChIJMzCT6VcJskcR9GYxaQ7gmww",
+      "placeId": "ChIJMzCT6VcJskcR9GYxaQ7gmww",
+      "coordinates": {
+        "lat": 53.8741412,
+        "lng": 10.6895337
+      },
+      "rating": 4.6,
+      "userRatingCount": 4682
+    },
+    {
+      "name": "Café Niederegger & Marzipan-Museum",
+      "type": "market",
+      "icon": "gem",
+      "description": "Institution seit 1806 — das kostenlose Marzipan-Museum im Obergeschoss zeigt lebensgroße Marzipan-Figuren. Lübecker Marzipan hat EU-geschützten Herkunftsstatus wie Champagner.",
+      "duration": "30-60min",
+      "price": "Museum kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Niederegger%20-%20arcades%20Cafe&query_place_id=ChIJU8HM5lkJskcRj1xyKlVhF8Y",
+      "placeId": "ChIJU8HM5lkJskcRj1xyKlVhF8Y",
+      "coordinates": {
+        "lat": 53.866588,
+        "lng": 10.6853543
+      },
+      "rating": 4,
+      "userRatingCount": 2512
     }
   ],
   "restaurants": [
@@ -85,6 +117,21 @@
       },
       "rating": 4.5,
       "userRatingCount": 3186
+    },
+    {
+      "name": "Hotel Anno 1216",
+      "type": "Historisches Boutique-Hotel",
+      "priceRange": "130-200€",
+      "evCharging": false,
+      "description": "Lübecks ältestes Backsteingebäude (erstmals erwähnt 1305) — Rokoko-Wandmalereien, venezianischer Stuck und Deckenfreken mit dem Sonnengott Helios. Freistehende Badewannen und echter historischer Charme.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Anno%201216&query_place_id=ChIJ_zpC-FYJskcR7sKABDBkJ6c",
+      "placeId": "ChIJ_zpC-FYJskcR7sKABDBkJ6c",
+      "coordinates": {
+        "lat": 53.8683263,
+        "lng": 10.6806023
+      },
+      "rating": 4.7,
+      "userRatingCount": 113
     }
   ],
   "tips": [

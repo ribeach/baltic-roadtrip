@@ -1,0 +1,121 @@
+{
+  "id": "kutna-hora",
+  "name": "Kutná Hora",
+  "country": "czech-republic",
+  "coordinates": {
+    "lat": 49.9483,
+    "lng": 15.2681
+  },
+  "description": "Die mittelalterliche Silberbergbaustadt rivalisierte einst mit Prag an Reichtum und Einfluss — heute ist sie UNESCO-Weltkulturerbe und beherbergt eines der makaberstes Bauwerke Europas: das Sedlec-Beinhaus, dekoriert mit den Knochen von 40.000 Menschen. Dazu die atemberaubende gotische Barbarakathedrale und ein Silbermuseum mit echten Stollenbegehungen.",
+  "highlights": [
+    {
+      "name": "Sedlec-Beinhaus (Kostnice)",
+      "type": "church",
+      "icon": "star",
+      "description": "Kapelle dekoriert mit den Gebeinen von ca. 40.000 Menschen — Kronleuchter, Wappen und Girlanden aus menschlichen Knochen. Verstörend und faszinierend zugleich.",
+      "duration": "1h",
+      "price": "ca. €6",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sedlec%20Ossuary&query_place_id=ChIJT8VaY_xADEcRjlDxpcrJDDI",
+      "placeId": "ChIJT8VaY_xADEcRjlDxpcrJDDI",
+      "coordinates": {
+        "lat": 49.961738499999996,
+        "lng": 15.288171399999998
+      },
+      "rating": 4.5,
+      "userRatingCount": 16465
+    },
+    {
+      "name": "St.-Barbara-Kathedrale",
+      "type": "church",
+      "icon": "star",
+      "description": "Meisterwerk der Spätgotik, von der Bergbaugilde erbaut — die Innenraumfresken zeigen mittelalterliche Bergleute bei der Arbeit. Ein Rivale des Prager Veitsdomes.",
+      "duration": "1-1.5h",
+      "price": "ca. €5",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Saint%20Barbara's%20Church&query_place_id=ChIJiZuB0qZBDEcRiwbGe_Rc2r8",
+      "placeId": "ChIJiZuB0qZBDEcRiwbGe_Rc2r8",
+      "coordinates": {
+        "lat": 49.9449743,
+        "lng": 15.263676900000002
+      }
+    },
+    {
+      "name": "Tschechisches Silbermuseum",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Touren durch originale Silberminen-Schächte aus dem 13. Jahrhundert — enge Tunnel in 250m Tiefe, mit weißem Kittel und Helm. Nichts für Klaustrophobiker.",
+      "duration": "1.5-2h",
+      "price": "ca. €8-12",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Czech%20Museum%20of%20Silver&query_place_id=ChIJF09tWqZBDEcRqlZkTALr-C8",
+      "placeId": "ChIJF09tWqZBDEcRqlZkTALr-C8",
+      "coordinates": {
+        "lat": 49.947567299999996,
+        "lng": 15.265435799999999
+      },
+      "rating": 4.6,
+      "userRatingCount": 1914
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Restaurace Dačický",
+      "cuisine": "Tschechisch Traditional",
+      "priceRange": "€-€€",
+      "description": "Klassische böhmische Wirtsstube mit Wildgerichten und frischem Tankbier — rustikales Ambiente in einem historischen Gebäude nahe der Kathedrale.",
+      "mustTry": "Svíčková na smetaně (Lendenbraten in Rahmsoße)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurace%20Da%C4%8Dick%C3%BD&query_place_id=ChIJkUqyQaZBDEcRxIuFpeNjnnw",
+      "placeId": "ChIJkUqyQaZBDEcRxIuFpeNjnnw",
+      "coordinates": {
+        "lat": 49.948304,
+        "lng": 15.264718700000001
+      },
+      "rating": 4.6,
+      "userRatingCount": 6446
+    },
+    {
+      "name": "V Ruthardce",
+      "cuisine": "Tschechisch / Europäisch",
+      "priceRange": "€€",
+      "description": "Restaurant nahe der Kathedrale mit Blick auf die Stadtmauer und einer Gartenterrasse — gehobene böhmische und europäische Küche in entspannter Atmosphäre.",
+      "mustTry": "Gebratene Ente mit Rotkohl und Knödeln",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurace%20V%20Ruthardce&query_place_id=ChIJDcBRtKdBDEcRmWreiiii_8k",
+      "placeId": "ChIJDcBRtKdBDEcRmWreiiii_8k",
+      "coordinates": {
+        "lat": 49.9481125,
+        "lng": 15.2666578
+      },
+      "rating": 4.7,
+      "userRatingCount": 6272
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Hotel U Kata",
+      "type": "Historisches Boutique-Hotel",
+      "priceRange": "80-100€",
+      "evCharging": false,
+      "description": "„Beim Henker“ — Boutique-Hotel in einem restaurierten historischen Gebäude mit atmosphärischem Namen, passend zur düsteren Geschichte der Stadt.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20U%20Kata&query_place_id=ChIJiTIzzAdBDEcRv8kFKs-P9xc",
+      "placeId": "ChIJiTIzzAdBDEcRv8kFKs-P9xc",
+      "coordinates": {
+        "lat": 49.949511199999996,
+        "lng": 15.274791200000001
+      },
+      "rating": 4.6,
+      "userRatingCount": 1608
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Kutná Hora liegt nur eine Stunde östlich von Prag und eignet sich perfekt als Halbtages-Ausflug auf dem Weg nach Breslau/Warschau."
+    },
+    {
+      "type": "warnung",
+      "text": "Die UNESCO-Dreifaltigkeitssäule in Olomouc (bei der Weiterfahrt) ist bis Ende 2026 eingerüstet."
+    },
+    {
+      "type": "info",
+      "text": "Im Silbermuseum bekommt man einen weißen Kittel und Helm — die engen mittelalterlichen Stollen sind nichts für Klaustrophobiker."
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+[
+  {"key": "lodz/manufaktura", "query": "Manufaktura Łódź Poland"},
+  {"key": "lodz/piotrkowska", "query": "Piotrkowska Street Łódź Poland"},
+  {"key": "lodz/off-piotrkowska", "query": "OFF Piotrkowska Łódź Poland"},
+  {"key": "lodz/ec1", "query": "EC1 Łódź City of Culture Poland"},
+  {"key": "lodz/radegast", "query": "Stacja Radegast Łódź Poland"},
+  {"key": "lodz/anatewka", "query": "Anatewka restaurant Łódź Poland"},
+  {"key": "lodz/ato-ramen", "query": "Ato Ramen Łódź Poland"},
+  {"key": "lodz/andels", "query": "Vienna House by Wyndham Andel's Łódź Poland"},
+  {"key": "lodz/stare-kino", "query": "Stare Kino Cinema Residence Łódź Poland"},
+  {"key": "lodz/off-nightlife", "query": "OFF Piotrkowska Center Łódź Poland nightlife"},
+
+  {"key": "fiskars/village", "query": "Fiskars Village Finland"},
+  {"key": "fiskars/museum", "query": "Fiskars Museum Finland"},
+  {"key": "fiskars/agras", "query": "Ägräs Distillery Fiskars Finland"},
+  {"key": "fiskars/kuparipaja", "query": "Kuparipaja restaurant Fiskars Finland"},
+  {"key": "fiskars/wardshus", "query": "Fiskars Wärdshus Finland"},
+  {"key": "fiskars/torby", "query": "The Torby Hotel Fiskars Finland"},
+
+  {"key": "kutna-hora/ossuary", "query": "Sedlec Ossuary Kutná Hora Czech Republic"},
+  {"key": "kutna-hora/st-barbara", "query": "Cathedral of St Barbara Kutná Hora Czech Republic"},
+  {"key": "kutna-hora/silver-museum", "query": "Czech Museum of Silver Kutná Hora Czech Republic"},
+  {"key": "kutna-hora/dacicky", "query": "Restaurace Dačický Kutná Hora Czech Republic"},
+  {"key": "kutna-hora/v-ruthardce", "query": "V Ruthardce restaurant Kutná Hora Czech Republic"},
+  {"key": "kutna-hora/u-kata", "query": "Hotel U Kata Kutná Hora Czech Republic"},
+
+  {"key": "parnu/beach", "query": "Pärnu Beach Estonia"},
+  {"key": "parnu/villa-ammende", "query": "Villa Ammende Pärnu Estonia"},
+  {"key": "parnu/old-town", "query": "Pärnu Old Town Estonia"},
+  {"key": "parnu/supelsaksad", "query": "Supelsaksad restaurant Pärnu Estonia"},
+  {"key": "parnu/raimond", "query": "Restaurant Raimond Pärnu Estonia"},
+  {"key": "parnu/hedon-spa", "query": "Hedon Spa Hotel Pärnu Estonia"},
+  {"key": "parnu/frost", "query": "Frost Boutique Hotel Pärnu Estonia"},
+
+  {"key": "rostock/warnemunde-lighthouse", "query": "Warnemünde Lighthouse Rostock Germany"},
+  {"key": "rostock/teepott", "query": "Teepott Warnemünde Rostock Germany"},
+  {"key": "rostock/kunsthalle", "query": "Kunsthalle Rostock Germany"},
+  {"key": "rostock/brauhaus", "query": "Braugasthaus zum Alten Fritz Rostock Germany"},
+  {"key": "rostock/neptun", "query": "Hotel Neptun Warnemünde Germany"},
+
+  {"key": "stockholm/langholmen", "query": "Långholmen Hotel Stockholm Sweden"},
+  {"key": "stockholm/hotel-rival", "query": "Hotel Rival Stockholm Sweden"},
+  {"key": "stockholm/tjoget", "query": "Tjoget bar Stockholm Sweden"},
+  {"key": "stockholm/mosebacke", "query": "Mosebacke Terrassen Stockholm Sweden"},
+  {"key": "stockholm/kvarnen", "query": "Kvarnen restaurant Stockholm Sweden"},
+  {"key": "stockholm/city-hall", "query": "Stockholm City Hall Sweden"},
+  {"key": "stockholm/tunnelbana-solna", "query": "Solna Centrum metro station Stockholm Sweden"},
+
+  {"key": "helsinki/loyly", "query": "Löyly Helsinki Finland"},
+  {"key": "helsinki/katajanokka", "query": "Hotel Katajanokka Helsinki Finland"},
+  {"key": "helsinki/cafe-regatta", "query": "Café Regatta Helsinki Finland"},
+  {"key": "helsinki/ateljee-bar", "query": "Ateljee Bar Hotel Torni Helsinki Finland"},
+
+  {"key": "wroclaw/puro", "query": "PURO Hotel Wrocław Stare Miasto Poland"},
+  {"key": "wroclaw/monopol", "query": "Hotel Monopol Wrocław Poland"},
+  {"key": "wroclaw/przedwojenna", "query": "Przedwojenna bar Wrocław Poland"},
+  {"key": "wroclaw/neon-gallery", "query": "Neon Side Gallery Wrocław Poland"},
+
+  {"key": "kaunas/uoksas", "query": "Uoksas restaurant Kaunas Lithuania"},
+  {"key": "kaunas/monte-pacis", "query": "Monte Pacis Kaunas Lithuania"},
+  {"key": "kaunas/momo-grill", "query": "Momo Grill Kaunas Lithuania"},
+
+  {"key": "copenhagen/cisternerne", "query": "Cisternerne Copenhagen Denmark"},
+  {"key": "copenhagen/cph-living", "query": "CPH Living hotel Copenhagen Denmark"},
+  {"key": "copenhagen/lidkoeb", "query": "Lidkoeb cocktail bar Copenhagen Denmark"},
+  {"key": "copenhagen/war-pigs", "query": "War Pigs Meatpacking District Copenhagen Denmark"},
+
+  {"key": "warsaw/neon-museum", "query": "Neon Museum Warsaw Poland"},
+  {"key": "warsaw/vodka-museum", "query": "Polish Vodka Museum Warsaw Poland"},
+  {"key": "warsaw/bar-prasowy", "query": "Bar Mleczny Prasowy Warsaw Poland"},
+  {"key": "warsaw/hotel-warszawa", "query": "Hotel Warszawa Warsaw Poland"},
+
+  {"key": "lahemaa/vihula-manor", "query": "Vihula Manor Country Club Spa Estonia"},
+  {"key": "lahemaa/altja-tavern", "query": "Altja Kõrts tavern Lahemaa Estonia"},
+  {"key": "lahemaa/sagadi-manor", "query": "Sagadi Manor Hotel Estonia"},
+
+  {"key": "luebeck/hansemuseum", "query": "European Hansemuseum Lübeck Germany"},
+  {"key": "luebeck/niederegger", "query": "Café Niederegger Lübeck Germany"},
+  {"key": "luebeck/anno-1216", "query": "Hotel Anno 1216 Lübeck Germany"},
+
+  {"key": "oslo/kistefos", "query": "Kistefos Museum Jevnaker Norway"},
+  {"key": "oslo/oscarsborg", "query": "Oscarsborg Fortress Drøbak Norway"},
+
+  {"key": "klaipeda/monai", "query": "Monai restaurant Klaipėda Lithuania"},
+  {"key": "klaipeda/svyturys", "query": "Švyturys Brewery Klaipėda Lithuania"},
+
+  {"key": "prague/bunker-bar", "query": "Bunkr Parukářka Prague Czech Republic"},
+  {"key": "prague/anonymous-bar", "query": "Anonymous Bar Prague Czech Republic"},
+
+  {"key": "berlin/huttenpalast", "query": "Hüttenpalast Hotel Berlin Germany"},
+  {"key": "berlin/oderberger", "query": "Hotel Oderberger Berlin Germany"},
+
+  {"key": "gothenburg/haga", "query": "Haga district Gothenburg Sweden"},
+  {"key": "gothenburg/feskekorka", "query": "Feskekörka Gothenburg Sweden"},
+  {"key": "gothenburg/familjen", "query": "Restaurang Familjen Gothenburg Sweden"},
+  {"key": "gothenburg/pigalle", "query": "Hotel Pigalle Gothenburg Sweden"},
+
+  {"key": "leipzig/stasi-museum", "query": "Museum in der Runden Ecke Leipzig Germany"},
+  {"key": "leipzig/spinnerei", "query": "Spinnerei Leipzig Germany"},
+  {"key": "leipzig/thomaskirche", "query": "Thomaskirche Leipzig Germany"},
+  {"key": "leipzig/auerbachs", "query": "Auerbachs Keller Leipzig Germany"},
+  {"key": "leipzig/bayerischer", "query": "Bayerischer Bahnhof Leipzig Germany"},
+  {"key": "leipzig/bach14", "query": "arcona LIVING BACH14 Leipzig Germany"},
+
+  {"key": "bamberg/schlenkerla", "query": "Schlenkerla Bamberg Germany"},
+  {"key": "bamberg/altes-rathaus", "query": "Altes Rathaus Bamberg Germany"},
+  {"key": "bamberg/dom", "query": "Bamberger Dom Germany"},
+  {"key": "bamberg/spezial", "query": "Brauerei Spezial Bamberg Germany"},
+  {"key": "bamberg/nepomuk", "query": "Hotel Nepomuk Bamberg Germany"},
+
+  {"key": "schwerin/castle", "query": "Schwerin Castle Germany"},
+  {"key": "schwerin/weinhaus-uhle", "query": "Weinhaus Uhle Schwerin Germany"},
+  {"key": "schwerin/weinhaus-wohler", "query": "Weinhaus Wöhler Schwerin Germany"},
+
+  {"key": "tykocin/synagogue", "query": "Tykocin Synagogue Poland"},
+  {"key": "tykocin/tejsza", "query": "Restauracja Tejsza Tykocin Poland"},
+  {"key": "tykocin/zamek", "query": "Zamek Tykocin Castle Poland"},
+
+  {"key": "orebro/castle", "query": "Örebro Castle Sweden"},
+  {"key": "orebro/wadkoping", "query": "Wadköping Örebro Sweden"},
+  {"key": "orebro/clarion", "query": "Clarion Hotel Örebro Sweden"},
+
+  {"key": "mons-klint/cliffs", "query": "Møns Klint Denmark"},
+  {"key": "mons-klint/geocenter", "query": "GeoCenter Møns Klint Denmark"},
+  {"key": "mons-klint/bryghus", "query": "Det Gamle Bryghus Stege Denmark"},
+  {"key": "mons-klint/egn-hotel", "query": "Egn Boutique Hotel Møn Denmark"}
+]

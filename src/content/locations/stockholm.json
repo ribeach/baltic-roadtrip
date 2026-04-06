@@ -85,6 +85,22 @@
       },
       "rating": 4.1,
       "userRatingCount": 8723
+    },
+    {
+      "name": "Stockholms Stadshus",
+      "type": "architecture",
+      "icon": "gem",
+      "description": "Das imposante Rathaus am Mälaren ist nur per Führung zugänglich. Die Goldene Halle mit 18 Millionen Mosaiksteinchen und der Blaue Saal — Schauplatz des jährlichen Nobelpreis-Banketts — sind atemberaubend. Turmbesteigung ab Mai möglich.",
+      "duration": "1-1.5h",
+      "price": "ca. €12",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Stockholm%20City%20Hall&query_place_id=ChIJ6c2SkN93X0YRwJQTkQ3Jr64",
+      "placeId": "ChIJ6c2SkN93X0YRwJQTkQ3Jr64",
+      "coordinates": {
+        "lat": 59.327789,
+        "lng": 18.0551787
+      },
+      "rating": 4.7,
+      "userRatingCount": 3936
     }
   ],
   "restaurants": [
@@ -102,9 +118,55 @@
       },
       "rating": 4.3,
       "userRatingCount": 5202
+    },
+    {
+      "name": "Kvarnen",
+      "cuisine": "Schwedisch Traditional",
+      "priceRange": "€€",
+      "description": "Seit 1908 Södermalms Institution für klassische schwedische Hausmannskost. Legendäre Köttbullar (Fleischbällchen) mit Preiselbeeren, Wasser und Kaffee inklusive — wie bei Großmutter.",
+      "mustTry": "Köttbullar med lingon (Fleischbällchen mit Preiselbeeren)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurang%20Kvarnen&query_place_id=ChIJa14naPp3X0YRmkZmDwg0-5s",
+      "placeId": "ChIJa14naPp3X0YRmkZmDwg0-5s",
+      "coordinates": {
+        "lat": 59.3147831,
+        "lng": 18.0742765
+      },
+      "rating": 4.2,
+      "userRatingCount": 4455
     }
   ],
-  "hotels": [],
+  "hotels": [
+    {
+      "name": "Långholmen Hotel",
+      "type": "Gefängnis-Hotel",
+      "priceRange": "80-150€",
+      "evCharging": true,
+      "description": "Übernachten in Schwedens berühmtestem Gefängnis — die ehemaligen Zellen sind heute komfortable Hotelzimmer. Gefängnismuseum im Haus, Bar 'Finkan' (schwedischer Slang für Knast), 3 E-Ladestationen und kostenloser Parkplatz.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=L%C3%A5ngholmen%20Hotel%20Stockholm&query_place_id=ChIJL7Eg29F3X0YRtYAR-70zV7o",
+      "placeId": "ChIJL7Eg29F3X0YRtYAR-70zV7o",
+      "coordinates": {
+        "lat": 59.3212521,
+        "lng": 18.0252409
+      },
+      "rating": 4.5,
+      "userRatingCount": 1354
+    },
+    {
+      "name": "Hotel Rival",
+      "type": "Boutique-Hotel",
+      "priceRange": "160-220€",
+      "evCharging": false,
+      "description": "Von ABBA-Mitglied Benny Andersson geführtes Boutique-Hotel im Herzen von Södermalm. Theater-Restaurant, Cocktailbar und echtes Stockholmer Nachtleben-Feeling.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Rival&query_place_id=ChIJmyzqNeR3X0YRfhATfm0KISQ",
+      "placeId": "ChIJmyzqNeR3X0YRfhATfm0KISQ",
+      "coordinates": {
+        "lat": 59.3181838,
+        "lng": 18.0637996
+      },
+      "rating": 4.4,
+      "userRatingCount": 3308
+    }
+  ],
   "tips": [
     {
       "type": "info",
@@ -113,6 +175,32 @@
     {
       "type": "geheimtipp",
       "text": "Falls morgens nach der Fährankunft etwas Zeit bleibt: Rosendals Trädgård auf Djurgården ist Stockholms schönster Ort für ein Frühstück inmitten von Gewächshäusern und Gärten. Öffnet um 10 Uhr."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Tjoget",
+      "description": "Platz 36 der World's 50 Best Bars — Nachbarschaftsrestaurant mit Weltklasse-Bar in Hornstull. Wein, Cocktails und Craft Beer unter einem Dach, entspannte Södermalm-Atmosphäre.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tjoget&query_place_id=ChIJrZBLWMR3X0YR-K4amPgKyas",
+      "placeId": "ChIJrZBLWMR3X0YR-K4amPgKyas",
+      "coordinates": {
+        "lat": 59.3162112,
+        "lng": 18.0347985
+      },
+      "rating": 4.2,
+      "userRatingCount": 1084
+    },
+    {
+      "name": "Mosebacke Terrassen",
+      "description": "Legendäre Sommerterrasse mit Panoramablick über die Altstadt. Öffnet im Frühling — in unserem Mai-Reisefenster perfekt für einen Sundowner mit Aussicht.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mosebacketerrassen&query_place_id=ChIJRZYadlZ3X0YREnx9XvTFzxk",
+      "placeId": "ChIJRZYadlZ3X0YREnx9XvTFzxk",
+      "coordinates": {
+        "lat": 59.318476,
+        "lng": 18.0751684
+      },
+      "rating": 4.2,
+      "userRatingCount": 1045
     }
   ]
 }

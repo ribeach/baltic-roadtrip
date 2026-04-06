@@ -7,8 +7,102 @@
     "lng": 12.0991
   },
   "description": "Ankunft per TT-Line-Nachtfähre aus Trelleborg. Weiterfahrt über die A19/A24/A7 Richtung Süden nach Aalen.",
-  "highlights": [],
-  "restaurants": [],
-  "hotels": [],
-  "tips": []
+  "highlights": [
+    {
+      "name": "Leuchtturm Warnemünde",
+      "type": "viewpoint",
+      "icon": "star",
+      "description": "Das Wahrzeichen des Seebads Warnemünde — der 1898 erbaute Leuchtturm bietet nach 135 Stufen einen fantastischen Rundblick über Ostsee und Hafen.",
+      "duration": "30min",
+      "price": "ca. €3",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Warnem%C3%BCnde%20lighthouse&query_place_id=ChIJnXIXxqH4rEcR0eqDTHcAaP4",
+      "placeId": "ChIJnXIXxqH4rEcR0eqDTHcAaP4",
+      "coordinates": {
+        "lat": 54.181421099999994,
+        "lng": 12.085846199999999
+      },
+      "rating": 4.7,
+      "userRatingCount": 17143
+    },
+    {
+      "name": "Teepott Warnemünde",
+      "type": "architecture",
+      "icon": "gem",
+      "description": "Architektonische Ikone von 1968 — die geschwungene Hyparschalen-Konstruktion direkt neben dem Leuchtturm ist ein Paradebeispiel der DDR-Moderne. Heute beherbergt der Teepott mehrere Restaurants.",
+      "duration": "30min",
+      "price": "Kostenlos (Außenbesichtigung)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Teepott%20Warnem%C3%BCnde&query_place_id=ChIJDcZOx6H4rEcRsB8-NXbj63U",
+      "placeId": "ChIJDcZOx6H4rEcRsB8-NXbj63U",
+      "coordinates": {
+        "lat": 54.181690599999996,
+        "lng": 12.0856423
+      },
+      "rating": 4.4,
+      "userRatingCount": 2817
+    },
+    {
+      "name": "Kunsthalle Rostock",
+      "type": "museum",
+      "icon": "info",
+      "description": "Norddeutschlands größtes Museum für zeitgenössische Kunst — perfekte Schlechtwetter-Alternative mit wechselnden Ausstellungen.",
+      "duration": "1-2h",
+      "price": "ca. €8",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rostock%20Art%20Gallery&query_place_id=ChIJ5_fO7ihXrEcR3pqglDqm_v8",
+      "placeId": "ChIJ5_fO7ihXrEcR3pqglDqm_v8",
+      "coordinates": {
+        "lat": 54.0986031,
+        "lng": 12.0877286
+      },
+      "rating": 4.5,
+      "userRatingCount": 1479
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Braugasthaus Zum alten Fritz",
+      "cuisine": "Norddeutsch / Brauhaus",
+      "priceRange": "€€",
+      "description": "Uriges Brauhaus in der Rostocker Altstadt mit hauseigenem Bier und deftiger norddeutscher Küche. Gemütliche Atmosphäre nach einem Tag am Meer.",
+      "mustTry": "Frischer Ostseefisch mit hausgebrautem Bier",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Braugasthaus%20Zum%20alten%20Fritz&query_place_id=ChIJp6Yl3lFXrEcRmrMHtROMARE",
+      "placeId": "ChIJp6Yl3lFXrEcRmrMHtROMARE",
+      "coordinates": {
+        "lat": 54.0921417,
+        "lng": 12.1269639
+      },
+      "rating": 4.3,
+      "userRatingCount": 1490
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Hotel Neptun",
+      "type": "Strandhotel",
+      "priceRange": "120-200€",
+      "evCharging": false,
+      "description": "Ikonisches Beachfront-Hotel in Warnemünde mit direktem Meerblick und Spa-Bereich. Das markante Hochhaus aus den 1970er-Jahren ist selbst ein Stück DDR-Architekturgeschichte.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Neptun&query_place_id=ChIJl25AJVJXrEcR-HRQcpbLvS8",
+      "placeId": "ChIJl25AJVJXrEcR-HRQcpbLvS8",
+      "coordinates": {
+        "lat": 54.178979999999996,
+        "lng": 12.07757
+      },
+      "rating": 4.4,
+      "userRatingCount": 6485
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Warnemünde ist der eigentliche Höhepunkt von Rostock — der breite Ostseestrand und die historische Fischereihafen-Atmosphäre sind einen Abstecher wert."
+    },
+    {
+      "type": "info",
+      "text": "Von Rostock aus fahren Fähren nach Dänemark (Gedser) und Schweden — praktisch für die Routenplanung."
+    },
+    {
+      "type": "info",
+      "text": "Der Alte Strom in Warnemünde ist die historische Hafenzeile mit Fischkuttern, Restaurants und maritimem Flair."
+    }
+  ]
 }

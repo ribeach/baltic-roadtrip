@@ -1,0 +1,73 @@
+{
+  "id": "tykocin",
+  "name": "Tykocin",
+  "country": "poland",
+  "coordinates": {
+    "lat": 53.2089,
+    "lng": 22.7753
+  },
+  "description": "Ein 'Shtetl wie aus dem Bilderbuch' im Nordosten Polens — die kleine Barockstadt war einst ein bedeutendes Zentrum jüdischer Kultur. Die prachtvolle Synagoge von 1642 ist eine der ältesten und besterhaltenen in Polen. Direkt an der Route durch die Suwałki-Lücke gelegen, bietet Tykocin eine bewegende Geschichtsstunde und absolute Ruhe.",
+  "highlights": [
+    {
+      "name": "Synagoge von Tykocin",
+      "type": "church",
+      "icon": "star",
+      "description": "Barock-Synagoge von 1642 — eine der ältesten und größten erhaltenen Synagogen Polens. Die Innenwände sind vollständig mit restaurierten hebräischen Gebeten und farbigen Fresken bedeckt. Ein stilles Zeugnis der ausgelöschten jüdischen Gemeinde.",
+      "duration": "1h",
+      "price": "ca. PLN 15 (~€3,50)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tykocin%20Synagogue&query_place_id=ChIJKVS3NAneH0cRwSw9dVaJUYw",
+      "placeId": "ChIJKVS3NAneH0cRwSw9dVaJUYw",
+      "coordinates": {
+        "lat": 53.2067087,
+        "lng": 22.7672439
+      },
+      "rating": 4.7,
+      "userRatingCount": 2157
+    },
+    {
+      "name": "Schloss Tykocin",
+      "type": "castle",
+      "icon": "info",
+      "description": "Rekonstruierte Festung am Fluss Narew — bietet Überblick über die wechselvolle Geschichte des Ortes und schöne Aussicht auf die Flusslandschaft.",
+      "duration": "30-60min",
+      "price": "ca. PLN 10",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tykocin%20Castle&query_place_id=ChIJTaY0IBLeH0cRcYENRuA0cBI",
+      "placeId": "ChIJTaY0IBLeH0cRcYENRuA0cBI",
+      "coordinates": {
+        "lat": 53.213082,
+        "lng": 22.770605999999997
+      },
+      "rating": 4.4,
+      "userRatingCount": 8082
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Restauracja Tejsza",
+      "cuisine": "Jüdisch-Polnisch",
+      "priceRange": "€-€€",
+      "description": "Direkt neben der Synagoge gelegen — widmet sich der Bewahrung traditioneller jüdisch-polnischer Küche. Herzhafter Kugel, süßer Tzimmes und regionale Pierogi in historischem Ambiente.",
+      "mustTry": "Kreple (Eintopf) und Pierogi",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tejsza&query_place_id=ChIJL79TGQneH0cRT9wiuS7oQcU",
+      "placeId": "ChIJL79TGQneH0cRT9wiuS7oQcU",
+      "coordinates": {
+        "lat": 53.2065621,
+        "lng": 22.7667373
+      },
+      "rating": 4.5,
+      "userRatingCount": 1734
+    }
+  ],
+  "hotels": [],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Tykocin liegt fast direkt an der Route Warschau→Litauen und eignet sich ideal als 2-3-stündiger Lunch-Stopp auf dem Weg durch die Suwałki-Lücke."
+    },
+    {
+      "type": "info",
+      "text": "Der nahegelegene Narew-Nationalpark ('Polnischer Amazonas') bietet Holzstegwanderungen durch verzweigte Flussarme — hervorragend für Vogelbeobachtung im Mai."
+    }
+  ],
+  "nightlife": []
+}
