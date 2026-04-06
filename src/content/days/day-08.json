@@ -7,6 +7,7 @@
   "previousLocationId": "vilnius",
   "overnightLocationId": "klaipeda",
   "additionalLocationIds": ["trakai", "kaunas"],
+  "transitLocationIds": ["trakai", "kaunas"],
   "driving": {
     "distance": "320 km",
     "duration": "4:30",
@@ -23,6 +24,7 @@
     "Kibinai-Mittagessen in Trakai – die gefüllten Teigtaschen der Karäer, einer turksprachigen Minderheit",
     { "highlightRef": "Neuntes Fort", "note": "Stopp auf der Weiterfahrt nach Kaunas" },
     { "highlightRef": "Laisvės Alėja (Freiheitsallee)", "note": "Europas längste Fußgängerzone" },
+    "PACING-TIPP: Kaunas (Neuntes Fort + Freiheitsallee) ist optional — bei Zeitdruck lieber entspannt in Klaipėda ankommen",
     { "highlightRef": "Altstadt mit Fachwerkhäusern", "note": "Bummel am Abend nach Ankunft in Klaipėda" }
   ]
 }

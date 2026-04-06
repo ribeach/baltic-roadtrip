@@ -6,6 +6,7 @@
   "locationId": "aalen",
   "previousLocationId": "halmstad",
   "overnightLocationId": null,
+  "transitLocationIds": ["rostock"],
   "driving": {
     "distance": "750 km",
     "duration": "7:30",

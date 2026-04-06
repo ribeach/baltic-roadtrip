@@ -6,6 +6,7 @@
   "locationId": "vilnius",
   "previousLocationId": "masuria",
   "overnightLocationId": "vilnius",
+  "additionalLocationIds": ["masuria"],
   "driving": {
     "distance": "300 km",
     "duration": "3:30",

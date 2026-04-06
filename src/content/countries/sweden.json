@@ -11,7 +11,7 @@
   "evCharging": {
     "quality": "ausgezeichnet",
     "medianDcPrice": "0,40–0,57 €/kWh",
-    "recommendedApps": ["Vattenfall InCharge", "IONITY", "Fortum Charge & Drive"],
+    "recommendedApps": ["Vattenfall InCharge", "IONITY", "Recharge"],
     "notes": "Eines der dichtesten Schnellladenetze der Welt entlang E4/E20. Keine logistischen Engpässe. IONITY ad-hoc teuer — Pass-Abo nutzen."
   },
   "driving": {

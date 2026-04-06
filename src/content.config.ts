@@ -12,6 +12,7 @@ const days = defineCollection({
     previousLocationId: reference('locations').nullable(),
     overnightLocationId: reference('locations').nullable(),
     additionalLocationIds: z.array(reference('locations')).default([]),
+    transitLocationIds: z.array(reference('locations')).default([]),
     driving: z.object({
       distance: z.string(),
       duration: z.string(),

@@ -14,6 +14,20 @@ const base = getBase();
 const mapLocations = days
   .filter(d => d.data.driving?.mode !== 'none' || d.data.dayNumber === 1)
   .reduce((acc, day) => {
+    // Insert transit waypoints (in order) before the day's main location
+    for (const tRef of day.data.transitLocationIds || []) {
+      const tId = resolveRef(tRef);
+      const tLoc = allLocations.find(l => l.id === tId || l.data.id === tId);
+      if (tLoc && !acc.find(a => a.id === tLoc.data.id)) {
+        acc.push({
+          id: tLoc.data.id,
+          name: tLoc.data.name,
+          lat: tLoc.data.coordinates.lat,
+          lng: tLoc.data.coordinates.lng,
+          link: `${base}tag/${day.data.dayNumber}`,
+        });
+      }
+    }
     const locId = resolveRef(day.data.locationId);
     const loc = allLocations.find(l => l.id === locId || l.data.id === locId);
     if (loc && !acc.find(a => a.id === loc.data.id)) {

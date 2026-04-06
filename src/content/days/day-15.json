@@ -6,6 +6,7 @@
   "locationId": "halmstad",
   "previousLocationId": "turku",
   "overnightLocationId": "halmstad",
+  "transitLocationIds": ["stockholm"],
   "driving": {
     "distance": "470 km",
     "duration": "5:00",

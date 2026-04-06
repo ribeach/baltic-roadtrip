@@ -6,7 +6,7 @@
   "locationId": "tallinn",
   "previousLocationId": null,
   "overnightLocationId": "tallinn",
-  "additionalLocationIds": ["lahemaa", "helsinki"],
+  "additionalLocationIds": ["lahemaa"],
   "driving": null,
   "evCharging": null,
   "activities": [
