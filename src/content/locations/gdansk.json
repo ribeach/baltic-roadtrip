@@ -119,6 +119,38 @@
       },
       "rating": 4.8,
       "userRatingCount": 80650
+    },
+    {
+      "name": "Kathedrale von Oliwa",
+      "type": "church",
+      "icon": "gem",
+      "description": "Die Erzkathedrale im nördlichen Stadtteil Oliwa besitzt eine der schönsten Barockorgeln Europas — mit beweglichen Engeln und Sternen, die sich während der 20-minütigen Konzerte drehen. Mehrmals täglich im Sommer.",
+      "duration": "1 Std.",
+      "price": "Kostenlos (Konzert ~PLN 20)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Archikatedra%20Oliwska&query_place_id=ChIJ7aBt2DR1_UYRueErmGT0TkI",
+      "placeId": "ChIJ7aBt2DR1_UYRueErmGT0TkI",
+      "coordinates": {
+        "lat": 54.410978899999996,
+        "lng": 18.558015599999997
+      },
+      "rating": 4.8,
+      "userRatingCount": 5414
+    },
+    {
+      "name": "Bernsteinmuseum (Muzeum Bursztynu)",
+      "type": "museum",
+      "icon": "info",
+      "description": "Im restaurierten Großen Mühle (Wielki Młyn), dem größten mittelalterlichen Industriegebäude Europas. Die Ausstellung zeigt Bernstein von der Urzeit bis zur Handwerkskunst — inklusive spektakulärer Einschlüsse mit Insekten.",
+      "duration": "1 Std.",
+      "price": "~PLN 35 (~€8)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Muzeum%20Bursztynu.%20Oddzia%C5%82%20Muzeum%20Gda%C5%84ska&query_place_id=ChIJjVSrXp5z_UYRZjBYZZ9nbe0",
+      "placeId": "ChIJjVSrXp5z_UYRZjBYZZ9nbe0",
+      "coordinates": {
+        "lat": 54.3539843,
+        "lng": 18.6499734
+      },
+      "rating": 4.7,
+      "userRatingCount": 11316
     }
   ],
   "restaurants": [

@@ -179,6 +179,52 @@
       },
       "rating": 4.5,
       "userRatingCount": 186
+    },
+    {
+      "name": "Kadriorg-Palast & KUMU Kunstmuseum",
+      "type": "museum",
+      "icon": "star",
+      "description": "Peter der Große ließ den barocken Kadriorg-Palast 1718 für seine Frau Katharina errichten — heute beherbergt er ausländische Kunst. Im selben Park steht das KUMU, Estlands größtes Kunstmuseum in einem markanten Kalkstein-Bau, mit estnischer Kunst vom 18. Jahrhundert bis zur Gegenwart.",
+      "duration": "2–3 Std.",
+      "price": "~€12 (KUMU) + Park kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kadriorg%20Art%20Museum&query_place_id=ChIJHzFswVGTkkYR_Ej2aFtgdhA",
+      "placeId": "ChIJHzFswVGTkkYR_Ej2aFtgdhA",
+      "coordinates": {
+        "lat": 59.438503600000004,
+        "lng": 24.7909699
+      },
+      "rating": 4.6,
+      "userRatingCount": 7994
+    },
+    {
+      "name": "Fotografiska Tallinn",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Weltklasse-Fotomuseum in einem umgebauten Kraftwerk im Telliskivi-Viertel. Wechselnde Ausstellungen internationaler Fotografen, dazu ein Restaurant mit Michelin Green Star.",
+      "duration": "1,5–2 Std.",
+      "price": "~€20",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fotografiska%20Tallinn&query_place_id=ChIJN7F2q3mTkkYR_EO5KihDvHI",
+      "placeId": "ChIJN7F2q3mTkkYR_EO5KihDvHI",
+      "coordinates": {
+        "lat": 59.438453499999994,
+        "lng": 24.728456899999998
+      },
+      "rating": 4.6,
+      "userRatingCount": 4021
+    },
+    {
+      "name": "Rotermanni-Viertel",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Konvertiertes Industriequartier zwischen Altstadt und Hafen — preisgekrönte moderne Architektur trifft auf alte Backsteingebäude. Hier liegt auch die RØST Bakery mit hervorragendem Sauerteigbrot.",
+      "duration": "30–60 Min.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rotermanni%20kvartal&query_place_id=ChIJU7150GCTkkYRl8IxIYtw6SQ",
+      "placeId": "ChIJU7150GCTkkYRl8IxIYtw6SQ",
+      "coordinates": {
+        "lat": 59.4389862,
+        "lng": 24.7565591
+      }
     }
   ],
   "restaurants": [
@@ -254,6 +300,21 @@
       },
       "rating": 4.5,
       "userRatingCount": 1239
+    },
+    {
+      "name": "RØST Bakery",
+      "cuisine": "Nordisch / Bäckerei",
+      "priceRange": "€–€€",
+      "description": "Handwerksbäckerei im Rotermanni-Viertel mit langsam fermentiertem Sauerteigbrot und nordischen Backwaren. Perfekt für ein entspanntes Frühstück oder Mittagessen.",
+      "mustTry": "Sauerteigbrot und Kardamom-Schnecke",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=R%C3%98ST%20Bakery&query_place_id=ChIJP73vtWCTkkYRAAmn7hNt9aM",
+      "placeId": "ChIJP73vtWCTkkYRAAmn7hNt9aM",
+      "coordinates": {
+        "lat": 59.4391229,
+        "lng": 24.7582436
+      },
+      "rating": 4.8,
+      "userRatingCount": 2739
     }
   ],
   "hotels": [

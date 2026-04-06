@@ -165,6 +165,70 @@
       },
       "rating": 4.9,
       "userRatingCount": 1157
+    },
+    {
+      "name": "Lettisches Nationalkunstmuseum",
+      "type": "museum",
+      "icon": "info",
+      "description": "Lettlands bedeutendstes Kunstmuseum in einem prachtvoll restaurierten Neobarock-Bau. Lettische und baltische Kunst vom 18. Jahrhundert bis zur Gegenwart, mit wechselnden Sonderausstellungen.",
+      "duration": "1–2 Std.",
+      "price": "~€6",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Latvian%20National%20Museum%20of%20Art&query_place_id=ChIJ8z27yM_P7kYRZ1zPDd_BR8Q",
+      "placeId": "ChIJ8z27yM_P7kYRZ1zPDd_BR8Q",
+      "coordinates": {
+        "lat": 56.955828999999994,
+        "lng": 24.1130754
+      },
+      "rating": 4.7,
+      "userRatingCount": 5629
+    },
+    {
+      "name": "Lettisches Ethnografisches Freilichtmuseum",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Eines der ältesten und größten Freilichtmuseen Europas am Ufer des Jugla-Sees — 118 historische Gebäude aus ganz Lettland, vom Fischerhaus bis zur Windmühle. Etwa 30 Min. östlich vom Zentrum.",
+      "duration": "2–3 Std.",
+      "price": "~€5",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Ethnographic%20Open-Air%20Museum%20of%20Latvia&query_place_id=ChIJtWTC6RzM7kYRzIjO_jaSvWU",
+      "placeId": "ChIJtWTC6RzM7kYRzIjO_jaSvWU",
+      "coordinates": {
+        "lat": 56.9948516,
+        "lng": 24.2696182
+      },
+      "rating": 4.6,
+      "userRatingCount": 5862
+    },
+    {
+      "name": "Āgenskalns Tirgus",
+      "type": "market",
+      "icon": "gem",
+      "description": "Frisch renovierte Jugendstil-Markthalle auf der linken Daugava-Seite — lokale Produzenten, Craft-Kaffee und weniger Touristen als auf dem Zentralmarkt. Lohnt sich als Alternative oder Ergänzung.",
+      "duration": "1 Std.",
+      "price": "Kostenlos (Essen extra)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Agenskalns%20Market&query_place_id=ChIJRUS-pj3Q7kYRjrvOu_CeZ00",
+      "placeId": "ChIJRUS-pj3Q7kYRjrvOu_CeZ00",
+      "coordinates": {
+        "lat": 56.9356832,
+        "lng": 24.071544799999998
+      },
+      "rating": 4.3,
+      "userRatingCount": 8344
+    },
+    {
+      "name": "Stūra māja (Corner House) — KGB-Museum",
+      "type": "soviet",
+      "icon": "star",
+      "description": "Die ehemalige KGB-Zentrale Lettlands mit originalerhaltenen Verhörzellen und Gefängnistrakten im Keller. Stündliche englische Führungen zeigen die Mechanismen der Sowjet-Repression. Ein wichtiger Erinnerungsort, betrieben vom Museum der Okkupation Lettlands.",
+      "duration": "1–1,5 Std.",
+      "price": "~€15 (mit Führung)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Corner%20House&query_place_id=ChIJ598uC8zP7kYRzbrg8afceGA",
+      "placeId": "ChIJ598uC8zP7kYRzbrg8afceGA",
+      "coordinates": {
+        "lat": 56.958144999999995,
+        "lng": 24.124124
+      },
+      "rating": 4.4,
+      "userRatingCount": 3736
     }
   ],
   "restaurants": [

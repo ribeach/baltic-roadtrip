@@ -87,6 +87,22 @@
       },
       "rating": 4.7,
       "userRatingCount": 1621
+    },
+    {
+      "name": "Cēsis Mittelalterliche Burg",
+      "type": "castle",
+      "icon": "star",
+      "description": "800 Jahre alte Burg des Livländischen Ordens — eine der am besten erhaltenen mittelalterlichen Burgruinen Lettlands. Besonders atmosphärisch: Die Ruine wird bei Kerzenlicht (mit ausgeliehenen Laternen) erkundet. Etwa 30 km nordöstlich von Sigulda, direkt auf dem Weg nach Tallinn.",
+      "duration": "1,5–2 Std.",
+      "price": "~€8",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C4%93sis%20Castle&query_place_id=ChIJJ9l5X4_h60YRmf0SBG57hFQ",
+      "placeId": "ChIJJ9l5X4_h60YRmf0SBG57hFQ",
+      "coordinates": {
+        "lat": 57.313171000000004,
+        "lng": 25.2715356
+      },
+      "rating": 4.8,
+      "userRatingCount": 6729
     }
   ],
   "restaurants": [
@@ -135,6 +151,10 @@
     {
       "type": "info",
       "text": "Eleport 100kW-Schnelllader am Raibais Suns Einkaufszentrum in Sigulda — gute Gelegenheit zum Nachladen."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Auf der Weiterfahrt nach Tallinn lohnt sich ein Mittagsstopp in Pärnu — Estlands Sommerhauptstadt mit schöner Strandpromenade und Holzvillen. Gute EV-Ladestationen vor Ort (Enefit VOLT)."
     }
   ]
 }

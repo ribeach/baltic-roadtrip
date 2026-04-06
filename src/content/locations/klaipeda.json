@@ -55,6 +55,22 @@
       },
       "rating": 4.7,
       "userRatingCount": 15785
+    },
+    {
+      "name": "Skulpturenpark (Smiltynė)",
+      "type": "nature",
+      "icon": "info",
+      "description": "Freiluft-Skulpturenpark mit über 100 Werken litauischer Künstler auf 12 Hektar — nahe der Fähranlegestelle auf der Nehrungsseite. Gut kombinierbar mit dem Meeresmuseum.",
+      "duration": "1 Std.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Klaip%C4%97da%20Sculpture%20Park&query_place_id=ChIJx9yc_fzb5EYRhxK1AfWrNwY",
+      "placeId": "ChIJx9yc_fzb5EYRhxK1AfWrNwY",
+      "coordinates": {
+        "lat": 55.717338,
+        "lng": 21.139599999999998
+      },
+      "rating": 4.5,
+      "userRatingCount": 1850
     }
   ],
   "restaurants": [
@@ -118,6 +134,10 @@
     {
       "type": "geheimtipp",
       "text": "Abends in der Altstadt essen und den Sonnenuntergang am Hafen genießen — Klaipėda ist am stimmungsvollsten in der Abenddämmerung."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Am Burghafen steht die Bronze-Skulptur 'Juodasis Vaiduoklis' (Schwarzer Geist) — eine 2,4m hohe Kapuzengestalt, die halb aus dem Wasser ragt und nachts grün beleuchtet wird. Schneller Fotostopp auf dem Abendspaziergang."
     }
   ]
 }

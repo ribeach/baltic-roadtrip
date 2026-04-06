@@ -101,6 +101,22 @@
       },
       "rating": 4.8,
       "userRatingCount": 431
+    },
+    {
+      "name": "Tote-Düne-Pfad (Nagliai-Naturreservat)",
+      "type": "nature",
+      "icon": "gem",
+      "description": "1,8 km langer Bohlenweg durch Europas höchste Wanderdünen im Nagliai-Naturreservat zwischen Juodkrantė und Pervalka. Vier Dörfer liegen unter dem Sand begraben. Weniger besucht als die Parnidis-Düne und deshalb umso eindrucksvoller.",
+      "duration": "1–1,5 Std.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nagliai%20Nature%20Reserve&query_place_id=ChIJCburRleV5EYRY5PcR-Q_ZNE",
+      "placeId": "ChIJCburRleV5EYRY5PcR-Q_ZNE",
+      "coordinates": {
+        "lat": 55.4403249,
+        "lng": 21.087329099999998
+      },
+      "rating": 4.9,
+      "userRatingCount": 47
     }
   ],
   "restaurants": [

@@ -7,8 +7,112 @@
     "lng": 18.0686
   },
   "description": "Ankunft per Viking-Line-Nachtfähre aus Turku am Stadsgården-Terminal — direkt neben Gamla Stan. Weiterfahrt Richtung Süden nach Halmstad.",
-  "highlights": [],
-  "restaurants": [],
+  "highlights": [
+    {
+      "name": "Vasa-Museum",
+      "type": "museum",
+      "icon": "star",
+      "description": "Das weltweit einzige erhaltene Kriegsschiff aus dem 17. Jahrhundert — die Vasa sank 1628 auf ihrer Jungfernfahrt und wurde fast vollständig geborgen. Stockholms meistbesuchtes Museum auf der Insel Djurgården.",
+      "duration": "1,5–2 Std.",
+      "price": "~170 SEK (~15 €)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vasa%20Museum&query_place_id=ChIJrymDbVSdX0YRQTLBtPGa8M8",
+      "placeId": "ChIJrymDbVSdX0YRQTLBtPGa8M8",
+      "coordinates": {
+        "lat": 59.3280233,
+        "lng": 18.0913964
+      },
+      "rating": 4.8,
+      "userRatingCount": 66784
+    },
+    {
+      "name": "Gamla Stan (Altstadt)",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Stockholms mittelalterliche Altstadt auf der Insel Stadsholmen — verwinkelte Gassen, bunte Fassaden, der Stortorget als ältester Platz und das Königliche Schloss. Vom Fährterminal in wenigen Minuten zu Fuß erreichbar.",
+      "duration": "1–2 Std.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gamla%20stan&query_place_id=ChIJK_mfZuJ3X0YREYsWNfT-ACY",
+      "placeId": "ChIJK_mfZuJ3X0YREYsWNfT-ACY",
+      "coordinates": {
+        "lat": 59.3256954,
+        "lng": 18.0718675
+      }
+    },
+    {
+      "name": "Fotografiska",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Weltklasse-Fotomuseum direkt am Stadsgården-Terminal — buchstäblich 5 Minuten zu Fuß von der Fährankunft. Wechselnde Ausstellungen zeitgenössischer Fotografie, dazu Restaurant und Bar mit Hafenblick.",
+      "duration": "1–2 Std.",
+      "price": "~190 SEK (~17 €)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fotografiska%20Museum%20Stockholm&query_place_id=ChIJhaN0M_l3X0YRpOq8uRb_RcA",
+      "placeId": "ChIJhaN0M_l3X0YRpOq8uRb_RcA",
+      "coordinates": {
+        "lat": 59.31796189999999,
+        "lng": 18.0848268
+      },
+      "rating": 4.4,
+      "userRatingCount": 19483
+    },
+    {
+      "name": "Rosendals Trädgård",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Biodynamischer Garten und Café auf Djurgården — ein grünes Idyll mit Gewächshäusern, Blumenfeldern und frisch gebackenem Kuchen. Ideal für ein ruhiges Frühstück nach der Nachtfähre.",
+      "duration": "1 Std.",
+      "price": "Kostenlos (Essen extra)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rosendals%20Tr%C3%A4dg%C3%A5rd&query_place_id=ChIJPT1T4K6CX0YROHhBJau4FpI",
+      "placeId": "ChIJPT1T4K6CX0YROHhBJau4FpI",
+      "coordinates": {
+        "lat": 59.3274562,
+        "lng": 18.1148482
+      },
+      "rating": 4.4,
+      "userRatingCount": 4820
+    },
+    {
+      "name": "Nobelpreismuseum",
+      "type": "museum",
+      "icon": "info",
+      "description": "Am Stortorget in Gamla Stan — Ausstellung über die Geschichte des Nobelpreises und seine Preisträger. Kompakt, gut als Kombination mit einem Bummel durch die Altstadt.",
+      "duration": "1 Std.",
+      "price": "~130 SEK (~12 €)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nobel%20Prize%20Museum&query_place_id=ChIJdXEWYuJ3X0YRbNDHjPig9V4",
+      "placeId": "ChIJdXEWYuJ3X0YRbNDHjPig9V4",
+      "coordinates": {
+        "lat": 59.3253103,
+        "lng": 18.0706657
+      },
+      "rating": 4.1,
+      "userRatingCount": 8723
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Pelikan",
+      "cuisine": "Schwedisch Traditionell",
+      "priceRange": "€€",
+      "description": "Legendäre Stockholmer Bierhalle seit 1733 im Stadtteil Södermalm — hohe Decken, Holzvertäfelung und klassische Husmanskost.",
+      "mustTry": "Köttbullar med lingon oder SOS (Smör, Ost, Sill)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Pelikan&query_place_id=ChIJrSV1Pfd3X0YRxwhoxSQ-Cug",
+      "placeId": "ChIJrSV1Pfd3X0YRxwhoxSQ-Cug",
+      "coordinates": {
+        "lat": 59.3105951,
+        "lng": 18.076245699999998
+      },
+      "rating": 4.3,
+      "userRatingCount": 5202
+    }
+  ],
   "hotels": [],
-  "tips": []
+  "tips": [
+    {
+      "type": "info",
+      "text": "Die Viking-Line-Fähre legt am Stadsgården-Terminal an — Fotografiska liegt direkt nebenan (5 Min. zu Fuß), Gamla Stan und der Stortorget sind ebenfalls in Gehweite (15 Min.)."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Falls morgens nach der Fährankunft etwas Zeit bleibt: Rosendals Trädgård auf Djurgården ist Stockholms schönster Ort für ein Frühstück inmitten von Gewächshäusern und Gärten. Öffnet um 10 Uhr."
+    }
+  ]
 }

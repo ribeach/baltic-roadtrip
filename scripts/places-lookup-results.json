@@ -1,0 +1,38 @@
+{
+  "kaunas/pazaislis": {
+    "placeId": "ChIJqaC-cAAY50YREQHA6mF2a0I",
+    "displayName": "Pažaislis Monastery and Church",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pa%C5%BEaislis%20Monastery%20and%20Church&query_place_id=ChIJqaC-cAAY50YREQHA6mF2a0I",
+    "coordinates": {
+      "lat": 54.8762859,
+      "lng": 24.022278099999998
+    }
+  },
+  "riga/corner-house": {
+    "placeId": "ChIJ598uC8zP7kYRzbrg8afceGA",
+    "displayName": "The Corner House",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Corner%20House&query_place_id=ChIJ598uC8zP7kYRzbrg8afceGA",
+    "coordinates": {
+      "lat": 56.958144999999995,
+      "lng": 24.124124
+    }
+  },
+  "vilnius/three-crosses": {
+    "placeId": "ChIJUWJBoCKU3UYR4j0F93YDxxc",
+    "displayName": "Three Crosses Monument",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Three%20Crosses%20Monument&query_place_id=ChIJUWJBoCKU3UYR4j0F93YDxxc",
+    "coordinates": {
+      "lat": 54.6867879,
+      "lng": 25.2975748
+    }
+  },
+  "masuria/fort-boyen": {
+    "placeId": "ChIJQYceGwyI4UYRuQWFOIlde-U",
+    "displayName": "Boyen Fortress",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Boyen%20Fortress&query_place_id=ChIJQYceGwyI4UYRuQWFOIlde-U",
+    "coordinates": {
+      "lat": 54.03416,
+      "lng": 21.749918299999997
+    }
+  }
+}

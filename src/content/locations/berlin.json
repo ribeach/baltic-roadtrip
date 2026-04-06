@@ -133,6 +133,38 @@
       },
       "rating": 4.4,
       "userRatingCount": 19540
+    },
+    {
+      "name": "DDR Museum",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Interaktives Museum über den DDR-Alltag — anfassen und ausprobieren ausdrücklich erwünscht. Vom Trabi-Simulator bis zur nachgebauten Plattenbauwohnung wird das Leben in Ostdeutschland greifbar. Direkt gegenüber dem Berliner Dom.",
+      "duration": "1,5–2 Std.",
+      "price": "~€14",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=DDR%20Museum&query_place_id=ChIJVzpGU95RqEcRZJgnyr-ZDC0",
+      "placeId": "ChIJVzpGU95RqEcRZJgnyr-ZDC0",
+      "coordinates": {
+        "lat": 52.5192243,
+        "lng": 13.402636999999999
+      },
+      "rating": 4.3,
+      "userRatingCount": 27139
+    },
+    {
+      "name": "Topographie des Terrors",
+      "type": "museum",
+      "icon": "star",
+      "description": "Kostenlose Dokumentationsstätte auf dem Gelände der ehemaligen Gestapo- und SS-Zentrale. Die Ausstellung zeigt die Mechanismen des NS-Terrors direkt am erhaltenen Mauerabschnitt der Berliner Mauer. Einer der wichtigsten Erinnerungsorte der Stadt.",
+      "duration": "1,5–2 Std.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Topography%20of%20Terror&query_place_id=ChIJx3iXOMxRqEcRSGbJBczVSzc",
+      "placeId": "ChIJx3iXOMxRqEcRSGbJBczVSzc",
+      "coordinates": {
+        "lat": 52.506747,
+        "lng": 13.3837099
+      },
+      "rating": 4.6,
+      "userRatingCount": 39951
     }
   ],
   "restaurants": [
