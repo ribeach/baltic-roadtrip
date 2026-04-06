@@ -13,7 +13,8 @@
     "distance": "470 km",
     "duration": "5:00",
     "mode": "drive",
-    "routeDescription": "Ankunft Stockholm Stadsgården (nahe Gamla Stan) um 07:30 Uhr per Viking Line aus Turku. Dann über die E18 Richtung Westen nach Oslo. Gut ausgebaute Autobahn durch schwedische Wälder und Seen."
+    "routeDescription": "Ankunft Stockholm Stadsgården (nahe Gamla Stan) um 07:30 Uhr per Viking Line aus Turku. Dann über die E18 Richtung Westen nach Oslo. Gut ausgebaute Autobahn durch schwedische Wälder und Seen.",
+    "encodedPolyline": "uvbiJ_~gmBaP`fBql@hrCii@uGwe@q_AaxAbvBkbBnmAkbAfyBwt@voBbx@piC`Vth@_XroAkm@r~Gyt@hwCerBdt@axC`yAmxAz~Ac}@jfC{gA|kGs}At~Bk`AbkIemCppJ_kDb`JazCttKmoAdeKetB`wFsv@tdIuw@h}NodBnmd@tm@rfBjOn|Bq[poGzo@|mF~CnhFfe@fgK|aAddFpAzwEsIpyIfAf|Edk@~cG|~@~mEyj@|yGsq@pbCiElbDr{B~}Nt_ArbC`_@rqEbl@dkF~B~vH_gA~wGhVzxHfnAbrPpfChtNbu@vcDhaBryDvfCx{FlwCtqDltA`|@|bBdTjpAcMp~@rfAlZdvIbPv_E`NprClaAhuA`fAtpIhk@pcCrnArdHpJhmCfz@pfGvmDjoFljB`yJddAbmJtUdfMmAt|J~PpcDhy@xpFpNz~Cf`AnxA|uCtcBjhBxzCtKxxCah@jwDjDzsGcB~uIag@ndMgOv}Qyy@r_Bs~@|vFyv@d`Na~@pt@qTl`DcmAx{C{sAfdFsn@dtE~]hzBrGl}CzBv|CyQncHfZzeHyBrrEh`AhgFzJziGmA`jMsb@paImn@zoDus@~iDusBhsBws@npFimAvsE{^pnO_uA|lM{z@xuIuwA~aHyZh|EiDviFddBzxGl^~vFqO|{ErUttCWttCbqArgBv]`jFsHdqLeh@hiN_[bsC~XbsCtfAvpJxjA~fJr}ArpAd`@~xAl`Als@pRd@to@k`@nz@f~AjqCvzExeAt_FlrAnsAff@lfBlb@|rGla@zgGjBbtIyYxtH{{AvmCkUl_DyW|xIDr_FvnA~nFlb@plIaxA|tGmU`cE{o@jfAmz@jbHip@r_FbBleE~Ff{C{p@zqAaxCxzCegCjn@kfApsCuqA`}Eg|@r|AgJp~Dqf@jmIk[bjAew@qEezCtwDqeAtpBkp@zmDyoBx_Jkf@baEuaAl|BaeAlaEoCtdEsw@jnGlNz|Cr\\lxBbx@ldCjJ~wB~o@`x@~JfeByVpaChSreFq\\nrCejCtyD{rDjaJau@~jNeiAzdMwlAzvGiq@rkD{@hqM?vdEro@~pE_MnrFa_Br~FidCrhOwdBf~Foc@lvFsdBdiDclAxmAcpAn}Bs[zvBehA`yI_UnrAqtAj`Bm_@h^{nAqPkxBnVc~@}TaTst@ia@axC}yAy|Bm|BmYg|AtPwl@qj@qeBvk@kwCzt@{aAbOwoAxrAidAv`AiKI}YpeAaDv~AmI~pBca@{RiMbZaG`OwK|T"
   },
   "evCharging": {
     "stopsNeeded": 2,

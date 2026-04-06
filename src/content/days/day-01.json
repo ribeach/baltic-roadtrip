@@ -10,7 +10,8 @@
     "distance": "500 km",
     "duration": "5:00",
     "mode": "drive",
-    "routeDescription": "Über die A7 Richtung Nürnberg, dann auf die A6/D5 durch die Oberpfalz nach Tschechien. Gut ausgebaute Autobahnstrecke mit zuverlässiger Ladeinfrastruktur auf beiden Seiten der Grenze."
+    "routeDescription": "Über die A7 Richtung Nürnberg, dann auf die A6/D5 durch die Oberpfalz nach Tschechien. Gut ausgebaute Autobahnstrecke mit zuverlässiger Ladeinfrastruktur auf beiden Seiten der Grenze.",
+    "encodedPolyline": "eqaiHgcr|@sVb@gB{OG[_oAsc@anBwoAkyAq|D~A{jC{cBoiBqwBedAerCdT{aA|^_gAPk{Be{@meAfIilAeNwdBdIerAtfAq`A~c@is@_PgzByqCgnCmiA}i@{iAu_Aky@oVmyA{j@ey@oaDu[qiAj`Ay~@rmAy|Bje@qxAujBc|@skAuZkaB__AswGkb@c_HqXsjCaf@obBqKoiCtU}fBdNkoB}VqrBmfAabF|f@{eFvAkbDzb@cqCdDogE}r@yzDiw@o|DaaCiaEwsAecDwQozB|@opDcc@}}Co[eiGpJitB~q@}nCnSi`CiPmxCs]gfD~AsaCma@uvCcm@ouAukBm{Ca{A{zE{xBkuCcjA_tBaa@u`Dsl@}_GwW{}FzFgfDsVu{BcOstFpk@}cEwLmiB}p@k~@k]mwCeTw~DhEkjF~b@crCdVqvCmZ}rAfGqnAlTak@dFy}@{ZyhAqp@}sCey@}nClSsjDvr@_hJ`nAscIpq@iuAuI_nAeTcdB`RqiBvd@}lHk_@q`FsBk{CcPcuDwvB_mB}`AuoBuv@iwEyRudDoq@_mGct@{kAyeAsNifBoWy}A_qA_f@qx@kw@cJyv@ivBemAw_AyoBqi@ui@uy@s\\w}AnT_mB_JgzAsuAicC}a@k]m[}~AySi}A}h@a`Ass@wh@}]cvAySwiDti@g`CcGmlAae@egAe|@urDi]qwAuAcqA~IowCoGkwAoc@ye@ye@eqAk}@ocA}h@ypDiS}mAmm@uo@mc@itBeIsjDiPmsA_b@cr@}p@}tC_eBidDue@mw@skA_|@sf@mx@eSg~Aso@{xF}Pq{AdDmaCrq@oiCfq@qqAxqAy}Edb@ikDjeAelGvKq{BkR_pBqLc_G{}@soCga@ohCfo@mkGdZewE|o@wvAhGcuAkr@weIdR}tEnoCgmBl`@aq@hGmjB{q@siFrUeeEoLskDsf@af@ce@s@i}@id@}v@o_Bmg@__Aqe@m~B}Ki}Aqf@{nAi_@wuDkcAohFme@ozHoi@wmB{wAswEiLiqBmBe`Acf@qvAqz@mvCex@w_Ai}@cd@s{@{uAar@}x@cQomAscAqgJgjBugFsbC}iDggAqvEsrBejG}iCgiDikAufCgi@c|Cmj@g}BcrA{}CwI}~@yk@gmAwj@ifCskBmtCghBejCytAirDaf@}cErc@sEbs@}g@ln@srAzY}jF|i@g~@}Nst@gq@egBwKo~A}n@yk@z@mcAoc@a_Ao{@mWgvAnA_t@hBiJ}J]sr@fHkvAuF}V"
   },
   "evCharging": {
     "stopsNeeded": 2,
@@ -23,6 +24,9 @@
     "Grenzübertritt nach Tschechien — Vignette nicht vergessen (elektronisch vorab kaufen)",
     "Ankunft in Prag am frühen Abend, Einchecken im Hotel",
     "Erster Spaziergang durch die Altstadt — über den Altstädter Ring zum Astronomischen Uhrturm",
-    { "restaurantRef": "Lokál Dlouhááá", "note": "Ausklang bei frisch gezapftem Pilsner und böhmischer Hausmannskost" }
+    {
+      "restaurantRef": "Lokál Dlouhááá",
+      "note": "Ausklang bei frisch gezapftem Pilsner und böhmischer Hausmannskost"
+    }
   ]
 }

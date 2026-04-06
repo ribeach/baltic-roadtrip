@@ -24,6 +24,7 @@ const mapLocations = days
           name: tLoc.data.name,
           lat: tLoc.data.coordinates.lat,
           lng: tLoc.data.coordinates.lng,
+          dayNumber: day.data.dayNumber,
           link: `${base}tag/${day.data.dayNumber}`,
         });
       }
