@@ -122,7 +122,8 @@ export const GET: APIRoute = async () => {
     ln(`### ${c.flag} ${c.name}`);
     ln(`Währung: ${c.currency.code} (${c.currency.name})${c.currency.cashNeeded ? ' — Bargeld empfohlen' : ''}. ${c.currency.tip}`);
     ln(`EV-Laden: ${c.evCharging.quality}. DC-Preis: ${c.evCharging.medianDcPrice}. Apps: ${c.evCharging.recommendedApps.join(', ')}. ${c.evCharging.notes}`);
-    ln(`Tempolimits: Stadt ${c.driving.speedLimits.urban}, Land ${c.driving.speedLimits.rural}, Autobahn ${c.driving.speedLimits.motorway} km/h. Maut: ${c.driving.tolls}. ${c.driving.specialRules}`);
+    const motorway = typeof c.driving.speedLimits.motorway === 'number' ? `${c.driving.speedLimits.motorway} km/h` : String(c.driving.speedLimits.motorway);
+    ln(`Tempolimits: Stadt ${c.driving.speedLimits.urban}, Land ${c.driving.speedLimits.rural}, Autobahn ${motorway}. Maut: ${c.driving.tolls}. ${c.driving.specialRules}`);
     ln(`Kulinarik: ${c.culinary.mustTry.join(', ')}. ${c.culinary.description}`);
     ln();
   }

@@ -33,6 +33,11 @@ const additionalLocations = additionalLocationRefs
   .map((ref) => findLoc(resolveRef(ref)))
   .filter(Boolean);
 
+const transitLocationRefs = day.transitLocationIds || [];
+const transitLocations = transitLocationRefs
+  .map((ref: any) => findLoc(resolveRef(ref)))
+  .filter(Boolean);
+
 const prevDay = allDays.find(d => d.data.dayNumber === day.dayNumber - 1);
 const nextDay = allDays.find(d => d.data.dayNumber === day.dayNumber + 1);
 
@@ -74,6 +79,17 @@ if (prevLocation) {
     lng: prevLocation.data.coordinates.lng,
   });
 }
+// Insert transit waypoints between previous and current location
+for (const tLoc of transitLocations) {
+  if (!mapLocations.find(m => m.id === tLoc!.data.id)) {
+    mapLocations.push({
+      id: tLoc!.data.id,
+      name: tLoc!.data.name,
+      lat: tLoc!.data.coordinates.lat,
+      lng: tLoc!.data.coordinates.lng,
+    });
+  }
+}
 if (location) {
   mapLocations.push({
     id: location.data.id,
@@ -81,6 +97,17 @@ if (location) {
     lat: location.data.coordinates.lat,
     lng: location.data.coordinates.lng,
   });
+}
+// Add additional locations (side trips)
+for (const aLoc of additionalLocations) {
+  if (!mapLocations.find(m => m.id === aLoc!.data.id)) {
+    mapLocations.push({
+      id: aLoc!.data.id,
+      name: aLoc!.data.name,
+      lat: aLoc!.data.coordinates.lat,
+      lng: aLoc!.data.coordinates.lng,
+    });
+  }
 }
 
 const isDrivingDay = day.driving && day.driving.mode !== 'none' && mapLocations.length > 1;

@@ -1,6 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { getBase } from '../lib/content';
+
+const base = getBase();
 
 const allCountries = await getCollection('countries');
 const routeOrder = ['germany', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden', 'denmark'];
@@ -217,7 +220,7 @@ const evRules = [
         </div>
         <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
           <h3 class="font-semibold text-navy-800">🇪🇪 Tallinn</h3>
-          <p class="text-sm text-gray-600 mt-1">Altstadt komplett autofrei. Tiefgarage Kasarmitori (überdacht, EV-Laden). ~3–5 €/Std.</p>
+          <p class="text-sm text-gray-600 mt-1">Altstadt komplett autofrei. Parkhaus Viru Keskus am Rand der Altstadt (überdacht, EV-Laden). ~3–5 €/Std.</p>
         </div>
         <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
           <h3 class="font-semibold text-navy-800">🇵🇱 Danzig</h3>
@@ -412,7 +415,7 @@ const evRules = [
 
     <!-- Back -->
     <div class="pt-8 border-t border-gray-100">
-      <a href={import.meta.env.BASE_URL.replace(/\/?$/, '/')} class="text-amber-500 hover:text-amber-600 font-medium transition-colors">
+      <a href={base} class="text-amber-500 hover:text-amber-600 font-medium transition-colors">
         ← Zurück zur Routenübersicht
       </a>
     </div>

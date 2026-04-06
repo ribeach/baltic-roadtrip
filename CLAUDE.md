@@ -79,6 +79,10 @@ Body: { "textQuery": "Place Name City Country" }
 - `.env` file with `PUBLIC_GOOGLE_MAPS_API_KEY` (see `.env.example`)
 - GitHub Actions deploys on push to `main`, injecting the API key from repository secrets
 
+## Out of Scope
+
+- SEO — skip SEO-related suggestions and optimizations.
+
 ## Workflow
 
 - Never commit directly to `main` — all changes go through feature branches and pull requests.
