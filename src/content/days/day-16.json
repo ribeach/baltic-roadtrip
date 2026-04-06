@@ -1,16 +1,32 @@
 {
   "dayNumber": 16,
   "date": "2026-05-15",
-  "title": "Halmstad – ein freier Tag",
-  "subtitle": "Vertraute Straßen, eigenes Programm — und abends Richtung Fähre",
-  "locationId": "halmstad",
-  "previousLocationId": null,
-  "overnightLocationId": "halmstad",
-  "driving": null,
-  "evCharging": null,
+  "title": "Skandinavien-Express nach Kopenhagen",
+  "subtitle": "Durch Schweden mit Halt in Halmstad, dann über den Øresund nach Dänemark",
+  "locationId": "copenhagen",
+  "previousLocationId": "oslo",
+  "overnightLocationId": "copenhagen",
+  "transitLocationIds": [
+    "halmstad"
+  ],
+  "driving": {
+    "distance": "700 km",
+    "duration": "7:30",
+    "mode": "drive",
+    "routeDescription": "Über die E6 südwärts nach Gothenburg (290 km), weiter auf der E6 nach Halmstad (150 km) für einen kurzen Halt, dann E6 bis Malmö und über die Øresundbrücke nach Kopenhagen (260 km). Längste Fahretappe der Reise."
+  },
+  "evCharging": {
+    "stopsNeeded": 3,
+    "notes": "Drei Ladestopps: Raum Gothenburg, Halmstad (während des Aufenthalts ideal) und Malmö vor der Brücke. Hervorragendes Ladenetz in Schweden und Dänemark.",
+    "criticalLevel": "green"
+  },
   "activities": [
-    "Freier Tag in Halmstad – hier kennen wir uns aus, hier brauchen wir keine Tipps",
-    "FÄHROPTION A (Trelleborg→Rostock): Am späten Nachmittag Aufbruch nach Trelleborg (200 km, ~2 Std.) für die Nachtfähre nach Rostock. So bleibt der Tag in Halmstad fast komplett erhalten.",
-    "FÄHROPTION B (Gothenburg→Kiel): Falls maximaler Komfort gewünscht — am frühen Nachmittag nach Gothenburg (150 km, ~1,5 Std.) und Boarding der Stena-Line-Nachtfähre um 17:45 Uhr. Schlaf in der Kabine, Ankunft Kiel 09:15."
+    "Früher Aufbruch aus Oslo — die längste Fahretappe der Reise steht an",
+    "Fahrt entlang der schwedischen Westküste über die E6",
+    "Kaffeepause in Gothenburg — optionaler Stopp in der Haga-Altstadt",
+    "Kurzer Halt in Halmstad — vertraute Straßen, ein Spaziergang am Nissan-Fluss",
+    "Weiterfahrt über Malmö und die imposante Øresundbrücke (7,8 km!) nach Kopenhagen",
+    "Ankunft Kopenhagen am Abend — erster Spaziergang durch Nyhavn im Abendlicht",
+    "MAUT: Øresundbrücke ~63 € (online günstiger). Vor der Brücke in Malmö voll laden!"
   ]
 }

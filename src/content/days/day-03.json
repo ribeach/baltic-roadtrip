@@ -1,30 +1,20 @@
 {
   "dayNumber": 3,
   "date": "2026-05-02",
-  "title": "Auf nach Danzig",
-  "subtitle": "Durch die Weite Pommerns an die polnische Ostsee",
-  "locationId": "gdansk",
-  "previousLocationId": "berlin",
-  "overnightLocationId": "gdansk",
-  "driving": {
-    "distance": "510 km",
-    "duration": "5:30",
-    "mode": "drive",
-    "routeDescription": "Über die A11 nach Szczecin, dann auf der polnischen S6/S7 entlang der Küste bis Gdańsk. Ab Stettin gut ausgebaute Schnellstraßen.",
-    "encodedPolyline": "ayp_IidypAqw@onAq}Aqz@ydAiMwqAnHklAqHmz@o|@mjB{}@{_Al}@wqAbjA{p@oNdW{hAnjA{nHrs@i`I_K_uAaq@st@onEaa@mpDzu@yjBtx@a~C~dAakBkI}nBmv@}nBshDk~DyaJg}Ac{Ba{CwvAchBwnB{xB_hD_kEyeJuhBuiCugCmuB_jH{nA_qIe`B{eF_nAmvB{aBwfEy`EoiEwxDclDqlD}{IswO{iCq`Imo@g_JopB{bUg{Cmw`@wFi}Dzd@yeJlIgeBuVqhBs_AsyFuaAk}@cf@wkAmIisApYwuDmc@slDy{A{{B{bCehAu{@a{AeaA_yDsaE}}BowCoTuhDi}@crCo`AqyCz{AohBuSuxAqkBkN{gE{OurBob@k~@u_A}tBms@yrCia@uiGilAyoEag@ucGoWucD}y@qeAcqAK{zAwz@{hAsnA}LozAxYaeC_JsoBq{BiiDci@w~AupA}n@enCmfC_rAahAqs@aWao@uv@gjAmY}f@rN{gAlHubAmhCea@osBgvBuuF}oCywFunB_oA{{BjD_}Dk~AgmBsgCgaDczAckBkpDsrAu|A{gBsoAw{GycDav@qImcAkr@ymAcnCifBeeDyyAurAibBgiAoYkeDhOsyE|]_oDa]u|DqcA_xC{x@awDwQmsF{UokEi|A}vG{Ac`Pxw@}eOdWscDuWucFefE{zFin@axBmOciBa@akBlw@uzDuHurBau@ahCg^kpCuEc{Byb@u_Bi`AamFui@_tBoeA_bBeRccAeVu~CwpAekEcsAq_CqaAydE_oA_vGs_@s{EjHkvArSk}D}y@yyCi\\mgBsy@clAudAahA{zA}kFihAyjFqjB}pEm}@e|@aa@{rA_c@e`Fap@c}DJunBhlA{tE`QezCsl@gdIclAu|Bk}@or@{o@cmCqg@w_C~P{jJjeA{~Ghg@uwCfC{}Bwh@ypJuLa|Lix@e|H{aAmlEi`@uaKgb@uiCiNahCcV{dAuW_y@wI{eAew@moEgh@koA}c@ir@eS}rAzJaiEaKQ}E{To[qe@wLeIkm@_^w]mo@yN{iAjHyzCcg@m\\i[owA{mBogJoFsqGlVwpEp~@o{EpRilDwDodEeCcaEdgBs_Kv`Awj@jeAaTr`BylDz|AerKtsAwwFsLoaG`h@woF~nAg~Ghr@spCzRsuAkaBy{CmU}u@vRsx@fdAc|@xvAvR`yFdUnwCqtDrhAm`@zv@jD`j@z@nOuvCbt@ocBx@qwD_p@avDuZkoBzDss@sVmNeDS"
-  },
-  "evCharging": {
-    "stopsNeeded": 2,
-    "notes": "Ein Ladestopp noch in Deutschland (Raum Prenzlau/Stettin), ein weiterer in Nordpolen – Orlen- und Greenway-Stationen entlang der S6 verfügbar.",
-    "criticalLevel": "green"
-  },
+  "title": "Warschau — Phönix aus der Asche",
+  "subtitle": "Zwischen Aufstandsmuseum und Weichsel-Boulevards",
+  "locationId": "warsaw",
+  "previousLocationId": null,
+  "overnightLocationId": "warsaw",
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    "Morgendlicher Aufbruch aus Berlin nach dem Frühstück",
-    "Ankunft am frühen Nachmittag in Gdańsk",
-    {
-      "highlightRef": "Rechtstadt & Langer Markt",
-      "note": "Erster Bummel entlang des Długi Targ mit Neptunbrunnen und Artushof"
-    },
-    "Abendessen an der Mottlau-Uferpromenade mit Blick auf das beleuchtete Krantor"
+    { "highlightRef": "Warschauer Altstadt (Stare Miasto)", "note": "UNESCO-Welterbe — die perfekteste Rekonstruktion einer zerstörten Altstadt" },
+    { "highlightRef": "Kultur- und Wissenschaftspalast", "note": "Stalins Geschenk an Warschau — Aussichtsplattform im 30. Stock" },
+    { "highlightRef": "Museum des Warschauer Aufstands", "note": "Mindestens 2,5 Stunden einplanen — eines der besten Museen Polens" },
+    { "highlightRef": "Łazienki-Park", "note": "Nachmittagsspaziergang im königlichen Park" },
+    "Abend an den Weichsel-Boulevards — Drinks mit Blick auf die Altstadt",
+    { "restaurantRef": "Stary Dom", "note": "Polnisches Fine Dining — das Tatar wird am Tisch zubereitet" },
+    { "nightlifeRef": "Level 27", "note": "Drink mit Panoramablick über die Skyline" }
   ]
 }

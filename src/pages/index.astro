@@ -55,7 +55,7 @@ if (aalenLoc) {
     name: 'Aalen (Start/Ziel)',
     lat: aalenLoc.data.coordinates.lat,
     lng: aalenLoc.data.coordinates.lng,
-    link: `${base}tag/17`,
+    link: `${base}tag/18`,
     label: '⌂',
   };
   mapLocations.unshift(aalenBase);
@@ -70,10 +70,10 @@ const routePolylines = days
 const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER';
 
 const stats = [
-  { value: '17', label: 'Tage' },
-  { value: '8', label: 'Länder' },
-  { value: '~4.500', label: 'Kilometer' },
-  { value: '3', label: 'Fähren' },
+  { value: '18', label: 'Tage' },
+  { value: '10', label: 'Länder' },
+  { value: '~5.500', label: 'Kilometer' },
+  { value: '4', label: 'Fähren' },
   { value: '1', label: 'Elektroauto' },
 ];
 ---
@@ -84,16 +84,16 @@ const stats = [
     <div class="absolute inset-0 bg-gradient-to-br from-navy-900 via-navy-800 to-navy-700 opacity-90"></div>
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
       <div class="max-w-3xl">
-        <p class="text-amber-400 font-medium text-sm uppercase tracking-widest mb-3">30. April – 16. Mai 2026</p>
+        <p class="text-amber-400 font-medium text-sm uppercase tracking-widest mb-3">30. April – 17. Mai 2026</p>
         <h1 class="text-4xl md:text-6xl font-extrabold mb-4 font-display">
           Baltikum Roadtrip
           <span class="text-amber-400"> ⚡</span>
         </h1>
         <p class="text-xl md:text-2xl text-gray-300 mb-6">
-          Mit dem VW ID.4 durch acht Länder — von den Dünen der Kurischen Nehrung bis zu den mittelalterlichen Gassen Tallinns.
+          Mit dem VW ID.4 durch zehn Länder — von Prags Türmen über die Kurische Nehrung bis nach Oslo und zurück.
         </p>
         <p class="text-sm text-gray-400 flex flex-wrap gap-x-1 gap-y-1">
-          {['Aalen', 'Berlin', 'Danzig', 'Masuren', 'Vilnius', 'Klaipėda', 'Riga', 'Tallinn', 'Helsinki', 'Turku', 'Stockholm', 'Halmstad', 'Aalen'].map((city, i, arr) => (
+          {['Aalen', 'Prag', 'Warschau', 'Masuren', 'Vilnius', 'Klaipėda', 'Riga', 'Tallinn', 'Helsinki', 'Turku', 'Stockholm', 'Oslo', 'Kopenhagen', 'Berlin', 'Aalen'].map((city, i, arr) => (
             <span class="inline-flex items-center">
               <span class="bg-navy-700 px-2 py-0.5 rounded-full text-gray-300 text-xs">{city}</span>
               {i < arr.length - 1 && <span class="text-amber-400 mx-0.5">→</span>}
@@ -163,7 +163,7 @@ const stats = [
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20 mb-20">
     <div class="text-center mb-12">
       <h2 class="text-3xl font-extrabold text-navy-800">Tag für Tag</h2>
-      <p class="text-gray-500 mt-2">17 Tage, von Schwaben bis Skandinavien und zurück</p>
+      <p class="text-gray-500 mt-2">18 Tage, von Schwaben über Prag und das Baltikum bis Oslo und zurück</p>
     </div>
 
     <!-- Timeline -->

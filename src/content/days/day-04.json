@@ -1,19 +1,27 @@
 {
   "dayNumber": 4,
   "date": "2026-05-03",
-  "title": "Danzig – Geschichte und Genuss",
-  "subtitle": "Zwischen Weltkriegsgeschichte und polnischer Küche",
-  "locationId": "gdansk",
-  "previousLocationId": null,
-  "overnightLocationId": "gdansk",
-  "driving": null,
-  "evCharging": null,
+  "title": "Durch Masuren ins Land der tausend Seen",
+  "subtitle": "Ordensburgen, Storchennester und ein Abend am See",
+  "locationId": "masuria",
+  "previousLocationId": "warsaw",
+  "overnightLocationId": "masuria",
+  "driving": {
+    "distance": "250 km",
+    "duration": "3:00",
+    "mode": "drive",
+    "routeDescription": "Über die S7/S51 Richtung Nordosten durch die masurische Seenplatte nach Ryn. Landschaftlich wunderschön — Seen, Wälder, Störche auf den Dächern."
+  },
+  "evCharging": {
+    "stopsNeeded": 1,
+    "notes": "Ein Ladestopp im Raum Ostrołęka oder Olsztyn. GreenWay-Stationen verfügbar.",
+    "criticalLevel": "green"
+  },
   "activities": [
-    { "highlightRef": "Museum des Zweiten Weltkriegs", "note": "Mindestens 3–4 Stunden einplanen" },
-    { "highlightRef": "Europäisches Solidarność-Zentrum", "note": "Auf dem ehemaligen Werftgelände" },
-    { "highlightRef": "Westerplatte", "note": "Per Wasserbus erreichbar" },
-    "OPTIONAL: Sopot (15 Min. per S-Bahn SKM) — Spaziergang auf Europas längster Seebrücke (Molo) und Strandpromenade",
-    "Abendlicher Spaziergang am Ufer der Mottlau im goldenen Licht",
-    { "restaurantRef": "Pierogarnia Mandu", "note": "Pierogi-Festmahl — handgemachte Teigtaschen in unzähligen Variationen" }
+    "Morgendlicher Aufbruch aus Warschau — heute wird es ländlich",
+    "Fahrt durch Masurens stille Weite: Seen, Kiefernwälder, Störche auf jedem Dach",
+    { "highlightRef": "Hotel Zamek Ryn (Ordensburg)", "note": "Ankunft am frühen Nachmittag — Rundgang durch die gotischen Gewölbe" },
+    { "highlightRef": "Masurische Seenplatte", "note": "Nachmittagsspaziergang am Ufer des Ryńskie-Sees" },
+    { "restaurantRef": "Restauracja Zamkowa (Refektarz)", "note": "Polnische Küche unter gotischen Bögen" }
   ]
 }

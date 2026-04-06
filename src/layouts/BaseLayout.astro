@@ -9,7 +9,7 @@ interface Props {
   description?: string;
 }
 
-const { title, description = 'Roadtrip durch das Baltikum — 17 Tage, 8 Länder, 1 Elektroauto' } = Astro.props;
+const { title, description = 'Roadtrip durch das Baltikum — 18 Tage, 10 Länder, 1 Elektroauto' } = Astro.props;
 const base = getBase();
 const fullTitle = `${title} | Baltikum Roadtrip 2026`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -33,7 +33,7 @@ const ogImage = new URL(`${base}images/og-cover.png`, Astro.site);
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Baltikum Roadtrip 2026 — 17 Tage, 8 Länder, 1 Elektroauto" />
+    <meta property="og:image:alt" content="Baltikum Roadtrip 2026 — 18 Tage, 10 Länder, 1 Elektroauto" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />

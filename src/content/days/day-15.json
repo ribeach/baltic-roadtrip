@@ -1,30 +1,38 @@
 {
   "dayNumber": 15,
   "date": "2026-05-14",
-  "title": "Stockholm nach Halmstad",
-  "subtitle": "Schwedische Westküste im Frühling",
-  "locationId": "halmstad",
-  "previousLocationId": "turku",
-  "overnightLocationId": "halmstad",
-  "transitLocationIds": [
-    "stockholm"
-  ],
-  "driving": {
-    "distance": "470 km",
-    "duration": "5:00",
-    "mode": "drive",
-    "routeDescription": "Ankunft Stockholm Stadsgården (nahe Gamla Stan) um 07:30 Uhr per Viking Line aus Turku. Dann über die E4 Richtung Süden, ab Jönköping auf die E6 an die Westküste nach Halmstad. Durchgehend Autobahn.",
-    "encodedPolyline": "o~}oJ_t{fC|j@n|DbW|n@tvCbnQppWvrS`hCliPhx@fnKt{@lwJtaDllNpuCt_i@zuCltOjoLhwa@nhCvtd@fUzom@inAnxNmR|`IgaDdaQtI~yEpr@l`PbgAdfCeQhrE_iAlmUn@lx@lExy@lj@|sBh}BffAhn@|nEtdAb_WvN|kEaJ~dFgyBti@cqA~qAyy@xS{J~}CqWpmBxOnmFbq@hXd}@{L|cCrFzjFjiGbhK`sPjnMnrYbsK`zVlmIfpZv}F`q]~tBlh_@}Avc@`BfUqA`Qe@nJaP|rApJviCpTz}G_h@jbUyy@ztPqm@`qWnHzhHraBvdGlwAbkBfU~dCfDtqA|f@`_CjkAluHbyDhiLx}CzbGlbFznI`{BhzDldCtaAn~D~kGlnEptCnoBpNxx@nmA`zArlBrc@rdEnwB|{FnwAdxCdpBkw@tbBqKzrAav@tcAQxrAwu@t{@s^vNxgC}^~iD~f@zaBjj@`]vv@uy@tv@y}@~}@~sCtQl|GtkAlrErhB~dDf`ChpLpmAtiEdoAz{Drl@noMneBlxE`p@|_@tv@sa@ptAdFnrAuW~uAbo@tpBjcEdbHfgDx`LbdHx}Bjl@hhAzvCjx@noI|sBflCftB`jHr_E`dVpeGjaLpgGbgNntE~pQh[|qDvqBfhDaOxfJ{n@lfTjg@jlHoi@~eLd[rsRvoAfuW~dAdpHlaCflHd`AbjC|}AxnA`e@p{Hjq@tcKfqDllHxfDnqCnjAhxAj|@wK~gAb_BzlAzmF~dB~bCpkBpjBlr@~nCpuCnpDn}ArgKrgB~{S|fBtbHd|BleP{YdzQzf@zgLvmD~fMjdBvsHjdAtyKbxAvjKbvD`o\\vhDxyWliA|bMpYnfD|qAfiCdpAfhCb}@xvDdgAb|MlbAbxHlm@`bExeAbhAzgBnnEblClvCbvB~y@buEx`BxdDrjArqEddFxeEzhDncDzmEh_Cz{IptBtaGhaClfCdkIfuHnzC~gBj~HeUlsChiAzf@dwD~p@xfE|dA`|@bUlmExbAiThaFu@h_BjJvgCutAlxE{mBz`KztFzwJndFxfKb{ArlEy`@xiH`L~bCqYnyDd`@daE`sAfvD|Vb}EpXdmHi@xtHbqBp~HkI|vCbHbpCbmAtoDrrAzoIjxEzgCjhC|qDr`BzhDpz@jrCn`CxpAhjCvbBte@hxA|~CfeAp|DllDvlIdj@x_E~Bb`S|c@pb\\xrBpvRdiBzdV~GfaLs[fjHaIbeHhiAhfJxg@~mIrvAv{Jb}AjnNcDtzB"
-  },
-  "evCharging": {
-    "stopsNeeded": 2,
-    "notes": "Schwedens Ladenetz ist hervorragend – Ionity, Mer und Tesla Supercharger entlang der E4/E6 in dichter Taktung. Zwei kurze Stopps reichen.",
-    "criticalLevel": "green"
-  },
+  "title": "Oslo in voller Pracht",
+  "subtitle": "Munch, Vigeland und das beste Eis am Fjord",
+  "locationId": "oslo",
+  "previousLocationId": null,
+  "overnightLocationId": "oslo",
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    "Ankunft in Stockholm Stadsgården gegen 07:30 Uhr — frisch von der Viking Line aus Turku, direkt neben Gamla Stan",
-    "Fahrt durch Schwedens Bilderbuchlandschaft: rote Holzhäuser, Seen, Birkenwälder",
-    "Optionaler Stopp in Jönköping am Vättern-See für Kaffee und Kanelbullar",
-    "Ankunft in Halmstad am Nachmittag – Ankommen und Durchatmen"
+    {
+      "highlightRef": "Vigeland-Skulpturenpark",
+      "note": "Morgens am besten — über 200 Skulpturen im Frognerpark, 2 Stunden einplanen"
+    },
+    {
+      "highlightRef": "MUNCH Museum",
+      "note": "Das neue Hochhaus am Fjord mit 'Der Schrei' und 28.000 weiteren Werken"
+    },
+    {
+      "highlightRef": "Aker Brygge & Tjuvholmen",
+      "note": "Mittagspause am modernen Hafenviertel"
+    },
+    {
+      "highlightRef": "Fram-Museum",
+      "note": "Auf Bygdøy — echtes Polarschiff betreten, faszinierendes Museum"
+    },
+    "OPTIONAL: Fähre zu den Inseln im Oslofjord (im ÖPNV-Ticket enthalten) — perfekte Nachmittagspause in der Natur",
+    {
+      "restaurantRef": "Lofotstua",
+      "note": "Traditionelles norwegisches Abendessen — Klippfisk und Fiskekaker"
+    },
+    {
+      "nightlifeRef": "Himkok",
+      "note": "World's 50 Best Bars — Cocktails mit norwegischen Zutaten in versteckter Destillerie"
+    }
   ]
 }

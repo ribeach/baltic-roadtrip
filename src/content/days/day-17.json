@@ -1,31 +1,42 @@
 {
   "dayNumber": 17,
   "date": "2026-05-16",
-  "title": "Heimreise nach Aalen",
-  "subtitle": "Per Fähre und Autobahn — entspannt statt erschöpft nach Hause",
-  "locationId": "aalen",
-  "previousLocationId": "halmstad",
-  "overnightLocationId": null,
-  "transitLocationIds": [
-    "rostock"
-  ],
+  "title": "Kopenhagen und Kurs auf Berlin",
+  "subtitle": "Smørrebrød am Kanal, Fähre über die Ostsee und Ankunft in der Hauptstadt",
+  "locationId": "berlin",
+  "previousLocationId": "copenhagen",
+  "overnightLocationId": "berlin",
   "driving": {
-    "distance": "750 km",
-    "duration": "7:30",
+    "distance": "510 km",
+    "duration": "6:00",
     "mode": "drive",
-    "routeDescription": "EMPFOHLEN: Nachtfähre Trelleborg→Rostock (TT-Line, ~6 Std., Abfahrt am Vorabend) — ausgeruht in Rostock ankommen und dann über die A19/A24/A7 durch Deutschland nach Aalen. KOMFORT-UPGRADE: Nachtfähre Gothenburg→Kiel (Stena Line, ~14 Std.) — in Kiel aussteigen und über die A7 nach Aalen. ALTERNATIVE: Direktfahrt über Öresundbrücke und Dänemark (1.050 km) — nur als Notfall-Plan.",
-    "encodedPolyline": "ie|xI}qnmAjtBsvGfcFyiAr{IehF`hEgsAtjEhz@loDfaB|tDsmAnoM`{Bz|DjzBr~Ejs@h~Kro@tvExyE|eIzuBtsJ`mKv|QbB~kPgpOnnEsxAhsCyuDv~Ha{IjdH_tJxlAgjHxyDk~CldKki@pwIc`A~dFhlMUbuOsbB~tFofB|iVopCpeJ_~ClnP`SnvThhAn{KmuAt}InsBppQncGvwNfnFjmGjnFzcDhlC~yG`jNx|DzfFpiCpnDj_Fx|LpyGxbZj~IxxF}jCzwDghDnoDpCpkHstBz~E~`GnjFf{Ft{DtfIrVljBxiCoj@tlHqpA|lCqfHh}E_P~iIheBxuNaxD`fD|bAhWiNro[g}En_L{pBd}]}jRzmAkp@nvBm_A|iB~LeCeL~HyFvf@sDhLmSxKg_B~TnbFqE|uBxcEiCzrAwiL{qAczJbeSoy@`aIfIvaFohFrfHgeCxeFqwFfxGclA~bH}rDvdHesDtmGjFdjHlL~uCt`GhcCp[`pFsoFp}A}dCxtC{DbaE}kBrfBikCpuEkgDptMw~D`lMb`E|qMkT|sG}|@b_EiaGvaN_|MrzN_bTxgIchL`pJ_vFrlJk{CtzB_eL`zD{rOfo@kxFr|H|m@|{LvhEvtM~eAnlDqT~gCxrC|yGdwCl_CrtK~nDfzEfyFsa@`sB{nIpvB_mF~kB`N``Fwh@rjFpuE|aJzbVtnKlaRt}DdyC~kEbdKn`GhbNfcCz_Hn}CddAffFdkGtjH`}M~_MxxMdjFdmElaIp|@nwJbcBduGfBhwPinBjiGhEvqIdeDvzIlOzeHx_HdsOzqTjeOnwKrwInX`wGpgCfiFfyGdvD~jH`zOuuAh~IorGbzGbhBbtFl}DdfD~a@voFhbDxlJblDhmE`gAvoCgjCnoD`EbrHka@z{DbGp{C~qCldAn{AhqA}fAtbAazAd`Bvl@~jDe^zwE{vBrfFlm@rzEb_CpxNzpE~dEpiDl_Et~GffC~mIhbHntAjqPtNd`Gvq@~fAb~It~CngDdhFhdAfhAll@bhAmhBrsHcb@neBd`ErhDbvBnmCoSr|B~kBdyEh{IpyCrdH`uNfqHvaNvuN`qFrrCpqDpjM~~DzaJxnBx|Clp@tgHtm@dbHepAt~Ob`AvgPhrEbhKbaCtiQmjAbmNxoAtwJIleMjnAfvMh~BlpL`sAb_D|dBgf@pxGa_DdgE`uErzF~eFbhBh{ApjCc|A|bHoPhjG|M~gDdBb_C`}Btp@jlG|c@~tEfnAs\\r_Bbc@jxAdF"
+    "routeDescription": "Vormittags Kopenhagen erkunden, dann über die E47 nach Rødby (160 km). Scandlines-Fähre nach Puttgarden (45 Min.). Weiter über die A1/E47 und A24 nach Berlin (350 km)."
   },
   "evCharging": {
-    "stopsNeeded": 3,
-    "notes": "Nach Fährankunft in Rostock bzw. Kiel: Hervorragende Schnellladeinfrastruktur in Deutschland (IONITY, EnBW, Fastned). Drei Ladestopps auf der Autobahn einplanen. Stena-Line-Fähre Gothenburg→Kiel bietet sogar EV-Laden an Bord (6 Plätze, vorab buchen!). TT-Line: kein Laden an Bord, aber die Batterie wird während der 6-stündigen Überfahrt nicht beansprucht.",
+    "stopsNeeded": 2,
+    "notes": "Erster Ladestopp vor der Fähre in Rødby. Zweiter Stopp auf der A24 in Norddeutschland. Scandlines bietet teilweise Laden an Bord.",
     "criticalLevel": "green"
   },
   "activities": [
-    "OPTION A (Trelleborg→Rostock): Ankunft Rostock morgens nach Nachtfähre — frisch und ausgeruht auf die Autobahn",
-    "OPTION B (Gothenburg→Kiel): Ankunft Kiel 09:15 — Frühstück an Bord, dann 700 km nach Aalen mit 2 Ladestopps. Ankunft ~18:00",
-    "Fahrt über die A7 durch Schleswig-Holstein, Niedersachsen, Kassel, Würzburg nach Aalen",
-    "Alternative: Direktfahrt über Öresundbrücke (~63 €) und Storebælt-Brücke (~53 €) durch Dänemark — 1.050 km, 11+ Stunden, 4 Ladestopps. Nur wenn beide Fähroptionen nicht klappen.",
-    "Ankunft in Aalen am Abend – 17 Tage, 8 Länder, unzählige Eindrücke"
+    {
+      "highlightRef": "Nyhavn",
+      "note": "Morgenspaziergang am ikonischen Hafenkanal — Fotos im besten Licht"
+    },
+    {
+      "highlightRef": "Die Kleine Meerjungfrau",
+      "note": "Kurzer Abstecher zum berühmtesten Wahrzeichen"
+    },
+    {
+      "restaurantRef": "TorvehallerneKBH",
+      "note": "Brunch in Kopenhagens bester Food Hall — unbedingt ein Smørrebrød mitnehmen"
+    },
+    "Aufbruch Richtung Rødby gegen Mittag",
+    "Scandlines-Fähre Rødby→Puttgarden (alle 30 Min., 45 Min. Überfahrt) — der kürzeste Weg nach Deutschland",
+    "Fahrt über die A1 und A24 nach Berlin",
+    "Ankunft Berlin am Abend — die letzte Stadt der Reise empfängt uns",
+    {
+      "restaurantRef": "Katz Orange",
+      "note": "Willkommen-zurück-in-Deutschland-Dinner — legendäres Slow-Roasted Duroc Pork"
+    }
   ]
 }

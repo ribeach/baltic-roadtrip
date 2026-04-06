@@ -1,0 +1,197 @@
+{
+  "id": "oslo",
+  "name": "Oslo",
+  "country": "norway",
+  "coordinates": {
+    "lat": 59.9139,
+    "lng": 10.7522
+  },
+  "description": "Oslo liegt spektakulär am Ende des Oslofjords und ist eine der am schnellsten wachsenden Hauptstädte Europas. Die Stadt kombiniert innovative moderne Architektur mit einer tiefen Verbundenheit zur Natur. Als Welthauptstadt der Elektromobilität ist Oslo das perfekte Ziel für unseren Roadtrip.",
+  "highlights": [
+    {
+      "name": "Opernhaus Oslo",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Das wie ein Gletscher aus dem Fjord ragende Gebäude ist begehbar — man kann direkt auf das Dach steigen und den Blick über die Stadt und den Fjord genießen.",
+      "duration": "1h",
+      "price": "Kostenlos (Dachbegehung)",
+      "googleMapsUrl": "https://maps.google.com/?cid=2069025550397265425",
+      "placeId": "ChIJFfcho4tuQUYREdaiosanthw",
+      "coordinates": {
+        "lat": 59.9074885,
+        "lng": 10.7531275
+      },
+      "rating": 4.7,
+      "userRatingCount": 29796
+    },
+    {
+      "name": "Vigeland-Skulpturenpark",
+      "type": "activity",
+      "icon": "star",
+      "description": "Teil des Frognerparks und das Lebenswerk von Gustav Vigeland. Über 200 Skulpturen aus Bronze, Granit und Schmiedeeisen zeigen den Kreislauf des Lebens.",
+      "duration": "2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=604600159167694742",
+      "placeId": "ChIJsV__us5tQUYRlsdVNqT4Ywg",
+      "coordinates": {
+        "lat": 59.927029,
+        "lng": 10.700865
+      },
+      "rating": 4.7,
+      "userRatingCount": 23766
+    },
+    {
+      "name": "MUNCH Museum",
+      "type": "museum",
+      "icon": "star",
+      "description": "Das neue, spektakuläre Hochhaus am Fjord beherbergt die weltweit größte Sammlung von Edvard Munch, einschließlich mehrerer Versionen von 'Der Schrei'.",
+      "duration": "2.5h",
+      "price": "ca. €14",
+      "googleMapsUrl": "https://maps.google.com/?cid=7295538454545109531",
+      "placeId": "ChIJJ0uE7VtuQUYRGxJdLJL1PmU",
+      "coordinates": {
+        "lat": 59.9059037,
+        "lng": 10.7552605
+      },
+      "rating": 4.5,
+      "userRatingCount": 16758
+    },
+    {
+      "name": "Aker Brygge & Tjuvholmen",
+      "type": "activity",
+      "icon": "info",
+      "description": "Das moderne Hafenviertel mit vielen Restaurants, Shops und Galerien. Perfekt für einen Spaziergang am Wasser und zum Beobachten der Boote.",
+      "duration": "1.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=16613777880747755125",
+      "placeId": "ChIJ-eTqvIFuQUYRdUY2f_X-j-Y",
+      "coordinates": {
+        "lat": 59.9099584,
+        "lng": 10.7258052
+      }
+    },
+    {
+      "name": "Fram-Museum",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Auf der Halbinsel Bygdøy gelegen, erzählt dieses Museum die Geschichte der norwegischen Polarforschung. Man kann das originale Expeditionsschiff 'Fram' betreten.",
+      "duration": "1.5h",
+      "price": "ca. €12",
+      "googleMapsUrl": "https://maps.google.com/?cid=9258008913807057786",
+      "placeId": "ChIJMcBwszpsQUYReqPeWg4Oe4A",
+      "coordinates": {
+        "lat": 59.9033813,
+        "lng": 10.699729
+      },
+      "rating": 4.7,
+      "userRatingCount": 14639
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Mathallen Oslo",
+      "cuisine": "International / Food Hall",
+      "priceRange": "€-€€€",
+      "description": "Eine große Markthalle im Trendviertel Vulkan mit über 30 Ständen, die von norwegischen Spezialitäten bis zu internationalem Streetfood alles bieten.",
+      "mustTry": "Norwegischer Brunost (Braunkäse) oder frische Meeresfrüchte",
+      "googleMapsUrl": "https://maps.google.com/?cid=11936280659795236291",
+      "placeId": "ChIJLSeTf2VuQUYRw9V12gQwpqU",
+      "coordinates": {
+        "lat": 59.9222297,
+        "lng": 10.7520516
+      },
+      "rating": 4.5,
+      "userRatingCount": 9767
+    },
+    {
+      "name": "Lofotstua",
+      "cuisine": "Traditionell Norwegisch",
+      "priceRange": "€€€",
+      "description": "Ein uriges, traditionsreiches Restaurant, das sich auf Fischgerichte spezialisiert hat — besonders solche aus Nordnorwegen und den Lofoten.",
+      "mustTry": "Klippfisk (Stockfisch) oder Fiskekaker (Fischfrikadellen)",
+      "googleMapsUrl": "https://maps.google.com/?cid=17737156253067588158",
+      "placeId": "ChIJpVDZo9ptQUYRPjKx_aIJJ_Y",
+      "coordinates": {
+        "lat": 59.9272311,
+        "lng": 10.7123099
+      },
+      "rating": 4.7,
+      "userRatingCount": 221
+    },
+    {
+      "name": "Vippa",
+      "cuisine": "Sustainable Street Food",
+      "priceRange": "€€",
+      "description": "Direkt am Fjord gelegene Streetfood-Halle mit Fokus auf Nachhaltigkeit und soziale Integration. Tolle Atmosphäre direkt am Wasser.",
+      "mustTry": "Wechselnde Stände, oft exzellenter Fisch-Taco",
+      "googleMapsUrl": "https://maps.google.com/?cid=10979037103294494553",
+      "placeId": "ChIJG7VUzI9uQUYRWbezdRNgXZg",
+      "coordinates": {
+        "lat": 59.9019096,
+        "lng": 10.7413824
+      },
+      "rating": 4.3,
+      "userRatingCount": 3601
+    }
+  ],
+  "hotels": [
+    {
+      "name": "The Thief",
+      "type": "Design-Luxus",
+      "priceRange": "250-400€",
+      "evCharging": true,
+      "description": "Eines der spektakulärsten Designhotels Europas, direkt auf der Kunstinsel Tjuvholmen. Erstklassige Parkmöglichkeiten mit EV-Ladestationen.",
+      "googleMapsUrl": "https://maps.google.com/?cid=4559106215919493802",
+      "placeId": "ChIJGTp_5ylsQUYRqiIovfIyRT8",
+      "coordinates": {
+        "lat": 59.90764,
+        "lng": 10.7210813
+      },
+      "rating": 4.4,
+      "userRatingCount": 1812
+    },
+    {
+      "name": "Clarion Hotel The Hub",
+      "type": "Business-Lifestyle",
+      "priceRange": "150-220€",
+      "evCharging": true,
+      "description": "Zentral gelegenes, modernes Großhotel mit Dachgarten und exzellentem Frühstück. Große Tiefgarage mit vielen Ladepunkten.",
+      "googleMapsUrl": "https://maps.google.com/?cid=5119810349067443765",
+      "placeId": "ChIJu4ANBWJuQUYRNZ6I9WI4DUc",
+      "coordinates": {
+        "lat": 59.9125358,
+        "lng": 10.7500239
+      },
+      "rating": 4.4,
+      "userRatingCount": 4188
+    }
+  ],
+  "tips": [
+    {
+      "type": "info",
+      "text": "In Oslo sind E-Autos privilegiert: reduzierte Mautgebühren, teils Busspur-Nutzung und oft günstigeres Parken in öffentlichen Parkhäusern."
+    },
+    {
+      "type": "warnung",
+      "text": "Parken in Oslo ist extrem teuer und streng reglementiert. Parkhäuser mit Lademöglichkeit nutzen (z. B. Aker Brygge P-hus)."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Die Fähre vom Rathausplatz zu den Inseln im Oslofjord ist im ÖPNV-Ticket enthalten — perfekt für eine kurze Auszeit in der Natur, direkt ab Stadtzentrum."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Himkok",
+      "description": "Eine der besten Bars der Welt (World's 50 Best Bars). Versteckter Eingang, eigene Destillerie und fantastische Cocktails mit norwegischen Zutaten.",
+      "googleMapsUrl": "https://maps.google.com/?cid=6679656177791996322",
+      "placeId": "ChIJUyV7KGJuQUYRohEJQ-fnslw",
+      "coordinates": {
+        "lat": 59.914292,
+        "lng": 10.7515299
+      },
+      "rating": 4.6,
+      "userRatingCount": 3163
+    }
+  ]
+}

@@ -14,7 +14,7 @@ const days = allDays.sort((a, b) => a.data.dayNumber - b.data.dayNumber);
 const findLoc = (refVal: string) => allLocations.find(l => l.id === refVal || l.data.id === refVal);
 const findCountry = (id: string) => allCountries.find(c => c.data.id === id);
 
-const countryOrder = ['germany', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden'];
+const countryOrder = ['germany', 'czech-republic', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden', 'norway', 'denmark'];
 const locationsByCountry = countryOrder
   .map(cid => {
     const country = findCountry(cid);

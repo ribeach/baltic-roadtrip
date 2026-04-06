@@ -1,0 +1,197 @@
+{
+  "id": "warsaw",
+  "name": "Warschau",
+  "country": "poland",
+  "coordinates": {
+    "lat": 52.2297,
+    "lng": 21.0122
+  },
+  "description": "Warschau ist eine Stadt der Kontraste — eine perfekt rekonstruierte Altstadt trifft auf sowjetische Monumentalarchitektur und moderne Wolkenkratzer. Die polnische Hauptstadt ist dynamisch, geschichtsbewusst und bietet eine Gastronomieszene, die zu den spannendsten Europas gehört.",
+  "highlights": [
+    {
+      "name": "Warschauer Altstadt (Stare Miasto)",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Das nach dem Zweiten Weltkrieg originalgetreu wiederaufgebaute Viertel gehört zum UNESCO-Welterbe. Das Herzstück ist der Marktplatz mit der Warschauer Seejungfer.",
+      "duration": "2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=5823985922147183951",
+      "placeId": "ChIJ3Xb5SW_MHkcRT2114lb00lA",
+      "coordinates": {
+        "lat": 52.2477331,
+        "lng": 21.0136079
+      }
+    },
+    {
+      "name": "Kultur- und Wissenschaftspalast",
+      "type": "soviet",
+      "icon": "star",
+      "description": "Das markanteste Wahrzeichen der Stadt im 'Zuckerbäckerstil' der Stalin-Ära. Die Aussichtsplattform im 30. Stock bietet den besten Panoramablick über Warschau.",
+      "duration": "1.5h",
+      "price": "ca. €6",
+      "googleMapsUrl": "https://maps.google.com/?cid=14044892037721828802",
+      "placeId": "ChIJSS5pkozMHkcRwi0fMeV66cI",
+      "coordinates": {
+        "lat": 52.231838,
+        "lng": 21.005995
+      },
+      "rating": 4.6,
+      "userRatingCount": 83982
+    },
+    {
+      "name": "Łazienki-Park",
+      "type": "activity",
+      "icon": "gem",
+      "description": "Eine riesige Parkanlage mit dem 'Palast auf dem Wasser', Pfauen und Eichhörnchen. Im Sommer finden hier sonntags kostenlose Chopin-Konzerte statt.",
+      "duration": "2-3h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=10112470542589209201",
+      "placeId": "ChIJ435ebh7NHkcRcaqhXGG2Vow",
+      "coordinates": {
+        "lat": 52.2146733,
+        "lng": 21.0328941
+      },
+      "rating": 4.8,
+      "userRatingCount": 94693
+    },
+    {
+      "name": "Museum des Warschauer Aufstands",
+      "type": "museum",
+      "icon": "star",
+      "description": "Eines der besten Museen Polens. Es dokumentiert multimedial und bewegend den heldenhaften Kampf der Warschauer gegen die deutsche Besatzung 1944.",
+      "duration": "2.5h",
+      "price": "ca. €7",
+      "googleMapsUrl": "https://maps.google.com/?cid=12215511195580548645",
+      "placeId": "ChIJiaL1OYPMHkcRJcZiOrY2hqk",
+      "coordinates": {
+        "lat": 52.2323936,
+        "lng": 20.9810185
+      },
+      "rating": 4.7,
+      "userRatingCount": 38518
+    },
+    {
+      "name": "Weichsel-Boulevards",
+      "type": "activity",
+      "icon": "info",
+      "description": "Moderne Uferpromenade mit Pavillons, Bars und Stränden. Der perfekte Ort für einen Spaziergang zum Sonnenuntergang oder einen Drink am Fluss.",
+      "duration": "1.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=12018462889704034281",
+      "placeId": "ChIJb-8a6lzMHkcR6Q8GV1IoyqY",
+      "coordinates": {
+        "lat": 52.2446933,
+        "lng": 21.0252986
+      },
+      "rating": 4.7,
+      "userRatingCount": 13815
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Stary Dom",
+      "cuisine": "Traditionell Polnisch",
+      "priceRange": "€€-€€€",
+      "description": "Authentische polnische Gastfreundschaft in edlem, rustikalem Ambiente. Berühmt für sein frisch am Tisch zubereitetes Tatar.",
+      "mustTry": "Tatar vom Rind oder Entenbraten mit Äpfeln",
+      "googleMapsUrl": "https://maps.google.com/?cid=3899354989294812657",
+      "placeId": "ChIJZ6Mm9CvNHkcR8X0Q_rNKHTY",
+      "coordinates": {
+        "lat": 52.1955548,
+        "lng": 21.0238317
+      },
+      "rating": 4.7,
+      "userRatingCount": 10933
+    },
+    {
+      "name": "Hala Koszyki",
+      "cuisine": "International / Food Hall",
+      "priceRange": "€-€€€",
+      "description": "Restaurierte historische Markthalle, die heute Dutzende kleine Restaurants und Bars beherbergt. Perfekt für Gruppen mit unterschiedlichem Geschmack.",
+      "mustTry": "Vielseitiges Streetfood aus aller Welt",
+      "googleMapsUrl": "https://maps.google.com/?cid=13281490151990967824",
+      "placeId": "ChIJvc79RILNHkcRED5FxexUUbg",
+      "coordinates": {
+        "lat": 52.2223037,
+        "lng": 21.0110216
+      },
+      "rating": 4.6,
+      "userRatingCount": 24208
+    },
+    {
+      "name": "Gościniec Polskie Pierogi",
+      "cuisine": "Polnisch (Pierogi)",
+      "priceRange": "€",
+      "description": "Unkompliziertes Restaurant in der Altstadt, das auf die berühmten polnischen Teigtaschen spezialisiert ist. Handgemacht und ehrlich.",
+      "mustTry": "Pierogi Ruskie (mit Kartoffeln und Käse) oder süße Varianten",
+      "googleMapsUrl": "https://maps.google.com/?cid=14469398017469049122",
+      "placeId": "ChIJM2YI3mbMHkcRIun7sNWgzcg",
+      "coordinates": {
+        "lat": 52.2439939,
+        "lng": 21.013985
+      },
+      "rating": 4.7,
+      "userRatingCount": 21948
+    }
+  ],
+  "hotels": [
+    {
+      "name": "PURO Warszawa Centrum",
+      "type": "Boutique-Hotel",
+      "priceRange": "100-140€",
+      "evCharging": true,
+      "description": "Junges, modernes Design-Hotel mit viel Technik und einer fantastischen Dachbar. Tiefgarage mit E-Ladestationen vorhanden.",
+      "googleMapsUrl": "https://maps.google.com/?cid=14477146270281507675",
+      "placeId": "ChIJsQnuLujNHkcRWyOAYdQn6cg",
+      "coordinates": {
+        "lat": 52.2311647,
+        "lng": 21.0148731
+      },
+      "rating": 4.7,
+      "userRatingCount": 1829
+    },
+    {
+      "name": "Hotel Verte (Autograph Collection)",
+      "type": "Luxus-Boutique",
+      "priceRange": "180-250€",
+      "evCharging": true,
+      "description": "Ein prachtvolles Palais in der Nähe der Altstadt, das in ein modernes Luxushotel umgewandelt wurde. Erstklassiger Service und EV-Charging.",
+      "googleMapsUrl": "https://maps.google.com/?cid=3361199593662192567",
+      "placeId": "ChIJb16k0BTNHkcRtxts1zhhpS4",
+      "coordinates": {
+        "lat": 52.2468171,
+        "lng": 21.0114046
+      },
+      "rating": 4.7,
+      "userRatingCount": 703
+    }
+  ],
+  "tips": [
+    {
+      "type": "info",
+      "text": "E-Autos parken in öffentlichen gebührenpflichtigen Zonen in polnischen Städten oft kostenlos. Achten Sie auf lokale Beschilderung oder nutzen Sie Apps wie SkyCash."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Der Stadtteil Praga auf der östlichen Weichselseite ist das alternative Warschau — Ząbkowska-Straße mit Künstlerateliers und urigen Bars, dazu tolle Street Art."
+    },
+    {
+      "type": "info",
+      "text": "Die Warschauer Metro fährt auf zwei Linien und ist super effizient. Für den Tag lohnt sich eine 24h-Karte (~4 €)."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Level 27",
+      "description": "Exklusiver Club im 27. Stock mit einer riesigen Dachterrasse und spektakulärem Blick über die beleuchtete Skyline von Warschau.",
+      "googleMapsUrl": "https://maps.google.com/?cid=8869316231710480868",
+      "placeId": "ChIJnSSkLpHMHkcR5Jm1_x4kFns",
+      "coordinates": {
+        "lat": 52.2248373,
+        "lng": 20.9912719
+      },
+      "rating": 4.0,
+      "userRatingCount": 3640
+    }
+  ]
+}

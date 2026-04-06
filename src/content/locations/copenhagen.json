@@ -1,0 +1,136 @@
+{
+  "id": "copenhagen",
+  "name": "Kopenhagen",
+  "country": "denmark",
+  "coordinates": {
+    "lat": 55.6761,
+    "lng": 12.5683
+  },
+  "description": "Kopenhagen ist die Stadt der Fahrräder, des Designs und der 'Hygge'. Zwischen den bunten Häusern von Nyhavn und der modernen Architektur im Hafen erleben wir eine Stadt, die Lebensqualität und Nachhaltigkeit perfekt vereint — auch wenn wir nur für ein paar Stunden bleiben.",
+  "highlights": [
+    {
+      "name": "Nyhavn",
+      "type": "activity",
+      "icon": "star",
+      "description": "Der ikonische Hafenkanal mit seinen bunten Giebelhäusern aus dem 17. und 18. Jahrhundert. Früher ein geschäftiger Handelshafen, heute das Postkartenmotiv der Stadt.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=11079593994486147819",
+      "placeId": "ChIJr21nqiJTUkYR6-rlKAmgwpk",
+      "coordinates": {
+        "lat": 55.679776,
+        "lng": 12.5913041
+      },
+      "rating": 4.7,
+      "userRatingCount": 8075
+    },
+    {
+      "name": "Die Kleine Meerjungfrau",
+      "type": "monument",
+      "icon": "info",
+      "description": "Das wohl berühmteste Wahrzeichen Kopenhagens. Die Bronzestatue basiert auf dem Märchen von Hans Christian Andersen und blickt sehnsüchtig aufs Meer.",
+      "duration": "0.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=16116289650480717372",
+      "placeId": "ChIJAyFCjeuQTEYRPB41ogyQqN8",
+      "coordinates": {
+        "lat": 55.692860,
+        "lng": 12.5992828
+      },
+      "rating": 4.1,
+      "userRatingCount": 36089
+    },
+    {
+      "name": "Tivoli Gärten",
+      "type": "activity",
+      "icon": "star",
+      "description": "Einer der ältesten Freizeitparks der Welt mit einer zauberhaften Mischung aus historischen Fahrgeschäften, Konzerten und wunderschönen Gartenanlagen.",
+      "duration": "2-3h",
+      "price": "ca. €20 (Eintritt)",
+      "googleMapsUrl": "https://maps.google.com/?cid=15687457030514878384",
+      "placeId": "ChIJ8-r2gBJTUkYRsCcLtQ0Ltdk",
+      "coordinates": {
+        "lat": 55.6736841,
+        "lng": 12.5681471
+      },
+      "rating": 4.5,
+      "userRatingCount": 90092
+    },
+    {
+      "name": "Schloss Amalienborg",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Die Stadtresidenz der dänischen Königin. Die vier identischen Rokoko-Paläste umschließen einen achteckigen Platz. Täglich um 12:00 Uhr findet der Wachwechsel statt.",
+      "duration": "1h",
+      "price": "Kostenlos (Platzbesichtigung)",
+      "googleMapsUrl": "https://maps.google.com/?cid=6697274495928194367",
+      "placeId": "ChIJcwY-NiJTUkYRP1UVnat_8Vw",
+      "coordinates": {
+        "lat": 55.6840588,
+        "lng": 12.5930201
+      },
+      "rating": 4.5,
+      "userRatingCount": 31297
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "TorvehallerneKBH",
+      "cuisine": "Food Market / International",
+      "priceRange": "€-€€€",
+      "description": "Zwei moderne Glashallen mit über 60 Ständen. Von frischem Fisch über dänische Smørrebrød bis hin zu internationalem Streetfood findet man hier alles.",
+      "mustTry": "Ein klassisches dänisches Smørrebrød (reich belegtes Roggenbrot)",
+      "googleMapsUrl": "https://maps.google.com/?cid=8319535972432306747",
+      "placeId": "ChIJGzGFEgVTUkYRO2LpXOPtdHM",
+      "coordinates": {
+        "lat": 55.6837848,
+        "lng": 12.568928
+      },
+      "rating": 4.5,
+      "userRatingCount": 16058
+    },
+    {
+      "name": "Reffen - Street Food",
+      "cuisine": "Global Street Food",
+      "priceRange": "€€",
+      "description": "Ein riesiger Streetfood-Markt in einem alten Industriehafen. Essen aus aller Welt, entspannte Atmosphäre und tolle Ausblicke auf den Hafen.",
+      "mustTry": "Probiere etwas Exotisches an einem der vielen Container-Stände",
+      "googleMapsUrl": "https://maps.google.com/?cid=15917900653273586336",
+      "placeId": "ChIJJ9EDaddSUkYRoJpUuE6-59w",
+      "coordinates": {
+        "lat": 55.6936333,
+        "lng": 12.6082318
+      },
+      "rating": 4.6,
+      "userRatingCount": 12219
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Hotel Copenhagen Island",
+      "type": "Design-Hotel",
+      "priceRange": "140-190€",
+      "evCharging": true,
+      "description": "Modernes Hotel auf einer künstlichen Insel im Hafen. Ideal für Autofahrer, da es leicht erreichbar ist und über Parkmöglichkeiten mit Ladestationen verfügt.",
+      "googleMapsUrl": "https://maps.google.com/?cid=15596141287000973975",
+      "placeId": "ChIJ6a8NKm5TUkYRlyJ_Xt6fcNg",
+      "coordinates": {
+        "lat": 55.6634043,
+        "lng": 12.5635073
+      },
+      "rating": 4.3,
+      "userRatingCount": 3054
+    }
+  ],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Kopenhagen ist für einen Kurzbesuch per Auto gut erreichbar. Über die Øresundbrücke aus Schweden kommend zahlt man ~63 € Maut (online günstiger). Parken im Zentrum ist teuer."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Am Nyhavn gibt es auf der sonnigen Seite (gerade Hausnummern) die Cafés — auf der schattigen Seite ist weniger los und man kann sich mit einem Bier an den Kanal setzen."
+    }
+  ],
+  "nightlife": []
+}

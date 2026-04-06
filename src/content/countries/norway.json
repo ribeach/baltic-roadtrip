@@ -1,0 +1,30 @@
+{
+  "id": "norway",
+  "name": "Norwegen",
+  "flag": "🇳🇴",
+  "currency": {
+    "code": "NOK",
+    "name": "Norwegische Krone",
+    "cashNeeded": false,
+    "tip": "Kein EU-Land, aber Kartenzahlung ist Standard — selbst am Würstchenstand. 1 € ≈ 11,5 NOK. Norwegen ist teuer: Restaurantpreise ca. 50–70 % über deutschem Niveau."
+  },
+  "evCharging": {
+    "quality": "hervorragend",
+    "medianDcPrice": "0,40–0,60 €/kWh",
+    "recommendedApps": ["Mer (ehem. Grønn Kontakt)", "Circle K", "Recharge", "Tesla Supercharger"],
+    "notes": "Norwegen ist Weltmeister bei E-Autos — über 80 % aller Neuwagen sind elektrisch. Dichtes Schnellladenetz im ganzen Land. Entlang der E18/E6 alle 30–50 km Ladestationen."
+  },
+  "driving": {
+    "speedLimits": { "urban": 50, "rural": 80, "motorway": 110 },
+    "tolls": "AutoPASS-Mautstationen automatisch per Kennzeichenerkennung. Nachträgliche Rechnung per Post. Stadtmaut Oslo ~5–7 € pro Durchfahrt (E-Autos stark ermäßigt).",
+    "specialRules": "Abblendlicht 24/7 Pflicht. 0,2 ‰ Promillegrenze. Tempolimits strikt — Radarfallen überall, Bußgelder extrem hoch (ab 750 €). Kein EU/EWR-Führerscheinumtausch nötig."
+  },
+  "culinary": {
+    "mustTry": [
+      "Fiskekaker (Fischfrikadellen)",
+      "Brunost (Braunkäse)",
+      "Smørbrød (belegtes Brot)"
+    ],
+    "description": "Norwegens Küche wird von der New-Nordic-Bewegung geprägt: frische Meeresfrüchte, Wildgerichte und Foraging stehen im Mittelpunkt. Oslo hat sich zur kulinarischen Hauptstadt Skandinaviens entwickelt. Für den schnellen Hunger unterwegs: Pølse (Hot Dog) an jeder Tankstelle."
+  }
+}

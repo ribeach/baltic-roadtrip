@@ -58,11 +58,11 @@ export const GET: APIRoute = async () => {
   const payload = {
     meta: {
       title: 'Baltic Roadtrip 2026',
-      dates: '30. April – 16. Mai 2026',
-      days: 17,
-      countries: 8,
+      dates: '30. April – 17. Mai 2026',
+      days: 18,
+      countries: 10,
       vehicle: 'VW ID.4 (77 kWh)',
-      totalDistance: '~4.500 km',
+      totalDistance: '~5.500 km',
       url: 'https://ribeach.github.io/baltic-roadtrip/',
       llmsTxt: 'https://ribeach.github.io/baltic-roadtrip/llms.txt',
     },
