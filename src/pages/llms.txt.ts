@@ -87,7 +87,13 @@ export const GET: APIRoute = async () => {
     if (d.evCharging) {
       ln(`EV-Laden: ${d.evCharging.notes}`);
     }
-    ln(`Aktivitäten: ${d.activities.map((a) => typeof a === 'string' ? a : a.highlightRef).join(' | ')}`);
+    ln(`Aktivitäten: ${d.activities.map((a) => {
+      if (typeof a === 'string') return a;
+      if ('highlightRef' in a) return a.highlightRef;
+      if ('restaurantRef' in a) return a.restaurantRef;
+      if ('nightlifeRef' in a) return a.nightlifeRef;
+      return '';
+    }).filter(Boolean).join(' | ')}`);
 
     if (locData && isFirstVisit) {
       if (locData.highlights.length > 0) {
