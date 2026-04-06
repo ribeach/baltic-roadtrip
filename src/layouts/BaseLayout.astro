@@ -13,6 +13,7 @@ const { title, description = 'Roadtrip durch das Baltikum — 17 Tage, 8 Länder
 const base = getBase();
 const fullTitle = `${title} | Baltikum Roadtrip 2026`;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL(`${base}images/og-cover.png`, Astro.site);
 ---
 
 <!doctype html>
@@ -29,6 +30,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:locale" content="de_DE" />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Baltikum Roadtrip 2026 — 17 Tage, 8 Länder, 1 Elektroauto" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="dns-prefetch" href="https://maps.googleapis.com" />
