@@ -1,0 +1,14 @@
+{
+  "id": "rostock",
+  "name": "Rostock",
+  "country": "germany",
+  "coordinates": {
+    "lat": 54.0924,
+    "lng": 12.0991
+  },
+  "description": "Ankunft per TT-Line-Nachtfähre aus Trelleborg. Weiterfahrt über die A19/A24/A7 Richtung Süden nach Aalen.",
+  "highlights": [],
+  "restaurants": [],
+  "hotels": [],
+  "tips": []
+}

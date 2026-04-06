@@ -7,6 +7,7 @@
   "previousLocationId": "tallinn",
   "overnightLocationId": null,
   "additionalLocationIds": ["helsinki"],
+  "transitLocationIds": ["helsinki"],
   "driving": {
     "distance": "170 km",
     "duration": "2:00",
@@ -15,7 +16,7 @@
   },
   "evCharging": {
     "stopsNeeded": 0,
-    "notes": "Helsinki→Turku (170 km) ohne Ladestopp machbar. Hervorragendes Netz entlang der E18 (Fortum, K-Lataus). Vor Boarding in Turku voll laden! Viking Line bietet evtl. Laden an Bord (vorab buchen).",
+    "notes": "Helsinki→Turku (170 km) ohne Ladestopp machbar. Hervorragendes Netz entlang der E18 (Recharge, K-Lataus). Vor Boarding in Turku voll laden! Viking Line bietet evtl. Laden an Bord (vorab buchen).",
     "criticalLevel": "green"
   },
   "activities": [
@@ -23,6 +24,7 @@
     { "highlightRef": "Marktplatz & Alte Markthalle (Vanha Kauppahalli)", "note": "Ankunft Helsinki ~09:30 — Lachssuppe zum zweiten Frühstück" },
     { "highlightRef": "Felsenkirche Temppeliaukio", "note": "In den Fels gesprengte Kirche — einzigartig, 30 Min. reichen" },
     { "highlightRef": "Dom von Helsinki", "note": "Kurzer Fotostopp am Senatsplatz" },
+    "PACING-TIPP: Helsinki und Turku an einem Tag ist sportlich — bei Zeitdruck Helsinki auf Markthalle + Felsenkirche beschränken",
     "Fahrt Helsinki→Turku über die E18 (170 km, ~2 Std.) — Bilderbuch-Finnland mit Seen und Birkenwäldern",
     { "highlightRef": "Burg von Turku", "note": "Finnlands älteste Burg aus dem 13. Jh. — unbedingt 1,5–2 Stunden einplanen" },
     { "highlightRef": "Dom von Turku", "note": "Finnlands bedeutendste mittelalterliche Kirche, 10 Min. Fußweg von der Burg" },
