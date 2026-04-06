@@ -53,6 +53,54 @@
         "lat": 53.8027021,
         "lng": 21.5706044
       }
+    },
+    {
+      "name": "Große Masurische Seen — Bootsfahrt",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Żegluga Mazurska bietet Ausflugsfahrten ab Giżycko und Mikołajki über die verbundenen Seen — der Śniardwy ist Polens größter See. Die Fahrt durch Kanäle und Schleusen zeigt Masuren von seiner schönsten Seite.",
+      "duration": "2–4 Std.",
+      "price": "PLN 40–80 (~€10–20)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C5%BBegluga%20Mazurska%20Sp.%20z%20o.o.%20Siedziba%20G%C5%82%C3%B3wna&query_place_id=ChIJ25cK3OGH4UYRdMDzUG_rKXM",
+      "placeId": "ChIJ25cK3OGH4UYRdMDzUG_rKXM",
+      "coordinates": {
+        "lat": 54.0374847,
+        "lng": 21.7552961
+      },
+      "rating": 4.7,
+      "userRatingCount": 11
+    },
+    {
+      "name": "Basilika Święta Lipka",
+      "type": "church",
+      "icon": "gem",
+      "description": "Eine der schönsten Barockkirchen Nordeuropas, 30 km westlich von Ryn. Die berühmte Orgel hat bewegliche Figuren — Engel und Heilige bewegen sich während der Konzerte. Ein akustisches und visuelles Erlebnis.",
+      "duration": "45 Min.–1 Std.",
+      "price": "Kostenlos (Konzert ~PLN 15)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C5%9Awi%C4%99ta%20Lipka%20Bazylika&query_place_id=ChIJM92IksI-4kYRtzd4onwhaOA",
+      "placeId": "ChIJM92IksI-4kYRtzd4onwhaOA",
+      "coordinates": {
+        "lat": 54.0246925,
+        "lng": 21.2183343
+      },
+      "rating": 4.8,
+      "userRatingCount": 5044
+    },
+    {
+      "name": "Masurische Kanalschleusen (Kanał Mazurski)",
+      "type": "monument",
+      "icon": "info",
+      "description": "Unvollendetes Nazi-Ingenieursprojekt — massive Betonschleusen mitten im Wald, die nie fertiggestellt wurden. Die gespenstischen Ruinen mit 17-Meter-Gefälle sind ein faszinierendes Industriedenkmal.",
+      "duration": "1–1,5 Std.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lower%20lock%20Le%C5%9Bniewo%20-%20monument&query_place_id=ChIJ8ViTxnst4kYRqTu8acTCCbI",
+      "placeId": "ChIJ8ViTxnst4kYRqTu8acTCCbI",
+      "coordinates": {
+        "lat": 54.2084526,
+        "lng": 21.5935897
+      },
+      "rating": 4.6,
+      "userRatingCount": 1925
     }
   ],
   "restaurants": [
@@ -97,6 +145,10 @@
     {
       "type": "geheimtipp",
       "text": "Die Wolfsschanze liegt ca. 40 km nördlich von Ryn bei Kętrzyn. Ein lohnender Vormittagsausflug, bevor es weiter nach Vilnius geht."
+    },
+    {
+      "type": "warnung",
+      "text": "Polen hat an der Grenze zu Litauen vorübergehend Grenzkontrollen eingeführt (voraussichtlich bis Oktober 2026). Reisepass oder Personalausweis griffbereit halten — Wartezeiten von 15–30 Minuten möglich, besonders am Grenzübergang Budzisko an der Via Baltica."
     }
   ],
   "nightlife": []

@@ -69,6 +69,22 @@
       },
       "rating": 4.8,
       "userRatingCount": 5670
+    },
+    {
+      "name": "Palmse Gutshof (Palmse mõis)",
+      "type": "architecture",
+      "icon": "gem",
+      "description": "Das prächtigste Barockgut Estlands — liebevoll restauriert mit Originaleinrichtung, Französischem Garten und ehemaliger Destillerie. Hier befindet sich auch das Besucherzentrum des Lahemaa-Nationalparks.",
+      "duration": "1–2 Std.",
+      "price": "~€8",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Palmse%20Manor%20and%20Open-air%20Museum&query_place_id=ChIJQRe172mok0YRiSNSOyppN6k",
+      "placeId": "ChIJQRe172mok0YRiSNSOyppN6k",
+      "coordinates": {
+        "lat": 59.51274720000001,
+        "lng": 25.9563113
+      },
+      "rating": 4.6,
+      "userRatingCount": 1659
     }
   ],
   "restaurants": [],

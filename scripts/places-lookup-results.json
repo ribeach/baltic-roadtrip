@@ -1,0 +1,254 @@
+{
+  "stockholm/vasa-museum": {
+    "placeId": "ChIJrymDbVSdX0YRQTLBtPGa8M8",
+    "displayName": "Vasa Museum",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vasa%20Museum&query_place_id=ChIJrymDbVSdX0YRQTLBtPGa8M8",
+    "coordinates": {
+      "lat": 59.3280233,
+      "lng": 18.0913964
+    }
+  },
+  "stockholm/gamla-stan": {
+    "placeId": "ChIJK_mfZuJ3X0YREYsWNfT-ACY",
+    "displayName": "Gamla stan",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gamla%20stan&query_place_id=ChIJK_mfZuJ3X0YREYsWNfT-ACY",
+    "coordinates": {
+      "lat": 59.3256954,
+      "lng": 18.0718675
+    }
+  },
+  "stockholm/fotografiska": {
+    "placeId": "ChIJhaN0M_l3X0YRpOq8uRb_RcA",
+    "displayName": "Fotografiska Museum Stockholm",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fotografiska%20Museum%20Stockholm&query_place_id=ChIJhaN0M_l3X0YRpOq8uRb_RcA",
+    "coordinates": {
+      "lat": 59.31796189999999,
+      "lng": 18.0848268
+    }
+  },
+  "stockholm/rosendals": {
+    "placeId": "ChIJPT1T4K6CX0YROHhBJau4FpI",
+    "displayName": "Rosendals Trädgård",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rosendals%20Tr%C3%A4dg%C3%A5rd&query_place_id=ChIJPT1T4K6CX0YROHhBJau4FpI",
+    "coordinates": {
+      "lat": 59.3274562,
+      "lng": 18.1148482
+    }
+  },
+  "stockholm/nobelmuseum": {
+    "placeId": "ChIJdXEWYuJ3X0YRbNDHjPig9V4",
+    "displayName": "Nobel Prize Museum",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nobel%20Prize%20Museum&query_place_id=ChIJdXEWYuJ3X0YRbNDHjPig9V4",
+    "coordinates": {
+      "lat": 59.3253103,
+      "lng": 18.0706657
+    }
+  },
+  "stockholm/pelikan": {
+    "placeId": "ChIJrSV1Pfd3X0YRxwhoxSQ-Cug",
+    "displayName": "Restaurant Pelikan",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Pelikan&query_place_id=ChIJrSV1Pfd3X0YRxwhoxSQ-Cug",
+    "coordinates": {
+      "lat": 59.3105951,
+      "lng": 18.076245699999998
+    }
+  },
+  "berlin/ddr-museum": {
+    "placeId": "ChIJVzpGU95RqEcRZJgnyr-ZDC0",
+    "displayName": "DDR Museum",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=DDR%20Museum&query_place_id=ChIJVzpGU95RqEcRZJgnyr-ZDC0",
+    "coordinates": {
+      "lat": 52.5192243,
+      "lng": 13.402636999999999
+    }
+  },
+  "berlin/topographie": {
+    "placeId": "ChIJx3iXOMxRqEcRSGbJBczVSzc",
+    "displayName": "Topography of Terror",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Topography%20of%20Terror&query_place_id=ChIJx3iXOMxRqEcRSGbJBczVSzc",
+    "coordinates": {
+      "lat": 52.506747,
+      "lng": 13.3837099
+    }
+  },
+  "gdansk/oliwa-cathedral": {
+    "placeId": "ChIJ7aBt2DR1_UYRueErmGT0TkI",
+    "displayName": "Archikatedra Oliwska",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Archikatedra%20Oliwska&query_place_id=ChIJ7aBt2DR1_UYRueErmGT0TkI",
+    "coordinates": {
+      "lat": 54.410978899999996,
+      "lng": 18.558015599999997
+    }
+  },
+  "gdansk/amber-museum": {
+    "placeId": "ChIJjVSrXp5z_UYRZjBYZZ9nbe0",
+    "displayName": "Muzeum Bursztynu. Oddział Muzeum Gdańska",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Muzeum%20Bursztynu.%20Oddzia%C5%82%20Muzeum%20Gda%C5%84ska&query_place_id=ChIJjVSrXp5z_UYRZjBYZZ9nbe0",
+    "coordinates": {
+      "lat": 54.3539843,
+      "lng": 18.6499734
+    }
+  },
+  "masuria/boat-trips": {
+    "placeId": "ChIJ25cK3OGH4UYRdMDzUG_rKXM",
+    "displayName": "Żegluga Mazurska Sp. z o.o. Siedziba Główna",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C5%BBegluga%20Mazurska%20Sp.%20z%20o.o.%20Siedziba%20G%C5%82%C3%B3wna&query_place_id=ChIJ25cK3OGH4UYRdMDzUG_rKXM",
+    "coordinates": {
+      "lat": 54.0374847,
+      "lng": 21.7552961
+    }
+  },
+  "masuria/swieta-lipka": {
+    "placeId": "ChIJM92IksI-4kYRtzd4onwhaOA",
+    "displayName": "Święta Lipka Bazylika",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C5%9Awi%C4%99ta%20Lipka%20Bazylika&query_place_id=ChIJM92IksI-4kYRtzd4onwhaOA",
+    "coordinates": {
+      "lat": 54.0246925,
+      "lng": 21.2183343
+    }
+  },
+  "masuria/canal-locks": {
+    "placeId": "ChIJ8ViTxnst4kYRqTu8acTCCbI",
+    "displayName": "Lower lock Leśniewo - monument",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lower%20lock%20Le%C5%9Bniewo%20-%20monument&query_place_id=ChIJ8ViTxnst4kYRqTu8acTCCbI",
+    "coordinates": {
+      "lat": 54.2084526,
+      "lng": 21.5935897
+    }
+  },
+  "vilnius/bernardine-garden": {
+    "placeId": "ChIJ9RtzbD2U3UYRGfOgUunpY7U",
+    "displayName": "Bernardine Garden",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bernardine%20Garden&query_place_id=ChIJ9RtzbD2U3UYRGfOgUunpY7U",
+    "coordinates": {
+      "lat": 54.684397,
+      "lng": 25.295447
+    }
+  },
+  "vilnius/paupys-market": {
+    "placeId": "ChIJpxVs1zuU3UYRlVEb-zhLjDU",
+    "displayName": "Paupio Turgus",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Paupio%20Turgus&query_place_id=ChIJpxVs1zuU3UYRlVEb-zhLjDU",
+    "coordinates": {
+      "lat": 54.678526399999996,
+      "lng": 25.3025146
+    }
+  },
+  "klaipeda/sculpture-park": {
+    "placeId": "ChIJx9yc_fzb5EYRhxK1AfWrNwY",
+    "displayName": "Klaipėda Sculpture Park",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Klaip%C4%97da%20Sculpture%20Park&query_place_id=ChIJx9yc_fzb5EYRhxK1AfWrNwY",
+    "coordinates": {
+      "lat": 55.717338,
+      "lng": 21.139599999999998
+    }
+  },
+  "spit/dead-dune-trail": {
+    "placeId": "ChIJCburRleV5EYRY5PcR-Q_ZNE",
+    "displayName": "Nagliai Nature Reserve",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nagliai%20Nature%20Reserve&query_place_id=ChIJCburRleV5EYRY5PcR-Q_ZNE",
+    "coordinates": {
+      "lat": 55.4403249,
+      "lng": 21.087329099999998
+    }
+  },
+  "riga/national-art-museum": {
+    "placeId": "ChIJ8z27yM_P7kYRZ1zPDd_BR8Q",
+    "displayName": "Latvian National Museum of Art",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Latvian%20National%20Museum%20of%20Art&query_place_id=ChIJ8z27yM_P7kYRZ1zPDd_BR8Q",
+    "coordinates": {
+      "lat": 56.955828999999994,
+      "lng": 24.1130754
+    }
+  },
+  "riga/ethnographic-museum": {
+    "placeId": "ChIJtWTC6RzM7kYRzIjO_jaSvWU",
+    "displayName": "The Ethnographic Open-Air Museum of Latvia",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Ethnographic%20Open-Air%20Museum%20of%20Latvia&query_place_id=ChIJtWTC6RzM7kYRzIjO_jaSvWU",
+    "coordinates": {
+      "lat": 56.9948516,
+      "lng": 24.2696182
+    }
+  },
+  "riga/agenskalns-market": {
+    "placeId": "ChIJRUS-pj3Q7kYRjrvOu_CeZ00",
+    "displayName": "Agenskalns Market",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Agenskalns%20Market&query_place_id=ChIJRUS-pj3Q7kYRjrvOu_CeZ00",
+    "coordinates": {
+      "lat": 56.9356832,
+      "lng": 24.071544799999998
+    }
+  },
+  "sigulda/cesis-castle": {
+    "placeId": "ChIJJ9l5X4_h60YRmf0SBG57hFQ",
+    "displayName": "Cēsis Castle",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C4%93sis%20Castle&query_place_id=ChIJJ9l5X4_h60YRmf0SBG57hFQ",
+    "coordinates": {
+      "lat": 57.313171000000004,
+      "lng": 25.2715356
+    }
+  },
+  "tallinn/kadriorg-palace": {
+    "placeId": "ChIJHzFswVGTkkYR_Ej2aFtgdhA",
+    "displayName": "Kadriorg Art Museum",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kadriorg%20Art%20Museum&query_place_id=ChIJHzFswVGTkkYR_Ej2aFtgdhA",
+    "coordinates": {
+      "lat": 59.438503600000004,
+      "lng": 24.7909699
+    }
+  },
+  "tallinn/kumu": {
+    "placeId": "ChIJ3ehsiVKTkkYR8wxRU1hFIHc",
+    "displayName": "Estonian Art Museum (KUMU)",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Estonian%20Art%20Museum%20(KUMU)&query_place_id=ChIJ3ehsiVKTkkYR8wxRU1hFIHc",
+    "coordinates": {
+      "lat": 59.43706489999999,
+      "lng": 24.7975316
+    }
+  },
+  "tallinn/fotografiska": {
+    "placeId": "ChIJN7F2q3mTkkYR_EO5KihDvHI",
+    "displayName": "Fotografiska Tallinn",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fotografiska%20Tallinn&query_place_id=ChIJN7F2q3mTkkYR_EO5KihDvHI",
+    "coordinates": {
+      "lat": 59.438453499999994,
+      "lng": 24.728456899999998
+    }
+  },
+  "tallinn/rotermanni": {
+    "placeId": "ChIJU7150GCTkkYRl8IxIYtw6SQ",
+    "displayName": "Rotermanni kvartal",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rotermanni%20kvartal&query_place_id=ChIJU7150GCTkkYRl8IxIYtw6SQ",
+    "coordinates": {
+      "lat": 59.4389862,
+      "lng": 24.7565591
+    }
+  },
+  "tallinn/rost-bakery": {
+    "placeId": "ChIJP73vtWCTkkYRAAmn7hNt9aM",
+    "displayName": "RØST Bakery",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=R%C3%98ST%20Bakery&query_place_id=ChIJP73vtWCTkkYRAAmn7hNt9aM",
+    "coordinates": {
+      "lat": 59.4391229,
+      "lng": 24.7582436
+    }
+  },
+  "lahemaa/palmse-manor": {
+    "placeId": "ChIJQRe172mok0YRiSNSOyppN6k",
+    "displayName": "Palmse Manor and Open-air Museum",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Palmse%20Manor%20and%20Open-air%20Museum&query_place_id=ChIJQRe172mok0YRiSNSOyppN6k",
+    "coordinates": {
+      "lat": 59.51274720000001,
+      "lng": 25.9563113
+    }
+  },
+  "helsinki/design-district": {
+    "placeId": "ChIJ5ajml8kLkkYRaXdKH8RxGn8",
+    "displayName": "Design District",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Design%20District&query_place_id=ChIJ5ajml8kLkkYRaXdKH8RxGn8",
+    "coordinates": {
+      "lat": 60.1633589,
+      "lng": 24.941832299999998
+    }
+  }
+}

@@ -85,6 +85,17 @@
       },
       "rating": 4.6,
       "userRatingCount": 13535
+    },
+    {
+      "name": "Design District",
+      "type": "activity",
+      "icon": "info",
+      "description": "25 Straßen, über 200 Designläden, Studios und Galerien in den Vierteln Punavuori und Kaartinkaupunki — das Epizentrum der finnischen Designkultur mit Marimekko, Iittala und unabhängigen Designern.",
+      "duration": "1–2 Std.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Design%20District&query_place_id=ChIJ5ajml8kLkkYRaXdKH8RxGn8",
+      "placeId": "ChIJ5ajml8kLkkYRaXdKH8RxGn8",
+      "coordinates": { "lat": 60.1633589, "lng": 24.941832299999998 }
     }
   ],
   "restaurants": [
@@ -148,6 +159,10 @@
     {
       "type": "info",
       "text": "Helsinki ist kompakt und fußläufig. Auto am besten am Südhafen oder in der Tiefgarage Kasarmitori parken (Aimo Park, mit E-Laden)."
+    },
+    {
+      "type": "info",
+      "text": "Finlandia Hall (Alvar Aalto) wurde 2025 nach umfassender Renovierung wiedereröffnet — lohnt sich architektonisch auch nur von außen, direkt an der Töölö-Bucht."
     }
   ]
 }

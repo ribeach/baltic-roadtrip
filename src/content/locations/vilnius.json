@@ -165,6 +165,38 @@
       },
       "rating": 4.3,
       "userRatingCount": 9932
+    },
+    {
+      "name": "Bernardinų sodas (Bernardinergarten)",
+      "type": "nature",
+      "icon": "info",
+      "description": "9 Hektar großer, liebevoll restaurierter Park am Fuß des Gediminas-Hügels mit 400 Jahre alter Eiche, Springbrunnen und Botanischem Garten. Ideal zum Entspannen nach dem Altstadtbummel.",
+      "duration": "30–60 Min.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bernardine%20Garden&query_place_id=ChIJ9RtzbD2U3UYRGfOgUunpY7U",
+      "placeId": "ChIJ9RtzbD2U3UYRGfOgUunpY7U",
+      "coordinates": {
+        "lat": 54.684397,
+        "lng": 25.295447
+      },
+      "rating": 4.8,
+      "userRatingCount": 18024
+    },
+    {
+      "name": "Paupys Market (Paupio Turgus)",
+      "type": "market",
+      "icon": "gem",
+      "description": "Moderne Food Hall im neu entwickelten Paupys-Viertel am Fluss — lokale Handwerksküche, Craft Coffee und saisonale Spezialitäten. Trendiger und ruhiger als die Halės-Markthalle.",
+      "duration": "30–60 Min.",
+      "price": "Kostenlos (Essen extra)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Paupio%20Turgus&query_place_id=ChIJpxVs1zuU3UYRlVEb-zhLjDU",
+      "placeId": "ChIJpxVs1zuU3UYRlVEb-zhLjDU",
+      "coordinates": {
+        "lat": 54.678526399999996,
+        "lng": 25.3025146
+      },
+      "rating": 4.6,
+      "userRatingCount": 3931
     }
   ],
   "restaurants": [
