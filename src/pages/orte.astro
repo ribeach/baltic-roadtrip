@@ -42,6 +42,7 @@ const mapLocations = allLocations.map(loc => {
     dayNumber: isAssigned ? assignedDays[0].dayNumber : undefined,
     link: `${base}ort/${loc.data.id}`,
     assigned: isAssigned,
+    placeId: loc.data.placeId,
   };
 });
 

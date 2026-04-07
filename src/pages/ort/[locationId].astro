@@ -40,6 +40,7 @@ const mapLocations = [{
   name: location.name,
   lat: location.coordinates.lat,
   lng: location.coordinates.lng,
+  placeId: location.placeId,
 }];
 
 const pois = deduplicateMapPois(collectLocationPois(location));

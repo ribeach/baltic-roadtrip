@@ -85,6 +85,7 @@ if (prevLocation) {
     name: prevLocation.data.name,
     lat: prevLocation.data.coordinates.lat,
     lng: prevLocation.data.coordinates.lng,
+    placeId: prevLocation.data.placeId,
   });
 }
 // Insert transit waypoints between previous and current location
@@ -95,6 +96,7 @@ for (const tLoc of transitLocations) {
       name: tLoc!.data.name,
       lat: tLoc!.data.coordinates.lat,
       lng: tLoc!.data.coordinates.lng,
+      placeId: tLoc!.data.placeId,
     });
   }
 }
@@ -104,6 +106,7 @@ if (location) {
     name: location.data.name,
     lat: location.data.coordinates.lat,
     lng: location.data.coordinates.lng,
+    placeId: location.data.placeId,
   });
 }
 // Add additional locations (side trips)
@@ -114,6 +117,7 @@ for (const aLoc of additionalLocations) {
       name: aLoc!.data.name,
       lat: aLoc!.data.coordinates.lat,
       lng: aLoc!.data.coordinates.lng,
+      placeId: aLoc!.data.placeId,
     });
   }
 }
@@ -125,6 +129,7 @@ const cityMapLocations = showCityMap ? [{
   name: location!.data.name,
   lat: location!.data.coordinates.lat,
   lng: location!.data.coordinates.lng,
+  placeId: location!.data.placeId,
 }] : [];
 ---
 

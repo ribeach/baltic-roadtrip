@@ -1,0 +1,222 @@
+{
+  "aalen": {
+    "placeId": "ChIJnxyEFIQbmUcRjOYktHot_tY",
+    "displayName": "Aalen",
+    "query": "Aalen, Germany"
+  },
+  "bamberg": {
+    "placeId": "ChIJtb7UOAUjokcRgNlh8Ci3HQQ",
+    "displayName": "Bamberg",
+    "query": "Bamberg, Germany"
+  },
+  "berlin": {
+    "placeId": "ChIJAVkDPzdOqEcRcDteW0YgIQQ",
+    "displayName": "Berlin",
+    "query": "Berlin, Germany"
+  },
+  "copenhagen": {
+    "placeId": "ChIJIz2AXDxTUkYRuGeU5t1-3QQ",
+    "displayName": "Copenhagen",
+    "query": "Copenhagen Denmark"
+  },
+  "curonian-spit": {
+    "placeId": "ChIJg9PvP-uX5EYRc2EBpHniLjk",
+    "displayName": "Curonian Spit",
+    "query": "Curonian Spit Lithuania"
+  },
+  "fiskars": {
+    "placeId": "ChIJ9RWp32mujUYRweMYPFK1ACY",
+    "displayName": "Fiskars",
+    "query": "Fiskars Village Finland"
+  },
+  "fredrikstad": {
+    "placeId": "ChIJ27zJC94CREYR_ASCM21iuu4",
+    "displayName": "Fredrikstad",
+    "query": "Fredrikstad Norway"
+  },
+  "gdansk": {
+    "placeId": "ChIJb_rUFBxz_UYRjb63Y_H7uZs",
+    "displayName": "Gdańsk",
+    "query": "Gdańsk Poland"
+  },
+  "gothenburg": {
+    "placeId": "ChIJPwdslmeOT0YRQHwOKXiQAQQ",
+    "displayName": "Gothenburg",
+    "query": "Gothenburg Sweden"
+  },
+  "haapsalu": {
+    "placeId": "ChIJjQO0nnSn8kYRMGb8GG2zAAQ",
+    "displayName": "Haapsalu",
+    "query": "Haapsalu Estonia"
+  },
+  "halmstad": {
+    "placeId": "ChIJR7NdY9cFUUYR-DlwARb3vm0",
+    "displayName": "Halmstad",
+    "query": "Halmstad Sweden"
+  },
+  "helsinki": {
+    "placeId": "ChIJkQYhlscLkkYRY_fiO4S9Ts0",
+    "displayName": "Helsinki",
+    "query": "Helsinki, Finland"
+  },
+  "hill-of-crosses": {
+    "placeId": "ChIJZ3cA3sf95UYRMCf0743qxN0",
+    "displayName": "Hill of Crosses",
+    "query": "Hill of Crosses Šiauliai Lithuania"
+  },
+  "jurmala": {
+    "placeId": "ChIJ0wSh6Afd7kYR3xZsbFh-U3g",
+    "displayName": "Jūrmala",
+    "query": "Jūrmala Latvia"
+  },
+  "kaunas": {
+    "placeId": "ChIJQ9NnsXAi50YRvIs3x-DRS2E",
+    "displayName": "Kaunas",
+    "query": "Kaunas, Lithuania"
+  },
+  "klaipeda": {
+    "placeId": "ChIJi0RH5Prb5EYRoYdtFGe8rIA",
+    "displayName": "Klaipeda",
+    "query": "Klaipėda Lithuania"
+  },
+  "kuldiga": {
+    "placeId": "ChIJNyEjEHDa70YRN3Zdkx44boQ",
+    "displayName": "Kuldīga",
+    "query": "Kuldīga Latvia"
+  },
+  "kutna-hora": {
+    "placeId": "ChIJjwCDCQVBDEcRME8VZg-vAAQ",
+    "displayName": "Kutna Hora",
+    "query": "Kutná Hora Czech Republic"
+  },
+  "lahemaa": {
+    "placeId": "ChIJa78uHtqrk0YRcHJs8m2zAA8",
+    "displayName": "Lahemaa National Park",
+    "query": "Lahemaa National Park Estonia"
+  },
+  "leipzig": {
+    "placeId": "ChIJcywPIBj4pkcRUvW0udKA35M",
+    "displayName": "Leipzig",
+    "query": "Leipzig, Germany"
+  },
+  "lodz": {
+    "placeId": "ChIJr1ZFdSTLG0cRrNshm2OufMs",
+    "displayName": "Łódź",
+    "query": "Łódź Poland"
+  },
+  "luebeck": {
+    "placeId": "ChIJ850L91MJskcRtBJ-PldfcvQ",
+    "displayName": "Lübeck",
+    "query": "Lübeck Germany"
+  },
+  "masuria": {
+    "placeId": "ChIJNxiTcI524kYRZ7rSW9E94gY",
+    "displayName": "Mazury",
+    "query": "Masuria Poland"
+  },
+  "mons-klint": {
+    "placeId": "ChIJL_Jjei0uU0YRKYTzU4bRvCc",
+    "displayName": "Møns Klint",
+    "query": "Møns Klint Denmark"
+  },
+  "orebro": {
+    "placeId": "ChIJOf9KFH8BXEYRPskY0Lqw488",
+    "displayName": "Örebro",
+    "query": "Örebro Sweden"
+  },
+  "oslo": {
+    "placeId": "ChIJOfBn8mFuQUYRmh4j019gkn4",
+    "displayName": "Oslo",
+    "query": "Oslo, Norway"
+  },
+  "paldiski": {
+    "placeId": "ChIJwVL4XECnkkYR02d8nw3k-34",
+    "displayName": "Paldiski",
+    "query": "Paldiski Estonia"
+  },
+  "parnu": {
+    "placeId": "ChIJoSQnAt787EYRkGn8GG2zAAQ",
+    "displayName": "Pärnu",
+    "query": "Pärnu Estonia"
+  },
+  "prague": {
+    "placeId": "ChIJi3lwCZyTC0cRkEAWZg-vAAQ",
+    "displayName": "Prague",
+    "query": "Prague Czech Republic"
+  },
+  "riga": {
+    "placeId": "ChIJ7T0H5bDP7kYRMP7yaM3PAAQ",
+    "displayName": "Riga",
+    "query": "Riga, Latvia"
+  },
+  "rjukan": {
+    "placeId": "ChIJ7fcEiVFcP0YR6k7BnXcnGZE",
+    "displayName": "Rjukan",
+    "query": "Rjukan Norway"
+  },
+  "rostock": {
+    "placeId": "ChIJNzjcO6xQrEcRw55Zj-bj9tI",
+    "displayName": "Rostock",
+    "query": "Rostock, Germany"
+  },
+  "rundale": {
+    "placeId": "ChIJ1Vnh_iDK6EYRKogkclD3kAA",
+    "displayName": "Rundāle Palace Museum",
+    "query": "Rundāle Palace Latvia"
+  },
+  "schwerin": {
+    "placeId": "ChIJmfcOtZLZrUcRwIKEregaJQQ",
+    "displayName": "Schwerin",
+    "query": "Schwerin, Germany"
+  },
+  "sigulda-gauja": {
+    "placeId": "ChIJwX1RQy1O6UYRYB_zaM3PAAQ",
+    "displayName": "Sigulda",
+    "query": "Sigulda Latvia"
+  },
+  "stockholm": {
+    "placeId": "ChIJywtkGTF2X0YRZnedZ9MnDag",
+    "displayName": "Stockholm",
+    "query": "Stockholm, Sweden"
+  },
+  "tallinn": {
+    "placeId": "ChIJvxZW35mUkkYRcGL8GG2zAAQ",
+    "displayName": "Tallinn",
+    "query": "Tallinn, Estonia"
+  },
+  "tartu": {
+    "placeId": "ChIJ9z1d1dg260YREG38GG2zAAQ",
+    "displayName": "Tartu",
+    "query": "Tartu, Estonia"
+  },
+  "trakai": {
+    "placeId": "ChIJ44t4JGzz3UYRMmC6aN1UI8Q",
+    "displayName": "Trakai Island Castle",
+    "query": "Trakai Castle Lithuania"
+  },
+  "turku": {
+    "placeId": "ChIJu9uOgYR1jEYRAMJLVVG1AAQ",
+    "displayName": "Turku",
+    "query": "Turku, Finland"
+  },
+  "tykocin": {
+    "placeId": "ChIJXWbMouTdH0cRTTfhGPchIkc",
+    "displayName": "Tykocin",
+    "query": "Tykocin, Poland"
+  },
+  "vilnius": {
+    "placeId": "ChIJ9QhkXPuT3UYRQNzpcIzRAAQ",
+    "displayName": "Vilnius",
+    "query": "Vilnius, Lithuania"
+  },
+  "warsaw": {
+    "placeId": "ChIJAZ-GmmbMHkcR_NPqiCq-8HI",
+    "displayName": "Warsaw",
+    "query": "Warsaw Poland"
+  },
+  "wroclaw": {
+    "placeId": "ChIJv4q11MLpD0cR9eAFwq5WCbc",
+    "displayName": "Wrocław",
+    "query": "Wrocław Poland"
+  }
+}

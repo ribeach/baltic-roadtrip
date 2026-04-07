@@ -57,6 +57,7 @@ const locations = defineCollection({
     description: z.string(),
     suggestedDays: z.string().optional(),
     region: z.string().optional(),
+    placeId: z.string().optional(),
     highlights: z.array(z.object({
       name: z.string(),
       type: z.string(),
