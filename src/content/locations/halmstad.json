@@ -6,14 +6,279 @@
     "lat": 56.6745,
     "lng": 12.8578
   },
-  "description": "Halmstad an der schwedischen Westküste ist kein touristischer Stopp, sondern ein persönlicher — beide Reisenden haben hier gelebt. Ein fester Block zum Ankommen, Freunde treffen und schwedische Vertrautheit genießen.",
-  "highlights": [],
-  "restaurants": [],
-  "hotels": [],
+  "description": "Halmstad an der schwedischen Westküste ist kein touristischer Stopp, sondern ein persönlicher — beide Reisenden haben hier gelebt. Ein fester Block zum Ankommen, Freunde treffen und schwedische Vertrautheit genießen. Dazu einer der schönsten Strände Skandinaviens, ein überraschendes Surrealismus-Erbe und eine lebendige Craft-Beer-Szene.",
+  "highlights": [
+    {
+      "name": "Tylösand & Prins Bertils Stig",
+      "type": "nature",
+      "icon": "star",
+      "description": "Sieben Kilometer feiner Sandstrand an der schwedischen Westküste — einer der bekanntesten Strände Skandinaviens. Der 18 km lange Küstenwanderweg Prins Bertils Stig führt vom Schloss bis nach Möllegård, vorbei an idyllischen Buchten und durch Naturschutzgebiet.",
+      "duration": "Strand: 2-3h, Wanderweg: 4-6h (Teilstrecken möglich)",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=15902109874294560336",
+      "placeId": "ChIJ01exLZa9UUYRUBaPfK2kr9w",
+      "coordinates": {
+        "lat": 56.6558359,
+        "lng": 12.731047
+      },
+      "rating": 4.5,
+      "userRatingCount": 1706
+    },
+    {
+      "name": "Hallands Konstmuseum",
+      "type": "museum",
+      "icon": "star",
+      "description": "Starkes Kunstmuseum direkt am Nissan mit halländischer Kunst von der Bauernmalerei bis zur Moderne. Preisgekrönte Architektur und eine gute Mischung aus Dauersammlung und Wechselausstellungen.",
+      "duration": "1.5-2h",
+      "price": "120 SEK (~11€)",
+      "googleMapsUrl": "https://maps.google.com/?cid=18149169878300324326",
+      "placeId": "ChIJrQrzNTmjUUYR5nFPjNjN3vs",
+      "coordinates": {
+        "lat": 56.6807131,
+        "lng": 12.862131
+      },
+      "rating": 4.3,
+      "userRatingCount": 285
+    },
+    {
+      "name": "Mjellby Konstmuseum",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Das beste Kunstziel für alle, die den Surrealismus nach Skandinavien entdecken wollen. Gewidmet der legendären Halmstadgruppen — schwedischen Surrealisten, die mit Dalí und Ernst ausstellten. Kombiticket mit Hallands Konstmuseum erhältlich.",
+      "duration": "1-2h",
+      "price": "Kombiticket 120 SEK (~11€)",
+      "googleMapsUrl": "https://maps.google.com/?cid=9047758648802916341",
+      "placeId": "ChIJ85C2Yvm8UUYR9bdd040YkH0",
+      "coordinates": {
+        "lat": 56.679193,
+        "lng": 12.773828
+      },
+      "rating": 4.4,
+      "userRatingCount": 200
+    },
+    {
+      "name": "Halmstads Slott & Slottsparken",
+      "type": "castle",
+      "icon": "star",
+      "description": "Das 1619 fertiggestellte Renaissanceschloss am Nissan wurde unter dem dänischen König Christian IV. erbaut. Heute Sitz des Landshövding. Der Innenhof und der angrenzende Schlosspark mit Resten der alten Festungsanlage sind frei zugänglich.",
+      "duration": "1-1.5h",
+      "price": "Kostenlos (Führung ca. 100 SEK)",
+      "googleMapsUrl": "https://maps.google.com/?cid=9775615364335189803",
+      "placeId": "ChIJk6gHgSSjUUYRK78MZGH2qYc",
+      "coordinates": {
+        "lat": 56.6717124,
+        "lng": 12.857823
+      },
+      "rating": 4.1,
+      "userRatingCount": 570
+    },
+    {
+      "name": "Galgberget & Hallandsgården",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Halmstads beliebtestes Naherholungsgebiet mit Aussichtsturm von 1897, fantastischem Panoramablick über Stadt und Küste. Das Freilichtmuseum Hallandsgården zeigt alte schwedische Bauernhäuser. Perfekt für eine ruhige Morgenwanderung.",
+      "duration": "1-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=8974030728902242127",
+      "placeId": "ChIJlSRxVjajUUYRT2-ox2Ypinw",
+      "coordinates": {
+        "lat": 56.684734,
+        "lng": 12.849100
+      }
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Pio Restaurang & Bar",
+      "cuisine": "Modern Schwedisch",
+      "priceRange": "€€-€€€",
+      "description": "Halmstads Urgestein seit 1969 an der Storgatan. Rustikale Küche mit modernem Einschlag, saisonale Zutaten und über 100 Weine. Institution für gehobenes Essen im Stadtzentrum.",
+      "mustTry": "Planka (Steak auf Eichenbrett) oder saisonales Fisch-Hauptgericht",
+      "googleMapsUrl": "https://maps.google.com/?cid=9583375663323521361",
+      "placeId": "ChIJ_0f8dTujUUYRUaGFEWT9_oQ",
+      "coordinates": {
+        "lat": 56.6765775,
+        "lng": 12.8589301
+      },
+      "rating": 4.3,
+      "userRatingCount": 616
+    },
+    {
+      "name": "Restaurang Fyr",
+      "cuisine": "Grill & Seafood",
+      "priceRange": "€€€",
+      "description": "Sternekoch Jacob Holmström hat am Strand von Tylösand ein Gastro-Highlight geschaffen. Fokus auf wildem, lokalem Fisch vom Grill mit Blick auf die Insel Tylön. White-Guide-gelistet.",
+      "mustTry": "Das wechselnde Fisch-Hauptgericht vom Grill — was das Meer an dem Tag hergibt",
+      "googleMapsUrl": "https://maps.google.com/?cid=7547608613101946495",
+      "placeId": "ChIJQ5_uiqO9UUYRf8aebwt-vmg",
+      "coordinates": {
+        "lat": 56.646322,
+        "lng": 12.727795
+      },
+      "rating": 4.5,
+      "userRatingCount": 137
+    },
+    {
+      "name": "Zigges Garage",
+      "cuisine": "Tapas & Cocktails",
+      "priceRange": "€€",
+      "description": "Tapas- und Cocktailbar am Nissan mit warmen und kalten Tapas, Pintxos und vegetarischen Optionen. Kreative Cocktails und Außenplätze am Fluss.",
+      "mustTry": "Tapas-Auswahl zum Teilen mit einem Seven Dots-Cocktail",
+      "googleMapsUrl": "https://maps.google.com/?cid=10737062052004994036",
+      "placeId": "ChIJHWSDfzujUUYR9JsVhQy1AZU",
+      "coordinates": {
+        "lat": 56.6764489,
+        "lng": 12.8600098
+      },
+      "rating": 4.4,
+      "userRatingCount": 514
+    },
+    {
+      "name": "Fridolfs Krog",
+      "cuisine": "Schwedisch-Modern",
+      "priceRange": "€€",
+      "description": "Elegantes Restaurant an der Brogatan mit traditionell schwedischer Küche und modernen Aromen. Saisonale Speisekarte mit lokalen Produkten in warmem Ambiente mit Backstein, Holz und Rattan.",
+      "mustTry": "Schwedisches Saisonmenü — je nach Jahreszeit mit Lamm, Fisch oder Wild",
+      "googleMapsUrl": "https://maps.google.com/?cid=7032927282056064256",
+      "placeId": "ChIJlSmb1jqjUUYRAO0a2hn6mWE",
+      "coordinates": {
+        "lat": 56.674666,
+        "lng": 12.85464
+      },
+      "rating": 4.4,
+      "userRatingCount": 526
+    },
+    {
+      "name": "Klackerups Pizzeria",
+      "cuisine": "Pizza",
+      "priceRange": "€",
+      "description": "Persönlicher Favorit aus der Zeit in Halmstad. Keine Haute Cuisine, aber ehrliche, gute Pizza mit Tradition.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=2531075708850297178",
+      "placeId": "ChIJewrHtlSiUUYRWlmkbfIvICM",
+      "coordinates": {
+        "lat": 56.670472,
+        "lng": 12.878697
+      },
+      "rating": 4.3,
+      "userRatingCount": 368
+    },
+    {
+      "name": "Balkan Grill - Burek & Cevapi",
+      "cuisine": "Balkan",
+      "priceRange": "€",
+      "description": "Persönlicher Favorit aus der Zeit in Halmstad. Authentische Balkan-Küche mit hausgemachtem Burek und Ćevapi — kein Schnickschnack, dafür echte Portionen.",
+      "mustTry": "Burek und Ćevapi",
+      "googleMapsUrl": "https://maps.google.com/?cid=7514366682482236016",
+      "placeId": "ChIJ497l0fWjUUYRcFpiVa9kSGg",
+      "coordinates": {
+        "lat": 56.660833,
+        "lng": 12.897408
+      },
+      "rating": 4.7,
+      "userRatingCount": 123
+    },
+    {
+      "name": "Hanôi Quán",
+      "cuisine": "Vietnamesisch",
+      "priceRange": "€-€€",
+      "description": "Persönlicher Favorit aus der Zeit in Halmstad. Authentische vietnamesische Küche — von Phở bis zu frischen Sommerrollen.",
+      "mustTry": "Phở",
+      "googleMapsUrl": "https://maps.google.com/?cid=1837875828799057443",
+      "placeId": "ChIJs2tyaBijUUYRIy7YLFRygRk",
+      "coordinates": {
+        "lat": 56.670711,
+        "lng": 12.868107
+      },
+      "rating": 4.6,
+      "userRatingCount": 316
+    },
+    {
+      "name": "Max Burgers",
+      "cuisine": "Burgers / Fast Food",
+      "priceRange": "€",
+      "description": "Persönlicher Favorit aus der Zeit in Halmstad. Schwedens beliebteste Burgerkette — frische Zutaten, nachhaltig produziert und deutlich über US-Fast-Food-Niveau.",
+      "mustTry": "Original Max Cheese",
+      "googleMapsUrl": "https://maps.google.com/?cid=5843693495154854895",
+      "placeId": "ChIJKcba4KyjUUYR70v3ykX4GFE",
+      "coordinates": {
+        "lat": 56.6587489,
+        "lng": 12.907688
+      },
+      "rating": 3.9,
+      "userRatingCount": 3418
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Hotel Tylösand",
+      "type": "Resort & Spa",
+      "priceRange": "150-300€",
+      "evCharging": true,
+      "description": "Schwedens bekanntestes Strandresort am Tylösand-Strand, gegründet vom Roxette-Sänger Per Gessle. Großer Spa-Bereich, Indoor-Pool, Kunstgalerie und Golfplätze. Perfekt für einen Ruhetag am Meer.",
+      "googleMapsUrl": "https://maps.google.com/?cid=13503519471587638699",
+      "placeId": "ChIJqf-yaJe9UUYRqz2NKWojZrs",
+      "coordinates": {
+        "lat": 56.648674,
+        "lng": 12.732026
+      },
+      "rating": 4.4,
+      "userRatingCount": 3316
+    },
+    {
+      "name": "Grand Hotel Halmstad",
+      "type": "Historisches Stadthotel",
+      "priceRange": "120-200€",
+      "evCharging": true,
+      "description": "Klassisches 4-Sterne-Hotel seit 1905, direkt gegenüber dem Hauptbahnhof. Verbindet Grand-Hotel-Tradition mit modernem Komfort. Zentrale Lage für alle Stadterkundungen.",
+      "googleMapsUrl": "https://maps.google.com/?cid=6658498443207445499",
+      "placeId": "ChIJw0GlZyKjUUYR-wvfTA69Z1w",
+      "coordinates": {
+        "lat": 56.669783,
+        "lng": 12.863603
+      },
+      "rating": 4.2,
+      "userRatingCount": 1228
+    }
+  ],
   "tips": [
     {
+      "type": "geheimtipp",
+      "text": "Danska Fall (Dänischer Wasserfall) im Naturreservat südlich von Simlångsdalen: Ein 36 Meter tiefer Wasserfall inmitten alter Buchenwälder. Nur 1 km Fußweg, 2,3 km Rundweg. Abseits der Touristenpfade und spektakulär im Frühling."
+    },
+    {
+      "type": "warnung",
+      "text": "Im Juli ist Tylösand extrem überlaufen. Wer Ruhe sucht, sollte die Strände nördlich von Halmstad (z.B. Haverdal) ansteuern."
+    },
+    {
       "type": "info",
-      "text": "Fester Block ohne Aktivitätsvorschläge — beide Reisenden haben hier gelebt und kennen die Stadt. Eigene Kontakte vor Ort."
+      "text": "Sankt Nikolai Kyrka (Hallands Katedral) am Stora Torg ist eine der wenigen Gebäude, die den großen Stadtbrand 1619 überstanden. Beeindruckende Glasfenster von Einar Forseth und freier Eintritt."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "The Fox & Anchor",
+      "description": "Gastropub am Lilla Torg mit 240 verschiedenen Bieren und über 700 Spirituosen (davon 400 Whisky). Halmstads Anlaufstelle Nummer eins für Bierkenner.",
+      "googleMapsUrl": "https://maps.google.com/?cid=15005476147903939932",
+      "placeId": "ChIJx-Vuaglc3UMRXEVp2Q0pPtA",
+      "coordinates": {
+        "lat": 56.676812,
+        "lng": 12.857440
+      },
+      "rating": 4.1,
+      "userRatingCount": 615
+    },
+    {
+      "name": "Halmstad Brygghus",
+      "description": "Lokale Mikrobrauerei mit eigenem Brewpub in der alten Slottsmöllan. Hauseigene Lager, IPA, NEIPA und Stout frisch vom Tank. Ölprovning (Bierverkostung) buchbar.",
+      "googleMapsUrl": "https://maps.google.com/?cid=7471944455489102624",
+      "placeId": "ChIJ2bVO2kOjUUYRIKPg6uStsWc",
+      "coordinates": {
+        "lat": 56.690703,
+        "lng": 12.871130
+      },
+      "rating": 4.9,
+      "userRatingCount": 31
     }
   ]
 }

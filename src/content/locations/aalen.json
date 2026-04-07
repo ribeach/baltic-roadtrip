@@ -6,9 +6,163 @@
     "lat": 48.8376,
     "lng": 10.0933
   },
-  "description": "Start- und Endpunkt der Reise. Von hier geht es los und hierhin führt der Weg zurück.",
-  "highlights": [],
-  "restaurants": [],
-  "hotels": [],
-  "tips": []
+  "description": "Start- und Endpunkt der Reise. Die Heimatstadt am Albtrauf überrascht mit UNESCO-Welterbe-Limes, einem der eindrucksvollsten Besucherbergwerke Süddeutschlands und einer ehrlichen schwäbischen Brauhaus-Kultur.",
+  "highlights": [
+    {
+      "name": "Limesmuseum Aalen",
+      "type": "museum",
+      "icon": "star",
+      "description": "Deutschlands größtes Römermuseum steht auf dem Gelände des ehemals größten römischen Reiterkastells nördlich der Alpen. Die Dauerausstellung und der Audioguide machen den UNESCO-Welterbe-Limes lebendig.",
+      "duration": "2-3h",
+      "price": "€6",
+      "googleMapsUrl": "https://maps.google.com/?cid=16874246219795284385",
+      "placeId": "ChIJKbwJongbmUcRoUFgh4hdLeo",
+      "coordinates": {
+        "lat": 48.836267,
+        "lng": 10.084102
+      },
+      "rating": 4.5,
+      "userRatingCount": 1185
+    },
+    {
+      "name": "Besucherbergwerk Tiefer Stollen",
+      "type": "activity",
+      "icon": "star",
+      "description": "Historisches Eisenerz-Bergwerk im Stadtteil Wasseralfingen. Mit der Grubenbahn geht es 400 Meter tief in den Berg — dort erfährt man hautnah die Geschichte des schwäbischen Bergbaus. Saison März bis November.",
+      "duration": "1.5-2h",
+      "price": "€13",
+      "googleMapsUrl": "https://maps.google.com/?cid=734893004984173826",
+      "placeId": "ChIJT9RphhQcmUcRAkUAXkvdMgo",
+      "coordinates": {
+        "lat": 48.855287,
+        "lng": 10.120390
+      },
+      "rating": 4.9,
+      "userRatingCount": 1031
+    },
+    {
+      "name": "Aalbäumle (Aussichtsturm)",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Aalens Hausberg mit 26 Meter hohem Aussichtsturm auf dem Langert am Albtrauf. 123 Stufen führen auf 702 m Höhe — bei klarer Sicht reicht der Blick über Aalen bis zum Rosenstein. Unten Abenteuerspielplatz und sonntags Kiosk.",
+      "duration": "1-2h (inkl. Wanderung)",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=18381443199385432951",
+      "placeId": "ChIJoynFXqMbmUcRd3NjZjMBGP8",
+      "coordinates": {
+        "lat": 48.817056,
+        "lng": 10.089164
+      },
+      "rating": 4.6,
+      "userRatingCount": 666
+    },
+    {
+      "name": "Urweltmuseum im Rathaus",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Im historischen Rathaus am Marktplatz beherbergt das Urweltmuseum einen 3 Meter langen Ichthyosaurier. Wahrzeichen ist der 'Aalener Spion' — ein Kopf auf dem Rathausturm, ein Geschenk Nürnbergs nach dem Stadtbrand 1634.",
+      "duration": "1-1.5h",
+      "price": "€3",
+      "googleMapsUrl": "https://maps.google.com/?cid=8057041501269559380",
+      "placeId": "ChIJodujuIYbmUcRVIjAr45c0G8",
+      "coordinates": {
+        "lat": 48.837869,
+        "lng": 10.092962
+      },
+      "rating": 4.5,
+      "userRatingCount": 135
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Bierhalle Aalen",
+      "cuisine": "Schwäbisch & Brauhaus",
+      "priceRange": "€€",
+      "description": "Traditionslokal an der Stadtkirche mit über 300-jähriger Geschichte der Grünbaum-Brauerei. Klassische schwäbische Küche in historischem Ambiente mit hauseigenen Bieren.",
+      "mustTry": "Zwiebelrostbraten mit Spätzle und ein frisch gezapftes Grünbaum",
+      "googleMapsUrl": "https://maps.google.com/?cid=9133596648510417349",
+      "placeId": "ChIJKyCNkoYbmUcRxWkpjMINwX4",
+      "coordinates": {
+        "lat": 48.837754,
+        "lng": 10.093982
+      },
+      "rating": 4.6,
+      "userRatingCount": 1292
+    },
+    {
+      "name": "Barfüßer Hausbrauerei",
+      "cuisine": "Bayerisch-Schwäbisch & Craft Beer",
+      "priceRange": "€€",
+      "description": "Brauhaus-Restaurant mit hauseigenem Bier seit 1990, gebraut nach Reinheitsgebot mit Tettnanger Aromahopfen. Deftige Küche vom Brauhaus-Schnitzel bis zur knusprigen Schweinshaxe, dazu Craft-Biere der Marke Urban Monk.",
+      "mustTry": "Knusprige Schweinshaxe mit unfiltriertem Hausbier",
+      "googleMapsUrl": "https://maps.google.com/?cid=2556969866260066348",
+      "placeId": "ChIJueZJAQAbmUcRLDDPw4sufCM",
+      "coordinates": {
+        "lat": 48.837102,
+        "lng": 10.093924
+      },
+      "rating": 4.2,
+      "userRatingCount": 529
+    },
+    {
+      "name": "Restaurant Wilder Mann",
+      "cuisine": "Gehobene Regionalküche",
+      "priceRange": "€€-€€€",
+      "description": "Gepflegtes Traditionshaus in Wasseralfingen mit schwäbisch-regionaler Küche auf gehobenem Niveau. Saisonale Gerichte mit Produkten aus der Region.",
+      "mustTry": "Saisonale Regionalgerichte — im Frühjahr besonders der Spargel",
+      "googleMapsUrl": "https://maps.google.com/?cid=11614684285464339435",
+      "placeId": "ChIJBfUWdmccmUcR6-NpBdKlL6E",
+      "coordinates": {
+        "lat": 48.860326,
+        "lng": 10.103399
+      },
+      "rating": 4.6,
+      "userRatingCount": 568
+    }
+  ],
+  "hotels": [
+    {
+      "name": "H+ Hotel Limes Thermen Aalen",
+      "type": "Wellness-Hotel",
+      "priceRange": "120-190€",
+      "evCharging": true,
+      "description": "Direkt an den Limes-Thermen gelegen (Bademantelgang). Ruhige Lage am Waldrand mit Blick über die Stadt. Perfekt zum Entspannen nach einem langen Reisetag.",
+      "googleMapsUrl": "https://maps.google.com/?cid=16319000097572864283",
+      "placeId": "ChIJeSY3QAobmUcRG0FlgSC8eOI",
+      "coordinates": {
+        "lat": 48.819231,
+        "lng": 10.076713
+      },
+      "rating": 4.3,
+      "userRatingCount": 3416
+    }
+  ],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Start- und Endpunkt der Reise. Aalen liegt strategisch günstig an der A7 — die Altstadt lohnt einen Abendspaziergang zum Ankommen oder Ausklingen."
+    },
+    {
+      "type": "warnung",
+      "text": "Im Tiefen Stollen ist es ganzjährig nur 11-12°C — Jacke mitnehmen und vorab reservieren."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Die Limes-Thermen direkt neben dem Limesmuseum bieten Thermalbad mit Saunalandschaft — perfekt zum Entspannen nach einem langen Reisetag."
+    }
+  ],
+  "nightlife": [
+    {
+      "name": "Barfüßer Hausbrauerei",
+      "description": "Für einen unkomplizierten Bierabend mit mehreren Hausbieren und Urban-Monk-Craft-Bieren die solideste Innenstadt-Option. Gemütliches Brauhaus-Ambiente.",
+      "googleMapsUrl": "https://maps.google.com/?cid=2556969866260066348",
+      "placeId": "ChIJueZJAQAbmUcRLDDPw4sufCM",
+      "coordinates": {
+        "lat": 48.837102,
+        "lng": 10.093924
+      },
+      "rating": 4.2,
+      "userRatingCount": 529
+    }
+  ]
 }
