@@ -8,6 +8,8 @@ Static website for an EV roadtrip through the Baltic region, built with Astro 6,
 
 The site uses a **location-first** information architecture: locations are the primary browsable content (independent of any day assignment), while days are an optional planning overlay. This allows flexible trip planning — adding locations as a library, assigning them to days only when needed, and changing the schedule without breaking the site.
 
+The trip is handled spontaneously — only 1–2 days are planned in advance, and the itinerary may change at any time. Day numbers and assignments are merely suggestions, not a fixed schedule. Locations exist independently in the library and can be visited in any order.
+
 ## Commands
 
 ```bash

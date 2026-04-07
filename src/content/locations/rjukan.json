@@ -1,0 +1,90 @@
+{
+  "id": "rjukan",
+  "name": "Rjukan",
+  "country": "norway",
+  "coordinates": { "lat": 59.8789, "lng": 8.5941 },
+  "description": "Die UNESCO-Welterbe-Industriestadt in einem dramatischen Telemark-Tal ist einer der ungewöhnlichsten Orte Norwegens. Hier sabotierten norwegische Kommandos 1943 das Schwerwasser-Programm der Nazis — eine der berühmtesten Widerstandsaktionen des Zweiten Weltkriegs. Die Kombination aus Kriegsgeschichte, Industriepioniertum und einer geheimen Militärbahn im Berg macht Rjukan zu einem unvergesslichen Erlebnis.",
+  "highlights": [
+    {
+      "name": "Vemork — Norsk Industriarbeidermuseum",
+      "type": "museum",
+      "icon": "star",
+      "description": "Museum im originalen Schwerwasser-Werk, dem Schauplatz der legendären Sabotageaktion von 1943 ('Heroes of Telemark'). Die Ausstellung verbindet eindrucksvoll die Geschichte der norwegischen Wasserkraft-Pioniertechnik mit der dramatischen WWII-Sabotage gegen das deutsche Atomprogramm.",
+      "duration": "2-3h",
+      "price": "250 NOK (online) / 280 NOK (vor Ort)",
+      "googleMapsUrl": "https://maps.google.com/?cid=8372630430420511153",
+      "placeId": "ChIJUztUKrRcP0YRsSnXMASPMXQ",
+      "coordinates": { "lat": 59.871184500000005, "lng": 8.4917155 },
+      "rating": 4.5,
+      "userRatingCount": 2077
+    },
+    {
+      "name": "Gaustabanen",
+      "type": "activity",
+      "icon": "star",
+      "description": "Eine geheime, von der NATO gebaute Standseilbahn im Inneren des Gaustatoppen — Norwegens berühmtestem Aussichtsberg (1883 m). Die Fahrt durch den Tunnel und der Panoramablick oben, bei dem man angeblich ein Sechstel Norwegens sehen kann, sind ein einzigartiges Erlebnis.",
+      "duration": "2-3h (inkl. Wanderung oben)",
+      "price": "595 NOK (Hin+Rück)",
+      "googleMapsUrl": "https://maps.google.com/?cid=8256366777137407170",
+      "placeId": "ChIJXdM9BPteP0YRwqSc9taBlHI",
+      "coordinates": { "lat": 59.853817799999995, "lng": 8.684730799999999 },
+      "rating": 4.7,
+      "userRatingCount": 1289
+    },
+    {
+      "name": "Sabotørenes sti (Saboteurpfad)",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Wanderweg, der der realen Route der norwegischen Widerstandskämpfer folgt — über die Schlucht, durch den Wald und hinunter zum Schwerwasser-Werk. Landschaftlich und historisch gleichermaßen eindrucksvoll.",
+      "duration": "2-3h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=12282693367857395939",
+      "placeId": "ChIJWXX_ObxeP0YR47gvpIrkdKo",
+      "coordinates": { "lat": 59.854213300000005, "lng": 8.649170999999999 },
+      "rating": 4.8,
+      "userRatingCount": 867
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Rjukan Admini",
+      "cuisine": "Norwegisch / Saisonal",
+      "priceRange": "€€",
+      "description": "Das beste Restaurant in Rjukan mit saisonaler norwegischer Küche. Besonders empfohlen ist das 3-Gänge-Menü mit regionalen Zutaten aus dem Telemark.",
+      "mustTry": "Das saisonale 3-Gänge-Menü mit Telemark-Zutaten",
+      "googleMapsUrl": "https://maps.google.com/?cid=6373260869290172078",
+      "placeId": "ChIJv02TnE5cP0YRrh7wXv5eclg",
+      "coordinates": { "lat": 59.8793661, "lng": 8.5835862 },
+      "rating": 4.6,
+      "userRatingCount": 191
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Rjukan Gjestegaard",
+      "type": "Gästehaus",
+      "priceRange": "80-105€",
+      "evCharging": false,
+      "description": "Gemütliches Gästehaus im Zentrum von Rjukan — einfach, sauber und preiswert. Ideal als Basis für die Erkundung der Industrieerbe-Stätten und Wanderwege.",
+      "googleMapsUrl": "https://maps.google.com/?cid=12908233688134743723",
+      "placeId": "ChIJS01pbUlcP0YRq3YACyZCI7M",
+      "coordinates": { "lat": 59.87775489999999, "lng": 8.5889127 },
+      "rating": 4.0,
+      "userRatingCount": 119
+    }
+  ],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Rjukan liegt ca. 180 km / 2,5 Stunden westlich von Oslo im Telemark. Lohnt sich eher als Übernachtung denn als schneller Kaffee-Stopp — es gibt viel zu sehen."
+    },
+    {
+      "type": "warnung",
+      "text": "Vemork hat ab 1. Mai täglich geöffnet. Gaustabanen fährt regulär im Frühling, aber vorher Wetter und Betriebszeiten prüfen — bei Schnee auf dem Gipfel kann die Bahn pausieren."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Der Saboteurpfad ist auch für Nicht-Wanderer machbar und historisch faszinierend — man folgt exakt der Route der Widerstandskämpfer von 1943."
+    }
+  ]
+}

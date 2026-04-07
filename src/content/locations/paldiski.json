@@ -1,0 +1,77 @@
+{
+  "id": "paldiski",
+  "name": "Paldiski & Pakri-Halbinsel",
+  "country": "estonia",
+  "coordinates": { "lat": 59.3508, "lng": 24.0538 },
+  "description": "Die ehemalige geschlossene Militärstadt auf der Pakri-Halbinsel war bis 1994 Standort des größten sowjetischen U-Boot-Ausbildungszentrums mit zwei Atomreaktoren und 16.000 Soldaten — umgeben von Stacheldraht. Heute verbinden sich die verlassene Militärinfrastruktur, dramatische Kalksteinklippen und Estlands höchster Leuchtturm zu einer faszinierend surrealen Landschaft.",
+  "highlights": [
+    {
+      "name": "Pakri-Klippen & Küstenwanderung",
+      "type": "nature",
+      "icon": "star",
+      "description": "Dramatische Kalksteinklippen bis 25 Meter Höhe entlang der Küste mit markierten Wanderwegen und Aussichtsplattformen. Die Landschaft ist durchsetzt von verlassenen Sowjet-Bunkern und Militärruinen — eine surreale Mischung aus Natur und Geschichte.",
+      "duration": "1-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=1909510154933198811",
+      "placeId": "ChIJ7R4L2K6gkkYR21_Lb17xfxo",
+      "coordinates": { "lat": 59.38919069999999, "lng": 24.038185199999997 },
+      "rating": 4.8,
+      "userRatingCount": 997
+    },
+    {
+      "name": "Pakri Leuchtturm",
+      "type": "viewpoint",
+      "icon": "star",
+      "description": "Estlands höchster Leuchtturm (52 m) aus dem Jahr 1889. 275 Stufen führen zur Aussichtsplattform mit Panoramablick über die Pakri-Halbinsel, die Ostsee und die vorgelagerten Inseln. Historisch mit Peter dem Großen verbunden.",
+      "duration": "30-45min",
+      "price": "~€5",
+      "googleMapsUrl": "https://maps.google.com/?cid=4629979866477036826",
+      "placeId": "ChIJ3TLela6gkkYRGgWTaij-QEA",
+      "coordinates": { "lat": 59.3874175, "lng": 24.0371891 },
+      "rating": 4.7,
+      "userRatingCount": 1678
+    },
+    {
+      "name": "Amandus Adamson Ateliermuseum",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Kleines, feines Museum im ehemaligen Sommeratelier des estnischen Bildhauers Amandus Adamson (1855–1929). Gibt Paldiski eine kulturelle Dimension jenseits der Militärgeschichte.",
+      "duration": "45-60min",
+      "price": "~€5",
+      "googleMapsUrl": "https://maps.google.com/?cid=10769374172575811500",
+      "placeId": "ChIJjUsBwRinkkYRrMelWcCAdJU",
+      "coordinates": { "lat": 59.349259499999995, "lng": 24.0613928 },
+      "rating": 4.6,
+      "userRatingCount": 166
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Tavern Peetri Toll",
+      "cuisine": "Estnisch-Russisch / Baltisch",
+      "priceRange": "€€",
+      "description": "Das etablierteste Restaurant in Paldiski mit estnisch-russischer Küche. Solide Hausmannskost in Tavernen-Atmosphäre — die einzige gute Option direkt vor Ort.",
+      "mustTry": "Borschtsch, Pelmeni oder Blini — die russische Küchentradition ist hier noch lebendig",
+      "googleMapsUrl": "https://maps.google.com/?cid=12519051819845401477",
+      "placeId": "ChIJQ9nRhxenkkYRhbuXJk2bvK0",
+      "coordinates": { "lat": 59.3501714, "lng": 24.0531781 },
+      "rating": 4.4,
+      "userRatingCount": 1152
+    }
+  ],
+  "hotels": [],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Paldiski liegt nur 50 km / 45 Minuten westlich von Tallinn — ideal als Halbtagsausflug. Der Reiz liegt im Gesamtbild, nicht in einer einzelnen Top-Sehenswürdigkeit."
+    },
+    {
+      "type": "warnung",
+      "text": "Der Pakri-Leuchtturm hat in der Nebensaison kürzere Öffnungszeiten — für Anfang Mai Wochenend-Öffnung einplanen oder vorher online prüfen."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Die verlassenen Sowjet-Bunker und Militärruinen entlang der Klippen sind frei zugänglich und extrem fotogen — eine gespenstische Zeitreise in die geschlossene Militärstadt."
+    }
+  ]
+}

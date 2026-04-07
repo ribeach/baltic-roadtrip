@@ -1,0 +1,89 @@
+{
+  "id": "haapsalu",
+  "name": "Haapsalu",
+  "country": "estonia",
+  "coordinates": { "lat": 58.9431, "lng": 23.5371 },
+  "description": "Die romantische Bischofsstadt an Estlands Westküste war im 19. Jahrhundert ein mondäner Kurort des russischen Adels — selbst Tschaikowsky verbrachte hier den Sommer 1867. Die Kombination aus einer mittelalterlichen Bischofsburg, prachtvollen Holzvillen, dem spektakulären Zarenbahnhof und der Legende der 'Weißen Dame' macht Haapsalu zu einem der charmantesten Orte des Baltikums.",
+  "highlights": [
+    {
+      "name": "Bischofsburg Haapsalu (Piiskopilinnus)",
+      "type": "castle",
+      "icon": "star",
+      "description": "Die imposante Bischofsburg aus dem 13. Jahrhundert mit Ruinen der Domkirche, stimmungsvollem Innenhof und Turmbesteigung. Berühmt für die Legende der 'Weißen Dame' — bei Vollmond im August soll eine Frauengestalt im Kapellenfenster erscheinen.",
+      "duration": "1-1.5h",
+      "price": "~€6",
+      "googleMapsUrl": "https://maps.google.com/?cid=7928467795211351908",
+      "placeId": "ChIJ0ywOd6Kn8kYRZHey8nOTB24",
+      "coordinates": { "lat": 58.947446, "lng": 23.5389174 },
+      "rating": 4.7,
+      "userRatingCount": 4461
+    },
+    {
+      "name": "Eisenbahn- und Kommunikationsmuseum",
+      "type": "museum",
+      "icon": "star",
+      "description": "Der spektakuläre Bahnhof von 1907 wurde für Zar Alexander III. erbaut und besitzt den längsten überdachten Bahnsteig Europas (214 m). Historische Lokomotiven, Waggons und Kommunikationstechnik — das Gebäude selbst ist die Hauptattraktion.",
+      "duration": "45min-1h",
+      "price": "~€5",
+      "googleMapsUrl": "https://maps.google.com/?cid=13981255063952841244",
+      "placeId": "ChIJSY8VHnWn8kYRHFoKoWdlB8I",
+      "coordinates": { "lat": 58.938037300000005, "lng": 23.532210799999998 },
+      "rating": 4.5,
+      "userRatingCount": 964
+    },
+    {
+      "name": "Promenade & Tschaikowsky-Bank",
+      "type": "architecture",
+      "icon": "gem",
+      "description": "Die Uferpromenade mit Holzvillen aus dem 19. Jahrhundert und dem historischen Kuursaal (1898). Die Tschaikowsky-Bank spielt die ersten Noten seiner VI. Symphonie — eine romantische Hommage an seinen Haapsalu-Sommer.",
+      "duration": "45min-1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=11559145854162038169",
+      "placeId": "ChIJ-0gvV6On8kYRme1BUOlVaqA",
+      "coordinates": { "lat": 58.952655799999995, "lng": 23.532792999999998 },
+      "rating": 4.7,
+      "userRatingCount": 267
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Hapsal Dietrich",
+      "cuisine": "Modern Estnisch",
+      "priceRange": "€€",
+      "description": "Das bestbewertete Restaurant in Haapsalu — wunderschön restauriertes historisches Ambiente mit einem begrenzten, aber makellos zubereiteten Menü. Die hausgemachten Desserts sind legendär.",
+      "mustTry": "Saisonale estnische Gerichte und die berühmten Hausdesserts",
+      "googleMapsUrl": "https://maps.google.com/?cid=2109986377999360924",
+      "placeId": "ChIJjc4XEaKn8kYRnKOQfW4tSB0",
+      "coordinates": { "lat": 58.9474737, "lng": 23.5362755 },
+      "rating": 4.7,
+      "userRatingCount": 1418
+    },
+    {
+      "name": "Wiigi Kohvik",
+      "cuisine": "Französisch inspiriert",
+      "priceRange": "€€",
+      "description": "Französisch inspiriertes Café an der Uferpromenade mit offener und überdachter Terrasse. Gut zubereitete Steaks, frische Meeresfrüchte-Pasta und Salate mit Blick auf die Bucht.",
+      "mustTry": "Frische Meeresfrüchte-Pasta oder Steak mit Buchtblick",
+      "googleMapsUrl": "https://maps.google.com/?cid=2151243994171534358",
+      "placeId": "ChIJP5zXC6On8kYRFmzJ0QPB2h0",
+      "coordinates": { "lat": 58.95026300000001, "lng": 23.5331413 },
+      "rating": 4.7,
+      "userRatingCount": 1475
+    }
+  ],
+  "hotels": [],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Haapsalu liegt 98 km / 1,5 Stunden westlich von Tallinn — ideal als Halbtagesausflug oder als entspannter Zwischenstopp."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Ein Haapsalu Rätik (handgestrickter Spitzenschal) ist das perfekte Souvenir — die Haapsalu-Spitze ist weltberühmt und wird noch von Hand gefertigt."
+    },
+    {
+      "type": "info",
+      "text": "Weniger touristisch als Tallinn, dafür mit echtem estnischen Kleinstadtflair. Die Holzvillen und die Promenade erinnern an vergangene Grandezza."
+    }
+  ]
+}
