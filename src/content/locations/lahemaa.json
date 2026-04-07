@@ -102,6 +102,21 @@
       },
       "rating": 4.5,
       "userRatingCount": 605
+    },
+    {
+      "name": "Wöse",
+      "cuisine": "Estnisch / Nordisch",
+      "priceRange": "€-€€",
+      "description": "Modernes Restaurant im Küstendorf Võsu direkt am Meer zwischen Kiefern. Küchenchef Mart Klaas setzt auf regionale estnische Zutaten — eine zeitgemäße Alternative zur rustikalen Altja Kõrts.",
+      "mustTry": "Saisonale estnische Gerichte mit lokalen Zutaten",
+      "googleMapsUrl": "https://maps.google.com/?cid=6261272823562532441",
+      "placeId": "ChIJv-XlGtGuk0YRWXZAmnWC5FY",
+      "coordinates": {
+        "lat": 59.585330299999995,
+        "lng": 25.9725336
+      },
+      "rating": 4.5,
+      "userRatingCount": 320
     }
   ],
   "hotels": [

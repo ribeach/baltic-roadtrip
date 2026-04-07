@@ -1,0 +1,102 @@
+{
+  "id": "tartu",
+  "name": "Tartu",
+  "country": "estonia",
+  "coordinates": { "lat": 58.3780, "lng": 26.7285 },
+  "description": "Estlands geistige Hauptstadt und älteste Universitätsstadt des Baltikums verbindet akademische Tradition mit modernem Innovationsgeist. Das architektonisch spektakuläre Nationalmuseum auf einer ehemaligen sowjetischen Landebahn und das größte Wissenschaftszentrum des Baltikums machen Tartu zu einem lohnenden Abstecher — besonders seit dem Titel als Europäische Kulturhauptstadt 2024.",
+  "highlights": [
+    {
+      "name": "Estnisches Nationalmuseum (ERM)",
+      "type": "museum",
+      "icon": "star",
+      "description": "Ein architektonisches Meisterwerk: Das Museum erstreckt sich als 355 Meter langer gläserner Bau über eine ehemalige sowjetische Militärlandebahn. Interaktive Ausstellungen zur estnischen Geschichte und Kultur auf Weltklasse-Niveau.",
+      "duration": "2-3h",
+      "price": "~€15",
+      "googleMapsUrl": "https://maps.google.com/?cid=4271741711775898858",
+      "placeId": "ChIJkdlpAB4360YR6hyfRnRGSDs",
+      "coordinates": { "lat": 58.3953189, "lng": 26.744588399999998 },
+      "rating": 4.7,
+      "userRatingCount": 6273
+    },
+    {
+      "name": "AHHAA Wissenschaftszentrum",
+      "type": "museum",
+      "icon": "star",
+      "description": "Das größte Wissenschaftszentrum des Baltikums mit unzähligen interaktiven Exponaten, einem Planetarium und regelmäßigen Experimentiershows. Perfekt für Technikbegeisterte — hier wird Wissenschaft zum Erlebnis.",
+      "duration": "2h",
+      "price": "~€16",
+      "googleMapsUrl": "https://maps.google.com/?cid=682453840214536760",
+      "placeId": "ChIJO8ISs94260YROLKW4SaQeAk",
+      "coordinates": { "lat": 58.37670569999999, "lng": 26.7344106 },
+      "rating": 4.8,
+      "userRatingCount": 10502
+    },
+    {
+      "name": "Toomemägi (Domberg)",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Der idyllische Hügel im Herzen von Tartu mit den imposanten Ruinen der mittelalterlichen Domkirche (heute Universitätsmuseum), historischen Brücken und einem wunderschönen Park. Perfekt für einen ruhigen Spaziergang mit Blick über die Stadt.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=9224487325532302585",
+      "placeId": "ChIJW5r24uM260YR-SxyYVn2A4A",
+      "coordinates": { "lat": 58.380900000000004, "lng": 26.715899999999998 },
+      "rating": 4.7,
+      "userRatingCount": 65
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Werner",
+      "cuisine": "Café / Konditorei",
+      "priceRange": "€",
+      "description": "Legendäres Café am Rathausplatz mit einer über 100-jährigen Tradition — berühmt für die besten Torten Estlands. Geschichtsträchtiges Ambiente in historischen Gewölben.",
+      "mustTry": "Die berühmten Torten und Kuchen — Werner ist seit Generationen eine Tartu-Institution",
+      "googleMapsUrl": "https://maps.google.com/?cid=200465234080970107",
+      "placeId": "ChIJkbLFK-E260YRezU2exEyyAI",
+      "coordinates": { "lat": 58.38051809999999, "lng": 26.7209742 },
+      "rating": 4.7,
+      "userRatingCount": 2415
+    },
+    {
+      "name": "JOYCE",
+      "cuisine": "Modern Estnisch / Kreativ",
+      "priceRange": "€€",
+      "description": "Kreatives Restaurant im Quartier V mit Fokus auf frische, ästhetisch präsentierte estnische Küche. Ein Ort, der Tartus junge Gastro-Szene perfekt repräsentiert.",
+      "mustTry": "Saisonale Kreationen mit estnischen Zutaten",
+      "googleMapsUrl": "https://maps.google.com/?cid=10510987328137974862",
+      "placeId": "ChIJ_8PnV94260YRTtRLDEmH3pE",
+      "coordinates": { "lat": 58.376482, "lng": 26.728454199999998 },
+      "rating": 4.6,
+      "userRatingCount": 839
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Antonius Boutique Hotel",
+      "type": "Boutique-Hotel",
+      "priceRange": "100-130€",
+      "evCharging": false,
+      "description": "Historisches Boutique-Hotel direkt gegenüber der Universität in einem liebevoll restaurierten Gebäude. Zentrale Lage, ideal als Basis für Tartu.",
+      "googleMapsUrl": "https://maps.google.com/?cid=18267870385679109800",
+      "placeId": "ChIJhaif0uY260YRqA5IFVSDhP0",
+      "coordinates": { "lat": 58.381141899999996, "lng": 26.720727699999998 },
+      "rating": 4.8,
+      "userRatingCount": 382
+    }
+  ],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Tartu liegt 185 km / 2,5 Stunden südöstlich von Tallinn. Als Alternativroute bietet sich Riga → Tartu → Tallinn an (statt Küstenroute) — nur ca. 1,5 Stunden mehr."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Das Nationalmuseum liegt etwas außerhalb des Zentrums — mit Bolt oder Taxi in 10 Minuten erreichbar. Den Besuch am besten mit dem AHHAA-Zentrum im Stadtzentrum kombinieren."
+    },
+    {
+      "type": "info",
+      "text": "Tartu war 2024 Europäische Kulturhauptstadt — die Stadt hat seitdem noch mehr kulturelle Infrastruktur und Gastronomie als zuvor."
+    }
+  ]
+}

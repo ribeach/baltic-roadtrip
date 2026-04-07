@@ -1,0 +1,102 @@
+{
+  "id": "kuldiga",
+  "name": "Kuldīga",
+  "country": "latvia",
+  "coordinates": { "lat": 56.9678, "lng": 21.9702 },
+  "description": "Eine der atmosphärischsten Kleinstädte des Baltikums — mit dem breitesten Wasserfall Europas, einer historischen Backsteinbrücke und einer UNESCO-geschützten Holzarchitektur-Altstadt. Kuldīga belohnt vor allem jene, die sich einen Umweg gönnen und den langsamen Charme der lettischen Provinz genießen.",
+  "highlights": [
+    {
+      "name": "Ventas Rumba & Alte Backsteinbrücke",
+      "type": "nature",
+      "icon": "star",
+      "description": "Mit 249 Metern der breiteste natürliche Wasserfall Europas — kein tosender Riese, aber ein eindrucksvolles Naturschauspiel. Direkt daneben die historische Backsteinbrücke aus dem Jahr 1874, eine der längsten befahrbaren Europas. Im Mai kann man hier springende Fische beobachten.",
+      "duration": "1-1.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=14654828804408107178",
+      "placeId": "ChIJxyGJEbjb70YRqmDoKidpYMs",
+      "coordinates": { "lat": 56.968069899999996, "lng": 21.9793164 },
+      "rating": 4.9,
+      "userRatingCount": 3521
+    },
+    {
+      "name": "Altstadt Kuldīga",
+      "type": "historic",
+      "icon": "star",
+      "description": "UNESCO-geschützte Altstadt mit Holzhäusern aus dem 17. und 18. Jahrhundert, kleinen Galerien und einer authentischen Marktplatz-Atmosphäre. Kein Museum, sondern ein lebendiges Viertel mit echtem lettischen Kleinstadtcharme.",
+      "duration": "1.5-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=12966834266374537382",
+      "placeId": "ChIJyfbMwnva70YRpgCeZBBz87M",
+      "coordinates": { "lat": 56.970054299999994, "lng": 21.97756 },
+      "rating": 4.8,
+      "userRatingCount": 1059
+    },
+    {
+      "name": "Kuldīga Bezirksmuseum (Bangertu Villa)",
+      "type": "museum",
+      "icon": "info",
+      "description": "Anschauliches Regionalmuseum in einer historischen Villa mit Blick auf Wasserfall und Brücke. Erzählt die wechselvolle Geschichte der Stadt vom Kurländischen Herzogtum bis heute.",
+      "duration": "45-60min",
+      "price": "~€4",
+      "googleMapsUrl": "https://maps.google.com/?cid=1943014855037637497",
+      "placeId": "ChIJAw7Tn3va70YReVPTU7f59ho",
+      "coordinates": { "lat": 56.968225399999994, "lng": 21.9765263 },
+      "rating": 4.8,
+      "userRatingCount": 445
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Goldingen Room",
+      "cuisine": "Mediterran / Italienisch",
+      "priceRange": "€€",
+      "description": "Direkt am Marktplatz gelegen — sehr gute Steinofenpizza, Pasta und eine solide Weinkarte. Entspannte Atmosphäre in der Kuldīga-Altstadt.",
+      "mustTry": "Steinofenpizza oder Pasta mit regionalen Zutaten",
+      "googleMapsUrl": "https://maps.google.com/?cid=4574334967024920575",
+      "placeId": "ChIJ--fAv3ra70YR_ycrqWpNez8",
+      "coordinates": { "lat": 56.967880199999996, "lng": 21.9705186 },
+      "rating": 4.5,
+      "userRatingCount": 1874
+    },
+    {
+      "name": "Pagrabiņš",
+      "cuisine": "Lettische Hausmannskost",
+      "priceRange": "€€",
+      "description": "Gemütlicher Gewölbekeller im Zentrum mit traditioneller lettischer Küche. Authentische Gerichte in urigem Ambiente — ein Geheimtipp für Einheimische.",
+      "mustTry": "Lettische Hausmannskost und saisonale Gerichte",
+      "googleMapsUrl": "https://maps.google.com/?cid=3365276406149823315",
+      "placeId": "ChIJQdsrwHra70YRUzuQtw_dsy4",
+      "coordinates": { "lat": 56.967712999999996, "lng": 21.971038 },
+      "rating": 4.4,
+      "userRatingCount": 2009
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Boutique Hotel Virkas Muiža",
+      "type": "Boutique-Hotel",
+      "priceRange": "90-110€",
+      "evCharging": false,
+      "description": "Stilvolles Boutique-Hotel im historischen Herrenhaus, nur wenige Gehminuten von Wasserfall und Altstadt. Ideal für eine Übernachtung, um Kuldīga in Ruhe zu genießen.",
+      "googleMapsUrl": "https://maps.google.com/?cid=9620035398418633757",
+      "placeId": "ChIJq_fl_i3b70YRHRRtyTk7gYU",
+      "coordinates": { "lat": 56.9794961, "lng": 21.962495099999998 },
+      "rating": 4.6,
+      "userRatingCount": 569
+    }
+  ],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Kuldīga liegt ca. 150km westlich von Riga — ein lohnender Abstecher, aber kein schneller Zwischenstopp. Am besten als Übernachtung einplanen."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Kuldīga wirkt abends am schönsten, wenn die Tagestouristen weg sind. Im Mai blüht der Wasserfall besonders eindrucksvoll, und man kann springende Fische (Vimba) beobachten."
+    },
+    {
+      "type": "warnung",
+      "text": "Kleinere Museen und Lokale haben in der Vorsaison (Mai) teils eingeschränkte Öffnungstage — 2-3 Tage vorher online prüfen."
+    }
+  ]
+}

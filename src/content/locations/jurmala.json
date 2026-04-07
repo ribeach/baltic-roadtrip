@@ -1,0 +1,100 @@
+{
+  "id": "jurmala",
+  "name": "Jūrmala",
+  "country": "latvia",
+  "coordinates": { "lat": 56.9680, "lng": 23.7726 },
+  "description": "Lettlands legendärer Badeort erstreckt sich über 32 Kilometer entlang des Rigaer Meerbusens. Hinter dem breiten Sandstrand verbirgt sich eine einzigartige Sammlung pastellfarbener Holzvillen im Jugendstil — Sommerresidenzen des russischen Adels und später der sowjetischen Elite. Nur 25 Minuten von Riga entfernt, ist Jūrmala der perfekte Halbtagesausflug.",
+  "highlights": [
+    {
+      "name": "Jomas iela & Holzvillen-Architektur",
+      "type": "architecture",
+      "icon": "star",
+      "description": "Die 1,1 km lange Fußgängerzone ist das Herz von Jūrmala — gesäumt von Cafés, Boutiquen und den typischen pastellfarbenen Holzvillen mit Türmchen, verglasten Veranden und filigranen Schnitzereien.",
+      "duration": "1-1.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=11413228853482312287",
+      "placeId": "ChIJw4SDcxvd7kYRX1INICzvY54",
+      "coordinates": { "lat": 56.9730044, "lng": 23.8011081 }
+    },
+    {
+      "name": "Dzintari-Waldpark & Baumkronenpfad",
+      "type": "nature",
+      "icon": "star",
+      "description": "Ein weitläufiger Kiefernwald mit Spazierwegen und einem Baumkronenpfad samt Aussichtsturm. Direkt neben dem ikonischen Dzintari-Konzerthaus von 1936 — ein Ort, an dem Natur und Kultur verschmelzen.",
+      "duration": "1-1.5h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=4112214712652489275",
+      "placeId": "ChIJzd1X_-Dc7kYRO2LJY36FETk",
+      "coordinates": { "lat": 56.9760157, "lng": 23.818993000000003 },
+      "rating": 4.8,
+      "userRatingCount": 11211
+    },
+    {
+      "name": "Strand Majori",
+      "type": "nature",
+      "icon": "info",
+      "description": "Der Hauptstrand von Jūrmala mit feinem weißen Sand und einer langen Promenade. Anfang Mai angenehm ruhig — die Saison beginnt gerade erst, aber die Atmosphäre ist bereits wunderbar.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=17845830570892258361",
+      "placeId": "ChIJ0VL-gxnd7kYROezWW1ogqfc",
+      "coordinates": { "lat": 56.977090999999994, "lng": 23.798246 },
+      "rating": 4.7,
+      "userRatingCount": 692
+    },
+    {
+      "name": "Stadtmuseum Jūrmala",
+      "type": "museum",
+      "icon": "info",
+      "description": "Kleines, gut kuratiertes Museum in einem Jugendstil-Gebäude von 1903 — erzählt die Geschichte des Badeorts von der Zarenzeit über die sowjetischen Sanatorien bis heute.",
+      "duration": "45min",
+      "price": "~€3",
+      "googleMapsUrl": "https://maps.google.com/?cid=11411321055024909849",
+      "placeId": "ChIJ_4HWwBzd7kYRGQ6yLgooXZ4",
+      "coordinates": { "lat": 56.9712396, "lng": 23.801396999999998 },
+      "rating": 4.5,
+      "userRatingCount": 689
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "36.line Grill Restaurant",
+      "cuisine": "Baltische Fusionsküche",
+      "priceRange": "€€",
+      "description": "Vom Michelin Guide gelistetes Restaurant mit baltischer Fusionsküche — Gerichte wie Ostsee-Hering-Sushi und frisch gegrillter Fisch. Kreativ und regional.",
+      "mustTry": "Saisonale baltische Spezialitäten und frischer Fisch vom Grill",
+      "googleMapsUrl": "https://maps.google.com/?cid=6047752741537252467",
+      "placeId": "ChIJrVcNnlrD7kYRcwS5eBPv7VM",
+      "coordinates": { "lat": 56.971496699999996, "lng": 23.7703049 },
+      "rating": 4.6,
+      "userRatingCount": 2843
+    },
+    {
+      "name": "Light House Jūrmala",
+      "cuisine": "Meeresfrüchte / Mediterran",
+      "priceRange": "€€",
+      "description": "Gehobenes Fischrestaurant direkt am Strand mit frischem Fang und mediterranen Akzenten. Tolle Atmosphäre mit Meerblick.",
+      "mustTry": "Frischer Fisch und Meeresfrüchte der Saison",
+      "googleMapsUrl": "https://maps.google.com/?cid=16457075944786451463",
+      "placeId": "ChIJK60xvUfQ7kYRB1yf4mBHY-Q",
+      "coordinates": { "lat": 56.980795, "lng": 23.8225962 },
+      "rating": 4.5,
+      "userRatingCount": 1345
+    }
+  ],
+  "hotels": [],
+  "tips": [
+    {
+      "type": "warnung",
+      "text": "Von April bis September ist eine Autoeinfahrt-Genehmigung für Jūrmala nötig (€5/Tag). Bezahlung über die Mobilly-App oder an den Einfahrtstationen."
+    },
+    {
+      "type": "info",
+      "text": "Nur 25 km von Riga entfernt — perfekt als Halbtagesausflug. Lässt sich gut mit dem Ķemeri-Moor-Steg kombinieren, der in der gleichen Gemeinde liegt."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Im Mai ist Jūrmala angenehm leer — die Hochsaison beginnt erst im Juni. Perfekte Zeit für entspannte Spaziergänge ohne Menschenmassen."
+    }
+  ]
+}

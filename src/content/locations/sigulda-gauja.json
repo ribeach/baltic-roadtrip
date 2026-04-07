@@ -120,6 +120,21 @@
       },
       "rating": 4.7,
       "userRatingCount": 967
+    },
+    {
+      "name": "Kungu Rija",
+      "cuisine": "Lettische Landküche",
+      "priceRange": "€€",
+      "description": "Rustikales Blockhaus-Restaurant nahe der Turaida-Burg — das bestbewertete Restaurant in Sigulda. Wild, Forelle und saisonale Waldprodukte in stimmungsvollem Ambiente.",
+      "mustTry": "Forelle, Wildgerichte oder saisonale Pilz- und Beerengerichte aus den Gauja-Wäldern",
+      "googleMapsUrl": "https://maps.google.com/?cid=10640760388541355731",
+      "placeId": "ChIJ8X4ALNxR6UYR0xYOOzKTq5M",
+      "coordinates": {
+        "lat": 57.1844402,
+        "lng": 24.832924
+      },
+      "rating": 4.7,
+      "userRatingCount": 1780
     }
   ],
   "hotels": [

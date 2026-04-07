@@ -41,7 +41,23 @@
       "userRatingCount": 13803
     }
   ],
-  "restaurants": [],
+  "restaurants": [
+    {
+      "name": "Restorāns Rezidence",
+      "cuisine": "Modern Lettisch / Europäisch",
+      "priceRange": "€€",
+      "description": "Direkt am Eingang zum Schloss Rundāle gelegen — modernes lettisches Restaurant mit Produkten lokaler Erzeuger. Besonders empfohlen: Ziegenkäse vom Hof Celmi und hausgemachtes Pesto.",
+      "mustTry": "Lokaler Celmi-Ziegenkäse und hausgemachte Suppen",
+      "googleMapsUrl": "https://maps.google.com/?cid=6531489295868836861",
+      "placeId": "ChIJk8VDKFTJ6EYR_TuHxuiCpFo",
+      "coordinates": {
+        "lat": 56.4161515,
+        "lng": 24.029671399999998
+      },
+      "rating": 4.6,
+      "userRatingCount": 525
+    }
+  ],
   "hotels": [],
   "tips": [
     {

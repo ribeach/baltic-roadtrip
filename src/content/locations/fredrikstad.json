@@ -1,0 +1,87 @@
+{
+  "id": "fredrikstad",
+  "name": "Fredrikstad",
+  "country": "norway",
+  "coordinates": { "lat": 59.2181, "lng": 10.9298 },
+  "description": "Die besterhaltene Festungsstadt Nordeuropas ist kein Museum, sondern ein lebendiges Städtchen innerhalb sternförmiger Bastionen aus dem Jahr 1567. Kopfsteinpflaster, ockerfarbene Holzhäuser, Wallgräben und Kasematten — Fredrikstad liegt direkt auf der E6 zwischen Oslo und Schweden und ist der perfekte Zwischenstopp auf dem langen Fahrtag nach Kopenhagen.",
+  "highlights": [
+    {
+      "name": "Gamlebyen — Festungsstadt",
+      "type": "historic",
+      "icon": "star",
+      "description": "Die sternförmige Festungsanlage aus dem 17. Jahrhundert ist die besterhaltene Nordeuropas und wird bis heute von rund 350 Menschen bewohnt. Der Rundgang auf den Wällen, durch den Graben und die Kopfsteinpflastergassen ist ein Eintauchen in 450 Jahre Militärgeschichte — mit Künstlerateliers und Cafés statt Kanonen.",
+      "duration": "1.5-2h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=12524368367340176419",
+      "placeId": "ChIJb5lgqTADREYRI0RzU6x-z60",
+      "coordinates": { "lat": 59.20322299999999, "lng": 10.953025499999999 }
+    },
+    {
+      "name": "Kongsten Fort",
+      "type": "historic",
+      "icon": "gem",
+      "description": "Separate Hügelfestung aus den 1680er Jahren, fünf Gehminuten östlich der Altstadt. Die Aussicht von den Wällen über den Glomma-Fluss und die umliegende Landschaft ist hervorragend — ein ruhiger, panoramareicher Abstecher.",
+      "duration": "20min",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=12373110829511040050",
+      "placeId": "ChIJHUxmWjQDREYRMlyLb74etqs",
+      "coordinates": { "lat": 59.19774100000001, "lng": 10.962722 },
+      "rating": 4.4,
+      "userRatingCount": 327
+    },
+    {
+      "name": "Fredrikstad Museum",
+      "type": "museum",
+      "icon": "info",
+      "description": "In ehemaligen Arsenalgebäuden innerhalb der Festung untergebracht. Maßstabsmodelle der Altstadt, 450 Jahre Zivil- und Militärgeschichte und eine WWII-Ausstellung ('Operation Polar Bear').",
+      "duration": "45min",
+      "price": "~NOK 80",
+      "googleMapsUrl": "https://maps.google.com/?cid=1218159178631464544",
+      "placeId": "ChIJnxnF4jEDREYRYMY1olHF5xA",
+      "coordinates": { "lat": 59.20198369999999, "lng": 10.9520258 },
+      "rating": 4.5,
+      "userRatingCount": 163
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Majorens Kro og Stue",
+      "cuisine": "Traditionell Norwegisch",
+      "priceRange": "€€",
+      "description": "Seit 1990 Institution in der Festungsstadt — mit drei Bereichen: Kroa (informelle Pub-Seite), Stua (À-la-carte) und Krohaven (Innenhof mit Blumen). Perfekt für einen Mittagsstopp in historischem Ambiente.",
+      "mustTry": "Norwegische Hausmannskost mit saisonalen Zutaten",
+      "googleMapsUrl": "https://maps.google.com/?cid=2961085320041675135",
+      "placeId": "ChIJD2HLtTEDREYRfzm1-mjjFyk",
+      "coordinates": { "lat": 59.20330739999999, "lng": 10.9551628 },
+      "rating": 4.1,
+      "userRatingCount": 545
+    },
+    {
+      "name": "Restaurant Slippen",
+      "cuisine": "Norwegische Fischküche",
+      "priceRange": "€€-€€€",
+      "description": "Das einzige White-Guide-gelistete Restaurant im Østfold — in einer ehemaligen Werkhalle am Flussufer. Saisonale 3- und 5-Gänge-Menüs mit Fokus auf frischen Fang. Heilbutt und Makrele besonders empfohlen.",
+      "mustTry": "Fisch des Tages oder das saisonale Degustationsmenü",
+      "googleMapsUrl": "https://maps.google.com/?cid=1717130271072575979",
+      "placeId": "ChIJcTC98NgCREYR6-FZQOJ41Bc",
+      "coordinates": { "lat": 59.2120906, "lng": 10.9340265 },
+      "rating": 4.6,
+      "userRatingCount": 1229
+    }
+  ],
+  "hotels": [],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Fredrikstad liegt direkt an der E6 — perfekter Vormittagsstopp auf dem Weg von Oslo nach Schweden. Abfahrt Oslo 08:00, Ankunft 09:15, 2-3 Stunden erkunden, Mittagessen, weiter Richtung Göteborg."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Die kostenlose Stadtfähre über den Glomma-Fluss verbindet die Altstadt mit dem modernen Stadtzentrum — eine kurze, atmosphärische Überfahrt."
+    },
+    {
+      "type": "info",
+      "text": "Samstags findet in der Gamlebyen ein stimmungsvoller Markt statt — Handwerk, Antiquitäten und lokale Spezialitäten."
+    }
+  ]
+}
