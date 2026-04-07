@@ -142,8 +142,21 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           map.setZoom(zoom);
         }
 
-        // Shared info window (reused across markers)
-        const infoWindow = new InfoWindow();
+        // Shared info window (reused across markers), header disabled to avoid white space
+        const infoWindow = new InfoWindow({ headerDisabled: true });
+
+        // Helper: wrap content in a container with a close button
+        function wrapWithClose(content: HTMLElement): HTMLElement {
+          const wrapper = document.createElement('div');
+          wrapper.style.cssText = 'position: relative;';
+          const closeBtn = document.createElement('button');
+          closeBtn.textContent = '\u00d7';
+          closeBtn.style.cssText = 'position: absolute; bottom: 4px; right: 4px; z-index: 1; background: rgba(0,0,0,0.5); color: #fff; border: none; border-radius: 50%; width: 24px; height: 24px; font-size: 16px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center;';
+          closeBtn.addEventListener('click', () => infoWindow.close());
+          wrapper.appendChild(closeBtn);
+          wrapper.appendChild(content);
+          return wrapper;
+        }
 
         // AdvancedMarkerElement with custom HTML for circular markers
         // Assigned (default) locations get amber markers; unassigned get muted gray
@@ -198,7 +211,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
                 navLink.textContent = loc.dayNumber ? `Tag ${loc.dayNumber} →` : `${loc.name} entdecken →`;
                 wrapper.appendChild(navLink);
               }
-              infoWindow.setContent(wrapper);
+              infoWindow.setContent(wrapWithClose(wrapper));
             } else {
               const content = document.createElement('div');
               content.style.cssText = 'padding: 4px 8px; font-family: Inter, system-ui, sans-serif;';
@@ -229,7 +242,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
                   content.appendChild(span);
                 }
               }
-              infoWindow.setContent(content);
+              infoWindow.setContent(wrapWithClose(content));
             }
             infoWindow.open({ map, anchor: marker });
           });
@@ -296,7 +309,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
 
               placeDetails.appendChild(document.createElement('gmp-place-all-content'));
 
-              infoWindow.setContent(placeDetails);
+              infoWindow.setContent(wrapWithClose(placeDetails));
             } else {
               // Fallback: simple name + link
               const content = document.createElement('div');
@@ -312,7 +325,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
               link.style.cssText = 'color: #e6a919; font-size: 12px; text-decoration: none; font-weight: 500;';
               link.textContent = 'In Google Maps öffnen →';
               content.appendChild(link);
-              infoWindow.setContent(content);
+              infoWindow.setContent(wrapWithClose(content));
             }
             infoWindow.open({ map, anchor: marker });
           });
