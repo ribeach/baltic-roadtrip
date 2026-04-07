@@ -6,7 +6,7 @@ import RestaurantCard from '../../components/RestaurantCard.astro';
 import NightlifeCard from '../../components/NightlifeCard.astro';
 import RouteMap from '../../components/RouteMap.tsx';
 import { getCollection } from 'astro:content';
-import { resolveRef, getBase, collectLocationPois, deduplicateMapPois } from '../../lib/content';
+import { resolveRef, getBase, createLocationFinder, collectLocationPois, deduplicateMapPois } from '../../lib/content';
 
 export async function getStaticPaths() {
   const days = await getCollection('days');
@@ -23,19 +23,19 @@ const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER'
 const allLocations = await getCollection('locations');
 const allDays = await getCollection('days');
 
-const findLoc = (refVal: string) => allLocations.find(l => l.id === refVal || l.data.id === refVal);
+const findLoc = createLocationFinder(allLocations);
 
-const location = findLoc(resolveRef(day.locationId));
-const prevLocation = day.previousLocationId ? findLoc(resolveRef(day.previousLocationId)) : null;
+const location = findLoc(day.locationId);
+const prevLocation = day.previousLocationId ? findLoc(day.previousLocationId) : null;
 
 const additionalLocationRefs = day.additionalLocationIds || [];
 const additionalLocations = additionalLocationRefs
-  .map((ref) => findLoc(resolveRef(ref)))
+  .map((ref) => findLoc(ref))
   .filter(Boolean);
 
 const transitLocationRefs = day.transitLocationIds || [];
 const transitLocations = transitLocationRefs
-  .map((ref: any) => findLoc(resolveRef(ref)))
+  .map((ref: any) => findLoc(ref))
   .filter(Boolean);
 
 // Index-based prev/next — handles gaps in dayNumber gracefully

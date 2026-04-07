@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import DayCard from '../components/DayCard.astro';
 import RouteMap from '../components/RouteMap.tsx';
 import { getCollection } from 'astro:content';
-import { resolveRef, getBase } from '../lib/content';
+import { resolveRef, getBase, createLocationFinder } from '../lib/content';
 
 const allDays = await getCollection('days');
 const allLocations = await getCollection('locations');
@@ -11,6 +11,7 @@ const allLocations = await getCollection('locations');
 const days = allDays.sort((a, b) => a.data.dayNumber - b.data.dayNumber);
 
 const base = getBase();
+const findLoc = createLocationFinder(allLocations);
 
 // Build set of location IDs that are assigned to days
 const assignedLocationIds = new Set<string>();
@@ -27,7 +28,7 @@ const mapLocations = days
     // Insert transit waypoints (in order) before the day's main location
     for (const tRef of day.data.transitLocationIds || []) {
       const tId = resolveRef(tRef);
-      const tLoc = allLocations.find(l => l.id === tId || l.data.id === tId);
+      const tLoc = findLoc(tId);
       if (tLoc && !acc.find(a => a.id === tLoc.data.id)) {
         acc.push({
           id: tLoc.data.id,
@@ -41,7 +42,7 @@ const mapLocations = days
       }
     }
     const locId = resolveRef(day.data.locationId);
-    const loc = allLocations.find(l => l.id === locId || l.data.id === locId);
+    const loc = findLoc(locId);
     if (loc && !acc.find(a => a.id === loc.data.id)) {
       acc.push({
         id: loc.data.id,
@@ -57,7 +58,7 @@ const mapLocations = days
   }, [] as Array<{ id: string; name: string; lat: number; lng: number; dayNumber?: number; link: string; label?: string; assigned?: boolean }>);
 
 // Close the loop: Aalen is start and end of the circular route
-const aalenLoc = allLocations.find(l => l.data.id === 'aalen');
+const aalenLoc = findLoc('aalen');
 if (aalenLoc) {
   const aalenIdx = mapLocations.findIndex(loc => loc.id === 'aalen');
   if (aalenIdx !== -1) {
@@ -101,7 +102,7 @@ const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER'
 const plannedDays = days.filter(d => ['planned', 'completed'].includes(d.data.status ?? 'planned'));
 const visitedCountries = new Set(
   plannedDays.map(d => {
-    const loc = allLocations.find(l => l.id === resolveRef(d.data.locationId) || l.data.id === resolveRef(d.data.locationId));
+    const loc = findLoc(d.data.locationId);
     return loc?.data.country;
   }).filter(Boolean)
 );
@@ -116,7 +117,7 @@ const stats = [
 // Dynamic city sequence from planned days
 const routeCities = plannedDays
   .map(d => {
-    const loc = allLocations.find(l => l.id === resolveRef(d.data.locationId) || l.data.id === resolveRef(d.data.locationId));
+    const loc = findLoc(d.data.locationId);
     return loc?.data.name;
   })
   .filter(Boolean) as string[];
