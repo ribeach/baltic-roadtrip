@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
-import { resolveRef } from '../lib/content';
+import { resolveRef, createLocationFinder } from '../lib/content';
 
 function formatDate(date: Date): string {
   const d = new Date(date);
@@ -15,11 +15,7 @@ export const GET: APIRoute = async () => {
     getCollection('countries'),
   ]);
 
-  const locMap = new Map(locations.map(l => [l.id, l]));
-  const findLoc = (ref: { id: string; collection: string } | string) => {
-    const id = resolveRef(ref);
-    return locMap.get(id) || locations.find(l => l.data.id === id);
-  };
+  const findLoc = createLocationFinder(locations);
 
   const sortedDays = [...days].sort((a, b) => a.data.dayNumber - b.data.dayNumber);
 

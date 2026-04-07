@@ -18,6 +18,20 @@ export const resolveRef = (ref: ContentRef | string): string =>
 export const getBase = () => import.meta.env.BASE_URL.replace(/\/?$/, '/');
 
 /* ------------------------------------------------------------------ */
+/*  Location finder — O(1) lookup by entry ID or data.id              */
+/* ------------------------------------------------------------------ */
+
+/** Build a location finder that handles both Astro entry IDs and JSON data.id. */
+export function createLocationFinder(locations: { id: string; data: { id: string } }[]) {
+  const byId = new Map<string, (typeof locations)[number]>();
+  for (const l of locations) {
+    byId.set(l.id, l);
+    if (l.data.id !== l.id) byId.set(l.data.id, l);
+  }
+  return (ref: ContentRef | string) => byId.get(resolveRef(ref));
+}
+
+/* ------------------------------------------------------------------ */
 /*  Map POI helpers — collect from all category arrays & deduplicate   */
 /* ------------------------------------------------------------------ */
 
