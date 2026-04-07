@@ -207,6 +207,21 @@
       },
       "rating": 3.9,
       "userRatingCount": 3418
+    },
+    {
+      "name": "Riccardo Glassfabrik",
+      "cuisine": "Eiscafé / Gelato",
+      "priceRange": "€",
+      "description": "Persönlicher Favorit aus der Zeit in Halmstad. Handgemachtes italienisches Eis in einer alten Glasfabrik in Möllegård — gilt als das beste Eis in ganz Halland.",
+      "mustTry": "Tagesaktuelle Sorten probieren",
+      "googleMapsUrl": "https://maps.google.com/?cid=12863427426375152878",
+      "placeId": "ChIJKVXjgwC9UUYR7rQbRxcThLI",
+      "coordinates": {
+        "lat": 56.669456,
+        "lng": 12.760737
+      },
+      "rating": 4.4,
+      "userRatingCount": 2082
     }
   ],
   "hotels": [
