@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import RouteMap from '../components/RouteMap.tsx';
 import { getCollection } from 'astro:content';
 import { resolveRef, getBase } from '../lib/content';
+import { COUNTRY_ORDER } from '../lib/constants';
 
 const base = getBase();
 const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER';
@@ -45,8 +46,7 @@ const mapLocations = allLocations.map(loc => {
 });
 
 // Group locations by country
-const countryOrder = ['germany', 'czech-republic', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden', 'norway', 'denmark'];
-const locationsByCountry = countryOrder
+const locationsByCountry = COUNTRY_ORDER
   .map(cid => {
     const country = findCountry(cid);
     const locs = allLocations

@@ -7,6 +7,7 @@ import NightlifeCard from '../../components/NightlifeCard.astro';
 import RouteMap from '../../components/RouteMap.tsx';
 import { getCollection } from 'astro:content';
 import { resolveRef, getBase, createLocationFinder, collectLocationPois, deduplicateMapPois } from '../../lib/content';
+import { STATUS_LABELS, STATUS_COLORS } from '../../lib/constants';
 
 export async function getStaticPaths() {
   const days = await getCollection('days');
@@ -45,8 +46,8 @@ const prevDay = currentIndex > 0 ? sortedDays[currentIndex - 1] : null;
 const nextDay = currentIndex < sortedDays.length - 1 ? sortedDays[currentIndex + 1] : null;
 
 // Status label for badge
-const statusLabel = { completed: 'Erledigt', planned: 'Geplant', idea: 'Idee' }[day.status ?? 'planned'];
-const statusColor = { completed: 'bg-green-100 text-green-700', planned: 'bg-amber-100 text-amber-700', idea: 'bg-gray-100 text-gray-500' }[day.status ?? 'planned'];
+const statusLabel = STATUS_LABELS[day.status ?? 'planned'];
+const statusColor = STATUS_COLORS[day.status ?? 'planned'];
 
 const dateObj = new Date(day.date);
 dateObj.setHours(12);

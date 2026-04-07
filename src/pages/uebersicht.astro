@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { resolveRef, getBase, createLocationFinder } from '../lib/content';
+import { COUNTRY_ORDER } from '../lib/constants';
 
 const base = getBase();
 
@@ -14,8 +15,7 @@ const days = allDays.sort((a, b) => a.data.dayNumber - b.data.dayNumber);
 const findLoc = createLocationFinder(allLocations);
 const findCountry = (id: string) => allCountries.find(c => c.data.id === id);
 
-const countryOrder = ['germany', 'czech-republic', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden', 'norway', 'denmark'];
-const locationsByCountry = countryOrder
+const locationsByCountry = COUNTRY_ORDER
   .map(cid => {
     const country = findCountry(cid);
     const locs = allLocations
