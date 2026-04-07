@@ -49,14 +49,14 @@ const typeLabels: Record<string, string> = {
         <span class="text-xl mt-0.5">{iconMap[icon]}</span>
         <div>
           <h4 class="font-semibold text-navy-800">{name}</h4>
-          <span class="text-xs text-gray-400 uppercase tracking-wide">{typeLabels[type] || type}</span>
+          <span class="text-xs text-gray-500 uppercase tracking-wide">{typeLabels[type] || type}</span>
         </div>
       </div>
     </div>
     {note && <p class="text-sm text-amber-600 italic mb-2">{note}</p>}
     <p class="text-sm text-gray-600 mb-3">{description}</p>
     <div class="flex items-center justify-between">
-      <div class="flex items-center gap-3 text-xs text-gray-400">
+      <div class="flex items-center gap-3 text-xs text-gray-500">
         {duration && <span>🕐 {duration}</span>}
         {price && <span>💰 {price}</span>}
         <RatingDisplay rating={rating} userRatingCount={userRatingCount} />

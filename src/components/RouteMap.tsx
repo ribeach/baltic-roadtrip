@@ -101,8 +101,10 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
 
         const mapsLib = await importLibrary('maps') as google.maps.MapsLibrary;
         const markerLib = await importLibrary('marker') as google.maps.MarkerLibrary;
-        // Load places library so gmp-place-details-compact web component is registered
-        await importLibrary('places');
+        // Load places library only when POIs need rich info cards
+        if (pois.length > 0) {
+          await importLibrary('places');
+        }
 
         if (cancelled || !mapRef.current) return;
 
