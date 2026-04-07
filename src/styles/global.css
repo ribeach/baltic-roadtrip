@@ -55,4 +55,10 @@
   h1, h2, h3, h4 {
     @apply font-bold tracking-tight font-display;
   }
+
+  a:focus-visible,
+  button:focus-visible,
+  [role="button"]:focus-visible {
+    @apply outline-2 outline-offset-2 outline-amber-400 rounded-sm;
+  }
 }

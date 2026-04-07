@@ -53,22 +53,22 @@ const evRules = [
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
         <div>
           <div class="text-amber-400 font-bold text-lg">VW ID.4</div>
-          <div class="text-gray-400 text-sm">Baujahr 2021</div>
+          <div class="text-gray-500 text-sm">Baujahr 2021</div>
         </div>
         <div>
           <div class="text-amber-400 font-bold text-lg">77 kWh</div>
-          <div class="text-gray-400 text-sm">Batteriekapazität</div>
+          <div class="text-gray-500 text-sm">Batteriekapazität</div>
         </div>
         <div>
           <div class="text-amber-400 font-bold text-lg">350–400 km</div>
-          <div class="text-gray-400 text-sm">Reale Reichweite</div>
+          <div class="text-gray-500 text-sm">Reale Reichweite</div>
         </div>
         <div>
           <div class="text-amber-400 font-bold text-lg">bis 135 kW</div>
-          <div class="text-gray-400 text-sm">Max. Ladeleistung (DC)</div>
+          <div class="text-gray-500 text-sm">Max. Ladeleistung (DC)</div>
         </div>
       </div>
-      <p class="text-sm text-gray-400 mt-4">Tipp: Immer über das Fahrzeug-Navi zur Ladesäule navigieren — die Batterie wird thermisch vorkonditioniert für schnelleres Laden.</p>
+      <p class="text-sm text-gray-500 mt-4">Tipp: Immer über das Fahrzeug-Navi zur Ladesäule navigieren — die Batterie wird thermisch vorkonditioniert für schnelleres Laden.</p>
     </section>
 
     <!-- EV Charging by Country -->
@@ -116,7 +116,7 @@ const evRules = [
           </tbody>
         </table>
       </div>
-      <p class="text-xs text-gray-400 mt-2">*Geschätzt für 10→80% Ladung (ca. 54 kWh). Preise variieren je nach Anbieter und Tageszeit.</p>
+      <p class="text-xs text-gray-500 mt-2">*Geschätzt für 10→80% Ladung (ca. 54 kWh). Preise variieren je nach Anbieter und Tageszeit.</p>
     </section>
 
     <!-- Essential Apps -->
@@ -186,7 +186,7 @@ const evRules = [
           </tbody>
         </table>
       </div>
-      <p class="text-xs text-gray-400 mt-2">Abblendlicht 24/7 Pflicht in allen Ländern außer Deutschland (dort nur bei schlechter Sicht). Niedrige Promillegrenzen (0,2–0,5 ‰). Estland: Feuerlöscher + Unterlegkeil Pflicht! Litauen: Feuerlöscher Pflicht.</p>
+      <p class="text-xs text-gray-500 mt-2">Abblendlicht 24/7 Pflicht in allen Ländern außer Deutschland (dort nur bei schlechter Sicht). Niedrige Promillegrenzen (0,2–0,5 ‰). Estland: Feuerlöscher + Unterlegkeil Pflicht! Litauen: Feuerlöscher Pflicht.</p>
     </section>
 
     <!-- Tolls -->
@@ -198,7 +198,7 @@ const evRules = [
             <h3 class="font-semibold text-navy-800">{country.data.flag} {country.data.name}</h3>
             <p class="text-sm text-gray-600 mt-1">{country.data.driving.tolls}</p>
             {country.data.driving.specialRules && (
-              <p class="text-xs text-gray-400 mt-1">Besonderheit: {country.data.driving.specialRules}</p>
+              <p class="text-xs text-gray-500 mt-1">Besonderheit: {country.data.driving.specialRules}</p>
             )}
           </div>
         ))}
@@ -329,7 +329,7 @@ const evRules = [
                 <div class="text-sm text-amber-500">{ferry.price}</div>
               </div>
             </div>
-            <p class="text-xs text-gray-400 mt-2">{ferry.note}</p>
+            <p class="text-xs text-gray-500 mt-2">{ferry.note}</p>
           </div>
         ))}
       </div>

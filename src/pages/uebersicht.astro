@@ -67,13 +67,13 @@ const modeEmoji = (mode: string) => {
                   {day.data.dayNumber}
                 </span>
                 <div class="min-w-0">
-                  <p class="text-xs text-gray-400">{formatDate(day.data.date)}</p>
+                  <p class="text-xs text-gray-500">{formatDate(day.data.date)}</p>
                   <h3 class="font-semibold text-navy-800 group-hover:text-teal-600 transition-colors text-sm leading-tight">
                     {day.data.title}
                   </h3>
                   {loc && <p class="text-xs text-gray-500 mt-1">📍 {loc.data.name}</p>}
                   {day.data.driving?.distance && (
-                    <p class="text-xs text-gray-400 mt-1">
+                    <p class="text-xs text-gray-500 mt-1">
                       {modeEmoji(day.data.driving.mode)} {day.data.driving.distance}
                     </p>
                   )}
@@ -102,7 +102,7 @@ const modeEmoji = (mode: string) => {
                 <h4 class="font-semibold text-navy-800 group-hover:text-teal-600 transition-colors">
                   {loc.data.name}
                 </h4>
-                <p class="text-xs text-gray-400 mt-1">
+                <p class="text-xs text-gray-500 mt-1">
                   {loc.data.highlights.length} Highlight{loc.data.highlights.length !== 1 ? 's' : ''}
                   · {loc.data.restaurants.length} Restaurant{loc.data.restaurants.length !== 1 ? 's' : ''}
                 </p>

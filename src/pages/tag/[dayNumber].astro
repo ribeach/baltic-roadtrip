@@ -130,7 +130,7 @@ const cityMapLocations = showCityMap ? [{
 <BaseLayout title={`Tag ${day.dayNumber}: ${day.title}`}>
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <!-- Breadcrumb -->
-    <div class="flex items-center gap-2 text-sm text-gray-400 mb-6">
+    <div class="flex items-center gap-2 text-sm text-gray-500 mb-6">
       <a href={base} class="hover:text-teal-600 transition-colors">Route</a>
       <span>/</span>
       <span class="text-navy-800 font-medium">Tag {day.dayNumber}</span>
@@ -361,7 +361,7 @@ const cityMapLocations = showCityMap ? [{
         <a href={`${base}tag/${prevDay.data.dayNumber}`} class="flex items-center gap-2 text-navy-800 hover:text-teal-600 transition-colors">
           <span>←</span>
           <div>
-            <div class="text-xs text-gray-400">Tag {prevDay.data.dayNumber}</div>
+            <div class="text-xs text-gray-500">Tag {prevDay.data.dayNumber}</div>
             <div class="font-medium text-sm">{prevDay.data.title}</div>
           </div>
         </a>
@@ -369,7 +369,7 @@ const cityMapLocations = showCityMap ? [{
       {nextDay ? (
         <a href={`${base}tag/${nextDay.data.dayNumber}`} class="flex items-center gap-2 text-right text-navy-800 hover:text-teal-600 transition-colors">
           <div>
-            <div class="text-xs text-gray-400">Tag {nextDay.data.dayNumber}</div>
+            <div class="text-xs text-gray-500">Tag {nextDay.data.dayNumber}</div>
             <div class="font-medium text-sm">{nextDay.data.title}</div>
           </div>
           <span>→</span>
