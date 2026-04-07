@@ -58,7 +58,7 @@ const modeIcon = day.driving?.mode === 'ferry' ? '⛴️' : day.driving?.mode ==
 const allHighlights = new Map<string, { name: string; type: string; icon: 'star' | 'gem' | 'info'; description: string; duration: string | null; price: string | null; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number }; rating?: number; userRatingCount?: number }>();
 const allRestaurants = new Map<string, { name: string; cuisine: string; priceRange: string; description: string; mustTry: string | null; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number }; rating?: number; userRatingCount?: number }>();
 const allNightlife = new Map<string, { name: string; description: string; googleMapsUrl: string; placeId: string; coordinates: { lat: number; lng: number }; rating?: number; userRatingCount?: number }>();
-for (const loc of [location, ...additionalLocations].filter(Boolean)) {
+for (const loc of [location, prevLocation, ...additionalLocations, ...transitLocations].filter(Boolean)) {
   for (const h of loc!.data.highlights) {
     allHighlights.set(h.name, h);
   }
@@ -72,7 +72,7 @@ for (const loc of [location, ...additionalLocations].filter(Boolean)) {
 
 // Build POIs from ALL categories of all locations visited this day
 const dayPois = deduplicateMapPois(
-  [location, ...additionalLocations]
+  [location, prevLocation, ...additionalLocations, ...transitLocations]
     .filter(Boolean)
     .flatMap(loc => collectLocationPois(loc!.data))
 );
