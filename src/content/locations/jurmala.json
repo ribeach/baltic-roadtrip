@@ -4,6 +4,7 @@
   "country": "latvia",
   "coordinates": { "lat": 56.9680, "lng": 23.7726 },
   "description": "Lettlands legendärer Badeort erstreckt sich über 32 Kilometer entlang des Rigaer Meerbusens. Hinter dem breiten Sandstrand verbirgt sich eine einzigartige Sammlung pastellfarbener Holzvillen im Jugendstil — Sommerresidenzen des russischen Adels und später der sowjetischen Elite. Nur 25 Minuten von Riga entfernt, ist Jūrmala der perfekte Halbtagesausflug.",
+  "placeId": "ChIJ0wSh6Afd7kYR3xZsbFh-U3g",
   "highlights": [
     {
       "name": "Jomas iela & Holzvillen-Architektur",

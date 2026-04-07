@@ -38,6 +38,7 @@ const mapLocations = days
           dayNumber: day.data.dayNumber,
           link: `${base}tag/${day.data.dayNumber}`,
           assigned: true,
+          placeId: tLoc.data.placeId,
         });
       }
     }
@@ -52,10 +53,11 @@ const mapLocations = days
         dayNumber: day.data.dayNumber,
         link: `${base}tag/${day.data.dayNumber}`,
         assigned: true,
+        placeId: loc.data.placeId,
       });
     }
     return acc;
-  }, [] as Array<{ id: string; name: string; lat: number; lng: number; dayNumber?: number; link: string; label?: string; assigned?: boolean }>);
+  }, [] as Array<{ id: string; name: string; lat: number; lng: number; dayNumber?: number; link: string; label?: string; assigned?: boolean; placeId?: string }>);
 
 // Close the loop: Aalen is start and end of the circular route
 const aalenLoc = findLoc('aalen');
@@ -72,6 +74,7 @@ if (aalenLoc) {
     link: `${base}ort/aalen`,
     label: '⌂',
     assigned: true,
+    placeId: aalenLoc.data.placeId,
   };
   mapLocations.unshift(aalenBase);
   mapLocations.push({ ...aalenBase, id: 'aalen-return' });
@@ -87,6 +90,7 @@ for (const loc of allLocations) {
       lng: loc.data.coordinates.lng,
       link: `${base}ort/${loc.data.id}`,
       assigned: false,
+      placeId: loc.data.placeId,
     });
   }
 }

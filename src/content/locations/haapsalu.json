@@ -4,6 +4,7 @@
   "country": "estonia",
   "coordinates": { "lat": 58.9431, "lng": 23.5371 },
   "description": "Die romantische Bischofsstadt an Estlands Westküste war im 19. Jahrhundert ein mondäner Kurort des russischen Adels — selbst Tschaikowsky verbrachte hier den Sommer 1867. Die Kombination aus einer mittelalterlichen Bischofsburg, prachtvollen Holzvillen, dem spektakulären Zarenbahnhof und der Legende der 'Weißen Dame' macht Haapsalu zu einem der charmantesten Orte des Baltikums.",
+  "placeId": "ChIJjQO0nnSn8kYRMGb8GG2zAAQ",
   "highlights": [
     {
       "name": "Bischofsburg Haapsalu (Piiskopilinnus)",

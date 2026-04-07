@@ -9,6 +9,7 @@ interface MapLocation {
   link?: string;
   label?: string;
   assigned?: boolean;
+  placeId?: string;
 }
 
 interface POI {
@@ -101,8 +102,8 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
 
         const mapsLib = await importLibrary('maps') as google.maps.MapsLibrary;
         const markerLib = await importLibrary('marker') as google.maps.MarkerLibrary;
-        // Load places library only when POIs need rich info cards
-        if (pois.length > 0) {
+        // Load places library when POIs or locations need rich info cards
+        if (pois.length > 0 || locations.some(loc => loc.placeId)) {
           await importLibrary('places');
         }
 
@@ -175,36 +176,61 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           });
 
           marker.addListener('gmp-click', () => {
-            const content = document.createElement('div');
-            content.style.cssText = 'padding: 4px 8px; font-family: Inter, system-ui, sans-serif;';
-            if (loc.link) {
-              const link = document.createElement('a');
-              link.href = loc.link;
-              link.style.cssText = 'color: #1a1a2e; text-decoration: none; font-weight: bold;';
-              link.textContent = loc.name;
-              content.appendChild(link);
-              if (loc.dayNumber) {
-                content.appendChild(document.createElement('br'));
-                const dayLink = document.createElement('a');
-                dayLink.href = loc.link;
-                dayLink.style.cssText = 'color: #e6a919; font-size: 12px; text-decoration: none; font-weight: 500;';
-                dayLink.textContent = `Tag ${loc.dayNumber} →`;
-                content.appendChild(dayLink);
+            if (loc.placeId) {
+              // Rich city info card via Places UI Kit
+              const placeDetails = document.createElement('gmp-place-details-compact') as HTMLElement;
+              placeDetails.setAttribute('orientation', 'horizontal');
+              placeDetails.setAttribute('truncation-preferred', '');
+              placeDetails.style.cssText = 'width: 350px; border: none; padding: 0; margin: 0;';
+
+              const placeRequest = document.createElement('gmp-place-details-place-request');
+              placeRequest.setAttribute('place', loc.placeId);
+              placeDetails.appendChild(placeRequest);
+
+              placeDetails.appendChild(document.createElement('gmp-place-all-content'));
+
+              const wrapper = document.createElement('div');
+              wrapper.appendChild(placeDetails);
+              if (loc.link) {
+                const navLink = document.createElement('a');
+                navLink.href = loc.link;
+                navLink.style.cssText = 'display: block; text-align: center; padding: 6px 0 2px; color: #e6a919; font-size: 12px; text-decoration: none; font-weight: 500; font-family: Inter, system-ui, sans-serif;';
+                navLink.textContent = loc.dayNumber ? `Tag ${loc.dayNumber} →` : `${loc.name} entdecken →`;
+                wrapper.appendChild(navLink);
               }
+              infoWindow.setContent(wrapper);
             } else {
-              const strong = document.createElement('strong');
-              strong.style.color = '#1a1a2e';
-              strong.textContent = loc.name;
-              content.appendChild(strong);
-              if (loc.dayNumber) {
-                content.appendChild(document.createElement('br'));
-                const span = document.createElement('span');
-                span.style.cssText = 'color: #666; font-size: 12px;';
-                span.textContent = `Tag ${loc.dayNumber}`;
-                content.appendChild(span);
+              const content = document.createElement('div');
+              content.style.cssText = 'padding: 4px 8px; font-family: Inter, system-ui, sans-serif;';
+              if (loc.link) {
+                const link = document.createElement('a');
+                link.href = loc.link;
+                link.style.cssText = 'color: #1a1a2e; text-decoration: none; font-weight: bold;';
+                link.textContent = loc.name;
+                content.appendChild(link);
+                if (loc.dayNumber) {
+                  content.appendChild(document.createElement('br'));
+                  const dayLink = document.createElement('a');
+                  dayLink.href = loc.link;
+                  dayLink.style.cssText = 'color: #e6a919; font-size: 12px; text-decoration: none; font-weight: 500;';
+                  dayLink.textContent = `Tag ${loc.dayNumber} →`;
+                  content.appendChild(dayLink);
+                }
+              } else {
+                const strong = document.createElement('strong');
+                strong.style.color = '#1a1a2e';
+                strong.textContent = loc.name;
+                content.appendChild(strong);
+                if (loc.dayNumber) {
+                  content.appendChild(document.createElement('br'));
+                  const span = document.createElement('span');
+                  span.style.cssText = 'color: #666; font-size: 12px;';
+                  span.textContent = `Tag ${loc.dayNumber}`;
+                  content.appendChild(span);
+                }
               }
+              infoWindow.setContent(content);
             }
-            infoWindow.setContent(content);
             infoWindow.open({ map, anchor: marker });
           });
 
@@ -262,22 +288,13 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
               const placeDetails = document.createElement('gmp-place-details-compact') as HTMLElement;
               placeDetails.setAttribute('orientation', 'horizontal');
               placeDetails.setAttribute('truncation-preferred', '');
-              placeDetails.style.cssText = 'width: 350px; border: none; padding: 0; margin: 0;';
+              placeDetails.style.cssText = 'width: 400px; border: none; padding: 0; margin: 0;';
 
               const placeRequest = document.createElement('gmp-place-details-place-request');
               placeRequest.setAttribute('place', poi.placeId);
               placeDetails.appendChild(placeRequest);
 
-              const contentConfig = document.createElement('gmp-place-content-config');
-              contentConfig.innerHTML = [
-                '<gmp-place-media lightbox-preferred></gmp-place-media>',
-                '<gmp-place-rating></gmp-place-rating>',
-                '<gmp-place-type></gmp-place-type>',
-                '<gmp-place-price></gmp-place-price>',
-                '<gmp-place-open-now-status></gmp-place-open-now-status>',
-                '<gmp-place-attribution></gmp-place-attribution>',
-              ].join('');
-              placeDetails.appendChild(contentConfig);
+              placeDetails.appendChild(document.createElement('gmp-place-all-content'));
 
               infoWindow.setContent(placeDetails);
             } else {
