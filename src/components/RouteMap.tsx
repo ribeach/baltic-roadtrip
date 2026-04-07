@@ -223,7 +223,9 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
               map,
             }));
           }
-        } else if (locations.length > 1) {
+        } else if (locations.length > 1 && locations.every(loc => loc.assigned !== false)) {
+          // Only draw a fallback straight-line route when all locations are assigned
+          // (avoids chaotic lines on library pages with unassigned locations)
           polylinesRef.current.push(new Polyline({
             path: locations.map(loc => ({ lat: loc.lat, lng: loc.lng })),
             geodesic: true,
