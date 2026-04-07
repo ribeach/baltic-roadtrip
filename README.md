@@ -2,11 +2,11 @@
 
 **https://ribeach.github.io/baltic-roadtrip/**
 
-Statische Website zur Planung eines 17-tägigen Roadtrips durch das Baltikum mit dem VW ID.4.
+Statische Website zur Planung eines 18-tägigen Roadtrips durch das Baltikum mit dem VW ID.4.
 
-**Route:** Aalen - Berlin - Danzig - Masuren - Vilnius - Klaipeda - Riga - Tallinn - Helsinki - Turku - Stockholm - Halmstad - Aalen
+**Route:** Aalen - Prag - Warschau - Masuren - Vilnius - Klaipeda - Kurische Nehrung - Riga - Tallinn - Helsinki - Turku - Stockholm - Oslo - Kopenhagen - Berlin - Aalen
 
-**Zeitraum:** 30. April - 16. Mai 2026 | **Strecke:** ~4.500 km | **Laender:** 8
+**Zeitraum:** 30. April - 17. Mai 2026 | **Strecke:** ~6.500 km | **Laender:** 10
 
 ## Schnellstart
 
@@ -48,16 +48,16 @@ src/
 |   +-- days/                   # Ein JSON pro Reisetag
 |   |   +-- day-01.json         # Tag 1: Aalen -> Berlin
 |   |   +-- day-02.json         # Tag 2: Berlin (1. Mai)
-|   |   +-- ...                 # Tag 3-17
+|   |   +-- ...                 # Tag 3-18
 |   +-- locations/              # Ein JSON pro Ort
 |   |   +-- berlin.json
-|   |   +-- gdansk.json
+|   |   +-- prague.json
 |   |   +-- vilnius.json
-|   |   +-- ...                 # 21 Orte insgesamt
+|   |   +-- ...                 # 37 Orte insgesamt
 |   +-- countries/              # Ein JSON pro Land
 |       +-- germany.json
 |       +-- poland.json
-|       +-- ...                 # 8 Laender insgesamt
+|       +-- ...                 # 10 Laender insgesamt
 +-- components/                 # UI-Komponenten
 +-- layouts/                    # Seitenlayout
 +-- pages/                      # Seitenrouten
@@ -176,7 +176,7 @@ npm run preview  # Lokale Vorschau der gebauten Seite
 | URL | Inhalt |
 |---|---|
 | `/` | Startseite mit Routenkarte und Tag-fuer-Tag-Timeline |
-| `/tag/1` bis `/tag/17` | Tagesdetail mit Fahrinfo, Aktivitaeten, EV-Ladestrategie |
+| `/tag/1` bis `/tag/18` | Tagesdetail mit Fahrinfo, Aktivitaeten, EV-Ladestrategie |
 | `/ort/berlin`, `/ort/tallinn`, etc. | Ortsdetail mit Highlights, Restaurants, Hotels, Tipps |
 | `/kulinarik` | Kulinarischer Guide: Must-Try-Gerichte pro Land |
 | `/praktisches` | EV-Laden, Faehren, Maut, Geschwindigkeiten, Waehrungen, Wetter |
