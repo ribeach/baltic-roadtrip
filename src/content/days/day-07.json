@@ -7,12 +7,7 @@
   "previousLocationId": null,
   "overnightLocationId": "vilnius",
   "additionalLocationIds": ["trakai"],
-  "driving": {
-    "distance": "60 km",
-    "duration": "1:00",
-    "mode": "drive",
-    "routeDescription": "Tagesausflug nach Trakai (30 km westlich von Vilnius) — morgens hin, mittags zurück. Einfache Landstraße durch litauische Wälder."
-  },
+  "driving": null,
   "evCharging": null,
   "activities": [
     { "highlightRef": "Wasserburg Trakai", "note": "Vormittags — Litauens Postkartenmotiv Nr. 1 auf der Insel im Galvė-See" },

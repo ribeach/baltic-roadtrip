@@ -1,43 +1,21 @@
 {
   "dayNumber": 17,
   "date": "2026-05-16",
-  "title": "Kopenhagen und Kurs auf Berlin",
-  "subtitle": "Smørrebrød am Kanal, Fähre über die Ostsee und Ankunft in der Hauptstadt",
-  "locationId": "berlin",
-  "previousLocationId": "copenhagen",
-  "overnightLocationId": "berlin",
-  "driving": {
-    "distance": "510 km",
-    "duration": "6:00",
-    "mode": "drive",
-    "routeDescription": "Vormittags Kopenhagen erkunden, dann über die E47 nach Rødby (160 km). Scandlines-Fähre nach Puttgarden (45 Min.). Weiter über die A1/E47 und A24 nach Berlin (350 km).",
-    "encodedPolyline": "geyrIiuukAhU}\\xVtAxo@t}ArThVtZ~kA`d@gDp]ik@lUy^xx@jdBvw@dy@v_@bu@U~kCwGxhHsmA|dBmGzpBvGnbDd|@vlHh{BzaHxo@|bCl}@d}AztBrdDzkAzs@nq@btAteAdoAz~@tUj|@xqAtm@x[nmBdgArb@zlBvDniAju@~w@|x@~U~oCbIhnAnv@xf@lo@ffBfa@bnC`f@x|AnwApz@t[he@tu@j[prAjn@dz@duBj|@hnBp_@lpBzvAhy@tZj~@~k@hi@|u@n~@h`@paCnn@zkAbS~l@sG|aAjTfg@hg@z}@`j@~fBj\\biA|jAhiA~k@|y@bLhgCmL|eA}T|v@yp@xw@abArgBqrAloAmtA|sA{Sd}ArYtqAu`@~pCizApdAbH`hAhq@~nAjeBttB|iEz}AtdBvuCnzAptAlnCjeAziFcBjNlx@aVnsAgRb_Amf@xuC}e@fuAmB``@cc@tYs[hZ{{Blw@}jBltAuG|{@`f@|iAem@|q@sD`bE|`ArrA~j@ln@eF|vG_`B|mDwpAphBxm@f|@lThyJg~AjyZwbFxfMmdG|iOkfIjfBw_AtcDydBxu@iJfnAbPgEsKhS_Gv]_D~TilApOyl@}E{KvR{zAne@kiAt`BijD|dAafCd\\kRzj@hBhnAh]xiA@lmDmVjcDiWz}Ddh@`oCkFlaAoa@vm@es@dnBqhChbCycB~t@mh@d`CsQdt@_Gp`Asn@zkB_kDt~@w]rkAtKxqAmF~o@s]lpCovBntCe_AnmAewAb_Ayw@~oAkBdcAoc@naA}j@`eApY|v@`QbdA}ErxCe`AvbBaB|w@|X`bAp}@xsA~sCb|@pjBxbA~W~aAyu@~~@cdB~{@{aA`|@oUtm@ue@vj@iiAtv@qs@t`@wD`fDlHzkAcn@nnBm_DdtBewBvbBglAvpBop@rlBq`BloFst@bdCjNzcBps@xlBxjAjoBdn@fwBkPjmBp@r|A}Wvo@gPbmAhGh}A~h@njAd@n}Bg|@tyB}`AvnA{dCpv@qrBzcAopA|xC_sA`uBa{Cl{AqyAbiEacFxeDkvDzjCkxEt~AuvEv}CytEvfF}dC~aDgrCz{Bk^tdBoAdyAu\\boAkaAjgBe{Ddu@{{FfqAurFjeBwuF`k@gzIrh@mvFZgdFOwxHnU}pMlPqlEgB{kD|[wfDx_AwwEpW{eFrn@syChtDk}CtfAoOrb@eDjh@ml@zf@a~@vf@mWl}@fV|`Bn_Bj|AzO~}AqPpqC`rA|Lz@~C{KbVfOdTjv@}H|L"
-  },
-  "evCharging": {
-    "stopsNeeded": 2,
-    "notes": "Erster Ladestopp vor der Fähre in Rødby. Zweiter Stopp auf der A24 in Norddeutschland. Scandlines bietet teilweise Laden an Bord.",
-    "criticalLevel": "green"
-  },
+  "title": "Stockholm erkunden",
+  "subtitle": "Vasa-Museum, Gamla Stan und Södermalm im Frühling",
+  "locationId": "stockholm",
+  "previousLocationId": null,
+  "overnightLocationId": "stockholm",
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    {
-      "highlightRef": "Nyhavn",
-      "note": "Morgenspaziergang am ikonischen Hafenkanal — Fotos im besten Licht"
-    },
-    {
-      "highlightRef": "Die Kleine Meerjungfrau",
-      "note": "Kurzer Abstecher zum berühmtesten Wahrzeichen"
-    },
-    {
-      "restaurantRef": "TorvehallerneKBH",
-      "note": "Brunch in Kopenhagens bester Food Hall — unbedingt ein Smørrebrød mitnehmen"
-    },
-    "Aufbruch Richtung Rødby gegen Mittag",
-    "Scandlines-Fähre Rødby→Puttgarden (alle 30 Min., 45 Min. Überfahrt) — der kürzeste Weg nach Deutschland",
-    "Fahrt über die A1 und A24 nach Berlin",
-    "Ankunft Berlin am Abend — die letzte Stadt der Reise empfängt uns",
-    {
-      "restaurantRef": "Katz Orange",
-      "note": "Willkommen-zurück-in-Deutschland-Dinner — legendäres Slow-Roasted Duroc Pork"
-    }
+    "Ankunft Stockholm Stadsgården 07:30 Uhr per Viking Line — direkt neben Gamla Stan",
+    { "highlightRef": "Vasa-Museum", "note": "Vormittags — das am besten erhaltene Schiff des 17. Jh., mindestens 2 Stunden" },
+    { "highlightRef": "Gamla Stan (Altstadt)", "note": "Mittelalterliche Gassen, farbenfrohe Häuser, kleinste Gasse Stockholms (Mårten Trotzigs gränd)" },
+    { "highlightRef": "Fotografiska", "note": "Weltklasse-Fotografie-Museum auf Södermalm" },
+    { "highlightRef": "Rosendals Trädgård", "note": "Bio-Café im Gewächshaus auf Djurgården — perfekte Nachmittagspause" },
+    { "restaurantRef": "Kajsas Fisk", "note": "Unbegrenzt nachfüllbare Fischsuppe für ~€10 — Stockholms bestes Preis-Leistungs-Verhältnis" },
+    { "restaurantRef": "Nystekt Strömming", "note": "Frisch gebratener Hering am Slussen — Stockholmer Streetfood-Klassiker" },
+    { "nightlifeRef": "Mosebacke Terrassen", "note": "Drinks mit Panoramablick über Stockholm bei Sonnenuntergang" }
   ]
 }

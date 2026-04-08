@@ -1,0 +1,30 @@
+{
+  "dayNumber": 21,
+  "date": "2026-05-20",
+  "title": "Heimreise nach Aalen",
+  "subtitle": "Über den Öresund und durch Deutschland zurück auf die Schwäbische Alb",
+  "locationId": "aalen",
+  "previousLocationId": "halmstad",
+  "overnightLocationId": null,
+  "driving": {
+    "distance": "1100 km",
+    "duration": "11:30",
+    "mode": "drive",
+    "routeDescription": "Früher Aufbruch über die E6 nach Malmö, über die Øresundbrücke nach Kopenhagen, Scandlines-Fähre Rødby→Puttgarden, dann A1 südwärts und A7 bis Aalen. Längste Einzeletappe der Reise — mit 3–4 Ladestopps gut machbar.",
+    "encodedPolyline": "ie|xI}qnmAjtBsvGfcFyiAr{IehF`hEgsAtjEhz@loDfaB|tDsmAnoM`{Bz|DjzBr~Ejs@h~Kro@tvExyE|eIzuBtsJ`mKv|QbB~kPgpOxbJmoGv~Ha{IjdH_tJxlAgjHxyDk~CldKki@pwIc`A~dFhlMicBbkWofB|iVopCpeJ_~ClnP`SnvThhAn{KmuAt}InsBppQvrNbfWjnFzcDhlC~yG`jNx|DzfFpiCpnDj_Fx|LpyGxbZj~IxxF}jCzwDghDnoDpCpkHstBz~E~`GnjFf{Ft{DtfIdmFvkTp|EdzRxWdrX~nCzqKtoIbcFlpHbnJh~d@nc_@btHz}MffEjqCjzC`_PhStmI~~DtwDddFr`K`tFuiBfsGgoA|yF|gC`oFd}G~gDncInwKvgI~{M}gA`jCoKnwBbmBt}EbmJl|FprOdvC|oOxdEtiMp}GlhKt_LtvHlbGtnIluJnmJrjCdfHjxDbsCh~AryGpAhcHtdCjp@ztPtN|~BxPlyBicBrtG_lE|wIsmBhcLvZpkFj{HbsFjqH~zGhqDtrHleCvaDb]jfDnsDx~GppQvrHhhLlfBp`GjzEbvAr~MvdAvwLqwClwKcjHfwRidO~sI_nFzsJe|EbjH`mEthE}_@npCagEfmGovCvrFo~@tgBohD~dHe}F|rBq~MbhBaaKpaBowEhxCqxAv_HbfD~qGfrBbtNxeBbwM|zCtjFvnMbdGdmGhdAtrEt}C~lBjgHreCh{Glw@|kCmVv`BviAjhA~{BvrDXtpK~s@l_IreFjdBxnLtC`fLba@`gEvzBbkBbaI~_Ot~B`R|dDbhFztGzuFnoHzjAxaDah@zxK}WpoF{nAjyElo@tuEdlBx~DasFtfDcxFreBqpEd{Ap^fs@irBn_BbVvjGhcCzaA|gDjaBbj@ndCcyFfwC{eGfoGu_HxnFcbAn~FrGrfEs`@ftD{bGtdFux@dpEnCpcBtvBbqBia@dgF}sC``Hro@jeEw}@j}CopGhg@}fIxkEy_BlnAkhCvqC`N`hEakEfmFgmHhjD{SftDpEfmD{mClqCsdIrnEkuE`zDwb@vvA{Fl`AbhD`qDzqBj|DlgEzdF}HvxEB~gCsvFhmF}_Cl}CubGdvMajAr}DilBraEo}GvzNhoA~rDgeEbpGq`EdcHopEfqFpgC~_A~uBrfCbQ~rE|q@luGghChgC{KlfDnwBzmHcbDpyGsnCrzLpaMtmBtjAzqColBz{GbEblGrAdaHbvC`e@vvGvc@xtD|pA_Pf|Az]lwArD"
+  },
+  "evCharging": {
+    "stopsNeeded": 4,
+    "notes": "Vier Ladestopps einplanen: Malmö vor der Brücke, Rødby/Puttgarden beim Fähranleger, Hamburg-Raum und Würzburg/Nürnberg. Hervorragendes Ladenetz in Schweden, Dänemark und Deutschland.",
+    "criticalLevel": "green"
+  },
+  "activities": [
+    "Früher Aufbruch aus Halmstad — am besten vor 6 Uhr",
+    "Fahrt über die E6 nach Malmö (150 km, 1,5 Std.)",
+    "Øresundbrücke (7,8 km) — MAUT: ~63 € (online günstiger vorbuchen!)",
+    "Durch Dänemark nach Rødby — Scandlines-Fähre nach Puttgarden (alle 30 Min., 45 Min. Überfahrt)",
+    "A1 südwärts durch Schleswig-Holstein und Niedersachsen",
+    "A7 durch Franken Richtung Heimat",
+    "Ankunft in Aalen am Abend — 21 Tage, 10 Länder, unzählige Eindrücke"
+  ]
+}

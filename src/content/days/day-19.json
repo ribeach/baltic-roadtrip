@@ -1,0 +1,19 @@
+{
+  "dayNumber": 19,
+  "date": "2026-05-18",
+  "title": "Halmstad — Remote Work Tag 1",
+  "subtitle": "Arbeiten mit Meerblick und schwedischer Fika",
+  "locationId": "halmstad",
+  "previousLocationId": null,
+  "overnightLocationId": "halmstad",
+  "driving": null,
+  "evCharging": null,
+  "activities": [
+    "Remote Work — stabiles WLAN im Hotel nutzen oder ins Café ausweichen",
+    "Vormittags-Fika im Café mit Blick auf den Nissan — schwedische Kaffeepause gehört zur Arbeitskultur",
+    { "highlightRef": "Hallands Konstmuseum", "note": "Mittagspause: Halmstad-Gruppe entdecken — schwedischer Surrealismus" },
+    { "highlightRef": "Halmstads Slott & Slottsparken", "note": "Nachmittags-Spaziergang nach der Arbeit" },
+    { "restaurantRef": "Fridolfs Krog", "note": "Schwedische Hausmannskost zum Abendessen" },
+    "REMOTE-WORK-TIPP: Backup-Hotspot einrichten, ruhiges Zimmer beim Hotel erfragen"
+  ]
+}

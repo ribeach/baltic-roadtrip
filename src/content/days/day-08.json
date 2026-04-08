@@ -1,42 +1,48 @@
 {
   "dayNumber": 8,
   "date": "2026-05-07",
-  "title": "Kurische Nehrung — Übernachtung in Nida",
-  "subtitle": "Wandernde Dünen, Hexen und Sonnenuntergang am Ende der Welt",
-  "locationId": "curonian-spit",
-  "previousLocationId": "klaipeda",
-  "overnightLocationId": "curonian-spit",
+  "title": "Über Kaunas nach Klaipėda",
+  "subtitle": "Freiheitsallee, Festung und Fachwerkhäuser an der Küste",
+  "locationId": "klaipeda",
+  "previousLocationId": "vilnius",
+  "overnightLocationId": "klaipeda",
+  "additionalLocationIds": [
+    "kaunas"
+  ],
+  "transitLocationIds": [
+    "kaunas"
+  ],
   "driving": {
-    "distance": "100 km",
-    "duration": "2:30",
+    "distance": "310 km",
+    "duration": "4:00",
     "mode": "drive",
-    "routeDescription": "Fähre von Klaipėda (Smiltynė) auf die Kurische Nehrung, dann die einzige Straße Richtung Süden über Juodkrantė bis Nida nahe der russischen Grenze. Übernachtung auf der Nehrung — kein Rückfahrt-Stress.",
-    "encodedPolyline": "mp~rI}v``CG_BEo@b@ORhCHpAb@bHZvFVxPN~HtElBlBtAtBv@`@B~Ac@hIgFjFkEbUiVtBsBz@g@lGcEdFyC`BcARd@v@zBdAtCj@lCr@lEZtBRfBKz@GXMNa@Oc@c@k@@Wx@?p@Z|AV^dAzFtFbTlHfY`Ah@hCJfDLzDf@|@n@\\|@xA|JpBnPrHbk@zCtVCF@THHHIREdLSvBNfL`ChIv@|@CrAk@t@m@lEcIjBiAvBWxHc@rDUpGMl@Ev@e@|AoBfAcAb@ElB`@hCj@nIs@zJmAtEs@xCMbDd@pEk@pD\\zEx@lA?jAi@nG_HrCaDzAa@hBEhBf@zH|Dz@ZfANnCOnCu@|EyBnAeAh@}BlCiPvBoKtBoMViAvBeG`AkA^Sb@KnDq@rI}ArEyA\\AzATlCv@xAEjH_BvIy@hHo@fDKpL?nA@jE]xEc@tGw@hFZlD`@vB?bEa@lHiA`IoCjDgAbALlDfA`EhAdEtAdDDfHT|JNtBBnMjAtEl@xFnAjEt@tT|@lb@zA~Ln@lRnA`DRxFbAp@BzOf@fIb@`I`@`J`@pCEnUOtMNvWr@zBF|FNpCLzEOlDEzFI`C@jDPlEpBjFd@hGXvVnAxF`@zC`@rAAhA?`DVlJfCpHrDbHpEdEvCbDjExAnB`BxAhBx@dBNpCh@xAx@~ErCfExA`BVvIdAzCh@`BH|Hi@xIzAtFn@tDzBhCt@bGpA`CdAhCfAnDxAfIbDlFpCp@@nDmAjEsBfGsCnBo@nADlD`AnEdB\\XlAhCfB|Fj@pJVxF`ApV|@|C|IpLrCrDzHdJpAz@lCj@zb@vIdUzFpf@`N`\\vIp_@bKdr@nQvs@pRnJjCzD~Bfb@~X|GpErIxDfk@tSlHbCnDs@nBOdKrBnJrBvB_@~JcCxCq@vAN~TlFvItC|OrErT|HvG`CxXrKzi@rU|MpGn_@rP~MbGpDnBhCzApAbAxCfI\\z@t@l@vA~@dGjEbE~BvElBzCvBlMzKvXlU`FlDv@TrCVdHh@pAj@hCvB~[rY|BrBnAd@|C`A`FrBvCnC`MlLjBfC~AfFdArA`Aj@hZ~Pn~@nq@xCvB|QxMzEvCraAvl@dIzExAz@|NzIbSfMbNjIbAh@pVhM|CrA~MjG|@n@xPhJ|HdEfDhBhE~AlE`BdA`@vDjAdIxB^TbD`CzCxClInJdOlOfMnMvJhKt@x@Ny@zA{I~AoJFyAWsC{@kRsAeZaBaYaAuOo@iJMiBTF`A^Zb@l@jAJHLOZQj@Mj@TjAfCbAzA^G"
+    "routeDescription": "Über die A1 nach Kaunas (100 km, 1,5 Std.), dort Besichtigung und Mittagessen. Weiter auf der A1/E85 bis Klaipėda an der Küste (210 km, 2,5 Std.).",
+    "encodedPolyline": "abxlIolhyCbJhGjCbD}@fFmDxHkGvW{Dnj@mA`OGxI|CZjOhF|Kvr@db@rU`Xxa@dP~Q`IhE{D~]aJht@hEb_A\\tw@aFbh@nGffAbFvn@dUp[fQpSrF|QlOto@~Kxg@?dk@w{@rsDcs@nuDcTzbBoR|bAwX`k@_Xds@aXjlBqSt|@e{@jtBeXpz@{Ndj@ia@~`AkqAr`Bo}@~gAyP|[mXd~@eWzeBwNdaB}QndDgWdmAk`@naByUf}Bio@b}Do^pxGe_@`}IuLpzEkZnzLwSx`HoWzeE_o@x}GgbBroKmbBf~I}n@|hDon@hbEcl@tbDygAhsF}`@~zB{[zkBin@j{C}yAljGkgAvoD}Ypz@sHb]eCvo@kCx|@iLdbEcIt`C{OhlCaH~fEgBnhB{Ftd@uA`F_@bFxD`GfFvAzInCpOnF|_@rJrfAhTvN|IxZlh@`Znm@pG`TrIcAjFa@nA}JxAmb@gBuQnBbIaAda@}EnVyM_GqCzGuJp[yI_GuSv@aP@kJoLoE_Gg@|ASrPmFt@ca@q\\oJfCiZnTwk@fa@{RSmOnLkJfTka@`Z_tAbaAir@tf@gt@l_@kdBzm@ugGhzBqeAbZapC~`@yz@~L{k@bL_MjHaa@vh@kXhq@cr@zeBir@d{A}yDjeIqkB|vDm|ApgD}l@noAspAryBwn@ljA_`@dkAe{@nzEgwArxGqcAblGejAdoF_d@pyBua@|`Dol@bwFcRl_CuZn_D{]|uAq^dkAejB|aG}ZdeAwQdbAgHpv@sMzeEqY`{Dik@|dFio@xsDcgAvoFwPt{@eo@rbFov@lkGcnA``Im}@h~DaWhfAm_Al|CoIl\\mQn{A{HxuB{Pd`BmVpiAgTzo@qfA~vCg`AhnByqAnkC_Rbr@eQldAkMveBwMpiC{^fkCiWfuAeQvmBoi@tuFaLtuDef@drDkMrmAeHlfBqIxqDg]haDiXx_Byk@|lBug@xuAk\\niBs^rhE}WxeB}X|x@ql@vuBeYpvBiZ`rEg`@xiCs[piAqoApyCibAn{Bmb@|eBqR|oAgPzlAqOtiBkWvuGoTdeBm_@rlBgX`pAw^naCcN`pBaJv`BqT`xBwTjdBwQhjCgFjuEwObuC_`@x}Bc`@noBq^pjCw`@ptBc_@jjAojAtsCsXnjAyS|cB_Q~aCaSr}By]x~D{LbaGqEprI}BdeBuMd_BaWhuAs`AryDiUrlAcPjqB}Az{AzFdaBjo@ruFteAnxInhApeJpm@rgDCzSyv@jhAcN|UKtYxC`m@bChb@"
   },
   "evCharging": {
-    "stopsNeeded": 0,
-    "notes": "ACHTUNG: Keine Schnellladestationen auf der Kurischen Nehrung! Unbedingt in Klaipėda auf 100 % laden. Die Fahrt (ca. 50 km einfach) ist mit voller Batterie problemlos. In Nida gibt es langsame AC-Lader (11 kW) für die Nacht — morgens genug Reichweite für die Rückfahrt.",
-    "criticalLevel": "red"
+    "stopsNeeded": 1,
+    "notes": "Ein Ladestopp in Kaunas während der Besichtigung reicht aus. Gute Ladeinfrastruktur entlang der A1. WICHTIG: In Klaipėda unbedingt auf 100 % laden — morgen geht es auf die Kurische Nehrung, wo es KEINE Schnelllader gibt!",
+    "criticalLevel": "green"
   },
   "activities": [
-    "Fährüberfahrt von Klaipėda nach Smiltynė – kurze Überfahrt über das Haff",
+    "Morgendlicher Aufbruch aus Vilnius über die A1",
     {
-      "highlightRef": "Hexenberg (Raganų Kalnas) Juodkrantė",
-      "note": "Mystischer Skulpturenweg durch Kiefernwald"
+      "highlightRef": "Laisvės Alėja (Freiheitsallee)",
+      "note": "Eine der längsten Fußgängerzonen Europas — Kaffeepause mit Aussicht"
     },
     {
-      "highlightRef": "Parnidis-Düne",
-      "note": "52 Meter hohe Wanderdüne — ABENDS zum Sonnenuntergang wiederkommen!"
+      "highlightRef": "Neuntes Fort",
+      "note": "Eindrückliche Gedenkstätte — ca. 1,5 Stunden einplanen"
     },
     {
-      "highlightRef": "Nida Fischerdorf",
-      "note": "Bummel durch bunt bemalte Holzhäuser"
+      "restaurantRef": "Bernelių Užeiga",
+      "note": "Deftiges litauisches Mittagessen — Cepelinai und Šaltibarščiai"
     },
-    "Mittagessen: frisch geräucherter Fisch direkt am Haff – Spezialität der Nehrung",
+    "Nachmittags weiter auf der A1/E85 Richtung Küste nach Klaipėda",
     {
-      "highlightRef": "Thomas-Mann-Haus Nida"
+      "highlightRef": "Altstadt mit Fachwerkhäusern",
+      "note": "Abendlicher Bummel durch Klaipėdas historische Altstadt"
     },
-    "Sonnenuntergang auf der Parnidis-Düne — DAS Highlight der Nehrung, das Tagesgäste nie erleben",
-    "Nachtspaziergang am menschenleeren Strand unter endlosem Himmel"
+    "WICHTIG: Heute Abend in Klaipėda auf 100 % laden — morgen keine Schnelllader auf der Nehrung!"
   ]
 }

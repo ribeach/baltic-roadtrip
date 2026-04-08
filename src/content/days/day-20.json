@@ -1,0 +1,18 @@
+{
+  "dayNumber": 20,
+  "date": "2026-05-19",
+  "title": "Halmstad — Remote Work & Aufbruch",
+  "subtitle": "Letzter Arbeitstag und Abschied von der Westküste",
+  "locationId": "halmstad",
+  "previousLocationId": null,
+  "overnightLocationId": "halmstad",
+  "driving": null,
+  "evCharging": null,
+  "activities": [
+    "Vormittags Remote Work — letzte Calls und Aufgaben abschließen",
+    { "highlightRef": "Galgberget & Hallandsgården", "note": "Nachmittags: Freiluftmuseum und Aussichtspunkt über die Stadt" },
+    { "restaurantRef": "Zigges Garage", "note": "Letztes Abendessen in Halmstad — legendäre Burger in der Werkstatt" },
+    { "nightlifeRef": "The Fox & Anchor", "note": "Abschiedsbier im gemütlichen Pub" },
+    "Auto voll laden für morgen — es wird ein langer Heimreisetag"
+  ]
+}
