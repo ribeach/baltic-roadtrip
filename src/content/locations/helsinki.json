@@ -152,9 +152,23 @@
   ],
   "hotels": [
     {
+      "name": "Hotel Anna",
+      "type": "Boutique-Hotel",
+      "priceRange": "85-110€",
+      "isSplurge": false,
+      "evCharging": false,
+      "description": "Charmantes Hotel im Jugendstil im ruhigen Viertel Annankatu. Persönlicher Service, gutes Frühstück und faire Preise für Helsinki. Fußläufig zur Design District und zum Hafen.",
+      "googleMapsUrl": "https://maps.google.com/?cid=13779039871468825909",
+      "placeId": "ChIJCzRrv8kLkkYRNe3XNML7OL8",
+      "coordinates": { "lat": 60.1628933, "lng": 24.9426808 },
+      "rating": 4.2,
+      "userRatingCount": 1500
+    },
+    {
       "name": "Hotel Haven",
       "type": "Boutique-Hotel am Südhafen",
       "priceRange": "€€€",
+      "isSplurge": true,
       "evCharging": true,
       "description": "Elegantes Boutique-Hotel direkt am Südhafen, wo die Tallinn-Fähren anlegen. Stilvolle Zimmer mit Hafenblick. E-Laden im nahegelegenen Parkhaus Kasarmitori (Aimo Park).",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Haven%20Helsinki&query_place_id=ChIJ8RnOOc8LkkYRtiWlf4Y8iXQ",
@@ -170,6 +184,7 @@
       "name": "Scandic Grand Central Helsinki",
       "type": "Design-Hotel im Bahnhofsgebäude",
       "priceRange": "€€-€€€",
+      "isSplurge": true,
       "evCharging": true,
       "description": "Beeindruckendes Hotel im historischen Bahnhofsgebäude. Zentrale Lage, moderne Zimmer mit nordischem Design. E-Ladesäulen in der Tiefgarage.",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Scandic%20Grand%20Central%20Helsinki&query_place_id=ChIJ2xFhdM0LkkYRECP_gSOOnIw",

@@ -140,6 +140,7 @@
       "name": "Lofotstua",
       "cuisine": "Traditionell Norwegisch",
       "priceRange": "€€€",
+      "isSplurge": true,
       "description": "Ein uriges, traditionsreiches Restaurant, das sich auf Fischgerichte spezialisiert hat — besonders solche aus Nordnorwegen und den Lofoten.",
       "mustTry": "Klippfisk (Stockfisch) oder Fiskekaker (Fischfrikadellen)",
       "googleMapsUrl": "https://maps.google.com/?cid=17737156253067588158",
@@ -165,13 +166,43 @@
       },
       "rating": 4.3,
       "userRatingCount": 3601
+    },
+    {
+      "name": "Punjab Tandoori",
+      "cuisine": "Indisch",
+      "priceRange": "€",
+      "isSplurge": false,
+      "description": "Legendäres indisches Restaurant hinter dem Hauptbahnhof, seit 1990 eine Institution. Curries ab 80 NOK (~7€) — in Norwegens teuerster Stadt ein echter Geheimtipp für günstiges, gutes Essen.",
+      "mustTry": "Chicken Tikka Masala — seit über 30 Jahren das Signature-Gericht",
+      "googleMapsUrl": "https://maps.google.com/?cid=11354460489562398081",
+      "placeId": "ChIJT-e3xF9uQUYRgR2TIKglk50",
+      "coordinates": { "lat": 59.9129677, "lng": 10.7619495 },
+      "rating": 4.2,
+      "userRatingCount": 2990
     }
   ],
   "hotels": [
     {
+      "name": "Scandic Vulkan",
+      "type": "Lifestyle-Hotel",
+      "priceRange": "80-138€",
+      "isSplurge": false,
+      "evCharging": true,
+      "description": "Direkt neben der Mathallen Food Hall im Trendviertel Grünerløkka. Das großzügige Frühstücksbuffet ist inklusive und spart in Norwegens teuerster Stadt locker 40€ pro Tag. Solarpanels, Erdwärme und kostenloser Fahrradverleih.",
+      "googleMapsUrl": "https://maps.google.com/?cid=16969846936663438181",
+      "placeId": "ChIJMRa1nmVuQUYRZTOT-OABges",
+      "coordinates": {
+        "lat": 59.9222391,
+        "lng": 10.7510158
+      },
+      "rating": 4.3,
+      "userRatingCount": 5200
+    },
+    {
       "name": "The Thief",
       "type": "Design-Luxus",
       "priceRange": "250-400€",
+      "isSplurge": true,
       "evCharging": true,
       "description": "Eines der spektakulärsten Designhotels Europas, direkt auf der Kunstinsel Tjuvholmen. Erstklassige Parkmöglichkeiten mit EV-Ladestationen.",
       "googleMapsUrl": "https://maps.google.com/?cid=4559106215919493802",
@@ -187,6 +218,7 @@
       "name": "Clarion Hotel The Hub",
       "type": "Business-Lifestyle",
       "priceRange": "150-220€",
+      "isSplurge": true,
       "evCharging": true,
       "description": "Zentral gelegenes, modernes Großhotel mit Dachgarten und exzellentem Frühstück. Große Tiefgarage mit vielen Ladepunkten.",
       "googleMapsUrl": "https://maps.google.com/?cid=5119810349067443765",

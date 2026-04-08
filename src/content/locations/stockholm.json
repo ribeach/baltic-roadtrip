@@ -134,6 +134,32 @@
       },
       "rating": 4.2,
       "userRatingCount": 4455
+    },
+    {
+      "name": "Kajsas Fisk",
+      "cuisine": "Schwedisch / Fisch",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "In der Hötorgshallen verstecktes Fisch-Lokal mit dem besten Preis-Leistungs-Verhältnis der Stadt: Die legendäre Fisksoppa (Fischsuppe) mit unbegrenztem Nachfüllen für 9-11€. Mittags immer voll — das sagt alles.",
+      "mustTry": "Fisksoppa med påtår — Fischsuppe mit unbegrenztem Nachschlag",
+      "googleMapsUrl": "https://maps.google.com/?cid=7573064262574537361",
+      "placeId": "ChIJt-rFEV-dX0YRkfr1r9LtGGk",
+      "coordinates": { "lat": 59.3344068, "lng": 18.062324 },
+      "rating": 4.6,
+      "userRatingCount": 3661
+    },
+    {
+      "name": "Nystekt Strömming",
+      "cuisine": "Schwedisch / Street Food",
+      "priceRange": "€",
+      "isSplurge": false,
+      "description": "Stockholms berühmtester Imbisswagen am Slussen — frisch gebratener Ostseehering im Fladenbrot mit Kartoffelpüree. Für 5-8€ bekommt man hier das ehrlichste schwedische Essen der Stadt.",
+      "mustTry": "Stekt strömming med potatismos — gebratener Hering mit Kartoffelpüree im Tunnbröd",
+      "googleMapsUrl": "https://maps.google.com/?cid=9048706371593831003",
+      "placeId": "ChIJGa81HQB3X0YRWwKqu4B2k30",
+      "coordinates": { "lat": 59.3228865, "lng": 18.070928 },
+      "rating": 4.5,
+      "userRatingCount": 1563
     }
   ],
   "hotels": [

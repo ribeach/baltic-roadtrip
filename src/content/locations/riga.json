@@ -252,6 +252,7 @@
       "name": "3 Pavāru Restorāns",
       "cuisine": "Kreativ Lettisch (3-Köche-Konzept)",
       "priceRange": "€€€",
+      "isSplurge": true,
       "description": "Drei Köche aus verschiedenen kulinarischen Welten teilen sich eine Küche und kreieren ein gemeinsames Tasting-Menü, das lettische Zutaten in unerwartete Richtungen führt.",
       "mustTry": "Tasting-Menü (55-75€) — jeder Gang eine Überraschung",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=3%20pav%C4%81ru%20restor%C4%81ns%20%22Tam%20labam%20b%C5%ABs%20augt%22&query_place_id=ChIJKWec69DP7kYRmv9_qgDSh60",
@@ -267,6 +268,7 @@
       "name": "MĀSA",
       "cuisine": "Modern Lettisch (Michelin)",
       "priceRange": "€€€",
+      "isSplurge": true,
       "description": "Michelin-ausgezeichnetes Restaurant mit konsequent saisonaler lettischer Küche. Jeder Teller erzählt eine Geschichte von lettischen Wäldern, Feldern und Gewässern.",
       "mustTry": "Saisonales Menü — die Karte wechselt mit der Natur",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=M%C4%81sa%20restaurant&query_place_id=ChIJA5FHJcvP7kYR1q8JaLZ18mk",
@@ -292,6 +294,19 @@
       },
       "rating": 4.4,
       "userRatingCount": 9455
+    },
+    {
+      "name": "Lidojošā varde",
+      "cuisine": "Traditionell Lettisch",
+      "priceRange": "€",
+      "isSplurge": false,
+      "description": "Auf Rigas offizieller Tourismus-Website als Top-Adresse für traditionelle lettische Küche empfohlen. Erschwingliche Mittagsmenüs mit Hausmannskost — Kartoffelpuffer, Sauerkraut und deftiger Eintopf.",
+      "mustTry": "Traditionsmenü — lettische Kartoffelpuffer mit Sauerrahm",
+      "googleMapsUrl": "https://maps.google.com/?cid=8560956488143114010",
+      "placeId": "ChIJGVodecXP7kYRGo9YbZGgznY",
+      "coordinates": { "lat": 56.9581304, "lng": 24.1105757 },
+      "rating": 4.4,
+      "userRatingCount": 1899
     }
   ],
   "hotels": [
@@ -324,6 +339,19 @@
       },
       "rating": 4.4,
       "userRatingCount": 624
+    },
+    {
+      "name": "Hotel Gutenbergs",
+      "type": "Historisches Boutique-Hotel",
+      "priceRange": "62-95€",
+      "isSplurge": false,
+      "evCharging": false,
+      "description": "Familiengeführtes Hotel in einem historischen Gebäude direkt neben dem Domplatz — 300 Jahre alte Holzbalken, Dachrestaurant mit Altstadtblick. 40% günstiger als das Neiburgs bei vergleichbarer Toplage.",
+      "googleMapsUrl": "https://maps.google.com/?cid=11655373149177249427",
+      "placeId": "ChIJq0IHXtfP7kYRk_5VWSA0wKE",
+      "coordinates": { "lat": 56.9489419, "lng": 24.103523 },
+      "rating": 4.5,
+      "userRatingCount": 1400
     }
   ],
   "tips": [

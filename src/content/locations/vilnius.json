@@ -221,6 +221,7 @@
       "name": "Ertlio Namas",
       "cuisine": "Litauisches Fine Dining",
       "priceRange": "€€€",
+      "isSplurge": true,
       "description": "In einem historischen Altstadthaus serviert Ertlio Namas ein Tasting-Menü, das altlitauische Rezepte mit modernen Techniken wiederbelebt. Eine kulinarische Zeitreise durch die Großfürstenzeit.",
       "mustTry": "Historisches Tasting-Menü (45-60€) — jedes Gericht erzählt eine Geschichte",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ertlio%20Namas&query_place_id=ChIJPdiigBaU3UYRuLFU7GnLS1g",
@@ -276,6 +277,19 @@
       },
       "rating": 4.5,
       "userRatingCount": 5549
+    },
+    {
+      "name": "Etno Dvaras",
+      "cuisine": "Traditionell Litauisch",
+      "priceRange": "€",
+      "isSplurge": false,
+      "description": "Litauische Kette für traditionelle Küche zu günstigen Preisen — Cepelinai, Šaltibarščiai und Kartoffelpuffer in rustikalem Ambiente. Mehrere Standorte in Vilnius, der in der Altstadt ist am atmosphärischsten.",
+      "mustTry": "Cepelinai (Kartoffelklöße) und Šaltibarščiai (kalte Rote-Bete-Suppe)",
+      "googleMapsUrl": "https://maps.google.com/?cid=13950149882539119249",
+      "placeId": "ChIJ-xrjWBaU3UYRkZIzOGjjmME",
+      "coordinates": { "lat": 54.6834243, "lng": 25.2894377 },
+      "rating": 4.5,
+      "userRatingCount": 14874
     }
   ],
   "hotels": [
@@ -323,6 +337,19 @@
       },
       "rating": 4.3,
       "userRatingCount": 81
+    },
+    {
+      "name": "Moon Garden Boutique Hotel",
+      "type": "Boutique-Hotel",
+      "priceRange": "48-85€",
+      "isSplurge": false,
+      "evCharging": false,
+      "description": "18-Zimmer-Boutique mit eigener Kunstgalerie, Kamin in der Lobby und individuell eingerichteten Zimmern nahe dem Tor der Morgenröte. Hervorragendes Preis-Leistungs-Verhältnis für ein 4-Sterne-Haus.",
+      "googleMapsUrl": "https://maps.google.com/?cid=1944836559125696700",
+      "placeId": "ChIJCQqCaECU3UYRvFDh3Ity_Ro",
+      "coordinates": { "lat": 54.6742778, "lng": 25.2881528 },
+      "rating": 4.6,
+      "userRatingCount": 980
     }
   ],
   "tips": [

@@ -120,9 +120,48 @@
       },
       "rating": 4.6,
       "userRatingCount": 12219
+    },
+    {
+      "name": "Warpigs",
+      "cuisine": "Texas BBQ & Craft Beer",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Kollaboration von Mikkeller und 3 Floyds im Meatpacking District — 22 Craft-Biere vom Fass und texanisches BBQ in einer ehemaligen Schlachthalle. Laut, rauchig und perfekt für zwei bierbegeisterte Jungs.",
+      "mustTry": "Brisket Platte mit einem Glas Warpigs Foggy Geezer IPA",
+      "googleMapsUrl": "https://maps.google.com/?cid=17970556012460689348",
+      "placeId": "ChIJrfd4pHNTUkYRxMf6Mns9ZPk",
+      "coordinates": { "lat": 55.6685024, "lng": 12.5599359 },
+      "rating": 4.4,
+      "userRatingCount": 12591
+    },
+    {
+      "name": "Domhusets Smørrebrød",
+      "cuisine": "Dänisch / Smørrebrød",
+      "priceRange": "€",
+      "isSplurge": false,
+      "description": "Traditionelles Smørrebrød zu ehrlichen Preisen — 3-8€ pro Stück, zwei Stücke machen eine Mahlzeit. Die perfekte dänische Mittagspause ohne den typischen Kopenhagen-Aufpreis.",
+      "mustTry": "Klassisches Smørrebrød mit Hering oder Roastbeef",
+      "googleMapsUrl": "https://maps.google.com/?cid=8941276601985015225",
+      "placeId": "ChIJoydEjRFTUkYRuR3UU7LLFXw",
+      "coordinates": { "lat": 55.6767434, "lng": 12.5720572 },
+      "rating": 4.8,
+      "userRatingCount": 422
     }
   ],
   "hotels": [
+    {
+      "name": "Coco Hotel",
+      "type": "Design-Boutique-Hotel",
+      "priceRange": "90-120€",
+      "isSplurge": false,
+      "evCharging": false,
+      "description": "Von Travel+Leisure zum besten Hotel Skandinaviens gewählt. Gehört zum Copenhagen Food Collective — bei Direktbuchung 15% Rabatt in 19 Partner-Restaurants, was sich in Kopenhagens teurem Gastro-Markt schnell bezahlt macht.",
+      "googleMapsUrl": "https://maps.google.com/?cid=6897090989626383442",
+      "placeId": "ChIJbTfw0MNTUkYRUlw6dLZjt18",
+      "coordinates": { "lat": 55.6723649, "lng": 12.5563572 },
+      "rating": 4.4,
+      "userRatingCount": 2100
+    },
     {
       "name": "Hotel Copenhagen Island",
       "type": "Design-Hotel",
@@ -142,6 +181,7 @@
       "name": "CPH Living",
       "type": "Schwimmendes Boutique-Hotel",
       "priceRange": "130-200€",
+      "isSplurge": true,
       "evCharging": false,
       "description": "Permanent im Hafen vertäutes Boutique-Hotel — Hafenblick durch bodentiefe Fenster, Sonnendeck auf dem Dach und das sanfte Schaukeln der Wellen als Einschlafhilfe.",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Cph%20Living&query_place_id=ChIJDZXGPhVTUkYRTDssKCzg_Lc",
