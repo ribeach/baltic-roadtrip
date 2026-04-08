@@ -6,13 +6,18 @@
   "locationId": "klaipeda",
   "previousLocationId": "vilnius",
   "overnightLocationId": "klaipeda",
-  "additionalLocationIds": ["kaunas"],
-  "transitLocationIds": ["kaunas"],
+  "additionalLocationIds": [
+    "kaunas"
+  ],
+  "transitLocationIds": [
+    "kaunas"
+  ],
   "driving": {
     "distance": "310 km",
     "duration": "4:00",
     "mode": "drive",
-    "routeDescription": "Über die A1 nach Kaunas (100 km, 1,5 Std.), dort Besichtigung und Mittagessen. Weiter auf der A1/E85 bis Klaipėda an der Küste (210 km, 2,5 Std.)."
+    "routeDescription": "Über die A1 nach Kaunas (100 km, 1,5 Std.), dort Besichtigung und Mittagessen. Weiter auf der A1/E85 bis Klaipėda an der Küste (210 km, 2,5 Std.).",
+    "encodedPolyline": "abxlIolhyCbJhGjCbD}@fFmDxHkGvW{Dnj@mA`OGxI|CZjOhF|Kvr@db@rU`Xxa@dP~Q`IhE{D~]aJht@hEb_A\\tw@aFbh@nGffAbFvn@dUp[fQpSrF|QlOto@~Kxg@?dk@w{@rsDcs@nuDcTzbBoR|bAwX`k@_Xds@aXjlBqSt|@e{@jtBeXpz@{Ndj@ia@~`AkqAr`Bo}@~gAyP|[mXd~@eWzeBwNdaB}QndDgWdmAk`@naByUf}Bio@b}Do^pxGe_@`}IuLpzEkZnzLwSx`HoWzeE_o@x}GgbBroKmbBf~I}n@|hDon@hbEcl@tbDygAhsF}`@~zB{[zkBin@j{C}yAljGkgAvoD}Ypz@sHb]eCvo@kCx|@iLdbEcIt`C{OhlCaH~fEgBnhB{Ftd@uA`F_@bFxD`GfFvAzInCpOnF|_@rJrfAhTvN|IxZlh@`Znm@pG`TrIcAjFa@nA}JxAmb@gBuQnBbIaAda@}EnVyM_GqCzGuJp[yI_GuSv@aP@kJoLoE_Gg@|ASrPmFt@ca@q\\oJfCiZnTwk@fa@{RSmOnLkJfTka@`Z_tAbaAir@tf@gt@l_@kdBzm@ugGhzBqeAbZapC~`@yz@~L{k@bL_MjHaa@vh@kXhq@cr@zeBir@d{A}yDjeIqkB|vDm|ApgD}l@noAspAryBwn@ljA_`@dkAe{@nzEgwArxGqcAblGejAdoF_d@pyBua@|`Dol@bwFcRl_CuZn_D{]|uAq^dkAejB|aG}ZdeAwQdbAgHpv@sMzeEqY`{Dik@|dFio@xsDcgAvoFwPt{@eo@rbFov@lkGcnA``Im}@h~DaWhfAm_Al|CoIl\\mQn{A{HxuB{Pd`BmVpiAgTzo@qfA~vCg`AhnByqAnkC_Rbr@eQldAkMveBwMpiC{^fkCiWfuAeQvmBoi@tuFaLtuDef@drDkMrmAeHlfBqIxqDg]haDiXx_Byk@|lBug@xuAk\\niBs^rhE}WxeB}X|x@ql@vuBeYpvBiZ`rEg`@xiCs[piAqoApyCibAn{Bmb@|eBqR|oAgPzlAqOtiBkWvuGoTdeBm_@rlBgX`pAw^naCcN`pBaJv`BqT`xBwTjdBwQhjCgFjuEwObuC_`@x}Bc`@noBq^pjCw`@ptBc_@jjAojAtsCsXnjAyS|cB_Q~aCaSr}By]x~D{LbaGqEprI}BdeBuMd_BaWhuAs`AryDiUrlAcPjqB}Az{AzFdaBjo@ruFteAnxInhApeJpm@rgDCzSyv@jhAcN|UKtYxC`m@bChb@"
   },
   "evCharging": {
     "stopsNeeded": 1,
@@ -21,11 +26,23 @@
   },
   "activities": [
     "Morgendlicher Aufbruch aus Vilnius über die A1",
-    { "highlightRef": "Laisvės Alėja (Freiheitsallee)", "note": "Eine der längsten Fußgängerzonen Europas — Kaffeepause mit Aussicht" },
-    { "highlightRef": "Neuntes Fort", "note": "Eindrückliche Gedenkstätte — ca. 1,5 Stunden einplanen" },
-    { "restaurantRef": "Bernelių Užeiga", "note": "Deftiges litauisches Mittagessen — Cepelinai und Šaltibarščiai" },
+    {
+      "highlightRef": "Laisvės Alėja (Freiheitsallee)",
+      "note": "Eine der längsten Fußgängerzonen Europas — Kaffeepause mit Aussicht"
+    },
+    {
+      "highlightRef": "Neuntes Fort",
+      "note": "Eindrückliche Gedenkstätte — ca. 1,5 Stunden einplanen"
+    },
+    {
+      "restaurantRef": "Bernelių Užeiga",
+      "note": "Deftiges litauisches Mittagessen — Cepelinai und Šaltibarščiai"
+    },
     "Nachmittags weiter auf der A1/E85 Richtung Küste nach Klaipėda",
-    { "highlightRef": "Altstadt mit Fachwerkhäusern", "note": "Abendlicher Bummel durch Klaipėdas historische Altstadt" },
+    {
+      "highlightRef": "Altstadt mit Fachwerkhäusern",
+      "note": "Abendlicher Bummel durch Klaipėdas historische Altstadt"
+    },
     "WICHTIG: Heute Abend in Klaipėda auf 100 % laden — morgen keine Schnelllader auf der Nehrung!"
   ]
 }
