@@ -5,6 +5,7 @@ interface Props {
   name: string;
   cuisine: string;
   priceRange: string;
+  isSplurge?: boolean;
   description: string;
   mustTry: string | null;
   googleMapsUrl: string;
@@ -14,7 +15,7 @@ interface Props {
   userRatingCount?: number;
 }
 
-const { name, cuisine, priceRange, description, mustTry, googleMapsUrl, number, note, rating, userRatingCount } = Astro.props;
+const { name, cuisine, priceRange, isSplurge, description, mustTry, googleMapsUrl, number, note, rating, userRatingCount } = Astro.props;
 ---
 
 <div class="bg-paper rounded-xl border border-sand-200 hover:shadow-md transition-all overflow-hidden">
@@ -33,6 +34,9 @@ const { name, cuisine, priceRange, description, mustTry, googleMapsUrl, number, 
         <div class="flex items-center gap-2 mt-1">
           <span class="text-xs bg-sand-100 text-gray-600 px-2 py-0.5 rounded-full">{cuisine}</span>
           <span class="text-xs text-gray-500">{priceRange}</span>
+          {isSplurge && (
+            <span class="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">Splurge</span>
+          )}
           <RatingDisplay rating={rating} userRatingCount={userRatingCount} />
         </div>
       </div>

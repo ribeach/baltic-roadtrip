@@ -246,6 +246,7 @@
       "name": "Lee Brasserie (ehem. Leib Resto ja Aed)",
       "cuisine": "Hyperlokal Estnisch",
       "priceRange": "€€-€€€",
+      "isSplurge": true,
       "description": "Das \"Brot-Restaurant\" backt eigenes Sauerteigbrot und serviert dazu hyperregionale Gerichte aus dem eigenen Garten und von lokalen Bauern. Im Sommer wird im Innenhof gegessen.",
       "mustTry": "Frisch gebackenes Roggenbrot mit Butter — das einfachste und beste Gericht",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lee%20Brasserie%20Tallinn&query_place_id=ChIJR7Jb9mOTkkYR0Ut5oBBCS-4",
@@ -276,6 +277,7 @@
       "name": "Moon",
       "cuisine": "Slawisch-Estnisch (Michelin)",
       "priceRange": "€€€",
+      "isSplurge": true,
       "description": "Michelin-ausgezeichnetes Restaurant, das slawische und estnische Küche kunstvoll verbindet. Die Pelmeni und andere osteuropäische Klassiker werden hier auf Fine-Dining-Niveau gehoben.",
       "mustTry": "Pelmeni — russische Teigtaschen, hier als Haute Cuisine",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Moon&query_place_id=ChIJwZYTGWWTkkYRBwLl838J0QQ",
@@ -316,6 +318,32 @@
       },
       "rating": 4.8,
       "userRatingCount": 2739
+    },
+    {
+      "name": "Kompressor",
+      "cuisine": "Pfannkuchen & Pub Food",
+      "priceRange": "€",
+      "isSplurge": false,
+      "description": "Kultlokal in der Altstadt, berühmt für riesige herzhafte Pfannkuchen zu studentenfreundlichen Preisen. Kein Schnickschnack, dafür satt und zufrieden — perfekt nach einem langen Altstadtspaziergang.",
+      "mustTry": "Herzhafter Pfannkuchen mit Schinken und Käse (unter 8€)",
+      "googleMapsUrl": "https://maps.google.com/?cid=17166080864845768378",
+      "placeId": "ChIJRyaVZWKTkkYRuibDxpgrOu4",
+      "coordinates": { "lat": 59.4373931, "lng": 24.7432074 },
+      "rating": 4.6,
+      "userRatingCount": 8198
+    },
+    {
+      "name": "Härg",
+      "cuisine": "Modern Estnisch (Bib Gourmand)",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Mit dem Michelin Bib Gourmand ausgezeichnet — das Siegel für \"gute Qualität zu fairem Preis\". Zeitgenössische estnische Küche mit Fokus auf lokale, saisonale Zutaten. Gehobener als ein Pub, aber kein Fine Dining.",
+      "mustTry": "Saisonales Hauptgericht — die Karte wechselt mit der Ernte",
+      "googleMapsUrl": "https://maps.google.com/?cid=4655987249127532830",
+      "placeId": "ChIJ1y-et4CTkkYRHqn-DrxjnUA",
+      "coordinates": { "lat": 59.4328048, "lng": 24.7601202 },
+      "rating": 4.7,
+      "userRatingCount": 1076
     }
   ],
   "hotels": [
@@ -338,6 +366,7 @@
       "name": "Schlössle Hotel",
       "type": "Luxus-Boutique-Hotel",
       "priceRange": "160-220€",
+      "isSplurge": true,
       "evCharging": true,
       "description": "Im Herzen der Altstadt in einem restaurierten Kaufmannshaus aus dem 13. Jahrhundert. Eigene E-Ladesäule — perfekt, um vor der Fähre nach Helsinki aufzuladen. Der Inbegriff baltischer Eleganz.",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Schl%C3%B6ssle%20Hotel&query_place_id=ChIJ_SaBzWOTkkYRSMpeR32py0s",

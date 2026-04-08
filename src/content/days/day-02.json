@@ -1,42 +1,21 @@
 {
   "dayNumber": 2,
   "date": "2026-05-01",
-  "title": "Durch Schlesien nach Warschau",
-  "subtitle": "Breslaus Rynek, Zwerge und dann weiter in die polnische Hauptstadt",
-  "locationId": "warsaw",
-  "previousLocationId": "prague",
-  "overnightLocationId": "warsaw",
-  "transitLocationIds": [
-    "wroclaw"
-  ],
-  "driving": {
-    "distance": "630 km",
-    "duration": "7:00",
-    "mode": "drive",
-    "routeDescription": "Über die D11/S3 nach Breslau (280 km, 3 Std.), dort 3 Stunden Pause für Mittagessen und Altstadt. Dann weiter auf der A8/A1/A2 nach Warschau (350 km, 3,5 Std.).",
-    "encodedPolyline": "{jspH}zbwAsCvt@piA}FheA{`AbiAuaDc\\eYqqA{lAcYaaEokAegEoCyqFqt@cv@chArAit@mqDikBgnNqbA{sL{YghLpbA}iMn`A{fHgj@agIpRmcQtRm~PgRkhLyMcrFgi@i`FhTgrGs^yeFy@edNs]q|Elm@evDex@iqKoBquLsrA}wFmiAwdBmdB_t@}iDoj@y~BiH{~Aid@ueA_rBspBg~AozCepDyaEe{Di_Dm~BkeCgvA{NgoAstCzxCkdBtx@ks@b|@okAjz@amAza@ilCeiAs}BqmCeaBg}AmiA}n@}z@bKkrAjEqgA`|@aZooAmc@a}@irBk`Ca|@rXou@yz@k^wGse@~i@_gAmGgr@a_BgtA}OkcBaC_sCgsBqmB_qAmP~bByZwG~JcRo`B{vAckAkj@e`BlJq~Bhr@gyB_yBiOyrFejAslCejDweEym@oyCwm@itBcx@aa@q|BkFisA`@_uA`d@asBea@maByjCshCspAgeC_FogChn@m|A_eAobAquCk^tWw[qo@jGq_A{MspFciAux@cXwhBkHmsB_g@ehJ{A}aCmVyo@}q@aXm`@en@|o@e~CltAoiJpsGobf@yTibMieAmkDyDogJin@omK}n@ubGtQqt@kn@eb@qrA{mDqjDesDuv@qcAyS|}@cDtdAgb@wTifAdQ}yAmZwpCp\\wHvQkJdf@oAq_Coq@ieHi{@oxBauE}pF_{@enPll@ubPag@akGqUk{Ipa@u}Ds~@kxF{bCgxHcmE{mFw|@{cAm`@sbCr}@ktK}NczMmWwhH~e@ehEoN{sD_JcdGu`BqnKwUajPokBc_It]enFd{CgwGjEmnDwx@cpGwh@cdHdRkgHdRm`FxD{qA_~@exEsiBwpJyfEovG}dB{qDak@gkFsv@yeC_v@oz@qfBy^}kBqCkeCckBgvEgfDqxEkk@asAooAy{@ksHowCogHieAwsItfAowEtaAkyD`mAawK`y@g}N_]ktHs}BoxKsfB{nJ{j@inGqd@_tIcsAc}Fwx@{hFsG}bGs_AubJjWsrG}Jik@cqJizDi~CmTstAld@{zAn^ajBy`@_lD_bC{}AgkBenD{}BiuDfi@m}AtpAub@wz@kXo~EszAebK}wB{~HgrD{`IqdDwjGgkD}dMimE_tRybBo`RohAq_Js@{kFkPkpM}vBcnK}sDcfYuxBsoNmhA{sOixBmyLycAmgAk[edCet@wjGvj@{{AzlBy{GbXuaAw]_IevB_wAqzAseCihAgzDqo@wjE"
-  },
-  "evCharging": {
-    "stopsNeeded": 2,
-    "notes": "Erster Ladestopp in Breslau während der Stadtbesichtigung (ideal!). Zweiter Stopp im Raum Łódź auf der A2. GreenWay- und ORLEN-Stationen.",
-    "criticalLevel": "green"
-  },
+  "title": "Prag erkunden",
+  "subtitle": "Karlsbrücke, Prager Burg und böhmische Knödel",
+  "locationId": "prague",
+  "previousLocationId": null,
+  "overnightLocationId": "prague",
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    "Morgendlicher Aufbruch aus Prag nach dem Frühstück",
-    "Ankunft in Breslau gegen Mittag — das Auto lädt, während ihr die Stadt erkundet",
-    {
-      "highlightRef": "Rynek (Marktplatz)",
-      "note": "Mittagspause am schönsten Marktplatz Polens"
-    },
-    {
-      "highlightRef": "Breslauer Zwerge (Krasnale)",
-      "note": "Zwergenjagd in der Altstadt — über 300 kleine Bronzefiguren verstecken sich in den Gassen"
-    },
-    {
-      "restaurantRef": "Konspira",
-      "note": "Lunch im kommunistischen Untergrund-Restaurant — versteckter Eingang inklusive"
-    },
-    "Nachmittags weiter auf der A8/A1/A2 Richtung Warschau",
-    "Ankunft in Warschau am Abend — Einchecken und erste Eindrücke der polnischen Hauptstadt"
+    { "highlightRef": "Prager Burg (Pražský hrad)", "note": "Vormittags auf die Burg — Veitsdom, Goldenes Gässchen und Panoramablick über die Moldau" },
+    { "highlightRef": "Karlsbrücke (Karlův most)", "note": "Zu Fuß hinunter durch die Malá Strana — morgens am schönsten, bevor die Massen kommen" },
+    { "highlightRef": "Josefov (Jüdisches Viertel)", "note": "Alter Jüdischer Friedhof und Synagogen — ca. 2 Stunden einplanen" },
+    { "highlightRef": "Tanzendes Haus", "note": "Fotostopp am Moldau-Ufer" },
+    { "restaurantRef": "Café Louvre", "note": "Mittagessen im historischen Kaffeehaus — hier saßen schon Einstein und Kafka" },
+    "Nachmittags Riegrovy sady — Biergarten mit Panoramablick über Prag",
+    { "restaurantRef": "Kantýna", "note": "Abendessen — erstklassige tschechische Fleischküche" },
+    { "nightlifeRef": "Hemingway Bar", "note": "Absinth-Cocktails zum Ausklang des Prag-Tages" }
   ]
 }

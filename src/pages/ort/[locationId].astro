@@ -44,6 +44,16 @@ const mapLocations = [{
 }];
 
 const pois = deduplicateMapPois(collectLocationPois(location));
+
+// Derive location type tags from existing data
+const tags: Array<{ label: string; color: string }> = [];
+if (location.hotels.length > 0) tags.push({ label: 'Übernachtung', color: 'bg-teal-600 text-white' });
+if (location.highlights.some((h: any) => h.type === 'nature')) tags.push({ label: 'Natur', color: 'bg-green-100 text-green-800' });
+if (location.restaurants.length > 0) tags.push({ label: 'Einkehr', color: 'bg-amber-100 text-amber-800' });
+if (location.highlights.some((h: any) => h.type === 'museum')) tags.push({ label: 'Kultur', color: 'bg-purple-100 text-purple-800' });
+if (location.highlights.some((h: any) => h.type === 'activity')) tags.push({ label: 'Aktiv', color: 'bg-blue-100 text-blue-800' });
+if (location.nightlife && location.nightlife.length > 0) tags.push({ label: 'Abends', color: 'bg-indigo-100 text-indigo-800' });
+if (location.id === 'halmstad') tags.push({ label: 'Remote Work', color: 'bg-navy-600 text-white' });
 ---
 
 <BaseLayout title={location.name}>
@@ -65,6 +75,13 @@ const pois = deduplicateMapPois(collectLocationPois(location));
         </div>
       </div>
       <p class="text-lg text-gray-600 mt-3">{location.description}</p>
+      {tags.length > 0 && (
+        <div class="flex flex-wrap gap-2 mt-3">
+          {tags.map(tag => (
+            <span class={`text-xs font-medium px-2.5 py-1 rounded-full ${tag.color}`}>{tag.label}</span>
+          ))}
+        </div>
+      )}
     </div>
 
     <!-- Assigned days info -->
@@ -139,6 +156,7 @@ const pois = deduplicateMapPois(collectLocationPois(location));
               name={r.name}
               cuisine={r.cuisine}
               priceRange={r.priceRange}
+              isSplurge={r.isSplurge}
               description={r.description}
               mustTry={r.mustTry}
               googleMapsUrl={r.googleMapsUrl}
@@ -160,6 +178,7 @@ const pois = deduplicateMapPois(collectLocationPois(location));
               name={h.name}
               type={h.type}
               priceRange={h.priceRange}
+              isSplurge={h.isSplurge}
               evCharging={h.evCharging}
               description={h.description}
               googleMapsUrl={h.googleMapsUrl}

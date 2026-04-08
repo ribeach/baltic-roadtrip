@@ -109,6 +109,7 @@
       "name": "Uoksas",
       "cuisine": "Modern Litauisch / Fine Dining",
       "priceRange": "€€-€€€",
+      "isSplurge": true,
       "description": "Eines der besten Restaurants Litauens — modernes litauisches Menü mit regionalen Zutaten und kreativer Präsentation in stilvollem Ambiente.",
       "mustTry": "Saisonales Degustationsmenü mit litauischen Produkten",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Uoksas&query_place_id=ChIJd8xFv3Qi50YRvNxfu-mrOwU",
@@ -134,6 +135,19 @@
       },
       "rating": 4.7,
       "userRatingCount": 1265
+    },
+    {
+      "name": "Bernelių Užeiga",
+      "cuisine": "Traditionell Litauisch",
+      "priceRange": "€",
+      "isSplurge": false,
+      "description": "Traditionelles litauisches Restaurant in der Altstadt mit rustikalem Holzinterieur. Mini-Cepelinai für 10,90€, Schweinekotelett für 12,90€, Schaschlik für 13,90€ — ehrliche Portionen zu fairen Preisen.",
+      "mustTry": "Mini Cepelinai — die litauischen Kartoffelklöße in mundgerechter Größe",
+      "googleMapsUrl": "https://maps.google.com/?cid=7802268446056942891",
+      "placeId": "ChIJlyEaOhCU3UYRK412QdA5R2w",
+      "coordinates": { "lat": 54.688417, "lng": 25.2773423 },
+      "rating": 4.3,
+      "userRatingCount": 3925
     }
   ],
   "hotels": [

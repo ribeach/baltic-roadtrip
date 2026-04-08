@@ -108,6 +108,7 @@
       "name": "Restaurang Fyr",
       "cuisine": "Grill & Seafood",
       "priceRange": "€€€",
+      "isSplurge": true,
       "description": "Sternekoch Jacob Holmström hat am Strand von Tylösand ein Gastro-Highlight geschaffen. Fokus auf wildem, lokalem Fisch vom Grill mit Blick auf die Insel Tylön. White-Guide-gelistet.",
       "mustTry": "Das wechselnde Fisch-Hauptgericht vom Grill — was das Meer an dem Tag hergibt",
       "googleMapsUrl": "https://maps.google.com/?cid=7547608613101946495",
@@ -227,9 +228,26 @@
   ],
   "hotels": [
     {
+      "name": "Elite Hotel Mårtenson",
+      "type": "Historisches Stadthotel",
+      "priceRange": "90-120€",
+      "isSplurge": false,
+      "evCharging": false,
+      "description": "Über 160 Jahre altes Hotel, 2021 komplett renoviert. Drei Restaurants (darunter Greta's Rooftop), durchgehend starkes WLAN und Café-Bereiche — ideal als Remote-Work-Basis. Zentrale Lage an der Storgatan.",
+      "googleMapsUrl": "https://maps.google.com/?cid=11997145759883168183",
+      "placeId": "ChIJLUuWmjujUUYRt4lrSIFsfqY",
+      "coordinates": {
+        "lat": 56.6772435,
+        "lng": 12.8594263
+      },
+      "rating": 4.3,
+      "userRatingCount": 1800
+    },
+    {
       "name": "Hotel Tylösand",
       "type": "Resort & Spa",
       "priceRange": "150-300€",
+      "isSplurge": true,
       "evCharging": true,
       "description": "Schwedens bekanntestes Strandresort am Tylösand-Strand, gegründet vom Roxette-Sänger Per Gessle. Großer Spa-Bereich, Indoor-Pool, Kunstgalerie und Golfplätze. Perfekt für einen Ruhetag am Meer.",
       "googleMapsUrl": "https://maps.google.com/?cid=13503519471587638699",

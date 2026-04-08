@@ -1,49 +1,26 @@
 {
   "dayNumber": 7,
   "date": "2026-05-06",
-  "title": "Trakai, Kaunas und weiter nach Klaipėda",
-  "subtitle": "Inselburg, Festung und Hafenstadt an einem Tag",
-  "locationId": "klaipeda",
-  "previousLocationId": "vilnius",
-  "overnightLocationId": "klaipeda",
-  "additionalLocationIds": [
-    "trakai",
-    "kaunas"
-  ],
-  "transitLocationIds": [
-    "trakai",
-    "kaunas"
-  ],
+  "title": "Vilnius und Trakai",
+  "subtitle": "Inselburg am See und die Bohème-Republik Užupis",
+  "locationId": "vilnius",
+  "previousLocationId": null,
+  "overnightLocationId": "vilnius",
+  "additionalLocationIds": ["trakai"],
   "driving": {
-    "distance": "320 km",
-    "duration": "4:30",
+    "distance": "60 km",
+    "duration": "1:00",
     "mode": "drive",
-    "routeDescription": "Zunächst kurzer Abstecher nach Trakai (30 km westlich von Vilnius), dann über die A1 nach Kaunas und weiter auf der A1/E85 bis Klaipėda an der Küste.",
-    "encodedPolyline": "abxlIolhyCbJhGlAjKyLpa@iGpz@tCtJjOhF|Kvr@db@rUlg@zq@l`@hFpT|KtSjNpUhg@b]tt@vVzh@pm@dxB^pSeNlU_@nM|P`WdWnr@pJldBrJ`z@pg@ztDzNngA~QjnCg_@lfMaVvvJcKviAah@xJwLIaTpFsG}DmC}DuAdIoHgBcQzM}YtpA_v@|ZySnJsW`TsRiEmTWs\\d_@_TxMsSvOi_@~Ksw@joAqSlXqIfNyUlGcYxVmJFqFqGyd@qZ{`@fC{\\tM}Yzu@i_@p`Aws@fiA}QpE_f@rBgJ`DaGsDiZ_ScCmAk@p@hBb@hAtb@sD~x@cNr}@{[ngBwQ~cBc[z{FaVfnEuPhyGgf@b{RkMnrDgRd|Cg[vrDqXhvCof@zhDmyBlbM}wAhzH}{ApcJubA|aF__AzlF{yAnyGcjAxvE{eAp|CsI`j@yAhj@mCp{@iLneE}YtgGcHf{EsA~nAcH~f@y@jFWbI`GvAnEnA~IrCdOfFhc@rKneAfThPhNrXfh@`a@v~@`KcB|F}QhA{`@oBuNnBtNiAz`@}F|QuLwFkFxN{DjLcEbDuGsD_a@rAuPyQ_C|Ia@dGyIuCq`@cXqc@~Yol@da@qUSqMvQeKbQmf@v]gqA~~@{bBbcA_tEtaBsxCxfAsqAr\\igCx^wz@~Lmj@`MqPfL_\\nf@eXfq@iu@|kBcjCjsFiqCf|FoeE|{Im~AbmCoh@dgAk\\fjA}u@jkEoj@tfC_n@fzCo]x_CeqBv{Jud@j_Cy_@z~Ckl@dzF_k@nlGm`AthD}hB|~Fsk@zcCyVn~Fm]bnEyh@fwE{o@hsDkhArsFa`AdaHuu@heGmoAddIgsAl}FgbArbDuGjYkRtxBkFbtAiUppBkj@~oB{pAfjDeu@~wA}cA|oByO|c@uMth@yQ|iAcL~aBkNtkCo_@hiCsVltA{SjbCwPtbB_VtsCiLpjDkd@|cDsO|`BgF`_B_I`fD}]zbDs[liBmj@jeBoe@vqAa]xoB{_@rpEwXh~A_Y|w@{j@ltBkXvvBs]hdF}]fwBa_@~nAgrBvrE}[~z@wb@jiBoc@|~CqNpgBwIjtCmLz|BmUvgByd@v|B}q@jaEsNhwBob@x`Foc@b~EaGfeFsQbrCi_@lvB}aAlfG_c@ftB_^~cAofA~kCw[dxAmb@l~Ewp@ruHwLt`GsEttIeCfeBmNz`B_~Ax~GgTnsAcL`gBo@`qAnIpmBjo@vpFvX~}BnxAtuLpw@~jF`Ql`AcAdMcz@jlAmMfUhBz\\xCzj@dBp]"
+    "routeDescription": "Tagesausflug nach Trakai (30 km westlich von Vilnius) — morgens hin, mittags zurück. Einfache Landstraße durch litauische Wälder."
   },
-  "evCharging": {
-    "stopsNeeded": 1,
-    "notes": "Ein Ladestopp in Kaunas während der Besichtigung reicht aus. Gute Ladeinfrastruktur entlang der A1. WICHTIG: In Klaipėda unbedingt auf 100 % laden — morgen geht es auf die Kurische Nehrung, wo es KEINE Schnelllader gibt!",
-    "criticalLevel": "green"
-  },
+  "evCharging": null,
   "activities": [
-    {
-      "highlightRef": "Wasserburg Trakai",
-      "note": "Vormittags — Litauens Postkartenmotiv Nr. 1"
-    },
-    "Kibinai-Mittagessen in Trakai – die gefüllten Teigtaschen der Karäer, einer turksprachigen Minderheit",
-    {
-      "highlightRef": "Neuntes Fort",
-      "note": "Stopp auf der Weiterfahrt nach Kaunas"
-    },
-    {
-      "highlightRef": "Laisvės Alėja (Freiheitsallee)",
-      "note": "Eine der längsten Fußgängerzonen Europas"
-    },
-    "PACING-TIPP: Kaunas (Neuntes Fort + Freiheitsallee) ist optional — bei Zeitdruck lieber entspannt in Klaipėda ankommen",
-    {
-      "highlightRef": "Altstadt mit Fachwerkhäusern",
-      "note": "Bummel am Abend nach Ankunft in Klaipėda"
-    }
+    { "highlightRef": "Wasserburg Trakai", "note": "Vormittags — Litauens Postkartenmotiv Nr. 1 auf der Insel im Galvė-See" },
+    { "restaurantRef": "Kybynlar", "note": "Kibinai-Mittagessen in Trakai — gefüllte Teigtaschen der Karäer, einer turksprachigen Minderheit" },
+    { "highlightRef": "KGB-Museum (Museum der Okkupationen und Freiheitskämpfe)", "note": "Nachmittags — ca. 2 Stunden einplanen" },
+    { "highlightRef": "Republik Užupis", "note": "Bohème-Viertel mit eigener Verfassung — Schutzengel-Statue nicht verpassen" },
+    { "highlightRef": "Halės Turgus", "note": "Nachmittagspause — litauische Spezialitäten probieren" },
+    { "restaurantRef": "Ertlio Namas", "note": "Gehobene litauische Küche in historischem Gewölbe" },
+    { "nightlifeRef": "Šnekutis", "note": "Urige Kneipe mit hauseigenem Met und Bier vom Fass" }
   ]
 }

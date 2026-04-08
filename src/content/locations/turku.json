@@ -95,6 +95,7 @@
       "name": "Restaurant Kaskis",
       "cuisine": "Nordische Küche & Fine Dining",
       "priceRange": "€€€",
+      "isSplurge": true,
       "description": "Eines der besten Restaurants Finnlands — Kaskis serviert saisonale, nordische Menüs aus lokalen Zutaten in einem minimalistisch-eleganten Ambiente. Perfekt für ein besonderes Abendessen vor der Fähre.",
       "mustTry": "Saisonales Überraschungsmenü mit finnischen Wildkräutern und Ostseefisch",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Kaskis%20Turku&query_place_id=ChIJQZaTtfx2jEYRWtEVeMZa6DA",
@@ -157,6 +158,7 @@
       "name": "Solo Sokos Hotel Turun Seurahuone",
       "type": "Boutique-Hotel",
       "priceRange": "€€€",
+      "isSplurge": true,
       "evCharging": false,
       "description": "Historisches Boutique-Hotel im Herzen der Stadt, mehrfach als bestes Hotel Finnlands ausgezeichnet. Individuell gestaltete Zimmer mit viel Charakter. Hauseigenes Restaurant mit finnischer Küche.",
       "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Solo%20Sokos%20Hotel%20Turun%20Seurahuone&query_place_id=ChIJPYY0yPt2jEYR2fhC31JZHKA",
@@ -167,6 +169,19 @@
       },
       "rating": 4.5,
       "userRatingCount": 1492
+    },
+    {
+      "name": "Park Hotel Turku",
+      "type": "Jugendstil-Villa",
+      "priceRange": "90-120€",
+      "isSplurge": false,
+      "evCharging": false,
+      "description": "Wunderschöne efeuberankte Jugendstil-Villa mit persönlichem Charme. Ruhige Lage nahe dem Stadtzentrum, günstiger als die Premium-Hotels und mit viel mehr Charakter als eine Hotelkette.",
+      "googleMapsUrl": "https://maps.google.com/?cid=7421888645369043832",
+      "placeId": "ChIJFVNymfh2jEYReBu6bWbY_2Y",
+      "coordinates": { "lat": 60.453191, "lng": 22.2579269 },
+      "rating": 4.3,
+      "userRatingCount": 890
     }
   ],
   "tips": [

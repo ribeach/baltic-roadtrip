@@ -1,29 +1,37 @@
 {
   "dayNumber": 5,
   "date": "2026-05-04",
-  "title": "Von Masuren nach Vilnius",
-  "subtitle": "Wolfsschanze, Suwałki-Lücke und Ankunft im Baltikum",
-  "locationId": "vilnius",
-  "previousLocationId": "masuria",
-  "overnightLocationId": "vilnius",
-  "additionalLocationIds": ["masuria"],
+  "title": "Durch Masuren ins Land der tausend Seen",
+  "subtitle": "Ordensburgen, Storchennester und ein Abend am See",
+  "locationId": "masuria",
+  "previousLocationId": "warsaw",
+  "overnightLocationId": "masuria",
   "driving": {
-    "distance": "300 km",
-    "duration": "3:30",
+    "distance": "250 km",
+    "duration": "3:00",
     "mode": "drive",
-    "routeDescription": "Optional: Vormittags Abstecher zur Wolfsschanze (40 km nördlich von Ryn). Dann Richtung Südosten durch die geopolitisch bedeutsame Suwałki-Lücke zwischen Kaliningrad und Belarus nach Vilnius.",
-    "encodedPolyline": "s~ehIceobClBxKxReXhiBal@pzAa|@xw@}s@hk@cL~g@me@d^ix@lIcVhc@uMzd@ic@fl@m|@zLoMt@o]vAaaAdJsPqHsWwm@_h@ca@mo@jCc~@xVemBfR_`B{m@imCaLeqAb@{p@fXweB~Q_vA|X}m@vd@ez@xg@sThr@wEfx@mXjCsiBxZqkApD{rAds@wdAv_@m|@da@eyBe@q}Bko@i`GeI{l@pAab@rEcj@zWoOnk@Upd@{e@bGmnBpEo}Bs@{{CzA}uDiCapIgIcNqJuc@~HqtBvPa`D{YuwDsB_nA_QogAyImyAaU}s@kc@}rBqc@we@}Xuj@uk@ow@sTc}@a@i`Ao[upC{ZoOsQeXqFwm@eXkmDjTopDlXszB~Usx@aPaLqd@uyB_aA}zCkFkaEu@kzK}b@ejDoy@acF_a@}vB_k@krAmcBquCkqBuqG_`AspBeaAir@wiBil@cq@}j@ecCk|Cc`AaoA{}@odFaWylAie@gt@yhC_vBmb@}Lsa@dDqkAdc@gbEbkBup@_Bce@}UcbAyc@gy@sY_h@_eAiKukA~@aiCfA_cB{HygBkbA{qBib@gs@mq@uT{{@uJyqAe{@}_AmyAyYss@}p@i}@qsA{y@wlAchCgh@}z@}i@_Usx@qLkk@oc@e_A_kByvAuh@gm@_Uwl@fAwc@sG_i@c{@ql@gsAg{Aq}Aos@cn@wdA{b@sbBcsAcbA}dAytAqbBwd@iBuo@bYqjA|OklCzA_uAnHyfBe_B}xAsp@ezAqg@cbFmrCuuAubAcv@ewAebB{dD}a@{`FaHcrEoe@kiAikBueCezB{mAwd@m|AsW}bE_ZghAa|@uwA{hBsyCqSooAyLuzBeP{rB{gAkjCsuBg~EcpAu|Fsf@knBa|A}tD{vAs|Bio@_oBgvAykCqa@ma@wm@snBkt@y}Cyy@_oDuQwgAaErQo`Ahp@yw@zJaz@~Tgv@|e@grAd}@mhBdmAc]~Fgu@ar@cz@mj@cw@iD{v@aaAs_@}_@iZkrA{h@obA{Isp@jN}iCfOafKdb@y{JbKsnDxRywBjrAa`E~yAqiGrbC_hMb|Em`XhfDqoRlcA{sKv^c}H~WutK~b@}gP|_@qeHts@wmHnn@ytEbq@oyCpQ{sD|k@}_Erj@cnAd|BeoCbx@_pBll@kcBbgAgsDre@y{Bbc@s`Anz@mkFhm@szCbkCqbJdL}m@}b@egBu{@}lBq{@wfAca@uIi_@_^ci@ca@{L}_@yDwm@ma@eIgTePfJwX~H{|@|PQ"
+    "routeDescription": "Über die S7/S51 Richtung Nordosten durch die masurische Seenplatte nach Ryn. Landschaftlich wunderschön — Seen, Wälder, Störche auf den Dächern.",
+    "encodedPolyline": "sbx}Ho}f_CgOwfAiGqxAqx@x_A_mApcBw_B|wAmuAjx@oaB|sEcb@nbCkdB``Cq]tj@}Sf|@_i@tpBoSjv@io@xr@kv@`pCiu@rhDoe@xvBc~AzjHaHppAqk@xgAg}@nrAaz@teB_PlxAuZpqAw}AnwAig@zaDql@p}DyYhv@seAxz@akAx}@yf@zdAkjDnfC_l@bDep@b[muBdzByx@jo@skArv@uhAnnAid@`jBkb@jgA}q@paEgm@hfBco@f|@gaAaHct@`z@ug@vc@qh@sDwn@uXqa@lK_h@bS_aA`_@qn@xs@ceBjcCop@xv@c|DnfAy}A`d@izAxjBo~AfeAkq@jdAgy@~Vir@DgaAng@}p@hFkiA_|@y`Bk{Aeo@Gyl@ji@{y@vy@eaA~i@cm@iUml@_r@_|@_{@kgAwDen@_Q_l@si@qwBg}A_zBupDqp@_g@s_@aD_dAzb@eZhQ{^AsrAgaA}~@qp@_xC}aAeo@yd@mo@azAi}@opB{u@ai@oo@{Bqm@nLuo@Ra|@_d@ym@_j@sy@o\\ctBnDgnAsHm}@uPkh@mT}e@yAer@xRctAb~@av@~N_i@kUw{@{EgeAqLmlAcp@qfA_\\atBtMeaD}Rid@fWo[vv@{MfoB{c@btAsfA|\\{dArRgz@blA{hAjl@{s@~aAwZhsAge@lZomAxQqtAyXmi@fUgh@dcAu]hWoZdAwuA~EegBpEurAzs@{`AjbAod@r{@epA|tAgb@zR_`A`RaxCj_A}x@ng@cQ}@yfA}dA{Qgn@sTipCyOuiBsz@gzByfA_`BeeDuaGcv@}z@kvAqt@wq@}Kg_Awg@coAw^}p@}o@w@_Xz`AwkBzJglBmPwnBl@_hAyQogAwe@{]gf@kcAwq@iy@_}@ge@c{@{Taq@a@seAme@qr@wr@mk@ouAwT_vBuOitAsv@m|@cy@gqAi|@opAik@cuCcm@_tAu_@w~Ao_@uoGth@iwDrf@kpAtEi~AbLeaAeGkzAiJybBfOqrAvAwcByUqyAwJwnB{FivAmUy{AgeAeiD}CcxBva@kzCdd@_fClUcoDdRk|A}HqoBuq@_tEa[wqBfAcfBvNklBvEc{E{G{vByV{bBke@}qAuK{aBnOyfAiTsBwc@`Acn@|Vwb@{^wk@_iCyQsf@qFa{@pZqpCi^_cDnO_XgCyZuK}oCkJet@uK{OeOtMeP{KwYgk@ol@ge@sUygAoIof@}[}Tkm@u|Ak_@{mBwJcvAsj@_xBxJqzAqMykBlBi]sG@t@pO"
   },
   "evCharging": {
     "stopsNeeded": 1,
-    "notes": "Ein Ladestopp vor der litauischen Grenze — im Raum Suwałki oder Marijampolė. Der Suwałki-Korridor hat noch lückenhafte Ladeinfrastruktur, daher vorher in Masuren auf mindestens 80 % laden.",
-    "criticalLevel": "yellow"
+    "notes": "Ein Ladestopp im Raum Ostrołęka oder Olsztyn. GreenWay-Stationen verfügbar.",
+    "criticalLevel": "green"
   },
   "activities": [
-    { "highlightRef": "Wolfsschanze (Wilczy Szaniec)", "note": "Optional am Vormittag — Hitlers Ostfront-HQ im Wald (40 km, 2–3 Stunden)" },
-    "Fahrt durch die geopolitisch bedeutsame Suwałki-Lücke — NATOs verwundbarster Punkt in Europa",
-    "Grenzübertritt nach Litauen",
-    "Ankunft in Vilnius am Nachmittag — erster Spaziergang durch die barocke Altstadt",
-    "Willkommens-Abendessen in einem litauischen Lokal — Cepelinai und kalte Rote-Bete-Suppe probieren"
+    "Morgendlicher Aufbruch aus Warschau — heute wird es ländlich",
+    "Fahrt durch Masurens stille Weite: Seen, Kiefernwälder, Störche auf jedem Dach",
+    {
+      "highlightRef": "Hotel Zamek Ryn (Ordensburg)",
+      "note": "Ankunft am frühen Nachmittag — Rundgang durch die gotischen Gewölbe"
+    },
+    {
+      "highlightRef": "Masurische Seenplatte",
+      "note": "Nachmittagsspaziergang am Ufer des Ryńskie-Sees"
+    },
+    {
+      "restaurantRef": "Restauracja Zamkowa (Refektarz)",
+      "note": "Polnische Küche unter gotischen Bögen"
+    }
   ]
 }

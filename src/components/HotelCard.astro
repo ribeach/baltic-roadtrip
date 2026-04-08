@@ -5,6 +5,7 @@ interface Props {
   name: string;
   type: string;
   priceRange: string;
+  isSplurge?: boolean;
   evCharging: boolean;
   description: string;
   googleMapsUrl: string;
@@ -12,7 +13,7 @@ interface Props {
   userRatingCount?: number;
 }
 
-const { name, type, priceRange, evCharging, description, googleMapsUrl, rating, userRatingCount } = Astro.props;
+const { name, type, priceRange, isSplurge, evCharging, description, googleMapsUrl, rating, userRatingCount } = Astro.props;
 ---
 
 <div class="bg-paper rounded-xl border border-sand-200 hover:shadow-md transition-all overflow-hidden">
@@ -27,7 +28,12 @@ const { name, type, priceRange, evCharging, description, googleMapsUrl, rating, 
           <RatingDisplay rating={rating} userRatingCount={userRatingCount} />
         </div>
       </div>
-      <span class="text-sm font-medium text-navy-600 whitespace-nowrap">{priceRange}</span>
+      <div class="flex items-center gap-2 shrink-0">
+        {isSplurge && (
+          <span class="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">Splurge</span>
+        )}
+        <span class="text-sm font-medium text-navy-600 whitespace-nowrap">{priceRange}</span>
+      </div>
     </div>
     <p class="text-sm text-gray-600 mb-3">{description}</p>
     <div class="flex items-center justify-between">
