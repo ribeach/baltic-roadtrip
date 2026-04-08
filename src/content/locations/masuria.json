@@ -118,6 +118,22 @@
       },
       "rating": 4.4,
       "userRatingCount": 14109
+    },
+    {
+      "name": "Krutynia-Fluss — Kajaktour",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Die beliebteste Kajaktour Masurens: 13 km auf dem kristallklaren Krutynia-Fluss durch unberührte Wälder und Seen. Reiher, Eisvögel und mit Glück Biber begleiten die gemächliche Fahrt. Verleih und Shuttle ab dem Dorf Krutyń — keinerlei Erfahrung nötig.",
+      "duration": "3–4 Std.",
+      "price": "~PLN 100 (~€23/2 Pers.)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=As-Tour%20Sp%C5%82ywy%20kajakowe%20Krutyni%C4%85&query_place_id=ChIJodtINIAC4kYR6GwQfR5WT-s",
+      "placeId": "ChIJodtINIAC4kYR6GwQfR5WT-s",
+      "coordinates": {
+        "lat": 53.6893985,
+        "lng": 21.4335933
+      },
+      "rating": 4.8,
+      "userRatingCount": 1670
     }
   ],
   "restaurants": [
