@@ -230,6 +230,22 @@
       },
       "rating": 4.4,
       "userRatingCount": 3736
+    },
+    {
+      "name": "Lettische Pirts — Baderitual",
+      "type": "activity",
+      "icon": "gem",
+      "description": "Die lettische Pirts ist weit mehr als eine Sauna — ein mehrstündiges Reinigungsritual mit Pirtnieks (Saunameister), Birkenzweig-Massage, Kräuteraufgüssen und Eiswasser- oder Seeplunge. Ein intensives, fast meditatives Erlebnis und ein Muss für alle, die lettische Kultur wirklich spüren wollen. Vorab buchen!",
+      "duration": "3–5 Std.",
+      "price": "€100–150/Person",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Latvian%20sauna%20ritual%20Riga&query_place_id=ChIJ63vFBZ3P7kYR4JPc6E3tsbE",
+      "placeId": "ChIJ63vFBZ3P7kYR4JPc6E3tsbE",
+      "coordinates": {
+        "lat": 56.9838053,
+        "lng": 24.1760734
+      },
+      "rating": 4.9,
+      "userRatingCount": 48
     }
   ],
   "restaurants": [
