@@ -1,45 +1,28 @@
 {
   "dayNumber": 18,
   "date": "2026-05-17",
-  "title": "Heimreise nach Aalen",
-  "subtitle": "Ein letzter Morgen in Berlin und dann zurück auf die Schwäbische Alb",
-  "locationId": "aalen",
-  "previousLocationId": "berlin",
-  "overnightLocationId": null,
-  "transitLocationIds": [
-    "berlin"
-  ],
+  "title": "Westküste nach Halmstad",
+  "subtitle": "Durch Schwedens Bilderbuchlandschaft an die vertraute Küste",
+  "locationId": "halmstad",
+  "previousLocationId": "stockholm",
+  "overnightLocationId": "halmstad",
   "driving": {
-    "distance": "560 km",
-    "duration": "5:30",
+    "distance": "450 km",
+    "duration": "5:00",
     "mode": "drive",
-    "routeDescription": "Vormittags Berlin erkunden, dann über die A9/A7 durch Thüringen und Franken zurück nach Aalen. Gut ausgebaute Autobahnstrecke mit zuverlässiger Ladeinfrastruktur.",
-    "encodedPolyline": "ayp_IidypAra@p`JhOnsF`XrlDpj@nf@vpBlnCxnEb~Fv_BrtB`qAcSbw@oFdx@`z@xoAv{D~mBrm@piAfz@hvA_Ans@v_@dkB`gFvgBtnAlMtjFcMj}E|IlxGbo@`sEro@hsBp{C`o@dtBkx@fgB`c@ptBp}BhkArvBrhBjsEzjA|lGf_BheCjoBd_CnkDbdHleCpqE`cBl{AtbBjeApyAtuChbGvdMfmBfkFntBlwHhqGxyChqBxtDpzCzwCvfClzH|eCvgBx}EzwF~dBneBvmBfbDlxBjuAzwCza@xdJxbAleIhqBvjC{\\~pD`El{Fyz@|xFojBpaDt^|lDpcBxxCnqA`}Coi@tcD`M``EbyCpnGftIdvCboFljCthChqEjqE|bH|iFtaCthBllE`J`gCxIhyBdhAbuCvv@h_D|aBhyAzwCt\\ztBbl@vfAdw@vf@vk@rcBf|@rf@fiA}OjcCg]xyB}R`zFqoAfbDkqC~sAkmA`cDiHppBpaBptBhjBxyBfxA`qAu\\leAfQ`vFvxDffChsBvkEhx@beF~lB~yAyuAbfAib@zm@yx@|{@qGnhAld@bvA``@d{B_iAltDja@~iBeV`~@ne@|bD`pDjk@j_@rd@uj@fcA}hBjZcYvz@`\\lk@jd@zo@mXvrAyI|dBok@deFcpBnsFleD|zAhp@l`BwWxtGt{E~~B_GroBnc@rkDbqFrfBhtCrbA~zCv}@ndEnnCxn@|jCbaAroB_a@bbHrRvxCzUl~CwJxsBnk@`c@l}@nAlyBrn@jaDl[~_CdwBni@~_BbmAn_CdY`n@wKzd@fe@jb@pBhd@olAlo@cj@pw@ta@xsDog@zcAp@jr@deB|e@hoBtqB~uAnqCaQpfAh@tv@f|@nwAt_D`pCh|Drr@lyDx}AraCzbB|l@deDjbCxiBn_@zqBrjAv|BvlCruFxxFflFruFr{@jp@bhAcKz]t}@hPhyCx{Bt`Fx`B`vBnzAbxEnzBdsDpq@`mBdLdrDrd@t`G~@psEsiAnxH`f@dyGbYntGzKlkCfnAlcDrjBloClcAbdDpoAjqJgs@fvGcb@~|KbiAniEwDzbFn@|iFvz@bcFjwA|nMfs@l_FvkBjjDnhAyQf`AiS~kAktAvdAqaAv{@kExbCnl@|YlzAjz@fiAnxAxxBzpCztAllBxzB|_A`Atx@el@pbBgdAlgA`CbmCfBvuBlx@hhHeq@~nCrdB`|AnxAuY|x@hLrqBxT`|FhkA{]`TbNbfAnGpx@xm@ng@rAfJqT"
+    "routeDescription": "Über die E20 Richtung Südwesten nach Jönköping, dann E6 südwärts entlang der Westküste nach Halmstad. Alternativ kürzere Route über E4 nach Jönköping."
   },
   "evCharging": {
     "stopsNeeded": 2,
-    "notes": "Zwei DC-Schnellladestopps entlang der A9/A7 — z. B. bei Hermsdorfer Kreuz und im Raum Würzburg. Ionity- und EnBW-Stationen reichlich vorhanden.",
+    "notes": "Zwei Ladestopps: Raum Jönköping und an der Westküste. Schwedens Ladenetz ist hervorragend — Ionity, Mer und Tesla Supercharger in dichter Taktung.",
     "criticalLevel": "green"
   },
   "activities": [
-    {
-      "highlightRef": "Brandenburger Tor & Pariser Platz",
-      "note": "Morgenspaziergang zum Symbol der deutschen Einheit"
-    },
-    {
-      "highlightRef": "Reichstagsgebäude",
-      "note": "Wenn vorab gebucht: Kuppelbesuch mit 360°-Blick über Berlin"
-    },
-    {
-      "highlightRef": "East Side Gallery",
-      "note": "Letzte Portion Berliner Geschichte — die bemalte Mauer an der Spree"
-    },
-    {
-      "restaurantRef": "Markthalle Neun",
-      "note": "Mittagessen in der Kreuzberger Markthalle"
-    },
-    "Aufbruch Richtung Aalen am frühen Nachmittag",
-    "Fahrt über die A9/A7 durch Thüringen und Franken",
-    "Ankunft in Aalen am Abend — 18 Tage, 10 Länder, unzählige Eindrücke"
+    "Aufbruch aus Stockholm am Morgen — heute geht es an die vertraute Westküste",
+    "Fahrt durch schwedische Bilderbuchlandschaft: rote Holzhäuser, Seen, Birkenwälder",
+    "Kaffeepause in Jönköping am Vätternsee — der zweitgrößte See Schwedens",
+    { "highlightRef": "Tylösand & Prins Bertils Stig", "note": "Ankunft am Nachmittag — Strandspaziergang zum Ankommen" },
+    { "restaurantRef": "Pio Restaurang & Bar", "note": "Willkommens-Abendessen in der schwedischen Wahlheimat" },
+    { "nightlifeRef": "Halmstad Brygghus", "note": "Lokales Craft Beer zum Feierabend" }
   ]
 }

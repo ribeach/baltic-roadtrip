@@ -1,38 +1,18 @@
 {
   "dayNumber": 15,
   "date": "2026-05-14",
-  "title": "Oslo in voller Pracht",
-  "subtitle": "Munch, Vigeland und das beste Eis am Fjord",
-  "locationId": "oslo",
+  "title": "Helsinki und Sauna",
+  "subtitle": "Festungsinsel, finnische Saunakultur und Design",
+  "locationId": "helsinki",
   "previousLocationId": null,
-  "overnightLocationId": "oslo",
+  "overnightLocationId": "helsinki",
   "driving": null,
   "evCharging": null,
   "activities": [
-    {
-      "highlightRef": "Vigeland-Skulpturenpark",
-      "note": "Morgens am besten — über 200 Skulpturen im Frognerpark, 2 Stunden einplanen"
-    },
-    {
-      "highlightRef": "MUNCH Museum",
-      "note": "Das neue Hochhaus am Fjord mit 'Der Schrei' und 28.000 weiteren Werken"
-    },
-    {
-      "highlightRef": "Aker Brygge & Tjuvholmen",
-      "note": "Mittagspause am modernen Hafenviertel"
-    },
-    {
-      "highlightRef": "Fram-Museum",
-      "note": "Auf Bygdøy — echtes Polarschiff betreten, faszinierendes Museum"
-    },
-    "OPTIONAL: Fähre zu den Inseln im Oslofjord (im ÖPNV-Ticket enthalten) — perfekte Nachmittagspause in der Natur",
-    {
-      "restaurantRef": "Lofotstua",
-      "note": "Traditionelles norwegisches Abendessen — Klippfisk und Fiskekaker"
-    },
-    {
-      "nightlifeRef": "Himkok",
-      "note": "World's 50 Best Bars — Cocktails mit norwegischen Zutaten in versteckter Destillerie"
-    }
+    { "highlightRef": "Festung Suomenlinna", "note": "UNESCO-Welterbe — Fähre vom Marktplatz (15 Min.), mindestens 3 Stunden einplanen" },
+    { "highlightRef": "Löyly Sauna & Restaurant", "note": "Nachmittags: echte finnische Sauna mit Ostsee-Schwimmen — DAS Erlebnis in Helsinki" },
+    { "restaurantRef": "Alte Markthalle (Vanha Kauppahalli)", "note": "Mittagessen in der historischen Markthalle — Lachs, Rentier, Karelische Piroggen" },
+    "SAUNA-TIPP: Handtuch mitbringen, Badeanzug optional (gemischte Sauna bei Löyly). Mindestens 2 Stunden einplanen — Sauna, Abkühlung, wiederholen",
+    "Morgen früh: Fahrt nach Turku (170 km, 2 Std.) — Auto heute Abend voll laden"
   ]
 }

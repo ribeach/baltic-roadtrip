@@ -1,39 +1,30 @@
 {
   "dayNumber": 14,
   "date": "2026-05-13",
-  "title": "Von Stockholm nach Oslo",
-  "subtitle": "Schwedische Seen, norwegische Fjorde — die Skandinavien-Durchquerung",
-  "locationId": "oslo",
-  "previousLocationId": "turku",
-  "overnightLocationId": "oslo",
-  "transitLocationIds": [
-    "stockholm"
-  ],
+  "title": "Fähre nach Helsinki",
+  "subtitle": "Über die Ostsee von der mittelalterlichen in die modernste Hauptstadt Europas",
+  "locationId": "helsinki",
+  "previousLocationId": "tallinn",
+  "overnightLocationId": "helsinki",
   "driving": {
-    "distance": "470 km",
-    "duration": "5:00",
-    "mode": "drive",
-    "routeDescription": "Ankunft Stockholm Stadsgården (nahe Gamla Stan) um 07:30 Uhr per Viking Line aus Turku. Dann über die E18 Richtung Westen nach Oslo. Gut ausgebaute Autobahn durch schwedische Wälder und Seen.",
-    "encodedPolyline": "w~}oJg}{fCvwjBf`xIzmnBf{yMsOxgBql@hrCii@uGwe@q_AaxAbvBkbBnmAkbAfyBwt@voBbx@piC`Vth@_XroAkm@r~Gyt@hwCerBdt@axC`yAmxAz~Ac}@jfC{gA|kGs}At~Bk`AbkIemCppJ_kDb`JazCttKmoAdeKetB`wFsv@tdIuw@h}NodBnmd@tm@rfBjOn|Bq[poGzo@|mF~CnhFfe@fgK|aAddFpAzwEsIpyIfAf|Edk@~cG|~@~mEyj@|yGsq@pbCiElbDr{B~}Nt_ArbC`_@rqEbl@dkF~B~vH_gA~wGhVzxHfnAbrPpfChtNbu@vcDhaBryDvfCx{FlwCtqDltA`|@|bBdTjpAcMp~@rfAlZdvIbPv_E`NprClaAhuA`fAtpIhk@pcCrnArdHpJhmCfz@pfGvmDjoFljB`yJddAbmJtUdfMmAt|J~PpcDhy@xpFpNz~Cf`AnxA|uCtcBjhBxzCtKxxCah@jwDjDzsGcB~uIag@ndMgOv}Qyy@r_Bs~@|vFyv@d`Na~@pt@qTl`DcmAx{C{sAfdFsn@dtE~]hzBrGl}CzBv|CyQncHfZzeHyBrrEh`AhgFzJziGmA`jMsb@paImn@zoDus@~iDusBhsBws@npFimAvsE{^pnO_uA|lM{z@xuIuwA~aHyZh|EiDviFddBzxGl^~vFqO|{ErUttCWttCbqArgBv]`jFsHdqLeh@hiN_[bsC~XbsCtfAvpJxjA~fJr}ArpAd`@~xAl`Als@pRd@to@k`@nz@f~AjqCvzExeAt_FlrAnsAff@lfBlb@|rGla@zgGjBbtIyYxtH{{AvmCkUl_DyW|xIDr_FvnA~nFlb@plIaxA|tGmU`cE{o@jfAmz@jbHip@r_FbBleE~Ff{C{p@zqAaxCxzCegCjn@kfApsCuqA`}Eg|@r|AgJp~Dqf@jmIk[bjAew@qEezCtwDqeAtpBkp@zmDyoBx_Jkf@baEuaAl|BaeAlaEoCtdEsw@jnGlNz|Cr\\lxBbx@ldCjJ~wB~o@`x@~JfeByVpaChSreFq\\nrCejCtyD{rDjaJau@~jNeiAzdMwlAzvGiq@rkD{@hqM?vdEro@~pE_MnrFa_Br~FidCrhOwdBf~Foc@lvFsdBdiDclAxmAcpAn}Bs[zvBehA`yI_UnrAqtAj`Bm_@h^{nAqPkxBnVc~@}TaTst@ia@axC}yAy|Bm|BmYg|AtPwl@qj@qeBvk@kwCzt@{aAbOwoAxrAidAv`AiKI}YpeAaDv~AmI~pBca@{RiMbZaG`OwK|T"
+    "distance": "85 km",
+    "duration": "2:00",
+    "mode": "ferry",
+    "routeDescription": "Autofähre Tallinn→Helsinki (Eckerö Line oder Tallink, ca. 2 Std.). Auto an Bord, Frühstück auf der Fähre. Ankunft Helsinki Hafen gegen 09:30."
   },
   "evCharging": {
-    "stopsNeeded": 2,
-    "notes": "Schwedens und Norwegens Ladenetz ist hervorragend — Ionity, Mer und Tesla Supercharger entlang der E18 in dichter Taktung. Zwei kurze Stopps reichen.",
+    "stopsNeeded": 0,
+    "notes": "Keine Ladestopps nötig — kurze Fährfahrt. In Helsinki hervorragendes Ladenetz (Recharge, K-Lataus). Bequem beim Sightseeing laden.",
     "criticalLevel": "green"
   },
   "activities": [
-    "Ankunft in Stockholm Stadsgården gegen 07:30 Uhr — frisch von der Viking Line aus Turku, direkt neben Gamla Stan",
-    "Kurzer Blick auf Gamla Stan vom Kai aus — leider keine Zeit für mehr, Oslo ruft",
-    "Fahrt über die E18 durch Schwedens Bilderbuchlandschaft: rote Holzhäuser, Seen, Birkenwälder",
-    "Grenzübertritt nach Norwegen — willkommen im Land der E-Autos!",
-    "Ankunft in Oslo am Nachmittag — Einchecken und erster Spaziergang zum Hafen",
-    {
-      "highlightRef": "Opernhaus Oslo",
-      "note": "Abendspaziergang aufs begehbare Dach — Blick über den Oslofjord"
-    },
-    {
-      "restaurantRef": "Mathallen Oslo",
-      "note": "Abendessen in der Food Hall im Trendviertel Vulkan"
-    }
+    "Frühfähre Tallinn→Helsinki (07:30 Uhr, ~2 Std.) — Auto an Bord, Frühstück auf der Fähre",
+    { "highlightRef": "Marktplatz & Alte Markthalle (Vanha Kauppahalli)", "note": "Ankunft Helsinki ~09:30 — Lachssuppe zum zweiten Frühstück" },
+    { "highlightRef": "Dom von Helsinki", "note": "Kurzer Fotostopp am Senatsplatz" },
+    { "highlightRef": "Felsenkirche Temppeliaukio", "note": "In den Fels gesprengte Kirche — einzigartig, 30 Min. reichen" },
+    { "highlightRef": "Design District", "note": "Nachmittags durch Helsinkis kreatives Viertel — Boutiquen und Galerien" },
+    { "highlightRef": "Oodi Zentralbibliothek", "note": "Architektur-Highlight: Finnlands Vorzeige-Bibliothek am Hauptbahnhof" },
+    { "restaurantRef": "Café Regatta", "note": "Zimtschnecken und Kaffee am Wasser — Helsinkis gemütlichster Ort" },
+    { "nightlifeRef": "Ateljee Bar", "note": "Cocktails mit Panoramablick vom Hotel Torni" }
   ]
 }
