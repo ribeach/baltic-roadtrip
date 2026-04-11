@@ -1,0 +1,75 @@
+---
+import RatingDisplay from './RatingDisplay.astro';
+
+interface Props {
+  name: string;
+  type: string;
+  priceRange: string;
+  isSplurge?: boolean;
+  bedrooms?: number;
+  description: string;
+  source?: string;
+  bookingUrl?: string;
+  googleMapsUrl?: string;
+  rating?: number;
+  userRatingCount?: number;
+}
+
+const { name, type, priceRange, isSplurge, bedrooms, description, source, bookingUrl, googleMapsUrl, rating, userRatingCount } = Astro.props;
+
+const linkUrl = bookingUrl ?? googleMapsUrl;
+const linkLabel = source === 'Airbnb' ? 'Airbnb' : source === 'Booking.com' ? 'Booking.com' : source === 'VRBO' ? 'VRBO' : '→ ansehen';
+
+const sourceBadgeClass = source === 'Airbnb'
+  ? 'bg-rose-50 text-rose-700'
+  : source === 'Booking.com'
+    ? 'bg-blue-50 text-blue-700'
+    : source === 'VRBO'
+      ? 'bg-indigo-50 text-indigo-700'
+      : 'bg-gray-50 text-gray-600';
+---
+
+<div class="bg-paper rounded-xl border border-sand-200 hover:shadow-md transition-all overflow-hidden">
+  <div class="p-5">
+    <div class="flex items-start justify-between gap-2 mb-2">
+      <div>
+        <h4 class="font-semibold text-navy-800 flex items-center gap-2">
+          🏠 {name}
+        </h4>
+        <div class="flex items-center gap-2 flex-wrap">
+          <span class="text-xs text-gray-500">{type}</span>
+          {bedrooms && (
+            <span class="text-xs text-gray-500">{bedrooms} SZ</span>
+          )}
+          <RatingDisplay rating={rating} userRatingCount={userRatingCount} />
+        </div>
+      </div>
+      <div class="flex items-center gap-2 shrink-0">
+        {isSplurge && (
+          <span class="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">Splurge</span>
+        )}
+        <span class="text-sm font-medium text-navy-600 whitespace-nowrap">{priceRange}</span>
+      </div>
+    </div>
+    <p class="text-sm text-gray-600 mb-3">{description}</p>
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        {source && (
+          <span class={`inline-flex items-center text-xs px-2 py-0.5 rounded-full font-medium ${sourceBadgeClass}`}>
+            {source}
+          </span>
+        )}
+      </div>
+      {linkUrl && (
+        <a
+          href={linkUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-1 text-xs text-teal-600 hover:text-teal-700 font-medium transition-colors"
+        >
+          🔗 {linkLabel}
+        </a>
+      )}
+    </div>
+  </div>
+</div>

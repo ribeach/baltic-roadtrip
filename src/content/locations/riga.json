@@ -320,7 +320,10 @@
       "mustTry": "Traditionsmenü — lettische Kartoffelpuffer mit Sauerrahm",
       "googleMapsUrl": "https://maps.google.com/?cid=8560956488143114010",
       "placeId": "ChIJGVodecXP7kYRGo9YbZGgznY",
-      "coordinates": { "lat": 56.9581304, "lng": 24.1105757 },
+      "coordinates": {
+        "lat": 56.9581304,
+        "lng": 24.1105757
+      },
       "rating": 4.4,
       "userRatingCount": 1899
     }
@@ -365,7 +368,10 @@
       "description": "Familiengeführtes Hotel in einem historischen Gebäude direkt neben dem Domplatz — 300 Jahre alte Holzbalken, Dachrestaurant mit Altstadtblick. 40% günstiger als das Neiburgs bei vergleichbarer Toplage.",
       "googleMapsUrl": "https://maps.google.com/?cid=11655373149177249427",
       "placeId": "ChIJq0IHXtfP7kYRk_5VWSA0wKE",
-      "coordinates": { "lat": 56.9489419, "lng": 24.103523 },
+      "coordinates": {
+        "lat": 56.9489419,
+        "lng": 24.103523
+      },
       "rating": 4.5,
       "userRatingCount": 1400
     }
@@ -432,6 +438,48 @@
       },
       "rating": 4.5,
       "userRatingCount": 6183
+    }
+  ],
+  "apartments": [
+    {
+      "name": "Governor's Mansion Aparthotel, Altstadt",
+      "type": "Aparthotel",
+      "priceRange": "100-150€",
+      "bedrooms": 2,
+      "description": "Zwei-Zimmer-Apartment (80 m²) in der ehemaligen Residenz des Rigaer Gouverneurs aus dem 17. Jahrhundert – ein UNESCO-Baudenkmal, das später die Nationalbibliothek beherbergte. Luxuriös renoviert, 50 Meter vom Schwarzhäupterhaus am Domplatz entfernt. Perfekte 5,0 auf Airbnb (Top 1% aller Unterkünfte weltweit).",
+      "source": "Airbnb",
+      "rating": 5.0,
+      "userRatingCount": 37
+    },
+    {
+      "name": "Jugendstil-Apartment im Jugendstilviertel",
+      "type": "Apartment",
+      "priceRange": "85-95€",
+      "bedrooms": 2,
+      "description": "Zwei separate Schlafzimmer in einem Art-Nouveau-Gebäude mit hohen Decken, großen Fenstern und dekorativem Kamin aus dem 19. Jahrhundert. Hofzugewandte Fenster garantieren ruhigen Schlaf trotz zentraler Lage, 500 Meter zur Altstadt. Kostenlose Parkplätze nachts auf der Straße.",
+      "source": "Airbnb",
+      "rating": 4.5
+    },
+    {
+      "name": "New Comfy Apartment, 2 Schlafzimmer",
+      "type": "Apartment",
+      "priceRange": "130-170€",
+      "bedrooms": 2,
+      "description": "Modern renoviertes Apartment (60 m²) im Herzen der Stadt nahe der Altstadt mit eigenem Parkplatz – ideal für Gruppenreisende. Zwei Schlafzimmer, zwei Bäder und vollständige Küchenausstattung. ★★★★★ (121 Bewertungen), flexibel stornierbar.",
+      "source": "VRBO",
+      "rating": 5.0,
+      "userRatingCount": 121
+    },
+    {
+      "name": "Greystone Suites – Deluxe 2-Zimmer-Apartment",
+      "type": "Apartment",
+      "priceRange": "125-145€",
+      "bedrooms": 2,
+      "description": "Zwei-Zimmer-Apartment mitten in der Rigaer Altstadt mit starker Review-Basis und verlässlicher Qualität. Echte 2-BR-Konfiguration mit professionellem Service – unkomplizierte Buchung mit 922 Bewertungen als Vertrauensanker.",
+      "source": "Booking.com",
+      "bookingUrl": "https://www.booking.com/hotel/lv/panorama-apartment.html",
+      "rating": 4.45,
+      "userRatingCount": 922
     }
   ]
 }

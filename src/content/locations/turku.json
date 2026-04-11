@@ -179,7 +179,10 @@
       "description": "Wunderschöne efeuberankte Jugendstil-Villa mit persönlichem Charme. Ruhige Lage nahe dem Stadtzentrum, günstiger als die Premium-Hotels und mit viel mehr Charakter als eine Hotelkette.",
       "googleMapsUrl": "https://maps.google.com/?cid=7421888645369043832",
       "placeId": "ChIJFVNymfh2jEYReBu6bWbY_2Y",
-      "coordinates": { "lat": 60.453191, "lng": 22.2579269 },
+      "coordinates": {
+        "lat": 60.453191,
+        "lng": 22.2579269
+      },
       "rating": 4.3,
       "userRatingCount": 890
     }
@@ -210,6 +213,47 @@
       },
       "rating": 4.6,
       "userRatingCount": 363
+    }
+  ],
+  "apartments": [
+    {
+      "name": "Hiisi Homes Herttuankulma",
+      "type": "Apartment",
+      "priceRange": "80-100€",
+      "bedrooms": 2,
+      "description": "Brandneue Apartments einer finnischen Familienbetreiber (eröffnet Juli 2023), 15 Gehminuten zur Viking-Line-Fähranlegestelle für die Nachtfähre nach Stockholm. Kostenloser privater Parkplatz – ideal für den Elektrowagen vor der Abfahrt. Zwei-Zimmer-Einheiten verfügbar.",
+      "source": "Booking.com",
+      "rating": 4.6
+    },
+    {
+      "name": "Bob W Turku, Marktplatz",
+      "type": "Apartment",
+      "priceRange": "62-80€",
+      "bedrooms": 1,
+      "description": "Renoviertes Baudenkmal von 1920 direkt am Marktplatz Turkus, umgestaltet im Funktionalismus-Stil mit Gepäckaufbewahrung ab 5 Uhr für flexible An-/Abreise vor der Nachtfähre. 9,2/10 auf Booking.com (3.390 Bewertungen) – besonders beliebt bei Paaren mit Lagerating 9,8.",
+      "source": "Booking.com",
+      "rating": 4.6,
+      "userRatingCount": 3390
+    },
+    {
+      "name": "Uniikki talo kirjastosilta – Stadthaus an der Aura",
+      "type": "Ferienhaus",
+      "priceRange": "120-160€",
+      "bedrooms": 2,
+      "description": "Seltenes, eigenständiges kleines Haus mitten im Turkuer Stadtzentrum direkt an der Aura. Es bietet den Komfort eines ganzen Hauses mit historischem Charme – ideal als Basis vor der Nachtfähre nach Stockholm. Bewertung 9,6/10 auf Booking.com.",
+      "source": "Booking.com",
+      "rating": 4.8
+    },
+    {
+      "name": "Two-Room Aura River Apartment, B&B Tuure",
+      "type": "Apartment",
+      "priceRange": "120-160€",
+      "bedrooms": 2,
+      "description": "Freundliches 2-Zimmer-Apartment mit Balkon und Blick auf den Aura-Fluss – deutlich sympathischer als austauschbare Stadtblocks. Für eine Nacht vor der Nachtfähre nach Stockholm ist das die richtige Mischung aus Stadtgefühl und Komfort.",
+      "source": "Booking.com",
+      "bookingUrl": "https://www.booking.com/hotel/fi/two-room-aura-river-apartment.html",
+      "rating": 4.5,
+      "userRatingCount": 10
     }
   ]
 }
