@@ -203,7 +203,8 @@
       "priceRange": "55-100€",
       "bedrooms": 2,
       "description": "Ferienhäuser mit direktem Rynsee-Zugang, 170 Metern privatem Seeufer, fünf Anlegestegen und Sandstrand. Zwei Schlafzimmer pro Haus und spektakuläre Seenlandschaft mit vorbeifahrenden Segelbooten auf den Großen Masurischen Seen. Nur 2,5 km vom Ryn-Schloss entfernt.",
-      "source": "Booking.com"
+      "source": "Booking.com",
+      "bookingUrl": "https://www.booking.com/hotel/pl/posiadlosc-nad-zatoka.html"
     },
     {
       "name": "Wiatrak Ryn – Historische Windmühle",
@@ -212,7 +213,8 @@
       "bedrooms": 2,
       "description": "Liebevoll restaurierte historische Windmühle, zum modernen Ferienhaus umgebaut mit runden Wänden und direktem Blick auf die masurische Seenlandschaft. Zwei separate Schlafzimmer und eine einzigartige runde Architektur, die es kaum irgendwo sonst gibt. Bewertung 9,5/10 auf Booking.com.",
       "source": "Booking.com",
-      "rating": 4.75
+      "rating": 4.75,
+      "bookingUrl": "https://www.booking.com/hotel/pl/wiatrak-ryn.html"
     }
   ]
 }

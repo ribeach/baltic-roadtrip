@@ -223,7 +223,8 @@
       "bedrooms": 2,
       "description": "Brandneue Apartments einer finnischen Familienbetreiber (eröffnet Juli 2023), 15 Gehminuten zur Viking-Line-Fähranlegestelle für die Nachtfähre nach Stockholm. Kostenloser privater Parkplatz – ideal für den Elektrowagen vor der Abfahrt. Zwei-Zimmer-Einheiten verfügbar.",
       "source": "Booking.com",
-      "rating": 4.6
+      "rating": 4.6,
+      "bookingUrl": "https://www.booking.com/hotel/fi/hiisi-homes-turku-herttuankulma.html"
     },
     {
       "name": "Bob W Turku, Marktplatz",
@@ -233,7 +234,8 @@
       "description": "Renoviertes Baudenkmal von 1920 direkt am Marktplatz Turkus, umgestaltet im Funktionalismus-Stil mit Gepäckaufbewahrung ab 5 Uhr für flexible An-/Abreise vor der Nachtfähre. 9,2/10 auf Booking.com (3.390 Bewertungen) – besonders beliebt bei Paaren mit Lagerating 9,8.",
       "source": "Booking.com",
       "rating": 4.6,
-      "userRatingCount": 3390
+      "userRatingCount": 3390,
+      "bookingUrl": "https://www.booking.com/hotel/fi/bob-w-turku-city-centre.html"
     },
     {
       "name": "Uniikki talo kirjastosilta – Stadthaus an der Aura",
@@ -242,7 +244,8 @@
       "bedrooms": 2,
       "description": "Seltenes, eigenständiges kleines Haus mitten im Turkuer Stadtzentrum direkt an der Aura. Es bietet den Komfort eines ganzen Hauses mit historischem Charme – ideal als Basis vor der Nachtfähre nach Stockholm. Bewertung 9,6/10 auf Booking.com.",
       "source": "Booking.com",
-      "rating": 4.8
+      "rating": 4.8,
+      "bookingUrl": "https://www.booking.com/hotel/fi/26a-hameenkatu.html"
     },
     {
       "name": "Two-Room Aura River Apartment, B&B Tuure",

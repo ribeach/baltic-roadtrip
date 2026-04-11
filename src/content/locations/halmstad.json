@@ -323,7 +323,8 @@
       "bedrooms": 2,
       "description": "Echtes schwedisches Fritidsstuga (Ferienhaus) mit zwei Schlafzimmern und Schlafempore in Tylösand an Schwedens bekanntestem Sandstrand. Holzterrasse, Grill und kurzer Fußweg zum 7 km langen Strand sowie in der Nähe des Halmstad Golf Clubs. Jeder Reisende bekommt ein eigenes Zimmer – perfekter Abschluss der Baltikum-Rundreise.",
       "source": "Airbnb",
-      "rating": 4.75
+      "rating": 4.75,
+      "bookingUrl": "https://www.airbnb.com/rooms/935923082320473849"
     },
     {
       "name": "Novasol Ferienhaus bei Haverdal",
@@ -331,8 +332,9 @@
       "priceRange": "80-120€",
       "bedrooms": 2,
       "description": "Ferienhaus direkt neben dem Naturschutzgebiet Haverdal mit Wanderweg zu einer Bucht und 10 Meter hohen Sanddünen. Helles Inneres, 37 m² überdachte Terrasse und der Kattegatleden-Radweg direkt vor der Tür. Im Mai (Vorseason) sind 3-Nacht-Buchungen gut möglich – auch auf Stugknuten.com und Stugbasen.com buchbar.",
-      "source": "Booking.com",
-      "rating": 4.6
+      "source": "Novasol",
+      "rating": 4.6,
+      "bookingUrl": "https://www.novasol.com/holidayhome/halmstadhaverdal-s16088"
     },
     {
       "name": "Renoviertes Strandhaus, Tylösand",

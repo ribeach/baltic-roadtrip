@@ -429,7 +429,8 @@
       "bedrooms": 1,
       "description": "In einem Innenhof verstecktes Apartment im Bohème-Viertel Užupis mit einzigartigem arabeskischen Design – überwältigende Texturen, Farben und Details. Erdgeschoss-Lage mit ruhigem Hofzugang und direkter Nähe zur Engel-Statue. Ideal als Zweit-Apartment kombiniert mit Angel House für maximale Privatsphäre.",
       "source": "Airbnb",
-      "rating": 4.7
+      "rating": 4.7,
+      "bookingUrl": "https://www.airbnb.com/rooms/15317377"
     },
     {
       "name": "Bossa Nova – Modernes 2-Zimmer-Apartment",
@@ -439,7 +440,8 @@
       "description": "Neu erbautes Apartment (62 m²) mit Balkon und Stadtblick, Klimaanlage und modernem Stil in zentraler Lage. Zwei separate Schlafzimmer für ungestörte Nächte nach langen Fahrtagen. ★★★★★ (134 Bewertungen), flexibel stornierbar.",
       "source": "VRBO",
       "rating": 5.0,
-      "userRatingCount": 134
+      "userRatingCount": 134,
+      "bookingUrl": "https://www.vrbo.com/11168346ha"
     }
   ]
 }

@@ -256,7 +256,8 @@
       "description": "Zwei Studios im renovierten Jugendstil-Gebäude im Hafenviertel Katajanokka, dekoriert mit finnischen Designmarken und Vintage-Funden. Vollküche, Waschmaschine, schallisolierte Wände und 24-Stunden-Supermarkt im Haus. Straßenbahn direkt vor der Tür und EV-Laden in der Nähe; 9,1/10 auf Booking.com.",
       "source": "Booking.com",
       "rating": 4.55,
-      "userRatingCount": 1376
+      "userRatingCount": 1376,
+      "bookingUrl": "https://www.booking.com/hotel/fi/koti-katajanokka.html"
     },
     {
       "name": "Noli Katajanokka, 2 Studios mit Spa",
@@ -265,7 +266,8 @@
       "bedrooms": 2,
       "description": "Studios im Herzen von Katajanokka mit kostenlosem Spa inklusive zwei Whirlpools, finnischer Sauna und Hammam sowie kostenlosen Fahrrädern und Dachterrasse. Vier Gehminuten zur Uspenski-Kathedrale, zwei Minuten zur Fähranlegestelle und EV-Laden vor Ort – perfekt für die Elektro-Roadtrip.",
       "source": "Booking.com",
-      "rating": 4.5
+      "rating": 4.5,
+      "bookingUrl": "https://www.booking.com/hotel/fi/noli-katajanokka.html"
     },
     {
       "name": "2ndhomes Maisonette mit privater Sauna",
@@ -274,7 +276,8 @@
       "bedrooms": 2,
       "description": "Modernes zweistöckiges Apartment mit eigener privater finnischer Sauna – ein absolutes Muss für einen Aufenthalt in Helsinki. Skandinavisch-minimalistisches Design mit zwei Schlafebenen für maximale Privatsphäre. Bewertung 9,1/10 auf Booking.com.",
       "source": "Booking.com",
-      "rating": 4.55
+      "rating": 4.55,
+      "bookingUrl": "https://www.booking.com/hotel/fi/2ndhomes-unique-amp-spacious-2-storey-apartment-with-sauna.html"
     }
   ]
 }

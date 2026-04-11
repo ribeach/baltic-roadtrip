@@ -449,7 +449,8 @@
       "description": "Zwei-Zimmer-Apartment (80 m²) in der ehemaligen Residenz des Rigaer Gouverneurs aus dem 17. Jahrhundert – ein UNESCO-Baudenkmal, das später die Nationalbibliothek beherbergte. Luxuriös renoviert, 50 Meter vom Schwarzhäupterhaus am Domplatz entfernt. Perfekte 5,0 auf Airbnb (Top 1% aller Unterkünfte weltweit).",
       "source": "Airbnb",
       "rating": 5.0,
-      "userRatingCount": 37
+      "userRatingCount": 37,
+      "bookingUrl": "https://www.airbnb.com/rooms/1176824639707259692"
     },
     {
       "name": "Jugendstil-Apartment im Jugendstilviertel",
@@ -458,7 +459,8 @@
       "bedrooms": 2,
       "description": "Zwei separate Schlafzimmer in einem Art-Nouveau-Gebäude mit hohen Decken, großen Fenstern und dekorativem Kamin aus dem 19. Jahrhundert. Hofzugewandte Fenster garantieren ruhigen Schlaf trotz zentraler Lage, 500 Meter zur Altstadt. Kostenlose Parkplätze nachts auf der Straße.",
       "source": "Airbnb",
-      "rating": 4.5
+      "rating": 4.5,
+      "bookingUrl": "https://www.airbnb.com/rooms/101444443"
     },
     {
       "name": "New Comfy Apartment, 2 Schlafzimmer",
@@ -468,7 +470,8 @@
       "description": "Modern renoviertes Apartment (60 m²) im Herzen der Stadt nahe der Altstadt mit eigenem Parkplatz – ideal für Gruppenreisende. Zwei Schlafzimmer, zwei Bäder und vollständige Küchenausstattung. ★★★★★ (121 Bewertungen), flexibel stornierbar.",
       "source": "VRBO",
       "rating": 5.0,
-      "userRatingCount": 121
+      "userRatingCount": 121,
+      "bookingUrl": "https://www.vrbo.com/4340852"
     },
     {
       "name": "Greystone Suites – Deluxe 2-Zimmer-Apartment",
