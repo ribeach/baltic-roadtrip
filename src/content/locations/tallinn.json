@@ -486,7 +486,8 @@
       "bedrooms": 1,
       "description": "Apartment im prachtvoll restaurierten Volta-Fabrikareal – ehemals industriell, heute ein designorientierter Wohnkomplex mit Scandinavian-meets-Industrial-Ästhetik direkt am Meer. Bewertung 9,7/10 auf Booking.com; mehrere Einheiten verfügbar, sodass zwei Studios gebucht werden können.",
       "source": "Booking.com",
-      "rating": 4.85
+      "rating": 4.85,
+      "bookingUrl": "https://www.booking.com/hotel/ee/volta-apartment-in-kalamaja.html"
     }
   ]
 }

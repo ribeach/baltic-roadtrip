@@ -268,7 +268,8 @@
       "description": "Freiliegender Backsteinloft in einem restaurierten Gründerzeit-Mietshaus mit Original-Kunstwerken polnischer Künstler direkt an den Wänden. Zwei echte Schlafzimmer, Küche mit Geschirrspüler und Waschmaschine in der Nähe der Hala Koszyki – Warschaus bester Ess- und Trinkgegend. Außergewöhnlich gutes Preis-Leistungs-Verhältnis für ein Zwei-Zimmer-Loft.",
       "source": "Booking.com",
       "rating": 4.7,
-      "userRatingCount": 8641
+      "userRatingCount": 8641,
+      "bookingUrl": "https://www.booking.com/hotel/pl/oomph-warsaw-central-2-bedroom-apartment.html"
     },
     {
       "name": "Praga Factory Loft, Alt-Praga",
@@ -277,7 +278,8 @@
       "bedrooms": 1,
       "description": "Brandneues Loft in einem umgebauten Fabrikareal im trendigen Viertel Alt-Praga mit großem Balkon und Stadtblick. Kostenloser Tiefgaragenstellplatz, in der Nähe der Metro-Station Dworzec Wileński. Nur ein Schlafzimmer plus Schlafsofa – ideal kombinierbar mit einem zweiten Studio.",
       "source": "Airbnb",
-      "rating": 4.7
+      "rating": 4.7,
+      "bookingUrl": "https://www.airbnb.com/rooms/44496932"
     },
     {
       "name": "Apartment-Loft great.view.Warsaw, Praga",

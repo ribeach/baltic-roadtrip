@@ -181,7 +181,8 @@
       "bedrooms": 1,
       "description": "Modern gestaltetes Apartment in der historischen Fachwerkaltstadt von Klaipėda, nahe der Schwarzen-Geist-Skulptur und der Fähre zur Kurischen Nehrung. Ein Schlafzimmer mit separatem Wohnzimmer, Küche mit Geschirrspüler und Self-Check-in. Gäste schwärmen: 'Wie ein Fünf-Sterne-Hotel' – 9,6/10 auf Booking.com.",
       "source": "Booking.com",
-      "rating": 4.8
+      "rating": 4.8,
+      "bookingUrl": "https://www.booking.com/hotel/lt/memel-town-apartments.html"
     },
     {
       "name": "Memel Home Old City, Flussufer",
@@ -190,7 +191,8 @@
       "bedrooms": 1,
       "description": "Erdgeschoss-Apartment an der Turgaus-Straße mit privatem Eingang, Terrasse und Blick auf den Danė-Fluss. Zwei vollständige Bäder und kostenloser Parkplatz mitten in der Altstadt – Bewertung 98/100.",
       "source": "Booking.com",
-      "rating": 4.9
+      "rating": 4.9,
+      "bookingUrl": "https://www.booking.com/hotel/lt/memel-home-old-city-apartment.html"
     },
     {
       "name": "Sau Tau Apartment, Klaipėda",

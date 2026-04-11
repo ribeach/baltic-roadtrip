@@ -239,7 +239,8 @@
       "bedrooms": 2,
       "description": "Authentisches Jugendstil-Gebäude aus den 1890er Jahren mit Stuckdecken und hohen Decken im historischen Stadtteil Malá Strana. Zwei Schlafzimmer, voll ausgestattete Küche, Klimaanlage und ein Regenschauer-Bad. Nur eine Gehminute von der Karlsbrücke und zehn Minuten von der Prager Burg entfernt.",
       "source": "Airbnb",
-      "rating": 4.9
+      "rating": 4.9,
+      "bookingUrl": "https://www.airbnb.com/rooms/21211382"
     },
     {
       "name": "Renaissance-Apartment mit Karlsbrücken-Blick",
@@ -249,7 +250,8 @@
       "bedrooms": 2,
       "description": "Rekonstruiertes Renaissance-Apartment mit direktem Schlafzimmerblick auf die Karlsbrücke und Wohnzimmerblick auf die Prager Burg. Originale Sandsteinwände und tief eingesetzte Fenster sorgen für mittelalterliches Flair – ein unvergessliches Erlebnis im historischen Herzen Prags.",
       "source": "Airbnb",
-      "rating": 4.8
+      "rating": 4.8,
+      "bookingUrl": "https://www.airbnb.com/rooms/820954"
     },
     {
       "name": "Marilyn Hausboot, Moldau",
@@ -258,7 +260,8 @@
       "bedrooms": 2,
       "description": "Einzigartiges Erlebnis auf der Moldau mit direktem Blick auf die Prager Burg. Das moderne Hausboot bietet zwei separate Schlafkabinen und ein privates Deck für Sonnenuntergänge über dem Wasser. Eine der ungewöhnlichsten Übernachtungsmöglichkeiten Prags.",
       "source": "Airbnb",
-      "rating": 4.9
+      "rating": 4.9,
+      "bookingUrl": "https://www.airbnb.com/rooms/15367687"
     }
   ]
 }

@@ -256,7 +256,8 @@
       "bedrooms": 2,
       "description": "Acht individuell gestaltete Apartments in einem 400 Jahre alten mittelalterlichen Gebäude – jede Einheit einzigartig benannt und dekoriert, eine mit Dachterrasse und Ostseeblick. Buchung zweier Studios gibt jedem Reisenden seinen eigenen Raum mit Küche und Bad. Buchung direkt auf gamlastanapartments.com für beste Preise.",
       "source": "Booking.com",
-      "rating": 4.4
+      "rating": 4.4,
+      "bookingUrl": "https://www.booking.com/hotel/se/gamla-stan-apartments.html"
     }
   ]
 }
