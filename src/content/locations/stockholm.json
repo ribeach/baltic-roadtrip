@@ -144,7 +144,10 @@
       "mustTry": "Fisksoppa med påtår — Fischsuppe mit unbegrenztem Nachschlag",
       "googleMapsUrl": "https://maps.google.com/?cid=7573064262574537361",
       "placeId": "ChIJt-rFEV-dX0YRkfr1r9LtGGk",
-      "coordinates": { "lat": 59.3344068, "lng": 18.062324 },
+      "coordinates": {
+        "lat": 59.3344068,
+        "lng": 18.062324
+      },
       "rating": 4.6,
       "userRatingCount": 3661
     },
@@ -157,7 +160,10 @@
       "mustTry": "Stekt strömming med potatismos — gebratener Hering mit Kartoffelpüree im Tunnbröd",
       "googleMapsUrl": "https://maps.google.com/?cid=9048706371593831003",
       "placeId": "ChIJGa81HQB3X0YRWwKqu4B2k30",
-      "coordinates": { "lat": 59.3228865, "lng": 18.070928 },
+      "coordinates": {
+        "lat": 59.3228865,
+        "lng": 18.070928
+      },
       "rating": 4.5,
       "userRatingCount": 1563
     }
@@ -228,6 +234,29 @@
       },
       "rating": 4.2,
       "userRatingCount": 1045
+    }
+  ],
+  "apartments": [
+    {
+      "name": "ApartDirect Gamla Stan II",
+      "type": "Apartment",
+      "priceRange": "120-160€",
+      "bedrooms": 2,
+      "description": "Zwei-Zimmer-Wohnung in einem historischen Gebäude in der Stora Nygatan im Herzen von Gamla Stan. Klassisches Design mit moderner Einfachheit, Code-Schloss-Eingang und 24-Stunden-Support; 250 Meter zur U-Bahn und 200 Meter zum Königspalast. Booking.com-Lagebewertung 9,8/10.",
+      "source": "Booking.com",
+      "rating": 4.3,
+      "bookingUrl": "https://www.booking.com/hotel/se/apartdirect-gamla-stan-ii.html",
+      "userRatingCount": 414
+    },
+    {
+      "name": "Gamla Stan Apartments, Mittelalterliches Gebäude",
+      "type": "Historische Wohnung",
+      "priceRange": "180-200€",
+      "isSplurge": true,
+      "bedrooms": 2,
+      "description": "Acht individuell gestaltete Apartments in einem 400 Jahre alten mittelalterlichen Gebäude – jede Einheit einzigartig benannt und dekoriert, eine mit Dachterrasse und Ostseeblick. Buchung zweier Studios gibt jedem Reisenden seinen eigenen Raum mit Küche und Bad. Buchung direkt auf gamlastanapartments.com für beste Preise.",
+      "source": "Booking.com",
+      "rating": 4.4
     }
   ]
 }

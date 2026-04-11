@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import HighlightCard from '../../components/HighlightCard.astro';
 import RestaurantCard from '../../components/RestaurantCard.astro';
 import HotelCard from '../../components/HotelCard.astro';
+import ApartmentCard from '../../components/ApartmentCard.astro';
 import NightlifeCard from '../../components/NightlifeCard.astro';
 import TipBadge from '../../components/TipBadge.astro';
 import RouteMap from '../../components/RouteMap.tsx';
@@ -48,6 +49,7 @@ const pois = deduplicateMapPois(collectLocationPois(location));
 // Derive location type tags from existing data
 const tags: Array<{ label: string; color: string }> = [];
 if (location.hotels.length > 0) tags.push({ label: 'Übernachtung', color: 'bg-teal-600 text-white' });
+if (location.apartments.length > 0) tags.push({ label: 'Ferienwohnung', color: 'bg-purple-600 text-white' });
 if (location.highlights.some((h: any) => h.type === 'nature')) tags.push({ label: 'Natur', color: 'bg-green-100 text-green-800' });
 if (location.restaurants.length > 0) tags.push({ label: 'Einkehr', color: 'bg-amber-100 text-amber-800' });
 if (location.highlights.some((h: any) => h.type === 'museum')) tags.push({ label: 'Kultur', color: 'bg-purple-100 text-purple-800' });
@@ -184,6 +186,30 @@ if (location.id === 'halmstad') tags.push({ label: 'Remote Work', color: 'bg-nav
               googleMapsUrl={h.googleMapsUrl}
               rating={h.rating}
               userRatingCount={h.userRatingCount}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Apartments -->
+    {location.apartments.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-navy-800 mb-4">🏠 Ferienwohnungen & Apartments</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {location.apartments.map(a => (
+            <ApartmentCard
+              name={a.name}
+              type={a.type}
+              priceRange={a.priceRange}
+              isSplurge={a.isSplurge}
+              bedrooms={a.bedrooms}
+              description={a.description}
+              source={a.source}
+              bookingUrl={a.bookingUrl}
+              googleMapsUrl={a.googleMapsUrl}
+              rating={a.rating}
+              userRatingCount={a.userRatingCount}
             />
           ))}
         </div>

@@ -328,7 +328,10 @@
       "mustTry": "Herzhafter Pfannkuchen mit Schinken und Käse (unter 8€)",
       "googleMapsUrl": "https://maps.google.com/?cid=17166080864845768378",
       "placeId": "ChIJRyaVZWKTkkYRuibDxpgrOu4",
-      "coordinates": { "lat": 59.4373931, "lng": 24.7432074 },
+      "coordinates": {
+        "lat": 59.4373931,
+        "lng": 24.7432074
+      },
       "rating": 4.6,
       "userRatingCount": 8198
     },
@@ -341,7 +344,10 @@
       "mustTry": "Saisonales Hauptgericht — die Karte wechselt mit der Ernte",
       "googleMapsUrl": "https://maps.google.com/?cid=4655987249127532830",
       "placeId": "ChIJ1y-et4CTkkYRHqn-DrxjnUA",
-      "coordinates": { "lat": 59.4328048, "lng": 24.7601202 },
+      "coordinates": {
+        "lat": 59.4328048,
+        "lng": 24.7601202
+      },
       "rating": 4.7,
       "userRatingCount": 1076
     }
@@ -460,6 +466,27 @@
       },
       "rating": 4.7,
       "userRatingCount": 593
+    }
+  ],
+  "apartments": [
+    {
+      "name": "W Apartments Loft, Kalamaja",
+      "type": "Loft",
+      "priceRange": "110-130€",
+      "bedrooms": 2,
+      "description": "Zweistöckiger Loft in einem restaurierten Historikgebäude im kreativen Viertel Kalamaja – Schlafzimmer auf zwei Etagen für maximale Privatsphäre. Privater eingefriedeter Innenhof mit Liegestühlen, kostenloses leichtes estnisches Frühstück und kostenloser Parkplatz. Fußläufig zu Telliskivi Creative City und Noblessner-Hafen; 9,6/10 auf Booking.com.",
+      "source": "Booking.com",
+      "rating": 4.8,
+      "bookingUrl": "https://www.booking.com/hotel/ee/w-apartments-loft-in-kalamaja.html"
+    },
+    {
+      "name": "Volta Apartment, Kalamaja",
+      "type": "Apartment",
+      "priceRange": "82-90€",
+      "bedrooms": 1,
+      "description": "Apartment im prachtvoll restaurierten Volta-Fabrikareal – ehemals industriell, heute ein designorientierter Wohnkomplex mit Scandinavian-meets-Industrial-Ästhetik direkt am Meer. Bewertung 9,7/10 auf Booking.com; mehrere Einheiten verfügbar, sodass zwei Studios gebucht werden können.",
+      "source": "Booking.com",
+      "rating": 4.85
     }
   ]
 }

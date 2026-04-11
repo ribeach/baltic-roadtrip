@@ -184,5 +184,35 @@
       "text": "Polen hat an der Grenze zu Litauen vorübergehend Grenzkontrollen eingeführt (voraussichtlich bis Oktober 2026). Reisepass oder Personalausweis griffbereit halten — Wartezeiten von 15–30 Minuten möglich, besonders am Grenzübergang Budzisko an der Via Baltica."
     }
   ],
-  "nightlife": []
+  "nightlife": [],
+  "apartments": [
+    {
+      "name": "Kwiat Paproci, Seeufer Ryn",
+      "type": "Ferienhaus",
+      "priceRange": "42-55€",
+      "bedrooms": 2,
+      "description": "Charmantes Seehäuschen direkt am Olowsee – nur vier Meter bis zum Wasser – mit zwei Schlafzimmern, Fahrrädern inklusive und Grillterrasse. Bewertung 9,5/10 für die Lage und als 'kleines Pfefferkuchenhäuschen' beschrieben. Nur wenige Hundert Meter vom Burgschloss Ryn entfernt.",
+      "source": "Booking.com",
+      "rating": 4.85,
+      "bookingUrl": "https://www.booking.com/hotel/pl/kwiat-paproci.html",
+      "userRatingCount": 51
+    },
+    {
+      "name": "Domki Nad Zatoką, Rybical",
+      "type": "Ferienhaus",
+      "priceRange": "55-100€",
+      "bedrooms": 2,
+      "description": "Ferienhäuser mit direktem Rynsee-Zugang, 170 Metern privatem Seeufer, fünf Anlegestegen und Sandstrand. Zwei Schlafzimmer pro Haus und spektakuläre Seenlandschaft mit vorbeifahrenden Segelbooten auf den Großen Masurischen Seen. Nur 2,5 km vom Ryn-Schloss entfernt.",
+      "source": "Booking.com"
+    },
+    {
+      "name": "Wiatrak Ryn – Historische Windmühle",
+      "type": "Ferienhaus",
+      "priceRange": "110-150€",
+      "bedrooms": 2,
+      "description": "Liebevoll restaurierte historische Windmühle, zum modernen Ferienhaus umgebaut mit runden Wänden und direktem Blick auf die masurische Seenlandschaft. Zwei separate Schlafzimmer und eine einzigartige runde Architektur, die es kaum irgendwo sonst gibt. Bewertung 9,5/10 auf Booking.com.",
+      "source": "Booking.com",
+      "rating": 4.75
+    }
+  ]
 }

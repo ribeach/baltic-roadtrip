@@ -258,5 +258,37 @@
       "rating": 4,
       "userRatingCount": 3640
     }
+  ],
+  "apartments": [
+    {
+      "name": "oompH Warsaw Central – Industrial Loft",
+      "type": "Loft",
+      "priceRange": "36-50€",
+      "bedrooms": 2,
+      "description": "Freiliegender Backsteinloft in einem restaurierten Gründerzeit-Mietshaus mit Original-Kunstwerken polnischer Künstler direkt an den Wänden. Zwei echte Schlafzimmer, Küche mit Geschirrspüler und Waschmaschine in der Nähe der Hala Koszyki – Warschaus bester Ess- und Trinkgegend. Außergewöhnlich gutes Preis-Leistungs-Verhältnis für ein Zwei-Zimmer-Loft.",
+      "source": "Booking.com",
+      "rating": 4.7,
+      "userRatingCount": 8641
+    },
+    {
+      "name": "Praga Factory Loft, Alt-Praga",
+      "type": "Loft",
+      "priceRange": "70-85€",
+      "bedrooms": 1,
+      "description": "Brandneues Loft in einem umgebauten Fabrikareal im trendigen Viertel Alt-Praga mit großem Balkon und Stadtblick. Kostenloser Tiefgaragenstellplatz, in der Nähe der Metro-Station Dworzec Wileński. Nur ein Schlafzimmer plus Schlafsofa – ideal kombinierbar mit einem zweiten Studio.",
+      "source": "Airbnb",
+      "rating": 4.7
+    },
+    {
+      "name": "Apartment-Loft great.view.Warsaw, Praga",
+      "type": "Loft",
+      "priceRange": "90-140€",
+      "bedrooms": 2,
+      "description": "Charakterstarker Loft in einem Altbau von 1913 im Viertel Praga-Północ mit hohen Räumen und viel Persönlichkeit. Herausragende 4,97/5 bei 99 Bewertungen – einer der bestbewerteten 2-Zimmer-Lofts in ganz Warschau.",
+      "source": "Airbnb",
+      "bookingUrl": "https://www.airbnb.com/rooms/426830",
+      "rating": 4.97,
+      "userRatingCount": 99
+    }
   ]
 }
