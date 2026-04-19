@@ -1,52 +1,27 @@
 {
   "dayNumber": 14,
   "date": "2026-05-13",
-  "title": "Fähre nach Helsinki",
-  "subtitle": "Über die Ostsee von der mittelalterlichen in die modernste Hauptstadt Europas",
+  "title": "Helsinki und Sauna",
+  "subtitle": "Festungsinsel, finnische Saunakultur und Design",
   "locationId": "helsinki",
-  "previousLocationId": "tallinn",
+  "previousLocationId": null,
   "overnightLocationId": "helsinki",
-  "driving": {
-    "distance": "85 km",
-    "duration": "2:00",
-    "mode": "ferry",
-    "routeDescription": "Autofähre Tallinn→Helsinki (Eckerö Line oder Tallink, ca. 2 Std.). Auto an Bord, Frühstück auf der Fähre. Ankunft Helsinki Hafen gegen 09:30.",
-    "encodedPolyline": "{wwiJmravCPIL]H{@e@eBMYMEGDK\\KpAGBK\\ITIFKCuB{AkAOuAAgF^i@Bs@JGIKCIEEIEWCQp@uCt@uDn@eDh@iD^sEFaBBmF?iBEwA_@sFg@_Fi@uEk@gEyAqNaD{UcAuHwDcYmAuJSyCKwCA_Bm@Aq@Lq@T_@Te@`@Y`@g@xAq@xCMv@Lp@DXlBjIfA`GtBrNpBtM\\jFUHo@Lo@F{@WcAaAwF_EaXyn@uBsFgBcCkBiAsDs@yKAcZ|BwCp@cYrGm{DfuAgf@tXwz@pj@}kBnqAuqEdyCc}F`yDa_@~LiYdBk]mEsToGce@w[sYmWwqB_kBcrG{|FwiAkiA}~AuvAojOgxJ_zDo~@ym`@moF}fLs_BeaLi`@qCs@}iA{iA}@i@w@CSVu@`Bc@zBoAyA_DqDgEsEy@aAOCIDYp@IFI@U?QDSCQQq@u@cAcAYOWC_@?A?g@NEFYfAU\\]LqFf@a@H}BTs@?mB\\m@c@So@OYMKOAqD\\a@JI?SOQ[Qu@Mi@Yy@ISGNU^u@jAqAlBy@jAEDQDcBJcBJcAOeIr@Y@S?_@MWSc@UcCFC_BIaAc@{BOo@Qm@o@y@MIGOOa@]{AiBuI}@uEf@w@@CQo@Kg@]{Aq@iDiA{FqByIQs@CIMIMC?mBBmNGoACULSXs@f@eBQcBAs@OgF@_@?Q@YHUBCl@GRAJMJQHOFV^jAJXj@tB"
-  },
-  "evCharging": {
-    "stopsNeeded": 0,
-    "notes": "Keine Ladestopps nötig — kurze Fährfahrt. In Helsinki hervorragendes Ladenetz (Recharge, K-Lataus). Bequem beim Sightseeing laden.",
-    "criticalLevel": "green"
-  },
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    "Frühfähre Tallinn→Helsinki (07:30 Uhr, ~2 Std.) — Auto an Bord, Frühstück auf der Fähre",
     {
-      "highlightRef": "Marktplatz & Alte Markthalle (Vanha Kauppahalli)",
-      "note": "Ankunft Helsinki ~09:30 — Lachssuppe zum zweiten Frühstück"
+      "highlightRef": "Festung Suomenlinna",
+      "note": "UNESCO-Welterbe — Fähre vom Marktplatz (15 Min.), mindestens 3 Stunden einplanen"
     },
     {
-      "highlightRef": "Dom von Helsinki",
-      "note": "Kurzer Fotostopp am Senatsplatz"
+      "highlightRef": "Löyly Sauna & Restaurant",
+      "note": "Nachmittags: echte finnische Sauna mit Ostsee-Schwimmen — DAS Erlebnis in Helsinki"
     },
     {
-      "highlightRef": "Felsenkirche Temppeliaukio",
-      "note": "In den Fels gesprengte Kirche — einzigartig, 30 Min. reichen"
+      "restaurantRef": "Alte Markthalle (Vanha Kauppahalli)",
+      "note": "Mittagessen in der historischen Markthalle — Lachs, Rentier, Karelische Piroggen"
     },
-    {
-      "highlightRef": "Design District",
-      "note": "Nachmittags durch Helsinkis kreatives Viertel — Boutiquen und Galerien"
-    },
-    {
-      "highlightRef": "Oodi Zentralbibliothek",
-      "note": "Architektur-Highlight: Finnlands Vorzeige-Bibliothek am Hauptbahnhof"
-    },
-    {
-      "restaurantRef": "Café Regatta",
-      "note": "Zimtschnecken und Kaffee am Wasser — Helsinkis gemütlichster Ort"
-    },
-    {
-      "nightlifeRef": "Ateljee Bar",
-      "note": "Cocktails mit Panoramablick vom Hotel Torni"
-    }
+    "SAUNA-TIPP: Handtuch mitbringen, Badeanzug optional (gemischte Sauna bei Löyly). Mindestens 2 Stunden einplanen — Sauna, Abkühlung, wiederholen",
+    "Morgen früh: Fahrt nach Turku (170 km, 2 Std.) — Auto heute Abend voll laden"
   ]
 }

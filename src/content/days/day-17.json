@@ -1,31 +1,19 @@
 {
   "dayNumber": 17,
   "date": "2026-05-16",
-  "title": "Stockholm erkunden",
-  "subtitle": "Vasa-Museum, Gamla Stan und Södermalm im Frühling",
-  "locationId": "stockholm",
-  "previousLocationId": "turku",
-  "overnightLocationId": "stockholm",
-  "driving": {
-    "distance": "~400 km",
-    "duration": "11:00",
-    "mode": "ferry",
-    "routeDescription": "Overnight-Fähre Turku→Stockholm (Viking Line, Abfahrt ca. 20:15 Uhr). Auto an Bord, Kabine mit Frühstück. Fahrt durch den Åland-Archipel, Ankunft Stockholm Stadsgården 07:30 Uhr.",
-    "encodedPolyline": "_|zoJw~tfCbeaAfn_MjhaC~|yF~aTf|nB"
-  },
-  "evCharging": {
-    "stopsNeeded": 0,
-    "notes": "Keine Ladestopps nötig — Auto ist auf der Fähre. In Stockholm hervorragendes Ladenetz.",
-    "criticalLevel": "green"
-  },
+  "title": "Oslo erkunden",
+  "subtitle": "Vigeland, MUNCH und Fjordarchitektur",
+  "locationId": "oslo",
+  "previousLocationId": "oslo",
+  "overnightLocationId": "oslo",
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    "Ankunft Stockholm Stadsgården 07:30 Uhr per Viking Line — direkt neben Gamla Stan",
-    { "highlightRef": "Vasa-Museum", "note": "Vormittags — das am besten erhaltene Schiff des 17. Jh., mindestens 2 Stunden" },
-    { "highlightRef": "Gamla Stan (Altstadt)", "note": "Mittelalterliche Gassen, farbenfrohe Häuser, kleinste Gasse Stockholms (Mårten Trotzigs gränd)" },
-    { "highlightRef": "Fotografiska", "note": "Weltklasse-Fotografie-Museum auf Södermalm" },
-    { "highlightRef": "Rosendals Trädgård", "note": "Bio-Café im Gewächshaus auf Djurgården — perfekte Nachmittagspause" },
-    { "restaurantRef": "Kajsas Fisk", "note": "Unbegrenzt nachfüllbare Fischsuppe für ~€10 — Stockholms bestes Preis-Leistungs-Verhältnis" },
-    { "restaurantRef": "Nystekt Strömming", "note": "Frisch gebratener Hering am Slussen — Stockholmer Streetfood-Klassiker" },
-    { "nightlifeRef": "Mosebacke Terrassen", "note": "Drinks mit Panoramablick über Stockholm bei Sonnenuntergang" }
+    { "highlightRef": "Opernhaus Oslo", "note": "Begehbares Dach — Frühmorgens vor dem Touristenstrom — Blick über Fjord und Stadt" },
+    { "highlightRef": "MUNCH Museum", "note": "Neues Hochhaus am Fjord — mehrere Versionen von 'Der Schrei', 2–3 Stunden einplanen" },
+    { "highlightRef": "Vigeland-Skulpturenpark", "note": "Über 200 Skulpturen von Gustav Vigeland — kostenlos, größte Anlage eines einzelnen Künstlers weltweit" },
+    { "highlightRef": "Aker Brygge & Tjuvholmen", "note": "Nachmittags am Fjord flanieren, Boote beobachten, Kunstinsel Tjuvholmen" },
+    { "restaurantRef": "Lofotstua", "note": "Abendessen: Klippfisk und Fiskekaker aus Nordnorwegen — authentisch und unvergesslich" },
+    { "nightlifeRef": "Himkok", "note": "Eine der besten Bars der Welt — versteckter Eingang, eigene Destillerie, norwegische Cocktails" }
   ]
 }

@@ -1,38 +1,30 @@
 {
   "dayNumber": 18,
   "date": "2026-05-17",
-  "title": "Westküste nach Halmstad",
-  "subtitle": "Durch Schwedens Bilderbuchlandschaft an die vertraute Küste",
+  "title": "Über Göteborg nach Halmstad",
+  "subtitle": "Westküste, Fischmarkt und Rückkehr an die vertraute schwedische Küste",
   "locationId": "halmstad",
-  "previousLocationId": "stockholm",
+  "previousLocationId": "oslo",
   "overnightLocationId": "halmstad",
   "driving": {
-    "distance": "450 km",
-    "duration": "5:00",
+    "distance": "~370 km",
+    "duration": "4:30",
     "mode": "drive",
-    "routeDescription": "Über die E20 Richtung Südwesten nach Jönköping, dann E6 südwärts entlang der Westküste nach Halmstad. Alternativ kürzere Route über E4 nach Jönköping.",
-    "encodedPolyline": "uvbiJ_~gmBjNrcCe_@`nD|e@f~Afh@xe@~x@g}@vv@kbA|}@zrCrOrrG|kAd~Enf@na@d`AjaClo@~vEhrA~pExjAroEb|@ps@pUf{BzKtsFz]|cFjj@fcCvz@jvA|l@td@|t@o\\pvAg@fl@zDzf@kYttA~i@d`AjyAzp@zkBfnAzVfvCpwAtiDhcDnjEdmB~hBbkAxzB~i@ljAduCvg@ldD~PphDnj@ldBzcAdg@p|@tjDdeBhwGbaBnyJtp@|pEt~@f`Cbs@|aBvkAnvAhtC|xFvnB`mExhA~bCb}@v{CdvApfFl|AzcKxqBf_D`UdgEa`@f|C@dgDwc@plCyBhyEdAntHh[xtCoX`}D_B||JpIfyRd{@hqIbl@zdN~oFnrPl_BrlAhd@dmCn`@laIlN|hFniB~lDpfAjfCvqA`nAfuAr_A~gA`|Ar_AyH~cAjkAxpAvzFdaBlaChnBzmBfaCjiGlgA|v@zmAzjEly@`hNl}@rkJhq@beCxfB~hL|hAdhGnIbiFmc@rnQ~{Bj`M|~DzoOjtD|m]jj@|fFxmAzmKnlAzwGbfBz_Ntv@rmL|fAbsJjnAzmCtw@jn@j[ftAp|@xrDlg@x_Gv_AfaK~nAvzIbfAxkA`n@rjBhw@naBhkCfuC`yFh|BbgD~}@`oEh{CdsCnqDztEbjE~lCdsErbAhhFhfAvfDdsB~hD`lCxdCp{Dh~DdjCbqBzoAlq@llEkIluB_HbfAr@~lAhbAhCxnBba@rhAls@vcEdVfw@nl@bI~YvuEbCvfB~h@ph@wId}B{x@bm@uo@|jBe[hmBxJjeChbAzjFv|@|uDoNtmNt{@jnAbvA`}Axl@tkAhzCt~Aj|BaAj~BlwBjuBduD`hBzyCtxBxqC|nDj}EbtCdiCftDfl@zx@pq@rwBc_@`|@`r@nZhbAxcAnfApvBfa@`_Adz@fl@tnBhrAfbBxnCr~@~mBfwA|tDzhC~gAti@bqC|dBddChrBtyBneBpiA~qBpbA~z@je@pwAlt@`vAp{AiB|z@uV|}@rXzuCf|BbhB`kAlbBboCh|Bnm@ja@iVli@~VjdBlq@htAr`@ztApgAfhAdzBh~@f`Cj`BtaGblBxiFlhDr~Bho@fnB|`@`aDjQpiFh}@zuFrwA|gBhcAl}@r~@|@voB~yA~dCxF|vBxsAxu@dTty@`yAzd@jcCv^hzDxcAxe@lwA{F~hB|e@|n@mI`fBhw@piBhm@pfBb~ChiBnsA`iA`~BvtAbaBjnAr~@bk@peAhHmeAsIwM"
+    "routeDescription": "Über E6 südwärts durch Norwegen, Grenzübertritt Svinesund nach Schweden, weiter via Uddevalla nach Göteborg. Mittagspause in Göteborg, dann E6 südwärts an der Westküste entlang nach Halmstad.",
+    "encodedPolyline": "{|tlJg`s`Azj_Dw`dBnkpC_bbCz{{BgrE~gj@kyR~v}CkswC"
   },
   "evCharging": {
-    "stopsNeeded": 2,
-    "notes": "Zwei Ladestopps: Raum Jönköping und an der Westküste. Schwedens Ladenetz ist hervorragend — Ionity, Mer und Tesla Supercharger in dichter Taktung.",
+    "stopsNeeded": 1,
+    "notes": "Ein Ladestopp in Göteborg reicht für die kurze Etappe. Ionity und Mer entlang der E6. In Halmstad laden beim Hotel.",
     "criticalLevel": "green"
   },
   "activities": [
-    "Aufbruch aus Stockholm am Morgen — heute geht es an die vertraute Westküste",
-    "Fahrt durch schwedische Bilderbuchlandschaft: rote Holzhäuser, Seen, Birkenwälder",
-    "Kaffeepause in Jönköping am Vätternsee — der zweitgrößte See Schwedens",
-    {
-      "highlightRef": "Tylösand & Prins Bertils Stig",
-      "note": "Ankunft am Nachmittag — Strandspaziergang zum Ankommen"
-    },
-    {
-      "restaurantRef": "Pio Restaurang & Bar",
-      "note": "Willkommens-Abendessen in der schwedischen Wahlheimat"
-    },
-    {
-      "nightlifeRef": "Halmstad Brygghus",
-      "note": "Lokales Craft Beer zum Feierabend"
-    }
+    "Aufbruch aus Oslo am Morgen — E6 südwärts durch Oslofjord-Landschaft",
+    "Grenzübertritt nach Schweden bei Svinesund — Währungswechsel zurück zur Krone",
+    { "highlightRef": "Feskekörka — Fischkirche", "note": "Mittagspause in Göteborg — Westküsten-Meeresfrüchte in der 2024 frisch renovierten Fischhalle" },
+    "Ladestopp in Göteborg, dann E6 südwärts an der Westküste entlang",
+    { "highlightRef": "Tylösand & Prins Bertils Stig", "note": "Ankunft am Nachmittag — Strandspaziergang zum Ankommen" },
+    { "restaurantRef": "Pio Restaurang & Bar", "note": "Willkommens-Abendessen in der schwedischen Wahlheimat" },
+    { "nightlifeRef": "Halmstad Brygghus", "note": "Lokales Craft Beer zum Feierabend" }
   ]
 }
