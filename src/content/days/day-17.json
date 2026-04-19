@@ -4,10 +4,20 @@
   "title": "Stockholm erkunden",
   "subtitle": "Vasa-Museum, Gamla Stan und Södermalm im Frühling",
   "locationId": "stockholm",
-  "previousLocationId": null,
+  "previousLocationId": "turku",
   "overnightLocationId": "stockholm",
-  "driving": null,
-  "evCharging": null,
+  "driving": {
+    "distance": "~400 km",
+    "duration": "11:00",
+    "mode": "ferry",
+    "routeDescription": "Overnight-Fähre Turku→Stockholm (Viking Line, Abfahrt ca. 20:15 Uhr). Auto an Bord, Kabine mit Frühstück. Fahrt durch den Åland-Archipel, Ankunft Stockholm Stadsgården 07:30 Uhr.",
+    "encodedPolyline": "_|zoJw~tfCbeaAfn_MjhaC~|yF~aTf|nB"
+  },
+  "evCharging": {
+    "stopsNeeded": 0,
+    "notes": "Keine Ladestopps nötig — Auto ist auf der Fähre. In Stockholm hervorragendes Ladenetz.",
+    "criticalLevel": "green"
+  },
   "activities": [
     "Ankunft Stockholm Stadsgården 07:30 Uhr per Viking Line — direkt neben Gamla Stan",
     { "highlightRef": "Vasa-Museum", "note": "Vormittags — das am besten erhaltene Schiff des 17. Jh., mindestens 2 Stunden" },
