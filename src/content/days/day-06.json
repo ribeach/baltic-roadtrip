@@ -1,29 +1,44 @@
 {
   "dayNumber": 6,
   "date": "2026-05-05",
-  "title": "Von Masuren nach Vilnius",
-  "subtitle": "Wolfsschanze, Suwałki-Lücke und Ankunft im Baltikum",
+  "title": "Vilnius und Trakai",
+  "subtitle": "Inselburg am See und die Bohème-Republik Užupis",
   "locationId": "vilnius",
-  "previousLocationId": "masuria",
+  "previousLocationId": null,
   "overnightLocationId": "vilnius",
-  "additionalLocationIds": ["masuria"],
-  "driving": {
-    "distance": "300 km",
-    "duration": "3:30",
-    "mode": "drive",
-    "routeDescription": "Optional: Vormittags Abstecher zur Wolfsschanze (40 km nördlich von Ryn). Dann Richtung Südosten durch die geopolitisch bedeutsame Suwałki-Lücke zwischen Kaliningrad und Belarus nach Vilnius.",
-    "encodedPolyline": "s~ehIceobClBxKxReXhiBal@pzAa|@xw@}s@hk@cL~g@me@d^ix@lIcVhc@uMzd@ic@fl@m|@zLoMt@o]vAaaAdJsPqHsWwm@_h@ca@mo@jCc~@xVemBfR_`B{m@imCaLeqAb@{p@fXweB~Q_vA|X}m@vd@ez@xg@sThr@wEfx@mXjCsiBxZqkApD{rAds@wdAv_@m|@da@eyBe@q}Bko@i`GeI{l@pAab@rEcj@zWoOnk@Upd@{e@bGmnBpEo}Bs@{{CzA}uDiCapIgIcNqJuc@~HqtBvPa`D{YuwDsB_nA_QogAyImyAaU}s@kc@}rBqc@we@}Xuj@uk@ow@sTc}@a@i`Ao[upC{ZoOsQeXqFwm@eXkmDjTopDlXszB~Usx@aPaLqd@uyB_aA}zCkFkaEu@kzK}b@ejDoy@acF_a@}vB_k@krAmcBquCkqBuqG_`AspBeaAir@wiBil@cq@}j@ecCk|Cc`AaoA{}@odFaWylAie@gt@yhC_vBmb@}Lsa@dDqkAdc@gbEbkBup@_Bce@}UcbAyc@gy@sY_h@_eAiKukA~@aiCfA_cB{HygBkbA{qBib@gs@mq@uT{{@uJyqAe{@}_AmyAyYss@}p@i}@qsA{y@wlAchCgh@}z@}i@_Usx@qLkk@oc@e_A_kByvAuh@gm@_Uwl@fAwc@sG_i@c{@ql@gsAg{Aq}Aos@cn@wdA{b@sbBcsAcbA}dAytAqbBwd@iBuo@bYqjA|OklCzA_uAnHyfBe_B}xAsp@ezAqg@cbFmrCuuAubAcv@ewAebB{dD}a@{`FaHcrEoe@kiAikBueCezB{mAwd@m|AsW}bE_ZghAa|@uwA{hBsyCqSooAyLuzBeP{rB{gAkjCsuBg~EcpAu|Fsf@knBa|A}tD{vAs|Bio@_oBgvAykCqa@ma@wm@snBkt@y}Cyy@_oDuQwgAaErQo`Ahp@yw@zJaz@~Tgv@|e@grAd}@mhBdmAc]~Fgu@ar@cz@mj@cw@iD{v@aaAs_@}_@iZkrA{h@obA{Isp@jN}iCfOafKdb@y{JbKsnDxRywBjrAa`E~yAqiGrbC_hMb|Em`XhfDqoRlcA{sKv^c}H~WutK~b@}gP|_@qeHts@wmHnn@ytEbq@oyCpQ{sD|k@}_Erj@cnAd|BeoCbx@_pBll@kcBbgAgsDre@y{Bbc@s`Anz@mkFhm@szCbkCqbJdL}m@}b@egBu{@}lBq{@wfAca@uIi_@_^ci@ca@{L}_@yDwm@ma@eIgTePfJwX~H{|@|PQ"
-  },
-  "evCharging": {
-    "stopsNeeded": 1,
-    "notes": "Ein Ladestopp vor der litauischen Grenze — im Raum Suwałki oder Marijampolė. Der Suwałki-Korridor hat noch lückenhafte Ladeinfrastruktur, daher vorher in Masuren auf mindestens 80 % laden.",
-    "criticalLevel": "yellow"
-  },
+  "additionalLocationIds": [
+    "trakai"
+  ],
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    { "highlightRef": "Wolfsschanze (Wilczy Szaniec)", "note": "Optional am Vormittag — Hitlers Ostfront-HQ im Wald (40 km, 2–3 Stunden)" },
-    "Fahrt durch die geopolitisch bedeutsame Suwałki-Lücke — NATOs verwundbarster Punkt in Europa",
-    "Grenzübertritt nach Litauen",
-    "Ankunft in Vilnius am Nachmittag — erster Spaziergang durch die barocke Altstadt",
-    "Willkommens-Abendessen in einem litauischen Lokal — Cepelinai und kalte Rote-Bete-Suppe probieren"
+    {
+      "highlightRef": "Wasserburg Trakai",
+      "note": "Vormittags — Litauens Postkartenmotiv Nr. 1 auf der Insel im Galvė-See"
+    },
+    {
+      "restaurantRef": "Kybynlar",
+      "note": "Kibinai-Mittagessen in Trakai — gefüllte Teigtaschen der Karäer, einer turksprachigen Minderheit"
+    },
+    {
+      "highlightRef": "KGB-Museum (Museum der Okkupationen und Freiheitskämpfe)",
+      "note": "Nachmittags — ca. 2 Stunden einplanen"
+    },
+    {
+      "highlightRef": "Republik Užupis",
+      "note": "Bohème-Viertel mit eigener Verfassung — Schutzengel-Statue nicht verpassen"
+    },
+    {
+      "highlightRef": "Halės Turgus",
+      "note": "Nachmittagspause — litauische Spezialitäten probieren"
+    },
+    {
+      "restaurantRef": "Ertlio Namas",
+      "note": "Gehobene litauische Küche in historischem Gewölbe"
+    },
+    {
+      "nightlifeRef": "Šnekutis",
+      "note": "Urige Kneipe mit hauseigenem Met und Bier vom Fass"
+    }
   ]
 }
