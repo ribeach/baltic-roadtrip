@@ -168,6 +168,18 @@
       "userRatingCount": 21948
     },
     {
+      "name": "Bar Waga",
+      "cuisine": "Polnisch (Milchbar / Hausmannskost)",
+      "priceRange": "€",
+      "description": "Versteckt im Hinterhof der Łucka 14 — eine echte Warschauer Milchbar, die täglich frisch kocht. Kein Schnickschnack, keine Dekoration, nur ehrliche polnische Hausmannskost zu Spottpreisen: Suppen, Hauptgerichte mit Beilage, klassische Desserts. Ein Relikt der kommunistischen Ära, das seine Stammkundschaft seit Jahrzehnten treu bedient.",
+      "mustTry": "Tagesgericht mit Suppe — ein vollständiges Drei-Gang-Menü für unter 40 Złoty",
+      "googleMapsUrl": "https://maps.app.goo.gl/ksyNuhCyri76jKfA6",
+      "coordinates": {
+        "lat": 52.2323,
+        "lng": 20.9978
+      }
+    },
+    {
       "name": "Bar Mleczny Prasowy",
       "cuisine": "Polnisch Traditional / Milchbar",
       "priceRange": "€",
