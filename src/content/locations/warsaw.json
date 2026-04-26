@@ -171,13 +171,14 @@
       "name": "Bar Waga",
       "cuisine": "Polnisch (Milchbar / Hausmannskost)",
       "priceRange": "€",
-      "description": "Versteckt im Hinterhof der Łucka 14 — eine echte Warschauer Milchbar, die täglich frisch kocht. Kein Schnickschnack, keine Dekoration, nur ehrliche polnische Hausmannskost zu Spottpreisen: Suppen, Hauptgerichte mit Beilage, klassische Desserts. Ein Relikt der kommunistischen Ära, das seine Stammkundschaft seit Jahrzehnten treu bedient.",
-      "mustTry": "Tagesgericht mit Suppe — ein vollständiges Drei-Gang-Menü für unter 40 Złoty",
+      "description": "Eine echte Warschauer Milchbar im Stadtteil Bemowo (Obozowa 82A) — täglich frisch gekochte polnische Hausmannskost zu Spottpreisen. Kein Schnickschnack, keine Dekoration, nur herzliche Bedienung und klassische Gerichte aus der Großküche. Legendäre 4,9-Sterne-Bewertung und Stammkundschaft, die kommt wie nach Hause.",
+      "mustTry": "Kotlet schabowy (Schweineschnitzel) oder Barszcz, dazu Tagesbeilage — vollständiges Menü für unter 40 Złoty",
       "googleMapsUrl": "https://maps.app.goo.gl/ksyNuhCyri76jKfA6",
       "coordinates": {
-        "lat": 52.2323,
-        "lng": 20.9978
-      }
+        "lat": 52.2490,
+        "lng": 20.9563
+      },
+      "rating": 4.9
     },
     {
       "name": "Bar Mleczny Prasowy",
