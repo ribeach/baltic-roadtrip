@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    # Daily rebuild so the homepage "currently here" indicator stays accurate
+    # without requiring a push. 04:15 UTC ≈ 06:15 Europe/Berlin.
+    - cron: "15 4 * * *"
 
 permissions:
   contents: read

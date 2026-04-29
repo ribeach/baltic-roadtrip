@@ -61,9 +61,10 @@ interface Props {
   center?: { lat: number; lng: number };
   pois?: POI[];
   polylines?: string[];
+  highlightedLocationId?: string;
 }
 
-export default function RouteMap({ locations, apiKey, height = '500px', zoom, center, pois = [], polylines = [] }: Props) {
+export default function RouteMap({ locations, apiKey, height = '500px', zoom, center, pois = [], polylines = [], highlightedLocationId }: Props) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<google.maps.Map | null>(null);
   const markersRef = useRef<google.maps.marker.AdvancedMarkerElement[]>([]);
@@ -159,26 +160,47 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
         }
 
         // AdvancedMarkerElement with custom HTML for circular markers
-        // Assigned (default) locations get amber markers; unassigned get muted gray
+        // Assigned (default) locations get amber markers; unassigned get muted gray.
+        // The highlighted location (current "you are here") gets a teal marker with a pulse.
         locations.forEach((loc, i) => {
           const isAssigned = loc.assigned !== false;
+          const isHighlighted = !!highlightedLocationId && loc.id === highlightedLocationId;
           const labelText = loc.label ?? (loc.dayNumber ? String(loc.dayNumber) : isAssigned ? String(i + 1) : '');
 
           const markerDiv = document.createElement('div');
-          markerDiv.style.cssText = isAssigned
-            ? `width: 28px; height: 28px; border-radius: 50%;
-               background: #e6a919; border: 2px solid #1a1a2e;
+          if (isHighlighted) {
+            markerDiv.style.cssText = `position: relative; width: 36px; height: 36px;
+               display: flex; align-items: center; justify-content: center; cursor: pointer;`;
+            const pulse = document.createElement('span');
+            pulse.style.cssText = `position: absolute; inset: 0; border-radius: 50%;
+               background: #1B6B6D; opacity: 0.5;
+               animation: rm-current-pulse 1.6s cubic-bezier(0,0,0.2,1) infinite;`;
+            const dot = document.createElement('span');
+            dot.style.cssText = `position: relative; width: 30px; height: 30px; border-radius: 50%;
+               background: #1B6B6D; border: 2px solid #ffffff;
+               box-shadow: 0 0 0 2px #1B6B6D;
                display: flex; align-items: center; justify-content: center;
                font-family: Inter, system-ui, sans-serif;
-               font-size: 11px; font-weight: bold; color: #1a1a2e;
-               cursor: pointer;`
-            : `width: 22px; height: 22px; border-radius: 50%;
-               background: #9ca3af; border: 2px solid #6b7280;
-               display: flex; align-items: center; justify-content: center;
-               font-family: Inter, system-ui, sans-serif;
-               font-size: 9px; font-weight: bold; color: #fff;
-               cursor: pointer; opacity: 0.8;`;
-          markerDiv.textContent = labelText;
+               font-size: 11px; font-weight: bold; color: #ffffff;`;
+            dot.textContent = labelText;
+            markerDiv.appendChild(pulse);
+            markerDiv.appendChild(dot);
+          } else {
+            markerDiv.style.cssText = isAssigned
+              ? `width: 28px; height: 28px; border-radius: 50%;
+                 background: #e6a919; border: 2px solid #1a1a2e;
+                 display: flex; align-items: center; justify-content: center;
+                 font-family: Inter, system-ui, sans-serif;
+                 font-size: 11px; font-weight: bold; color: #1a1a2e;
+                 cursor: pointer;`
+              : `width: 22px; height: 22px; border-radius: 50%;
+                 background: #9ca3af; border: 2px solid #6b7280;
+                 display: flex; align-items: center; justify-content: center;
+                 font-family: Inter, system-ui, sans-serif;
+                 font-size: 9px; font-weight: bold; color: #fff;
+                 cursor: pointer; opacity: 0.8;`;
+            markerDiv.textContent = labelText;
+          }
 
           const marker = new AdvancedMarkerElement({
             position: { lat: loc.lat, lng: loc.lng },
@@ -349,7 +371,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
       polylinesRef.current.forEach(p => p.setMap(null));
       polylinesRef.current = [];
     };
-  }, [apiKey, locationsKey, zoom, centerKey, poisKey, polylinesKey]);
+  }, [apiKey, locationsKey, zoom, centerKey, poisKey, polylinesKey, highlightedLocationId]);
 
   if (error) {
     return (
