@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import DayCard from '../components/DayCard.astro';
 import RouteMap from '../components/RouteMap.tsx';
 import { getCollection } from 'astro:content';
-import { resolveRef, getBase, createLocationFinder } from '../lib/content';
+import { resolveRef, getBase, createLocationFinder, getCurrentLocation } from '../lib/content';
 
 const allDays = await getCollection('days');
 const allLocations = await getCollection('locations');
@@ -127,6 +127,10 @@ const routeCities = plannedDays
   .filter(Boolean) as string[];
 // Deduplicate consecutive same-city entries
 const uniqueRouteCities = routeCities.filter((city, i) => city !== routeCities[i - 1]);
+
+// "Currently here" indicator — matches today's date (Europe/Berlin) to a planned day,
+// falls back to Aalen (home) before the trip starts and after it ends.
+const currentLocation = getCurrentLocation(days, allLocations);
 ---
 
 <BaseLayout title="Startseite">
@@ -143,6 +147,33 @@ const uniqueRouteCities = routeCities.filter((city, i) => city !== routeCities[i
         <p class="text-xl md:text-2xl text-gray-300 mb-6">
           Mit dem VW ID.4 durch {visitedCountries.size} Länder rund um die Ostsee — {allLocations.length} Orte zum Entdecken.
         </p>
+
+        <a
+          href={`${base}ort/${currentLocation.id}/`}
+          class:list={[
+            'inline-flex items-center gap-2 px-4 py-2 rounded-full font-semibold text-sm mb-6 transition-colors',
+            currentLocation.isHome
+              ? 'bg-navy-700 text-gray-200 hover:bg-navy-600'
+              : 'bg-teal-600 text-white hover:bg-teal-500',
+          ]}
+        >
+          <span class="relative flex h-2.5 w-2.5">
+            {!currentLocation.isHome && (
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-60"></span>
+            )}
+            <span class:list={[
+              'relative inline-flex rounded-full h-2.5 w-2.5',
+              currentLocation.isHome ? 'bg-gray-400' : 'bg-white',
+            ]}></span>
+          </span>
+          <span>
+            {currentLocation.isHome
+              ? <>Aktuell zu Hause in <strong>{currentLocation.name}</strong></>
+              : <>Aktuell in <strong>{currentLocation.name}</strong>{currentLocation.dayNumber && <span class="opacity-80"> — Tag {currentLocation.dayNumber}</span>}</>
+            }
+          </span>
+        </a>
+
         <p class="text-sm text-gray-500 flex flex-wrap gap-x-1 gap-y-1">
           {uniqueRouteCities.map((city, i, arr) => (
             <span class="inline-flex items-center">
@@ -173,6 +204,7 @@ const uniqueRouteCities = routeCities.filter((city, i) => city !== routeCities[i
       apiKey={apiKey}
       height="500px"
       polylines={routePolylines.length > 0 ? routePolylines : undefined}
+      highlightedLocationId={currentLocation.id}
     />
     <noscript>
       <div class="bg-paper rounded-xl p-8 text-center text-gray-500 border border-sand-200">

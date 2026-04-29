@@ -86,3 +86,65 @@ export function deduplicateMapPois(pois: MapPOI[]): MapPOI[] {
   }
   return Array.from(seen.values());
 }
+
+/* ------------------------------------------------------------------ */
+/*  Current location — match today (Europe/Berlin) against day.date    */
+/* ------------------------------------------------------------------ */
+
+export interface CurrentLocation {
+  id: string;
+  name: string;
+  dayNumber: number | null;
+  isHome: boolean;
+}
+
+const BERLIN_TZ = 'Europe/Berlin';
+const isoDateInBerlin = (d: Date) =>
+  new Intl.DateTimeFormat('en-CA', { timeZone: BERLIN_TZ }).format(d);
+
+interface DayLike {
+  data: {
+    dayNumber: number;
+    date: Date;
+    status?: 'planned' | 'completed' | 'idea';
+    locationId: ContentRef | string;
+  };
+}
+interface LocationLike { id: string; data: { id: string; name: string } }
+
+/**
+ * Resolve "where are the travelers today" against the planned itinerary.
+ * Falls back to Aalen (home) before the first day, after the last day, or on
+ * any day that's not in the collection.
+ *
+ * Uses Europe/Berlin so the indicator flips at local midnight, not UTC.
+ */
+export function getCurrentLocation(days: DayLike[], locations: LocationLike[]): CurrentLocation {
+  const today = isoDateInBerlin(new Date());
+  const find = createLocationFinder(locations);
+
+  const match = days.find(d => {
+    const status = d.data.status ?? 'planned';
+    return status !== 'idea' && isoDateInBerlin(d.data.date) === today;
+  });
+
+  if (match) {
+    const loc = find(match.data.locationId);
+    if (loc) {
+      return {
+        id: loc.data.id,
+        name: loc.data.name,
+        dayNumber: match.data.dayNumber,
+        isHome: loc.data.id === 'aalen',
+      };
+    }
+  }
+
+  const aalen = find('aalen');
+  return {
+    id: 'aalen',
+    name: aalen?.data.name ?? 'Aalen',
+    dayNumber: null,
+    isHome: true,
+  };
+}
