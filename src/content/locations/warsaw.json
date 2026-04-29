@@ -171,14 +171,16 @@
       "name": "Bar Waga",
       "cuisine": "Polnisch (Milchbar / Hausmannskost)",
       "priceRange": "€",
-      "description": "Eine echte Warschauer Milchbar im Stadtteil Bemowo (Obozowa 82A) — täglich frisch gekochte polnische Hausmannskost zu Spottpreisen. Kein Schnickschnack, keine Dekoration, nur herzliche Bedienung und klassische Gerichte aus der Großküche. Legendäre 4,9-Sterne-Bewertung und Stammkundschaft, die kommt wie nach Hause.",
+      "description": "Eine echte Warschauer Milchbar im Stadtteil Wola (Obozowa 82A) — täglich frisch gekochte polnische Hausmannskost zu Spottpreisen. Kein Schnickschnack, keine Dekoration, nur herzliche Bedienung und klassische Gerichte aus der Großküche. Legendäre 4,9-Sterne-Bewertung und Stammkundschaft, die kommt wie nach Hause.",
       "mustTry": "Kotlet schabowy (Schweineschnitzel) oder Barszcz, dazu Tagesbeilage — vollständiges Menü für unter 40 Złoty",
-      "googleMapsUrl": "https://maps.app.goo.gl/ksyNuhCyri76jKfA6",
+      "googleMapsUrl": "https://maps.google.com/?cid=522343413960797279",
+      "placeId": "ChIJE-9meYHMHkcRX-zlR5G8Pwc",
       "coordinates": {
-        "lat": 52.2490,
-        "lng": 20.9563
+        "lat": 52.2473272,
+        "lng": 20.9469746
       },
-      "rating": 4.9
+      "rating": 4.9,
+      "userRatingCount": 820
     },
     {
       "name": "Bar Mleczny Prasowy",
