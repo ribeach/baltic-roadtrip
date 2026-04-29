@@ -1,37 +1,38 @@
 {
   "dayNumber": 4,
   "date": "2026-05-03",
-  "title": "Durch Masuren ins Land der tausend Seen",
-  "subtitle": "Ordensburgen, Storchennester und ein Abend am See",
-  "locationId": "masuria",
-  "previousLocationId": "warsaw",
-  "overnightLocationId": "masuria",
-  "driving": {
-    "distance": "250 km",
-    "duration": "3:00",
-    "mode": "drive",
-    "routeDescription": "Über die S7/S51 Richtung Nordosten durch die masurische Seenplatte nach Ryn. Landschaftlich wunderschön — Seen, Wälder, Störche auf den Dächern.",
-    "encodedPolyline": "sbx}Ho}f_CgOwfAiGqxAqx@x_A_mApcBw_B|wAmuAjx@oaB|sEcb@nbCkdB``Cq]tj@}Sf|@_i@tpBoSjv@io@xr@kv@`pCiu@rhDoe@xvBc~AzjHaHppAqk@xgAg}@nrAaz@teB_PlxAuZpqAw}AnwAig@zaDql@p}DyYhv@seAxz@akAx}@yf@zdAkjDnfC_l@bDep@b[muBdzByx@jo@skArv@uhAnnAid@`jBkb@jgA}q@paEgm@hfBco@f|@gaAaHct@`z@ug@vc@qh@sDwn@uXqa@lK_h@bS_aA`_@qn@xs@ceBjcCop@xv@c|DnfAy}A`d@izAxjBo~AfeAkq@jdAgy@~Vir@DgaAng@}p@hFkiA_|@y`Bk{Aeo@Gyl@ji@{y@vy@eaA~i@cm@iUml@_r@_|@_{@kgAwDen@_Q_l@si@qwBg}A_zBupDqp@_g@s_@aD_dAzb@eZhQ{^AsrAgaA}~@qp@_xC}aAeo@yd@mo@azAi}@opB{u@ai@oo@{Bqm@nLuo@Ra|@_d@ym@_j@sy@o\\ctBnDgnAsHm}@uPkh@mT}e@yAer@xRctAb~@av@~N_i@kUw{@{EgeAqLmlAcp@qfA_\\atBtMeaD}Rid@fWo[vv@{MfoB{c@btAsfA|\\{dArRgz@blA{hAjl@{s@~aAwZhsAge@lZomAxQqtAyXmi@fUgh@dcAu]hWoZdAwuA~EegBpEurAzs@{`AjbAod@r{@epA|tAgb@zR_`A`RaxCj_A}x@ng@cQ}@yfA}dA{Qgn@sTipCyOuiBsz@gzByfA_`BeeDuaGcv@}z@kvAqt@wq@}Kg_Awg@coAw^}p@}o@w@_Xz`AwkBzJglBmPwnBl@_hAyQogAwe@{]gf@kcAwq@iy@_}@ge@c{@{Taq@a@seAme@qr@wr@mk@ouAwT_vBuOitAsv@m|@cy@gqAi|@opAik@cuCcm@_tAu_@w~Ao_@uoGth@iwDrf@kpAtEi~AbLeaAeGkzAiJybBfOqrAvAwcByUqyAwJwnB{FivAmUy{AgeAeiD}CcxBva@kzCdd@_fClUcoDdRk|A}HqoBuq@_tEa[wqBfAcfBvNklBvEc{E{G{vByV{bBke@}qAuK{aBnOyfAiTsBwc@`Acn@|Vwb@{^wk@_iCyQsf@qFa{@pZqpCi^_cDnO_XgCyZuK}oCkJet@uK{OeOtMeP{KwYgk@ol@ge@sUygAoIof@}[}Tkm@u|Ak_@{mBwJcvAsj@_xBxJqzAqMykBlBi]sG@t@pO"
-  },
-  "evCharging": {
-    "stopsNeeded": 1,
-    "notes": "Ein Ladestopp im Raum Ostrołęka oder Olsztyn. GreenWay-Stationen verfügbar.",
-    "criticalLevel": "green"
-  },
+  "title": "Warschau — Phönix aus der Asche",
+  "subtitle": "Zwischen Aufstandsmuseum und Weichsel-Boulevards",
+  "locationId": "warsaw",
+  "previousLocationId": null,
+  "overnightLocationId": "warsaw",
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    "Morgendlicher Aufbruch aus Warschau — heute wird es ländlich",
-    "Fahrt durch Masurens stille Weite: Seen, Kiefernwälder, Störche auf jedem Dach",
     {
-      "highlightRef": "Hotel Zamek Ryn (Ordensburg)",
-      "note": "Ankunft am frühen Nachmittag — Rundgang durch die gotischen Gewölbe"
+      "highlightRef": "Warschauer Altstadt (Stare Miasto)",
+      "note": "UNESCO-Welterbe — die perfekteste Rekonstruktion einer zerstörten Altstadt"
     },
     {
-      "highlightRef": "Masurische Seenplatte",
-      "note": "Nachmittagsspaziergang am Ufer des Ryńskie-Sees"
+      "highlightRef": "Kultur- und Wissenschaftspalast",
+      "note": "Stalins Geschenk an Warschau — Aussichtsplattform im 30. Stock"
     },
     {
-      "restaurantRef": "Restauracja Zamkowa (Refektarz)",
-      "note": "Polnische Küche unter gotischen Bögen"
+      "highlightRef": "Museum des Warschauer Aufstands",
+      "note": "Mindestens 2,5 Stunden einplanen — eines der besten Museen Polens"
+    },
+    {
+      "highlightRef": "Łazienki-Park",
+      "note": "Nachmittagsspaziergang im königlichen Park"
+    },
+    "Abend an den Weichsel-Boulevards — Drinks mit Blick auf die Altstadt",
+    {
+      "restaurantRef": "Stary Dom",
+      "note": "Polnisches Fine Dining — das Tatar wird am Tisch zubereitet"
+    },
+    {
+      "nightlifeRef": "Level 27",
+      "note": "Drink mit Panoramablick über die Skyline"
     }
   ]
 }

@@ -86,6 +86,69 @@
       },
       "rating": 4.3,
       "userRatingCount": 67331
+    },
+    {
+      "name": "Vyšehrad",
+      "type": "monument",
+      "icon": "gem",
+      "description": "Die mythische 'zweite Burg' Prags auf einem Felsen über der Moldau — Festungsmauern aus dem 10. Jahrhundert, die neugotische Basilika St. Peter und Paul und der Friedhof tschechischer Geistesgrößen (Smetana, Dvořák, Mucha). Ruhige Alternative zum Burgrummel mit spektakulärem Blick auf die Stadt.",
+      "duration": "2h",
+      "price": "Kostenlos (Gelände)",
+      "googleMapsUrl": "https://maps.google.com/?cid=5521218960694126694",
+      "placeId": "ChIJCd13PWeUC0cRZihTX2RPn0w",
+      "coordinates": {
+        "lat": 50.0641941,
+        "lng": 14.4188977
+      },
+      "rating": 4.8,
+      "userRatingCount": 52051
+    },
+    {
+      "name": "Petřín-Hügel mit Standseilbahn",
+      "type": "nature",
+      "icon": "star",
+      "description": "Bewaldeter Stadthügel mit Aussichtsturm (kleiner Eiffelturm-Bruder von 1891), Spiegellabyrinth und Rosengarten. Mit der historischen Standseilbahn von Újezd hinauf, zu Fuß durch Obstgärten zurück — der ruhigste Panoramablick auf Prag.",
+      "duration": "2-3h",
+      "price": "ca. €7 (Standseilbahn), Aussichtsturm extra",
+      "googleMapsUrl": "https://maps.google.com/?cid=9026739167751802416",
+      "placeId": "ChIJrS4zTP2UC0cRMI7zhXJrRX0",
+      "coordinates": {
+        "lat": 50.0813889,
+        "lng": 14.3938889
+      },
+      "rating": 4.6,
+      "userRatingCount": 1922
+    },
+    {
+      "name": "Waldstein-Garten (Valdštejnská zahrada)",
+      "type": "monument",
+      "icon": "gem",
+      "description": "Frühbarocker Palastgarten aus dem 17. Jahrhundert mit monumentaler Sala-terrena-Loggia, Pfauen, Tropfsteingrotte und Bronzeskulpturen. Eintritt frei, kaum Touristen — versteckte Oase in Malá Strana direkt unterhalb der Burg.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=7922229676285648697",
+      "placeId": "ChIJ6b6z1OaUC0cROV8QtOpp8W0",
+      "coordinates": {
+        "lat": 50.0904030,
+        "lng": 14.4078806
+      },
+      "rating": 4.8,
+      "userRatingCount": 14500
+    },
+    {
+      "name": "Náplavka (Moldauufer-Promenade)",
+      "type": "activity",
+      "icon": "gem",
+      "description": "Sanierte Uferpromenade unterhalb von Vyšehrad mit Bauernmarkt (samstags), Hausbooten als Bars und Sonnenuntergang über der Moldau. Treffpunkt der Prager am Wochenende — entspannte Pause nach dem Vyšehrad-Spaziergang.",
+      "duration": "1h",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=5180168659489148827",
+      "placeId": "ChIJB-ET7JqVC0cRm87uXi412Ec",
+      "coordinates": {
+        "lat": 50.0708269,
+        "lng": 14.4138842
+      },
+      "rating": 4.5
     }
   ],
   "restaurants": [
@@ -133,9 +196,70 @@
       },
       "rating": 4.6,
       "userRatingCount": 13059
+    },
+    {
+      "name": "U Modré Kachničky",
+      "cuisine": "Tschechisch / Wild",
+      "priceRange": "€€€",
+      "description": "Romantisches Restaurant in Malá Strana, spezialisiert auf böhmische Wild- und Geflügelküche in handbemalten Salons. Reservierung empfohlen.",
+      "mustTry": "Konfierte Ente mit Rotkohl und Kartoffelknödeln",
+      "googleMapsUrl": "https://maps.google.com/?cid=8374228555743226964",
+      "placeId": "ChIJfTJOb-OUC0cRVOwBvYA8N3Q",
+      "coordinates": {
+        "lat": 50.0847610,
+        "lng": 14.4057350
+      },
+      "rating": 4.7,
+      "userRatingCount": 1818
+    },
+    {
+      "name": "Field",
+      "cuisine": "Modern Tschechisch / Michelin",
+      "priceRange": "€€€-€€€€",
+      "isSplurge": true,
+      "description": "Mit einem Michelin-Stern ausgezeichnete Tasting-Menü-Küche, die tschechische Zutaten neu interpretiert. Verspielte Präsentation, lokale Produkte vom Acker direkt auf den Teller.",
+      "mustTry": "Saisonales Verkostungsmenü (5 oder 7 Gänge)",
+      "googleMapsUrl": "https://maps.google.com/?cid=17265092997640151146",
+      "placeId": "ChIJxyKFfMKUC0cRauBsYpvume8",
+      "coordinates": {
+        "lat": 50.0918240,
+        "lng": 14.4220600
+      },
+      "rating": 4.6,
+      "userRatingCount": 2100
+    },
+    {
+      "name": "Eska",
+      "cuisine": "Modern Tschechisch / Bäckerei",
+      "priceRange": "€€-€€€",
+      "description": "Industrie-Chic in einer ehemaligen Karlín-Fabrik: hauseigene Bäckerei, fermentierte Sauerteigbrote und moderne tschechische Küche mit Holzkohlegrill. Ideal für Frühstück oder ungezwungenes Abendessen.",
+      "mustTry": "Geräucherte Kartoffel im Mehl mit Sauerteig-Sourdough",
+      "googleMapsUrl": "https://maps.google.com/?cid=12527696443635189178",
+      "placeId": "ChIJ1UI14KOUC0cRusXMeIpR260",
+      "coordinates": {
+        "lat": 50.0913817,
+        "lng": 14.4545739
+      },
+      "rating": 4.5,
+      "userRatingCount": 5004
     }
   ],
   "hotels": [
+    {
+      "name": "OREA Hotel Angelo Praha",
+      "type": "4-Sterne Stadthotel (gebucht)",
+      "priceRange": "100-150€",
+      "evCharging": true,
+      "description": "Unser gebuchtes Hotel im Stadtteil Smíchov (Prag 5), nur eine Tramstation von Anděl und vier Stationen vom Altstadtrand entfernt. Eigene Tiefgarage mit E-Lademöglichkeit, ruhige Lage und gute Tramanbindung (Linien 9 und 12) zur Karlsbrücke.",
+      "googleMapsUrl": "https://maps.google.com/?cid=6760278273466245232",
+      "placeId": "ChIJZ64wXlaUC0cRcCC_sEVV0V0",
+      "coordinates": {
+        "lat": 50.0703664,
+        "lng": 14.4015074
+      },
+      "rating": 4.6,
+      "userRatingCount": 3102
+    },
     {
       "name": "Botanique Hotel Prague",
       "type": "Eco-Lifestyle Hotel",

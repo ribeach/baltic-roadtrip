@@ -1,42 +1,57 @@
 {
   "dayNumber": 2,
   "date": "2026-05-01",
-  "title": "Durch Schlesien nach Warschau",
-  "subtitle": "Breslaus Rynek, Zwerge und dann weiter in die polnische Hauptstadt",
-  "locationId": "warsaw",
+  "title": "Prag — Burg, Vyšehrad und Moldau",
+  "subtitle": "Ein voller Tag zwischen Hradschin, Barockgärten und Moldauufer",
+  "locationId": "prague",
   "previousLocationId": "prague",
-  "overnightLocationId": "warsaw",
-  "transitLocationIds": [
-    "wroclaw"
-  ],
+  "overnightLocationId": "prague",
   "driving": {
-    "distance": "630 km",
-    "duration": "7:00",
-    "mode": "drive",
-    "routeDescription": "Über die D11/S3 nach Breslau (280 km, 3 Std.), dort 3 Stunden Pause für Mittagessen und Altstadt. Dann weiter auf der A8/A1/A2 nach Warschau (350 km, 3,5 Std.).",
-    "encodedPolyline": "{jspH}zbwAsCvt@piA}FheA{`AbiAuaDc\\eYqqA{lAcYaaEokAegEoCyqFqt@cv@chArAit@mqDikBgnNqbA{sL{YghLpbA}iMn`A{fHgj@agIpRmcQtRm~PgRkhLyMcrFgi@i`FhTgrGs^yeFy@edNs]q|Elm@evDex@iqKoBquLsrA}wFmiAwdBmdB_t@}iDoj@y~BiH{~Aid@ueA_rBspBg~AozCepDyaEe{Di_Dm~BkeCgvA{NgoAstCzxCkdBtx@ks@b|@okAjz@amAza@ilCeiAs}BqmCeaBg}AmiA}n@}z@bKkrAjEqgA`|@aZooAmc@a}@irBk`Ca|@rXou@yz@k^wGse@~i@_gAmGgr@a_BgtA}OkcBaC_sCgsBqmB_qAmP~bByZwG~JcRo`B{vAckAkj@e`BlJq~Bhr@gyB_yBiOyrFejAslCejDweEym@oyCwm@itBcx@aa@q|BkFisA`@_uA`d@asBea@maByjCshCspAgeC_FogChn@m|A_eAobAquCk^tWw[qo@jGq_A{MspFciAux@cXwhBkHmsB_g@ehJ{A}aCmVyo@}q@aXm`@en@|o@e~CltAoiJpsGobf@yTibMieAmkDyDogJin@omK}n@ubGtQqt@kn@eb@qrA{mDqjDesDuv@qcAyS|}@cDtdAgb@wTifAdQ}yAmZwpCp\\wHvQkJdf@oAq_Coq@ieHi{@oxBauE}pF_{@enPll@ubPag@akGqUk{Ipa@u}Ds~@kxF{bCgxHcmE{mFw|@{cAm`@sbCr}@ktK}NczMmWwhH~e@ehEoN{sD_JcdGu`BqnKwUajPokBc_It]enFd{CgwGjEmnDwx@cpGwh@cdHdRkgHdRm`FxD{qA_~@exEsiBwpJyfEovG}dB{qDak@gkFsv@yeC_v@oz@qfBy^}kBqCkeCckBgvEgfDqxEkk@asAooAy{@ksHowCogHieAwsItfAowEtaAkyD`mAawK`y@g}N_]ktHs}BoxKsfB{nJ{j@inGqd@_tIcsAc}Fwx@{hFsG}bGs_AubJjWsrG}Jik@cqJizDi~CmTstAld@{zAn^ajBy`@_lD_bC{}AgkBenD{}BiuDfi@m}AtpAub@wz@kXo~EszAebK}wB{~HgrD{`IqdDwjGgkD}dMimE_tRybBo`RohAq_Js@{kFkPkpM}vBcnK}sDcfYuxBsoNmhA{sOixBmyLycAmgAk[edCet@wjGvj@{{AzlBy{GbXuaAw]_IevB_wAqzAseCihAgzDqo@wjE"
+    "distance": "0 km",
+    "duration": "—",
+    "mode": "none",
+    "routeDescription": "Tag zu Fuß und mit der Tram in Prag — das Auto bleibt am Hotel an der Ladestation."
   },
   "evCharging": {
-    "stopsNeeded": 2,
-    "notes": "Erster Ladestopp in Breslau während der Stadtbesichtigung (ideal!). Zweiter Stopp im Raum Łódź auf der A2. GreenWay- und ORLEN-Stationen.",
+    "stopsNeeded": 0,
+    "notes": "Auto in der OREA-Tiefgarage am AC-Lader voll laden — vor dem langen Schlag nach Warschau morgen.",
     "criticalLevel": "green"
   },
   "activities": [
-    "Morgendlicher Aufbruch aus Prag nach dem Frühstück",
-    "Ankunft in Breslau gegen Mittag — das Auto lädt, während ihr die Stadt erkundet",
+    "Vormittags mit Tram 9/12 von Anděl in die Altstadt — Frühstück oben in Hradschin, bevor die Reisegruppen kommen",
     {
-      "highlightRef": "Rynek (Marktplatz)",
-      "note": "Mittagspause am schönsten Marktplatz Polens"
+      "highlightRef": "Prager Burg (Pražský hrad)",
+      "note": "Veitsdom, Alter Königspalast und Goldenes Gässchen — drei bis vier Stunden einplanen"
     },
     {
-      "highlightRef": "Breslauer Zwerge (Krasnale)",
-      "note": "Zwergenjagd in der Altstadt — über 300 kleine Bronzefiguren verstecken sich in den Gassen"
+      "highlightRef": "Waldstein-Garten (Valdštejnská zahrada)",
+      "note": "Auf dem Weg von der Burg hinunter — versteckter Barockgarten mit Pfauen, Eintritt frei"
     },
     {
-      "restaurantRef": "Konspira",
-      "note": "Lunch im kommunistischen Untergrund-Restaurant — versteckter Eingang inklusive"
+      "restaurantRef": "Café Louvre",
+      "note": "Mittagessen im historischen Wiener Café — Einstein und Kafka saßen hier"
     },
-    "Nachmittags weiter auf der A8/A1/A2 Richtung Warschau",
-    "Ankunft in Warschau am Abend — Einchecken und erste Eindrücke der polnischen Hauptstadt"
+    {
+      "highlightRef": "Petřín-Hügel mit Standseilbahn",
+      "note": "Nachmittags mit der Standseilbahn von Újezd auf den bewaldeten Stadtberg — Aussichtsturm und Rosengarten"
+    },
+    "Spaziergang durch den Vrtba-Garten (kleiner terrassierter Barockgarten am Petřín-Hang) zurück nach Malá Strana",
+    {
+      "highlightRef": "Vyšehrad",
+      "note": "Spätnachmittags zur 'zweiten Burg' Prags — Festungsmauern, Basilika und Friedhof von Smetana und Dvořák"
+    },
+    {
+      "highlightRef": "Náplavka (Moldauufer-Promenade)",
+      "note": "Sonnenuntergang an den Hausboot-Bars unterhalb des Vyšehrad — 10 Minuten zu Fuß zum OREA"
+    },
+    {
+      "restaurantRef": "U Modré Kachničky",
+      "note": "Abendessen in Malá Strana — böhmisches Wild in handbemalten Salons (Reservierung empfohlen)"
+    },
+    "Optional: United Islands Festival auf den Moldauinseln (kostenlos, 30. Apr–2. Mai) oder Absacker in der Hemingway Bar",
+    {
+      "nightlifeRef": "Hemingway Bar",
+      "note": "Alternative für den späten Abend — exzellente Rum- und Absinthkarte"
+    }
   ]
 }
