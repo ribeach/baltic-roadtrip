@@ -127,7 +127,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
           mapInstanceRef.current = new Map(mapRef.current, {
             center: center || bounds.getCenter().toJSON(),
             zoom: zoom || 4,
-
+            mapId: 'DEMO_MAP_ID',
             mapTypeControl: false,
             streetViewControl: false,
             fullscreenControl: true,
@@ -305,7 +305,7 @@ export default function RouteMap({ locations, apiKey, height = '500px', zoom, ce
             background: style.background,
             borderColor: style.border,
             glyphColor: '#ffffff',
-            glyph: style.glyph,
+            glyphText: style.glyph,
             scale: 1.0,
           });
 
