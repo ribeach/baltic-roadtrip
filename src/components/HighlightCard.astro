@@ -13,9 +13,10 @@ interface Props {
   note?: string;
   rating?: number;
   userRatingCount?: number;
+  visited?: boolean;
 }
 
-const { name, type, icon, description, duration, price, googleMapsUrl, number, note, rating, userRatingCount } = Astro.props;
+const { name, type, icon, description, duration, price, googleMapsUrl, number, note, rating, userRatingCount, visited } = Astro.props;
 
 const iconMap = {
   star: '⭐',
@@ -52,6 +53,9 @@ const typeLabels: Record<string, string> = {
           <span class="text-xs text-gray-500 uppercase tracking-wide">{typeLabels[type] || type}</span>
         </div>
       </div>
+      {visited && (
+        <span class="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium shrink-0">✓ Besucht</span>
+      )}
     </div>
     {note && <p class="text-sm text-amber-600 italic mb-2">{note}</p>}
     <p class="text-sm text-gray-600 mb-3">{description}</p>
