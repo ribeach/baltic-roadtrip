@@ -13,7 +13,8 @@
     "distance": "470 km",
     "duration": "5:30",
     "mode": "drive",
-    "routeDescription": "Über die D11/S3 nach Breslau (280 km, 3 Std.), dort 2–3 Stunden Pause für Mittagessen und Altstadt. Dann weiter auf der A8/S8 nach Łódź (190 km, 2 Std.)."
+    "routeDescription": "Über die D11/S3 nach Breslau (280 km, 3 Std.), dort 2–3 Stunden Pause für Mittagessen und Altstadt. Dann weiter auf der A8/S8 nach Łódź (190 km, 2 Std.).",
+    "encodedPolyline": "ekspH}zbwAaCvt@xjAaGrdAkbAxhAmaDnFeOud@yG_e@ir@_k@}YsY{aE{iAkcE_QopB`K_`CyVqn@a[}HseAf@it@mdD{nBiqNgaAsiLo[e{L~_AuxLfbA{kHeh@kfIpOc`QjR_xPuOc}LgKciFqe@oxA}EeaCbSuzGqYouEuBijNga@gaFdl@czDeJ}qE}h@u~DqA{sLcpAwzFs_Ak~AqdBabAktBoDsw@w`@icCcN}`Bg_@eeAonBkdB_~AihBaeAyy@waBavDi~DkiB}v@qeAunAahCgzAgKcmA{z@hn@i|ArcBmaBdy@yu@b|@ggApx@sg@ni@yf@}AqkAq^aaAmi@ycAgr@ww@gxAi}@ui@oe@aq@igAcr@qSsR}c@|WgtA|IgfAny@e\\meAke@kcAgkB}`Cq`AvXiu@sv@m`@oOcf@jk@_`@zA_f@_Iko@eyAesA{RskA{M}TvJywCmsBcr@{u@uz@}]i\\h_@|Hv`AwWMdHiZq|AepA}iAql@y`BtFk~Bru@maA}a@yu@ugAiSkrFcgAoxCakD{bE}n@kvCqf@_rBs_Awl@qzBiDkqA_EugAte@cjAtFyu@m_@{cBgnCmfC{pAquAoZ}q@hO}aCtp@w{@eMae@yq@yz@apCmJq[sXrb@ia@id@hHm_AsJklFiWuo@io@uMo[ii@?_v@oI{xBmf@}kJcAy}BaSeu@ss@oXkc@cl@pm@iyChvAamJhtGcqe@aQuuLkhAqjE_EasIoi@_nK}t@iqGvR}bAyG~Wy_@qj@qxAc|CacCokAa`BazAiPyd@qRyMzUwYiPs~@{]mvBe_Bka@ax@}VuY_pB}m@iqCskCiyHwx@s_F}u@{gDo`AmfP}sA{_DugAadAsh@g{Gjo@csFah@gyEevBk`HarA_gCykBebCucCklDcFyvC~k@aoF`NkuMar@{~I`o@ivDiVgbMyhAevGc^a|JwHyvFcVggDkkAozDoKumFjzC{fGnc@ooDie@mlFyw@quIuC{}Gf_@itGgJuiF{hAenCwi@mrEk{B_zFqsAweBmiBwpCgkBu{KyvBahBgjAwC{wCih@gtE}eEelC_|@_xBgO{wA_{@ec@y}@ya@cdE}`@alDglA}cC{hAe{Bgh@a{EvFkaDlm@saBndA}rCrpB_jTvSigFpRigCqSokDszAooJu|A}vDms@qhE}Uu{FwoCu@ybExNsmBegBss@msC{c@ivCuy@g^ifA_@skBqyAyn@qM}aAkeH}Mcy@u`@_Uyg@w]Vwk@yVi|C"
   },
   "evCharging": {
     "stopsNeeded": 1,
