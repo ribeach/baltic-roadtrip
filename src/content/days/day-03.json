@@ -18,7 +18,7 @@
   },
   "evCharging": {
     "stopsNeeded": 1,
-    "notes": "Ladetopp in Breslau während der Stadtbesichtigung — danach reicht die Ladung bis Łódź. GreenWay- und ORLEN-Stationen in Breslau. Vienna House Andel's in Łódź hat EV-Lader in der Tiefgarage.",
+    "notes": "Ladetopp in Breslau während der Stadtbesichtigung — danach reicht die Ladung bis Łódź. GreenWay- und ORLEN-Stationen in Breslau. PURO Łódź Centrum hat EV-Ladestationen im Tiefgaragenparkhaus.",
     "criticalLevel": "green"
   },
   "activities": [
@@ -37,7 +37,7 @@
       "note": "Lunch im kommunistischen Untergrund-Restaurant — versteckter Eingang inklusive"
     },
     "Nachmittags weiter auf der A8/S8 nach Łódź — kürzere Etappe, frühere Ankunft",
-    "Einchecken im Vienna House Andel's (EV lädt in der Tiefgarage über Nacht)",
+    "Einchecken im PURO Łódź Centrum (EV lädt über Nacht im Tiefgaragenparkhaus)",
     {
       "highlightRef": "Manufaktura",
       "note": "Erster Eindruck des riesigen Industriekultur-Komplexes — Bummel über das Gelände zum Ankommen"

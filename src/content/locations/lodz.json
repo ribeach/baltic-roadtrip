@@ -124,6 +124,22 @@
   ],
   "hotels": [
     {
+      "name": "PURO Łódź Centrum",
+      "type": "Design-Boutique-Hotel",
+      "priceRange": "70-110€",
+      "isSplurge": true,
+      "evCharging": true,
+      "description": "Łódźs bestbewertetes Hotel direkt neben der Manufaktura — ein kühnes Designhotel mit Kunstkonzept von Superfutures: farbenfroh, modern, mit PRISMA-SPA, Rooftop-Terrasse, hauseigenem Kino, Cocktailbar und EV-Ladestationen im Tiefgaragenparkhaus.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=PURO+%C5%81%C3%B3d%C5%BA+Centrum&query_place_id=ChIJI8XEwdrKG0cR1d-XSRwVNcY",
+      "placeId": "ChIJI8XEwdrKG0cR1d-XSRwVNcY",
+      "coordinates": {
+        "lat": 51.7781769,
+        "lng": 19.4514012
+      },
+      "rating": 4.8,
+      "userRatingCount": 2128
+    },
+    {
       "name": "Vienna House by Wyndham Andel's Łódź",
       "type": "Design-Hotel in ehemaliger Textilfabrik",
       "priceRange": "80-140€",
