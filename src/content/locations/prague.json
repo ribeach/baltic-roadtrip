@@ -23,7 +23,8 @@
         "lng": 14.4016165
       },
       "rating": 4.7,
-      "userRatingCount": 194387
+      "userRatingCount": 194387,
+      "visited": true
     },
     {
       "name": "Karlsbrücke (Karlův most)",
@@ -39,7 +40,8 @@
         "lng": 14.4114366
       },
       "rating": 4.8,
-      "userRatingCount": 190901
+      "userRatingCount": 190901,
+      "visited": true
     },
     {
       "name": "Altstädter Ring",
@@ -53,7 +55,8 @@
       "coordinates": {
         "lat": 50.0874682,
         "lng": 14.4207565
-      }
+      },
+      "visited": true
     },
     {
       "name": "Josefov (Jüdisches Viertel)",
@@ -85,7 +88,8 @@
         "lng": 14.4141786
       },
       "rating": 4.3,
-      "userRatingCount": 67331
+      "userRatingCount": 67331,
+      "visited": true
     },
     {
       "name": "Vyšehrad",
@@ -101,7 +105,8 @@
         "lng": 14.4188977
       },
       "rating": 4.8,
-      "userRatingCount": 52051
+      "userRatingCount": 52051,
+      "visited": true
     },
     {
       "name": "Petřín-Hügel mit Standseilbahn",
@@ -148,7 +153,8 @@
         "lat": 50.0708269,
         "lng": 14.4138842
       },
-      "rating": 4.5
+      "rating": 4.5,
+      "visited": true
     }
   ],
   "restaurants": [
@@ -195,7 +201,8 @@
         "lng": 14.4289189
       },
       "rating": 4.6,
-      "userRatingCount": 13059
+      "userRatingCount": 13059,
+      "visited": true
     },
     {
       "name": "U Modré Kachničky",
@@ -258,7 +265,8 @@
         "lng": 14.4015074
       },
       "rating": 4.6,
-      "userRatingCount": 3102
+      "userRatingCount": 3102,
+      "visited": true
     },
     {
       "name": "Botanique Hotel Prague",

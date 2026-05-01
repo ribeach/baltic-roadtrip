@@ -13,9 +13,10 @@ interface Props {
   note?: string;
   rating?: number;
   userRatingCount?: number;
+  visited?: boolean;
 }
 
-const { name, cuisine, priceRange, isSplurge, description, mustTry, googleMapsUrl, number, note, rating, userRatingCount } = Astro.props;
+const { name, cuisine, priceRange, isSplurge, description, mustTry, googleMapsUrl, number, note, rating, userRatingCount, visited } = Astro.props;
 ---
 
 <div class="bg-paper rounded-xl border border-sand-200 hover:shadow-md transition-all overflow-hidden">
@@ -36,6 +37,9 @@ const { name, cuisine, priceRange, isSplurge, description, mustTry, googleMapsUr
           <span class="text-xs text-gray-500">{priceRange}</span>
           {isSplurge && (
             <span class="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">Splurge</span>
+          )}
+          {visited && (
+            <span class="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium">✓ Gegessen</span>
           )}
           <RatingDisplay rating={rating} userRatingCount={userRatingCount} />
         </div>

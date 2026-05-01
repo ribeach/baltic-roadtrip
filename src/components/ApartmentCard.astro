@@ -13,9 +13,10 @@ interface Props {
   googleMapsUrl?: string;
   rating?: number;
   userRatingCount?: number;
+  visited?: boolean;
 }
 
-const { name, type, priceRange, isSplurge, bedrooms, description, source, bookingUrl, googleMapsUrl, rating, userRatingCount } = Astro.props;
+const { name, type, priceRange, isSplurge, bedrooms, description, source, bookingUrl, googleMapsUrl, rating, userRatingCount, visited } = Astro.props;
 
 const linkUrl = bookingUrl ?? googleMapsUrl;
 const linkLabel = source === 'Airbnb' ? 'Airbnb' : source === 'Booking.com' ? 'Booking.com' : source === 'VRBO' ? 'VRBO' : '→ ansehen';
@@ -45,6 +46,9 @@ const sourceBadgeClass = source === 'Airbnb'
         </div>
       </div>
       <div class="flex items-center gap-2 shrink-0">
+        {visited && (
+          <span class="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium">🛏️ Übernachtet</span>
+        )}
         {isSplurge && (
           <span class="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">Splurge</span>
         )}

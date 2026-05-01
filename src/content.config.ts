@@ -70,6 +70,7 @@ const locations = defineCollection({
       coordinates: z.object({ lat: z.number(), lng: z.number() }),
       rating: z.number().min(1).max(5).optional(),
       userRatingCount: z.number().int().nonnegative().optional(),
+      visited: z.boolean().default(false),
     })),
     restaurants: z.array(z.object({
       name: z.string(),
@@ -83,6 +84,7 @@ const locations = defineCollection({
       coordinates: z.object({ lat: z.number(), lng: z.number() }),
       rating: z.number().min(1).max(5).optional(),
       userRatingCount: z.number().int().nonnegative().optional(),
+      visited: z.boolean().default(false),
     })),
     hotels: z.array(z.object({
       name: z.string(),
@@ -96,6 +98,7 @@ const locations = defineCollection({
       coordinates: z.object({ lat: z.number(), lng: z.number() }),
       rating: z.number().min(1).max(5).optional(),
       userRatingCount: z.number().int().nonnegative().optional(),
+      visited: z.boolean().default(false),
     })),
     apartments: z.array(z.object({
       name: z.string(),
@@ -111,6 +114,7 @@ const locations = defineCollection({
       coordinates: z.object({ lat: z.number(), lng: z.number() }).optional(),
       rating: z.number().min(1).max(5).optional(),
       userRatingCount: z.number().int().nonnegative().optional(),
+      visited: z.boolean().default(false),
     })).default([]),
     tips: z.array(z.object({
       type: z.enum(['geheimtipp', 'warnung', 'info']),
@@ -124,6 +128,7 @@ const locations = defineCollection({
       coordinates: z.object({ lat: z.number(), lng: z.number() }),
       rating: z.number().min(1).max(5).optional(),
       userRatingCount: z.number().int().nonnegative().optional(),
+      visited: z.boolean().default(false),
     })).optional().default([]),
   }),
 });
