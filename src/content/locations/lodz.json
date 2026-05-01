@@ -120,6 +120,36 @@
       },
       "rating": 4.7,
       "userRatingCount": 8238
+    },
+    {
+      "name": "Pierogarnia Stary Młyn",
+      "cuisine": "Polnisch / Pierogi",
+      "priceRange": "€-€€",
+      "description": "Pierogi-Spezialist mitten auf der Piotrkowska — von Einheimischen und Reisenden gleichermaßen als eine der besten Pierogarnie Polens gefeiert. Die handgemachten Teigtaschen kommen in Dutzenden Varianten, von klassisch-rustikal bis kreativ.",
+      "mustTry": "Ruskie Pierogi (mit Kartoffeln und Quark)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Pierogarnia%20Stary%20M%C5%82yn%20%C5%81%C3%B3d%C5%BA&query_place_id=ChIJ_SOgSh7LG0cRegctHskLJKM",
+      "placeId": "ChIJ_SOgSh7LG0cRegctHskLJKM",
+      "coordinates": {
+        "lat": 51.7715588,
+        "lng": 19.455557
+      },
+      "rating": 4.8,
+      "userRatingCount": 12945
+    },
+    {
+      "name": "Galicja",
+      "cuisine": "Polnisch / Zentraleuropäisch",
+      "priceRange": "€€",
+      "description": "Traditionelle polnische und zentraleuropäische Küche im Manufaktura-Komplex, wenige Gehminuten vom PURO Hotel. Herzhafte Klassiker wie Żurek, Bigos und Pierogi in unkompliziertem Ambiente.",
+      "mustTry": "Żurek (saure Roggensuppe mit Ei und Wurst)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Galicja%20Manufaktura%20%C5%81%C3%B3d%C5%BA&query_place_id=ChIJ3VxCLcXKG0cRGj53vrK587s",
+      "placeId": "ChIJ3VxCLcXKG0cRGj53vrK587s",
+      "coordinates": {
+        "lat": 51.77914,
+        "lng": 19.449903199999998
+      },
+      "rating": 4.5,
+      "userRatingCount": 4907
     }
   ],
   "hotels": [
