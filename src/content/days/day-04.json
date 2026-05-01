@@ -4,10 +4,19 @@
   "title": "Warschau — Phönix aus der Asche",
   "subtitle": "Zwischen Aufstandsmuseum und Weichsel-Boulevards",
   "locationId": "warsaw",
-  "previousLocationId": null,
+  "previousLocationId": "lodz",
   "overnightLocationId": "warsaw",
-  "driving": null,
-  "evCharging": null,
+  "driving": {
+    "distance": "130 km",
+    "duration": "1:30",
+    "mode": "drive",
+    "routeDescription": "Kurze Morgenfahrt von Łódź auf der A2 nach Warschau — entspannte 1,5 Stunden."
+  },
+  "evCharging": {
+    "stopsNeeded": 0,
+    "notes": "Mit vollgeladenem Akku aus Łódź — die 130 km nach Warschau erfordern keinen Ladestopp.",
+    "criticalLevel": "green"
+  },
   "activities": [
     {
       "highlightRef": "Warschauer Altstadt (Stare Miasto)",
