@@ -18,7 +18,8 @@
     "distance": "~485 km",
     "duration": "5:30",
     "mode": "drive",
-    "routeDescription": "Ankunft Stockholm Stadsgården 07:30 Uhr per Viking Line. Direkt auf die E4 Richtung Süden, dann E20 Richtung Göteborg, optional Mittagspause in Jönköping am Vätternsee oder ein kurzer Stopp in Göteborg, weiter auf der E6 nach Halmstad."
+    "routeDescription": "Ankunft Stockholm Stadsgården 07:30 Uhr per Viking Line. Direkt auf die E4 Richtung Süden, dann E20 Richtung Göteborg, optional Mittagspause in Jönköping am Vätternsee oder ein kurzer Stopp in Göteborg, weiter auf der E6 nach Halmstad.",
+    "encodedPolyline": "o~}oJ_t{fC|j@n|DbW|n@tvCbnQppWvrSjaEtx\\t{@lwJtaDllNpuCt_i@zuCltOjoLhwa@nhCvtd@fUzom@inAnxNmR|`IgaDdaQtI~yEpr@l`PbgAdfCeQhrE_iAlmUn@lx@lExy@lj@|sBh}BffAhn@|nEtdAb_WtC|qLkkEt|Byy@xS{J~}CqWpmBxOnmFbq@hXd}@{L|cCrFzjFjiGbhK`sPjnMnrYbsK`zVlmIfpZv}F`q]~tBlh_@}Avc@`BfUqA`Qe@nJaP|rApJviCpTz}G_h@jbUyy@ztPqm@`qWnHzhHraBvdGtmBbqFfDtqAlg@z_ChkAnwHhyDfgLp~C`eG~bFtmIfzBxyDxdC~`Ad~DrlGrmEdsChpBxOvx@pmAlzAzlBd`@dwD|lBdlFfkAbeDfuBkL|fBuR|uAodAfeA\\v`Aiz@`kAoSvXjoAEpzGb`@jbAfy@eq@`cA_{A`oAbmKpuCfhJhaA~~Ev{A|~D|aDpyJbj@bdOdcBh|EvnA``Aj_B{g@zjDpTdwB`dE~dHxiDtwKldHtzBds@huAfdC~`A`gIjdBh`DjzBnrGn~DnqV~aGfsKngG~oNj{Eh}Pp[bjE|nBtnCvGdgJiw@dtTm@t}TxYhjSriAd{Vd{@juItuB~{GtlDnjFxs@fjHhb@pdJpaDd{IlsDnoCffAxiB||BlWtsDd}KhlDbwFttC`~DlkB~uJb}AlsSbhBhbHhbBhfLzXbnSbBniMrlD~~M~pGjnb@ztDnp\\vlDpqV~xCzfXziBhzBby@`lDzjAhwMtgAvhIhdB`iH`kBriEruFtpEbgK`sDvkKd}JtrDxjEflB~nHhiGfeM`kIpsHnpCpjBp`IuDh}Cxo@pa@~xD|xB`wGhgAnwIhSzqBofBrsC_m@`vEhcAbeG`iA|uJ{RvrP{nAj~MrTljJynB~kNezAn`M}b@h`P_qBtp_@ljAnyPnLbkJxwCfzIdoChgBjbDjlLhlAdnKrqAvbXptCv~MfVjnJ|cBf}^caAzpKhg@hxK_}@x~Mw_@nsOh_@pjSvPlrOgvAzrJidBtm@cT`qBrXgmBrdEuhBvgNikHxzGhk@vhHnC|yAtl@~`AsFhk@mqB`~B{{E~dAoyDdf@}|CzfBk}AjqEyvCp`D_}AbaFzBjkIsh@rbEgs@`pGkfEryLcxK~rLomGlwIg`HjuE}`Gv{EirN|_GerMnlCk`JhcCcsFfsBes@nnA{fBlsAifIrcEcgGzvBcdGvkD}lCdtC`wBd~Bz`CeDspA"
   },
   "evCharging": {
     "stopsNeeded": 2,

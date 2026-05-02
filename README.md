@@ -4,7 +4,7 @@
 
 Statische Website zur Planung eines 21-tägigen Roadtrips rund um die Ostsee mit dem VW ID.4.
 
-**Route:** Aalen - Prag - Łódź - Masuren - Vilnius - Klaipėda - Kuldīga - Riga - Pärnu - Tallinn - Helsinki - Turku - Stockholm - Halmstad - Aalen
+**Route:** Aalen - Prag - Łódź - Masuren - Trakai - Kaunas - Klaipėda - Kuldīga - Riga - Pärnu - Tallinn - Helsinki - Turku - Stockholm - Halmstad - Aalen
 
 **Zeitraum:** 30. April - 20. Mai 2026 | **Strecke:** ~5.500 km | **Laender:** 9
 
@@ -52,7 +52,7 @@ src/
 |   +-- locations/              # Ein JSON pro Ort
 |   |   +-- berlin.json
 |   |   +-- prague.json
-|   |   +-- vilnius.json
+|   |   +-- klaipeda.json
 |   |   +-- ...                 # 37 Orte insgesamt
 |   +-- countries/              # Ein JSON pro Land
 |       +-- germany.json
