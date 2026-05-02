@@ -1,42 +1,58 @@
 {
   "dayNumber": 6,
   "date": "2026-05-05",
-  "title": "Von Masuren nach Vilnius",
-  "subtitle": "Wolfsschanze, Suwałki-Lücke und Ankunft im Baltikum",
-  "locationId": "vilnius",
-  "previousLocationId": "masuria",
-  "overnightLocationId": "vilnius",
+  "title": "Über Trakai und Kaunas nach Klaipėda",
+  "subtitle": "Inselburg, Freiheitsallee und Fachwerkhäuser an der Küste",
+  "locationId": "klaipeda",
+  "previousLocationId": "vilnius",
+  "overnightLocationId": "klaipeda",
   "additionalLocationIds": [
-    "masuria"
+    "trakai",
+    "kaunas"
+  ],
+  "transitLocationIds": [
+    "trakai",
+    "kaunas"
   ],
   "driving": {
-    "distance": "300 km",
-    "duration": "3:30",
+    "distance": "310 km",
+    "duration": "4:30",
     "mode": "drive",
-    "routeDescription": "Optional: Vormittags Abstecher zur Wolfsschanze (40 km nördlich von Ryn). Dann Richtung Südosten durch die geopolitisch bedeutsame Suwałki-Lücke zwischen Kaliningrad und Belarus nach Vilnius.",
-    "encodedPolyline": "s~ehIceobClBxKxReXhiBal@pzAa|@xw@}s@hk@cL~g@me@d^ix@lIcVhc@uMzd@ic@fl@m|@zLoMt@o]vAaaAdJsPqHsWwm@_h@ca@mo@jCc~@xVemBfR_`B{m@imCaLeqAb@{p@fXweB~Q_vA|X}m@vd@ez@xg@sThr@wEfx@mXjCsiBxZqkApD{rAds@wdAv_@m|@da@eyBe@q}Bko@i`GeI{l@pAab@rEcj@zWoOnk@Upd@{e@bGmnBpEo}Bs@{{CzA}uDiCapIgIcNqJuc@~HqtBvPa`D{YuwDsB_nA_QogAyImyAaU}s@kc@}rBqc@we@}Xuj@uk@ow@sTc}@a@i`Ao[upC{ZoOsQeXqFwm@eXkmDjTopDlXszB~Usx@aPaLqd@uyB_aA}zCkFkaEu@kzK}b@ejDoy@acF_a@}vB_k@krAmcBquCkqBuqG_`AspBeaAir@wiBil@cq@}j@ecCk|Cc`AaoA{}@odFaWylAie@gt@yhC_vBmb@}Lsa@dDqkAdc@gbEbkBup@_Bce@}UcbAyc@gy@sY_h@_eAiKukA~@aiCfA_cB{HygBkbA{qBib@gs@mq@uT{{@uJyqAe{@}_AmyAyYss@}p@i}@qsA{y@wlAchCgh@}z@}i@_Usx@qLkk@oc@e_A_kByvAuh@gm@_Uwl@fAwc@sG_i@c{@ql@gsAg{Aq}Aos@cn@wdA{b@sbBcsAcbA}dAytAqbBwd@iBuo@bYqjA|OklCzA_uAnHyfBe_B}xAsp@ezAqg@cbFmrCuuAubAcv@ewAebB{dD}a@{`FaHcrEoe@kiAikBueCezB{mAwd@m|AsW}bE_ZghAa|@uwA{hBsyCqSooAyLuzBeP{rB{gAkjCsuBg~EcpAu|Fsf@knBa|A}tD{vAs|Bio@_oBgvAykCqa@ma@wm@snBkt@y}Cyy@_oDuQwgAaErQo`Ahp@yw@zJaz@~Tgv@|e@grAd}@mhBdmAc]~Fgu@ar@cz@mj@cw@iD{v@aaAs_@}_@iZkrA{h@obA{Isp@jN}iCfOafKdb@y{JbKsnDxRywBjrAa`E~yAqiGrbC_hMb|Em`XhfDqoRlcA{sKv^c}H~WutK~b@}gP|_@qeHts@wmHnn@ytEbq@oyCpQ{sD|k@}_Erj@cnAd|BeoCbx@_pBll@kcBbgAgsDre@y{Bbc@s`Anz@mkFhm@szCbkCqbJdL}m@}b@egBu{@}lBq{@wfAca@uIi_@_^ci@ca@{L}_@yDwm@ma@eIgTePfJwX~H{|@|PQ"
+    "routeDescription": "Früher Aufbruch zum Trakai-Abstecher (30 km südwestlich Vilnius, 1,5–2 Std. Pause für die Inselburg). Weiter auf der A1 nach Kaunas (70 km), dort Mittagessen und Besichtigung. Anschließend auf der A1/E85 bis Klaipėda (210 km, 2,5 Std.).",
+    "encodedPolyline": "abxlIolhyCbJhGjCbD}@fFmDxHkGvW{Dnj@mA`OGxI|CZjOhF|Kvr@db@rU`Xxa@dP~Q`IhE{D~]aJht@hEb_A\\tw@aFbh@nGffAbFvn@dUp[fQpSrF|QlOto@~Kxg@?dk@w{@rsDcs@nuDcTzbBoR|bAwX`k@_Xds@aXjlBqSt|@e{@jtBeXpz@{Ndj@ia@~`AkqAr`Bo}@~gAyP|[mXd~@eWzeBwNdaB}QndDgWdmAk`@naByUf}Bio@b}Do^pxGe_@`}IuLpzEkZnzLwSx`HoWzeE_o@x}GgbBroKmbBf~I}n@|hDon@hbEcl@tbDygAhsF}`@~zB{[zkBin@j{C}yAljGkgAvoD}Ypz@sHb]eCvo@kCx|@iLdbEcIt`C{OhlCaH~fEgBnhB{Ftd@uA`F_@bFxD`GfFvAzInCpOnF|_@rJrfAhTvN|IxZlh@`Znm@pG`TrIcAjFa@nA}JxAmb@gBuQnBbIaAda@}EnVyM_GqCzGuJp[yI_GuSv@aP@kJoLoE_Gg@|ASrPmFt@ca@q\\oJfCiZnTwk@fa@{RSmOnLkJfTka@`Z_tAbaAir@tf@gt@l_@kdBzm@ugGhzBqeAbZapC~`@yz@~L{k@bL_MjHaa@vh@kXhq@cr@zeBir@d{A}yDjeIqkB|vDm|ApgD}l@noAspAryBwn@ljA_`@dkAe{@nzEgwArxGqcAblGejAdoF_d@pyBua@|`Dol@bwFcRl_CuZn_D{]|uAq^dkAejB|aG}ZdeAwQdbAgHpv@sMzeEqY`{Dik@|dFio@xsDcgAvoFwPt{@eo@rbFov@lkGcnA``Im}@h~DaWhfAm_Al|CoIl\\mQn{A{HxuB{Pd`BmVpiAgTzo@qfA~vCg`AhnByqAnkC_Rbr@eQldAkMveBwMpiC{^fkCiWfuAeQvmBoi@tuFaLtuDef@drDkMrmAeHlfBqIxqDg]haDiXx_Byk@|lBug@xuAk\\niBs^rhE}WxeB}X|x@ql@vuBeYpvBiZ`rEg`@xiCs[piAqoApyCibAn{Bmb@|eBqR|oAgPzlAqOtiBkWvuGoTdeBm_@rlBgX`pAw^naCcN`pBaJv`BqT`xBwTjdBwQhjCgFjuEwObuC_`@x}Bc`@noBq^pjCw`@ptBc_@jjAojAtsCsXnjAyS|cB_Q~aCaSr}By]x~D{LbaGqEprI}BdeBuMd_BaWhuAs`AryDiUrlAcPjqB}Az{AzFdaBjo@ruFteAnxInhApeJpm@rgDCzSyv@jhAcN|UKtYxC`m@bChb@"
   },
   "evCharging": {
     "stopsNeeded": 1,
-    "notes": "Ein Ladestopp vor der litauischen Grenze — im Raum Suwałki oder Marijampolė. Der Suwałki-Korridor hat noch lückenhafte Ladeinfrastruktur, daher vorher in Masuren auf mindestens 80 % laden.",
-    "criticalLevel": "yellow"
+    "notes": "Ein Ladestopp in Kaunas während der Besichtigung reicht aus. Gute Ladeinfrastruktur entlang der A1. In Klaipėda beim Hotel laden — morgen ist Klaipėda-Tag mit optionalem Tagesausflug auf die Nehrung.",
+    "criticalLevel": "green"
   },
   "activities": [
+    "Früher Aufbruch aus Vilnius — 30 km südwestlich liegt der Galvė-See",
     {
-      "highlightRef": "Wolfsschanze (Wilczy Szaniec)",
-      "note": "Optional am Vormittag — Hitlers Ostfront-HQ im Wald (40 km, 2–3 Stunden)"
-    },
-    "Fahrt durch die geopolitisch bedeutsame Suwałki-Lücke — NATOs verwundbarster Punkt in Europa",
-    "Grenzübertritt nach Litauen",
-    "Ankunft in Vilnius am Nachmittag — erster Spaziergang durch die barocke Altstadt",
-    {
-      "highlightRef": "Republik Užupis",
-      "note": "Vor dem Abendessen ins Bohème-Viertel mit eigener Verfassung — Schutzengel-Statue und Galerien"
+      "highlightRef": "Wasserburg Trakai",
+      "note": "Litauens Postkartenmotiv Nr. 1 — die rote Inselburg im See, am Vormittag noch ohne Reisegruppen"
     },
     {
-      "restaurantRef": "Ertlio Namas",
-      "note": "Willkommens-Abendessen — gehobene litauische Küche im historischen Gewölbe (Reservierung!)"
+      "restaurantRef": "Kybynlar",
+      "note": "Kurzes zweites Frühstück in Trakai — Kibinai der Karäer als Snack für die Weiterfahrt"
     },
-    "Hinweis: Morgen früh geht es schon weiter Richtung Trakai und Klaipėda — daher heute Abend KGB-Museum nur als optionaler Schnelldurchgang"
+    "Weiter auf der A1 nach Kaunas",
+    {
+      "highlightRef": "Laisvės Alėja (Freiheitsallee)",
+      "note": "Eine der längsten Fußgängerzonen Europas — Kaffeepause mit Aussicht"
+    },
+    {
+      "highlightRef": "Neuntes Fort",
+      "note": "Eindrückliche Gedenkstätte — ca. 1,5 Stunden einplanen"
+    },
+    {
+      "restaurantRef": "Bernelių Užeiga",
+      "note": "Deftiges litauisches Mittagessen — Cepelinai und Šaltibarščiai"
+    },
+    "Nachmittags weiter auf der A1/E85 Richtung Küste nach Klaipėda",
+    {
+      "highlightRef": "Altstadt mit Fachwerkhäusern",
+      "note": "Abendlicher Bummel durch Klaipėdas historische Altstadt"
+    }
   ]
 }

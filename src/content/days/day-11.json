@@ -1,41 +1,40 @@
 {
   "dayNumber": 11,
   "date": "2026-05-10",
-  "title": "Gauja-Nationalpark und weiter nach Tallinn",
-  "subtitle": "Ritterburgen, Sowjetbunker und estnische Abendluft",
-  "locationId": "tallinn",
-  "previousLocationId": "riga",
-  "overnightLocationId": "tallinn",
-  "additionalLocationIds": [
-    "sigulda-gauja"
-  ],
-  "driving": {
-    "distance": "370 km",
-    "duration": "5:00",
-    "mode": "drive",
-    "routeDescription": "Zunächst Abstecher nach Sigulda im Gauja-Nationalpark (50 km nordöstlich von Riga), dann zurück auf die E67 Via Baltica Richtung Norden über Pärnu nach Tallinn.",
-    "encodedPolyline": "e`rzIyacrCaKsWcGhUw_@kfAeImUrDoIdAeS{EqVcS}o@}Ve{@uWckAu^ieB{{@wyEkSweDca@geCc{AybHyA}`@?xRic@uIya@s`@ko@qd@cr@fWyZhHiQuAcs@aVkk@sOuq@|J{oBnb@gx@lO{_@kA_j@kYsp@_h@}V_Jmi@gVgkA}l@}gAij@oy@qTw{BrZav@wZoRyYg_@mdBatDwmHci@c{@a`@mMiq@BohAyNyZwE_YqYwQqMgYa@ev@zXeZYefAg_@sfA}`@q}B}nA}NkA{RxJ_}@jpA}m@bVmiBdNy_B`h@wiAzG_~@gTih@hD}k@lL_aBeHgkBeBwtAsZ}u@jFunDpVo|KeZae@tDwMzKweBthBstAxvAocCdyBcsAnd@ml@{@g`AyV{jAg[gmApHcuA~t@yoBf|@yRxBqgAq[{x@ng@um@vOqTFaScTcR|Ie`@dV}YvAeq@lDuq@z@_fAbYeuA`OaxAfMck@dHy^eKwjAii@u]sn@kl@_o@koAeiA{d@cl@syAeiBo`Ag}@k~@qd@s}Bqr@_lCepAu`Cu_BibCieCcrAgvAsiAgv@cjAma@ikAySgpCaGmbCjU}gFe^q^jJg_@nYwf@`XwPlNcz@`KolB|\\ouAbPe|@l]q|@tBqq@ePyc@oU}f@u}@}rBmqBkdAunCg}AeuBwv@q~Ay_@_qAo\\qcAmf@g^un@m@uu@b`@gcAjY{hBn~@ekA|hAkUpf@iV`k@wDzIoe@~W_RhGak@wJ{HaAcYvEgSjy@y~@vxEwp@~|AcZiBiUtE_s@bDkb@g_@ekAdGoWW{Vg[cw@y`A_sA_jAab@{Ik|@_Des@ga@yxBocC}j@sWoRrDqrCfoC{o@h}@gf@rw@ua@pQguAhEs~@Lm}@P}bAgCsi@zOicAx{@}rCf_DepAv`Cac@r`Acq@|C{g@ze@gs@dg@ov@n`@woEfGepBzAaiAld@uXvMggAtG{~BdBi}@Xsn@oGocAse@qlCuuAksCizAysAqg@gfCwJahCep@al@gPgr@qKuy@_l@cSkBet@|IsvAnl@yzE|uByaAn_@cqAz@qkAoYueB_d@giCeyAsx@s\\kp@uNaeAcSyp@kSsy@ymA{q@}{@wx@o@_aAbJ_jCfVgtCjXomBpR{h@eEuSyHmjAmjAetBgmBucC_pDqoAmuB}yEkxHsh@_l@s^uK_RnCuVwPaFyg@kSavAgb@m_Bwf@czDqj@klBm\\kf@g|AidAa}@ij@y[wKsd@Mg[yQgLwEeKo_@uE_I"
-  },
-  "evCharging": {
-    "stopsNeeded": 1,
-    "notes": "Laden in Sigulda während der Besichtigung oder unterwegs im Raum Pärnu. Estlands Ladenetz ist gut ausgebaut.",
-    "criticalLevel": "green"
-  },
+  "title": "Riga – Jugendstil und Markthallen",
+  "subtitle": "Fassadenkunst, Kirchturmblick und Moorwanderung",
+  "locationId": "riga",
+  "previousLocationId": null,
+  "overnightLocationId": "riga",
+  "driving": null,
+  "evCharging": null,
   "activities": [
     {
-      "highlightRef": "Turaida Burg",
-      "note": "Vormittags im Gauja-Nationalpark"
+      "highlightRef": "Alberta iela — Jugendstil-Fassaden",
+      "note": "Nirgendwo in Europa stehen mehr Art-Nouveau-Fassaden auf einem Fleck"
     },
     {
-      "highlightRef": "Gutmanis-Höhle",
-      "note": "Lettlands größte Höhle mit jahrhundertealten Inschriften"
+      "highlightRef": "Rigaer Jugendstil-Museum"
     },
     {
-      "highlightRef": "Līgatne Geheimer Sowjetbunker",
-      "note": "Surreale Führung unter einem Sanatorium — vorab buchen! Nur geführte Touren zu festen Zeiten"
+      "highlightRef": "Petrikirche — Turmaussicht",
+      "note": "Aufzug zur Aussichtsplattform für Panoramablick"
     },
-    "Weiterfahrt nach Tallinn über die Via Baltica",
-    "Mittagspause in Pärnu — Estlands Sommerhauptstadt: Strandpromenade und Holzvillen-Viertel. Ideal zum Laden + Essen kombinieren",
-    "Ankunft in Tallinn am Abend, erster Spaziergang durch die mittelalterliche Altstadt"
+    {
+      "highlightRef": "Rigaer Zentralmarkt",
+      "note": "Morgenbesuch — frisches Brot, Räucherfisch und lettischer Käse"
+    },
+    {
+      "highlightRef": "Großer Ķemeri-Moor-Steg (Jūrmala)",
+      "note": "Nachmittagsausflug"
+    },
+    {
+      "restaurantRef": "3 Pavāru Restorāns",
+      "note": "Drei Köche, drei Küchen, ein Restaurant"
+    },
+    {
+      "nightlifeRef": "Labietis",
+      "note": "Experimentelle Braukunst mit Zutaten aus lettischen Wäldern"
+    }
   ]
 }

@@ -1,29 +1,31 @@
 {
   "dayNumber": 16,
   "date": "2026-05-15",
-  "title": "Stockholm-Ankunft und Fahrt nach Oslo",
-  "subtitle": "Vom Fährhafen direkt über Schwedens Mitte nach Norwegen",
-  "locationId": "oslo",
-  "previousLocationId": "turku",
-  "overnightLocationId": "oslo",
-  "driving": {
-    "distance": "530 km",
-    "duration": "6:30",
-    "mode": "drive",
-    "routeDescription": "Ankunft Stockholm Stadsgården 07:30 Uhr per Viking Line. Direkt weiter auf die E18 Richtung Örebro, dann E20/E18 westwärts durch Schweden nach Oslo. Kaffee- und Ladestopp in Örebro empfohlen. Ankunft Oslo am frühen Nachmittag.",
-    "encodedPolyline": "_|zoJw~tfCbeaAfn_MjkvCfziJzbHnhnPgv{BnifZ"
-  },
-  "evCharging": {
-    "stopsNeeded": 2,
-    "notes": "Zwei Ladestopps: Örebro (Recharge/Ionity) und Karlstad (Mer). Schwedens E18 ist gut versorgt. Oslo hat das beste EV-Ladenetz der Welt — viele Hotelparkplätze bieten Laden an.",
-    "criticalLevel": "green"
-  },
+  "title": "Helsinki und Sauna",
+  "subtitle": "Festungsinsel, finnische Saunakultur und optionaler Design-Ausflug",
+  "locationId": "helsinki",
+  "previousLocationId": null,
+  "overnightLocationId": "helsinki",
+  "additionalLocationIds": [
+    "fiskars"
+  ],
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    "Ankunft Stockholm Stadsgården 07:30 Uhr per Viking Line — Auto ausladen, direkt auf die E18",
-    "Fahrt durch Värmlands Wälder und Seen — Schwedens ruhige Mitte",
-    "Ladestopp in Örebro — Kaffee und kurzer Stadtbummel am Schloss",
-    "Grenzübertritt Norwegen bei Svinesund",
-    "Ankunft Oslo Nachmittag — Einchecken im Hotel",
-    { "restaurantRef": "Mathallen Oslo", "note": "Erster Abend: Norwegen kulinarisch kennenlernen — Brunost, Meeresfrüchte und mehr" }
+    {
+      "highlightRef": "Festung Suomenlinna",
+      "note": "UNESCO-Welterbe — Fähre vom Marktplatz (15 Min.), mindestens 3 Stunden einplanen"
+    },
+    {
+      "highlightRef": "Löyly Sauna & Restaurant",
+      "note": "Nachmittags: echte finnische Sauna mit Ostsee-Schwimmen — DAS Erlebnis in Helsinki"
+    },
+    {
+      "restaurantRef": "Alte Markthalle (Vanha Kauppahalli)",
+      "note": "Mittagessen in der historischen Markthalle — Lachs, Rentier, Karelische Piroggen"
+    },
+    "ALTERNATIVE TAGESPROGRAMM: Tagesausflug in die Helsinki-Region — Fiskars Village (95 km westlich, finnisches Designerdorf in einer historischen Eisenhütte) oder Porvoo (50 km östlich, bunte Holzhäuser-Altstadt). Wer Helsinki schon kennt oder lieber raus aufs Land will, tauscht Sauna & Suomenlinna gegen einen Regional-Ausflug.",
+    "SAUNA-TIPP: Handtuch mitbringen, Badeanzug optional (gemischte Sauna bei Löyly). Mindestens 2 Stunden einplanen — Sauna, Abkühlung, wiederholen",
+    "Morgen früh: Fahrt nach Turku (170 km, 2 Std.) — Auto heute Abend voll laden"
   ]
 }

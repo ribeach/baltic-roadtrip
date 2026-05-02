@@ -1,52 +1,42 @@
 {
   "dayNumber": 13,
   "date": "2026-05-12",
-  "title": "Fähre nach Helsinki",
-  "subtitle": "Über die Ostsee von der mittelalterlichen in die modernste Hauptstadt Europas",
-  "locationId": "helsinki",
-  "previousLocationId": "tallinn",
-  "overnightLocationId": "helsinki",
+  "title": "Pärnu-Morgen und Fahrt nach Tallinn",
+  "subtitle": "Jugendstil-Villen, Spa-Frühstück und mittelalterliche Hauptstadt",
+  "locationId": "tallinn",
+  "previousLocationId": "parnu",
+  "overnightLocationId": "tallinn",
+  "additionalLocationIds": [
+    "parnu"
+  ],
   "driving": {
-    "distance": "85 km",
-    "duration": "2:00",
-    "mode": "ferry",
-    "routeDescription": "Autofähre Tallinn→Helsinki (Eckerö Line oder Tallink, ca. 2 Std.). Auto an Bord, Frühstück auf der Fähre. Ankunft Helsinki Hafen gegen 09:30.",
-    "encodedPolyline": "{wwiJmravCPIL]H{@e@eBMYMEGDK\\KpAGBK\\ITIFKCuB{AkAOuAAgF^i@Bs@JGIKCIEEIEWCQp@uCt@uDn@eDh@iD^sEFaBBmF?iBEwA_@sFg@_Fi@uEk@gEyAqNaD{UcAuHwDcYmAuJSyCKwCA_Bm@Aq@Lq@T_@Te@`@Y`@g@xAq@xCMv@Lp@DXlBjIfA`GtBrNpBtM\\jFUHo@Lo@F{@WcAaAwF_EaXyn@uBsFgBcCkBiAsDs@yKAcZ|BwCp@cYrGm{DfuAgf@tXwz@pj@}kBnqAuqEdyCc}F`yDa_@~LiYdBk]mEsToGce@w[sYmWwqB_kBcrG{|FwiAkiA}~AuvAojOgxJ_zDo~@ym`@moF}fLs_BeaLi`@qCs@}iA{iA}@i@w@CSVu@`Bc@zBoAyA_DqDgEsEy@aAOCIDYp@IFI@U?QDSCQQq@u@cAcAYOWC_@?A?g@NEFYfAU\\]LqFf@a@H}BTs@?mB\\m@c@So@OYMKOAqD\\a@JI?SOQ[Qu@Mi@Yy@ISGNU^u@jAqAlBy@jAEDQDcBJcBJcAOeIr@Y@S?_@MWSc@UcCFC_BIaAc@{BOo@Qm@o@y@MIGOOa@]{AiBuI}@uEf@w@@CQo@Kg@]{Aq@iDiA{FqByIQs@CIMIMC?mBBmNGoACULSXs@f@eBQcBAs@OgF@_@?Q@YHUBCl@GRAJMJQHOFV^jAJXj@tB"
+    "distance": "~130 km",
+    "duration": "1:50",
+    "mode": "drive",
+    "routeDescription": "Kurze Etappe auf der E67 Via Baltica nach Norden — Auffahrt erst am späten Vormittag nach entspanntem Pärnu-Programm. Ankunft Tallinn am frühen Nachmittag."
   },
   "evCharging": {
     "stopsNeeded": 0,
-    "notes": "Keine Ladestopps nötig — kurze Fährfahrt. In Helsinki hervorragendes Ladenetz (Recharge, K-Lataus). Bequem beim Sightseeing laden.",
+    "notes": "Mit voller Batterie aus Pärnu problemlos. In Tallinn beim Hotel oder im Parkhaus Viru Keskus laden.",
     "criticalLevel": "green"
   },
   "activities": [
-    "Frühfähre Tallinn→Helsinki (07:30 Uhr, ~2 Std.) — Auto an Bord, Frühstück auf der Fähre",
     {
-      "highlightRef": "Marktplatz & Alte Markthalle (Vanha Kauppahalli)",
-      "note": "Ankunft Helsinki ~09:30 — Lachssuppe zum zweiten Frühstück"
+      "highlightRef": "Villa Ammende",
+      "note": "Vormittags-Besichtigung des Jugendstil-Meisterwerks von 1905"
     },
     {
-      "highlightRef": "Dom von Helsinki",
-      "note": "Kurzer Fotostopp am Senatsplatz"
+      "restaurantRef": "Supelsaksad",
+      "note": "Spätes Frühstück / frühes Mittagessen im 150 Jahre alten Holzblockhaus"
+    },
+    "Auffahrt Pärnu→Tallinn auf der E67 Via Baltica",
+    {
+      "highlightRef": "Toompea — Kohtuotsa & Patkuli Aussichtsplattformen",
+      "note": "Erster Tallinn-Spaziergang über den Domberg — Patkuli-Plattform für Postkartenblick auf rote Dächer und Hafen"
     },
     {
-      "highlightRef": "Felsenkirche Temppeliaukio",
-      "note": "In den Fels gesprengte Kirche — einzigartig, 30 Min. reichen"
-    },
-    {
-      "highlightRef": "Design District",
-      "note": "Nachmittags durch Helsinkis kreatives Viertel — Boutiquen und Galerien"
-    },
-    {
-      "highlightRef": "Oodi Zentralbibliothek",
-      "note": "Architektur-Highlight: Finnlands Vorzeige-Bibliothek am Hauptbahnhof"
-    },
-    {
-      "restaurantRef": "Café Regatta",
-      "note": "Zimtschnecken und Kaffee am Wasser — Helsinkis gemütlichster Ort"
-    },
-    {
-      "nightlifeRef": "Ateljee Bar",
-      "note": "Cocktails mit Panoramablick vom Hotel Torni"
+      "restaurantRef": "Rataskaevu 16",
+      "note": "Willkommens-Abendessen in der Altstadt — vorab reservieren"
     }
   ]
 }

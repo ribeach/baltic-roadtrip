@@ -1,46 +1,46 @@
 {
   "dayNumber": 12,
   "date": "2026-05-11",
-  "title": "Tallinn in voller Pracht",
-  "subtitle": "Mittelalterliche Gassen, Seefahrermuseum und kreatives Kalamaja",
-  "locationId": "tallinn",
-  "previousLocationId": null,
-  "overnightLocationId": "tallinn",
+  "title": "Gauja-Nationalpark und weiter nach Pärnu",
+  "subtitle": "Burgruinen, Sowjetbunker und Estlands Sommerhauptstadt",
+  "locationId": "parnu",
+  "previousLocationId": "riga",
+  "overnightLocationId": "parnu",
   "additionalLocationIds": [
-    "lahemaa"
+    "sigulda-gauja"
   ],
-  "driving": null,
-  "evCharging": null,
+  "driving": {
+    "distance": "~280 km",
+    "duration": "4:00",
+    "mode": "drive",
+    "routeDescription": "Vormittags Abstecher nach Sigulda im Gauja-Nationalpark (50 km nordöstlich Riga), dann zurück zur E67 Via Baltica und nordwärts über die estnische Grenze in Estlands Sommerhauptstadt Pärnu."
+  },
+  "evCharging": {
+    "stopsNeeded": 1,
+    "notes": "Laden in Sigulda während der Bunker-Tour oder im Raum Cēsis. Estlands Ladenetz ist gut ausgebaut — alternativ an der Grenze nachladen.",
+    "criticalLevel": "green"
+  },
   "activities": [
     {
-      "highlightRef": "Toompea — Kohtuotsa & Patkuli Aussichtsplattformen",
-      "note": "Morgendlicher Rundgang durch verwinkelte Gassen"
+      "highlightRef": "Turaida Burg",
+      "note": "Vormittags im Gauja-Nationalpark — rote Backsteinburg über dem Flusstal"
     },
     {
-      "highlightRef": "Lennusadam — Maritimes Museum",
-      "note": "U-Boot Lembit, Eisbrecher und Flugboote"
+      "highlightRef": "Gutmanis-Höhle",
+      "note": "Lettlands größte Höhle direkt unterhalb der Burg, mit jahrhundertealten Inschriften"
     },
     {
-      "highlightRef": "Balti Jaama Turg — Markt",
-      "note": "Mittagessen am hippen Streetfood-Markt"
+      "highlightRef": "Līgatne Geheimer Sowjetbunker",
+      "note": "Surreale Führung unter einem Sanatorium — vorab buchen! Nur geführte Touren zu festen Zeiten"
+    },
+    "Weiterfahrt über die E67 Via Baltica nach Estland — Grenzübertritt am Nachmittag",
+    {
+      "highlightRef": "Strandpromenade & Kurort-Viertel",
+      "note": "Ankunft Pärnu zum Sonnenuntergang — Strandspaziergang im Kurviertel"
     },
     {
-      "highlightRef": "Telliskivi Creative City",
-      "note": "Dazu Fotografiska Tallinn"
-    },
-    {
-      "highlightRef": "Kalamaja — Holzhäuser-Viertel",
-      "note": "Cafés und Boutiquen im Szeneviertel"
-    },
-    "ALTERNATIVE VORMITTAGS: Lahemaa-Nationalpark (Viru-Moor, Käsmu Kapitänsdorf) statt Stadtprogramm — 70 km östlich, eigenes Auto",
-    "Morgen früh: Autofähre nach Helsinki (07:30 Uhr) — Auto heute Abend schon hafennah parken und voll laden",
-    {
-      "restaurantRef": "Rataskaevu 16",
-      "note": "Estnische Küche in gemütlichem Altstadtambiente"
-    },
-    {
-      "nightlifeRef": "Whisper Sister",
-      "note": "Speakeasy-Bar hinter einer versteckten Tür"
+      "restaurantRef": "Supelsaksad",
+      "note": "Erstes Abendessen im 150 Jahre alten Holzblockhaus — saisonale estnische Wohlfühlgerichte"
     }
   ]
 }
