@@ -20,6 +20,26 @@ npm run preview    # Preview production build locally
 
 No test framework is configured.
 
+## Polylines
+
+Driving polylines (Google-encoded) live inline in each day JSON under
+`driving.encodedPolyline`. They are consumed by `RouteMap.tsx` to draw the
+route on day pages and the home map. Without a polyline, `RouteMap` falls
+back to a straight geodesic line between markers.
+
+**Regenerate after any change to a day's route** — that is, any change to
+`previousLocationId`, `transitLocationIds`, or `locationId`:
+
+```bash
+node scripts/fetch-polylines.mjs            # fetch and write
+node scripts/fetch-polylines.mjs --dry-run  # preview without writing
+```
+
+The script skips days that already have `driving.encodedPolyline`. To force
+regeneration for a specific day, **delete the `encodedPolyline` field** from
+that `day-XX.json` before running the script. Requires
+`PUBLIC_GOOGLE_MAPS_API_KEY` in `.env`.
+
 ## Architecture
 
 ### Content Collections (src/content/)

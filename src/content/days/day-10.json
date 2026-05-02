@@ -10,7 +10,8 @@
     "distance": "~150 km",
     "duration": "2:15",
     "mode": "drive",
-    "routeDescription": "Kurze Etappe ostwärts über die A9 nach Riga. Kein Zwischenhalt am Berg der Kreuze, kein Umweg über Šiauliai — direkt durch Kurzeme und Zemgale in die lettische Hauptstadt."
+    "routeDescription": "Kurze Etappe ostwärts über die A9 nach Riga. Kein Zwischenhalt am Berg der Kreuze, kein Umweg über Šiauliai — direkt durch Kurzeme und Zemgale in die lettische Hauptstadt.",
+    "encodedPolyline": "enuzI}`beCQwAaBa@}Fu@gCkFgAwE|AmFpAkGqCyMuBsMoAggAeCsXw@{Wd@mwANuHxGiv@q@yx@|CidAzTorA~[gdBtF{YX}MyAsn@nAmb@eAsUh@_e@~HgYpK{r@vCc_@QqU~@e_@nFaw@`Wu|BpCws@q@w|@}@e`AaCabA{K}|BoEyjA|@cl@pGor@fHcm@pF}|@g@al@mHueAqHe}@|FwjAhDy}@hDsqAqA{g@d@sb@nF}eBB{_@tBmXYm]{KksAvCmm@e@c_@vAkJ|Cg@xG}BpByC`EeKhBcK^{ZtHgWrF{b@l@e]m@mc@cCs^mIg^yGkj@cL_[sEw_Aw@kgApBmKjHmMfKuPfLwY~Ik`@dW}c@fEsP`GkcAdCeZfJmVlQ}c@f@sXwDk\\fHui@nS}oAl@kLdCqM`MyTy@cGoBuCaHqFkYaU{LeNgHuRsFug@mAeQ_FaVw]ubA_JmWaUmS}_@g[aq@kk@oCyOAkMtd@i|AfPag@dPiXj^og@rMyI|P{UnJsWLuXoH_|B{Dwz@cHmg@Aw_@oAkn@`Cko@xMs}@lCkUrIyNbHkHpIoRjGaOzL}{@bLggAjF}]rLmoAzAoc@sHkl@kEef@~IuiArF}SxLeR`\\}a@vY_q@pYse@lOyUr[m]~MsOdFuOxBqQVmXh@k_@{BmZuFug@sFs}AmD_ZyYar@iLg]yGw_@oF_y@wAytDS{|@{BgVy@u^iBoQsPew@uBqQb@_[nCod@AwNcGuc@eEuc@`@gbAoCs`@}Imh@o]itBc]szBs[wiAkRap@oW_r@{Vuh@c\\_YoD}EcAuFbGiqA|Ka{Adk@cjErZ}}BdD}NnAmF?gKdh@s{D`W_nBnNktAQk[cD_e@qEqgApDm_ApRa_Cx]giEbAyi@kB{l@gCs\\wJym@_`@qgCemA_bPEaPrGi_AxWcpDdIcvAcBy{@oHedDkDow@gMem@kDaZFie@xEab@|H}f@nF_k@mCg|Bb@{b@rEsv@xC_v@Yg]kDm}AwOg~@aEyf@oN__BsRovAi\\{iDad@ioD}RucBwQkkB{ZmhBq\\}eCkFqc@cDsY_AqJZmP`FeQjJk\\pPecAhE}b@|LqrA|Ka`AxMe_AxLqoAtBcgAOq\\s@_g@mAs{@r@md@~D_ZxM_`@zW_Z~l@ij@xTs]zLwc@`Gqr@bBcc@kBiJsQu_@{f@_rAqLa]eEsWiSijAqT_q@_Hy^yFgk@aLcaAM{GxA}@h@xGgBdBc@`@mAnEZrDjDkAfHyF`MqMjGiLMe@wHrMcBuEsBoC"
   },
   "evCharging": {
     "stopsNeeded": 0,

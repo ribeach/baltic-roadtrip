@@ -13,7 +13,8 @@
     "distance": "~280 km",
     "duration": "4:00",
     "mode": "drive",
-    "routeDescription": "Vormittags Abstecher nach Sigulda im Gauja-Nationalpark (50 km nordöstlich Riga), dann zurück zur E67 Via Baltica und nordwärts über die estnische Grenze in Estlands Sommerhauptstadt Pärnu."
+    "routeDescription": "Vormittags Abstecher nach Sigulda im Gauja-Nationalpark (50 km nordöstlich Riga), dann zurück zur E67 Via Baltica und nordwärts über die estnische Grenze in Estlands Sommerhauptstadt Pärnu.",
+    "encodedPolyline": "e`rzIyacrCsGmXE_DgBxDa@hFaF~MiAu@yHkU_GkWsK}UkIoQD}BrDoI`EaL{BcF{EqVcS}o@}Ve{@uWckAu^ieBuc@wwBeW_aBkSweD}Iox@eVwkAwp@w~Cue@wwBqIaa@~AgJfExI[lEgBbAwMQiSaGob@m`@wVwVgVoM{QSqVzMkSpMgMlBuRa@uo@kTol@mQyMg@iWrEw_AbSuc@xJ_sA~Wm[MsL{BsX_Nea@u`@mSaMgXsJ{g@qTajAkl@ihAoj@}YuMc\\qIeX|AyT|CenA|QoN[mSiIeWoM}KaJaGwMc]i_BmNc^oPy[erCyrF_e@{y@mRyNkOuDoi@`@wjAeN{a@sFaRcMqPwSsIeFmG{A_MCyX~Ji^nMmUv@gy@gWgsA{f@}x@y[c\\wPsd@{]gPoGaDQyJfByNtLyYvb@oTx[iL`OwWzNqmBjNeXvF}YxJwn@pRcQrFcNf@sk@lCw\\g@c[}KiQaGqSLkf@bP_SzAsLc@e^oBej@wBaw@~@ko@g@y|Aq_@wo@nDoqDhWcnBiBu_A]qlFmTke@n@mOlGqbB`eBciAfkAgx@|y@kj@dk@wWnRmc@xZmRtI}g@nNyRdFmXM{QiAq[iIynA{\\ea@eKmNEweAnLkj@`]eeBz|@qx@tWgGq@ez@a[gJV_TbM_e@pZeW~Iec@~EoEiBuOsQiCgAcE`@eDtCaL~JkOhLiL`CeYnAqa@nBwk@nBgg@j@qa@`Sw^nFgj@fGcm@jG{l@nBgq@|LuQlAeMaDmg@qQai@_VwJyHaKoQuR}^kVgZgg@y]o_@o\\kSqUiLeOgFsD}IqNycAkpAij@op@gs@op@eC_BwR{Lux@o\\oX{HanB}m@yc@aSax@ib@e}@mg@saAoq@a{@{t@w~@maAcrAkzAgcAw{@yg@uYsp@aWu_AwTagAaLg`BqA}\\B_^dByN|Cs\\hIqTlBmnAkAumBqQeeAuHiQzJaQzOsMlHsNhB_HpD}MxOiHlHwRtIiN|CiMI_u@jHej@hLq\\|Gqx@jH}[vFog@zRuSpIaRbAi\\x@q]gCk[sIgTgKkSyKqMeQkXok@sVmWkfAi`A}SuWeR{_@sa@moAqa@c|@i]i_@{Xw[aRkYiPiZoYum@{Qga@mUoz@sWc_AgPwXoRkNuWiFeYMuNpCc^xQif@nWmOtDe[zFmWrIm}@`f@e^xU_p@zn@qZ~_@}DpLaEv\\kQxb@it@tdBmTri@wQxk@_Ubv@_EpSeOf[gJdWYlBuAtNAr@t@hf@r@pQpAhCnECj@gG"
   },
   "evCharging": {
     "stopsNeeded": 1,

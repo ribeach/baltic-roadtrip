@@ -10,7 +10,8 @@
     "distance": "~400 km",
     "duration": "5:00",
     "mode": "drive",
-    "routeDescription": "Lange Etappe von Łódź über die A1/S7 nach Norden, dann ostwärts durch Zentralpolen nach Ryn in der Masurischen Seenplatte. Bewusst Warschau umfahren — der direkte Weg ans Wasser."
+    "routeDescription": "Lange Etappe von Łódź über die A1/S7 nach Norden, dann ostwärts durch Zentralpolen nach Ryn in der Masurischen Seenplatte. Bewusst Warschau umfahren — der direkte Weg ans Wasser.",
+    "encodedPolyline": "cf|zH__wuB`Tx`Ck^apGuM{oDtP}wD`f@}~E|RehBxLzAtQg`Aus@rWujBq^k|A{uA{oAyk@i~AakBepAcsAy|A{j@ofAuBwmBrk@s}ArpAmWsAmKyv@_XepEw_@ssFwy@c{CsvBk{H{uAihEy{AkzBybDufGc_A{oDmlBavGquBwfHas@sxCmNgiBiEsd@e}@`_AksAf}@yc@o@v]avBAsn@_K_SiJ`AytA|LcpAhd@omBV}fAe^u~@r_@goEdZ_vCt\\ctAwPsl@mo@}l@m|A{JkgAoYcq@uhA_c@{f@wrCqk@ouCarA}vAcpAuqAccDmpAep@s_B_nAwr@wi@cJy`Ah\\uy@nKue@vz@eo@~p@a_Af`@ynAtf@i@Z_VrGuk@sZycAw]cjAeVirAyRuu@_h@}u@gwAohAsk@akAu\\szAycBwfBmlAa_Cm_DitA_uD{w@olDm}@of@uiEidA}{AmiAw~@czAsr@gBigAtu@oxA_`@}q@b[}{Ahu@}kBhfCk~@rnAsp@hVabF`tAk}ClyCweC~xB_v@eAcw@h\\av@bYoj@{OcoAgjA{|AafAyiBhuAmaAzz@sj@K}eAoeA{cAw|@{aAiAk}AgaAiuBm|Ag{BirDaoA_e@yaArc@o}@dNmtCqtBaxCy`Aoj@{d@su@agB}z@igBsu@ud@o_BpLmk@w@m{@ie@uhB}eA{|BtEmmCu`@}lAsNek@~PywAfbA{w@pFymBqXk|@cQ{qCsiA}aClLeuCgOu|@hwAaMfoBod@nlAsnAz[s_AfU_w@piAmvA|v@ufAxrCquB`e@osAqXcj@t^wc@h}@g|@xSwtAzF}uBtPwhAdp@y}@pfAs^vr@yhBfbBoiEnjAefAxg@yRlN}u@}d@yo@s_BiYweEqo@qdC{aAypAg{C_wFkx@uvAy}AiiAexDsgA{rA}bAkBaVbu@irAhWs{A_KmrBmHc}CukAa}Au^q~@m}@es@m|Byi@qfAaViwAm`Bei@gbBcFiaC}hBocCqlBswDqe@skCaj@q|@mj@eaHbV_zDph@myAzMsrAnPgqBiQe`D~UkcDi_@omEcUoyDqjAghD_Sm{ArQi~BbhAucIrUujCcAkrBgo@m{E}\\ifB`GqlE|MqrEmNc_F}cA}mDpJy_Ciu@g@iUpS{q@iH_r@eqCs\\mfAdXezC{[{sDbNmp@eRmeEkOu[wOfEoOvG{Tgm@{fAu{AiIus@oZs[ei@alAaa@awBsTcdBoRy{@kVsq@fFgtA}GowC^iGoG`Dj@lK"
   },
   "evCharging": {
     "stopsNeeded": 2,

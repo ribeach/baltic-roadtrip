@@ -1,58 +1,34 @@
 {
   "dayNumber": 6,
   "date": "2026-05-05",
-  "title": "Über Trakai und Kaunas nach Klaipėda",
-  "subtitle": "Inselburg, Freiheitsallee und Fachwerkhäuser an der Küste",
+  "title": "Klaipėda — Hansestadt-Bummel und Erholung",
+  "subtitle": "Memel-Altstadt, Brauerei und entspannter Tag nach langer Etappe",
   "locationId": "klaipeda",
-  "previousLocationId": "vilnius",
+  "previousLocationId": null,
   "overnightLocationId": "klaipeda",
-  "additionalLocationIds": [
-    "trakai",
-    "kaunas"
-  ],
-  "transitLocationIds": [
-    "trakai",
-    "kaunas"
-  ],
-  "driving": {
-    "distance": "310 km",
-    "duration": "4:30",
-    "mode": "drive",
-    "routeDescription": "Früher Aufbruch zum Trakai-Abstecher (30 km südwestlich Vilnius, 1,5–2 Std. Pause für die Inselburg). Weiter auf der A1 nach Kaunas (70 km), dort Mittagessen und Besichtigung. Anschließend auf der A1/E85 bis Klaipėda (210 km, 2,5 Std.).",
-    "encodedPolyline": "abxlIolhyCbJhGjCbD}@fFmDxHkGvW{Dnj@mA`OGxI|CZjOhF|Kvr@db@rU`Xxa@dP~Q`IhE{D~]aJht@hEb_A\\tw@aFbh@nGffAbFvn@dUp[fQpSrF|QlOto@~Kxg@?dk@w{@rsDcs@nuDcTzbBoR|bAwX`k@_Xds@aXjlBqSt|@e{@jtBeXpz@{Ndj@ia@~`AkqAr`Bo}@~gAyP|[mXd~@eWzeBwNdaB}QndDgWdmAk`@naByUf}Bio@b}Do^pxGe_@`}IuLpzEkZnzLwSx`HoWzeE_o@x}GgbBroKmbBf~I}n@|hDon@hbEcl@tbDygAhsF}`@~zB{[zkBin@j{C}yAljGkgAvoD}Ypz@sHb]eCvo@kCx|@iLdbEcIt`C{OhlCaH~fEgBnhB{Ftd@uA`F_@bFxD`GfFvAzInCpOnF|_@rJrfAhTvN|IxZlh@`Znm@pG`TrIcAjFa@nA}JxAmb@gBuQnBbIaAda@}EnVyM_GqCzGuJp[yI_GuSv@aP@kJoLoE_Gg@|ASrPmFt@ca@q\\oJfCiZnTwk@fa@{RSmOnLkJfTka@`Z_tAbaAir@tf@gt@l_@kdBzm@ugGhzBqeAbZapC~`@yz@~L{k@bL_MjHaa@vh@kXhq@cr@zeBir@d{A}yDjeIqkB|vDm|ApgD}l@noAspAryBwn@ljA_`@dkAe{@nzEgwArxGqcAblGejAdoF_d@pyBua@|`Dol@bwFcRl_CuZn_D{]|uAq^dkAejB|aG}ZdeAwQdbAgHpv@sMzeEqY`{Dik@|dFio@xsDcgAvoFwPt{@eo@rbFov@lkGcnA``Im}@h~DaWhfAm_Al|CoIl\\mQn{A{HxuB{Pd`BmVpiAgTzo@qfA~vCg`AhnByqAnkC_Rbr@eQldAkMveBwMpiC{^fkCiWfuAeQvmBoi@tuFaLtuDef@drDkMrmAeHlfBqIxqDg]haDiXx_Byk@|lBug@xuAk\\niBs^rhE}WxeB}X|x@ql@vuBeYpvBiZ`rEg`@xiCs[piAqoApyCibAn{Bmb@|eBqR|oAgPzlAqOtiBkWvuGoTdeBm_@rlBgX`pAw^naCcN`pBaJv`BqT`xBwTjdBwQhjCgFjuEwObuC_`@x}Bc`@noBq^pjCw`@ptBc_@jjAojAtsCsXnjAyS|cB_Q~aCaSr}By]x~D{LbaGqEprI}BdeBuMd_BaWhuAs`AryDiUrlAcPjqB}Az{AzFdaBjo@ruFteAnxInhApeJpm@rgDCzSyv@jhAcN|UKtYxC`m@bChb@"
-  },
-  "evCharging": {
-    "stopsNeeded": 1,
-    "notes": "Ein Ladestopp in Kaunas während der Besichtigung reicht aus. Gute Ladeinfrastruktur entlang der A1. In Klaipėda beim Hotel laden — morgen ist Klaipėda-Tag mit optionalem Tagesausflug auf die Nehrung.",
-    "criticalLevel": "green"
-  },
+  "additionalLocationIds": [],
+  "transitLocationIds": [],
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    "Früher Aufbruch aus Vilnius — 30 km südwestlich liegt der Galvė-See",
-    {
-      "highlightRef": "Wasserburg Trakai",
-      "note": "Litauens Postkartenmotiv Nr. 1 — die rote Inselburg im See, am Vormittag noch ohne Reisegruppen"
-    },
-    {
-      "restaurantRef": "Kybynlar",
-      "note": "Kurzes zweites Frühstück in Trakai — Kibinai der Karäer als Snack für die Weiterfahrt"
-    },
-    "Weiter auf der A1 nach Kaunas",
-    {
-      "highlightRef": "Laisvės Alėja (Freiheitsallee)",
-      "note": "Eine der längsten Fußgängerzonen Europas — Kaffeepause mit Aussicht"
-    },
-    {
-      "highlightRef": "Neuntes Fort",
-      "note": "Eindrückliche Gedenkstätte — ca. 1,5 Stunden einplanen"
-    },
-    {
-      "restaurantRef": "Bernelių Užeiga",
-      "note": "Deftiges litauisches Mittagessen — Cepelinai und Šaltibarščiai"
-    },
-    "Nachmittags weiter auf der A1/E85 Richtung Küste nach Klaipėda",
+    "Ausschlafen nach der langen Etappe von gestern — kein Zeitdruck",
     {
       "highlightRef": "Altstadt mit Fachwerkhäusern",
-      "note": "Abendlicher Bummel durch Klaipėdas historische Altstadt"
-    }
+      "note": "Vormittags ausgiebig durch das Memel-Quartier streifen — Theaterplatz mit Ännchen-von-Tharau-Brunnen, Dane-Promenade, kleine Hofdurchgänge und versteckte Skulpturen"
+    },
+    "Am Burghafen die Bronze-Skulptur „Juodasis Vaiduoklis“ (Schwarzer Geist) suchen — 2,4 m hohe Kapuzengestalt, halb aus dem Wasser ragend",
+    {
+      "highlightRef": "Švyturys-Brauerei",
+      "note": "Nachmittags Führung mit Verkostung — Litauens älteste Brauerei (gegründet 1784), das Švyturys Ekstra ist ein Klassiker"
+    },
+    {
+      "restaurantRef": "Friedricho Pasažas",
+      "note": "Abendessen in stilvoller historischer Passage — moderne litauische Küche mit frischem Ostseefisch"
+    },
+    {
+      "restaurantRef": "Memelio Baras",
+      "note": "Optional zum Ausklang — gemütliche Craft-Beer-Bar mit guter Auswahl litauischer Mikrobrauereien"
+    },
+    "Hinweis: Vor der Kurischen Nehrung morgen unbedingt auf 100 % laden — Renerga 120 kW-Schnelllader an der Baltijos pr. 40"
   ]
 }
