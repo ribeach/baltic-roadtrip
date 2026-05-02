@@ -26,5 +26,17 @@
       "Pilsner Urquell / Budvar"
     ],
     "description": "Die tschechische Küche ist deftig, herzhaft und perfekt zum Bier. Svíčková — zarter Lendenbraten in cremiger Gemüse-Sahne-Sauce mit Preiselbeeren und Knödeln — gilt als Nationalgericht. Dazu das beste Bier der Welt: Tschechien hat den höchsten Pro-Kopf-Bierkonsum weltweit."
-  }
+  },
+  "phrases": [
+    { "de": "Hallo", "local": "Ahoj", "pronunciation": "ah-HOI" },
+    { "de": "Auf Wiedersehen", "local": "Na shledanou", "pronunciation": "na SLEH-da-no" },
+    { "de": "Bitte", "local": "Prosím", "pronunciation": "PRO-seem" },
+    { "de": "Danke", "local": "Děkuji", "pronunciation": "DJEH-ku-ji" },
+    { "de": "Ja", "local": "Ano", "pronunciation": "AH-no" },
+    { "de": "Nein", "local": "Ne", "pronunciation": "neh" },
+    { "de": "Entschuldigung", "local": "Promiňte", "pronunciation": "PRO-minj-teh" },
+    { "de": "Prost", "local": "Na zdraví", "pronunciation": "na ZDRA-wee" },
+    { "de": "Guten Appetit", "local": "Dobrou chuť", "pronunciation": "DOB-roh chutsch" },
+    { "de": "Sprechen Sie Englisch?", "local": "Mluvíte anglicky?", "pronunciation": "MLU-wee-teh AN-glits-ki" }
+  ]
 }

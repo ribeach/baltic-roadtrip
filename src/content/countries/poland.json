@@ -27,5 +27,17 @@
       "Oscypek (geräucherter Bergkäse)"
     ],
     "description": "Die polnische Küche ist herzhaft, sättigend und voller Seele. Pierogi in allen Varianten — von Kartoffel-Quark bis Waldbeeren — sind das Nationalgericht schlechthin. Dazu locken würzige Suppen wie Żurek, serviert im Brotlaib, und regionale Spezialitäten wie der goldene Danziger Likör."
-  }
+  },
+  "phrases": [
+    { "de": "Hallo", "local": "Cześć", "pronunciation": "tscheschtsch" },
+    { "de": "Auf Wiedersehen", "local": "Do widzenia", "pronunciation": "do wi-DSEN-ja" },
+    { "de": "Bitte", "local": "Proszę", "pronunciation": "PRO-scheh" },
+    { "de": "Danke", "local": "Dziękuję", "pronunciation": "dschen-KU-jeh" },
+    { "de": "Ja", "local": "Tak", "pronunciation": "tak" },
+    { "de": "Nein", "local": "Nie", "pronunciation": "njeh" },
+    { "de": "Entschuldigung", "local": "Przepraszam", "pronunciation": "psche-PRA-scham" },
+    { "de": "Prost", "local": "Na zdrowie", "pronunciation": "na ZDRO-wjeh" },
+    { "de": "Guten Appetit", "local": "Smacznego", "pronunciation": "smatsch-NEH-go" },
+    { "de": "Sprechen Sie Englisch?", "local": "Czy mówisz po angielsku?", "pronunciation": "tschi MU-wisch po an-GJEL-sku" }
+  ]
 }

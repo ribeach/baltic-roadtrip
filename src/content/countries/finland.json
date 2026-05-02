@@ -26,5 +26,17 @@
       "Korvapuusti (Zimtschnecken)"
     ],
     "description": "Die finnische Küche setzt auf frische, natürliche Zutaten — allen voran Lachs, Rentier und Waldbeeren. In den Markthallen von Helsinki dampft die cremige Lohikeitto, und an jeder Ecke locken frisch gebackene Karelische Piroggen mit Reisbrei-Füllung. Dazu gehört eine Tasse starker finnischer Kaffee — Finnland ist Weltmeister im Pro-Kopf-Verbrauch."
-  }
+  },
+  "phrases": [
+    { "de": "Hallo", "local": "Hei / Moi", "pronunciation": "hei / moi" },
+    { "de": "Auf Wiedersehen", "local": "Näkemiin", "pronunciation": "NÄ-keh-meen" },
+    { "de": "Bitte", "local": "Ole hyvä", "pronunciation": "O-leh HÜ-vä" },
+    { "de": "Danke", "local": "Kiitos", "pronunciation": "KEE-tos" },
+    { "de": "Ja", "local": "Kyllä", "pronunciation": "KÜL-lä" },
+    { "de": "Nein", "local": "Ei", "pronunciation": "ei" },
+    { "de": "Entschuldigung", "local": "Anteeksi", "pronunciation": "AN-tehk-si" },
+    { "de": "Prost", "local": "Kippis", "pronunciation": "KIP-piss" },
+    { "de": "Guten Appetit", "local": "Hyvää ruokahalua", "pronunciation": "HÜ-vää RU-o-ka-ha-lu-a" },
+    { "de": "Sprechen Sie Englisch?", "local": "Puhutko englantia?", "pronunciation": "PU-hut-ko ENG-lan-ti-a" }
+  ]
 }

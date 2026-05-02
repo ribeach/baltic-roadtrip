@@ -26,6 +26,20 @@ const apiKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || 'DEIN_API_KEY_HIER'
 const allCountries = await getCollection('countries');
 const country = allCountries.find(c => c.data.id === location.country);
 
+const languageNames: Record<string, string> = {
+  estonia: 'Estnisch',
+  latvia: 'Lettisch',
+  lithuania: 'Litauisch',
+  finland: 'Finnisch',
+  sweden: 'Schwedisch',
+  norway: 'Norwegisch',
+  denmark: 'Dänisch',
+  poland: 'Polnisch',
+  'czech-republic': 'Tschechisch',
+  germany: 'Deutsch',
+};
+const languageName = country ? languageNames[country.data.id] ?? 'der Landessprache' : 'der Landessprache';
+
 // Find which days reference this location
 const allDays = await getCollection('days');
 const assignedDays = allDays
@@ -124,6 +138,24 @@ if (location.id === 'halmstad') tags.push({ label: 'Remote Work', color: 'bg-nav
           <TipBadge type={tip.type} text={tip.text} />
         ))}
       </div>
+    )}
+
+    <!-- Useful local phrases -->
+    {country && country.data.phrases && country.data.phrases.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-navy-800 mb-4">🗣️ Nützliche Wörter auf {languageName}</h2>
+        <div class="bg-paper rounded-xl border border-sand-200 overflow-hidden">
+          <ul class="divide-y divide-sand-200">
+            {country.data.phrases.map(p => (
+              <li class="grid grid-cols-1 sm:grid-cols-3 gap-1 sm:gap-4 px-4 py-3">
+                <span class="text-gray-600 text-sm">{p.de}</span>
+                <span class="font-semibold text-navy-800">{p.local}</span>
+                <span class="text-gray-500 text-sm italic">[{p.pronunciation}]</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
     )}
 
     <!-- Highlights -->

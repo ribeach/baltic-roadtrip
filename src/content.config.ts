@@ -159,6 +159,11 @@ const countries = defineCollection({
       mustTry: z.array(z.string()),
       description: z.string(),
     }),
+    phrases: z.array(z.object({
+      de: z.string(),
+      local: z.string(),
+      pronunciation: z.string(),
+    })).optional().default([]),
   }),
 });
 

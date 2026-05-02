@@ -29,5 +29,17 @@
       "Midus (Met)"
     ],
     "description": "Litauens Küche dreht sich um die Kartoffel — und das auf überraschend kreative Weise. Die zeppelinförmigen Cepelinai sind gefüllt mit Fleisch oder Quark und ein absolutes Muss. Im Sommer erfrischt die leuchtend pinke Šaltibarščiai, und in Trakai sollte man unbedingt die Kibinai probieren, eine Spezialität der karäischen Minderheit."
-  }
+  },
+  "phrases": [
+    { "de": "Hallo", "local": "Labas", "pronunciation": "LA-bas" },
+    { "de": "Auf Wiedersehen", "local": "Viso gero", "pronunciation": "WI-so GEH-ro" },
+    { "de": "Bitte", "local": "Prašau", "pronunciation": "PRA-schau" },
+    { "de": "Danke", "local": "Ačiū", "pronunciation": "AH-tschuh" },
+    { "de": "Ja", "local": "Taip", "pronunciation": "taip" },
+    { "de": "Nein", "local": "Ne", "pronunciation": "neh" },
+    { "de": "Entschuldigung", "local": "Atsiprašau", "pronunciation": "at-si-PRA-schau" },
+    { "de": "Prost", "local": "Į sveikatą!", "pronunciation": "ee SWEI-kah-tah" },
+    { "de": "Guten Appetit", "local": "Skanaus", "pronunciation": "SKA-naus" },
+    { "de": "Sprechen Sie Englisch?", "local": "Ar kalbate angliškai?", "pronunciation": "ar KAL-ba-teh ANG-lisch-kai" }
+  ]
 }

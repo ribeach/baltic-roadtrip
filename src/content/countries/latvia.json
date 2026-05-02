@@ -28,5 +28,17 @@
       "Riga Black Balsam (Kräuterlikör seit 1752)"
     ],
     "description": "Lettlands Küche ist geprägt von dunklem Roggenbrot, Waldpilzen und den Aromen der Ostsee. Rupjmaize ist weit mehr als nur Brot — es ist ein Kulturgut und findet sich sogar in Desserts wieder. Der legendäre Riga Black Balsam, ein rabenschwarzer Kräuterlikör, wird seit über 250 Jahren nach demselben Rezept hergestellt."
-  }
+  },
+  "phrases": [
+    { "de": "Hallo", "local": "Sveiki", "pronunciation": "SWEH-ki" },
+    { "de": "Auf Wiedersehen", "local": "Uz redzēšanos", "pronunciation": "us RED-seh-schah-nos" },
+    { "de": "Bitte", "local": "Lūdzu", "pronunciation": "LOOD-su" },
+    { "de": "Danke", "local": "Paldies", "pronunciation": "PAL-dees" },
+    { "de": "Ja", "local": "Jā", "pronunciation": "jah" },
+    { "de": "Nein", "local": "Nē", "pronunciation": "neh" },
+    { "de": "Entschuldigung", "local": "Atvainojiet", "pronunciation": "AT-wai-no-yet" },
+    { "de": "Prost", "local": "Priekā!", "pronunciation": "PRIEH-kah" },
+    { "de": "Guten Appetit", "local": "Labu apetīti", "pronunciation": "LA-bu A-peh-tee-ti" },
+    { "de": "Sprechen Sie Englisch?", "local": "Vai jūs runājat angliski?", "pronunciation": "wai yoos RU-nah-yat ANG-lis-ki" }
+  ]
 }
