@@ -1,44 +1,34 @@
 {
   "dayNumber": 9,
   "date": "2026-05-08",
-  "title": "Von Nida über den Berg der Kreuze nach Riga",
-  "subtitle": "Dünen-Sonnenaufgang, Pilgerort und lettische Hauptstadt",
-  "locationId": "riga",
-  "previousLocationId": "curonian-spit",
-  "overnightLocationId": "riga",
-  "additionalLocationIds": [
-    "hill-of-crosses"
-  ],
-  "transitLocationIds": [
-    "hill-of-crosses"
-  ],
-  "driving": {
-    "distance": "450 km",
-    "duration": "5:30",
-    "mode": "drive",
-    "routeDescription": "Morgens Rückfähre von der Nehrung nach Klaipėda, dann über die Küstenstraße Richtung Norden nach Šiauliai (Berg der Kreuze), weiter über die A12 zur lettischen Grenze und auf der A8 nach Riga.",
-    "encodedPolyline": "}zopIcsd_CiM{IzItfBkDx\\e[yYsd@od@am@yUkvBykA}iDm}Bq^_UmS}WwOeIor@{d@iqAw|@iMqQ_cAyd@wsC_cA_w@`@okBe~@qwG_fBoTaSkM_c@}Dk`@yPqIeXbKoZwMeUiIkc@uCma@oLuVwRuQeKca@aFscAeGqjCwEaaEoYkhBjLud@pE{P|\\oHv`@}LtFyTaGiRhNmg@Xc]r@uVhGuZbPcj@mE_NubAgH{_@wQiGeQ}v@xBcFaDgY`[{WuJku@CmIo]{zAad@g|B_|@wjG_kAauJ{_Ay`IsR}hC[ivA|ZsuDnpAqlFfc@uiD`Ge`H|Ds~FpGwcC|]mmEzf@cmGdOqsAx[{vA|gAynCx~@}nDj}@}yFte@iiCtK{mAlIqxErFsyB~^orD|]ktDjKulBdQojBlw@{aE|m@u`EnR{dFpf@}hFbx@awDpyBo`F`t@_`Cna@y_DrYkiExk@w`Db_A}_Dd]axDdg@gmDtw@_xBth@_yB`f@iuDxH}oBfJesDpX_fC``@iaDvEqzA|BeeAhUm_ChVeoCxcA}gH~b@gvGlHc_@|DrDiEvCoFmJoJqNyzAejCqzFevJm}H_|MgnBqfDkf@wy@aeAouAqx@sh@_qBoeB_~@sy@qy@qc@yx@_Icl@gOe^eUajAcaA_`Ae{Aiw@gbBgdB{jBmeAyt@ycAe\\uaB}n@ewBu|B{oDwcHmkCyyCgeAcxAqs@_sBgjD{xJmd@ieBmW~Lc~Adu@yj@nEkaAiKac@}Py^{]awBirCeh@cmAiTmeAii@wzAa]wi@qWix@uTwtBdG_qBdo@axB_Dga@{a@w_@mdCg~Bcg@sh@eFu\\oi@}lBcCgIbCfIrHvX~Ufi@|NrbA}[gT{zAkvAojG{~Fq_IasHccIyxHm`EqyD_vAaEooAm_@epAsG}[iHeXq`@qQu{@wR_}As@_[yWqGgsAg\\cnCqo@sz@cU_xCuzAgf@qVuy@kb@wcBaw@alHay@g~KcoAw_Z}jDcjAcRg@}zAlIkbAgAaNwJqLqZcpAyTg_@mTi_@_UscAo_@cx@_N}Noo@ikAo]gg@kOwKi[aD_o@lL}f@hC_[wLck@{e@yyA}qAwfB_gB}bDqgGuvDc~H}dB}aE}{AgqDekBahDai@ueAgj@g{@mbA}Viz@yLs_Byh@os@oQsOoCqBoL{GkHqJiEq@jEaE~KeIaFyMaIq[wRm{@aVuGq\\mEub@ib@_aAod@{z@wc@_y@wBiNtC`C_a@xpB_U|h@kLhI_CkD"
-  },
-  "evCharging": {
-    "stopsNeeded": 2,
-    "notes": "Morgens nur mit AC-Ladung aus Nida gestartet — ersten Schnelllade-Stopp in Klaipėda einplanen (Renerga, Baltijos pr.; Backup: Ignitis am Akropolis-Einkaufszentrum)! Zweiter Stopp im Raum Šiauliai oder an der lettischen Grenze.",
-    "criticalLevel": "yellow"
-  },
+  "title": "Kuldīga in voller Pracht",
+  "subtitle": "UNESCO-Holzaltstadt, Bezirksmuseum und der breiteste Wasserfall Europas",
+  "locationId": "kuldiga",
+  "previousLocationId": null,
+  "overnightLocationId": "kuldiga",
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    "Sonnenaufgang auf der Parnidis-Düne — Nidas magischster Moment, den nur Übernachtungsgäste erleben",
-    "Fähre zurück nach Klaipėda, Schnellladung am Renerga-Lader",
     {
-      "highlightRef": "Berg der Kreuze"
-    },
-    "Grenzübertritt nach Lettland",
-    "Ankunft in Riga am späten Nachmittag",
-    {
-      "highlightRef": "Rigaer Zentralmarkt",
-      "note": "Abendlicher Rundgang durch die ehemaligen Zeppelinhallen"
+      "highlightRef": "Altstadt Kuldīga",
+      "note": "Vormittags durch die UNESCO-geschützte Holzaltstadt — Marktplatz, Alekšupīte-Kanal, kleine Galerien"
     },
     {
-      "nightlifeRef": "Black Magic Bar",
-      "note": "Black Balsam probieren — Lettlands legendärer Kräuterlikör im mittelalterlichen Gewölbe"
+      "highlightRef": "Kuldīga Bezirksmuseum (Bangertu Villa)",
+      "note": "Regionalgeschichte des Herzogtums Kurland mit Blick auf Wasserfall und Backsteinbrücke"
+    },
+    {
+      "restaurantRef": "Goldingen Room",
+      "note": "Mittagessen am Marktplatz — Steinofenpizza oder Pasta mit regionalen Zutaten"
+    },
+    "Optional am Nachmittag: Riežupe Sandhöhlen (~3 km außerhalb) — 2 km langes unterirdisches Labyrinth, mit Kerzen erkundet",
+    {
+      "highlightRef": "Ventas Rumba & Alte Backsteinbrücke",
+      "note": "Erneut zum Wasserfall — abends ohne Tagestouristen am eindrucksvollsten"
+    },
+    {
+      "restaurantRef": "Pagrabiņš",
+      "note": "Optionales zweites Abendessen im urigen Gewölbekeller, falls am Anreisetag schon dort gegessen wurde"
     }
   ]
 }

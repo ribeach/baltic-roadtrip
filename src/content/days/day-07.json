@@ -1,59 +1,37 @@
 {
   "dayNumber": 7,
   "date": "2026-05-06",
-  "title": "Über Kaunas nach Klaipėda",
-  "subtitle": "Freiheitsallee, Festung und Fachwerkhäuser an der Küste",
+  "title": "Klaipėda — Hafenstadt und optional die Nehrung",
+  "subtitle": "Hansestadt-Bummel und der Kurische Spit als Tagesausflug, ohne Übernachtung",
   "locationId": "klaipeda",
-  "previousLocationId": "vilnius",
+  "previousLocationId": null,
   "overnightLocationId": "klaipeda",
   "additionalLocationIds": [
-    "trakai",
-    "kaunas"
+    "curonian-spit"
   ],
-  "transitLocationIds": [
-    "trakai",
-    "kaunas"
-  ],
-  "driving": {
-    "distance": "310 km",
-    "duration": "4:30",
-    "mode": "drive",
-    "routeDescription": "Früher Aufbruch zum Trakai-Abstecher (30 km südwestlich Vilnius, 1,5–2 Std. Pause für die Inselburg). Weiter auf der A1 nach Kaunas (70 km), dort Mittagessen und Besichtigung. Anschließend auf der A1/E85 bis Klaipėda (210 km, 2,5 Std.).",
-    "encodedPolyline": "abxlIolhyCbJhGjCbD}@fFmDxHkGvW{Dnj@mA`OGxI|CZjOhF|Kvr@db@rU`Xxa@dP~Q`IhE{D~]aJht@hEb_A\\tw@aFbh@nGffAbFvn@dUp[fQpSrF|QlOto@~Kxg@?dk@w{@rsDcs@nuDcTzbBoR|bAwX`k@_Xds@aXjlBqSt|@e{@jtBeXpz@{Ndj@ia@~`AkqAr`Bo}@~gAyP|[mXd~@eWzeBwNdaB}QndDgWdmAk`@naByUf}Bio@b}Do^pxGe_@`}IuLpzEkZnzLwSx`HoWzeE_o@x}GgbBroKmbBf~I}n@|hDon@hbEcl@tbDygAhsF}`@~zB{[zkBin@j{C}yAljGkgAvoD}Ypz@sHb]eCvo@kCx|@iLdbEcIt`C{OhlCaH~fEgBnhB{Ftd@uA`F_@bFxD`GfFvAzInCpOnF|_@rJrfAhTvN|IxZlh@`Znm@pG`TrIcAjFa@nA}JxAmb@gBuQnBbIaAda@}EnVyM_GqCzGuJp[yI_GuSv@aP@kJoLoE_Gg@|ASrPmFt@ca@q\\oJfCiZnTwk@fa@{RSmOnLkJfTka@`Z_tAbaAir@tf@gt@l_@kdBzm@ugGhzBqeAbZapC~`@yz@~L{k@bL_MjHaa@vh@kXhq@cr@zeBir@d{A}yDjeIqkB|vDm|ApgD}l@noAspAryBwn@ljA_`@dkAe{@nzEgwArxGqcAblGejAdoF_d@pyBua@|`Dol@bwFcRl_CuZn_D{]|uAq^dkAejB|aG}ZdeAwQdbAgHpv@sMzeEqY`{Dik@|dFio@xsDcgAvoFwPt{@eo@rbFov@lkGcnA``Im}@h~DaWhfAm_Al|CoIl\\mQn{A{HxuB{Pd`BmVpiAgTzo@qfA~vCg`AhnByqAnkC_Rbr@eQldAkMveBwMpiC{^fkCiWfuAeQvmBoi@tuFaLtuDef@drDkMrmAeHlfBqIxqDg]haDiXx_Byk@|lBug@xuAk\\niBs^rhE}WxeB}X|x@ql@vuBeYpvBiZ`rEg`@xiCs[piAqoApyCibAn{Bmb@|eBqR|oAgPzlAqOtiBkWvuGoTdeBm_@rlBgX`pAw^naCcN`pBaJv`BqT`xBwTjdBwQhjCgFjuEwObuC_`@x}Bc`@noBq^pjCw`@ptBc_@jjAojAtsCsXnjAyS|cB_Q~aCaSr}By]x~D{LbaGqEprI}BdeBuMd_BaWhuAs`AryDiUrlAcPjqB}Az{AzFdaBjo@ruFteAnxInhApeJpm@rgDCzSyv@jhAcN|UKtYxC`m@bChb@"
-  },
-  "evCharging": {
-    "stopsNeeded": 1,
-    "notes": "Ein Ladestopp in Kaunas während der Besichtigung reicht aus. Gute Ladeinfrastruktur entlang der A1. WICHTIG: In Klaipėda unbedingt auf 100 % laden — morgen geht es auf die Kurische Nehrung, wo es KEINE Schnelllader gibt!",
-    "criticalLevel": "green"
-  },
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    "Früher Aufbruch aus Vilnius — 30 km südwestlich liegt der Galvė-See",
-    {
-      "highlightRef": "Wasserburg Trakai",
-      "note": "Litauens Postkartenmotiv Nr. 1 — die rote Inselburg im See, am Vormittag noch ohne Reisegruppen"
-    },
-    {
-      "restaurantRef": "Kybynlar",
-      "note": "Kurzes zweites Frühstück in Trakai — Kibinai der Karäer als Snack für die Weiterfahrt"
-    },
-    "Weiter auf der A1 nach Kaunas",
-    {
-      "highlightRef": "Laisvės Alėja (Freiheitsallee)",
-      "note": "Eine der längsten Fußgängerzonen Europas — Kaffeepause mit Aussicht"
-    },
-    {
-      "highlightRef": "Neuntes Fort",
-      "note": "Eindrückliche Gedenkstätte — ca. 1,5 Stunden einplanen"
-    },
-    {
-      "restaurantRef": "Bernelių Užeiga",
-      "note": "Deftiges litauisches Mittagessen — Cepelinai und Šaltibarščiai"
-    },
-    "Nachmittags weiter auf der A1/E85 Richtung Küste nach Klaipėda",
     {
       "highlightRef": "Altstadt mit Fachwerkhäusern",
-      "note": "Abendlicher Bummel durch Klaipėdas historische Altstadt"
+      "note": "Vormittags entspannt durch das Memel-Quartier bummeln — Theaterplatz mit Ännchen-von-Tharau-Brunnen, Dane-Promenade, kleine versteckte Hofdurchgänge"
     },
-    "WICHTIG: Heute Abend in Klaipėda auf 100 % laden — morgen keine Schnelllader auf der Nehrung!"
+    {
+      "highlightRef": "Fährhafen zur Kurischen Nehrung",
+      "note": "OPTIONAL: Tagesausflug auf die Nehrung — KEINE Übernachtung mehr. Mit Auto rüber, halber Tag in Smiltynė + Juodkrantė reicht für Hexenberg, Strand und Düne"
+    },
+    {
+      "highlightRef": "Smiltynė Meeresmuseum & Delfin-Show",
+      "note": "Auf der Nehrungsseite gleich am Fähranleger — gut mit dem Skulpturenpark zu kombinieren"
+    },
+    {
+      "highlightRef": "Švyturys-Brauerei",
+      "note": "Alternativ am Nachmittag in der Stadt — Litauens älteste Brauerei mit Verkostung"
+    },
+    {
+      "restaurantRef": "Monai",
+      "note": "Michelin-empfohlene moderne Küche zum Abschluss des Klaipėda-Tages — vorab reservieren"
+    },
+    "Hinweis: Wer auf den Nehrungs-Tagesausflug verzichtet, gewinnt einen sehr entspannten Stadt-Tag — Klaipėda lohnt sich auch ohne Spit"
   ]
 }

@@ -7,9 +7,9 @@ const base = getBase();
 
 const allCountries = await getCollection('countries');
 const fullCountries = allCountries
-  .filter(c => ['czech-republic', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'norway'].includes(c.data.id))
+  .filter(c => ['czech-republic', 'poland', 'lithuania', 'latvia', 'estonia', 'finland'].includes(c.data.id))
   .sort((a, b) => {
-    const order = ['czech-republic', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'norway'];
+    const order = ['czech-republic', 'poland', 'lithuania', 'latvia', 'estonia', 'finland'];
     return order.indexOf(a.data.id) - order.indexOf(b.data.id);
   });
 
@@ -68,14 +68,6 @@ const fullDishes: Record<string, { name: string; description: string; emoji: str
     { name: 'Leipäjuusto', description: 'Quietschender Brotkäse, traditionell mit Moltebeermarmelade. Samischer Ursprung.', emoji: '🧀', url: 'https://en.wikipedia.org/wiki/Leip%C3%A4juusto' },
     { name: 'Ruisleipä', description: 'Dunkles, saures Roggenbrot — das Fundament jeder finnischen Mahlzeit. Finnland ist Weltmeister im Roggenbrotkonsum.', emoji: '🍞', url: 'https://en.wikipedia.org/wiki/Rye_bread' },
     { name: 'Mustikkapiirakka', description: 'Finnischer Blaubeerkuchen mit Waldbeeren. Perfekt zur Kaffeepause — Finnland trinkt weltweit den meisten Kaffee pro Kopf.', emoji: '🫐', url: 'https://en.wikipedia.org/wiki/Blueberry_pie' },
-  ],
-  norway: [
-    { name: 'Fiskekaker', description: 'Fischfrikadellen aus gehacktem Kabeljau — norwegisches Comfort Food, serviert mit Kartoffeln und weißer Soße.', emoji: '🐟', url: 'https://en.wikipedia.org/wiki/Fiskekaker' },
-    { name: 'Brunost', description: 'Brauner Karamellkäse aus Molke — süß, einzigartig und typisch norwegisch. Auf einer Scheibe Brot oder Waffel.', emoji: '🧀', url: 'https://en.wikipedia.org/wiki/Brunost' },
-    { name: 'Røkelaks', description: 'Geräucherter norwegischer Lachs — weltberühmt und auf jedem Frühstücksbuffet zu finden.', emoji: '🐟', url: 'https://en.wikipedia.org/wiki/Smoked_salmon' },
-    { name: 'Kjøttkaker', description: 'Norwegische Fleischbällchen in brauner Soße mit Kartoffelpüree und Preiselbeeren. Skandinavisches Seelenfutter.', emoji: '🥩', url: 'https://no.wikipedia.org/wiki/Kj%C3%B8ttkaker' },
-    { name: 'Aquavit', description: 'Skandinavischer Kümmelschnaps, traditionell zu Fischgerichten. Linie Aquavit wird zweimal über den Äquator verschifft.', emoji: '🥃', url: 'https://en.wikipedia.org/wiki/Aquavit' },
-    { name: 'Pølse', description: 'Norwegens Antwort auf den Hot Dog — an jeder Tankstelle verfügbar und überraschend gut. Lompe (Kartoffelfladen) statt Brötchen probieren.', emoji: '🌭', url: 'https://en.wikipedia.org/wiki/P%C3%B8lse' },
   ],
 };
 

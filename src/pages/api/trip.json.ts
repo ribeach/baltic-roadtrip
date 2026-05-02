@@ -67,7 +67,7 @@ export const GET: APIRoute = async () => {
   const payload = {
     meta: {
       title: 'Baltic Roadtrip 2026',
-      dates: '30. April – 17. Mai 2026',
+      dates: '30. April – 20. Mai 2026',
       days: sortedDays.length,
       totalLocations: locations.length,
       countries: countries.length,

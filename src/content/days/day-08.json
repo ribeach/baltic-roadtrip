@@ -1,42 +1,33 @@
 {
   "dayNumber": 8,
   "date": "2026-05-07",
-  "title": "Kurische Nehrung — Übernachtung in Nida",
-  "subtitle": "Wandernde Dünen, Hexen und Sonnenuntergang am Ende der Welt",
-  "locationId": "curonian-spit",
+  "title": "Von Klaipėda nach Kuldīga",
+  "subtitle": "Über die lettische Grenze in den Kurländer Provinz-Charme",
+  "locationId": "kuldiga",
   "previousLocationId": "klaipeda",
-  "overnightLocationId": "curonian-spit",
+  "overnightLocationId": "kuldiga",
   "driving": {
-    "distance": "100 km",
+    "distance": "~185 km",
     "duration": "2:30",
     "mode": "drive",
-    "routeDescription": "Fähre von Klaipėda (Smiltynė) auf die Kurische Nehrung, dann die einzige Straße Richtung Süden über Juodkrantė bis Nida nahe der russischen Grenze. Übernachtung auf der Nehrung — kein Rückfahrt-Stress.",
-    "encodedPolyline": "mp~rI}v``CG_BEo@b@ORhCHpAb@bHZvFVxPN~HtElBlBtAtBv@`@B~Ac@hIgFjFkEbUiVtBsBz@g@lGcEdFyC`BcARd@v@zBdAtCj@lCr@lEZtBRfBKz@GXMNa@Oc@c@k@@Wx@?p@Z|AV^dAzFtFbTlHfY`Ah@hCJfDLzDf@|@n@\\|@xA|JpBnPrHbk@zCtVCF@THHHIREdLSvBNfL`ChIv@|@CrAk@t@m@lEcIjBiAvBWxHc@rDUpGMl@Ev@e@|AoBfAcAb@ElB`@hCj@nIs@zJmAtEs@xCMbDd@pEk@pD\\zEx@lA?jAi@nG_HrCaDzAa@hBEhBf@zH|Dz@ZfANnCOnCu@|EyBnAeAh@}BlCiPvBoKtBoMViAvBeG`AkA^Sb@KnDq@rI}ArEyA\\AzATlCv@xAEjH_BvIy@hHo@fDKpL?nA@jE]xEc@tGw@hFZlD`@vB?bEa@lHiA`IoCjDgAbALlDfA`EhAdEtAdDDfHT|JNtBBnMjAtEl@xFnAjEt@tT|@lb@zA~Ln@lRnA`DRxFbAp@BzOf@fIb@`I`@`J`@pCEnUOtMNvWr@zBF|FNpCLzEOlDEzFI`C@jDPlEpBjFd@hGXvVnAxF`@zC`@rAAhA?`DVlJfCpHrDbHpEdEvCbDjExAnB`BxAhBx@dBNpCh@xAx@~ErCfExA`BVvIdAzCh@`BH|Hi@xIzAtFn@tDzBhCt@bGpA`CdAhCfAnDxAfIbDlFpCp@@nDmAjEsBfGsCnBo@nADlD`AnEdB\\XlAhCfB|Fj@pJVxF`ApV|@|C|IpLrCrDzHdJpAz@lCj@zb@vIdUzFpf@`N`\\vIp_@bKdr@nQvs@pRnJjCzD~Bfb@~X|GpErIxDfk@tSlHbCnDs@nBOdKrBnJrBvB_@~JcCxCq@vAN~TlFvItC|OrErT|HvG`CxXrKzi@rU|MpGn_@rP~MbGpDnBhCzApAbAxCfI\\z@t@l@vA~@dGjEbE~BvElBzCvBlMzKvXlU`FlDv@TrCVdHh@pAj@hCvB~[rY|BrBnAd@|C`A`FrBvCnC`MlLjBfC~AfFdArA`Aj@hZ~Pn~@nq@xCvB|QxMzEvCraAvl@dIzExAz@|NzIbSfMbNjIbAh@pVhM|CrA~MjG|@n@xPhJ|HdEfDhBhE~AlE`BdA`@vDjAdIxB^TbD`CzCxClInJdOlOfMnMvJhKt@x@Ny@zA{I~AoJFyAWsC{@kRsAeZaBaYaAuOo@iJMiBTF`A^Zb@l@jAJHLOZQj@Mj@TjAfCbAzA^G"
+    "routeDescription": "Direkte Fahrt über die A13/A11 und die lettische Grenze nach Kuldīga. Optional landschaftlicher Umweg über die Steilküste bei Jūrkalne oder das Abava-Tal über Sabile. KEIN Stopp am Berg der Kreuze — die Strecke bleibt küstennah und ohne Inland-Detour."
   },
   "evCharging": {
-    "stopsNeeded": 0,
-    "notes": "ACHTUNG: Keine Schnellladestationen auf der Kurischen Nehrung! Unbedingt in Klaipėda auf 100 % laden. Die Fahrt (ca. 50 km einfach) ist mit voller Batterie problemlos. In Nida gibt es langsame AC-Lader (11 kW) für die Nacht — morgens genug Reichweite für die Rückfahrt.",
-    "criticalLevel": "red"
+    "stopsNeeded": 1,
+    "notes": "Vor Abfahrt in Klaipėda schnellladen (Renerga 120 kW oder Ignitis am Akropolis), bei Bedarf zweiter Stopp im Raum Liepāja. Kuldīga selbst hat AC-Lader im Stadtzentrum.",
+    "criticalLevel": "green"
   },
   "activities": [
-    "Fährüberfahrt von Klaipėda nach Smiltynė – kurze Überfahrt über das Haff",
+    "Vormittäglicher Aufbruch aus Klaipėda — entspannte Etappe nach Lettland",
+    "Grenzübertritt nach Lettland — willkommen in Kurzeme",
+    "Optional landschaftlicher Schlenker über Jūrkalne (Steilküste) oder das Abava-Tal mit Sabile",
     {
-      "highlightRef": "Hexenberg (Raganų Kalnas) Juodkrantė",
-      "note": "Mystischer Skulpturenweg durch Kiefernwald"
+      "highlightRef": "Ventas Rumba & Alte Backsteinbrücke",
+      "note": "Ankunft am Nachmittag — direkt an den breitesten Wasserfall Europas. Im Mai können hier springende Vimba-Fische beobachtet werden"
     },
     {
-      "highlightRef": "Parnidis-Düne",
-      "note": "52 Meter hohe Wanderdüne — ABENDS zum Sonnenuntergang wiederkommen!"
-    },
-    {
-      "highlightRef": "Nida Fischerdorf",
-      "note": "Bummel durch bunt bemalte Holzhäuser"
-    },
-    "Mittagessen: frisch geräucherter Fisch direkt am Haff – Spezialität der Nehrung",
-    {
-      "highlightRef": "Thomas-Mann-Haus Nida"
-    },
-    "Sonnenuntergang auf der Parnidis-Düne — DAS Highlight der Nehrung, das Tagesgäste nie erleben",
-    "Nachtspaziergang am menschenleeren Strand unter endlosem Himmel"
+      "restaurantRef": "Pagrabiņš",
+      "note": "Erstes Abendessen im Gewölbekeller — lettische Hausmannskost"
+    }
   ]
 }

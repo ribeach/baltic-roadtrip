@@ -6,7 +6,7 @@ import { getBase } from '../lib/content';
 const base = getBase();
 
 const allCountries = await getCollection('countries');
-const routeOrder = ['germany', 'czech-republic', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden', 'norway', 'denmark'];
+const routeOrder = ['germany', 'czech-republic', 'poland', 'lithuania', 'latvia', 'estonia', 'finland', 'sweden', 'denmark'];
 const countries = allCountries.sort((a, b) => routeOrder.indexOf(a.data.id) - routeOrder.indexOf(b.data.id));
 
 // Usable battery capacity for 10→80% charge (kWh) — VW ID.4 (77 kWh * ~70%)
@@ -27,7 +27,7 @@ const essentialApps = [
 const ferryOptions = [
   { route: 'Tallinn → Helsinki', operators: [{ name: 'Eckerö Line', url: 'https://www.eckeroline.fi' }, { name: 'Tallink', url: 'https://www.tallink.com' }, { name: 'Viking Line', url: 'https://www.vikingline.com' }], duration: '2–2,5h', price: '50–90 € (Auto + 2 Pers.)', note: 'Autofähre nach Helsinki als Start der Finnland-Durchquerung. 12+ Abfahrten täglich, Frühfähre ~07:30 ideal. Eckerö Line oft am günstigsten.' },
   { route: 'Turku → Stockholm', operators: [{ name: 'Viking Line (Glory/Grace)', url: 'https://www.vikingline.com' }], duration: '~11h (Nachtfähre)', price: '200–350 € (Auto + 2 Pers. + Kabine)', note: 'Nachtfähre durch den Turku-Archipel (20.000 Inseln!) mit Stopp auf den Åland-Inseln. Abfahrt 20:55, Ankunft Stockholm Stadsgården 07:30. Früh buchen!' },
-  { route: 'Klaipėda → Smiltynė (Kurische Nehrung)', operators: [{ name: 'Lokale Fähre' }], duration: '~10 Min', price: '~23 € Hin+Rück (Auto)', note: 'Alle 20–30 Min. Bezahlung am Terminal. E-Autos im Mai kostenlos auf der Nehrung (Neringa-Gebühr entfällt).' },
+  { route: 'Klaipėda → Smiltynė (optionaler Kurische-Nehrung-Tagesausflug)', operators: [{ name: 'Lokale Fähre' }], duration: '~10 Min', price: '~23 € Hin+Rück (Auto)', note: 'Optional am Klaipėda-Tag — KEINE Übernachtung mehr auf der Nehrung. Alle 20–30 Min., Bezahlung am Terminal.' },
   { route: 'Rødby → Puttgarden', operators: [{ name: 'Scandlines', url: 'https://www.scandlines.de' }], duration: '~45 Min', price: '60–100 € (Auto + 2 Pers.)', note: 'Fähre von Dänemark nach Deutschland. Abfahrt alle 30 Minuten, keine Reservierung nötig. Schnellste Verbindung nach Norddeutschland/Berlin.' },
 ];
 
@@ -145,13 +145,17 @@ const evRules = [
     <section class="mb-10">
       <h2 class="text-2xl font-bold text-navy-800 mb-4">🔴 Kritische Strecken</h2>
       <div class="space-y-3">
-        <div class="bg-red-50 border border-red-200 rounded-xl p-4">
-          <h3 class="font-bold text-red-800">Kurische Nehrung mit Übernachtung in Nida</h3>
-          <p class="text-sm text-red-700 mt-1">KEINE Schnelllader auf der Nehrung — nur 11 kW AC in Nida. In Klaipėda (Renerga 120 kW, Baltijos pr. 40) auf 100% laden. Hinfahrt ~50 km, kein Problem. Über Nacht am AC-Lader in Nida hängen — reicht für die Rückfahrt nach Klaipėda. Dort Schnellladen vor der Weiterfahrt nach Riga.</p>
+        <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-4">
+          <h3 class="font-bold text-yellow-800">Łódź → Masuren (lange Etappe ohne Warschau)</h3>
+          <p class="text-sm text-yellow-700 mt-1">~400 km am Stück durch Zentralpolen — Warschau wird umfahren. Zwei Schnellladestopps entlang S7/S61 einplanen (z. B. Płock und Ostróda). Ladenetz von GreenWay/Orlen Charge ist ausreichend, aber früh am Tag aufbrechen.</p>
         </div>
         <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-4">
           <h3 class="font-bold text-yellow-800">Masuren → Vilnius (Suwalki-Korridor)</h3>
           <p class="text-sm text-yellow-700 mt-1">In Masuren auf 80%+ laden (GreenWay in Giżycko/Mikołajki). Der Suwalki-Korridor zwischen Polen und Litauen hat lückenhafte Ladeinfrastruktur — Stopp bei Suwałki oder nach der Grenze bei Marijampolė einplanen.</p>
+        </div>
+        <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-4">
+          <h3 class="font-bold text-yellow-800">Klaipėda → Kuldīga (Kurzeme-Provinz)</h3>
+          <p class="text-sm text-yellow-700 mt-1">Vor Abfahrt in Klaipėda schnellladen (Renerga 120 kW oder Ignitis am Akropolis). In Liepāja gibt es einen Backup-Lader unterwegs. Kuldīga hat AC-Lader im Stadtzentrum — Hotelparkplatz vorher prüfen, das Boutique Hotel Virkas Muiža hat aktuell keinen Lader.</p>
         </div>
         <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-4">
           <h3 class="font-bold text-yellow-800">Vor der Fähre in Turku</h3>
@@ -267,7 +271,7 @@ const evRules = [
       <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
         <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">MEZ (UTC+1)</h3>
-          <p class="text-sm text-gray-600 mt-1">🇩🇪 Deutschland, 🇨🇿 Tschechien, 🇩🇰 Dänemark, 🇸🇪 Schweden, 🇳🇴 Norwegen, 🇵🇱 Polen</p>
+          <p class="text-sm text-gray-600 mt-1">🇩🇪 Deutschland, 🇨🇿 Tschechien, 🇩🇰 Dänemark, 🇸🇪 Schweden, 🇵🇱 Polen</p>
         </div>
         <div class="bg-paper rounded-lg border border-sand-200 p-4">
           <h3 class="font-semibold text-navy-800">OEZ (UTC+2)</h3>
@@ -381,12 +385,12 @@ const evRules = [
         <div class="bg-red-50 border border-red-200 rounded-xl p-4">
           <h3 class="font-bold text-red-800 mb-2">🔴 Sofort buchen</h3>
           <ul class="space-y-1 text-sm text-red-700">
-            <li>• Prag Hotel (30.4.)</li>
-            <li>• Warschau Hotel (1.–2.5.)</li>
-            <li>• Oslo Hotel (13.–14.5.)</li>
+            <li>• Prag Hotel (30.4.–1.5.)</li>
+            <li>• Kuldīga Boutique Hotel Virkas Muiža (7.–9.5., 2 Nächte)</li>
+            <li>• Pärnu Villa Ammende oder Hedon Spa (11.5.)</li>
+            <li>• Halmstad Hotel für Remote-Work-Tage (17.–19.5.)</li>
             <li>• Viking Line Turku→Stockholm (Kabine + Auto)</li>
-            <li>• Tallinn→Helsinki Fähre</li>
-            <li>• Heimreise-Fähre (Trelleborg oder Gothenburg)</li>
+            <li>• Tallinn→Helsinki Fähre (Eckerö Line / Tallink)</li>
             <li>• Ertlio Namas Vilnius</li>
             <li>• Līgatne Bunker-Tour</li>
           </ul>
@@ -394,18 +398,19 @@ const evRules = [
         <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-4">
           <h3 class="font-bold text-yellow-800 mb-2">🟡 2–4 Wochen vorher</h3>
           <ul class="space-y-1 text-sm text-yellow-700">
-            <li>• Alle Baltikum-Hotels</li>
+            <li>• Übrige Baltikum-Hotels (Klaipėda, Riga, Tallinn)</li>
             <li>• Hotel Zamek Ryn (Masuren)</li>
-            <li>• Nida Unterkunft (Kurische Nehrung)</li>
+            <li>• Helsinki Hotel (15.–16.5.)</li>
             <li>• Rataskaevu 16 Tallinn</li>
-            <li>• Helsinki-Fähre</li>
+            <li>• Monai Klaipėda</li>
           </ul>
         </div>
         <div class="bg-green-50 border border-green-200 rounded-xl p-4">
           <h3 class="font-bold text-green-800 mb-2">🟢 Ohne Buchung</h3>
           <ul class="space-y-1 text-sm text-green-700">
-            <li>• Kurische Nehrung Fähre</li>
-            <li>• Berg der Kreuze</li>
+            <li>• Kurische Nehrung Tagesausflug-Fähre (optional, ohne Übernachtung)</li>
+            <li>• Lahemaa-Tagesausflug ab Tallinn — frei fahren</li>
+            <li>• Fiskars / Porvoo Tagesausflug ab Helsinki</li>
             <li>• Die meisten Museen</li>
             <li>• E-Laden (Pay-as-you-go)</li>
           </ul>

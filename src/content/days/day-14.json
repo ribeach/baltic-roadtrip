@@ -1,27 +1,38 @@
 {
   "dayNumber": 14,
   "date": "2026-05-13",
-  "title": "Helsinki und Sauna",
-  "subtitle": "Festungsinsel, finnische Saunakultur und Design",
-  "locationId": "helsinki",
+  "title": "Tallinn in voller Pracht",
+  "subtitle": "Mittelalterliche Gassen, Seefahrermuseum und kreatives Kalamaja",
+  "locationId": "tallinn",
   "previousLocationId": null,
-  "overnightLocationId": "helsinki",
+  "overnightLocationId": "tallinn",
+  "additionalLocationIds": [
+    "lahemaa"
+  ],
   "driving": null,
   "evCharging": null,
   "activities": [
     {
-      "highlightRef": "Festung Suomenlinna",
-      "note": "UNESCO-Welterbe — Fähre vom Marktplatz (15 Min.), mindestens 3 Stunden einplanen"
+      "highlightRef": "Lennusadam — Maritimes Museum",
+      "note": "Vormittags: U-Boot Lembit, Eisbrecher und Flugboote"
     },
     {
-      "highlightRef": "Löyly Sauna & Restaurant",
-      "note": "Nachmittags: echte finnische Sauna mit Ostsee-Schwimmen — DAS Erlebnis in Helsinki"
+      "highlightRef": "Balti Jaama Turg — Markt",
+      "note": "Mittagessen am hippen Streetfood-Markt"
     },
     {
-      "restaurantRef": "Alte Markthalle (Vanha Kauppahalli)",
-      "note": "Mittagessen in der historischen Markthalle — Lachs, Rentier, Karelische Piroggen"
+      "highlightRef": "Telliskivi Creative City",
+      "note": "Nachmittag im kreativen Viertel — Fotografiska Tallinn integriert"
     },
-    "SAUNA-TIPP: Handtuch mitbringen, Badeanzug optional (gemischte Sauna bei Löyly). Mindestens 2 Stunden einplanen — Sauna, Abkühlung, wiederholen",
-    "Morgen früh: Fahrt nach Turku (170 km, 2 Std.) — Auto heute Abend voll laden"
+    {
+      "highlightRef": "Kalamaja — Holzhäuser-Viertel",
+      "note": "Cafés und Boutiquen im Szeneviertel — fließend mit Telliskivi verbunden"
+    },
+    "ALTERNATIVE TAGESPROGRAMM: Tagesausflug in den Lahemaa-Nationalpark (70 km östlich, eigenes Auto) — Viru-Hochmoor mit Holzstegen, Käsmu-Kapitänsdorf und Palmse-Gutshof. Wer Estland naturhistorisch erleben will, tauscht das Stadtprogramm gegen Lahemaa.",
+    {
+      "nightlifeRef": "Whisper Sister",
+      "note": "Speakeasy-Bar hinter einer versteckten Tür"
+    },
+    "Morgen früh: Autofähre nach Helsinki — Auto heute Abend hafennah parken und voll laden"
   ]
 }

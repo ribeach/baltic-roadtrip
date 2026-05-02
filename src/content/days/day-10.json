@@ -1,44 +1,36 @@
 {
   "dayNumber": 10,
   "date": "2026-05-09",
-  "title": "Riga – Jugendstil und Markthallen",
-  "subtitle": "Fassadenkunst, Kirchturmblick und Moorwanderung",
+  "title": "Von Kuldīga nach Riga",
+  "subtitle": "Vom Provinzcharme in die Jugendstil-Hauptstadt",
   "locationId": "riga",
-  "previousLocationId": null,
+  "previousLocationId": "kuldiga",
   "overnightLocationId": "riga",
-  "driving": null,
-  "evCharging": null,
+  "driving": {
+    "distance": "~150 km",
+    "duration": "2:15",
+    "mode": "drive",
+    "routeDescription": "Kurze Etappe ostwärts über die A9 nach Riga. Kein Zwischenhalt am Berg der Kreuze, kein Umweg über Šiauliai — direkt durch Kurzeme und Zemgale in die lettische Hauptstadt."
+  },
+  "evCharging": {
+    "stopsNeeded": 0,
+    "notes": "Mit voller Batterie aus Kuldīga problemlos. In Riga laden bei Hotel oder im Parkhaus an der Esplanade.",
+    "criticalLevel": "green"
+  },
   "activities": [
-    {
-      "highlightRef": "Alberta iela — Jugendstil-Fassaden",
-      "note": "Nirgendwo in Europa stehen mehr Art-Nouveau-Fassaden auf einem Fleck"
-    },
-    {
-      "highlightRef": "Rigaer Jugendstil-Museum"
-    },
+    "Gemütlicher Vormittag in Kuldīga — letzter Blick auf die Backsteinbrücke",
+    "Fahrt nach Riga am frühen Nachmittag",
     {
       "highlightRef": "Schwarzhäupterhaus",
-      "note": "Altstadtrundgang"
-    },
-    {
-      "highlightRef": "Petrikirche — Turmaussicht",
-      "note": "Aufzug zur Aussichtsplattform für Panoramablick"
+      "note": "Erster Spaziergang durch die UNESCO-Altstadt — Wiederaufbau-Meisterstück am Rathausplatz"
     },
     {
       "highlightRef": "Rigaer Zentralmarkt",
-      "note": "Morgenbesuch — frisches Brot, Räucherfisch und lettischer Käse"
+      "note": "Abendlicher Bummel durch die ehemaligen Zeppelinhallen"
     },
     {
-      "highlightRef": "Großer Ķemeri-Moor-Steg (Jūrmala)",
-      "note": "Nachmittagsausflug"
-    },
-    {
-      "restaurantRef": "3 Pavāru Restorāns",
-      "note": "Drei Köche, drei Küchen, ein Restaurant"
-    },
-    {
-      "nightlifeRef": "Labietis",
-      "note": "Experimentelle Braukunst mit Zutaten aus lettischen Wäldern"
+      "nightlifeRef": "Black Magic Bar",
+      "note": "Black Balsam zum Einstieg in Lettlands Bar-Klassiker — mittelalterliches Gewölbe an der Kaļķu iela"
     }
   ]
 }

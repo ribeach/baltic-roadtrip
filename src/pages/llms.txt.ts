@@ -33,7 +33,7 @@ export const GET: APIRoute = async () => {
 
   ln('# Baltic Roadtrip 2026');
   ln();
-  ln(`> ${sortedDays.length}-Tage-Roadtrip mit E-Auto (VW ID.4, 77 kWh) durch ${countries.length} Länder. ${locations.length} Orte gesammelt (${sortedDays.length} Tage geplant, ${unassignedLocations.length} weitere Optionen). 30. April – 17. Mai 2026.`);
+  ln(`> ${sortedDays.length}-Tage-Roadtrip mit E-Auto (VW ID.4, 77 kWh) rund um die Ostsee. ${locations.length} Orte gesammelt (${sortedDays.length} Tage geplant, ${unassignedLocations.length} weitere Optionen). 30. April – 20. Mai 2026.`);
   ln();
   ln('Website: https://ribeach.github.io/baltic-roadtrip/');
   ln('Repo: https://github.com/ribeach/baltic-roadtrip');
@@ -50,7 +50,7 @@ export const GET: APIRoute = async () => {
   ln('- Interessen (Priorität): 1. Natur & Nationalparks, 2. Geschichte & Kultur (Sowjet-Erbe, Mittelalter, Hanse), 3. Lokale Küche & Food-Märkte, 4. Besondere Bars & Lokale am Abend');
   ln('- Fahretappen von 5–6 Stunden am Stück sind kein Problem');
   ln('- Kein Stress-Urlaub: Lieber weniger Orte richtig erleben als alles abhaken');
-  ln('- Feste Eckpunkte: Prag als Startpunkt, Warschau & Masuren, Baltikum-Rundreise (LT/LV/EE), Finnland-Durchquerung (Helsinki→Turku) mit Nachtfähre nach Stockholm, Oslo, Kopenhagen (Kurzstopp), Berlin zum Abschluss');
+  ln('- Feste Eckpunkte: Prag als Startpunkt, Łódź und Masuren als Polen-Achse, Baltikum-Rundreise (LT/LV/EE) mit UNESCO-Stopp Kuldīga und Pärnu, Helsinki-Region (optional Lahemaa- bzw. Fiskars-Tagesausflug), Nachtfähre Turku→Stockholm, 17.–19. Mai Halmstad mit Remote Work, Heimreise via Öresund');
   ln();
 
   // Route overview table

@@ -1,19 +1,41 @@
 {
   "dayNumber": 17,
   "date": "2026-05-16",
-  "title": "Oslo erkunden",
-  "subtitle": "Vigeland, MUNCH und Fjordarchitektur",
-  "locationId": "oslo",
-  "previousLocationId": "oslo",
-  "overnightLocationId": "oslo",
-  "driving": null,
-  "evCharging": null,
+  "title": "Turku und Nachtfähre nach Stockholm",
+  "subtitle": "Finnlands älteste Stadt und eine Nacht durch den Schärengarten",
+  "locationId": "turku",
+  "previousLocationId": "helsinki",
+  "overnightLocationId": null,
+  "driving": {
+    "distance": "170 km",
+    "duration": "2:00",
+    "mode": "drive",
+    "routeDescription": "Vormittags über die E18 von Helsinki nach Turku (170 km, ~2 Std.). Bilderbuch-Finnland mit Seen und Birkenwäldern. Abends Viking Line Nachtfähre Turku→Stockholm (20:55 Uhr, Ankunft 07:30).",
+    "encodedPolyline": "{|fnJ}wewCrF~SfD`HjAnMMz@r@QnDpHxCxMdEle@Azs@yEbHaEbReAfo@`J`cBzKrkAzC`_@oF|_Ak`@dvDyCfgATr{@bEphBT|u@fKj{CiCrN}FSm[aLsQqCqO~GeQxSkHpEiNjCsLpAwGrC}T~TeOfEaKwCsJuIgMuEsG?yNpDmBoA[gGr@qC`BlBzKts@fI|m@xEhiAG`d@iDlk@sMpl@iQbf@kOdo@qPrfAsk@f}CsEhXaFzz@qNb~AmCjf@yH~_@qHb|@}Ntq@eO`^ySnX{Q|RcRhb@yHrXuM|oAgLzgAiPt|@yUraBwEfhAq`@paBwZxo@cRdmAcPhz@}Qxr@g\\f^mJ~UqHxi@iQz~A{S||@{Cto@eGpd@qOzyAc@daAj@pm@iEjbAdBv}@fLdyAs@j^{Glc@eQfeAgSfnAkRtvBZllAz@peApJbiB\\jn@kCt^qFfvArB`gAhMrz@vu@lnClXrtAfHzz@`MtdDUdhAsE|n@wFf\\yc@drBkYd|@kXxf@aX|q@iTzoAcSnhBgQfnBm@pz@yF~oAwFt\\eLn\\qZxl@wId`@oN~qAeGl\\sNb^_\\|[g\\jh@aHfTqYvjAiMf\\oXfe@al@~k@}[pl@mV|`AkJ|z@wIhpB{Hpl@{Rhz@}Ixs@}Dl_AcFjqAuJxkAiC|`AzFjaBbZveEva@rvBpKbz@vA``@Wls@fAl{@sBn_A}SjhAu]dwA_\\xbBuNbbBeb@v|BkLbwBmAn`BdAzkBrBpfAfNrcAzJ~ZfTho@dKrr@nCphAyEpgFlEh_B|Lv_AxXtiB`Hp{@xBx}@{Ez{B_H~uAcGfz@uStrAuPjl@g[jeAgG|`@gWncDo^zgB_P||A}Nh|@_Oxl@q\\znBeYhwBoYngC{Bnj@WlqAtGnlCwAvmB_E~x@qJd{@iTbzB}RbcCuElvB_Mt|BqQxjB_FvfAwDjcB`B`gApQxzDrSldDnBhoDe@hwCtHzzClSv{BxBdnAmCbbA_ClzAcOffB{CldApAdx@hNxvAnGlfAo@tmAoFvp@iJnk@sR`o@mUjm@cNjz@}YzjBqJ|_AiBh|@uBl{BgIttA_BrvA`@jeAaKh`C`DhuAdG`{@hVnhB`Gjx@jItl@nc@fxAbZ|jA|L|s@xHbeA`Ah`Ay@rhAbAvzApGdsA|ApvA_FroAmKpr@iMh]mOpVae@je@_Yx[m`@fx@sg@t`A}U~WyLjIqJhP_BnL~BpQrEbg@oDd]|G`WrB|FrAxFbE_FnGgKz@uAhBzB~DlPjAhBrAwBfBgC"
+  },
+  "evCharging": {
+    "stopsNeeded": 0,
+    "notes": "Helsinki→Turku (170 km) ohne Ladestopp machbar. Hervorragendes Netz entlang der E18 (Recharge, K-Lataus). Vor Boarding in Turku voll laden! Viking Line bietet evtl. Laden an Bord (vorab buchen).",
+    "criticalLevel": "green"
+  },
   "activities": [
-    { "highlightRef": "Opernhaus Oslo", "note": "Begehbares Dach — Frühmorgens vor dem Touristenstrom — Blick über Fjord und Stadt" },
-    { "highlightRef": "MUNCH Museum", "note": "Neues Hochhaus am Fjord — mehrere Versionen von 'Der Schrei', 2–3 Stunden einplanen" },
-    { "highlightRef": "Vigeland-Skulpturenpark", "note": "Über 200 Skulpturen von Gustav Vigeland — kostenlos, größte Anlage eines einzelnen Künstlers weltweit" },
-    { "highlightRef": "Aker Brygge & Tjuvholmen", "note": "Nachmittags am Fjord flanieren, Boote beobachten, Kunstinsel Tjuvholmen" },
-    { "restaurantRef": "Lofotstua", "note": "Abendessen: Klippfisk und Fiskekaker aus Nordnorwegen — authentisch und unvergesslich" },
-    { "nightlifeRef": "Himkok", "note": "Eine der besten Bars der Welt — versteckter Eingang, eigene Destillerie, norwegische Cocktails" }
+    "Vormittags Fahrt Helsinki→Turku über die E18 (170 km, ~2 Std.)",
+    {
+      "highlightRef": "Burg von Turku",
+      "note": "Finnlands älteste Burg aus dem 13. Jh. — unbedingt 1,5–2 Stunden einplanen"
+    },
+    {
+      "highlightRef": "Dom von Turku",
+      "note": "Finnlands bedeutendste mittelalterliche Kirche, 10 Min. Fußweg von der Burg"
+    },
+    {
+      "highlightRef": "Aura-Fluss Promenade",
+      "note": "Nachmittagsspaziergang und Kaffee an den Restaurantbooten"
+    },
+    {
+      "restaurantRef": "Restaurant Smör",
+      "note": "Dinner am Aurajoki vor der Fähre — nordische Küche mit lokalen Zutaten"
+    },
+    "20:55 Uhr Viking Line Nachtfähre Turku→Stockholm — Kabinennacht durch den Turku-Archipel (20.000 Inseln!)"
   ]
 }

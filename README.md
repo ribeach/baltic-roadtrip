@@ -2,11 +2,11 @@
 
 **https://ribeach.github.io/baltic-roadtrip/**
 
-Statische Website zur Planung eines 18-tägigen Roadtrips durch das Baltikum mit dem VW ID.4.
+Statische Website zur Planung eines 21-tägigen Roadtrips rund um die Ostsee mit dem VW ID.4.
 
-**Route:** Aalen - Prag - Warschau - Masuren - Vilnius - Klaipeda - Kurische Nehrung - Riga - Tallinn - Helsinki - Turku - Stockholm - Oslo - Kopenhagen - Berlin - Aalen
+**Route:** Aalen - Prag - Łódź - Masuren - Vilnius - Klaipėda - Kuldīga - Riga - Pärnu - Tallinn - Helsinki - Turku - Stockholm - Halmstad - Aalen
 
-**Zeitraum:** 30. April - 17. Mai 2026 | **Strecke:** ~6.500 km | **Laender:** 10
+**Zeitraum:** 30. April - 20. Mai 2026 | **Strecke:** ~5.500 km | **Laender:** 9
 
 ## Schnellstart
 
@@ -46,9 +46,9 @@ src/
 +-- content.config.ts           # Zod-Schemas (Validierung)
 +-- content/                    # <-- HIER die Reisedaten bearbeiten
 |   +-- days/                   # Ein JSON pro Reisetag
-|   |   +-- day-01.json         # Tag 1: Aalen -> Berlin
-|   |   +-- day-02.json         # Tag 2: Berlin (1. Mai)
-|   |   +-- ...                 # Tag 3-18
+|   |   +-- day-01.json         # Tag 1: Aalen -> Prag
+|   |   +-- day-02.json         # Tag 2: Prag (1. Mai)
+|   |   +-- ...                 # Tag 3-21
 |   +-- locations/              # Ein JSON pro Ort
 |   |   +-- berlin.json
 |   |   +-- prague.json
@@ -176,7 +176,7 @@ npm run preview  # Lokale Vorschau der gebauten Seite
 | URL | Inhalt |
 |---|---|
 | `/` | Startseite mit Routenkarte und Tag-fuer-Tag-Timeline |
-| `/tag/1` bis `/tag/18` | Tagesdetail mit Fahrinfo, Aktivitaeten, EV-Ladestrategie |
+| `/tag/1` bis `/tag/21` | Tagesdetail mit Fahrinfo, Aktivitaeten, EV-Ladestrategie |
 | `/ort/berlin`, `/ort/tallinn`, etc. | Ortsdetail mit Highlights, Restaurants, Hotels, Tipps |
 | `/kulinarik` | Kulinarischer Guide: Must-Try-Gerichte pro Land |
 | `/praktisches` | EV-Laden, Faehren, Maut, Geschwindigkeiten, Waehrungen, Wetter |

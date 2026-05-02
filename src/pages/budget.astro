@@ -5,13 +5,13 @@ import { getBase } from '../lib/content';
 const base = getBase();
 
 const budgetItems = [
-  { category: 'Unterkünfte', icon: '🏨', estimate: '900–1.200 €', notes: '16 Nächte. Separate Zimmer / Apartments. Baltikum ~60–80 € p.P., Tschechien/Polen ~50–70 € p.P., Norwegen ~80–120 € p.P.' },
+  { category: 'Unterkünfte', icon: '🏨', estimate: '950–1.350 €', notes: '19 Nächte (1 Nacht ist die Turku-Nachtfähre). Separate Zimmer / Apartments. Baltikum ~60–80 € p.P., Tschechien/Polen ~50–70 € p.P., Skandinavien ~80–110 € p.P. (inkl. 3 Nächte Halmstad).' },
   { category: 'Fähren Finnland (Tallinn→Helsinki + Turku→Stockholm)', icon: '⛴️', estimate: '145–220 €', notes: 'Hälfte von 290–440 € gesamt. Tallinn→Helsinki ~50–90 € (Auto), Turku→Stockholm ~200–350 € (Auto + Kabine). <a href="https://www.vikingline.com" target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium">Viking Line</a> Turku→Stockholm früh buchen!' },
-  { category: 'E-Laden (gesamte Strecke)', icon: '⚡', estimate: '200–280 €', notes: '~3.800–4.200 km bei 18 kWh/100km, Ø 0,30–0,55 €/kWh. Baltikum deutlich günstiger als DE/SE.' },
-  { category: 'Essen & Trinken', icon: '🍽️', estimate: '700–1.000 €', notes: '18 Tage. Mix aus Markt-Mittagessen (10 €), Abendessen (25–35 €) und 2–3× Fine Dining (60–80 €).' },
-  { category: 'Eintritte & Touren', icon: '🎟️', estimate: '120–180 €', notes: 'WWII Museum, Solidarność, KGB-Museen, Burgen, Bunker-Tour, Fotografiska.' },
+  { category: 'E-Laden (gesamte Strecke)', icon: '⚡', estimate: '200–280 €', notes: '~5.800 km bei 18 kWh/100km, Ø 0,30–0,55 €/kWh. Baltikum deutlich günstiger als DE/SE.' },
+  { category: 'Essen & Trinken', icon: '🍽️', estimate: '750–1.100 €', notes: '21 Tage. Mix aus Markt-Mittagessen (10 €), Abendessen (25–35 €) und 2–3× Fine Dining (60–80 €).' },
+  { category: 'Eintritte & Touren', icon: '🎟️', estimate: '120–180 €', notes: 'KGB-Museen, Burgen, Līgatne-Bunker-Tour, Lennusadam, Fotografiska, Suomenlinna.' },
   { category: 'Fähre Heimreise', icon: '⛴️', estimate: '30–50 €', notes: 'Hälfte von 60–100 € gesamt. Rødby→Puttgarden (Scandlines, alle 30 Min., ~45 Min., ca. 60–100 € mit Auto).' },
-  { category: 'Maut & Brücken & Parken', icon: '🛣️', estimate: '100–150 €', notes: 'Stockholm City-Maut, Parkgebühren, Øresundbrücke (~63 €), tschechische E-Vignette (~12 €), norwegische AutoPASS-Maut.' },
+  { category: 'Maut & Brücken & Parken', icon: '🛣️', estimate: '90–140 €', notes: 'Stockholm City-Maut, Parkgebühren, Øresundbrücke (~63 €), tschechische E-Vignette (~12 €). Keine norwegische AutoPASS-Maut mehr (Oslo entfällt).' },
   { category: 'Sonstiges', icon: '🛍️', estimate: '100–150 €', notes: 'Souvenirs, <a href="https://www.rigablack.com/en" target="_blank" rel="noopener noreferrer" class="text-amber-500 hover:text-amber-600 font-medium">Riga Black Balsam</a>, Trinkgelder, Unvorhergesehenes.' },
 ];
 
@@ -26,16 +26,15 @@ const totalHigh = budgetItems.reduce((sum, item) => {
 }, 0);
 
 const countryBreakdown = [
-  { country: '🇩🇪 Deutschland', nights: '1 + Rückreise', accommodation: '110–160 €', food: '50–80 €', charging: '20–30 €', other: '10–20 €' },
-  { country: '🇨🇿 Tschechien', nights: '1', accommodation: '45–65 €', food: '25–40 €', charging: '10–15 €', other: '15–25 €' },
-  { country: '🇵🇱 Polen', nights: '3 (inkl. Masuren)', accommodation: '130–220 €', food: '70–110 €', charging: '25–40 €', other: '15–25 €' },
-  { country: '🇱🇹 Litauen', nights: '4 (inkl. Nida)', accommodation: '200–320 €', food: '150–220 €', charging: '30–40 €', other: '40–60 €' },
-  { country: '🇱🇻 Lettland', nights: '2', accommodation: '90–150 €', food: '80–120 €', charging: '15–25 €', other: '25–40 €' },
-  { country: '🇪🇪 Estland', nights: '2', accommodation: '100–170 €', food: '80–120 €', charging: '15–25 €', other: '40–60 €' },
-  { country: '🇫🇮 Finnland', nights: '0 (Tagesausflug)', accommodation: '—', food: '30–50 €', charging: '—', other: '30–60 €' },
-  { country: '🇸🇪 Schweden', nights: '0 (Transit)', accommodation: '—', food: '30–50 €', charging: '25–35 €', other: '10–20 €' },
-  { country: '🇳🇴 Norwegen', nights: '2', accommodation: '160–250 €', food: '100–160 €', charging: '20–30 €', other: '20–40 €' },
-  { country: '🇩🇰 Dänemark', nights: '1', accommodation: '70–100 €', food: '40–60 €', charging: '10–20 €', other: '65–80 €' },
+  { country: '🇩🇪 Deutschland', nights: '0 (Transit + Heimreise)', accommodation: '—', food: '40–70 €', charging: '20–30 €', other: '10–20 €' },
+  { country: '🇨🇿 Tschechien', nights: '2 (Prag)', accommodation: '90–130 €', food: '50–80 €', charging: '10–15 €', other: '20–35 €' },
+  { country: '🇵🇱 Polen', nights: '2 (Łódź + Masuren)', accommodation: '90–150 €', food: '50–80 €', charging: '25–40 €', other: '15–25 €' },
+  { country: '🇱🇹 Litauen', nights: '3 (Vilnius + 2× Klaipėda)', accommodation: '150–240 €', food: '120–180 €', charging: '25–35 €', other: '30–50 €' },
+  { country: '🇱🇻 Lettland', nights: '4 (2× Kuldīga + 2× Riga)', accommodation: '180–300 €', food: '150–220 €', charging: '20–30 €', other: '40–60 €' },
+  { country: '🇪🇪 Estland', nights: '3 (Pärnu + 2× Tallinn)', accommodation: '160–270 €', food: '120–180 €', charging: '20–30 €', other: '40–60 €' },
+  { country: '🇫🇮 Finnland', nights: '2 (Helsinki)', accommodation: '160–260 €', food: '90–140 €', charging: '15–25 €', other: '30–60 €' },
+  { country: '🇸🇪 Schweden', nights: '3 (Halmstad inkl. Remote Work)', accommodation: '210–340 €', food: '120–180 €', charging: '30–40 €', other: '20–40 €' },
+  { country: '🇩🇰 Dänemark', nights: '0 (Transit Heimreise)', accommodation: '—', food: '20–40 €', charging: '10–20 €', other: '65–80 €' },
 ];
 ---
 
@@ -43,7 +42,7 @@ const countryBreakdown = [
   <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <div class="mb-10">
       <h1 class="text-3xl md:text-4xl font-extrabold text-navy-800">💰 Budgetplanung</h1>
-      <p class="text-lg text-gray-600 mt-2">Kostenschätzung pro Person für 18 Tage. Gehobene Mittelklasse — gute Hotels, gutes Essen, keine Kompromisse bei Erlebnissen.</p>
+      <p class="text-lg text-gray-600 mt-2">Kostenschätzung pro Person für 21 Tage. Gehobene Mittelklasse — gute Hotels, gutes Essen, keine Kompromisse bei Erlebnissen.</p>
     </div>
 
     <!-- Total Summary -->
