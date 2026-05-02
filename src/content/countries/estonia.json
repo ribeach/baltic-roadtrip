@@ -29,5 +29,17 @@
       "Vana Tallinn (Likör)"
     ],
     "description": "Estlands Küche verbindet nordische Schlichtheit mit mittelalterlichem Erbe. In Tallinns Altstadt speist man in Gewölbekellern Gerichte, die sich seit Jahrhunderten kaum verändert haben. Kiluvõileib — Sprotten auf dunklem Brot — ist das estnische Sinnbild für ehrliches Essen, und der Vana Tallinn Likör rundet jeden Abend perfekt ab."
-  }
+  },
+  "phrases": [
+    { "de": "Hallo", "local": "Tere", "pronunciation": "TEH-reh" },
+    { "de": "Auf Wiedersehen", "local": "Nägemist", "pronunciation": "NÄ-geh-mist" },
+    { "de": "Bitte", "local": "Palun", "pronunciation": "PA-lun" },
+    { "de": "Danke", "local": "Aitäh", "pronunciation": "AI-täh" },
+    { "de": "Ja", "local": "Jah", "pronunciation": "jah" },
+    { "de": "Nein", "local": "Ei", "pronunciation": "ei" },
+    { "de": "Entschuldigung", "local": "Vabandust", "pronunciation": "WA-ban-dust" },
+    { "de": "Prost", "local": "Terviseks", "pronunciation": "TER-wi-seks" },
+    { "de": "Guten Appetit", "local": "Head isu", "pronunciation": "hehd ISS-u" },
+    { "de": "Sprechen Sie Englisch?", "local": "Kas te räägite inglise keelt?", "pronunciation": "kass teh RÄÄ-gi-teh ING-li-seh keelt" }
+  ]
 }

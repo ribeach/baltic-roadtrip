@@ -26,5 +26,17 @@
       "Smørbrød (belegtes Brot)"
     ],
     "description": "Norwegens Küche wird von der New-Nordic-Bewegung geprägt: frische Meeresfrüchte, Wildgerichte und Foraging stehen im Mittelpunkt. Oslo hat sich zur kulinarischen Hauptstadt Skandinaviens entwickelt. Für den schnellen Hunger unterwegs: Pølse (Hot Dog) an jeder Tankstelle."
-  }
+  },
+  "phrases": [
+    { "de": "Hallo", "local": "Hei", "pronunciation": "hei" },
+    { "de": "Auf Wiedersehen", "local": "Ha det", "pronunciation": "ha deh" },
+    { "de": "Bitte", "local": "Vær så snill", "pronunciation": "wer so snill" },
+    { "de": "Danke", "local": "Takk", "pronunciation": "takk" },
+    { "de": "Ja", "local": "Ja", "pronunciation": "jah" },
+    { "de": "Nein", "local": "Nei", "pronunciation": "nei" },
+    { "de": "Entschuldigung", "local": "Unnskyld", "pronunciation": "OON-schüld" },
+    { "de": "Prost", "local": "Skål", "pronunciation": "skohl" },
+    { "de": "Guten Appetit", "local": "God appetitt", "pronunciation": "god a-peh-TIT" },
+    { "de": "Sprechen Sie Englisch?", "local": "Snakker du engelsk?", "pronunciation": "SNAK-ker du ENG-elsk" }
+  ]
 }

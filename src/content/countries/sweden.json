@@ -27,5 +27,17 @@
       "Craft Beer Szene"
     ],
     "description": "Schwedische Küche ist weit mehr als IKEA-Köttbullar. Frischer Fisch, Preiselbeeren und saisonale Zutaten bestimmen den Speiseplan. In Stockholm und Göteborg hat sich zudem eine lebhafte Craft-Beer-Szene entwickelt, und die allgegenwärtigen Kanelbullar sind der perfekte Begleiter zur schwedischen Fika-Kaffeepause."
-  }
+  },
+  "phrases": [
+    { "de": "Hallo", "local": "Hej", "pronunciation": "hej" },
+    { "de": "Auf Wiedersehen", "local": "Hej då", "pronunciation": "hej do" },
+    { "de": "Bitte", "local": "Snälla", "pronunciation": "SNEL-la" },
+    { "de": "Danke", "local": "Tack", "pronunciation": "tack" },
+    { "de": "Ja", "local": "Ja", "pronunciation": "jah" },
+    { "de": "Nein", "local": "Nej", "pronunciation": "nej" },
+    { "de": "Entschuldigung", "local": "Ursäkta", "pronunciation": "oor-SCHEK-ta" },
+    { "de": "Prost", "local": "Skål", "pronunciation": "skohl" },
+    { "de": "Guten Appetit", "local": "Smaklig måltid", "pronunciation": "SMAK-lig MOHL-tid" },
+    { "de": "Sprechen Sie Englisch?", "local": "Pratar du engelska?", "pronunciation": "PRA-tar du ENG-els-ka" }
+  ]
 }

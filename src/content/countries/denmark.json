@@ -26,5 +26,17 @@
       "Wienerbrød (Kopenhagener Gebäck)"
     ],
     "description": "Dänemark ist Heimat der New Nordic Cuisine, aber auf dem Durchreise-Stopp locken vor allem die klassischen Smørrebrød — kunstvoll belegte Roggenbrote mit Hering, Ei oder Roastbeef. An Raststätten gibt es die legendären roten Pølser-Wagen."
-  }
+  },
+  "phrases": [
+    { "de": "Hallo", "local": "Hej", "pronunciation": "hai" },
+    { "de": "Auf Wiedersehen", "local": "Farvel", "pronunciation": "far-WELL" },
+    { "de": "Bitte", "local": "Vær så venlig", "pronunciation": "wer so WEN-li" },
+    { "de": "Danke", "local": "Tak", "pronunciation": "tak" },
+    { "de": "Ja", "local": "Ja", "pronunciation": "ja" },
+    { "de": "Nein", "local": "Nej", "pronunciation": "nai" },
+    { "de": "Entschuldigung", "local": "Undskyld", "pronunciation": "OON-skül" },
+    { "de": "Prost", "local": "Skål", "pronunciation": "skohl" },
+    { "de": "Guten Appetit", "local": "Velbekomme", "pronunciation": "WEL-beh-kom-meh" },
+    { "de": "Sprechen Sie Englisch?", "local": "Taler du engelsk?", "pronunciation": "TAH-ler du ENG-elsk" }
+  ]
 }
