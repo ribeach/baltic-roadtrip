@@ -75,7 +75,25 @@
       "userRatingCount": 2742
     }
   ],
-  "hotels": [],
+  "hotels": [
+    {
+      "name": "Apvalaus Stalo Klubas Hotel",
+      "type": "Boutique-Hotel am Galvė-See",
+      "priceRange": "150-250€",
+      "isSplurge": true,
+      "evCharging": false,
+      "description": "Historisches Boutique-Hotel an der Karaimų-Straße, nur wenige Schritte vom Galvė-See entfernt mit Blick zur Inselburg. Eigenes Restaurant mit gehobener litauischer Küche und ruhiger Lage abseits der Tagesausflügler.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Apvalaus%20Stalo%20Klubas%20restaurant%20and%20hotel&query_place_id=ChIJX_TDtLPz3UYRwCc9CWORNaM",
+      "placeId": "ChIJX_TDtLPz3UYRwCc9CWORNaM",
+      "coordinates": {
+        "lat": 54.6496435,
+        "lng": 24.930711
+      },
+      "rating": 4.4,
+      "userRatingCount": 1211,
+      "visited": true
+    }
+  ],
   "tips": [
     {
       "type": "info",
