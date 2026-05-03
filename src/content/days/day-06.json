@@ -1,34 +1,42 @@
 {
   "dayNumber": 6,
   "date": "2026-05-05",
-  "title": "Klaipėda — Hansestadt-Bummel und Erholung",
-  "subtitle": "Memel-Altstadt, Brauerei und entspannter Tag nach langer Etappe",
+  "title": "Von Trakai über Kaunas nach Klaipėda",
+  "subtitle": "Litauens zweitgrößte Stadt als Mittagsstopp, Ankunft an der Memel",
   "locationId": "klaipeda",
-  "previousLocationId": null,
+  "previousLocationId": "trakai",
   "overnightLocationId": "klaipeda",
-  "additionalLocationIds": [],
-  "transitLocationIds": [],
-  "driving": null,
-  "evCharging": null,
+  "additionalLocationIds": [
+    "trakai",
+    "kaunas"
+  ],
+  "transitLocationIds": [
+    "kaunas"
+  ],
+  "driving": {
+    "distance": "~310 km",
+    "duration": "~3:30",
+    "mode": "drive",
+    "routeDescription": "Gemütlicher Aufbruch aus Trakai nach dem Frühstück, kurze A1-Etappe (~100 km) bis Kaunas für einen Mittagsstopp an der Laisvės Alėja. Anschließend die längste Teilstrecke auf der A1/E85 von Kaunas bis Klaipėda (~210 km, 2,5 Std.) ans Memel-Ufer.",
+    "encodedPolyline": "cuolIi`ewCuAdIqDeE}O`McDvB_DhQuHt`@gG|NkCnM}a@nMoPrHcKrLuHXeIlFeMlLiHXmOkGmTdB}OpSaTvNkKnK}LxJ}PtEiOzE{FpI{b@zv@oRdRyVva@o`@dMwLzOqKfBiQwSog@yQsc@dKsLnFeKtSy]nbAga@pz@}a@fn@}JvFkc@g@sU`Iue@cZcABh@Rz@|KrAth@sHx{@_q@|yD}w@tlNiR`_Hud@`bRkIheDsVrcEeSnhCgYhzCef@txDex@|~Ek`AfjFytAhiH_iAxkHwzAhrHwbArwFcd@p_Ckk@raC}kAn`FijAdjDoPjt@sDdqAcJnaDwW|sG{Ij`B{@`aAeF|oEyGtV_@bFG`E`E~@nCt@vA`@zInCnInCnQ`Gn|@tQxf@~L~TbXnm@xoAn@dHvBn@fMuC~BuZ}@ke@hBjSeCpi@sCzCoHyBiDeCkAxBeIrVuB~H_KyGwc@nAaNiQeB}BY|LUzF_C|B}QuPcS{M}C^_NfJ{p@pf@wQhImNeAqF|BoNxZcPpMepAd~@{gBhmAecEjzAytFlpBk{C~c@q\\|EcsAdV_`@f]y]jv@{p@`cBsoBphEotDdzHe{DhiIwhAzqBwu@npAa^d|@qb@zkB{\\jrBqh@vcCao@|vC{^x~Bgd@zoCsaAluEgc@jrBqg@faDsk@`iFui@luG{O|tAwJne@{k@bmBe{A~}Eif@`~AkW~kA{DbZmMrjCsIvoCcRp}Bae@ndEyRb~AcZtaB}aA|}E{W`rA}^zbCgkA~wJkfAhcHs~@dnEqXbjAg}@j~CwRzn@yPphAuRr|Dm\\|pB}Nng@ay@d{Bc}@tvBeaBd}CqVfu@iN~m@eRfbBmQbjDoNlxAab@lyBgVfyBwf@b|EkKlmDaRx{BkWnbB{MzkA}GxvAuHroDwEx~@{Q~~AsObcAcSjgA_[xdAqZrv@u]dgAwMno@uXzqCyH||@wTdoBuYhbAep@pxB}ZxtBaXtaEcNzuAeQjdAsY|hAmfApmCio@hqA_]ny@ec@nbB_f@zbDaOf|AaJvjCkMdwCcQf|A_rA|{GwVnpCmVnvDqSx`BaYfrC{HvkCe@hfAsIf{CwIt~@aXd_BgY~sA_ZflB{e@x|Cu[jlA{uAjkDgQpn@oNvt@oOltAw_@vbFu]fnDuHjgBsGxaDcEh{HmBflCcGdfAgObmAko@poCco@rmCiUhuBcDzhAhAj{A~OpqBnVvrBfd@|vDxuAvgLnXxzBh`@jbCnOjw@lEhd@cl@t}@k]lg@nBzt@xFlq@"
+  },
+  "evCharging": {
+    "stopsNeeded": 1,
+    "notes": "Ein Schnellladestopp in Kaunas während des Stadtbummels reicht für die Etappe nach Klaipėda. Ladestation an der Laisvės Alėja oder am Akropolis-Einkaufszentrum.",
+    "criticalLevel": "green"
+  },
   "activities": [
-    "Ausschlafen nach der langen Etappe von gestern — kein Zeitdruck",
+    "Frühstück mit Burgblick im Apvalaus Stalo Klubas, gemütlicher Aufbruch",
     {
-      "highlightRef": "Altstadt mit Fachwerkhäusern",
-      "note": "Vormittags ausgiebig durch das Memel-Quartier streifen — Theaterplatz mit Ännchen-von-Tharau-Brunnen, Dane-Promenade, kleine Hofdurchgänge und versteckte Skulpturen"
+      "highlightRef": "Laisvės Alėja (Freiheitsallee)",
+      "note": "Mittagsstopp in Kaunas auf einer der längsten Fußgängerzonen Europas — Kaffee, Mittagessen und kurzer Bummel, parallel laden"
     },
-    "Am Burghafen die Bronze-Skulptur „Juodasis Vaiduoklis“ (Schwarzer Geist) suchen — 2,4 m hohe Kapuzengestalt, halb aus dem Wasser ragend",
-    {
-      "highlightRef": "Švyturys-Brauerei",
-      "note": "Nachmittags Führung mit Verkostung — Litauens älteste Brauerei (gegründet 1784), das Švyturys Ekstra ist ein Klassiker"
-    },
+    "Nachmittags A1/E85 von Kaunas bis Klaipėda (~210 km)",
+    "Späte Ankunft in Klaipėda — Check-in und entspannter Abend",
     {
       "restaurantRef": "Friedricho Pasažas",
       "note": "Abendessen in stilvoller historischer Passage — moderne litauische Küche mit frischem Ostseefisch"
     },
-    {
-      "restaurantRef": "Memelio Baras",
-      "note": "Optional zum Ausklang — gemütliche Craft-Beer-Bar mit guter Auswahl litauischer Mikrobrauereien"
-    },
-    "Hinweis: Vor der Kurischen Nehrung morgen unbedingt auf 100 % laden — Renerga 120 kW-Schnelllader an der Baltijos pr. 40"
+    "Hinweis: Vor der Kurischen Nehrung übermorgen unbedingt auf 100 % laden — Renerga 120 kW-Schnelllader an der Baltijos pr. 40"
   ]
 }
