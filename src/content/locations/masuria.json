@@ -11,6 +11,7 @@
   "highlights": [
     {
       "name": "Hotel Zamek Ryn (Ordensburg)",
+      "visited": true,
       "type": "architecture",
       "icon": "star",
       "description": "Die vollständig restaurierte Ordensburg des Deutschen Ordens aus dem 14. Jahrhundert dient heute als 4-Sterne-Hotel. Auch ohne Übernachtung lohnt sich ein Rundgang durch die gotischen Gewölbe, den Innenhof und die Burgmauern mit Blick auf den Ryńskie-See.",
@@ -27,6 +28,7 @@
     },
     {
       "name": "Wolfsschanze (Wilczy Szaniec)",
+      "visited": true,
       "type": "museum",
       "icon": "star",
       "description": "Hitlers Hauptquartier an der Ostfront — riesige, moosbewachsene Betonbunker im dichten Wald bei Kętrzyn. Hier fand das Stauffenberg-Attentat vom 20. Juli 1944 statt. Ein beklemmender, aber historisch unverzichtbarer Ort. Am besten mit dem optionalen Audioguide erkunden.",
@@ -43,6 +45,7 @@
     },
     {
       "name": "Masurische Seenplatte",
+      "visited": true,
       "type": "nature",
       "icon": "gem",
       "description": "Über 2.000 Seen, endlose Kiefernwälder und Störche auf jedem zweiten Dach — Masuren ist Polens grüne Lunge. Ein Spaziergang am Ufer des Ryńskie- oder Niegocin-Sees am Abend gehört zu den stillen Höhepunkten der Reise.",
@@ -156,6 +159,7 @@
   "hotels": [
     {
       "name": "Hotel Zamek Ryn",
+      "visited": true,
       "type": "Ordensburg-Hotel (4 Sterne)",
       "priceRange": "100-180€",
       "evCharging": false,

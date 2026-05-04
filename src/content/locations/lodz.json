@@ -11,6 +11,7 @@
   "highlights": [
     {
       "name": "Manufaktura",
+      "visited": true,
       "type": "architecture",
       "icon": "star",
       "description": "Europas größtes renoviertes Industriegelände — die ehemalige Textilfabrik von Izrael Poznański wurde in ein beeindruckendes Kultur-, Einkaufs- und Unterhaltungszentrum verwandelt.",
@@ -27,6 +28,7 @@
     },
     {
       "name": "Piotrkowska-Straße",
+      "visited": true,
       "type": "architecture",
       "icon": "star",
       "description": "Eine der längsten Einkaufsstraßen Europas (4,2 km) — gesäumt von Jugendstilbauten, Cafés, Galerien und Denkmälern. Das pulsierende Herz der Stadt.",
@@ -93,6 +95,7 @@
   "restaurants": [
     {
       "name": "Anatewka",
+      "visited": true,
       "cuisine": "Jüdisch-Polnisch",
       "priceRange": "€€",
       "description": "Jüdisch-polnische Küche, die das multikulturelle Erbe von Łódź auf den Teller bringt. Das liebevoll eingerichtete Restaurant erinnert an die Zeit, als die Stadt eines der größten jüdischen Zentren Europas war.",
@@ -155,6 +158,7 @@
   "hotels": [
     {
       "name": "PURO Łódź Centrum",
+      "visited": true,
       "type": "Design-Boutique-Hotel",
       "priceRange": "70-110€",
       "isSplurge": true,
