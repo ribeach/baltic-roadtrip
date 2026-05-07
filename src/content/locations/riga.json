@@ -165,7 +165,8 @@
         "lng": 23.4594399
       },
       "rating": 4.9,
-      "userRatingCount": 1157
+      "userRatingCount": 1157,
+      "visited": true
     },
     {
       "name": "Lettisches Nationalkunstmuseum",
@@ -376,19 +377,19 @@
       "userRatingCount": 1400
     },
     {
-      "name": "Mercure Riga Centre",
-      "type": "Stadthotel (Kette)",
+      "name": "Aparthotel Aurum",
+      "type": "Aparthotel",
       "priceRange": "85-130€",
       "evCharging": false,
-      "description": "Zentrales Mercure-Hotel an der Elizabetes iela mit guter Anbindung zur Altstadt und zum Zentralmarkt. Übernachtungsort 7.–9. Mai 2026 als spontane Wahl auf der Anreise von Kap Kolka.",
-      "googleMapsUrl": "https://maps.google.com/?cid=5676881862379062388",
-      "placeId": "ChIJb0SYsCzO7kYRdET29vlVyE4",
+      "description": "Modernes 3-Sterne-Aparthotel an der Dzirnavu iela mit voll ausgestatteten Apartments (Küche, Smart-TV, Klimaanlage). Knapp 1 km zum Freiheitsdenkmal, ca. 13 Min Fußweg zur Altstadt. Übernachtungsort am 7. Mai 2026 nach der Kap-Kolka-Etappe.",
+      "googleMapsUrl": "https://maps.google.com/?cid=14404450821416650512",
+      "placeId": "ChIJ71ufcADP7kYREIcfO7Tj5sc",
       "coordinates": {
-        "lat": 56.9475978,
-        "lng": 24.1238693
+        "lat": 56.9497454,
+        "lng": 24.1250016
       },
-      "rating": 4.2,
-      "userRatingCount": 2357,
+      "rating": 4.9,
+      "userRatingCount": 16,
       "visited": true
     }
   ],
