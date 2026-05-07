@@ -2,32 +2,45 @@
   "dayNumber": 9,
   "date": "2026-05-08",
   "status": "planned",
-  "title": "Riga: Zentralmarkt und Sowjetbunker bei Līgatne",
-  "subtitle": "Markthallen vormittags, Tagesausflug zum geheimen Bunker im Gauja-Tal nachmittags",
+  "title": "Riga-Ruhetag — Freilichtmuseum und Jūrmala",
+  "subtitle": "Vormittag im Ethnografischen Freilichtmuseum am Jugla-See, Mittag und Bohlensteg in Jūrmala, zweite Nacht im Aparthotel Aurum",
   "locationId": "riga",
   "previousLocationId": null,
   "overnightLocationId": "riga",
   "additionalLocationIds": [
-    "sigulda-gauja"
+    "jurmala"
   ],
-  "driving": null,
-  "evCharging": null,
+  "transitLocationIds": [
+    "jurmala"
+  ],
+  "driving": {
+    "distance": "~85 km",
+    "duration": "~1:45",
+    "mode": "drive",
+    "routeDescription": "Vormittagsfahrt 12 km nordöstlich zum Lettischen Ethnografischen Freilichtmuseum am Jugla-See, dann ~30 km westlich auf der A10 nach Jūrmala für Mittag und Dzintari-Bohlensteg, am späten Nachmittag zurück nach Riga zum Aparthotel Aurum. Tageskilometer absichtlich niedrig — heute ist ein echter Ruhetag, kein Sightseeing-Marathon."
+  },
+  "evCharging": {
+    "stopsNeeded": 0,
+    "notes": "Morgens am Galleria Riga (Eleport, 2× 200 kW) oder Domina Shopping voll laden, dann reicht der Akku locker für die Tagesschleife. Am späten Nachmittag in Riga nochmal auf 100% laden — morgen früh 70 km zur Bunker-Etappe, Vollladung gibt Ruhe.",
+    "criticalLevel": "green"
+  },
   "activities": [
+    "Langes Frühstück im Aparthotel Aurum — Aurum hat strenge Ruhezeiten bis 08:00, perfekt für einen späten Start",
     {
-      "highlightRef": "Rigaer Zentralmarkt",
-      "note": "Vormittags durch die fünf ehemaligen Zeppelin-Hangars — frisches Brot, Räucherfisch und lettischer Käse"
+      "highlightRef": "Lettisches Ethnografisches Freilichtmuseum",
+      "note": "Vormittagsspaziergang durch 87 Hektar Pinienwald am Jugla-See — 118 historische lettische Bauernhäuser, Windmühlen und Fischerhütten. Naturnah ohne Anstrengung, der ideale Ruhetag-Auftakt"
     },
-    "Mittagessen am Markt — Lettische Spezialitäten direkt vom Stand probieren",
-    "Aufbruch über die A2 nach Līgatne — ~90 km, ~1:15 Std. ins Gauja-Tal (Roundtrip von Riga ~180 km, mit voller Batterie problemlos)",
+    "Mittagessen in Jūrmala an der Jomas iela — 30 km westlich auf der A10 (Mobilly-Maut ~€2). Schnelle bistro-Pause, keine ausgedehnte Strandwanderung",
+    "Kurzer Spaziergang am Dzintari-Bohlensteg durch den Pinienpark; optional auf den 38 m hohen Dzintari-Aussichtsturm (kostenlos) für den Rigaer-Bucht-Panoramablick",
+    "Rückfahrt nach Riga am späten Nachmittag — zweite Nacht im Aparthotel Aurum (bereits gebucht). Auto am Galleria Riga oder am Hotel selbst auf 100% laden",
     {
-      "highlightRef": "Līgatne Geheimer Sowjetbunker",
-      "note": "Nachmittags die surreale Führung unter dem Sanatorium — vorab buchen! Nur geführte Touren zu festen Zeiten"
+      "restaurantRef": "Lidojošā varde",
+      "note": "Unkompliziertes Abendessen in der Altstadt — lettische Kartoffelpuffer mit Sauerrahm, Hausmannskost ohne Showeffekt, perfekt für einen Ruhetag-Ausklang"
     },
-    "Rückfahrt nach Riga am späten Nachmittag",
     {
-      "restaurantRef": "Folkklubs Ala Pagrabs",
-      "note": "Abendessen in der Bierhalle — graue Erbsen mit Speck und lettisches Bier vom Fass"
+      "nightlifeRef": "Black Magic Bar",
+      "note": "Optional: ein Black-Balsam-Cocktail im mittelalterlichen Apothekengewölbe als ruhiger Abendabschluss"
     },
-    "Übernachtung wieder im Mercure Riga Centre"
+    "Schlechtwetter-Backup: Freilichtmuseum-Hallen und überdachte Bauernhof-Pavillons decken das Outdoor-Programm ab. Wenn es trotzdem grau bleibt, einen längeren Riga-Altstadt-Café-Bummel und Lettisches Nationalkunstmuseum als Indoor-Backup einlegen"
   ]
 }

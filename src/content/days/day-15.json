@@ -1,52 +1,52 @@
 {
   "dayNumber": 15,
   "date": "2026-05-14",
-  "title": "Fähre nach Helsinki",
-  "subtitle": "Über die Ostsee von der mittelalterlichen in die modernste Hauptstadt Europas",
-  "locationId": "helsinki",
-  "previousLocationId": "tallinn",
-  "overnightLocationId": "helsinki",
+  "status": "planned",
+  "title": "Stockholm Stadsgården → Norrköping → Glasriket Småland",
+  "subtitle": "Christi Himmelfahrt — Stockholm umfahren, Norrköpings Industrielandschaft, Übernachtung im Kosta Boda Art Hotel",
+  "locationId": "kosta-smaland",
+  "previousLocationId": "turku",
+  "overnightLocationId": "kosta-smaland",
+  "additionalLocationIds": [
+    "stockholm"
+  ],
+  "transitLocationIds": [
+    "stockholm"
+  ],
   "driving": {
-    "distance": "85 km",
-    "duration": "2:00",
-    "mode": "ferry",
-    "routeDescription": "Autofähre Tallinn→Helsinki (Eckerö Line oder Tallink, ca. 2 Std.). Auto an Bord, Frühstück auf der Fähre. Ankunft Helsinki Hafen gegen 09:30.",
-    "encodedPolyline": "{wwiJmravCPIL]H{@e@eBMYMEGDK\\KpAGBK\\ITIFKCuB{AkAOuAAgF^i@Bs@JGIKCIEEIEWCQp@uCt@uDn@eDh@iD^sEFaBBmF?iBEwA_@sFg@_Fi@uEk@gEyAqNaD{UcAuHwDcYmAuJSyCKwCA_Bm@Aq@Lq@T_@Te@`@Y`@g@xAq@xCMv@Lp@DXlBjIfA`GtBrNpBtM\\jFUHo@Lo@F{@WcAaAwF_EaXyn@uBsFgBcCkBiAsDs@yKAcZ|BwCp@cYrGm{DfuAgf@tXwz@pj@}kBnqAuqEdyCc}F`yDa_@~LiYdBk]mEsToGce@w[sYmWwqB_kBcrG{|FwiAkiA}~AuvAojOgxJ_zDo~@ym`@moF}fLs_BeaLi`@qCs@}iA{iA}@i@w@CSVu@`Bc@zBoAyA_DqDgEsEy@aAOCIDYp@IFI@U?QDSCQQq@u@cAcAYOWC_@?A?g@NEFYfAU\\]LqFf@a@H}BTs@?mB\\m@c@So@OYMKOAqD\\a@JI?SOQ[Qu@Mi@Yy@ISGNU^u@jAqAlBy@jAEDQDcBJcBJcAOeIr@Y@S?_@MWSc@UcCFC_BIaAc@{BOo@Qm@o@y@MIGOOa@]{AiBuI}@uEf@w@@CQo@Kg@]{Aq@iDiA{FqByIQs@CIMIMC?mBBmNGoACULSXs@f@eBQcBAs@OgF@_@?Q@YHUBCl@GRAJMJQHOFV^jAJXj@tB"
+    "distance": "~370 km",
+    "duration": "~5:00",
+    "mode": "drive",
+    "routeDescription": "Stockholm Stadsgården 06:30 → E4 südwärts ohne Stadtbummel → Norrköping Industrilandskapet (~160 km, 1:45) → Värnamo Bredasten Ionity-Hub auf der E4 → Abzweig nach Lessebo/Kosta (~210 km, 2:30). Christi Himmelfahrt = leichter Verkehr (alle sind schon am Wochenende), aber kleinere Cafés und Museen geschlossen — Outdoor-Programm und Hotel-Restaurant tragen den Tag."
   },
   "evCharging": {
-    "stopsNeeded": 0,
-    "notes": "Keine Ladestopps nötig — kurze Fährfahrt. In Helsinki hervorragendes Ladenetz (Recharge, K-Lataus). Bequem beim Sightseeing laden.",
+    "stopsNeeded": 1,
+    "notes": "🎯 Värnamo Bredasten Ionity-Hub (16 Plätze, 350 kW × 4 + 200 kW × 12, eröffnet 2025) ist Schwedens größter Ionity und der natürliche Lade- und Mittagspause-Stop. Backup: Ionity Jönköping (Elmiavägen 11) oder Ionity Mantorp. Kosta Boda Art Hotel hat Destination-Lader für die Nacht.",
     "criticalLevel": "green"
   },
   "activities": [
-    "Frühfähre Tallinn→Helsinki (07:30 Uhr, ~2 Std.) — Auto an Bord, Frühstück auf der Fähre",
+    "06:30 Ankunft Stockholm Stadsgården — Vikingterminalen am Södermalm-Wasser, NICHT Värtahamnen (das ist Tallink)",
+    "Frühstück: Johan & Nyström (Swedenborgsgatan 7, oft an Christi Himmelfahrt geöffnet) oder ein 7-Eleven am Slussen — gezielter Kurz-Stopp, nicht Stockholm-Sightseeing. Vasa, Skansen und Fotografiska öffnen alle erst um 10:00, das wären drei verlorene Fahrtstunden",
+    "07:30 — auf der E4 südwärts. An Christi Himmelfahrt ist der Verkehr leicht, weil die Schweden längst zu ihren Sommer-Cottages gefahren sind",
     {
-      "highlightRef": "Marktplatz & Alte Markthalle (Vanha Kauppahalli)",
-      "note": "Ankunft Helsinki ~09:30 — Lachssuppe zum zweiten Frühstück"
+      "highlightRef": "Norrköping Industrilandskapet",
+      "note": "🎯 10:30–12:30 — Schwedens schönster Industriekultur-Spaziergang: rote Backstein-Mühlen am Motala-Strom, echte Wasserfälle zwischen den Häusern, das Strykjärnet ('Bügeleisen') als brutalistisches Highlight. Selbstgeführt, kostenlos, vollständig outdoor (also Christi-Himmelfahrt-tauglich). Park bei Kungsgatan/Holmen"
     },
     {
-      "highlightRef": "Dom von Helsinki",
-      "note": "Kurzer Fotostopp am Senatsplatz"
+      "restaurantRef": "Knäppingsborg — Norrköping Cafés",
+      "note": "12:30 Mittagspause im Knäppingsborg-Innenhof — Pappa Grappa oder Brogyllen sind beide am Feiertag verlässlich offen. Kanelbullar, Lachs-Sandwich"
     },
+    "13:00 — weiter auf der E4 südwärts, ~210 km bis Lessebo/Kosta",
+    "🎯 14:30 — Värnamo Bredasten Ionity-Stop, ~30 Min. Schnellladen plus Beine vertreten",
     {
-      "highlightRef": "Felsenkirche Temppeliaukio",
-      "note": "In den Fels gesprengte Kirche — einzigartig, 30 Min. reichen"
+      "highlightRef": "Kosta Glasbruk — Hot Shop",
+      "note": "16:00–17:00 — der Hot Shop läuft typisch Mo-Fr bis 15:00, am Christi-Himmelfahrt-Tag oft kein aktives Glas-Blasen, aber Outlet, Showroom und das angeschlossene Glasmuseum sind in der Regel offen. Beim Hotel-Empfang nachfragen"
     },
+    "17:30 — Check-in im Kosta Boda Art Hotel: WICHTIG zwei Standard-Doppelzimmer separat gebucht. 102 Zimmer, Glas-Bar aus mundgeblasenem Kristall, Spa, drei Indoor-Pools",
     {
-      "highlightRef": "Design District",
-      "note": "Nachmittags durch Helsinkis kreatives Viertel — Boutiquen und Galerien"
+      "restaurantRef": "Restaurant Linnéa — Kosta Boda Art Hotel",
+      "note": "19:30 — Hauseigenes Restaurant. An Christi Himmelfahrt funktioniert es zuverlässig, wenn andere Småland-Restaurants geschlossen sind. Geräucherte Forelle, Småland-Wild, hausgemachtes Knäckebrot"
     },
-    {
-      "highlightRef": "Oodi Zentralbibliothek",
-      "note": "Architektur-Highlight: Finnlands Vorzeige-Bibliothek am Hauptbahnhof"
-    },
-    {
-      "restaurantRef": "Café Regatta",
-      "note": "Zimtschnecken und Kaffee am Wasser — Helsinkis gemütlichster Ort"
-    },
-    {
-      "nightlifeRef": "Ateljee Bar",
-      "note": "Cocktails mit Panoramablick vom Hotel Torni"
-    }
+    "Schlechtwetter-Backup: Norrköping-Walk durch das Arbetets Museum ('Museum der Arbeit') im Strykjärnet ersetzen — gleicher Standort, indoor, oft an Feiertagen geöffnet"
   ]
 }

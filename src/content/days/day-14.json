@@ -2,31 +2,53 @@
   "dayNumber": 14,
   "date": "2026-05-13",
   "status": "planned",
-  "title": "Tallinn — letzter Tag vor der Helsinki-Fähre",
-  "subtitle": "Hafen, U-Boot-Werft und Vorbereitung auf die Überfahrt",
-  "locationId": "tallinn",
-  "previousLocationId": null,
-  "overnightLocationId": "tallinn",
-  "driving": null,
-  "evCharging": null,
+  "title": "Teijo-Nationalpark, Pargas-Schären und die Viking-Grace-Nachtfähre",
+  "subtitle": "Der Finnland-Tag — Kiefernwald-Bohlensteg, Eisenwerksdorf-Mittagessen, Schären-Kabelfähre, dann 20:55 nach Stockholm",
+  "locationId": "turku",
+  "previousLocationId": "mathildedal-teijo",
+  "overnightLocationId": null,
+  "additionalLocationIds": [
+    "mathildedal-teijo"
+  ],
+  "transitLocationIds": [],
+  "driving": {
+    "distance": "~200 km",
+    "duration": "~3:00 (plus Nachtfähre)",
+    "mode": "drive",
+    "routeDescription": "Mathildedal → Pargas (~50 km) → Pargas-Nagu Kabelfähre Round-Trip → Turku (~30 km) → 20:55 Viking Grace nach Stockholm. Die finale Fahrzeugladung in Paimio (Ionity 350 kW, 6 Plätze) auf 95–100% bringen — keine Lademöglichkeit auf der Fähre, und die Stockholm-Süd-Strecke morgen früh braucht Reichweite."
+  },
+  "evCharging": {
+    "stopsNeeded": 1,
+    "notes": "🎯 Paimio Neste K Ionity (350 kW, ~€8 mit We Charge M-Tarif) ist der wichtigste Lade-Hub der Reise — die Fähre hat keinen Lader, und am Donnerstagmorgen muss der Wagen in Stockholm Stadsgården mit voller Reichweite vom Schiff. Reservebackup: Turku Skanssi Recharge (150 kW, 5 km vom Hafen).",
+    "criticalLevel": "yellow"
+  },
   "activities": [
-    "Zweiter Pufftag in Tallinn — gemütliche Pace vor der morgigen Fährüberfahrt nach Helsinki",
+    "08:30 Frühstück bei Café Mathildedal — Kaneelipulla mit Kardemumma, Hafermilch-Latte, lokales Brot mit Eiern aus dem Hof",
     {
-      "highlightRef": "Noblessner — Ehemaliges U-Boot-Werft-Viertel",
-      "note": "Vormittags durch das hippe Hafenviertel mit Kunst-Galerien und Cafés am Wasser"
+      "highlightRef": "Teijo-Nationalpark — Matildanjärvi-Rundweg",
+      "note": "🎯 09:00–11:30 — der 5,5 km Rundweg vom Trailhead Matildanjärventie 86: Kiefernwald, Moor-Bohlensteg, Granitklippen, Biber-Bach, ein Stück Mathildedal-Dorf zum Abschluss. ~2 Std. Geh-Zeit, mittlere Schwierigkeit"
     },
     {
-      "highlightRef": "Kadriorg-Palast & KUMU Kunstmuseum",
-      "note": "Optional am Nachmittag: Barockschloss Peters des Großen mit angegliedertem Kunstmuseum"
+      "highlightRef": "Mathildedal — Eisenwerksdorf-Spaziergang",
+      "note": "11:30–12:00 — der freie Geschichts-Pavillon, der Winha-Schneemobil und der Teijo-Wagen, die Brauerei, der Schreiner-Hof, die Alpakas. Kostenloser Außen-Walk"
     },
     {
-      "restaurantRef": "Moon",
-      "note": "Bib-Gourmand-Restaurant für ein gemütliches Abschiedsessen"
+      "restaurantRef": "Bistro Bruket",
+      "note": "🎯 12:30–13:45 Mittagessen — BBQ-Smoker im Hof, Lohikeitto (Lachs-Sahne-Suppe), Saaristolaisleipä (Schärenbrot). Vorab über bistrobruket.fi reserviert"
     },
+    "14:00 — Aufbruch nach Pargas, ~50 km / 50 Min. via Salo und E18 zur Schäreninsel-Brücke",
+    "15:00–16:30 — Schären-Mikro-Loop: über die kostenlose Lielax-Brücke nach Pargas, dann mit der Lielax–Nagu Kabelfähre (frei, alle 30 Min., 7 Min. Crossing) auf die Insel Nagu. Nagus winziger Hafen, die bemalten Bootshäuser fotografieren, mit der nächsten Kabelfähre zurück. So bekommt ihr die Saaristotie ('Schärenstraße') in Mikroform, mit dem 2-Std.-Excursion-Limit und ohne Boot/Kanu/Kayak",
+    "17:00 — 30 km nach Turku",
+    "🎯 17:30 — Paimio Ionity 350 kW Schnellladen auf 95–100%. ~30 Min. Pause für Espresso und Brötchen",
+    "18:30 — Turku-Hafen (Linnansatama, Ensimmäinen Linja). Wichtig: Linnankatu ist Sept 2025–Sommer 2026 zwischen Vallihaudankatu und Satamakatu gesperrt — Umweg über Vallihaudankatu",
     {
-      "nightlifeRef": "Põhjala Tap Room",
-      "note": "Estlands bekannteste Craft-Brauerei in einer ehemaligen Fabrikhalle"
+      "highlightRef": "Burg von Turku",
+      "note": "19:00 — kurzer Außen-Spaziergang an der 13.-Jh.-Burg direkt neben dem Fährterminal, 30 Min. max"
     },
-    "Hinweis: Auto heute Abend hafennah parken und voll laden — morgen früh Autofähre nach Helsinki"
+    "19:30 — Fahrzeug-Check-in für die Viking-Grace-Fähre. Online-Check-in im Voraus erledigt",
+    "🎯 20:55 — Viking Grace Abfahrt (NICHT Viking Glory — Glory hat nur Jan 6–29 die Abendrotation während Graces Drydock übernommen). Seaside-A4-Vier-Berth-Kabine: Fenster, zwei untere Betten als getrennte Schlafplätze, ganze Kabine für euch zwei (Viking weist nie Fremde einer teilbelegten Buchung zu)",
+    "21:00–22:30 — Abendessen im Food Garden Buffet, Sitzung 20:30 (mit Fähre vorab gebucht): baltisches Hering vier Wege, Lachs vielfach, Schärenbrot, geräucherter Fisch, regionale Käse. Unbegrenzt Hauswein und Bier ~€42–55 pp",
+    "Späterer Abend optional: Top-Deck-Spa-und-Sauna (~€20 pp, geöffnet bis 22:00), oder einfach an der Reling die Schären beobachten, durch die das Schiff bei Tageslicht noch eine Stunde fährt — der Turku-Archipel mit über 40.000 Inseln ist eine der schönsten Fährstrecken Europas",
+    "Schlechtwetter-Backup: Pargas-Schären-Loop durch Kurjenrahka-Nationalpark nördlich von Turku ersetzen — Bohlenstege, Kuhankuono-Kreuzweg, vollständig waldgeschützt. Gleiche 90-Min.-Excursion"
   ]
 }

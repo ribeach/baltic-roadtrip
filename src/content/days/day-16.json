@@ -1,31 +1,45 @@
 {
   "dayNumber": 16,
   "date": "2026-05-15",
-  "title": "Helsinki und Sauna",
-  "subtitle": "Festungsinsel, finnische Saunakultur und optionaler Design-Ausflug",
-  "locationId": "helsinki",
-  "previousLocationId": null,
-  "overnightLocationId": "helsinki",
+  "status": "planned",
+  "title": "Glasriket → Store Mosse → Danska Fall → Halmstad",
+  "subtitle": "Letzter Reisetag — eine Moor-Klammer zu Ķemeri, ein 36-m-Wasserfall mit Eisenwerksruinen, Ankunft am Halland-Meer",
+  "locationId": "halmstad",
+  "previousLocationId": "kosta-smaland",
+  "overnightLocationId": "halmstad",
   "additionalLocationIds": [
-    "fiskars"
+    "kosta-smaland"
   ],
-  "driving": null,
-  "evCharging": null,
+  "transitLocationIds": [
+    "kosta-smaland"
+  ],
+  "driving": {
+    "distance": "~260 km",
+    "duration": "~3:30",
+    "mode": "drive",
+    "routeDescription": "Kosta → Växjö → Värnamo → Store Mosse (kurzer Abstecher 30 km nördlich) → zurück auf die Rv25 → Ljungby → Danska Fall (20 km östlich von Halmstad) → Halmstad. Klämdag (Brückentag) in Schweden = leichter Verkehr, viele kleine Cafés geschlossen, aber Naturreservate funktionieren wie immer."
+  },
+  "evCharging": {
+    "stopsNeeded": 0,
+    "notes": "Im Kosta Boda Art Hotel über Nacht an einem Destination-Lader voll laden, dann reicht die Reichweite bis Halmstad. Bei Bedarf am Värnamo Ionity-Hub oder am Halmstad Eurostop Recharge nachladen.",
+    "criticalLevel": "green"
+  },
   "activities": [
+    "09:30 entspanntes Frühstück im Kosta Boda Art Hotel — die Glas-Bar als unfreiwilliges Frühstücks-Entertainment",
+    "10:00 Aufbruch westwärts — Rv25 Richtung Växjö, dann Värnamo",
     {
-      "highlightRef": "Festung Suomenlinna",
-      "note": "UNESCO-Welterbe — Fähre vom Marktplatz (15 Min.), mindestens 3 Stunden einplanen"
+      "highlightRef": "Store Mosse-Nationalpark — Wibecksplatsen",
+      "note": "11:30 — kurzer Abstecher 30 km nördlich nach Hillerstorp. Schwedens größtes Hochmoor südlich von Lappland — 8.000 Jahre alt, Sonnentau, alte Sand-Dünen-Inseln. 45-Min.-Bohlensteg-Walk reicht, plus 15 Min. naturum-Besucherzentrum. Schließt die Moor-Klammer zum Ķemeri-Bohlensteg, den ihr am 7. Mai gegangen seid"
     },
+    "13:00 — Picknick-Mittagessen am naturum (im Park selbst kein Food Service — Brot und Käse aus Kosta einpacken)",
+    "13:30 — zurück auf die Rv25 westwärts: Värnamo → Ljungby → Halmstad-Region (~120 km, 1:45)",
     {
-      "highlightRef": "Löyly Sauna & Restaurant",
-      "note": "Nachmittags: echte finnische Sauna mit Ostsee-Schwimmen — DAS Erlebnis in Helsinki"
+      "highlightRef": "Danska Fall — Wasserfall und Eisenwerksruinen",
+      "note": "🎯 15:00–16:30 — der 36-m-Wasserfall an der Assman, eingefasst von Buchenwald, mit den 1727er Eisenwerksruinen auf der Insel im Fluss. 2 km Schotterweg zum Hauptfall oder der 2,3 km 'Blue Path' über die Ruineninsel. Der Tag-16-Schluss-Anker mit perfekt kombinierter Natur-und-Industrie-DNA. GPS 56°42'33\"N, 13°7'25\"E. Kostenlos"
     },
-    {
-      "restaurantRef": "Alte Markthalle (Vanha Kauppahalli)",
-      "note": "Mittagessen in der historischen Markthalle — Lachs, Rentier, Karelische Piroggen"
-    },
-    "ALTERNATIVE TAGESPROGRAMM: Tagesausflug in die Helsinki-Region — Fiskars Village (95 km westlich, finnisches Designerdorf in einer historischen Eisenhütte) oder Porvoo (50 km östlich, bunte Holzhäuser-Altstadt). Wer Helsinki schon kennt oder lieber raus aufs Land will, tauscht Sauna & Suomenlinna gegen einen Regional-Ausflug.",
-    "SAUNA-TIPP: Handtuch mitbringen, Badeanzug optional (gemischte Sauna bei Löyly). Mindestens 2 Stunden einplanen — Sauna, Abkühlung, wiederholen",
-    "Morgen früh: Fahrt nach Turku (170 km, 2 Std.) — Auto heute Abend voll laden"
+    "16:45 — letzter 20-km-Drive nach Halmstad. Optional 8 km westlich kurzer Foto-Stop am Tylösand-Strand (Schwedens berühmteste Westküsten-Sanddüne)",
+    "17:30 — Ankunft Halmstad. Drei Tage zum Ankommen, bevor am Montag 18. Mai die Remote-Work-Woche startet",
+    "Halmstad-Endcheck: Recharge-Schnelllader am Halmstad Eurostop (E6) oder Mer am Hallarna für die kommende Arbeitswoche, falls nötig",
+    "Schlechtwetter-Backup: Danska Fall durch einen kürzeren Halmstad-Slott-Spaziergang ersetzen, der vom angrenzenden Café-Terrassen überdacht ist. Store Mosse bleibt funktional auch im leichten Regen"
   ]
 }

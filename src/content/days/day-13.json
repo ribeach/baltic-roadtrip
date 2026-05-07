@@ -2,27 +2,55 @@
   "dayNumber": 13,
   "date": "2026-05-12",
   "status": "planned",
-  "title": "Tallinn Pufftag — Lahemaa oder entspannter Stadttag",
-  "subtitle": "Einer der gewonnenen Tage als flexibler Puffer in Estlands Hauptstadt",
-  "locationId": "tallinn",
-  "previousLocationId": null,
-  "overnightLocationId": "tallinn",
+  "title": "Sagadi → Tallinn → Helsinki-Fähre → Mathildedal",
+  "subtitle": "Linnahall am Vormittag, 13:30 Tallink-Fähre, Eisenwerksdorf am Abend, Sauna am See bei Mitternacht",
+  "locationId": "mathildedal-teijo",
+  "previousLocationId": "lahemaa",
+  "overnightLocationId": "mathildedal-teijo",
   "additionalLocationIds": [
-    "lahemaa"
+    "tallinn",
+    "helsinki"
   ],
-  "driving": null,
-  "evCharging": null,
+  "transitLocationIds": [
+    "tallinn",
+    "helsinki"
+  ],
+  "driving": {
+    "distance": "~225 km",
+    "duration": "~3:30 (plus 2-Std.-Fähre)",
+    "mode": "drive",
+    "routeDescription": "Sagadi → Tallinn (~90 km) → Tallink Megastar/MyStar Tallinn-D nach Helsinki-West-T2 (13:30–15:30) → Mathildedal (~135 km auf der E18 Richtung Salo, dann Abzweig nach Süden). Auf der Fähre ist kein Laden möglich (universelle Baltikum-Regel), deshalb in Lohja zwischen Helsinki und Mathildedal optional nachladen."
+  },
+  "evCharging": {
+    "stopsNeeded": 1,
+    "notes": "Sagadi morgens mit ausreichend Reichweite verlassen (~70%), Tallinn-Hafen-Schnelllader vor Boarding optional. Auf finnischer Seite: Lohja ABC HPC (150 kW Recharge) ist der natürliche Pit-Stop nach der Fähre. In Mathildedal selbst keine Schnelllader — die echte Vollladung folgt am Donnerstagnachmittag in Paimio (Ionity 350 kW) vor der Stockholm-Fähre.",
+    "criticalLevel": "green"
+  },
   "activities": [
-    "Pufftag — keine festen Pflichtpunkte. Die durch das schnelle Reisen gewonnenen Tage werden hier als Reserve in Tallinn verbracht.",
-    "OPTION A: Tagesausflug in den Lahemaa-Nationalpark (~70 km östlich, eigenes Auto) — Viru-Hochmoor mit Holzstegen, Käsmu-Kapitänsdorf und Palmse-Gutshof",
-    "OPTION B: Entspannter Stadttag mit zweitem Altstadt-Besuch, Café-Kultur und freier Tagesgestaltung",
+    "07:30 Frühstück im Sagadi-Gutshof, 08:30 Aufbruch — 90 km nach Tallinn, Ankunft 09:45",
+    "09:45 — Auto im Solaris-Keskus oder Roosikrantsi-Tiefgarage parken (mit Gepäck), Altstadt-Loop zu Fuß",
     {
-      "highlightRef": "KGB-Museum — Hotel Viru",
-      "note": "Optional: Führung durch die ehemaligen KGB-Räume in der 23. Etage des Hotel Viru"
+      "highlightRef": "Toompea — Kohtuotsa & Patkuli Aussichtsplattformen",
+      "note": "10:00 — Patkuli- und Kohtuotsa-Plattformen, der Postkartenblick auf rote Dächer und Hafen. Alexander-Newski-Kathedrale aus der Nähe, dann hinunter über Pikk jalg in die Unterstadt"
+    },
+    "Linnahall — 10 Min. Fußweg Richtung Hafen. Brutalistisches Sowjet-Beton-Plateau am Meer (Innenraum geschlossen seit 2009, aber Plaza, Treppen und Dach voll begehbar). Direkter Cold-War-Anker zum Līgatne-Bunker. Nahe Terminal D",
+    {
+      "restaurantRef": "Rataskaevu 16",
+      "note": "11:30 frühes Mittagessen in der Altstadt — vorab reservieren wegen Mittags-Andrang"
+    },
+    "12:45 — Auto-Check-in am Tallinn-D-Terminal (Uus-Sadama 24). Online-Check-in im Voraus erledigt; Fahrzeug-Gate schließt 30 Min. vor Abfahrt",
+    "🎯 13:30 Tallink Megastar oder MyStar nach Helsinki — beide LNG-Schiffe, voll ausgestattet, 2 Std. Crossing. Star Class für die kurze Strecke vollkommen ausreichend",
+    "15:30 Ankunft Helsinki West Terminal 2, direkt aufs Auto und auf die E18 westwärts — kein Helsinki-Sightseeing heute (das volle Finnland-Erlebnis kommt morgen)",
+    "16:30 — optionaler Lohja ABC HPC-Schnellladestop (150 kW Recharge, 20 Min., Café)",
+    "17:30 Ankunft Hotel Mathildedal — WICHTIG: zwei separate Standardzimmer gebucht, nicht ein Standard-Twin (das wäre zwei Betten in einem Raum, verstößt gegen unsere Zwei-Schlafräume-Regel). Direkt über mathildedal.fi reservieren",
+    {
+      "restaurantRef": "Café Mathildedal",
+      "note": "18:00 leichtes Abendessen — die Hauseigene Bäckerei, Zimtschnecken (kaneelipulla), Sauerteigbrot mit Eiern von Mathildedaler Hühnern. Der ausführliche Schmelzhaus-Lunch kommt morgen Mittag bei Bistro Bruket"
     },
     {
-      "restaurantRef": "Lee Brasserie (ehem. Leib Resto ja Aed)",
-      "note": "Moderne nordisch-estnische Küche im Rotermann-Viertel"
-    }
+      "highlightRef": "Matildanjärvi — Lakeside Sauna",
+      "note": "🎯 21:00–22:30 — Natura Vivas private Mietsauna am Matildanjärvi-See: holzbeheizte Terrassensauna, Sandstrand für die kurze Plunge ins 8–12 °C-Wasser, 1,5-Std.-Slot komplett für euch (~€90 für zwei). Vorab über naturaviva.fi gebucht. Das authentischste finnische Saunaerlebnis der Reise"
+    },
+    "Schlechtwetter-Backup: Tallinn-Outdoor durch Kiek in de Kök Bastions-Tunnel ersetzen (90 Min. Untergrund). Mathildedal-Abend bleibt im Boutique-Hotel-Hauptgebäude wettergeschützt"
   ]
 }
