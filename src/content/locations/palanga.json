@@ -1,0 +1,32 @@
+{
+  "id": "palanga",
+  "name": "Palanga",
+  "country": "lithuania",
+  "coordinates": {
+    "lat": 55.920198,
+    "lng": 21.0677615
+  },
+  "description": "Litauens lebhafter Ostseebadeort nördlich von Klaipėda mit langer Pier, weißem Sandstrand und dem Bernstein-Museum im Tiškevičius-Palast. Ideale Übernachtung am Ende eines Nehrungs-Tages.",
+  "placeId": "ChIJw87HFzIp5UYRmdP3marLBAY",
+  "highlights": [],
+  "restaurants": [],
+  "hotels": [
+    {
+      "name": "Grand Baltic Dunes",
+      "type": "Resort-Hotel",
+      "priceRange": "100-160€",
+      "evCharging": false,
+      "description": "Modernes Strandresort an der Birutės-Allee mit Spa und Restaurant. Übernachtungsort am 5. Mai 2026 nach dem Tag auf der Kurischen Nehrung.",
+      "googleMapsUrl": "https://maps.google.com/?cid=16311191819884220490",
+      "placeId": "ChIJCYIF7TQp5UYRStB0L4r-XOI",
+      "coordinates": {
+        "lat": 55.9192235,
+        "lng": 21.0584414
+      },
+      "rating": 4.5,
+      "userRatingCount": 1224,
+      "visited": true
+    }
+  ],
+  "tips": []
+}

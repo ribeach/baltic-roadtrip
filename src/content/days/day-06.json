@@ -1,42 +1,50 @@
 {
   "dayNumber": 6,
   "date": "2026-05-05",
-  "title": "Von Trakai über Kaunas nach Klaipėda",
-  "subtitle": "Litauens zweitgrößte Stadt als Mittagsstopp, Ankunft an der Memel",
-  "locationId": "klaipeda",
+  "status": "completed",
+  "title": "Von Trakai zur Kurischen Nehrung und nach Palanga",
+  "subtitle": "Lange Etappe ans Memel-Ufer, Tagesabstecher auf die Nehrung, Übernachtung im Seebad",
+  "locationId": "palanga",
   "previousLocationId": "trakai",
-  "overnightLocationId": "klaipeda",
+  "overnightLocationId": "palanga",
   "additionalLocationIds": [
-    "trakai",
-    "kaunas"
+    "curonian-spit"
   ],
   "transitLocationIds": [
-    "kaunas"
+    "klaipeda"
   ],
   "driving": {
-    "distance": "~310 km",
-    "duration": "~3:30",
+    "distance": "~400 km + Fähre",
+    "duration": "~5:30",
     "mode": "drive",
-    "routeDescription": "Gemütlicher Aufbruch aus Trakai nach dem Frühstück, kurze A1-Etappe (~100 km) bis Kaunas für einen Mittagsstopp an der Laisvės Alėja. Anschließend die längste Teilstrecke auf der A1/E85 von Kaunas bis Klaipėda (~210 km, 2,5 Std.) ans Memel-Ufer.",
-    "encodedPolyline": "cuolIi`ewCuAdIqDeE}O`McDvB_DhQuHt`@gG|NkCnM}a@nMoPrHcKrLuHXeIlFeMlLiHXmOkGmTdB}OpSaTvNkKnK}LxJ}PtEiOzE{FpI{b@zv@oRdRyVva@o`@dMwLzOqKfBiQwSog@yQsc@dKsLnFeKtSy]nbAga@pz@}a@fn@}JvFkc@g@sU`Iue@cZcABh@Rz@|KrAth@sHx{@_q@|yD}w@tlNiR`_Hud@`bRkIheDsVrcEeSnhCgYhzCef@txDex@|~Ek`AfjFytAhiH_iAxkHwzAhrHwbArwFcd@p_Ckk@raC}kAn`FijAdjDoPjt@sDdqAcJnaDwW|sG{Ij`B{@`aAeF|oEyGtV_@bFG`E`E~@nCt@vA`@zInCnInCnQ`Gn|@tQxf@~L~TbXnm@xoAn@dHvBn@fMuC~BuZ}@ke@hBjSeCpi@sCzCoHyBiDeCkAxBeIrVuB~H_KyGwc@nAaNiQeB}BY|LUzF_C|B}QuPcS{M}C^_NfJ{p@pf@wQhImNeAqF|BoNxZcPpMepAd~@{gBhmAecEjzAytFlpBk{C~c@q\\|EcsAdV_`@f]y]jv@{p@`cBsoBphEotDdzHe{DhiIwhAzqBwu@npAa^d|@qb@zkB{\\jrBqh@vcCao@|vC{^x~Bgd@zoCsaAluEgc@jrBqg@faDsk@`iFui@luG{O|tAwJne@{k@bmBe{A~}Eif@`~AkW~kA{DbZmMrjCsIvoCcRp}Bae@ndEyRb~AcZtaB}aA|}E{W`rA}^zbCgkA~wJkfAhcHs~@dnEqXbjAg}@j~CwRzn@yPphAuRr|Dm\\|pB}Nng@ay@d{Bc}@tvBeaBd}CqVfu@iN~m@eRfbBmQbjDoNlxAab@lyBgVfyBwf@b|EkKlmDaRx{BkWnbB{MzkA}GxvAuHroDwEx~@{Q~~AsObcAcSjgA_[xdAqZrv@u]dgAwMno@uXzqCyH||@wTdoBuYhbAep@pxB}ZxtBaXtaEcNzuAeQjdAsY|hAmfApmCio@hqA_]ny@ec@nbB_f@zbDaOf|AaJvjCkMdwCcQf|A_rA|{GwVnpCmVnvDqSx`BaYfrC{HvkCe@hfAsIf{CwIt~@aXd_BgY~sA_ZflB{e@x|Cu[jlA{uAjkDgQpn@oNvt@oOltAw_@vbFu]fnDuHjgBsGxaDcEh{HmBflCcGdfAgObmAko@poCco@rmCiUhuBcDzhAhAj{A~OpqBnVvrBfd@|vDxuAvgLnXxzBh`@jbCnOjw@lEhd@cl@t}@k]lg@nBzt@xFlq@"
+    "routeDescription": "Früher Aufbruch aus Trakai über die A1 bis Klaipėda (~310 km, ~3:30 Std.), Fähre nach Smiltynė und Fahrt über die Kurische Nehrung bis Nida und zurück. Abends die kurze Etappe nach Norden ins Seebad Palanga (~25 km).",
+    "encodedPolyline": "cuolIi`ewCuAdIqDeE}O`McI`UuHt`@gG|NkCnM}a@nMoPrHcKrL{RfGeMlLiHXmOkGmTdB}OpSaTvNkKnK{^nQeWlP{b@zv@oRdRyVva@o`@dMwLzOqKfBiQwSog@yQsc@dKsLnFeKtSy]nbAga@pz@}a@fn@}JvFkc@g@sU`Iue@cZcABdBpLrAth@sHx{@_q@|yD}w@tlNiR`_Hud@`bRkIheDsVrcEeSnhCgYhzCef@txDqyBdjMytAhiH_iAxkHwzAhrHwbArwFcd@p_Ckk@raC}kAn`FijAdjDoPjt@sDdqAcJnaDwW|sGwKlbD{G~rFyDbcBuCxlAgJbs@wRn[ka@`Z_tAbaAir@tf@gt@l_@kdBzm@ugGhzBqeAbZapC~`@yz@~L{k@bL_MjHaa@vh@kXhq@cr@zeBir@d{A}yDjeIqkB|vDm|ApgD}l@noAspAryBwn@ljA_`@dkAe{@nzEgwArxGqcAblGejAdoF_d@pyBua@|`Dol@bwFcRl_CuZn_Dm}@bbDejB|aG}ZdeAwQdbAgHpv@sMzeEqY`{Dik@|dFio@xsDcgAvoFwPt{@eo@rbFov@lkGcnA``Im}@h~DaWhfAm_Al|CoIl\\mQn{A{HxuB{Pd`Buk@lzBqfA~vCg`AhnByqAnkC_Rbr@eQldAkMveBwMpiC{^fkCiWfuA}ThgCwPtbBgM|cAwGvnAuAb{@sIlnBkd@|cDsO|`BgF`_B_I`fD}]zbDs[liBmj@jeBoe@vqAa]xoB{_@rpEwXh~A_Y|w@{j@ltBkXvvBs]hdF}]fwBa_@~nA}lAvrCgaA~zBwb@jiBkQdlAk`@dwDcW~rGaUbgBka@lrBeYpsAq[bxBcNbqB{In~A{V`bC_WzsBaMlpBqFb}EmOrlC_a@x`C_a@xsBk`@`rCs`@joB{]peAciA`qCyZjsAec@n_Fkq@dzHyL|`GqEbtI_ClcB_Np`BcWbuAmdAbeEeUbsAgMlmBu@rlArGpeBdq@p|FfgAlaJrdAbrI~m@~hD[tQyv@fhAePrXlA~[tC~i@nB~`@kEhG}L`SqBU{I}RwQu`@iFqX_QuvA}C}DiFeGqUaFuBGCEGEIB_UtQ}c@auBfBwFnAlCkCnFia@hU_xArx@yn@f^a_CjwAmoCx|Bgu@`[wbAvV}a@nKy^uDcYiAub@|_@snAn~Akm@baAqXtMm`@sAow@i[syAqi@qqAe\\hDsLn@tJcDxR{YndBcNp_AKd@gBhKcHhXaImDaHeCsC~DaBlNnAvE|DlB"
   },
   "evCharging": {
     "stopsNeeded": 1,
-    "notes": "Ein Schnellladestopp in Kaunas während des Stadtbummels reicht für die Etappe nach Klaipėda. Ladestation an der Laisvės Alėja oder am Akropolis-Einkaufszentrum.",
-    "criticalLevel": "green"
+    "notes": "Schnelllader in Klaipėda vor dem Übersetzen auf die Nehrung — Renerga 120 kW an der Baltijos pr. 40. Auf der Nehrung KEINE DC-Lader. In Palanga AC-Lader am Hotel oder im Stadtzentrum.",
+    "criticalLevel": "yellow"
   },
   "activities": [
-    "Frühstück mit Burgblick im Apvalaus Stalo Klubas, gemütlicher Aufbruch",
+    "Frühaufbruch aus Trakai — die längste reine Auto-Etappe der Reise vor uns",
+    "A1/E85 von Trakai über Kaunas direkt nach Klaipėda — kein Stopp in Kaunas, dafür Vollladung in Klaipėda",
     {
-      "highlightRef": "Laisvės Alėja (Freiheitsallee)",
-      "note": "Mittagsstopp in Kaunas auf einer der längsten Fußgängerzonen Europas — Kaffee, Mittagessen und kurzer Bummel, parallel laden"
+      "highlightRef": "Fährhafen zur Kurischen Nehrung",
+      "note": "Mit dem Auto nach Smiltynė übergesetzt — Tagesausflug auf der Nehrung"
     },
-    "Nachmittags A1/E85 von Kaunas bis Klaipėda (~210 km)",
-    "Späte Ankunft in Klaipėda — Check-in und entspannter Abend",
     {
-      "restaurantRef": "Friedricho Pasažas",
-      "note": "Abendessen in stilvoller historischer Passage — moderne litauische Küche mit frischem Ostseefisch"
+      "highlightRef": "Hexenberg (Raganų Kalnas) Juodkrantė",
+      "note": "Kurzer Spaziergang zwischen den Holzskulpturen litauischer Volkssagen"
     },
-    "Hinweis: Vor der Kurischen Nehrung übermorgen unbedingt auf 100 % laden — Renerga 120 kW-Schnelllader an der Baltijos pr. 40"
+    {
+      "highlightRef": "Parnidis-Düne",
+      "note": "Hauptziel des Tages — 360°-Panorama von der 52 m hohen Wanderdüne bei Nida"
+    },
+    {
+      "highlightRef": "Nida Fischerdorf",
+      "note": "Bummel durch das malerische Dorf mit den dunkelroten Holzhäusern und Kurenwimpeln"
+    },
+    "Rückfahrt mit der Fähre nach Klaipėda und kurze Etappe nach Norden ins Seebad Palanga (~25 km)",
+    "Check-in im Grand Baltic Dunes Hotel — direkt am Strand, Spa-Abend nach langem Tag"
   ]
 }

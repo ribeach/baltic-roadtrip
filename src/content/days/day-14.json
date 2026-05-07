@@ -1,38 +1,32 @@
 {
   "dayNumber": 14,
   "date": "2026-05-13",
-  "title": "Tallinn in voller Pracht",
-  "subtitle": "Mittelalterliche Gassen, Seefahrermuseum und kreatives Kalamaja",
+  "status": "planned",
+  "title": "Tallinn — letzter Tag vor der Helsinki-Fähre",
+  "subtitle": "Hafen, U-Boot-Werft und Vorbereitung auf die Überfahrt",
   "locationId": "tallinn",
   "previousLocationId": null,
   "overnightLocationId": "tallinn",
-  "additionalLocationIds": [
-    "lahemaa"
-  ],
   "driving": null,
   "evCharging": null,
   "activities": [
+    "Zweiter Pufftag in Tallinn — gemütliche Pace vor der morgigen Fährüberfahrt nach Helsinki",
     {
-      "highlightRef": "Lennusadam — Maritimes Museum",
-      "note": "Vormittags: U-Boot Lembit, Eisbrecher und Flugboote"
+      "highlightRef": "Noblessner — Ehemaliges U-Boot-Werft-Viertel",
+      "note": "Vormittags durch das hippe Hafenviertel mit Kunst-Galerien und Cafés am Wasser"
     },
     {
-      "highlightRef": "Balti Jaama Turg — Markt",
-      "note": "Mittagessen am hippen Streetfood-Markt"
+      "highlightRef": "Kadriorg-Palast & KUMU Kunstmuseum",
+      "note": "Optional am Nachmittag: Barockschloss Peters des Großen mit angegliedertem Kunstmuseum"
     },
     {
-      "highlightRef": "Telliskivi Creative City",
-      "note": "Nachmittag im kreativen Viertel — Fotografiska Tallinn integriert"
+      "restaurantRef": "Moon",
+      "note": "Bib-Gourmand-Restaurant für ein gemütliches Abschiedsessen"
     },
     {
-      "highlightRef": "Kalamaja — Holzhäuser-Viertel",
-      "note": "Cafés und Boutiquen im Szeneviertel — fließend mit Telliskivi verbunden"
+      "nightlifeRef": "Põhjala Tap Room",
+      "note": "Estlands bekannteste Craft-Brauerei in einer ehemaligen Fabrikhalle"
     },
-    "ALTERNATIVE TAGESPROGRAMM: Tagesausflug in den Lahemaa-Nationalpark (70 km östlich, eigenes Auto) — Viru-Hochmoor mit Holzstegen, Käsmu-Kapitänsdorf und Palmse-Gutshof. Wer Estland naturhistorisch erleben will, tauscht das Stadtprogramm gegen Lahemaa.",
-    {
-      "nightlifeRef": "Whisper Sister",
-      "note": "Speakeasy-Bar hinter einer versteckten Tür"
-    },
-    "Morgen früh: Autofähre nach Helsinki — Auto heute Abend hafennah parken und voll laden"
+    "Hinweis: Auto heute Abend hafennah parken und voll laden — morgen früh Autofähre nach Helsinki"
   ]
 }

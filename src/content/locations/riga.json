@@ -374,6 +374,22 @@
       },
       "rating": 4.5,
       "userRatingCount": 1400
+    },
+    {
+      "name": "Mercure Riga Centre",
+      "type": "Stadthotel (Kette)",
+      "priceRange": "85-130€",
+      "evCharging": false,
+      "description": "Zentrales Mercure-Hotel an der Elizabetes iela mit guter Anbindung zur Altstadt und zum Zentralmarkt. Übernachtungsort 7.–9. Mai 2026 als spontane Wahl auf der Anreise von Kap Kolka.",
+      "googleMapsUrl": "https://maps.google.com/?cid=5676881862379062388",
+      "placeId": "ChIJb0SYsCzO7kYRdET29vlVyE4",
+      "coordinates": {
+        "lat": 56.9475978,
+        "lng": 24.1238693
+      },
+      "rating": 4.2,
+      "userRatingCount": 2357,
+      "visited": true
     }
   ],
   "tips": [

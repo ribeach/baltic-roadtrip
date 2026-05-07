@@ -1,34 +1,43 @@
 {
   "dayNumber": 8,
   "date": "2026-05-07",
-  "title": "Von Klaipėda nach Kuldīga",
-  "subtitle": "Über die lettische Grenze in den Kurländer Provinz-Charme",
-  "locationId": "kuldiga",
-  "previousLocationId": "klaipeda",
-  "overnightLocationId": "kuldiga",
+  "status": "completed",
+  "title": "Von Ventspils über Kap Kolka nach Riga",
+  "subtitle": "Wilde Küstenfahrt, wo Ostsee auf Rigaer Bucht trifft, Ankunft in der lettischen Hauptstadt",
+  "locationId": "riga",
+  "previousLocationId": "ventspils",
+  "overnightLocationId": "riga",
+  "additionalLocationIds": [
+    "kolka"
+  ],
+  "transitLocationIds": [
+    "kolka"
+  ],
   "driving": {
-    "distance": "~185 km",
-    "duration": "2:30",
+    "distance": "~265 km",
+    "duration": "~3:30",
     "mode": "drive",
-    "routeDescription": "Direkte Fahrt über die A13/A11 und die lettische Grenze nach Kuldīga. Optional landschaftlicher Umweg über die Steilküste bei Jūrkalne oder das Abava-Tal über Sabile. KEIN Stopp am Berg der Kreuze — die Strecke bleibt küstennah und ohne Inland-Detour.",
-    "encodedPolyline": "mp~rI}v``CkUr]oFsOmU}d@}TslAeB{^uLcRqYuFQL{L~H}HnGeD_SgVimAmDsYhBI\\nFuQjLiyAty@msBzlAi~@fj@cfAfz@ky@br@qUzRcm@h[qp@|Om|@tU{Ml@}l@wG{ZlTijAjsAct@noAu[hUm\\nAymBwt@{hBkg@wZkGiTuEaj@yU{j@_YsPk@wg@`NmyBtj@yFpBsQjFe`@xJwa@xBgThAuU?}bBgq@iT_ImPg@s~@EspAmOyq@aYyr@gCgl@jEypAkL}}@cEoc@gGgQ`@{ReA}_@wIwoAkt@im@y^ebC}~@an@cTcU_A_cBdZ_rEjz@ihC|ZoJxBuRlPal@`aAmd@lt@ca@hYyp@fRgTrGySxNi`@fQqc@nNkbAl\\qUvEkT]}e@cOkQ{Gyb@_Pm\\gHkTZ}kAtWuc@rJcc@hLmNjNcXxx@aM~VkKrK}a@lYkQhViBzFyBdDsLcPyHaBuTsCwOrCgDd@eAuDeB{JoCkCcGGwLbGoP~LyOsAyL}FmFoa@{MohAmUmj@u^gg@c~@obAy[aPap@`Vc|AjWkb@rPwk@VqHl@iTzLoS|JyYt@ad@sDmy@qa@{TwG{SrKgStGgOxBwTlQ{PxM_PxB}SuI{KkLa[g\\mSwL}L_B}PdB{OhLuKlDiKoB_HoEcKgBgQrGaN_@sNk{@mLo|@wHrGsOv^iDq`@wDgd@oEij@mAeDeKbVaIdCuJ|BeHeDmJojA{Ku~@aNug@Igh@jYqhCE}h@_Taw@m[sw@iScy@wRef@qPkcA_Jkp@k@qy@eC{VuUoUw^ok@eFeFqLb@caA~Eat@qCsf@gVsw@ow@aLeMgJkCq[eCmh@uRc}Bym@aSeK}Li[}v@ayBgWorAe\\oeAwI_g@wCy{A_Jav@u]a|@oScNid@eMwSyXwV}d@mYsmAwf@cvBiZqlBcR_s@_]owBmIem@~Caq@pLo{BwL_uCwKiqB_J}v@cT}iA_Gm}@_Omd@v@eMm@_Y}AeU{MmMuMSoSmCgO|AyOjMiMwJiQyKkf@uMivA_c@go@ce@_\\wf@aKoSeQoOiO}Py\\gs@_s@ypAu[cvAao@kbD}Our@sk@kvAyd@ydAuj@qeAavA_gDoh@cbBmOyf@oN}u@eNqdAuY{eBkIc_Au@gp@gGeW_i@q`@iOe]aZc|@iQaZma@}W{d@ib@eUsLgZuK}Tyd@eQyc@cQuQk\\Sq^cDoWmZgLySyOob@sV_]co@wg@{tA{~@s`@c^wTkYg^ai@a@yA~@}}@XaJAuDuBDAg@"
+    "routeDescription": "Aufbruch aus Ventspils über die P124 Küstenstraße nach Norden bis zum Kap Kolka (~95 km), dann auf der A10/A1 entlang der Rigaer Bucht über Tukums in die lettische Hauptstadt (~170 km).",
+    "encodedPolyline": "otk}Icx}bC}ZzuAcMk|AgTws@}Ha\\gXq[_l@kmAq[uSkNsQcQ{Jyy@hGqs@lViWlIeTcJyfAcqAgkAyhA}\\oa@aM_LcYyEkt@yAe`@a`@gzB}uCor@_jA{a@yi@aP{m@_YitAqHubAuUacE}V_~FyZyhEgrBgxUyVkuCwn@mqCsmAgoFgB{XtP}z@wGm`AqWo_Byc@grCamAkyFmg@uwBw_@_pA_g@_qB_dBqrI{N_bAsBivAkV{eBaNkyAiBqd@oMeg@gRg`AsNoUk[ebBcTgeAcb@ioByVatAoyAkaGebBk_Iuv@ijDex@c|E}Z}_BgE{T~Fh[n@vGj@Y~NiLzMxJrQpLtR|b@x^jXte@`NhaAjRxXf[xg@nLnw@~GrOv@j[{T~i@v@pQzNpQqDjZtIjVsHxb@uCju@_@dm@gPxL[`NhJrWxBdL|L~NxMxTKzR_Pz`@yk@b}A{gApiBgmB`g@uj@zdA{wApNwY`a@}}Atl@yqA~lBaqEjbA}zD|`AimD`_@iiBfbA_gE~IiPlHib@zZs~@|LoQvPaQjn@o|Bhf@goAjWma@fg@}c@~v@_|@pu@ioA|i@gz@|~AagAhO_N|W}j@tW{p@jh@{lApg@wmArRai@xcAksEpW{uAbN}[nO{PbV_SjKiYtYgiAjd@{mC|ZigBti@_pAvd@krAzNuz@xi@uz@llAma@|~@_w@naA_z@vq@}j@di@wZjwAu]daAef@tx@}[zUyArv@}@vh@vBjtAcn@x{@ii@jh@uj@tp@yl@teB_|@`_Acs@lZmD|v@aw@~XfBr[uHlVGdj@pPbNd\\|P`d@pVbQ~d@w@pd@mTh\\y@|h@_SxD?`ChLfMzY~StUfe@ap@vXi\\f\\qr@zNe^vWqiAzIcpAbOybAdeAufCfd@cdAnPax@h|@m`E`WkxB~C{bAtTckC|YumFlHgrChY}|CdWeb@zb@kc@`Y{e@fa@ye@hf@o^d]yVlTyUxS{InUcu@jUiq@|Y{i@~`@mo@f@c@hKoj@vOmy@tZq{ChI{j@rEfBpMvBpJoCt\\a_@rYe\\hMiEdHv]vPl^fEqC|i@rdAjN~WfHeF}ByKmDs]v@ai@fHah@dMsjAyCqwBpJesDiDyyAmPo`AqTagCgp@}cG}v@onG{ScsBsYidBkc@ohDcDuv@vSiu@za@arDti@s|ECmdFjUo{@niAkhAv^_cAnEml@bBsd@oYqr@}o@{fBi[agB_]isAsO_xA_BwM|@oIw@~J_BhHtEZhW{VnDuJeHlLeBaFmB{B"
   },
   "evCharging": {
     "stopsNeeded": 1,
-    "notes": "Vor Abfahrt in Klaipėda schnellladen (Renerga 120 kW oder Ignitis am Akropolis), bei Bedarf zweiter Stopp im Raum Liepāja. Kuldīga selbst hat AC-Lader im Stadtzentrum.",
+    "notes": "Vor Abfahrt in Ventspils laden, ein optionaler Stopp in Talsi oder im Raum Tukums. Riga selbst hat dichtes Ladenetz.",
     "criticalLevel": "green"
   },
   "activities": [
-    "Vormittäglicher Aufbruch aus Klaipėda — entspannte Etappe nach Lettland",
-    "Grenzübertritt nach Lettland — willkommen in Kurzeme",
-    "Optional landschaftlicher Schlenker über Jūrkalne (Steilküste) oder das Abava-Tal mit Sabile",
+    "Aufbruch aus Ventspils über die P124 entlang der wilden Kurzeme-Küste",
+    "Vormittag am Kap Kolka — wo sich Ostsee und Rigaer Bucht treffen, oft mit hoher Brandung",
+    "Spaziergang am Strand und am Leuchtturm-Symbol des Kap, kleines livisches Fischerdorf",
+    "Mittagspause am Kap, dann weiter über die A10 entlang der Rigaer Bucht",
+    "Ankunft in Riga am Nachmittag — Check-in im Mercure Riga Centre an der Elizabetes iela",
     {
-      "highlightRef": "Ventas Rumba & Alte Backsteinbrücke",
-      "note": "Ankunft am Nachmittag — direkt an den breitesten Wasserfall Europas. Im Mai können hier springende Vimba-Fische beobachtet werden"
+      "highlightRef": "Schwarzhäupterhaus",
+      "note": "Erster Abendspaziergang durch die UNESCO-Altstadt — Wiederaufbau-Meisterstück am Rathausplatz"
     },
     {
-      "restaurantRef": "Pagrabiņš",
-      "note": "Erstes Abendessen im Gewölbekeller — lettische Hausmannskost"
+      "nightlifeRef": "Black Magic Bar",
+      "note": "Black Balsam zum Einstieg in Lettlands Bar-Klassiker — mittelalterliches Gewölbe an der Kaļķu iela"
     }
   ]
 }
