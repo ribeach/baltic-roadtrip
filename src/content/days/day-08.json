@@ -17,7 +17,7 @@
     "distance": "~265 km",
     "duration": "~3:30",
     "mode": "drive",
-    "routeDescription": "Aufbruch aus Ventspils über die P124 Küstenstraße nach Norden bis zum Kap Kolka (~95 km), dann auf der A10/A1 entlang der Rigaer Bucht über Tukums in die lettische Hauptstadt (~170 km).",
+    "routeDescription": "Aufbruch aus Ventspils über die P124 Küstenstraße nach Norden bis zum Kap Kolka (~95 km), dann auf der A10/A1 entlang der Rigaer Bucht über Tukums und den Ķemeri-Nationalpark in die lettische Hauptstadt (~170 km).",
     "encodedPolyline": "otk}Icx}bC}ZzuAcMk|AgTws@}Ha\\gXq[_l@kmAq[uSkNsQcQ{Jyy@hGqs@lViWlIeTcJyfAcqAgkAyhA}\\oa@aM_LcYyEkt@yAe`@a`@gzB}uCor@_jA{a@yi@aP{m@_YitAqHubAuUacE}V_~FyZyhEgrBgxUyVkuCwn@mqCsmAgoFgB{XtP}z@wGm`AqWo_Byc@grCamAkyFmg@uwBw_@_pA_g@_qB_dBqrI{N_bAsBivAkV{eBaNkyAiBqd@oMeg@gRg`AsNoUk[ebBcTgeAcb@ioByVatAoyAkaGebBk_Iuv@ijDex@c|E}Z}_BgE{T~Fh[n@vGj@Y~NiLzMxJrQpLtR|b@x^jXte@`NhaAjRxXf[xg@nLnw@~GrOv@j[{T~i@v@pQzNpQqDjZtIjVsHxb@uCju@_@dm@gPxL[`NhJrWxBdL|L~NxMxTKzR_Pz`@yk@b}A{gApiBgmB`g@uj@zdA{wApNwY`a@}}Atl@yqA~lBaqEjbA}zD|`AimD`_@iiBfbA_gE~IiPlHib@zZs~@|LoQvPaQjn@o|Bhf@goAjWma@fg@}c@~v@_|@pu@ioA|i@gz@|~AagAhO_N|W}j@tW{p@jh@{lApg@wmArRai@xcAksEpW{uAbN}[nO{PbV_SjKiYtYgiAjd@{mC|ZigBti@_pAvd@krAzNuz@xi@uz@llAma@|~@_w@naA_z@vq@}j@di@wZjwAu]daAef@tx@}[zUyArv@}@vh@vBjtAcn@x{@ii@jh@uj@tp@yl@teB_|@`_Acs@lZmD|v@aw@~XfBr[uHlVGdj@pPbNd\\|P`d@pVbQ~d@w@pd@mTh\\y@|h@_SxD?`ChLfMzY~StUfe@ap@vXi\\f\\qr@zNe^vWqiAzIcpAbOybAdeAufCfd@cdAnPax@h|@m`E`WkxB~C{bAtTckC|YumFlHgrChY}|CdWeb@zb@kc@`Y{e@fa@ye@hf@o^d]yVlTyUxS{InUcu@jUiq@|Y{i@~`@mo@f@c@hKoj@vOmy@tZq{ChI{j@rEfBpMvBpJoCt\\a_@rYe\\hMiEdHv]vPl^fEqC|i@rdAjN~WfHeF}ByKmDs]v@ai@fHah@dMsjAyCqwBpJesDiDyyAmPo`AqTagCgp@}cG}v@onG{ScsBsYidBkc@ohDcDuv@vSiu@za@arDti@s|ECmdFjUo{@niAkhAv^_cAnEml@bBsd@oYqr@}o@{fBi[agB_]isAsO_xA_BwM|@oIw@~J_BhHtEZhW{VnDuJeHlLeBaFmB{B"
   },
   "evCharging": {
@@ -30,7 +30,11 @@
     "Vormittag am Kap Kolka — wo sich Ostsee und Rigaer Bucht treffen, oft mit hoher Brandung",
     "Spaziergang am Strand und am Leuchtturm-Symbol des Kap, kleines livisches Fischerdorf",
     "Mittagspause am Kap, dann weiter über die A10 entlang der Rigaer Bucht",
-    "Ankunft in Riga am Nachmittag — Check-in im Mercure Riga Centre an der Elizabetes iela",
+    {
+      "highlightRef": "Großer Ķemeri-Moor-Steg (Jūrmala)",
+      "note": "Nachmittagsstopp im Ķemeri-Nationalpark — Bohlensteg durch die mystische Moorlandschaft mit Aussichtsturm"
+    },
+    "Ankunft in Riga am späten Nachmittag — Check-in im Aparthotel Aurum an der Dzirnavu iela",
     {
       "highlightRef": "Schwarzhäupterhaus",
       "note": "Erster Abendspaziergang durch die UNESCO-Altstadt — Wiederaufbau-Meisterstück am Rathausplatz"
