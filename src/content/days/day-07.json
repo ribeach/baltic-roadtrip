@@ -1,37 +1,49 @@
 {
   "dayNumber": 7,
   "date": "2026-05-06",
-  "title": "Klaipėda — Hafenstadt und optional die Nehrung",
-  "subtitle": "Hansestadt-Bummel und der Kurische Spit als Tagesausflug, ohne Übernachtung",
-  "locationId": "klaipeda",
-  "previousLocationId": null,
-  "overnightLocationId": "klaipeda",
+  "status": "completed",
+  "title": "Von Palanga über Kuldīga nach Ventspils",
+  "subtitle": "Grenzübertritt nach Lettland, Wasserfall und Sandbergwerk in Kurzeme, Übernachtung in Windau",
+  "locationId": "ventspils",
+  "previousLocationId": "palanga",
+  "overnightLocationId": "ventspils",
   "additionalLocationIds": [
-    "curonian-spit"
+    "kuldiga"
   ],
-  "driving": null,
-  "evCharging": null,
+  "transitLocationIds": [
+    "kuldiga"
+  ],
+  "driving": {
+    "distance": "~280 km",
+    "duration": "~3:30",
+    "mode": "drive",
+    "routeDescription": "Aufbruch aus Palanga über die A11/A9 zur lettischen Grenze, Mittagsstopp in Kuldīga am Wasserfall, weiter über die P108 zur Ostseeküste nach Ventspils.",
+    "encodedPolyline": "c|htIayq_ClIrEfCeCzFu^rG}\\Jc@oGkCmhC}a@maAarAsa@ac@gFsVyFpBsQjF}bArN}j@hA}bBgq@we@gJs~@EspAmOyq@aYyr@gCgl@jEypAkLmbBkMgQ`@ys@}Ka~BetAebC}~@an@cTcU_A_cBdZ_rEjz@ihC|Ze^fTal@`aAmd@lt@ca@hYyp@fRai@lWghCd~@}j@xD}e@cOsrAcb@iaBpXuc@rJcc@hLmNjNcXxx@mYrc@}a@lYoXjc@mVeSuTsCwOrCmFoCuFgO{TzFoP~LyOsAyL}FmFoa@{MohAmUmj@u^gg@c~@obAy[aPap@`Vc|AjWkb@rPwk@V{]hNoS|JyYt@ad@sDmy@qa@{TwGch@hT_e@fU{a@rQy`@aWa[g\\ka@wOya@nO_X|@cTwHi`@rFsNk{@mLo|@kYjg@_SivBgUhZ{Sg@iWejCaNug@Igh@jYqhCE}h@_Taw@wo@wqBwRef@qPkcA_Jkp@k@qy@eC{VuUoUw^ok@eFeFqLb@caA~Eat@qCsf@gVsw@ow@iWqQq[eCmh@uRc}Bym@aSeK}Li[}v@ayBgWorAe\\oeAwI_g@wCy{A_Jav@u]a|@oScNid@eMok@w~@mYsmAwf@cvBiZqlBcR_s@_]owBmIem@~Caq@pLo{BwL_uCwVgiDcT}iA_Gm}@_Omd@v@eMkCeo@{MmMuMSwc@o@yOjMiMwJux@oZivA_c@go@ce@gz@wkAcaB_wCu[cvAao@kbD}Our@sk@kvAopAkkCavA_gDoh@cbB}^w}A{h@mkDkIc_Au@gp@gGeW_i@q`@kj@izAiQaZma@}Wa{@}o@gZuK}Tyd@eQyc@cQuQ}{@wDwd@go@yOob@sV_]co@wg@{tA{~@kv@ox@i_@{k@~@}}@XaJwBoDOyBqIoAqCkFiDW_CdCSHPp@LrPoInPIEqKrLoHfGaHpOfA~_@fChEsL`UcN`cA_ZbvAweAxqCcx@l}@mY|`Auh@`c@{o@b|Aqz@tcC{xAflBuhAlp@{a@``@ie@riAuy@jpAkh@jZ_\\bEuh@FaWzNcSf]qrAf_DsxFxkI{wBpqFoaBtdCo~A~pBwkBddAetBls@{xBfu@_u@h_@ib@~Z}l@`w@ubBzi@mXrPqb@dAuc@yVeZkRsT{C{l@Hym@o]_VdCeOrN{z@~Mi_@t@oW{EifA{JyEmFsHye@gF}q@eM_a@m@JyLjCcOkZmAa@oGhMeTiWg]oHc]gj@kEcFsBwLdAaM_`@zBcNBPaDt@cLpDoUpSer@"
+  },
+  "evCharging": {
+    "stopsNeeded": 1,
+    "notes": "Vor Abfahrt in Palanga vollladen, ein Schnellladestopp im Raum Liepāja oder direkt in Kuldīga. Ventspils hat AC-Lader im Stadtzentrum.",
+    "criticalLevel": "green"
+  },
   "activities": [
+    "Frühstück in Palanga, Aufbruch über die A11 zur lettischen Grenze",
     {
-      "highlightRef": "Altstadt mit Fachwerkhäusern",
-      "note": "Vormittags entspannt durch das Memel-Quartier bummeln — Theaterplatz mit Ännchen-von-Tharau-Brunnen, Dane-Promenade, kleine versteckte Hofdurchgänge"
+      "highlightRef": "Ventas Rumba & Alte Backsteinbrücke",
+      "note": "Mittagsstopp am breitesten Wasserfall Europas — im Mai mit den springenden Vimba-Fischen"
     },
     {
-      "highlightRef": "Fährhafen zur Kurischen Nehrung",
-      "note": "OPTIONAL: Tagesausflug auf die Nehrung — KEINE Übernachtung mehr. Mit Auto rüber, halber Tag in Smiltynė + Juodkrantė reicht für Hexenberg, Strand und Düne"
+      "highlightRef": "Altstadt Kuldīga",
+      "note": "Kurzer Bummel durch die UNESCO-geschützte Holzaltstadt mit dem Alekšupīte-Kanal"
     },
     {
-      "highlightRef": "Smiltynė Meeresmuseum & Delfin-Show",
-      "note": "Auf der Nehrungsseite gleich am Fähranleger — gut mit dem Skulpturenpark zu kombinieren"
+      "highlightRef": "Riežupe Sandhöhlen",
+      "note": "Highlight des Tages: 2 km langes unterirdisches Labyrinth ~3 km außerhalb von Kuldīga, mit Kerzen erkundet"
     },
     {
-      "highlightRef": "Švyturys-Brauerei",
-      "note": "Alternativ am Nachmittag in der Stadt — Litauens älteste Brauerei mit Verkostung"
+      "restaurantRef": "Pagrabiņš",
+      "note": "Spätes Mittagessen im Gewölbekeller — lettische Hausmannskost zum Aufwärmen nach den Höhlen"
     },
-    {
-      "restaurantRef": "Monai",
-      "note": "Michelin-empfohlene moderne Küche zum Abschluss des Klaipėda-Tages — vorab reservieren"
-    },
-    "Hinweis: Wer auf den Nehrungs-Tagesausflug verzichtet, gewinnt einen sehr entspannten Stadt-Tag — Klaipėda lohnt sich auch ohne Spit"
+    "Weiterfahrt am späten Nachmittag über die P108 nach Ventspils (~55 km, ~1 Std.)",
+    "Check-in im Hotel Vento in der Talsu iela — kurzer Abendspaziergang an der Promenade"
   ]
 }

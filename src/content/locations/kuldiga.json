@@ -44,6 +44,19 @@
       "coordinates": { "lat": 56.968225399999994, "lng": 21.9765263 },
       "rating": 4.8,
       "userRatingCount": 445
+    },
+    {
+      "name": "Riežupe Sandhöhlen",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Künstliches Höhlensystem aus dem 19. Jahrhundert ~3 km außerhalb von Kuldīga — etwa 2 km lange unterirdische Gänge im weichen Sandstein, die mit Kerzenlaternen erkundet werden. Eines der ungewöhnlichsten Naturerlebnisse Kurzemes.",
+      "duration": "45-60min",
+      "price": "~€8",
+      "googleMapsUrl": "https://maps.google.com/?cid=16730638152862304873",
+      "placeId": "ChIJ_____z_R70YRaYr03sEqL-g",
+      "coordinates": { "lat": 57.0072707, "lng": 21.97855 },
+      "rating": 4.7,
+      "userRatingCount": 1207
     }
   ],
   "restaurants": [

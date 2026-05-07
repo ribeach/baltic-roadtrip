@@ -1,37 +1,35 @@
 {
   "dayNumber": 10,
   "date": "2026-05-09",
-  "title": "Von Kuldīga nach Riga",
-  "subtitle": "Vom Provinzcharme in die Jugendstil-Hauptstadt",
-  "locationId": "riga",
-  "previousLocationId": "kuldiga",
-  "overnightLocationId": "riga",
+  "status": "planned",
+  "title": "Von Riga nach Pärnu",
+  "subtitle": "Direkte Etappe auf der Via Baltica zur estnischen Bäderstadt",
+  "locationId": "parnu",
+  "previousLocationId": "riga",
+  "overnightLocationId": "parnu",
   "driving": {
-    "distance": "~150 km",
-    "duration": "2:15",
+    "distance": "~190 km",
+    "duration": "~2:30",
     "mode": "drive",
-    "routeDescription": "Kurze Etappe ostwärts über die A9 nach Riga. Kein Zwischenhalt am Berg der Kreuze, kein Umweg über Šiauliai — direkt durch Kurzeme und Zemgale in die lettische Hauptstadt.",
-    "encodedPolyline": "enuzI}`beCQwAaBa@}Fu@gCkFgAwE|AmFpAkGqCyMuBsMoAggAeCsXw@{Wd@mwANuHxGiv@q@yx@|CidAzTorA~[gdBtF{YX}MyAsn@nAmb@eAsUh@_e@~HgYpK{r@vCc_@QqU~@e_@nFaw@`Wu|BpCws@q@w|@}@e`AaCabA{K}|BoEyjA|@cl@pGor@fHcm@pF}|@g@al@mHueAqHe}@|FwjAhDy}@hDsqAqA{g@d@sb@nF}eBB{_@tBmXYm]{KksAvCmm@e@c_@vAkJ|Cg@xG}BpByC`EeKhBcK^{ZtHgWrF{b@l@e]m@mc@cCs^mIg^yGkj@cL_[sEw_Aw@kgApBmKjHmMfKuPfLwY~Ik`@dW}c@fEsP`GkcAdCeZfJmVlQ}c@f@sXwDk\\fHui@nS}oAl@kLdCqM`MyTy@cGoBuCaHqFkYaU{LeNgHuRsFug@mAeQ_FaVw]ubA_JmWaUmS}_@g[aq@kk@oCyOAkMtd@i|AfPag@dPiXj^og@rMyI|P{UnJsWLuXoH_|B{Dwz@cHmg@Aw_@oAkn@`Cko@xMs}@lCkUrIyNbHkHpIoRjGaOzL}{@bLggAjF}]rLmoAzAoc@sHkl@kEef@~IuiArF}SxLeR`\\}a@vY_q@pYse@lOyUr[m]~MsOdFuOxBqQVmXh@k_@{BmZuFug@sFs}AmD_ZyYar@iLg]yGw_@oF_y@wAytDS{|@{BgVy@u^iBoQsPew@uBqQb@_[nCod@AwNcGuc@eEuc@`@gbAoCs`@}Imh@o]itBc]szBs[wiAkRap@oW_r@{Vuh@c\\_YoD}EcAuFbGiqA|Ka{Adk@cjErZ}}BdD}NnAmF?gKdh@s{D`W_nBnNktAQk[cD_e@qEqgApDm_ApRa_Cx]giEbAyi@kB{l@gCs\\wJym@_`@qgCemA_bPEaPrGi_AxWcpDdIcvAcBy{@oHedDkDow@gMem@kDaZFie@xEab@|H}f@nF_k@mCg|Bb@{b@rEsv@xC_v@Yg]kDm}AwOg~@aEyf@oN__BsRovAi\\{iDad@ioD}RucBwQkkB{ZmhBq\\}eCkFqc@cDsY_AqJZmP`FeQjJk\\pPecAhE}b@|LqrA|Ka`AxMe_AxLqoAtBcgAOq\\s@_g@mAs{@r@md@~D_ZxM_`@zW_Z~l@ij@xTs]zLwc@`Gqr@bBcc@kBiJsQu_@{f@_rAqLa]eEsWiSijAqT_q@_Hy^yFgk@aLcaAM{GxA}@h@xGgBdBc@`@mAnEZrDjDkAfHyF`MqMjGiLMe@wHrMcBuEsBoC"
+    "routeDescription": "Direkte Etappe auf der E67 Via Baltica nordwärts über die estnische Grenze in Estlands Sommerhauptstadt Pärnu. Kein Sigulda-Detour mehr — der Geheimbunker im Gauja-Tal wurde am Vortag von Riga aus besucht.",
+    "encodedPolyline": "e`rzIyacrCsGmXE_DgBxDa@hFaF~MiAu@yHkU_GkWsK}UkIoQD}BrDoI`EaL{BcF{EqVcS}o@}Ve{@uWckAu^ieBuc@wwBeW_aBkSweD}Iox@eVwkAwp@w~Cue@wwBqIaa@~AgJfExI[lEgBbAwMQiSaGob@m`@wVwVgVoM{QSqVzMkSpMgMlBuRa@uo@kTol@mQyMg@iWrEw_AbSuc@xJ_sA~Wm[MsL{BsX_Nea@u`@mSaMgXsJ{g@qTajAkl@ihAoj@}YuMc\\qIeX|AyT|CenA|QoN[mSiIeWoM}KaJaGwMc]i_BmNc^oPy[erCyrF_e@{y@mRyNkOuDoi@`@wjAeN{a@sFaRcMqPwSsIeFmG{A_MCyX~Ji^nMmUv@gy@gWgsA{f@}x@y[c\\wPsd@{]gPoGaDQyJfByNtLyYvb@oTx[iL`OwWzNqmBjNeXvF}YxJwn@pRcQrFcNf@sk@lCw\\g@c[}KiQaGqSLkf@bP_SzAsLc@e^oBej@wBaw@~@ko@g@y|Aq_@wo@nDoqDhWcnBiBu_A]qlFmTke@n@mOlGqbB`eBciAfkAgx@|y@kj@dk@wWnRmc@xZmRtI}g@nNyRdFmXM{QiAq[iIynA{\\ea@eKmNEweAnLkj@`]eeBz|@qx@tWgGq@ez@a[gJV_TbM_e@pZeW~Iec@~EoEiBuOsQiCgAcE`@eDtCaL~JkOhLiL`CeYnAqa@nBwk@nBgg@j@qa@`Sw^nFgj@fGcm@jG{l@nBgq@|LuQlAeMaDmg@qQai@_VwJyHaKoQuR}^kVgZgg@y]o_@o\\kSqUiLeOgFsD}IqNycAkpAij@op@gs@op@eC_BwR{Lux@o\\oX{HanB}m@yc@aSax@ib@e}@mg@saAoq@a{@{t@w~@maAcrAkzAgcAw{@yg@uYsp@aWu_AwTagAaLg`BqA}\\B_^dByN|Cs\\hIqTlBmnAkAumBqQeeAuHiQzJaQzOsMlHsNhB_HpD}MxOiHlHwRtIiN|CiMI_u@jHej@hLq\\|Gqx@jH}[vFog@zRuSpIaRbAi\\x@q]gCk[sIgTgKkSyKqMeQkXok@sVmWkfAi`A}SuWeR{_@sa@moAqa@c|@i]i_@{Xw[aRkYiPiZoYum@{Qga@mUoz@sWc_AgPwXoRkNuWiFeYMuNpCc^xQif@nWmOtDe[zFmWrIm}@`f@e^xU_p@zn@qZ~_@}DpLaEv\\kQxb@it@tdBmTri@wQxk@_Ubv@_EpSeOf[gJdWYlBuAtNAr@t@hf@r@pQpAhCnECj@gG"
   },
   "evCharging": {
     "stopsNeeded": 0,
-    "notes": "Mit voller Batterie aus Kuldīga problemlos. In Riga laden bei Hotel oder im Parkhaus an der Esplanade.",
+    "notes": "Mit voller Batterie aus Riga problemlos. Estland hat ein gut ausgebautes Ladenetz — bei Bedarf an der Grenze oder in Pärnu nachladen.",
     "criticalLevel": "green"
   },
   "activities": [
-    "Gemütlicher Vormittag in Kuldīga — letzter Blick auf die Backsteinbrücke",
-    "Fahrt nach Riga am frühen Nachmittag",
+    "Entspannter Vormittag in Riga — letzter Bummel durch die Altstadt oder Frühstück im Café",
+    "Aufbruch am späten Vormittag über die E67 Via Baltica nach Norden",
+    "Grenzübertritt nach Estland — willkommen im letzten Baltikum-Land",
     {
-      "highlightRef": "Schwarzhäupterhaus",
-      "note": "Erster Spaziergang durch die UNESCO-Altstadt — Wiederaufbau-Meisterstück am Rathausplatz"
+      "highlightRef": "Strandpromenade & Kurort-Viertel",
+      "note": "Ankunft Pärnu am Nachmittag — Strandspaziergang im Kurviertel"
     },
     {
-      "highlightRef": "Rigaer Zentralmarkt",
-      "note": "Abendlicher Bummel durch die ehemaligen Zeppelinhallen"
-    },
-    {
-      "nightlifeRef": "Black Magic Bar",
-      "note": "Black Balsam zum Einstieg in Lettlands Bar-Klassiker — mittelalterliches Gewölbe an der Kaļķu iela"
+      "restaurantRef": "Supelsaksad",
+      "note": "Erstes Abendessen im 150 Jahre alten Holzblockhaus — saisonale estnische Wohlfühlgerichte"
     }
   ]
 }

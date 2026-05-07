@@ -1,34 +1,33 @@
 {
   "dayNumber": 9,
   "date": "2026-05-08",
-  "title": "Kuldīga in voller Pracht",
-  "subtitle": "UNESCO-Holzaltstadt, Bezirksmuseum und der breiteste Wasserfall Europas",
-  "locationId": "kuldiga",
+  "status": "planned",
+  "title": "Riga: Zentralmarkt und Sowjetbunker bei Līgatne",
+  "subtitle": "Markthallen vormittags, Tagesausflug zum geheimen Bunker im Gauja-Tal nachmittags",
+  "locationId": "riga",
   "previousLocationId": null,
-  "overnightLocationId": "kuldiga",
+  "overnightLocationId": "riga",
+  "additionalLocationIds": [
+    "sigulda-gauja"
+  ],
   "driving": null,
   "evCharging": null,
   "activities": [
     {
-      "highlightRef": "Altstadt Kuldīga",
-      "note": "Vormittags durch die UNESCO-geschützte Holzaltstadt — Marktplatz, Alekšupīte-Kanal, kleine Galerien"
+      "highlightRef": "Rigaer Zentralmarkt",
+      "note": "Vormittags durch die fünf ehemaligen Zeppelin-Hangars — frisches Brot, Räucherfisch und lettischer Käse"
     },
+    "Mittagessen am Markt — Lettische Spezialitäten direkt vom Stand probieren",
+    "Aufbruch über die A2 nach Līgatne — ~90 km, ~1:15 Std. ins Gauja-Tal (Roundtrip von Riga ~180 km, mit voller Batterie problemlos)",
     {
-      "highlightRef": "Kuldīga Bezirksmuseum (Bangertu Villa)",
-      "note": "Regionalgeschichte des Herzogtums Kurland mit Blick auf Wasserfall und Backsteinbrücke"
+      "highlightRef": "Līgatne Geheimer Sowjetbunker",
+      "note": "Nachmittags die surreale Führung unter dem Sanatorium — vorab buchen! Nur geführte Touren zu festen Zeiten"
     },
+    "Rückfahrt nach Riga am späten Nachmittag",
     {
-      "restaurantRef": "Goldingen Room",
-      "note": "Mittagessen am Marktplatz — Steinofenpizza oder Pasta mit regionalen Zutaten"
+      "restaurantRef": "Folkklubs Ala Pagrabs",
+      "note": "Abendessen in der Bierhalle — graue Erbsen mit Speck und lettisches Bier vom Fass"
     },
-    "Optional am Nachmittag: Riežupe Sandhöhlen (~3 km außerhalb) — 2 km langes unterirdisches Labyrinth, mit Kerzen erkundet",
-    {
-      "highlightRef": "Ventas Rumba & Alte Backsteinbrücke",
-      "note": "Erneut zum Wasserfall — abends ohne Tagestouristen am eindrucksvollsten"
-    },
-    {
-      "restaurantRef": "Pagrabiņš",
-      "note": "Optionales zweites Abendessen im urigen Gewölbekeller, falls am Anreisetag schon dort gegessen wurde"
-    }
+    "Übernachtung wieder im Mercure Riga Centre"
   ]
 }

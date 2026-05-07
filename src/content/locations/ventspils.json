@@ -1,0 +1,32 @@
+{
+  "id": "ventspils",
+  "name": "Ventspils (Windau)",
+  "country": "latvia",
+  "coordinates": {
+    "lat": 57.4088355,
+    "lng": 21.620621
+  },
+  "description": "Hansestadt an der lettischen Ostseeküste mit Livländischer Ordensburg, breiter Strandpromenade und den bunten Kuh-Skulpturen der Govju parāde. Praktische Zwischenübernachtung zwischen Kurland und Kap Kolka.",
+  "placeId": "ChIJ2UhCZpbI8UYRoP7yaM3PAAQ",
+  "highlights": [],
+  "restaurants": [],
+  "hotels": [
+    {
+      "name": "Hotel Vento",
+      "type": "Stadthotel",
+      "priceRange": "60-90€",
+      "evCharging": false,
+      "description": "Familiengeführtes Hotel in der Talsu iela mit ruhigen Zimmern und einfachem Frühstück. Übernachtungsort am 6. Mai 2026 nach Kuldīga-Tagesetappe.",
+      "googleMapsUrl": "https://maps.google.com/?cid=15438012177514842688",
+      "placeId": "ChIJV_AfP1LJ8UYRQErtBkjWPtY",
+      "coordinates": {
+        "lat": 57.402724,
+        "lng": 21.5847799
+      },
+      "rating": 4.2,
+      "userRatingCount": 45,
+      "visited": true
+    }
+  ],
+  "tips": []
+}
