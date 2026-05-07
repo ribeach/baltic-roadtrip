@@ -1,0 +1,146 @@
+{
+  "id": "kosta-smaland",
+  "name": "Kosta — Glasriket / Glasreich Småland",
+  "country": "sweden",
+  "coordinates": {
+    "lat": 56.8390,
+    "lng": 15.4014
+  },
+  "description": "Kosta liegt mitten im 'Glasriket' (Glasreich) Smålands — der Wald-und-See-Region, in der Schweden seit 1742 Glas bläst. Die Glasbruk Kosta ist die älteste noch aktive Glasmanufaktur des Landes, und das angeschlossene Kosta Boda Art Hotel ist ein Designhotel, in dem die Bar selbst aus mundgeblasenem Kristall besteht. Auf dem Weg dorthin liegt mit Norrköpings Industrilandskapet eines der schönsten Industriekultur-Spaziergänge Europas; auf dem Weg weiter nach Halmstad warten Store Mosse und Danska Fall. Eine Übernachtung, ein Glasfrühstück, dann westwärts ans Meer.",
+  "region": "Småland / Kronobergs län",
+  "suggestedDays": "1 Nacht",
+  "placeId": "ChIJVwQNXJ-8VEYRVJZ_0w8c0lI",
+  "highlights": [
+    {
+      "name": "Kosta Glasbruk — Hot Shop",
+      "type": "industrial",
+      "icon": "star",
+      "description": "Die älteste aktive Glasmanufaktur Schwedens, gegründet 1742. Im Hot Shop arbeiten Glasbläser an offenen Öfen — Mo-Fr typischerweise bis 15:00, am Donnerstag 14. Mai (Christi Himmelfahrt) sind die Manufakturarbeiter frei, aber Outlet, Showroom und das angeschlossene Glas-Museum sind oft trotzdem geöffnet. Der Showroom verkauft seltene, fehlerhafte oder Prototyp-Stücke deutlich unter Listenpreis. Verbleib am Anreisetag prüfen mit dem Hotel-Empfang.",
+      "duration": "1–1,5 Std.",
+      "price": "Kostenlos (Hot Shop) / Outlet-Einkauf optional",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kosta%20Glasbruk&query_place_id=ChIJ-_-DlKK8VEYRPXC_n_DyiNI",
+      "placeId": "ChIJ-_-DlKK8VEYRPXC_n_DyiNI",
+      "coordinates": {
+        "lat": 56.8395,
+        "lng": 15.4016
+      },
+      "rating": 4.4,
+      "userRatingCount": 1832
+    },
+    {
+      "name": "Norrköping Industrilandskapet",
+      "type": "industrial",
+      "icon": "star",
+      "description": "Der wohl schönste Industriekultur-Spaziergang Schwedens — direkt im Stadtzentrum Norrköpings ziehen sich rote Backstein-Textil- und Papierfabriken am Motala-Strom entlang, mit echten Wasserfällen *zwischen* den Häusern. Highlight ist das Strykjärnet ('Bügeleisen'), das wie ein viktorianischer Schornstein-Hochhaus zwischen den Kanälen steht. Free Self-Guided Walk, ~2 Stunden inklusive Mittagspause im Knäppingsborg-Quartier. Funktioniert auch an Christi Himmelfahrt: vollständig outdoor.",
+      "duration": "2 Std.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Norrk%C3%B6ping%20Industrilandskapet&query_place_id=ChIJEbm_NuLLW0YRk59nSlz9Y2k",
+      "placeId": "ChIJEbm_NuLLW0YRk59nSlz9Y2k",
+      "coordinates": {
+        "lat": 58.5942,
+        "lng": 16.1875
+      },
+      "rating": 4.7,
+      "userRatingCount": 542
+    },
+    {
+      "name": "Danska Fall — Wasserfall und Eisenwerksruinen",
+      "type": "nature",
+      "icon": "star",
+      "description": "20 km östlich von Halmstad an der Rv25 bei Simlångsdalen: ein 36 m hoher Wasserfall an der Assman, eingefasst von dichtem Buchenwald, dazu auf der Insel im Fluss die Ruinen eines Eisenwerks aus dem Jahr 1727. Vom Parkplatz führt ein 2 km langer Schotterweg zum Hauptfall (oder ein 2,3 km langer 'Blue Path'-Rundweg über die Ruineninsel). Der Name kommt vom Schwedisch-Dänischen Krieg 1676: dänische Soldaten ertranken hier, als die Brücke zusammenbrach. GPS 56°42'33\"N, 13°7'25\"E. 60–90 Min. Rundzeit, kostenlos.",
+      "duration": "1–1,5 Std.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Danska%20Fall%20Naturreservat&query_place_id=ChIJ_2x_DKTXSEYRPDdqNUvCo3I",
+      "placeId": "ChIJ_2x_DKTXSEYRPDdqNUvCo3I",
+      "coordinates": {
+        "lat": 56.7092,
+        "lng": 13.1236
+      },
+      "rating": 4.7,
+      "userRatingCount": 891
+    },
+    {
+      "name": "Store Mosse-Nationalpark — Wibecksplatsen",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Schwedens größtes erhaltenes Hochmoorgebiet südlich von Lappland, gewachsen über 8.000 Jahre. Der Bohlensteg von Wibecksplatsen führt direkt in das offene Hochmoor mit Sonnentau, alten Sand-Dünen-Inseln und Kraniche-Rastplätzen. Auf der Strecke Kosta → Halmstad ein perfekter 45-Minuten-Stop bei Värnamo. Ähnlich dem Ķemeri-Bohlensteg in Lettland — die Ekossystem-Klammer schließt sich am letzten Tag des Trips. Naturum-Besucherzentrum am Haupteingang.",
+      "duration": "45 Min. (Kurzweg) bis 2 Std. (großer Rundweg)",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Store%20Mosse%20National%20Park&query_place_id=ChIJsUzDlYOoRkYRZ8Rk7uqgz_o",
+      "placeId": "ChIJsUzDlYOoRkYRZ8Rk7uqgz_o",
+      "coordinates": {
+        "lat": 57.2778,
+        "lng": 13.9389
+      },
+      "rating": 4.7,
+      "userRatingCount": 1124
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Restaurant Linnéa — Kosta Boda Art Hotel",
+      "cuisine": "Modern Schwedisch / Småland-Klassiker",
+      "priceRange": "€€-€€€",
+      "description": "Hauseigenes Restaurant im Kosta Boda Art Hotel — geräucherter Saibling, Småland-Wild, hausgemachtes Knäckebrot. Funktioniert verlässlich am Christi-Himmelfahrt-Abend, wenn die meisten Restaurants im Glasriket geschlossen sind. Reservierung mit dem Zimmer.",
+      "mustTry": "Geräuchterte Forelle aus dem nahegelegenen See mit Dill-Kartoffeln und Brennnessel-Schaum",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Linnea%20Kosta%20Boda&query_place_id=ChIJVwQNXJ-8VEYRVJZ_0w8c0lI",
+      "placeId": "ChIJVwQNXJ-8VEYRVJZ_0w8c0lI",
+      "coordinates": {
+        "lat": 56.8390,
+        "lng": 15.4014
+      },
+      "rating": 4.4,
+      "userRatingCount": 487
+    },
+    {
+      "name": "Knäppingsborg — Norrköping Cafés",
+      "cuisine": "Café-Quartier",
+      "priceRange": "€-€€",
+      "description": "Innenhof-Cafés zwischen den Backsteinmühlen — Pappa Grappa und Brogyllen sind beide am Christi-Himmelfahrt-Tag verlässlich offen. Kalter Lachs-Sandwich, schwedisches Räuchergericht, kanelbullar. Gut für 45 Min. Mittagspause im Industrilandskapet-Walk.",
+      "mustTry": "Kanelbullar (schwedische Zimtschnecke) und ein starker Espresso",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kn%C3%A4ppingsborg%20Norrk%C3%B6ping&query_place_id=ChIJUxbCCVfOW0YRVZw5qkvRQHA",
+      "placeId": "ChIJUxbCCVfOW0YRVZw5qkvRQHA",
+      "coordinates": {
+        "lat": 58.5961,
+        "lng": 16.1894
+      },
+      "rating": 4.5,
+      "userRatingCount": 314
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Kosta Boda Art Hotel — TWO Rooms",
+      "type": "Designhotel im Glasriket",
+      "priceRange": "150-200€/Zimmer",
+      "evCharging": true,
+      "description": "Glas-Designhotel mit 102 Zimmern, in dem die Lobby-Bar selbst aus mundgeblasenem Kristall besteht. Spa, drei Indoor- plus zwei Outdoor-Pools, Restaurant Linnéa. Für unsere Regel zwei getrennte Schlafräume: ZWEI Standard-Doppelzimmer separat buchen (~€150-200/Zimmer × 2 = €300-400 total). Christi-Himmelfahrt-Wochenende ist das größte Auslastungs-Risiko der gesamten Reise — am 7. Mai abends UNBEDINGT buchen. Direkt über kostabodaarthotel.se/en/book oder Booking.com.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kosta%20Boda%20Art%20Hotel&query_place_id=ChIJVwQNXJ-8VEYRVJZ_0w8c0lI",
+      "placeId": "ChIJVwQNXJ-8VEYRVJZ_0w8c0lI",
+      "coordinates": {
+        "lat": 56.8390,
+        "lng": 15.4014
+      },
+      "rating": 4.3,
+      "userRatingCount": 1234
+    }
+  ],
+  "tips": [
+    {
+      "type": "warnung",
+      "text": "Donnerstag, 14. Mai 2026 ist Christi Himmelfahrt — gesetzlicher Feiertag in Schweden. Auf der Strecke Stockholm → Kosta sind kleinere Museen und Cafés ggf. geschlossen oder verkürzt. Industrilandskapet (outdoor) und Kosta Glasbruk Showroom sind in der Regel trotzdem zugänglich. Restaurant Linnéa im Hotel ist die zuverlässigste Abend-Option."
+    },
+    {
+      "type": "warnung",
+      "text": "Freitag 15. Mai ist 'klämdag' (schwedischer Brückentag) — viele Schweden nehmen den Tag als Brücke ins Wochenende. Kosta Glasbruk Hot Shop am Freitagvormittag eher nicht erwartet. Outlet-Showroom typischerweise offen 10:00–17:00."
+    },
+    {
+      "type": "info",
+      "text": "Lade-Hub auf der E4: Värnamo Bredasten Ionity (16 Stalls, 350 kW × 4 + 200 kW × 12, 2025 eröffnet) — Schwedens größter Ionity-Hub und der natürliche Tank- und Mittagspause-Stop zwischen Norrköping und Kosta."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Wenn Glas-Shopping nicht reizt: kein Pflicht-Stop am Showroom. Stattdessen morgens länger frühstücken im Hotel und schon um 09:30 nach Westen aufbrechen — der Tag-16-Endspurt fühlt sich entspannter an mit zwei Stopps (Store Mosse + Danska Fall) als mit drei."
+    }
+  ]
+}

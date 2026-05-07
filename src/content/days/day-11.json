@@ -2,43 +2,50 @@
   "dayNumber": 11,
   "date": "2026-05-10",
   "status": "planned",
-  "title": "Pärnu-Morgen und Fahrt nach Tallinn",
-  "subtitle": "Jugendstil-Villen, Spa-Frühstück und mittelalterliche Hauptstadt",
-  "locationId": "tallinn",
-  "previousLocationId": "parnu",
-  "overnightLocationId": "tallinn",
+  "title": "Cēsis-Burg, Grenze nach Estland und das südestnische Hochland",
+  "subtitle": "Kerzenlicht-Tour in Cēsis, Suur Munamägi (höchster Punkt des Baltikums), Taevaskoja Sandsteinklippen, Übernachtung in Tartu",
+  "locationId": "tartu",
+  "previousLocationId": "cesis",
+  "overnightLocationId": "tartu",
   "additionalLocationIds": [
-    "parnu"
+    "taevaskoja-otepaa"
+  ],
+  "transitLocationIds": [
+    "taevaskoja-otepaa"
   ],
   "driving": {
-    "distance": "~130 km",
-    "duration": "1:50",
+    "distance": "~280 km",
+    "duration": "~4:00",
     "mode": "drive",
-    "routeDescription": "Kurze Etappe auf der E67 Via Baltica nach Norden — Auffahrt erst am späten Vormittag nach entspanntem Pärnu-Programm. Ankunft Tallinn am frühen Nachmittag.",
-    "encodedPolyline": "mnjcJ}qotCe@]aFdAwCjCqMlBiXrFcDv@gCKsD\\yL`C{RtBuI]_RiAcIc@gAw@Sa@JgFhAeDmBeBoGa@aMaAoFo@gCG{@JaEjCqHzF_F~@_MHsPc@kGS}CsAyDoDiRgScEuCw@mAc@}@k@@cBNoIb@uq@rIuMdCoDDwE}@_F_DmIoKyg@iu@oa@a`@mb@__@aL_KwRyPeIwEgL}DsE}@}NS_c@m@{Lo@yHeBkLuFcX}O{MuKi|AgmBuEgEyVgNmWqLeLoFoFa@gFpAwCbCwPfPy_@v^_`Bf~A}Y~_@}Th\\gf@rw@{EfFsEdCeTbFwP`DiQ\\aPFc`@@uH@}t@JcOKaYRmp@Iwe@sBuH\\wF|@cKtDaLhGaW`Mgk@vm@_uA~{AclAnrAqs@nwAwTzg@mK`WcMfWwEpEuCx@ac@oAcFj@eGdCqJtIaMdQ}HhKkIfGab@dWoFdDoPlJ_QfJuBt@aQbFyJ`AuMTkZLgtCjAsw@Zi[J}LFqM~@iRjEcGrBsOlIwa@`TiWdLuJhB{Wl@mh@^iiAt@ki@d@mBoAmBr@_I`@_N@gTH_GF}Ri@yGy@{QkDwRsGmEoBiS{K_UsL_e@iVmpAup@ym@{[qxAyu@uQmJmALkB]kA}A}A{B}YcO_OeHo[uKmX_Fw@m@iD_AmI\\kr@{AojAeEeQgFeLaEyJwCcQeFuBKq@NoAIyCmBcA}@aDu@iu@oT}XiHaV}@qOc@qN}Im]oVuN}JqKqHkDyA_Gs@kQvDeDbAqSrAoDNgPxAyT|JeyB|_AyiBdy@yw@v^qf@fW_[bD_i@hCwEPiMo@mNwBwZuHc^{Imb@mKgu@wQ}\\_KwOqHgsAsw@up@g`@gO}I_TqEcJsBkk@cMii@cKqg@iJyNqC_HiCuLgIuM{Oy^am@yZyg@aHaLwIwJ}MuHqI{AiQNoYbAi`@pDcjAnK{jCnVezClY{s@bI}Rv@sVsCyI{BwJgDwI{EoSyQ}GyHyg@}j@gTeUo`@w^ah@}c@kCyB}PmO_q@m{@{Tu[{OaX{}AmiCok@m`AuoBe`DadBynCyGqJkIoHuQcLoHsDiD{@wMt@kOxByC[iL_M{AgDmAeIuAuTmIcr@wFka@c\\qgAsEoQyN{jAqHep@sDw\\uGia@qCkPsDiLqK__@aU{u@yDaOeAeEoCgFsMeIwDyEiEaG_q@mYsJ{GuV{UqNiOgGyF}OsHo^uLwHyC{GyBuHMeU@wDAeEc@}DoD}CkFk@{@wEcA{Co@_CQgBg@eCgCeDmH_FaV{DgMYfC"
+    "routeDescription": "Cēsis → Valka/Valga-Grenzübergang (~120 km, 1:40), dann nordöstlich zum Suur Munamägi (~70 km), weiter nördlich nach Taevaskoja (~60 km) und schließlich über Otepää nach Tartu (~50 km). Mother's-Day-Sonntag in Lettland und Estland — Restaurants entlang der Strecke füllen sich früh. Picknick aus Cēsis-Markt mitnehmen.",
+    "encodedPolyline": "{~x|I{agyCp@kLcOwMwCsNiVw|@siAssDsYi}@wV}d@_Xg[oh@qgA}M}h@w\\me@ii@}xAiB_QuIu@}JuNyZkl@i]ap@av@gyAcPg_@yFrB_nAonAcg@iZy^cCu]kAwo@mRyRfAe[aO_OiAu`@lm@oi@tb@s`@fl@kk@~`@kUxNu[xs@y\\{Eq~@k^i{Aim@ss@wYoSqDie@~OoUhAi[wC{HdRkSaIqPe[n@oImG`FwOtIe@qDyAeKoFxC}KsPqM_Rk@MgSwLcG_Qg\\qw@{QmZijAqkB{u@oxBmPmo@uLayAkk@kzEkj@u}CeYqg@ae@y|Au}@kpDyi@ktE{Ke_Bb@a{BuGwZA_YmJgbBmL{uCdUed@lGwQjIw{AxH{~Ab@mu@_m@}mC{l@mkCqg@k`Ao\\gfBsc@cfAuuAsq@wu@okAyt@qn@q_@}WsOgFia@u^kw@sNaN_`@mIet@mIgd@iXiYspA{l@ot@k^cQ}I_Uir@yq@uuByj@ugCu_@ew@_H{Rkr@ysA_Yc^oRkx@a]w_AsAwFGQo\\qp@uZgw@adA_fB{`BqmCah@{bByU_Xep@kQok@u]e_@c\\sByQvJu|@rBifAmH_VwX}aAwNaa@cOy\\cG_N{DuP|SqrABi^}CkbAe]kqA{Mms@qGclBwH{tA}CgUuYmSaeAcp@gj@{Lsi@nU}JiLeXcj@cjA}cCiQeg@_Isp@k@{j@}LsXyi@waBmZoaAcYa|@uKicA_Gkv@oLgb@@{zAqOwvBsc@aqAwWqS{a@cq@cTqAaNyNyj@_Py_AaxBu^cq@_h@oWuOqHaKfHqRtUis@y^qXaU_Ya`@oQsEqXz@o]pOkLvE}J_EcO{@q]|Zog@nXaSfD{C{E{Bu`AgEsZfF_f@rJgc@nJqlAnDwcBIgzBiL{fAi[{`AwMcF{KtEsNfBaGg\\gHak@aSqg@{J}kAyIud@sT}r@uXa_BvZipAhAwg@~Ji]xGgL}@iUxJyw@~]ibAlVsx@|Lct@x@wn@iHmMsFgbAyBuu@rJ|tAQjm@kI{Bce@qN_q@`Cse@Kqn@u]a^cE_a@pJgq@nVqj@hSga@xVuk@~_Acm@beAqPhYwf@|f@{k@|Mom@lE_x@rCswAsTerA}lAeRyBu\\vGgl@bRshAlh@gf@~Xk}@lgAwSfOoViImy@yw@m_B}`BmfAsfAm\\cSwWkBmt@zLid@mHeW`A}iAdTsj@zJol@lImFfGgFfn@_CfZi\\fm@mj@~u@wR_c@ys@}eCwb@guAmK{NsBsFcDqIuBbFvAqBPG"
   },
   "evCharging": {
-    "stopsNeeded": 0,
-    "notes": "Mit voller Batterie aus Pärnu problemlos. In Tallinn beim Hotel oder im Parkhaus Viru Keskus laden.",
+    "stopsNeeded": 1,
+    "notes": "Vor Abfahrt in Cēsis am Maxima-Center (Eleport) auf 100% laden. An der Valga-Grenze bietet Eleport/Enefit Volt mehrere DC-Lader für einen optionalen Top-up. Tartu hat über die Stadt verteilte 50 kW Enefit-Volt-Lader für die Nacht.",
     "criticalLevel": "green"
   },
   "activities": [
+    "08:30 — 90-minütiger Cēsis-Burg-Spaziergang mit der Kerzenlaterne (€10, am frühen Sonntag fast für sich allein); Picknick aus dem Wochenmarkt für unterwegs einpacken",
+    "10:30 — Aufbruch nach Valka/Valga, Grenzübergang ohne Kontrolle (beide Schengen)",
     {
-      "highlightRef": "Villa Ammende",
-      "note": "Vormittags-Besichtigung des Jugendstil-Meisterwerks von 1905"
+      "highlightRef": "Suur Munamägi — Aussichtsturm",
+      "note": "12:30 — der höchste Punkt des Baltikums (318 m + 29 m Turm). 800 m Walk vom Parkplatz, Aufzug oder Treppe. Bei klarer Sicht 50–70 km Panorama"
+    },
+    "13:30 Picknick-Mittagessen am Aussichtsturm-Pavillon — die Edgar Bakery in Otepää als Plan B (Mother's Day, ländliche Restaurants oft geschlossen)",
+    {
+      "highlightRef": "Taevaskoja Sandsteinklippen am Ahja",
+      "note": "14:30–16:30 — vom Parkplatz Taevaskodade ein 3 km Bohlensteg-Rundweg an den 22 m hohen Devon-Sandsteinwänden, Maiden's Cave und dem Ahja-Fluss. Der schönste Wald-Walk Estlands"
     },
     {
-      "restaurantRef": "Supelsaksad",
-      "note": "Spätes Frühstück / frühes Mittagessen im 150 Jahre alten Holzblockhaus"
+      "highlightRef": "Pühajärve-See — Aussichtspunkt",
+      "note": "17:30 — kurzer Boxenstop, 20 Min. Beine vertreten, See-Panorama mit den fünf kleinen Inseln"
     },
-    "Auffahrt Pärnu→Tallinn auf der E67 Via Baltica",
+    "18:30 — Schlussstrecke nach Tartu (~50 km auf der 92), Check-in im 'Spacious & Quiet 2BR Apartment' (zwei Schlafzimmer, ruhige Hofansicht, kostenloser Privatparkplatz, 800 m zum Rathausplatz)",
     {
-      "highlightRef": "Toompea — Kohtuotsa & Patkuli Aussichtsplattformen",
-      "note": "Erster Tallinn-Spaziergang über den Domberg — Patkuli-Plattform für Postkartenblick auf rote Dächer und Hafen"
+      "restaurantRef": "JOYCE",
+      "note": "20:00 Dinner im Quartier V — Reservierung wegen Mother's Day Vortag empfehlenswert. Kreatives modern-estnisches Menü"
     },
-    {
-      "restaurantRef": "Rataskaevu 16",
-      "note": "Willkommens-Abendessen in der Altstadt — vorab reservieren"
-    }
+    "Schlechtwetter-Backup: Suur Munamägi-Turm streichen (exponiert, ungemütlich im Regen) und Taevaskoja zur Hauptattraktion machen — die Sandsteinwände schützen den Weg. Optional in Tartu noch das AHHAA Wissenschaftszentrum am Abend (geöffnet bis 19:00) für 90 Min. Indoor-Programm"
   ]
 }

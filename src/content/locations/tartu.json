@@ -86,6 +86,30 @@
       "userRatingCount": 382
     }
   ],
+  "apartments": [
+    {
+      "name": "Spacious & Quiet 2BR Apartment near Tartu City Museum",
+      "type": "Apartment",
+      "priceRange": "85-120€",
+      "bedrooms": 2,
+      "description": "Echtes Zwei-Schlafzimmer-Apartment auf 67 m² mit Parkett, ruhiger Hofansicht und kostenlosem privatem Stellplatz. 800 m zum Rathausplatz und zum AHHAA-Zentrum, 1 km zum Emajõgi-Flussufer. Ideal als Sonntag-Abend-Stop nach der langen Cēsis–Tartu-Etappe.",
+      "source": "Booking.com",
+      "rating": 4.7,
+      "bookingUrl": "https://www.booking.com/hotel/ee/spacious-and-quiet-2br-apartment.en-gb.html",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tartu%202BR%20apartment%20city%20centre&query_place_id=ChIJ9z1d1dg260YREG38GG2zAAQ",
+      "coordinates": { "lat": 58.3812, "lng": 26.7251 }
+    },
+    {
+      "name": "Tartu Town Hall Square Apartment",
+      "type": "Apartment",
+      "priceRange": "100-140€",
+      "bedrooms": 2,
+      "description": "Backup-Option direkt am Raekoja Plats: zwei Schlafzimmer, hohe Decken, Originalholzdielen aus dem 19. Jh. Wenn das ruhige Hofapartment ausgebucht ist, ist diese Adresse die Plan-B-Wahl mit etwas mehr Stadtlärm und etwas mehr Charakter.",
+      "source": "Booking.com",
+      "bookingUrl": "https://www.booking.com/searchresults.en-gb.html?ss=Tartu+Town+Hall+Square+Apartment&checkin=2026-05-10&checkout=2026-05-11",
+      "coordinates": { "lat": 58.3805, "lng": 26.7222 }
+    }
+  ],
   "tips": [
     {
       "type": "info",
@@ -98,6 +122,14 @@
     {
       "type": "info",
       "text": "Tartu war 2024 Europäische Kulturhauptstadt — die Stadt hat seitdem noch mehr kulturelle Infrastruktur und Gastronomie als zuvor."
+    },
+    {
+      "type": "warnung",
+      "text": "Sonntag 10. Mai 2026 ist Muttertag in Estland — Restaurants im Zentrum füllen sich früh. Das Apartment hat eine vollausgestattete Küche, im Werner ist Vortagsbestellung möglich, JOYCE braucht Reservierung."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Bei sehr schlechtem Wetter am Sonntagnachmittag: AHHAA Wissenschaftszentrum als 90-Minuten-Backup — Tesla-Spulen-Demos zur vollen Stunde, perfekter Indoor-Ersatz für den Suur Munamägi-Aussichtsturm."
     }
   ]
 }

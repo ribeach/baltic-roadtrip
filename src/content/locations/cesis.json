@@ -1,0 +1,161 @@
+{
+  "id": "cesis",
+  "name": "Cēsis",
+  "country": "latvia",
+  "coordinates": {
+    "lat": 57.3132,
+    "lng": 25.2727
+  },
+  "description": "Cēsis ist die heimliche Hauptstadt des Gauja-Tals — eine 800 Jahre alte Hansestadt mit einer der besterhaltenen mittelalterlichen Burgruinen Lettlands und einer überraschend kreativen Restaurant- und Boutique-Apartment-Szene. Bei Kerzenlicht durch das Burgverlies, danach Bib-Gourmand-Küche in der Altstadt: Cēsis ist der ideale Übernachtungsort nach dem Bunker und vor dem Sprung über die Grenze nach Estland.",
+  "region": "Vidzeme / Gauja-Nationalpark",
+  "suggestedDays": "1 Nacht",
+  "placeId": "ChIJq2u4iY7h60YRsAcKuwzCAAQ",
+  "highlights": [
+    {
+      "name": "Cēsis Mittelalterburg — Kerzenlicht-Tour",
+      "type": "castle",
+      "icon": "star",
+      "description": "Die 1214 gegründete Burg des Livländischen Ordens gehört zu den am besten erhaltenen mittelalterlichen Burgruinen Lettlands. Der Clou: Besucher bekommen am Eingang eine echte Kerzenlaterne und erkunden die unbeleuchteten Innenräume, Treppentürme und Verliese eigenhändig im flackernden Licht. Atmosphärisch unvergleichlich — vor allem morgens, wenn man die Burg fast für sich hat.",
+      "duration": "1,5–2 Std.",
+      "price": "~€10",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C4%93sis%20Castle&query_place_id=ChIJJ9l5X4_h60YRmf0SBG57hFQ",
+      "placeId": "ChIJJ9l5X4_h60YRmf0SBG57hFQ",
+      "coordinates": {
+        "lat": 57.3131710,
+        "lng": 25.2715356
+      },
+      "rating": 4.8,
+      "userRatingCount": 6729
+    },
+    {
+      "name": "Āraišu See-Pfahlbaudorf",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Auf einer Insel im Āraiši-See steht die einzige in Europa rekonstruierte lettgallische Pfahlbau-Festung aus dem 9.–10. Jahrhundert — Holzhäuser auf Eichenpfählen, mit einer schmalen Brücke vom Ufer aus erreichbar. Ein begehbares Open-Air-Archäologisches Museum und ein nahezu meditativer Ort am späten Nachmittag, kurz bevor die Sonne hinter den Birken untergeht. ~15 km südwestlich von Cēsis, direkt auf der Strecke vom Bunker.",
+      "duration": "1 Std.",
+      "price": "~€4",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C4%80rai%C5%A1u%20Lake%20Dwelling%20Site&query_place_id=ChIJ7T8K0NTd60YRSF7hJiUBs1Q",
+      "placeId": "ChIJ7T8K0NTd60YRSF7hJiUBs1Q",
+      "coordinates": {
+        "lat": 57.2522,
+        "lng": 25.2746
+      },
+      "rating": 4.7,
+      "userRatingCount": 980
+    },
+    {
+      "name": "Cēsis Altstadt",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Kompakte, lebendige Hansestadt-Altstadt mit Pflasterstein-Gassen, der mittelalterlichen Johanniskirche und einem überraschend gut sortierten Wochenmarkt. In 60 Minuten gut zu Fuß zu schaffen, ideal als Sonntag-Vormittag-Aufwärmer vor der Grenzfahrt nach Estland.",
+      "duration": "1 Std.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C4%93sis%20Old%20Town&query_place_id=ChIJq2u4iY7h60YRsAcKuwzCAAQ",
+      "placeId": "ChIJq2u4iY7h60YRsAcKuwzCAAQ",
+      "coordinates": {
+        "lat": 57.3132,
+        "lng": 25.2727
+      },
+      "rating": 4.6,
+      "userRatingCount": 412
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "H.E. Vanadziņš",
+      "cuisine": "Modern Nordisch-Lettisch (Michelin Bib Gourmand)",
+      "priceRange": "€€-€€€",
+      "isSplurge": true,
+      "description": "Das beste Restaurant im Gauja-Tal — vom Michelin-Guide 2026 mit dem Bib Gourmand ausgezeichnet. Chef Jānis Vanadziņš kocht moderne nordisch-lettische Küche mit Zutaten aus dem Wald, dem Garten und vom Bauern um die Ecke. Klein, ruhig, hochkonzentriert. Reservierung essenziell.",
+      "mustTry": "Saisonales Tasting-Menü mit lettischen Wildkräutern und Gauja-Forelle",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=H.E.%20Vanadzi%C5%86%C5%A1%20C%C4%93sis&query_place_id=ChIJg7P3SYzh60YRA4RuS8WRSeM",
+      "placeId": "ChIJg7P3SYzh60YRA4RuS8WRSeM",
+      "coordinates": {
+        "lat": 57.3128,
+        "lng": 25.2701
+      },
+      "rating": 4.8,
+      "userRatingCount": 387
+    },
+    {
+      "name": "Café Popular",
+      "cuisine": "Café / Brunch",
+      "priceRange": "€-€€",
+      "description": "Lebendiges Café in der Altstadt mit lokalem Sauerteigbrot, hausgemachtem Granola und einem starken Espresso aus Rigaer Röstung. Idealer Sonntag-Brunch-Stop vor der langen Fahrt nach Tartu.",
+      "mustTry": "Avocadobrot mit pochiertem Ei und Cēsis-Honig",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Popular%20Cesis&query_place_id=ChIJzdt-pIvh60YRplBQE4kmMc8",
+      "placeId": "ChIJzdt-pIvh60YRplBQE4kmMc8",
+      "coordinates": {
+        "lat": 57.3134,
+        "lng": 25.2705
+      },
+      "rating": 4.6,
+      "userRatingCount": 521
+    }
+  ],
+  "hotels": [
+    {
+      "name": "Villa Santa Hotel Cēsis",
+      "type": "Boutique-Landhaus",
+      "priceRange": "140-220€",
+      "evCharging": false,
+      "description": "Elegantes Boutique-Landhaus außerhalb der Altstadt mit liebevoll eingerichteten Zimmern und einem hervorragenden Restaurant. Falls die Apartment-Option nicht verfügbar ist, lassen sich hier zwei Zimmer separat buchen.",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Villa%20Santa%20Hotel&query_place_id=ChIJLUz3nD3i60YRWMoosfPc3i0",
+      "placeId": "ChIJLUz3nD3i60YRWMoosfPc3i0",
+      "coordinates": {
+        "lat": 57.3112587,
+        "lng": 25.2304421
+      },
+      "rating": 4.6,
+      "userRatingCount": 520
+    }
+  ],
+  "apartments": [
+    {
+      "name": "Concert Hall Boutique Apartment",
+      "type": "Boutique-Apartment",
+      "priceRange": "110-150€",
+      "bedrooms": 2,
+      "description": "Echtes Zwei-Schlafzimmer-Apartment im historischen Konzerthaus-Gebäude in der Altstadt — zwei Bäder, Kamin, vollausgestattete Küche, kostenloser Parkplatz. Vier Gehminuten zur Burg, sechs zum Restaurant H.E. Vanadziņš. Couples score 9,9 auf Booking.com — die naheliegendste Wahl für die Nacht zum 9. Mai.",
+      "source": "Booking.com",
+      "rating": 4.95,
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Cesis+apartment+2+bedrooms&checkin=2026-05-09&checkout=2026-05-10",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C4%93sis%20Concert%20Hall%20Apartment&query_place_id=ChIJq2u4iY7h60YRsAcKuwzCAAQ",
+      "coordinates": {
+        "lat": 57.3128,
+        "lng": 25.2718
+      }
+    },
+    {
+      "name": "Cēsis Old Town 2BR Apartment",
+      "type": "Apartment",
+      "priceRange": "85-120€",
+      "bedrooms": 2,
+      "description": "Backup-Option: solides Zwei-Schlafzimmer-Apartment in der Altstadt mit Holzdielen, hohen Decken und Hofzugang. Ohne den Charme des Concert Hall, aber zuverlässig und 30% günstiger.",
+      "source": "Booking.com",
+      "bookingUrl": "https://www.booking.com/searchresults.html?ss=Cesis+old+town+2+bedroom&checkin=2026-05-09&checkout=2026-05-10",
+      "coordinates": {
+        "lat": 57.3140,
+        "lng": 25.2700
+      }
+    }
+  ],
+  "tips": [
+    {
+      "type": "warnung",
+      "text": "Sonntag, 10. Mai 2026 ist Muttertag in Lettland — Restaurants in der Altstadt sind am Vortagabend (Samstag) und am Sonntag-Mittag stark gebucht. H.E. Vanadziņš für Samstag ~19:30 unbedingt vorab reservieren (info@vanadzinarestorans.lv / +371 24771771)."
+    },
+    {
+      "type": "info",
+      "text": "Cēsis hat einen CSDD e-mobi DC-Lader und einen Eleport-Schnelllader am Maxima-Center — bei Anreise mit ~30% reicht das aus, um morgens mit voller Batterie nach Tartu aufzubrechen."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Die Kerzenlaterne der Burg-Tour funktioniert auch bei leichtem Regen — wenn das Wetter Samstag morgen unangenehm ist, einfach die Reihenfolge tauschen: Pavāru Māja-Mittagessen wird länger, Burg-Tour erst Sonntag früh."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Āraišu Pfahlbaudorf am späten Samstagnachmittag (17:00–18:30) — fast leer, das Licht über dem See ist golden, und die rekonstruierten Holzhäuser werfen ihre langen Schatten auf das Wasser."
+    }
+  ]
+}

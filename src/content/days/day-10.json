@@ -2,34 +2,56 @@
   "dayNumber": 10,
   "date": "2026-05-09",
   "status": "planned",
-  "title": "Von Riga nach Pärnu",
-  "subtitle": "Direkte Etappe auf der Via Baltica zur estnischen Bäderstadt",
-  "locationId": "parnu",
+  "title": "Riga → Gauja → Līgatne — der geheime Sowjet-Bunker",
+  "subtitle": "Aufbruch aus Riga, Turaida-Burg, Gūtmanis-Höhle, 12:00 Bunker-Tour auf Englisch, Pavāru-Māja-Mittagessen, Āraišu Pfahlbaudorf, Übernachtung in Cēsis",
+  "locationId": "cesis",
   "previousLocationId": "riga",
-  "overnightLocationId": "parnu",
+  "overnightLocationId": "cesis",
+  "additionalLocationIds": [
+    "sigulda-gauja"
+  ],
+  "transitLocationIds": [
+    "sigulda-gauja"
+  ],
   "driving": {
-    "distance": "~190 km",
-    "duration": "~2:30",
+    "distance": "~210 km",
+    "duration": "~3:30",
     "mode": "drive",
-    "routeDescription": "Direkte Etappe auf der E67 Via Baltica nordwärts über die estnische Grenze in Estlands Sommerhauptstadt Pärnu. Kein Sigulda-Detour mehr — der Geheimbunker im Gauja-Tal wurde am Vortag von Riga aus besucht.",
-    "encodedPolyline": "e`rzIyacrCsGmXE_DgBxDa@hFaF~MiAu@yHkU_GkWsK}UkIoQD}BrDoI`EaL{BcF{EqVcS}o@}Ve{@uWckAu^ieBuc@wwBeW_aBkSweD}Iox@eVwkAwp@w~Cue@wwBqIaa@~AgJfExI[lEgBbAwMQiSaGob@m`@wVwVgVoM{QSqVzMkSpMgMlBuRa@uo@kTol@mQyMg@iWrEw_AbSuc@xJ_sA~Wm[MsL{BsX_Nea@u`@mSaMgXsJ{g@qTajAkl@ihAoj@}YuMc\\qIeX|AyT|CenA|QoN[mSiIeWoM}KaJaGwMc]i_BmNc^oPy[erCyrF_e@{y@mRyNkOuDoi@`@wjAeN{a@sFaRcMqPwSsIeFmG{A_MCyX~Ji^nMmUv@gy@gWgsA{f@}x@y[c\\wPsd@{]gPoGaDQyJfByNtLyYvb@oTx[iL`OwWzNqmBjNeXvF}YxJwn@pRcQrFcNf@sk@lCw\\g@c[}KiQaGqSLkf@bP_SzAsLc@e^oBej@wBaw@~@ko@g@y|Aq_@wo@nDoqDhWcnBiBu_A]qlFmTke@n@mOlGqbB`eBciAfkAgx@|y@kj@dk@wWnRmc@xZmRtI}g@nNyRdFmXM{QiAq[iIynA{\\ea@eKmNEweAnLkj@`]eeBz|@qx@tWgGq@ez@a[gJV_TbM_e@pZeW~Iec@~EoEiBuOsQiCgAcE`@eDtCaL~JkOhLiL`CeYnAqa@nBwk@nBgg@j@qa@`Sw^nFgj@fGcm@jG{l@nBgq@|LuQlAeMaDmg@qQai@_VwJyHaKoQuR}^kVgZgg@y]o_@o\\kSqUiLeOgFsD}IqNycAkpAij@op@gs@op@eC_BwR{Lux@o\\oX{HanB}m@yc@aSax@ib@e}@mg@saAoq@a{@{t@w~@maAcrAkzAgcAw{@yg@uYsp@aWu_AwTagAaLg`BqA}\\B_^dByN|Cs\\hIqTlBmnAkAumBqQeeAuHiQzJaQzOsMlHsNhB_HpD}MxOiHlHwRtIiN|CiMI_u@jHej@hLq\\|Gqx@jH}[vFog@zRuSpIaRbAi\\x@q]gCk[sIgTgKkSyKqMeQkXok@sVmWkfAi`A}SuWeR{_@sa@moAqa@c|@i]i_@{Xw[aRkYiPiZoYum@{Qga@mUoz@sWc_AgPwXoRkNuWiFeYMuNpCc^xQif@nWmOtDe[zFmWrIm}@`f@e^xU_p@zn@qZ~_@}DpLaEv\\kQxb@it@tdBmTri@wQxk@_Ubv@_EpSeOf[gJdWYlBuAtNAr@t@hf@r@pQpAhCnECj@gG"
+    "routeDescription": "Aufbruch Riga 08:30, A2 nach Sigulda (~53 km, 50 Min.), kurzer Stop an Turaida und Gūtmanis (~5 km), dann P8 nordöstlich nach Skaļupes zum Bunker (~35 km, 45 Min.). Nach Mittag und Āraišu (~25 km) abends 15 km nach Cēsis.",
+    "encodedPolyline": "e`rzIyacrCU?M}@o@mE_EaPE_DgBxDa@hFWnDgAtCaCxCa@l@Me@Y}@yHkU_GkWsK}UkIoQUgAZu@pAwC`BwD`EaL{BcF{EqV_GwT}BkFmAkCy@mD}B_IgNcc@_DoKuBqJuBsIkGqWsK}g@u^ieBkQk|@iQkz@eHq_@oCyPqFy^}AyNuG}fAsDso@aEem@qCa_@cBcMgBiJuHq^oLel@wMwn@_GeYaGaXcG}YyIy`@uOas@_UucAkc@mqBkg@k|BgaAmlEoRyz@mTwbAgC}PiBaVe@sWEc\\_Bq\\iAyKuEaVwGqYgTe~@_FsSmJu[cDqIwJqSaOuU}NkUkFoLuD{KwP{t@aWyiAcUqbAcaA_kEi]g{A{S_`Aag@gzBmmAwrFql@ynCuMys@uKko@eEk]aCuXyHkwAwAqWoCs_@eG_k@iD}ZqCuW}F_q@}@qMgBwa@cGu_B}GaoAsCyb@cDqh@}Coj@gFmyAs@_VSiTTuLdAoVtDso@PoR}@}RoCmVyFga@yD{[uE{d@yAsOBkB[{@gCyRsImq@iFcb@oHmi@yBoOwCaV{Ek`@sE}^sAaLYm@uSjRyN~M{DpDiD`DFh@lAvJzBnQ^zCf@tDOZPKR`BHj@dDlUFl@\\p@\\G^Qd@Cc@uHe@eIk@_IT[bB}BdGoJfNqMfHaEbCyAn@_@{D}ZwBmQsAuJ}C{WcJwq@qNuhA}Fge@mNwgAu^evCoi@khEmB_LmAuEmEeKgBuCcUwZeSqXyG_NcE{KgFqS}BeOeAmKmAgTg@_ZZwV`Be{@bAcd@Lga@g@oSwAuTyCwX{Gei@kMs_AoI{q@_Ze~B}{@}|GeFea@qAkLi@qLLiQJwU]cMmB_ViDq\\yCuZoBwXuDgg@}AaJyCgImEeGsHoJgFwLiDsMwJiv@mGag@iSs}AoB}T}@kXCaEDqOHwSWcWoBeTyKuq@yJem@u@mE{AgJNeCz@uJXsFQiC_@aAwAq@wCz@wD`BuBz@{OnDgIt@eKFmHY}C]uC]gKcCiEuAmEwBi\\mQwHcFeG{Cqh@cY_SgL}VcReSiPeLsKm@i@MrAMl@_Bp@{An@iChAoFfC_NxGkDfBsFjCeBbCcFdPi@`AoBfAeDzAoCRkA?aJJ}Dl@eC@yEgAyFeAmPiDm[oGoR}D{FgAaEQyENuFDcI~AqDzBsGbDiIxCuAJmA[{DwC{@_AkAY_BE{@LOv@KlAeAfCaAv@}@L{@?kFuAoBi@g@D_Cv@_BC}Bw@s@}AwCiH]sAxAkDfG{I|A}EjBoE^m@h@dBf@dA[lA"
   },
   "evCharging": {
     "stopsNeeded": 0,
-    "notes": "Mit voller Batterie aus Riga problemlos. Estland hat ein gut ausgebautes Ladenetz — bei Bedarf an der Grenze oder in Pärnu nachladen.",
+    "notes": "Vor Abfahrt in Riga am Galleria Riga oder Domina Shopping voll laden — bei 100% reicht der Akku locker für die ganze Bunker-Schleife inkl. Cēsis. Cēsis hat einen CSDD e-mobi DC-Lader und einen Eleport am Maxima-Center für die Nacht.",
     "criticalLevel": "green"
   },
   "activities": [
-    "Entspannter Vormittag in Riga — letzter Bummel durch die Altstadt oder Frühstück im Café",
-    "Aufbruch am späten Vormittag über die E67 Via Baltica nach Norden",
-    "Grenzübertritt nach Estland — willkommen im letzten Baltikum-Land",
+    "08:00 Frühstück im Aparthotel Aurum, Auto bereits voll geladen — 08:30 Aufbruch auf der A2 nach Sigulda",
+    "09:30 Ankunft Sigulda — direkt zu Turaida (5 km nordöstlich)",
     {
-      "highlightRef": "Strandpromenade & Kurort-Viertel",
-      "note": "Ankunft Pärnu am Nachmittag — Strandspaziergang im Kurviertel"
+      "highlightRef": "Turaida Burg",
+      "note": "09:45 Eintritt — die rote Backsteinburg aus dem 13. Jahrhundert mit kletterbarem Turm; das Reservatsgelände öffnet vor dem Ticketschalter, also den Spaziergang an den Volkslied-Skulpturen beginnen und um 10:00 hochsteigen"
     },
     {
-      "restaurantRef": "Supelsaksad",
-      "note": "Erstes Abendessen im 150 Jahre alten Holzblockhaus — saisonale estnische Wohlfühlgerichte"
-    }
+      "highlightRef": "Gutmanis-Höhle",
+      "note": "10:45 — fünf Minuten Foto-Stop in der größten Höhle des Baltikums, mit eingravierten Inschriften aus dem 17. Jahrhundert"
+    },
+    "11:00 Aufbruch zum Bunker — 35 km auf der P8 durch das Gauja-Tal, Ankunft Skaļupes 11:45 zum Einchecken",
+    {
+      "highlightRef": "Līgatne Geheimer Sowjetbunker",
+      "note": "🎯 12:00 englische Führung (heute Abend gebucht, +371 64161915 / ligatne.info@gmail.com). 9 Meter unter der Rehabilitationsklinik versteckt — originale sowjetische Telekommunikation, Filteranlagen, Lenin-Porträt an der Wand. 1,5-stündige Führung, anschließend Sowjetkantine mit den traditionellen Teigtaschen"
+    },
+    "14:00 — kurzer Transfer zur Pavāru Māja in Līgatne",
+    "Mittagessen in der Pavāru Māja (Pilsoņu iela 2, Līgatne) — Michelin Green Star, 4-Gänge-Tasting-Menü ~€60–80 pp, vorab über pavarumaja.lv reserviert. Wilhelma-Gebäude von 1901 am Rand des Dorfs. Ende ~16:30",
+    {
+      "highlightRef": "Āraišu See-Pfahlbaudorf",
+      "note": "17:00 — die einzige rekonstruierte 9.–10.-Jh. lettgallische Pfahlbau-Festung Europas auf einer Insel im See. 60-Minuten-Walk-Through der Eisenzeit-Holzhäuser, Eintritt €4. Im goldenen Spätnachmittagslicht besonders fotogen"
+    },
+    "18:30 — 15 km Schlussstück nach Cēsis, Check-in im Concert Hall Boutique Apartment (zwei Schlafzimmer, zwei Bäder, Kamin, kostenloser Parkplatz)",
+    {
+      "restaurantRef": "H.E. Vanadziņš",
+      "note": "🎯 19:30 Dinner in der Cēsis-Altstadt — Michelin Bib Gourmand 2026, modern nordisch-lettisch (heute Abend reserviert: info@vanadzinarestorans.lv / +371 24771771)"
+    },
+    "Schlechtwetter-Backup: Turaida draußen streichen, Bunker-Tour um die Object-X-Simulationsspiel-Erweiterung verlängern (€10–15), Mittagessen entspannter ziehen lassen. Āraišu funktioniert auch bei leichtem Regen"
   ]
 }

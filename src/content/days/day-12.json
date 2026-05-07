@@ -2,33 +2,42 @@
   "dayNumber": 12,
   "date": "2026-05-11",
   "status": "planned",
-  "title": "Tallinn in voller Pracht",
-  "subtitle": "Mittelalterliche Gassen, Seefahrermuseum und kreatives Kalamaja",
-  "locationId": "tallinn",
-  "previousLocationId": null,
-  "overnightLocationId": "tallinn",
-  "driving": null,
-  "evCharging": null,
+  "title": "Tartu nach Lahemaa — Käsmu, Viru-Moor und Sagadi-Gutshof",
+  "subtitle": "Hochgeschwindigkeit auf der E263 nach Norden, dann der ruhige Schlenker durch Estlands ältesten Nationalpark",
+  "locationId": "lahemaa",
+  "previousLocationId": "tartu",
+  "overnightLocationId": "lahemaa",
+  "additionalLocationIds": [],
+  "transitLocationIds": [],
+  "driving": {
+    "distance": "~270 km",
+    "duration": "~4:00",
+    "mode": "drive",
+    "routeDescription": "Tartu → Mäo → Rakvere → Lahemaa: ~250 km Highway plus ~80 km langsame Lahemaa-Mosaik-Schleife. Früher Aufbruch (07:30) lässt euch um 11:30 bei Palmse den Park betreten. Sagadi-Gutshof als Übernachtung am östlichen Park-Rand.",
+    "encodedPolyline": "q}hcJemcbDzFvMaAwEmI_QaIw@wK`N_N`JsIkAgMsE}C}BaB`FwLte@qOne@cV|c@uVlCwYGm[nDaLlDcX~SgV|[a_@pl@yH|R}Wpf@oL~EmOYm`@aDeo@~b@om@pQqUvCynAo_Ak][wc@xEgk@uHgSuD{WnG}w@`g@}T`Xma@|v@gf@haAi^vkAyIpWaPfQw]f^i`@v|@c_@pt@e^pp@ai@|~@{h@fPkc@nGycAcDyuAyDwSlDoZrNaiA||@_UdM{b@`KoXbGmPrIm`ApxAqYraAc]jn@mIdc@yOng@_Vri@yg@ldAcpAj}CwLny@i_@jh@{U`e@wLjgAyXrpAcm@rv@e`@zl@cN~x@}Mxk@yRh\\w\\dNqN`PkWri@{Sf`@u_@de@mf@rs@wGfLoOjYuObm@eVz}@{Oh[sfAzk@ih@vYudA~dAyIxH_]vMkt@`Qic@nu@y\\~q@sUlZcw@r@ae@_Ik|@kT}T]or@eDqkCgXkTx@qXzJ}VtX{a@pWsd@tNuNbBoe@hKyb@vk@yGlSsHr_@qDhRs@fDcB}CsAsCqGkNiHyOiEaJuQeOsMIkSkCk^kZqRuJay@ng@eTvFab@e_@eSyJa^wAe[rRc[~k@}M|FoU|@iLzEeZvUsWvEic@zEya@lTeHf@mPuA}HhCmb@`\\g_@rHoo@ng@gYj^iG`AmXi@c^uI}a@fDkOzA}RjMaNrJ}^kBsRmHmZ_L_SdDiN{BwOoGeR]sd@nFqWtLsZdc@c\\bMuNbEyH}@ac@g]ag@om@gKe\\iMuKwq@cKoKcOqMgEej@ii@gh@mPya@wIaMMoe@J{SiEcWwKsVyCyk@Qmj@`F__@lD}Pn@iy@uM_|@cOe]l@gXtDa^fPi_@hXiD~IsAhM_FtP_`@~}Aad@ho@eg@x~@ee@~Twa@`j@_y@lkA{bA~gAy^fo@kZzW}a@nd@yTdc@gTrW_ObH{YRsT|Y_`@|i@o]zXwBnByd@|k@ao@rdA~@ba@|Jba@pNtXr@iHcLe`@aKkMyQcE}Q{C{HkHeKs[uTjSgz@pcA_VvSoXrMwUdWi|@do@_YdFsOz@yInH_O~`@_Vls@}NxToX``@{h@`ZeSlLo[|o@eQxf@ccAx`Cc`@vXiEp]yCxK}JoB_OrLaMjAa_@nQyLRqLiEiJsEyFb@iClTyItOc]|`@oJ`Ic[`Ocr@vNot@bVcXxb@k\\vs@wN|e@cd@bb@cj@xc@gg@f`Ba[bnAsFbg@Lb]wSf[gO~o@sNff@m@~n@xAtp@aK~}@cQjr@~Tfg@"
+  },
+  "evCharging": {
+    "stopsNeeded": 1,
+    "notes": "Vor Abfahrt in Tartu auf 80–90% laden. Mäo-Highway-Knotenpunkt (Circle K + Alexela ultra-rapid, halber Weg) ist der natürliche Pit-Stop für 20 Minuten. In Sagadi gibt es keinen DC-Lader — am Vortag in Tallinn ankommen mit ausreichend Restkapazität für die kurze Fahrt am Dienstag früh.",
+    "criticalLevel": "green"
+  },
   "activities": [
+    "07:30 Frühstück in Tartu, Aufbruch um 08:00 nach Norden",
+    "10:00 — Mäo-Tankstop am Highway-Knotenpunkt, 20 Min. Schnellladen + Café",
+    "11:30 — Palmse-Gutshof und Lahemaa-Besucherzentrum: 30–45 Min. Außenbummel im Schlosspark; Innenführung absichtlich auslassen, um den Nachmittag zu schützen",
+    "12:30 — Altja-Fischerdorf: restaurierte Stein-Fischerschuppen am Meer, Mittagessen in der Altja Kõrts (rustikal-estnisch, geräucherter Fisch und Roggenbrot, ~1 Std.)",
     {
-      "highlightRef": "Lennusadam — Maritimes Museum",
-      "note": "Vormittags: U-Boot Lembit, Eisbrecher und Flugboote"
+      "highlightRef": "Käsmu — Kapitänsdorf",
+      "note": "14:00 — der 4,2 km Käsmu-Natur-und-Kultur-Pfad startet an der Kapelle: Kiefernwald, Felsküste, der Mythologie-trächtige 'Hermit'-Findling (4,8 m hoch, 14,7 m Umfang), ehemaliger Sowjet-Grenzwacht-Posten, das Maritime Museum mit Cold-War-Anbindung. ~90 Min. Gehzeit"
     },
+    "16:00 — kurzer Cafe-Stop in Käsmu im Maritime Museum (Innenraum als Schlechtwetter-Backup)",
     {
-      "highlightRef": "Balti Jaama Turg — Markt",
-      "note": "Mittagessen am hippen Streetfood-Markt"
+      "highlightRef": "Viru-Moor-Lehrpfad",
+      "note": "17:30–19:00 — der 3,5 km Bohlensteg durch das Hochmoor mit dem 11,4 m hohen Aussichtsturm 1,3 km im Walk drinnen. Im späten Mai-Licht ab 18:00 ist der Weg vergoldet. Lange Hosen in die Socken — das ist der zecken-reichste Stop des Tages"
     },
-    {
-      "highlightRef": "Telliskivi Creative City",
-      "note": "Nachmittag im kreativen Viertel — Fotografiska Tallinn integriert"
-    },
-    {
-      "highlightRef": "Kalamaja — Holzhäuser-Viertel",
-      "note": "Cafés und Boutiquen im Szeneviertel — fließend mit Telliskivi verbunden"
-    },
-    {
-      "nightlifeRef": "Whisper Sister",
-      "note": "Speakeasy-Bar hinter einer versteckten Tür"
-    }
+    "19:30 — Check-in im Sagadi-Gutshof: WICHTIG zwei separate Standardzimmer buchen (nicht 'Doppel mit zwei Betten', das wäre ein Twin-Setup in einem Raum). Reservierung über sagadi@rmk.ee oder +372 676 7888",
+    "20:30 — Abendessen im Gutshof-Restaurant (vorab reservieren) — saisonale estnische Gutshofküche im historischen Stallhof, ruhiger Abendausklang im Nationalpark",
+    "Schlechtwetter-Backup: Käsmu-Walk durch Maritime-Museum-Indoor-Abschnitt erweitern, Viru raba im leichten Regen ist tatsächlich atmosphärisch (Bohlenstege bleiben sicher)",
+    "Hinweis: Nach jedem Wald-/Moor-Walk Zecken-Body-Check im Gutshof — Latvia und Estland haben die höchsten TBE-Inzidenzen Europas"
   ]
 }

@@ -1,0 +1,111 @@
+{
+  "id": "taevaskoja-otepaa",
+  "name": "Südestnische Hochlande — Taevaskoja & Otepää",
+  "country": "estonia",
+  "coordinates": {
+    "lat": 58.0683,
+    "lng": 26.7544
+  },
+  "description": "Zwischen der lettischen Grenze und Tartu liegt das hügeligste, seereichste Stück Estland: Taevaskojas Devon-Sandsteinklippen am Ahja-Fluss, der Suur Munamägi (Großer Eiberg) als höchste Erhebung des Baltikums, und der Pühajärve-See, wo schon der Dalai Lama meditiert hat. Drei kurze Naturstopps auf einer Sonntagsroute, jeder unter 90 Minuten — und alle drei zusammen ergeben das ideale Übergangs-Tag-Programm zwischen Cēsis und Tartu.",
+  "region": "Põlvamaa / Valgamaa",
+  "suggestedDays": "1 Tag (Stopps en route)",
+  "placeId": "ChIJq8zZxKO48UYRWBsYoCQRAAQ",
+  "highlights": [
+    {
+      "name": "Suur Munamägi — Aussichtsturm",
+      "type": "viewpoint",
+      "icon": "star",
+      "description": "Mit 318 m ü. NN ist der Suur Munamägi die höchste Erhebung des Baltikums. Auf seinem Gipfel steht ein 29,1 m hoher Aussichtsturm — die Aussichtsplattform liegt damit auf 346,7 m und bietet bei klarer Sicht 50–70 km Panorama über südliche Hügelketten, Wälder und die Seen Estlands, Lettlands und Russlands. 800 m Fußweg vom Parkplatz, dann Aufzug oder Treppe.",
+      "duration": "45–60 Min.",
+      "price": "€4 (Treppe) / €6 (Aufzug)",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Suur%20Munam%C3%A4gi%20Tower&query_place_id=ChIJqQbhRpWa8UYRcGtCkVcoKZw",
+      "placeId": "ChIJqQbhRpWa8UYRcGtCkVcoKZw",
+      "coordinates": {
+        "lat": 57.7186,
+        "lng": 27.0792
+      },
+      "rating": 4.6,
+      "userRatingCount": 1843
+    },
+    {
+      "name": "Taevaskoja Sandsteinklippen am Ahja",
+      "type": "nature",
+      "icon": "star",
+      "description": "Vom Parkplatz Taevaskodade führt ein 3 km langer Bohlensteg-Rundweg entlang des Ahja-Flusses zu zwei spektakulären Devon-Sandsteinwänden: Suur Taevaskoda (22 m hoch, 150 m lang) und Väike Taevaskoda. Dazu eine kleine Höhle (Maiden's Cave) und Quellen, die direkt aus dem Felsen sprudeln. Ein gut markierter, fast immer schattiger Waldweg mit dem schönsten 1,5 km Flussufer Estlands. Bei Regen besonders atmosphärisch — der Sandstein und der Wald schützen vor dem schlimmsten.",
+      "duration": "1,5–2 Std.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Taevaskoja%20Hiking%20Trail&query_place_id=ChIJP_3HfgkB80YRDxXqOgkAAAA",
+      "placeId": "ChIJP_3HfgkB80YRDxXqOgkAAAA",
+      "coordinates": {
+        "lat": 58.1022,
+        "lng": 26.9389
+      },
+      "rating": 4.8,
+      "userRatingCount": 1234
+    },
+    {
+      "name": "Pühajärve-See — Aussichtspunkt",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Der Heilige See bei Otepää ist nur 3,3 km lang, aber tief genug für klares Wasser und Kiefern bis ans Ufer. Vom Parkplatz an der Otepää-Strandpromenade führt ein 10-minütiger Spaziergang zu einem weiten See-Panorama mit den fünf charakteristischen kleinen Inseln. Schneller Boxenstop auf der Fahrt von Taevaskoja nach Tartu — keine Wanderung, nur 20 Minuten Beine vertreten und atmen.",
+      "duration": "20–30 Min.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C3%BChaj%C3%A4rve%20Beach&query_place_id=ChIJ7XMcHEVw8UYRiK_9z_pAhkw",
+      "placeId": "ChIJ7XMcHEVw8UYRiK_9z_pAhkw",
+      "coordinates": {
+        "lat": 58.0444,
+        "lng": 26.4769
+      },
+      "rating": 4.7,
+      "userRatingCount": 562
+    },
+    {
+      "name": "Ööbikuorg — Nachtigallen-Tal (Rõuge)",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Optionaler Schlenker 12 km nördlich vom Suur Munamägi: Eine Kette von sieben Seen liegt in einer durch Glaziallandschaft eingeschnittenen Senke, dem von Estern als 'Nachtigallen-Tal' bezeichneten Naturphänomen. Aussichtspunkte am Hang des Dorfes Rõuge, kein langer Walk nötig — nur ein Foto und weiter. Wer Zeit hat, läuft 30 Minuten den Hangweg.",
+      "duration": "30 Min.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=R%C3%B5uge%20Nightingale%20Valley&query_place_id=ChIJ_QfL9pyZ8UYRdgBgK_bYOmw",
+      "placeId": "ChIJ_QfL9pyZ8UYRdgBgK_bYOmw",
+      "coordinates": {
+        "lat": 57.7264,
+        "lng": 26.9131
+      },
+      "rating": 4.7,
+      "userRatingCount": 234
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Edgar Bakery & Café Otepää",
+      "cuisine": "Bäckerei / Kaffee",
+      "priceRange": "€",
+      "description": "Lokale Bäckerei mit hervorragenden Zimtschnecken (kaneelirull), warmem Kaffee und einfachen estnischen Frühstücksklassikern. Ideal als kurzer Stop zwischen Suur Munamägi und Taevaskoja oder als Nachmittags-Boxenstop vor Tartu.",
+      "mustTry": "Kaneelirull mit Espresso",
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Edgar%20Bakery%20Otep%C3%A4%C3%A4&query_place_id=ChIJG3aIEJqW8UYR5Z3Dt5F4u1Y",
+      "placeId": "ChIJG3aIEJqW8UYR5Z3Dt5F4u1Y",
+      "coordinates": {
+        "lat": 58.0586,
+        "lng": 26.4956
+      },
+      "rating": 4.5,
+      "userRatingCount": 173
+    }
+  ],
+  "hotels": [],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Kein Übernachtungsstopp — die Tagesetappe Cēsis → Tartu führt nur durch diese Region. Wer übernachten will, wählt Tartu (mehr Restaurants, AHHAA als Schlechtwetter-Backup, echte Zwei-Zimmer-Apartments)."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Bei sehr schlechtem Wetter den Suur Munamägi-Turm überspringen (er ist exponiert, der Aufstieg ungemütlich) und stattdessen Taevaskoja länger machen — die Sandsteinwände schützen den Weg, und der Fluss ist im Regen erst recht schön."
+    },
+    {
+      "type": "info",
+      "text": "Picknick aus Cēsis mitnehmen — auf Mother's Day (Sonntag 10. Mai) sind ländliche Restaurants in Estland früh ausgebucht oder geschlossen. Edgar Bakery in Otepää ist der zuverlässigste Plan B."
+    }
+  ]
+}
