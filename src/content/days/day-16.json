@@ -7,17 +7,14 @@
   "locationId": "halmstad",
   "previousLocationId": "kosta-smaland",
   "overnightLocationId": "halmstad",
-  "additionalLocationIds": [
-    "kosta-smaland"
-  ],
-  "transitLocationIds": [
-    "kosta-smaland"
-  ],
+  "additionalLocationIds": [],
+  "transitLocationIds": [],
   "driving": {
     "distance": "~260 km",
     "duration": "~3:30",
     "mode": "drive",
-    "routeDescription": "Kosta → Växjö → Värnamo → Store Mosse (kurzer Abstecher 30 km nördlich) → zurück auf die Rv25 → Ljungby → Danska Fall (20 km östlich von Halmstad) → Halmstad. Klämdag (Brückentag) in Schweden = leichter Verkehr, viele kleine Cafés geschlossen, aber Naturreservate funktionieren wie immer."
+    "routeDescription": "Kosta → Växjö → Värnamo → Store Mosse (kurzer Abstecher 30 km nördlich) → zurück auf die Rv25 → Ljungby → Danska Fall (20 km östlich von Halmstad) → Halmstad. Klämdag (Brückentag) in Schweden = leichter Verkehr, viele kleine Cafés geschlossen, aber Naturreservate funktionieren wie immer.",
+    "encodedPolyline": "wj|yI{`_}AjBhC@jB|DnCvTsAfDgA|BdAfBpIjH|RjZng@p\\hh@`MfSnRfQtPzLfNnSlTrh@`Qh`A~Mxp@nIjx@`SpdBdS|U``@xSvXbXl`@nb@pcAnt@rfAjw@`NhRoCxLaGzPuErf@HbTcOnB}WdNkY~Oo_@d\\}Xrf@aObj@iLlqBlAx|@fDrbAu^dsBaDt_@pAre@pCt{AkCxj@uM`{@ab@xcCyFtMiQdSidAdaA{b@nd@ckAbfBklBtdD_lAdtBsVdYyQlb@kXfkBsJxcClAryBuGvfAw@~nA_MrdAmMdmAmJpbBcMxdAuPnkAwIzaAz@xjAbF~eB|Blf@pC`QiA~OiTpQ_H~DyNg@cH_A}WuDmSh@sLlIyFxPyCn`AzMbrCtFj_@bS~q@~S~aA`Ehh@Dje@}Fxe@iUrxAyKpmAEr~@dIjzB{Ddl@oi@j_Cgb@ziC_n@rtC}Mnv@wDpz@gBxzCuFjuAZn|AbFb|@zV~lBjNbfB|@j`AvJpt@n\\r|@pQjmA`Bp[mCloA|@jg@pQxzCmAdmAgClYwD~a@cCrk@tAdlAbH`iAzKvoBx\\`pBrSrbDpV|uB|B~t@qAx_AP~dAjJ|iAlNznAbH~kA~It|@bW|iAzXtyBdMfnAhPr_Apn@pjBrKjd@|KlcAzBloBxI|`CzG|_ApDjpAd@hyCiBvyA~DleA~H~qAi@z_@oMnfAqE~d@mDlI{Ip|@mP|l@hKCh\\~W|b@zq@ja@zeAd[|h@h]~YpZ|KrKvAf`ApJjKxJdMnr@lYdaA~WjlA~Mxt@fNdb@dd@tmAxSdbApQ`i@xOxZvdAzdBhk@ftAlLhu@tEjt@~S`bBhEru@|Cl|BaClwAHnmAbBpwBgBzy@iMdcBaBdl@rBfl@|IhbBpO|rAzIfu@aBjaAqQvwA{@z_@rEjq@xFjs@|D`hBnCbiB~@jfB`M`z@lm@|hCrJhm@rAnt@b@r_A`If~@vNxeAdEhdAnGvp@nLhWtOdm@zIzcAbHzhAh@ffBxJ~z@rGfnAfGpzA`LzaAdAxrA~Lhx@rKzeAhFx{BmIx}@iBxt@eBnoBb@baAo@thA}_@``DyOjzArC~ZlM|_@`AzXwC|s@qDpYdFz`@lIz`A|^~wAbJxhALzi@`Gvi@vIdc@|CfdAwJxzBhGp`@|Mvb@`Mhk@|Pde@fO~j@rH|m@`Hlv@tBvn@rHr_AtJtg@`UvlAx}@teE`RdaCvExuAZngAfDnVhGd_@eAjI}BvG{BbVaDcAqB|Cu@fG"
   },
   "evCharging": {
     "stopsNeeded": 0,

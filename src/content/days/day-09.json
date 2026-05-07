@@ -5,7 +5,7 @@
   "title": "Riga-Ruhetag — Freilichtmuseum und Jūrmala",
   "subtitle": "Vormittag im Ethnografischen Freilichtmuseum am Jugla-See, Mittag und Bohlensteg in Jūrmala, zweite Nacht im Aparthotel Aurum",
   "locationId": "riga",
-  "previousLocationId": null,
+  "previousLocationId": "riga",
   "overnightLocationId": "riga",
   "additionalLocationIds": [
     "jurmala"
@@ -17,7 +17,8 @@
     "distance": "~85 km",
     "duration": "~1:45",
     "mode": "drive",
-    "routeDescription": "Vormittagsfahrt 12 km nordöstlich zum Lettischen Ethnografischen Freilichtmuseum am Jugla-See, dann ~30 km westlich auf der A10 nach Jūrmala für Mittag und Dzintari-Bohlensteg, am späten Nachmittag zurück nach Riga zum Aparthotel Aurum. Tageskilometer absichtlich niedrig — heute ist ein echter Ruhetag, kein Sightseeing-Marathon."
+    "routeDescription": "Vormittagsfahrt 12 km nordöstlich zum Lettischen Ethnografischen Freilichtmuseum am Jugla-See, dann ~30 km westlich auf der A10 nach Jūrmala für Mittag und Dzintari-Bohlensteg, am späten Nachmittag zurück nach Riga zum Aparthotel Aurum. Tageskilometer absichtlich niedrig — heute ist ein echter Ruhetag, kein Sightseeing-Marathon.",
+    "encodedPolyline": "e`rzIyacrCU?M}@o@mE_EaPE_DgBxDUfAK`DWnDgAtCaCxCa@l@Me@Y}@_EmL~@_C~D{KwCgFuEnMKTj@`Bz@nC|DrLfAbDpAvE|A~Mn@hGdAdJRxCbGhi@fHtr@bC~PfAbFfF~PpGdR~B`G`DrJhEnRzBvL|@hGdAfJvDvVrC`RbB`I|DtMlBvEzAhCfMr^~Lv\\hJtVrEhK|IfPvApDXxB@nDw@jQqB~]oApOaAvIeBvK{DpPuDxKwCxGaD~FiJrKcNpMu[tYcRpQeCzCeF~IaFhMuCfL}@`FkB|Mc@fFk@xKMvGVr`@jBt{AL~UMxXo@pYm@|LwBx[}Cp[gI`m@e@~CsF|_@wGxh@mCdUsAbPgHdv@gF~i@uA|LiBlOuCnRgDbQwD~OoFbRq@fBcApCkHhR}E`LoTxg@mAjDcLlWaCxE}BxFyA~Em@zDmAfMEpLd@nG~@vHJ~@jBbO~Gj~@h@xJD`HSdG_AhIcCjM_ArH_@nKZnLbAjJ~BpJrFng@`Era@`BlSCjBs@xFcBdM_BzH[hEk@zSDzGSlF[fDIhJpBvSdDxS|BtM|@`ChFpHX?`A`Bb@nA`ApIXlBd@bBzAjD|@a@i@sIsAZ]DIEQu@SeDfAa@J??w@c@Ic@?o@BUBKa@Qq@g@iAaCwDyDgGw@gCy@sE}BwMsBwNgAeK]gFTyIRqE@gJn@_XVaC|@uDhAcInBaO?aDiCaYqEkd@iAgLkCuSi@qBw@oCe@oD{@qNDqFh@mJ|DiUl@{ER}EHuH[yHwByZ{Dsg@eAgIY}BMmAiAgJe@oGEgEJiFp@mIt@cEnCkJfBsEfE{JrJwT`BeDnIgRjK{UzGuPtH_TlA}DnEoP|CoNvDoSrBsNjDk[nC{XvMkwAfEs`@rFoa@fFy]bFc^zD}[pB}TvAiU~@_Wv@kf@E_X]yYg@k^mA{{@LeR~@oPlB_OdBkIvAsFhC{HdC{FhDeG`DeExC_DzNaN|ZkXxRgSbFmHrGkMd@iAbGqR~EyVvA_QlBgZhAgWTeHA{B]gCmCkFmI{OuK}XuI_T}Ks[iFgOeC{EqE_LaB_GSs@u@}C{Hig@aGw_@wCmNsB{IaDsJ_BuFmBiGoGiQsByHqAiG}AiJwAsL}AsOkCsW}@gIeAuJsCgWWu@OkAUwBw@uGWmCQ}A`@WxA}@h@xGsArA[X_CtBb@hEL|ApBo@pBw@`CcBpEaFfMuMdAsBp@}Al@{BGU_CfDwDrHSYgAwCmAmCw@m@"
   },
   "evCharging": {
     "stopsNeeded": 0,
