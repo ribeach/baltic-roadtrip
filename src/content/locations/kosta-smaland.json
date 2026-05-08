@@ -3,7 +3,7 @@
   "name": "Kosta — Glasriket / Glasreich Småland",
   "country": "sweden",
   "coordinates": {
-    "lat": 56.8390,
+    "lat": 56.839,
     "lng": 15.4014
   },
   "description": "Kosta liegt mitten im 'Glasriket' (Glasreich) Smålands — der Wald-und-See-Region, in der Schweden seit 1742 Glas bläst. Die Glasbruk Kosta ist die älteste noch aktive Glasmanufaktur des Landes, und das angeschlossene Kosta Boda Art Hotel ist ein Designhotel, in dem die Bar selbst aus mundgeblasenem Kristall besteht. Auf dem Weg dorthin liegt mit Norrköpings Industrilandskapet eines der schönsten Industriekultur-Spaziergänge Europas; auf dem Weg weiter nach Halmstad warten Store Mosse und Danska Fall. Eine Übernachtung, ein Glasfrühstück, dann westwärts ans Meer.",
@@ -18,11 +18,11 @@
       "description": "Die älteste aktive Glasmanufaktur Schwedens, gegründet 1742. Im Hot Shop arbeiten Glasbläser an offenen Öfen — Mo-Fr typischerweise bis 15:00, am Donnerstag 14. Mai (Christi Himmelfahrt) sind die Manufakturarbeiter frei, aber Outlet, Showroom und das angeschlossene Glas-Museum sind oft trotzdem geöffnet. Der Showroom verkauft seltene, fehlerhafte oder Prototyp-Stücke deutlich unter Listenpreis. Verbleib am Anreisetag prüfen mit dem Hotel-Empfang.",
       "duration": "1–1,5 Std.",
       "price": "Kostenlos (Hot Shop) / Outlet-Einkauf optional",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kosta%20Glasbruk&query_place_id=ChIJ-_-DlKK8VEYRPXC_n_DyiNI",
-      "placeId": "ChIJ-_-DlKK8VEYRPXC_n_DyiNI",
+      "googleMapsUrl": "https://maps.google.com/?cid=2010135853080798242",
+      "placeId": "ChIJq6qeaBUGV0YRImQogehv5Rs",
       "coordinates": {
-        "lat": 56.8395,
-        "lng": 15.4016
+        "lat": 56.8511657,
+        "lng": 15.394936600000001
       },
       "rating": 4.4,
       "userRatingCount": 1832
@@ -34,11 +34,11 @@
       "description": "Der wohl schönste Industriekultur-Spaziergang Schwedens — direkt im Stadtzentrum Norrköpings ziehen sich rote Backstein-Textil- und Papierfabriken am Motala-Strom entlang, mit echten Wasserfällen *zwischen* den Häusern. Highlight ist das Strykjärnet ('Bügeleisen'), das wie ein viktorianischer Schornstein-Hochhaus zwischen den Kanälen steht. Free Self-Guided Walk, ~2 Stunden inklusive Mittagspause im Knäppingsborg-Quartier. Funktioniert auch an Christi Himmelfahrt: vollständig outdoor.",
       "duration": "2 Std.",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Norrk%C3%B6ping%20Industrilandskapet&query_place_id=ChIJEbm_NuLLW0YRk59nSlz9Y2k",
-      "placeId": "ChIJEbm_NuLLW0YRk59nSlz9Y2k",
+      "googleMapsUrl": "https://maps.google.com/?cid=2010135853080798242",
+      "placeId": "ChIJq6qeaBUGV0YRImQogehv5Rs",
       "coordinates": {
-        "lat": 58.5942,
-        "lng": 16.1875
+        "lat": 56.8511657,
+        "lng": 15.394936600000001
       },
       "rating": 4.7,
       "userRatingCount": 542
@@ -50,11 +50,11 @@
       "description": "20 km östlich von Halmstad an der Rv25 bei Simlångsdalen: ein 36 m hoher Wasserfall an der Assman, eingefasst von dichtem Buchenwald, dazu auf der Insel im Fluss die Ruinen eines Eisenwerks aus dem Jahr 1727. Vom Parkplatz führt ein 2 km langer Schotterweg zum Hauptfall (oder ein 2,3 km langer 'Blue Path'-Rundweg über die Ruineninsel). Der Name kommt vom Schwedisch-Dänischen Krieg 1676: dänische Soldaten ertranken hier, als die Brücke zusammenbrach. GPS 56°42'33\"N, 13°7'25\"E. 60–90 Min. Rundzeit, kostenlos.",
       "duration": "1–1,5 Std.",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Danska%20Fall%20Naturreservat&query_place_id=ChIJ_2x_DKTXSEYRPDdqNUvCo3I",
-      "placeId": "ChIJ_2x_DKTXSEYRPDdqNUvCo3I",
+      "googleMapsUrl": "https://maps.google.com/?cid=930581005534502903",
+      "placeId": "ChIJY74g5mOnUUYR9x-cfX4W6gw",
       "coordinates": {
-        "lat": 56.7092,
-        "lng": 13.1236
+        "lat": 56.7092421,
+        "lng": 13.1235123
       },
       "rating": 4.7,
       "userRatingCount": 891
@@ -66,11 +66,11 @@
       "description": "Schwedens größtes erhaltenes Hochmoorgebiet südlich von Lappland, gewachsen über 8.000 Jahre. Der Bohlensteg von Wibecksplatsen führt direkt in das offene Hochmoor mit Sonnentau, alten Sand-Dünen-Inseln und Kraniche-Rastplätzen. Auf der Strecke Kosta → Halmstad ein perfekter 45-Minuten-Stop bei Värnamo. Ähnlich dem Ķemeri-Bohlensteg in Lettland — die Ekossystem-Klammer schließt sich am letzten Tag des Trips. Naturum-Besucherzentrum am Haupteingang.",
       "duration": "45 Min. (Kurzweg) bis 2 Std. (großer Rundweg)",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Store%20Mosse%20National%20Park&query_place_id=ChIJsUzDlYOoRkYRZ8Rk7uqgz_o",
-      "placeId": "ChIJsUzDlYOoRkYRZ8Rk7uqgz_o",
+      "googleMapsUrl": "https://maps.google.com/?cid=13099518941113872203",
+      "placeId": "ChIJAzbvVqSVUEYRS--XnRLXyrU",
       "coordinates": {
-        "lat": 57.2778,
-        "lng": 13.9389
+        "lat": 57.2999982,
+        "lng": 13.929820699999999
       },
       "rating": 4.7,
       "userRatingCount": 1124
@@ -83,11 +83,11 @@
       "priceRange": "€€-€€€",
       "description": "Hauseigenes Restaurant im Kosta Boda Art Hotel — geräucherter Saibling, Småland-Wild, hausgemachtes Knäckebrot. Funktioniert verlässlich am Christi-Himmelfahrt-Abend, wenn die meisten Restaurants im Glasriket geschlossen sind. Reservierung mit dem Zimmer.",
       "mustTry": "Geräuchterte Forelle aus dem nahegelegenen See mit Dill-Kartoffeln und Brennnessel-Schaum",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Linnea%20Kosta%20Boda&query_place_id=ChIJVwQNXJ-8VEYRVJZ_0w8c0lI",
-      "placeId": "ChIJVwQNXJ-8VEYRVJZ_0w8c0lI",
+      "googleMapsUrl": "https://maps.google.com/?cid=6772758332398975692",
+      "placeId": "ChIJndcxMFEHV0YRzDo12NGr_V0",
       "coordinates": {
-        "lat": 56.8390,
-        "lng": 15.4014
+        "lat": 56.849107599999996,
+        "lng": 15.394881100000001
       },
       "rating": 4.4,
       "userRatingCount": 487
@@ -98,11 +98,11 @@
       "priceRange": "€-€€",
       "description": "Innenhof-Cafés zwischen den Backsteinmühlen — Pappa Grappa und Brogyllen sind beide am Christi-Himmelfahrt-Tag verlässlich offen. Kalter Lachs-Sandwich, schwedisches Räuchergericht, kanelbullar. Gut für 45 Min. Mittagspause im Industrilandskapet-Walk.",
       "mustTry": "Kanelbullar (schwedische Zimtschnecke) und ein starker Espresso",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kn%C3%A4ppingsborg%20Norrk%C3%B6ping&query_place_id=ChIJUxbCCVfOW0YRVZw5qkvRQHA",
-      "placeId": "ChIJUxbCCVfOW0YRVZw5qkvRQHA",
+      "googleMapsUrl": "https://maps.google.com/?cid=15587797177181950142",
+      "placeId": "ChIJ-bLUdEAGV0YRvlDE6PH6Utg",
       "coordinates": {
-        "lat": 58.5961,
-        "lng": 16.1894
+        "lat": 56.849999999999994,
+        "lng": 15.393611099999998
       },
       "rating": 4.5,
       "userRatingCount": 314
@@ -115,11 +115,11 @@
       "priceRange": "150-200€/Zimmer",
       "evCharging": true,
       "description": "Glas-Designhotel mit 102 Zimmern, in dem die Lobby-Bar selbst aus mundgeblasenem Kristall besteht. Spa, drei Indoor- plus zwei Outdoor-Pools, Restaurant Linnéa. Für unsere Regel zwei getrennte Schlafräume: ZWEI Standard-Doppelzimmer separat buchen (~€150-200/Zimmer × 2 = €300-400 total). Christi-Himmelfahrt-Wochenende ist das größte Auslastungs-Risiko der gesamten Reise — am 7. Mai abends UNBEDINGT buchen. Direkt über kostabodaarthotel.se/en/book oder Booking.com.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kosta%20Boda%20Art%20Hotel&query_place_id=ChIJVwQNXJ-8VEYRVJZ_0w8c0lI",
-      "placeId": "ChIJVwQNXJ-8VEYRVJZ_0w8c0lI",
+      "googleMapsUrl": "https://maps.google.com/?cid=3315294136093125826",
+      "placeId": "ChIJwzOnT0AGV0YRwizEm3NKAi4",
       "coordinates": {
-        "lat": 56.8390,
-        "lng": 15.4014
+        "lat": 56.849221799999995,
+        "lng": 15.3945153
       },
       "rating": 4.3,
       "userRatingCount": 1234

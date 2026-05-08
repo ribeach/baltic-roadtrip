@@ -16,7 +16,7 @@
       "description": "Kapelle dekoriert mit den Gebeinen von ca. 40.000 Menschen — Kronleuchter, Wappen und Girlanden aus menschlichen Knochen. Verstörend und faszinierend zugleich.",
       "duration": "1h",
       "price": "ca. €6",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sedlec%20Ossuary&query_place_id=ChIJT8VaY_xADEcRjlDxpcrJDDI",
+      "googleMapsUrl": "https://maps.google.com/?cid=3606479273821556878",
       "placeId": "ChIJT8VaY_xADEcRjlDxpcrJDDI",
       "coordinates": {
         "lat": 49.961738499999996,
@@ -32,7 +32,7 @@
       "description": "Meisterwerk der Spätgotik, von der Bergbaugilde erbaut — die Innenraumfresken zeigen mittelalterliche Bergleute bei der Arbeit. Ein Rivale des Prager Veitsdomes.",
       "duration": "1-1.5h",
       "price": "ca. €5",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Saint%20Barbara's%20Church&query_place_id=ChIJiZuB0qZBDEcRiwbGe_Rc2r8",
+      "googleMapsUrl": "https://maps.google.com/?cid=13824464211285509771",
       "placeId": "ChIJiZuB0qZBDEcRiwbGe_Rc2r8",
       "coordinates": {
         "lat": 49.9449743,
@@ -46,7 +46,7 @@
       "description": "Touren durch originale Silberminen-Schächte aus dem 13. Jahrhundert — enge Tunnel in 250m Tiefe, mit weißem Kittel und Helm. Nichts für Klaustrophobiker.",
       "duration": "1.5-2h",
       "price": "ca. €8-12",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Czech%20Museum%20of%20Silver&query_place_id=ChIJF09tWqZBDEcRqlZkTALr-C8",
+      "googleMapsUrl": "https://maps.google.com/?cid=3456771109110961834",
       "placeId": "ChIJF09tWqZBDEcRqlZkTALr-C8",
       "coordinates": {
         "lat": 49.947567299999996,
@@ -63,7 +63,7 @@
       "priceRange": "€-€€",
       "description": "Klassische böhmische Wirtsstube mit Wildgerichten und frischem Tankbier — rustikales Ambiente in einem historischen Gebäude nahe der Kathedrale.",
       "mustTry": "Svíčková na smetaně (Lendenbraten in Rahmsoße)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurace%20Da%C4%8Dick%C3%BD&query_place_id=ChIJkUqyQaZBDEcRxIuFpeNjnnw",
+      "googleMapsUrl": "https://maps.google.com/?cid=8979724536409066436",
       "placeId": "ChIJkUqyQaZBDEcRxIuFpeNjnnw",
       "coordinates": {
         "lat": 49.948304,
@@ -78,7 +78,7 @@
       "priceRange": "€€",
       "description": "Restaurant nahe der Kathedrale mit Blick auf die Stadtmauer und einer Gartenterrasse — gehobene böhmische und europäische Küche in entspannter Atmosphäre.",
       "mustTry": "Gebratene Ente mit Rotkohl und Knödeln",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurace%20V%20Ruthardce&query_place_id=ChIJDcBRtKdBDEcRmWreiiii_8k",
+      "googleMapsUrl": "https://maps.google.com/?cid=14555530815696956057",
       "placeId": "ChIJDcBRtKdBDEcRmWreiiii_8k",
       "coordinates": {
         "lat": 49.9481125,
@@ -95,7 +95,7 @@
       "priceRange": "80-100€",
       "evCharging": false,
       "description": "„Beim Henker“ — Boutique-Hotel in einem restaurierten historischen Gebäude mit atmosphärischem Namen, passend zur düsteren Geschichte der Stadt.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20U%20Kata&query_place_id=ChIJiTIzzAdBDEcRv8kFKs-P9xc",
+      "googleMapsUrl": "https://maps.google.com/?cid=1727007102045899199",
       "placeId": "ChIJiTIzzAdBDEcRv8kFKs-P9xc",
       "coordinates": {
         "lat": 49.949511199999996,

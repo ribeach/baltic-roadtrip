@@ -18,11 +18,11 @@
       "description": "Der 5,5 km lange Rundweg startet am Trailhead Matildanjärventie 86 und führt durch Kiefernwald, über Moor-Bohlenstege, an Granitklippen vorbei, an einem von Bibern aufgestauten Bach entlang und durch das Mathildedal-Dorf zurück. Etwa zwei Stunden Geh-Zeit, mittlere Schwierigkeit, alle Untergründe gut markiert. Eine 600 m lange rollstuhlgängige Variante startet am Kariholma-Eingang. Im Mai sind die Kraniche da, das Moos ist blütenfeucht, und das Licht ist um 19:00 Uhr noch wie um 17:00.",
       "duration": "2 Std.",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Teijo%20National%20Park%20Matildanj%C3%A4rvi%20trail&query_place_id=ChIJv3vjk-eKjkYRz5MpykAaAAA",
-      "placeId": "ChIJv3vjk-eKjkYRz5MpykAaAAA",
+      "googleMapsUrl": "https://maps.google.com/?cid=16907898418320755894",
+      "placeId": "ChIJJ2JyzKtbjEYRtsxlkgfspOo",
       "coordinates": {
-        "lat": 60.0488,
-        "lng": 22.7831
+        "lat": 60.2099945,
+        "lng": 22.937816599999998
       },
       "rating": 4.8,
       "userRatingCount": 678
@@ -34,11 +34,11 @@
       "description": "Das 1850er Jahre Eisenwerksdorf ist heute ein lebender Mikrokosmos: Das alte Schmelzhaus beherbergt Bistro Bruket, das Lager das Hotel, eine Brauerei (Mathildedal Bryggeri) macht IPA aus Hopfen vom eigenen Garten, eine Schreinerei zeigt Holzarbeit nach finnischer Tradition, und draußen im Hof grasen Alpakas. Ein kostenloser Geschichts-Pavillon zeigt einen original Winha-Schneemobil und einen Teijo-Wagen — denn Teijo hat in den 1970ern tatsächlich kurz Autos gebaut.",
       "duration": "45 Min.",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mathildedal%20Ironworks%20Village&query_place_id=ChIJUWvc7XGIjkYRP0LWUMGuAAQ",
-      "placeId": "ChIJUWvc7XGIjkYRP0LWUMGuAAQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=16907898418320755894",
+      "placeId": "ChIJJ2JyzKtbjEYRtsxlkgfspOo",
       "coordinates": {
-        "lat": 60.0294,
-        "lng": 22.7656
+        "lat": 60.2099945,
+        "lng": 22.937816599999998
       },
       "rating": 4.7,
       "userRatingCount": 1043
@@ -50,11 +50,11 @@
       "description": "Natura Vivas private Mietsauna am Ufer des Matildanjärvi: holzbeheizte Terrassensauna mit elektrischem Aggregat, eine sandige Badestelle direkt davor (8–12 °C im Mai — kurz, hart, ehrlich), und ein 1,5-stündiges Slot-System, bei dem ihr die Sauna komplett für euch habt. Vorab buchen über naturaviva.fi, ~€90 für zwei Personen. Das einzige authentische lakeside Saunaerlebnis in der Region — kein Hotel-Spa-Ersatz, sondern das echte finnische Ritual.",
       "duration": "1,5 Std.",
       "price": "~€90 für zwei",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Natura%20Viva%20Matildanj%C3%A4rvi%20sauna&query_place_id=ChIJUWvc7XGIjkYRP0LWUMGuAAQ",
-      "placeId": "ChIJUWvc7XGIjkYRP0LWUMGuAAQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=8838059202217020201",
+      "placeId": "ChIJ1c5f2kxajEYRKYsEtAQYp3o",
       "coordinates": {
-        "lat": 60.0382,
-        "lng": 22.7711
+        "lat": 60.21016579999999,
+        "lng": 22.9360754
       },
       "rating": 4.9,
       "userRatingCount": 87
@@ -66,11 +66,11 @@
       "description": "Die Mikrobrauerei im Eisenwerkskomplex braut sieben Hauseigene Sorten, darunter Korpiklaani-IPA und ein Bock-Bier mit Salz aus dem Schärenmeer. Der Taproom ist klein, das Personal redselig. Ideal für ein Bier nach dem Teijo-Walk und vor dem Sauna-Slot. Geöffnet Mi-So 14:00–22:00.",
       "duration": "30–60 Min.",
       "price": "~€8 pro Bier",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mathildedal%20Bryggeri&query_place_id=ChIJYRNi2neIjkYRpwJ9XBFt-Mw",
-      "placeId": "ChIJYRNi2neIjkYRpwJ9XBFt-Mw",
+      "googleMapsUrl": "https://maps.google.com/?cid=12569358275549539551",
+      "placeId": "ChIJnVDV2KJbjEYR3yy_nMFUb64",
       "coordinates": {
-        "lat": 60.0292,
-        "lng": 22.7650
+        "lat": 60.219409899999995,
+        "lng": 22.904583499999998
       },
       "rating": 4.6,
       "userRatingCount": 312
@@ -83,11 +83,11 @@
       "priceRange": "€€",
       "description": "Im April 2025 eröffnet, ersetzt das alte Ruukin Krouvi: BBQ-Smoker im Hof, Holzofen drinnen, handgeknetete Pizzen aus regionalem Mehl, lohikeitto (Lachs-Sahne-Suppe), saaristolaisleipä (Schärenbrot mit Fisch und Käse). Empfohlen als Mittwochs-Mittagessen ~12:30 nach dem Teijo-Walk. Reservierung über bistrobruket.fi.",
       "mustTry": "Lohikeitto und ein Stück saaristolaisleipä — die finnische Süd-West-Kombination",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bistro%20Bruket%20Mathildedal&query_place_id=ChIJYRNi2neIjkYRpwJ9XBFt-Mw",
-      "placeId": "ChIJYRNi2neIjkYRpwJ9XBFt-Mw",
+      "googleMapsUrl": "https://maps.google.com/?cid=5122447064961516481",
+      "placeId": "ChIJ7fE8rzhbjEYRwQPGN3eWFkc",
       "coordinates": {
-        "lat": 60.0290,
-        "lng": 22.7648
+        "lat": 60.220355299999994,
+        "lng": 22.9037367
       },
       "rating": 4.5,
       "userRatingCount": 218
@@ -98,11 +98,11 @@
       "priceRange": "€",
       "description": "Hauseigene Bäckerei im Hotel-Erdgeschoss — kaneelipulla (Zimtschnecken), Hafermilch-Latte, lokales Sauerteigbrot, Eier von Mathildedaler Hühnern. Frühstücksort der Wahl am Mittwochmorgen vor dem Walk.",
       "mustTry": "Kaneelipulla mit Kardemumma-Hauch",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Mathildedal&query_place_id=ChIJOyxd2HeIjkYRZIY1pIzPM3M",
-      "placeId": "ChIJOyxd2HeIjkYRZIY1pIzPM3M",
+      "googleMapsUrl": "https://maps.google.com/?cid=7579863032492697800",
+      "placeId": "ChIJ6RNg2aJbjEYRyKjXqUQVMWk",
       "coordinates": {
-        "lat": 60.0293,
-        "lng": 22.7653
+        "lat": 60.2202881,
+        "lng": 22.9037537
       },
       "rating": 4.6,
       "userRatingCount": 412
@@ -115,11 +115,11 @@
       "priceRange": "140-200€/Zimmer",
       "evCharging": false,
       "description": "Achtzimmer-Boutique-Hotel im umgebauten Tempering-Haus von 1850, plus fünf Container-Zimmer auf dem Dach des Montagewerks (Rooftop Rooms). WICHTIG für unsere Buchung: Standard-Zimmer haben zwei 90 cm breite Betten, die getrennt aufgestellt werden können — das ist aber EIN Zimmer mit zwei Betten und erfüllt unsere Regel 'zwei getrennte Schlafräume' NICHT. Lösung: ZWEI Standard-Zimmer separat buchen (€140-200 × 2). Booking direkt über mathildedal.fi.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Mathildedal&query_place_id=ChIJWX3T3HeIjkYR62lPxs1FwJI",
-      "placeId": "ChIJWX3T3HeIjkYR62lPxs1FwJI",
+      "googleMapsUrl": "https://maps.google.com/?cid=13117201387096424050",
+      "placeId": "ChIJpaZaL6NbjEYRcr4k5SmpCbY",
       "coordinates": {
-        "lat": 60.0294,
-        "lng": 22.7656
+        "lat": 60.220194400000004,
+        "lng": 22.9039675
       },
       "rating": 4.7,
       "userRatingCount": 312
@@ -130,11 +130,11 @@
       "priceRange": "150-220€/Zimmer",
       "evCharging": false,
       "description": "Backup-Option: sechs Zimmer direkt im Eisenwerks-Hafen mit Sauna-Zugang und Meerblick. Falls Hotel Mathildedal ausgebucht ist, hier zwei Einzel- oder Doppelzimmer separat buchen.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mathildan%20Marina%20Hotel&query_place_id=ChIJU3VPdHeIjkYRfoLqtINvDyM",
-      "placeId": "ChIJU3VPdHeIjkYRfoLqtINvDyM",
+      "googleMapsUrl": "https://maps.google.com/?cid=16426618237290005016",
+      "placeId": "ChIJSZxQLL1bjEYRGMKfPkES9-M",
       "coordinates": {
-        "lat": 60.0287,
-        "lng": 22.7672
+        "lat": 60.2201791,
+        "lng": 22.9014331
       },
       "rating": 4.6,
       "userRatingCount": 156

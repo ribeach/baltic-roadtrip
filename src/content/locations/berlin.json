@@ -16,7 +16,7 @@
       "description": "Das Symbol der deutschen Einheit und eines der bekanntesten Wahrzeichen der Welt. Ein Muss für jeden Berlin-Besuch, besonders schön in der Abendsonne.",
       "duration": "0.5h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Brandenburg%20Gate&query_place_id=ChIJyS1mU8JRqEcRulOPzPV2oSI",
+      "googleMapsUrl": "https://maps.google.com/?cid=2495406466610975674",
       "placeId": "ChIJyS1mU8JRqEcRulOPzPV2oSI",
       "coordinates": {
         "lat": 52.5163,
@@ -32,7 +32,7 @@
       "description": "Die gläserne Kuppel von Norman Foster bietet einen atemberaubenden 360°-Blick über das Regierungsviertel. Voranmeldung online zwingend erforderlich.",
       "duration": "1-1.5h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Reichstag%20Building&query_place_id=ChIJbVDuQcdRqEcR5X3xq9NSG2Q",
+      "googleMapsUrl": "https://maps.google.com/?cid=7213450297240288741",
       "placeId": "ChIJbVDuQcdRqEcR5X3xq9NSG2Q",
       "coordinates": {
         "lat": 52.5186,
@@ -48,7 +48,7 @@
       "description": "Das längste erhaltene Stück der Berliner Mauer, das von Künstlern aus aller Welt bemalt wurde. Eine Open-Air-Galerie der Freiheit direkt an der Spree.",
       "duration": "1.5h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=East%20Side%20Gallery&query_place_id=ChIJZ0KxF_JRqEcRrLHB-4r-U-o",
+      "googleMapsUrl": "https://maps.google.com/?cid=16885119300824838572",
       "placeId": "ChIJZ0KxF_JRqEcRrLHB-4r-U-o",
       "coordinates": {
         "lat": 52.505,
@@ -64,7 +64,7 @@
       "description": "UNESCO-Welterbe und Heimat von fünf weltberühmten Museen, darunter das Pergamonmuseum und das Neue Museum mit der Nofretete. Auch architektonisch ein Highlight.",
       "duration": "2-4h",
       "price": "ca. €12-18",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Museum%20Island&query_place_id=ChIJPyJZe2dXqEcR7QQjJhjKnz8",
+      "googleMapsUrl": "https://maps.google.com/?cid=4584605150754309357",
       "placeId": "ChIJPyJZe2dXqEcR7QQjJhjKnz8",
       "coordinates": {
         "lat": 52.5169,
@@ -80,7 +80,7 @@
       "description": "Der ehemalige Flughafen ist heute eine riesige Parkanlage. Grillen, Skaten oder einfach den weiten Horizont mitten in der Stadt genießen — typisch Berlin.",
       "duration": "2h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tempelhofer%20Feld&query_place_id=ChIJi1A2tR5PqEcRQCxyKJbI3AI",
+      "googleMapsUrl": "https://maps.google.com/?cid=206260230201420864",
       "placeId": "ChIJi1A2tR5PqEcRQCxyKJbI3AI",
       "coordinates": {
         "lat": 52.4731,
@@ -97,7 +97,7 @@
       "priceRange": "€-€€",
       "description": "Die historische Kreuzberger Markthalle bietet täglich regionale Spezialitäten und Frischwaren. Donnerstags findet der legendäre Street Food Thursday statt — dutzende Stände mit Küche aus aller Welt. Aber auch an den übrigen Tagen lohnt sich ein Besuch.",
       "mustTry": "Wechselnde Stände, einfach durchprobieren",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Markthalle%20Neun&query_place_id=ChIJvaZWgElOqEcRElWjL2P9AZg",
+      "googleMapsUrl": "https://maps.google.com/?cid=10953314371184579858",
       "placeId": "ChIJvaZWgElOqEcRElWjL2P9AZg",
       "coordinates": {
         "lat": 52.502134999999996,
@@ -112,7 +112,7 @@
       "priceRange": "€€",
       "description": "Berlins ältestes Restaurant seit 1621, direkt neben der ehemaligen Stadtmauer. Deftige Berliner Hausmannskost in historischem Ambiente mit Geschichten von Napoleon bis Beethoven.",
       "mustTry": "Königsberger Klopse — Berlins Seelenfutter schlechthin",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Zur%20letzten%20Instanz&query_place_id=ChIJ1WEbzyNOqEcRKqrOGWDKPMs",
+      "googleMapsUrl": "https://maps.google.com/?cid=14644802602400655914",
       "placeId": "ChIJ1WEbzyNOqEcRKqrOGWDKPMs",
       "coordinates": {
         "lat": 52.5173692,
@@ -128,7 +128,7 @@
       "isSplurge": true,
       "description": "Im versteckten Hinterhof einer ehemaligen Brauerei serviert Katz Orange slow-cooked Duroc-Schwein, das nach 12 Stunden im Ofen butterzart auf den Teller kommt.",
       "mustTry": "Slow Roasted Duroc Pork — das Signature-Gericht, zu Recht legendär",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Katz%20Orange&query_place_id=ChIJQ2g8mO9RqEcRpOSC8NXG7io",
+      "googleMapsUrl": "https://maps.google.com/?cid=3093628616215553188",
       "placeId": "ChIJQ2g8mO9RqEcRpOSC8NXG7io",
       "coordinates": {
         "lat": 52.5314438,
@@ -143,7 +143,7 @@
       "priceRange": "€€",
       "description": "Berlins coolste Brauerei aus recycelten Überseecontainern am Gleisdreieck-Park. Eigene Craft-Biere, dazu kreative Sharing-Gerichte mit regionalen Zutaten.",
       "mustTry": "BRLO German Pale Ale mit einer Auswahl an Sharing Plates",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=BRLO%20Brwhouse&query_place_id=ChIJU1qJezNQqEcRC6S-QH3btN4",
+      "googleMapsUrl": "https://maps.google.com/?cid=16047692703231550475",
       "placeId": "ChIJU1qJezNQqEcRC6S-QH3btN4",
       "coordinates": {
         "lat": 52.500196599999995,
@@ -161,7 +161,7 @@
       "isSplurge": true,
       "evCharging": false,
       "description": "Stylische Apartments in Berlin-Mitte mit individueller Einrichtung, Küche und dem Gefühl, wie ein Berliner zu wohnen statt wie ein Tourist. Perfekte Lage zwischen Hackeschem Markt und Rosenthaler Platz.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gorki%20Apartments&query_place_id=ChIJo_0q7ORRqEcRic5z8DWcx4Q",
+      "googleMapsUrl": "https://maps.google.com/?cid=9567787688853229193",
       "placeId": "ChIJo_0q7ORRqEcRic5z8DWcx4Q",
       "coordinates": {
         "lat": 52.530603199999995,
@@ -176,7 +176,7 @@
       "priceRange": "110-140€",
       "evCharging": false,
       "description": "Modernes Boutique-Hotel in Kreuzberg mit Pool und Sauna — ein echtes Highlight nach einem langen Tag auf den Beinen. Ruhig gelegen und trotzdem mittendrin.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=the%20YARD%20Berlin%20by%20little%20BIG%20hotels&query_place_id=ChIJm1pj2NRPqEcRDbDytVOdRzM",
+      "googleMapsUrl": "https://maps.google.com/?cid=3695095002141208589",
       "placeId": "ChIJm1pj2NRPqEcRDbDytVOdRzM",
       "coordinates": {
         "lat": 52.4990895,
@@ -191,7 +191,7 @@
       "priceRange": "80-140€",
       "evCharging": false,
       "description": "Schlafen im Vintage-Wohnwagen oder Holzhäuschen — aufgebaut in einer ehemaligen Staubsaugerfabrik in Neukölln. Liebevoll gestaltet, mit Indoor-Garten und eigenem Café. Berlins kreativstes Übernachtungskonzept.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=H%C3%BCttenpalast&query_place_id=ChIJqSvn_rZPqEcRZXRmxhKHMnU",
+      "googleMapsUrl": "https://maps.google.com/?cid=8444960765980865637",
       "placeId": "ChIJqSvn_rZPqEcRZXRmxhKHMnU",
       "coordinates": {
         "lat": 52.4892548,
@@ -206,7 +206,7 @@
       "priceRange": "120-200€",
       "evCharging": false,
       "description": "Liebevoll restauriertes Stadtbad von 1902 in Prenzlauer Berg — das erhaltene 20-Meter-Schwimmbecken steht exklusiv den Hotelgästen zur Verfügung. Hohe Gewölbedecken, Originalfliesen und der Charme der Gründerzeit.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Oderberger%20Berlin&query_place_id=ChIJo5LTjf5RqEcRUa2Ss1jXGH8",
+      "googleMapsUrl": "https://maps.google.com/?cid=9158306618227731793",
       "placeId": "ChIJo5LTjf5RqEcRUa2Ss1jXGH8",
       "coordinates": {
         "lat": 52.5377364,
@@ -234,7 +234,7 @@
     {
       "name": "Prater Garten",
       "description": "Berlins ältester Biergarten seit 1837 unter alten Kastanien in Prenzlauer Berg. Kein Schnickschnack, kein Reservieren — einfach Bier holen und hinsetzen.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Prater%20Beer%20Garden&query_place_id=ChIJD0vsHf9RqEcR66OXHP3xmXE",
+      "googleMapsUrl": "https://maps.google.com/?cid=8185839867131306987",
       "placeId": "ChIJD0vsHf9RqEcR66OXHP3xmXE",
       "coordinates": {
         "lat": 52.540099,
@@ -246,7 +246,7 @@
     {
       "name": "Freischwimmer",
       "description": "Bar direkt am Flutgraben in Kreuzberg mit Terrasse über dem Wasser. Perfekt für einen entspannten Drink in der Abendsonne.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Freischwimmer&query_place_id=ChIJ8ZGej1ROqEcRxYgYKFsirXY",
+      "googleMapsUrl": "https://maps.google.com/?cid=8551529042356504773",
       "placeId": "ChIJ8ZGej1ROqEcRxYgYKFsirXY",
       "coordinates": {
         "lat": 52.4973384,

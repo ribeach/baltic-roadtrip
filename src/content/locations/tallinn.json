@@ -16,7 +16,7 @@
       "description": "Tallinns mittelalterliche Altstadt ist so gut erhalten, dass man sich beim Spaziergang durch die Kopfsteinpflastergassen ins 15. Jahrhundert zurückversetzt fühlt. Stadtmauern, Wehrtürme und gotische Kaufmannshäuser bilden ein einzigartiges Ensemble.",
       "duration": "3-4h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vanalinn&query_place_id=ChIJOTWcZ2KTkkYRxR2zXkS56VY",
+      "googleMapsUrl": "https://maps.google.com/?cid=6262740460133096901",
       "placeId": "ChIJOTWcZ2KTkkYRxR2zXkS56VY",
       "coordinates": {
         "lat": 59.43637389999999,
@@ -30,7 +30,7 @@
       "description": "Vom Domberg bieten zwei Aussichtsplattformen den ikonischen Blick über die roten Dächer der Unterstadt bis zum Hafen und zur Ostsee. Der Patkuli-Blick bei Sonnenuntergang ist magisch.",
       "duration": "30-45min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kohtuotsa%20viewing%20platform&query_place_id=ChIJ3TY4imKTkkYRBKgGxVfVHN8",
+      "googleMapsUrl": "https://maps.google.com/?cid=16076959342750246916",
       "placeId": "ChIJ3TY4imKTkkYRBKgGxVfVHN8",
       "coordinates": {
         "lat": 59.437807,
@@ -46,7 +46,7 @@
       "description": "In historischen Wasserflugzeug-Hangars aus dem Ersten Weltkrieg beherbergt dieses spektakuläre Museum ein echtes U-Boot, einen Eisbrecher und Hunderte maritimer Exponate. Interaktiv und fesselnd.",
       "duration": "2-3h",
       "price": "~€15",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lennusadam&query_place_id=ChIJTRNjNneTkkYR4qzPO1zbDuw",
+      "googleMapsUrl": "https://maps.google.com/?cid=17009774031811882210",
       "placeId": "ChIJTRNjNneTkkYR4qzPO1zbDuw",
       "coordinates": {
         "lat": 59.451705999999994,
@@ -62,7 +62,7 @@
       "description": "Im 23. Stock des ehemaligen Intourist-Hotels betrieb der KGB eine geheime Abhörstation. Die Führung durch die original erhaltenen Räume mit Abhörgeräten ist ein faszinierender Blick hinter den Eisernen Vorhang.",
       "duration": "1h",
       "price": "€13",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Viru%20%26%20KGB%20Museum&query_place_id=ChIJq7E4XGCTkkYR58PLSmPqegg",
+      "googleMapsUrl": "https://maps.google.com/?cid=611058411639653351",
       "placeId": "ChIJq7E4XGCTkkYR58PLSmPqegg",
       "coordinates": {
         "lat": 59.436484699999994,
@@ -78,7 +78,7 @@
       "description": "Das ehemalige Industriegelände beherbergt heute über 250 kreative Unternehmen, Galerien, Designläden und Restaurants — darunter auch das Fotografiska (~€20). Tallinns hipster Viertel.",
       "duration": "2-3h",
       "price": "Kostenlos (einzelne Attraktionen kostenpflichtig)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Telliskivi%20Creative%20City&query_place_id=ChIJS4pp8H2TkkYRZWMfJVezO3o",
+      "googleMapsUrl": "https://maps.google.com/?cid=8807830683119477605",
       "placeId": "ChIJS4pp8H2TkkYRZWMfJVezO3o",
       "coordinates": {
         "lat": 59.439840800000006,
@@ -94,7 +94,7 @@
       "description": "Der modernisierte Markt neben dem Bahnhof bietet lokale Lebensmittel, Street Food und estnisches Design. Perfekt für einen Snack zwischendurch oder ein Mitbringsel.",
       "duration": "30-60min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Balti%20Jaama%20Turg&query_place_id=ChIJeWFVwX2TkkYRJvpHOldosHg",
+      "googleMapsUrl": "https://maps.google.com/?cid=8696565604301666854",
       "placeId": "ChIJeWFVwX2TkkYRJvpHOldosHg",
       "coordinates": {
         "lat": 59.4411326,
@@ -110,7 +110,7 @@
       "description": "Das trendige Viertel mit seinen bunt gestrichenen Holzhäusern aus dem 19. Jahrhundert ist Tallinns charmanteste Wohngegend — perfekt für einen entspannten Spaziergang abseits der Touristenpfade.",
       "duration": "1-1.5h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kalamaja&query_place_id=ChIJI1SBzXuTkkYRGQlfFmfoozI",
+      "googleMapsUrl": "https://maps.google.com/?cid=3649015652554836249",
       "placeId": "ChIJI1SBzXuTkkYRGQlfFmfoozI",
       "coordinates": {
         "lat": 59.4497274,
@@ -124,7 +124,7 @@
       "description": "Die ehemalige U-Boot-Werft am Meer wurde zum angesagten Kreativviertel mit Restaurants, Brauereien und dem Kai Kunstzentrum umgebaut. Industriecharme trifft auf Meerblick.",
       "duration": "1.5-2h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Port%20Noblessner&query_place_id=ChIJaQeLwYKUkkYRZlI5Ic6DJX4",
+      "googleMapsUrl": "https://maps.google.com/?cid=9089816344261120614",
       "placeId": "ChIJaQeLwYKUkkYRZlI5Ic6DJX4",
       "coordinates": {
         "lat": 59.453191999999994,
@@ -140,7 +140,7 @@
       "description": "Ein gefluteter Sowjet-Gefängnissteinbruch mit türkisem Wasser und versunkenen Gebäuden, 45km westlich von Tallinn. Surreal und fotogen — wie eine Filmkulisse.",
       "duration": "2-3h (inkl. Anfahrt)",
       "price": "€5-8",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=RUMMU&query_place_id=ChIJHyqYGuivkkYRaamCeK5TOJg",
+      "googleMapsUrl": "https://maps.google.com/?cid=10968608901272086889",
       "placeId": "ChIJHyqYGuivkkYRaamCeK5TOJg",
       "coordinates": {
         "lat": 59.2273404,
@@ -156,7 +156,7 @@
       "description": "Der brutalistische Olympia-Bau von 1980 am Hafen war Drehort für Christopher Nolans \"Tenet\". Die massive Betonarchitektur direkt an der Ostsee ist eindrucksvoll und verlassen zugleich.",
       "duration": "30min",
       "price": "Kostenlos (nur von außen)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tallinna%20Linnahall&query_place_id=ChIJ4yYtzWWTkkYRj1axNhrbKqU",
+      "googleMapsUrl": "https://maps.google.com/?cid=11901565870913181327",
       "placeId": "ChIJ4yYtzWWTkkYRj1axNhrbKqU",
       "coordinates": {
         "lat": 59.446579500000006,
@@ -172,7 +172,7 @@
       "description": "Die ehemalige Seefestung und spätere Gefängnisanlage wird derzeit renoviert — Wiedereröffnung als Museum voraussichtlich 2027. Nur von außen besichtigbar, aber die massive Anlage am Meer ist auch so eindrucksvoll.",
       "duration": "30min (außen)",
       "price": "Kostenlos (nur Außenbesichtigung)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Patarei%20Merekindlus&query_place_id=ChIJoRWzx3CTkkYRqLuDtIJpTcg",
+      "googleMapsUrl": "https://maps.google.com/?cid=14433308390887504808",
       "placeId": "ChIJoRWzx3CTkkYRqLuDtIJpTcg",
       "coordinates": {
         "lat": 59.449757299999995,
@@ -188,7 +188,7 @@
       "description": "Peter der Große ließ den barocken Kadriorg-Palast 1718 für seine Frau Katharina errichten — heute beherbergt er ausländische Kunst. Im selben Park steht das KUMU, Estlands größtes Kunstmuseum in einem markanten Kalkstein-Bau, mit estnischer Kunst vom 18. Jahrhundert bis zur Gegenwart.",
       "duration": "2–3 Std.",
       "price": "~€12 (KUMU) + Park kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kadriorg%20Art%20Museum&query_place_id=ChIJHzFswVGTkkYR_Ej2aFtgdhA",
+      "googleMapsUrl": "https://maps.google.com/?cid=1186241497577965820",
       "placeId": "ChIJHzFswVGTkkYR_Ej2aFtgdhA",
       "coordinates": {
         "lat": 59.438503600000004,
@@ -204,7 +204,7 @@
       "description": "Weltklasse-Fotomuseum in einem umgebauten Kraftwerk im Telliskivi-Viertel. Wechselnde Ausstellungen internationaler Fotografen, dazu ein Restaurant mit Michelin Green Star.",
       "duration": "1,5–2 Std.",
       "price": "~€20",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fotografiska%20Tallinn&query_place_id=ChIJN7F2q3mTkkYR_EO5KihDvHI",
+      "googleMapsUrl": "https://maps.google.com/?cid=8267556855739925500",
       "placeId": "ChIJN7F2q3mTkkYR_EO5KihDvHI",
       "coordinates": {
         "lat": 59.438453499999994,
@@ -220,7 +220,7 @@
       "description": "Konvertiertes Industriequartier zwischen Altstadt und Hafen — preisgekrönte moderne Architektur trifft auf alte Backsteingebäude. Hier liegt auch die RØST Bakery mit hervorragendem Sauerteigbrot.",
       "duration": "30–60 Min.",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rotermanni%20kvartal&query_place_id=ChIJU7150GCTkkYRl8IxIYtw6SQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=2659780797798662807",
       "placeId": "ChIJU7150GCTkkYRl8IxIYtw6SQ",
       "coordinates": {
         "lat": 59.4389862,
@@ -235,7 +235,7 @@
       "priceRange": "€€",
       "description": "In einem Haus aus dem 15. Jahrhundert serviert dieses beliebte Restaurant moderne estnische Küche mit saisonalen Zutaten. Reservierung dringend empfohlen — es ist zurecht eines der beliebtesten Restaurants der Stadt.",
       "mustTry": "Gebratener Ostseehering oder Elchbraten — estnische Klassiker neu interpretiert",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rataskaevu%20tn%2016&query_place_id=ChIJh9m5e2KTkkYRrXdDs-JBVK4",
+      "googleMapsUrl": "https://maps.google.com/?cid=12561737702569113517",
       "placeId": "ChIJh9m5e2KTkkYRrXdDs-JBVK4",
       "coordinates": {
         "lat": 59.4369781,
@@ -249,7 +249,7 @@
       "isSplurge": true,
       "description": "Das \"Brot-Restaurant\" backt eigenes Sauerteigbrot und serviert dazu hyperregionale Gerichte aus dem eigenen Garten und von lokalen Bauern. Im Sommer wird im Innenhof gegessen.",
       "mustTry": "Frisch gebackenes Roggenbrot mit Butter — das einfachste und beste Gericht",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lee%20Brasserie%20Tallinn&query_place_id=ChIJR7Jb9mOTkkYR0Ut5oBBCS-4",
+      "googleMapsUrl": "https://maps.google.com/?cid=17170890643459361745",
       "placeId": "ChIJR7Jb9mOTkkYR0Ut5oBBCS-4",
       "coordinates": {
         "lat": 59.4411808,
@@ -264,7 +264,7 @@
       "priceRange": "€-€€",
       "description": "Lässiger Gastropub im Industrieambiente des Telliskivi Creative City. Große Portionen, faire Preise und ein Mix aus estnischer und internationaler Küche — ideal für einen unkomplizierten Abend.",
       "mustTry": "Burger oder Tagesgericht — hier stimmt das Preis-Leistungs-Verhältnis",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=F-Hoone&query_place_id=ChIJQZ7mwn2TkkYRt6ZGdLFe0Wg",
+      "googleMapsUrl": "https://maps.google.com/?cid=7552922166330042039",
       "placeId": "ChIJQZ7mwn2TkkYRt6ZGdLFe0Wg",
       "coordinates": {
         "lat": 59.439620000000005,
@@ -280,7 +280,7 @@
       "isSplurge": true,
       "description": "Michelin-ausgezeichnetes Restaurant, das slawische und estnische Küche kunstvoll verbindet. Die Pelmeni und andere osteuropäische Klassiker werden hier auf Fine-Dining-Niveau gehoben.",
       "mustTry": "Pelmeni — russische Teigtaschen, hier als Haute Cuisine",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Moon&query_place_id=ChIJwZYTGWWTkkYRBwLl838J0QQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=347069091441607175",
       "placeId": "ChIJwZYTGWWTkkYRBwLl838J0QQ",
       "coordinates": {
         "lat": 59.4396681,
@@ -295,7 +295,7 @@
       "priceRange": "€€",
       "description": "Mit dem Michelin Bib Gourmand ausgezeichnetes Bistro, das über offenem Feuer kocht. Rauchige, intensive Aromen und eine Speisekarte, die sich nach der Saison richtet.",
       "mustTry": "Über offenem Feuer gegrillter Fisch oder Fleisch — der Geschmack des Feuers ist das Geheimnis",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lore%20Bistroo&query_place_id=ChIJE7kMbseTkkYR5V6vwwtZXbI",
+      "googleMapsUrl": "https://maps.google.com/?cid=12852526818647826149",
       "placeId": "ChIJE7kMbseTkkYR5V6vwwtZXbI",
       "coordinates": {
         "lat": 59.4526198,
@@ -310,7 +310,7 @@
       "priceRange": "€–€€",
       "description": "Handwerksbäckerei im Rotermanni-Viertel mit langsam fermentiertem Sauerteigbrot und nordischen Backwaren. Perfekt für ein entspanntes Frühstück oder Mittagessen.",
       "mustTry": "Sauerteigbrot und Kardamom-Schnecke",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=R%C3%98ST%20Bakery&query_place_id=ChIJP73vtWCTkkYRAAmn7hNt9aM",
+      "googleMapsUrl": "https://maps.google.com/?cid=11814469129852094720",
       "placeId": "ChIJP73vtWCTkkYRAAmn7hNt9aM",
       "coordinates": {
         "lat": 59.4391229,
@@ -359,7 +359,7 @@
       "priceRange": "75-120€",
       "evCharging": false,
       "description": "Elegante baltisch-deutsche Villa aus dem 19. Jahrhundert mit Zen-Spa und einer der besten Lagen der Stadt — zwischen Altstadt und Kalamaja. Hervorragendes Preis-Leistungs-Verhältnis.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=von%20Stackelberg%20Hotel%20Tallinn&query_place_id=ChIJC2yTLYOUkkYRYCuqQHEpf_k",
+      "googleMapsUrl": "https://maps.google.com/?cid=17978133803879246688",
       "placeId": "ChIJC2yTLYOUkkYRYCuqQHEpf_k",
       "coordinates": {
         "lat": 59.43468609999999,
@@ -375,7 +375,7 @@
       "isSplurge": true,
       "evCharging": true,
       "description": "Im Herzen der Altstadt in einem restaurierten Kaufmannshaus aus dem 13. Jahrhundert. Eigene E-Ladesäule — perfekt, um vor der Fähre nach Helsinki aufzuladen. Der Inbegriff baltischer Eleganz.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Schl%C3%B6ssle%20Hotel&query_place_id=ChIJ_SaBzWOTkkYRSMpeR32py0s",
+      "googleMapsUrl": "https://maps.google.com/?cid=5461645328650259016",
       "placeId": "ChIJ_SaBzWOTkkYRSMpeR32py0s",
       "coordinates": {
         "lat": 59.438713299999996,
@@ -390,7 +390,7 @@
       "priceRange": "90-140€",
       "evCharging": false,
       "description": "Einzigartiges kleines Hotel, teilweise in die mittelalterliche Stadtmauer gebaut. Gemütliche Zimmer mit historischem Charakter und einer Lage, die kaum zentraler sein könnte.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nunne%20Boutique%20Hotel&query_place_id=ChIJUclDefCTkkYRzj4UK5A39Gk",
+      "googleMapsUrl": "https://maps.google.com/?cid=7634788360637398734",
       "placeId": "ChIJUclDefCTkkYRzj4UK5A39Gk",
       "coordinates": {
         "lat": 59.438907900000004,
@@ -422,7 +422,7 @@
     {
       "name": "Whisper Sister",
       "description": "Gilt als die beste Cocktailbar des gesamten Baltikums. Speakeasy-Konzept: Man muss den Eingang finden und klopfen. Drinnen erwarten euch Weltklasse-Cocktails in Art-Déco-Ambiente.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Whisper%20Sister&query_place_id=ChIJwRoMF56UkkYRMzy7XcbCCS8",
+      "googleMapsUrl": "https://maps.google.com/?cid=3389454351804873779",
       "placeId": "ChIJwRoMF56UkkYRMzy7XcbCCS8",
       "coordinates": {
         "lat": 59.43464540000001,
@@ -434,7 +434,7 @@
     {
       "name": "Põhjala Tap Room",
       "description": "Im Noblessner-Viertel direkt am Meer schenkt Estlands berühmteste Craft-Brauerei 24 Biere vom Fass aus — dazu wird Texas-BBQ serviert. Industriecharme mit Meerblick.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C3%B5hjala%20Brewery%20%26%20Tap%20Room&query_place_id=ChIJ-X-2JUyTkkYRBM2xOwYptwY",
+      "googleMapsUrl": "https://maps.google.com/?cid=483900591713668356",
       "placeId": "ChIJ-X-2JUyTkkYRBM2xOwYptwY",
       "coordinates": {
         "lat": 59.450270499999995,
@@ -446,7 +446,7 @@
     {
       "name": "Tops",
       "description": "Sowjet-Chic trifft auf Vinyl-Bar: Retro-Möbel, Schallplatten an der Wand und eine entspannte Atmosphäre, die an eine Wohnzimmerparty bei einem estnischen Freund erinnert.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=TOPS&query_place_id=ChIJ54z3qHuTkkYR4Tx3bi104SI",
+      "googleMapsUrl": "https://maps.google.com/?cid=2513417805525105889",
       "placeId": "ChIJ54z3qHuTkkYR4Tx3bi104SI",
       "coordinates": {
         "lat": 59.4457746,
@@ -458,7 +458,7 @@
     {
       "name": "Parrot MiniBar",
       "description": "Man betritt einen scheinbar normalen Laden, geht durch einen Kleiderschrank und landet in einer versteckten Kellerbar. Die Drinks sind exzellent, das Erlebnis unvergesslich.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Parrot%20Resto%20%26%20Bar&query_place_id=ChIJby7X_Z2UkkYRy6ADGDVTd6E",
+      "googleMapsUrl": "https://maps.google.com/?cid=11634859649836228811",
       "placeId": "ChIJby7X_Z2UkkYRy6ADGDVTd6E",
       "coordinates": {
         "lat": 59.4354727,

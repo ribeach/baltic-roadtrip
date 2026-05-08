@@ -80,7 +80,7 @@
       "description": "Unterirdische Kunsthalle in den ehemaligen Wasserreservoirs unter dem Søndermarken-Park. Die endlosen Kolonnaden, das tropfende Wasser und die Dunkelheit schaffen eine einzigartige Atmosphäre für zeitgenössische Installationen.",
       "duration": "1h",
       "price": "ca. €10",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cisterns%20in%20S%C3%B8ndermarken&query_place_id=ChIJfyjMH5dTUkYRb6MBP3wrqC0",
+      "googleMapsUrl": "https://maps.google.com/?cid=3289927340427158383",
       "placeId": "ChIJfyjMH5dTUkYRb6MBP3wrqC0",
       "coordinates": {
         "lat": 55.669537399999996,
@@ -130,7 +130,10 @@
       "mustTry": "Brisket Platte mit einem Glas Warpigs Foggy Geezer IPA",
       "googleMapsUrl": "https://maps.google.com/?cid=17970556012460689348",
       "placeId": "ChIJrfd4pHNTUkYRxMf6Mns9ZPk",
-      "coordinates": { "lat": 55.6685024, "lng": 12.5599359 },
+      "coordinates": {
+        "lat": 55.6685024,
+        "lng": 12.5599359
+      },
       "rating": 4.4,
       "userRatingCount": 12591
     },
@@ -143,7 +146,10 @@
       "mustTry": "Klassisches Smørrebrød mit Hering oder Roastbeef",
       "googleMapsUrl": "https://maps.google.com/?cid=8941276601985015225",
       "placeId": "ChIJoydEjRFTUkYRuR3UU7LLFXw",
-      "coordinates": { "lat": 55.6767434, "lng": 12.5720572 },
+      "coordinates": {
+        "lat": 55.6767434,
+        "lng": 12.5720572
+      },
       "rating": 4.8,
       "userRatingCount": 422
     }
@@ -158,7 +164,10 @@
       "description": "Von Travel+Leisure zum besten Hotel Skandinaviens gewählt. Gehört zum Copenhagen Food Collective — bei Direktbuchung 15% Rabatt in 19 Partner-Restaurants, was sich in Kopenhagens teurem Gastro-Markt schnell bezahlt macht.",
       "googleMapsUrl": "https://maps.google.com/?cid=6897090989626383442",
       "placeId": "ChIJbTfw0MNTUkYRUlw6dLZjt18",
-      "coordinates": { "lat": 55.6723649, "lng": 12.5563572 },
+      "coordinates": {
+        "lat": 55.6723649,
+        "lng": 12.5563572
+      },
       "rating": 4.4,
       "userRatingCount": 2100
     },
@@ -184,7 +193,7 @@
       "isSplurge": true,
       "evCharging": false,
       "description": "Permanent im Hafen vertäutes Boutique-Hotel — Hafenblick durch bodentiefe Fenster, Sonnendeck auf dem Dach und das sanfte Schaukeln der Wellen als Einschlafhilfe.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Cph%20Living&query_place_id=ChIJDZXGPhVTUkYRTDssKCzg_Lc",
+      "googleMapsUrl": "https://maps.google.com/?cid=13257717883329067852",
       "placeId": "ChIJDZXGPhVTUkYRTDssKCzg_Lc",
       "coordinates": {
         "lat": 55.6702098,
@@ -208,7 +217,7 @@
     {
       "name": "Lidkoeb",
       "description": "Versteckt in einer ehemaligen Apotheke in Vesterbro — drei Stockwerke mit unterschiedlichem Charakter, der Kamin-Lounge im Dachgeschoss ist legendär. Kopenhagens beste Cocktailbar.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lidkoeb&query_place_id=ChIJbZ3drgpTUkYRkQazSR_D_U4",
+      "googleMapsUrl": "https://maps.google.com/?cid=5691920043214046865",
       "placeId": "ChIJbZ3drgpTUkYRkQazSR_D_U4",
       "coordinates": {
         "lat": 55.6728044,
@@ -220,7 +229,7 @@
     {
       "name": "War Pigs",
       "description": "Kooperation von Mikkeller und Three Floyds in einer ehemaligen Schlachterei im Kødbyen (Fleischpackerviertel). ~22 hausgebraute Biere plus Texas-BBQ — laut, voll und fantastisch.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Warpigs%20Brewpub&query_place_id=ChIJrfd4pHNTUkYRxMf6Mns9ZPk",
+      "googleMapsUrl": "https://maps.google.com/?cid=17970556012460689348",
       "placeId": "ChIJrfd4pHNTUkYRxMf6Mns9ZPk",
       "coordinates": {
         "lat": 55.668502399999994,

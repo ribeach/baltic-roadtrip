@@ -2,7 +2,10 @@
   "id": "tartu",
   "name": "Tartu",
   "country": "estonia",
-  "coordinates": { "lat": 58.3780, "lng": 26.7285 },
+  "coordinates": {
+    "lat": 58.378,
+    "lng": 26.7285
+  },
   "description": "Estlands geistige Hauptstadt und älteste Universitätsstadt des Baltikums verbindet akademische Tradition mit modernem Innovationsgeist. Das architektonisch spektakuläre Nationalmuseum auf einer ehemaligen sowjetischen Landebahn und das größte Wissenschaftszentrum des Baltikums machen Tartu zu einem lohnenden Abstecher — besonders seit dem Titel als Europäische Kulturhauptstadt 2024.",
   "placeId": "ChIJ9z1d1dg260YREG38GG2zAAQ",
   "highlights": [
@@ -15,7 +18,10 @@
       "price": "~€15",
       "googleMapsUrl": "https://maps.google.com/?cid=4271741711775898858",
       "placeId": "ChIJkdlpAB4360YR6hyfRnRGSDs",
-      "coordinates": { "lat": 58.3953189, "lng": 26.744588399999998 },
+      "coordinates": {
+        "lat": 58.3953189,
+        "lng": 26.744588399999998
+      },
       "rating": 4.7,
       "userRatingCount": 6273
     },
@@ -28,7 +34,10 @@
       "price": "~€16",
       "googleMapsUrl": "https://maps.google.com/?cid=682453840214536760",
       "placeId": "ChIJO8ISs94260YROLKW4SaQeAk",
-      "coordinates": { "lat": 58.37670569999999, "lng": 26.7344106 },
+      "coordinates": {
+        "lat": 58.37670569999999,
+        "lng": 26.7344106
+      },
       "rating": 4.8,
       "userRatingCount": 10502
     },
@@ -41,7 +50,10 @@
       "price": "Kostenlos",
       "googleMapsUrl": "https://maps.google.com/?cid=9224487325532302585",
       "placeId": "ChIJW5r24uM260YR-SxyYVn2A4A",
-      "coordinates": { "lat": 58.380900000000004, "lng": 26.715899999999998 },
+      "coordinates": {
+        "lat": 58.380900000000004,
+        "lng": 26.715899999999998
+      },
       "rating": 4.7,
       "userRatingCount": 65
     }
@@ -55,7 +67,10 @@
       "mustTry": "Die berühmten Torten und Kuchen — Werner ist seit Generationen eine Tartu-Institution",
       "googleMapsUrl": "https://maps.google.com/?cid=200465234080970107",
       "placeId": "ChIJkbLFK-E260YRezU2exEyyAI",
-      "coordinates": { "lat": 58.38051809999999, "lng": 26.7209742 },
+      "coordinates": {
+        "lat": 58.38051809999999,
+        "lng": 26.7209742
+      },
       "rating": 4.7,
       "userRatingCount": 2415
     },
@@ -67,7 +82,10 @@
       "mustTry": "Saisonale Kreationen mit estnischen Zutaten",
       "googleMapsUrl": "https://maps.google.com/?cid=10510987328137974862",
       "placeId": "ChIJ_8PnV94260YRTtRLDEmH3pE",
-      "coordinates": { "lat": 58.376482, "lng": 26.728454199999998 },
+      "coordinates": {
+        "lat": 58.376482,
+        "lng": 26.728454199999998
+      },
       "rating": 4.6,
       "userRatingCount": 839
     }
@@ -81,7 +99,10 @@
       "description": "Historisches Boutique-Hotel direkt gegenüber der Universität in einem liebevoll restaurierten Gebäude. Zentrale Lage, ideal als Basis für Tartu.",
       "googleMapsUrl": "https://maps.google.com/?cid=18267870385679109800",
       "placeId": "ChIJhaif0uY260YRqA5IFVSDhP0",
-      "coordinates": { "lat": 58.381141899999996, "lng": 26.720727699999998 },
+      "coordinates": {
+        "lat": 58.381141899999996,
+        "lng": 26.720727699999998
+      },
       "rating": 4.8,
       "userRatingCount": 382
     }
@@ -96,8 +117,11 @@
       "source": "Booking.com",
       "rating": 4.7,
       "bookingUrl": "https://www.booking.com/hotel/ee/spacious-and-quiet-2br-apartment.en-gb.html",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tartu%202BR%20apartment%20city%20centre&query_place_id=ChIJ9z1d1dg260YREG38GG2zAAQ",
-      "coordinates": { "lat": 58.3812, "lng": 26.7251 }
+      "googleMapsUrl": "https://maps.google.com/?cid=288427657303715088",
+      "coordinates": {
+        "lat": 58.3812,
+        "lng": 26.7251
+      }
     },
     {
       "name": "Tartu Town Hall Square Apartment",
@@ -107,7 +131,10 @@
       "description": "Backup-Option direkt am Raekoja Plats: zwei Schlafzimmer, hohe Decken, Originalholzdielen aus dem 19. Jh. Wenn das ruhige Hofapartment ausgebucht ist, ist diese Adresse die Plan-B-Wahl mit etwas mehr Stadtlärm und etwas mehr Charakter.",
       "source": "Booking.com",
       "bookingUrl": "https://www.booking.com/searchresults.en-gb.html?ss=Tartu+Town+Hall+Square+Apartment&checkin=2026-05-10&checkout=2026-05-11",
-      "coordinates": { "lat": 58.3805, "lng": 26.7222 }
+      "coordinates": {
+        "lat": 58.3805,
+        "lng": 26.7222
+      }
     }
   ],
   "tips": [

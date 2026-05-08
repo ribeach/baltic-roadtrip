@@ -16,7 +16,7 @@
       "description": "Das weltweit einzige erhaltene Kriegsschiff aus dem 17. Jahrhundert — die Vasa sank 1628 auf ihrer Jungfernfahrt und wurde fast vollständig geborgen. Stockholms meistbesuchtes Museum auf der Insel Djurgården.",
       "duration": "1,5–2 Std.",
       "price": "~170 SEK (~15 €)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Vasa%20Museum&query_place_id=ChIJrymDbVSdX0YRQTLBtPGa8M8",
+      "googleMapsUrl": "https://maps.google.com/?cid=14983646323171996225",
       "placeId": "ChIJrymDbVSdX0YRQTLBtPGa8M8",
       "coordinates": {
         "lat": 59.3280233,
@@ -32,7 +32,7 @@
       "description": "Stockholms mittelalterliche Altstadt auf der Insel Stadsholmen — verwinkelte Gassen, bunte Fassaden, der Stortorget als ältester Platz und das Königliche Schloss. Vom Fährterminal in wenigen Minuten zu Fuß erreichbar.",
       "duration": "1–2 Std.",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gamla%20stan&query_place_id=ChIJK_mfZuJ3X0YREYsWNfT-ACY",
+      "googleMapsUrl": "https://maps.google.com/?cid=2738468898257406737",
       "placeId": "ChIJK_mfZuJ3X0YREYsWNfT-ACY",
       "coordinates": {
         "lat": 59.3256954,
@@ -46,7 +46,7 @@
       "description": "Weltklasse-Fotomuseum direkt am Stadsgården-Terminal — buchstäblich 5 Minuten zu Fuß von der Fährankunft. Wechselnde Ausstellungen zeitgenössischer Fotografie, dazu Restaurant und Bar mit Hafenblick.",
       "duration": "1–2 Std.",
       "price": "~190 SEK (~17 €)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fotografiska%20Museum%20Stockholm&query_place_id=ChIJhaN0M_l3X0YRpOq8uRb_RcA",
+      "googleMapsUrl": "https://maps.google.com/?cid=13854760301745728164",
       "placeId": "ChIJhaN0M_l3X0YRpOq8uRb_RcA",
       "coordinates": {
         "lat": 59.31796189999999,
@@ -62,7 +62,7 @@
       "description": "Biodynamischer Garten und Café auf Djurgården — ein grünes Idyll mit Gewächshäusern, Blumenfeldern und frisch gebackenem Kuchen. Ideal für ein ruhiges Frühstück nach der Nachtfähre.",
       "duration": "1 Std.",
       "price": "Kostenlos (Essen extra)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rosendals%20Tr%C3%A4dg%C3%A5rd&query_place_id=ChIJPT1T4K6CX0YROHhBJau4FpI",
+      "googleMapsUrl": "https://maps.google.com/?cid=10526804224229079096",
       "placeId": "ChIJPT1T4K6CX0YROHhBJau4FpI",
       "coordinates": {
         "lat": 59.3274562,
@@ -78,7 +78,7 @@
       "description": "Am Stortorget in Gamla Stan — Ausstellung über die Geschichte des Nobelpreises und seine Preisträger. Kompakt, gut als Kombination mit einem Bummel durch die Altstadt.",
       "duration": "1 Std.",
       "price": "~130 SEK (~12 €)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nobel%20Prize%20Museum&query_place_id=ChIJdXEWYuJ3X0YRbNDHjPig9V4",
+      "googleMapsUrl": "https://maps.google.com/?cid=6842552198233575532",
       "placeId": "ChIJdXEWYuJ3X0YRbNDHjPig9V4",
       "coordinates": {
         "lat": 59.3253103,
@@ -94,7 +94,7 @@
       "description": "Das imposante Rathaus am Mälaren ist nur per Führung zugänglich. Die Goldene Halle mit 18 Millionen Mosaiksteinchen und der Blaue Saal — Schauplatz des jährlichen Nobelpreis-Banketts — sind atemberaubend. Turmbesteigung ab Mai möglich.",
       "duration": "1-1.5h",
       "price": "ca. €12",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Stockholm%20City%20Hall&query_place_id=ChIJ6c2SkN93X0YRwJQTkQ3Jr64",
+      "googleMapsUrl": "https://maps.google.com/?cid=12587500543629563072",
       "placeId": "ChIJ6c2SkN93X0YRwJQTkQ3Jr64",
       "coordinates": {
         "lat": 59.327789,
@@ -111,7 +111,7 @@
       "priceRange": "€€",
       "description": "Legendäre Stockholmer Bierhalle seit 1733 im Stadtteil Södermalm — hohe Decken, Holzvertäfelung und klassische Husmanskost.",
       "mustTry": "Köttbullar med lingon oder SOS (Smör, Ost, Sill)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Pelikan&query_place_id=ChIJrSV1Pfd3X0YRxwhoxSQ-Cug",
+      "googleMapsUrl": "https://maps.google.com/?cid=16720244894218062023",
       "placeId": "ChIJrSV1Pfd3X0YRxwhoxSQ-Cug",
       "coordinates": {
         "lat": 59.3105951,
@@ -126,7 +126,7 @@
       "priceRange": "€€",
       "description": "Seit 1908 Södermalms Institution für klassische schwedische Hausmannskost. Legendäre Köttbullar (Fleischbällchen) mit Preiselbeeren, Wasser und Kaffee inklusive — wie bei Großmutter.",
       "mustTry": "Köttbullar med lingon (Fleischbällchen mit Preiselbeeren)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurang%20Kvarnen&query_place_id=ChIJa14naPp3X0YRmkZmDwg0-5s",
+      "googleMapsUrl": "https://maps.google.com/?cid=11239634504255948442",
       "placeId": "ChIJa14naPp3X0YRmkZmDwg0-5s",
       "coordinates": {
         "lat": 59.3147831,
@@ -175,7 +175,7 @@
       "priceRange": "80-150€",
       "evCharging": true,
       "description": "Übernachten in Schwedens berühmtestem Gefängnis — die ehemaligen Zellen sind heute komfortable Hotelzimmer. Gefängnismuseum im Haus, Bar 'Finkan' (schwedischer Slang für Knast), 3 E-Ladestationen und kostenloser Parkplatz.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=L%C3%A5ngholmen%20Hotel%20Stockholm&query_place_id=ChIJL7Eg29F3X0YRtYAR-70zV7o",
+      "googleMapsUrl": "https://maps.google.com/?cid=13427257705082486965",
       "placeId": "ChIJL7Eg29F3X0YRtYAR-70zV7o",
       "coordinates": {
         "lat": 59.3212521,
@@ -190,7 +190,7 @@
       "priceRange": "160-220€",
       "evCharging": false,
       "description": "Von ABBA-Mitglied Benny Andersson geführtes Boutique-Hotel im Herzen von Södermalm. Theater-Restaurant, Cocktailbar und echtes Stockholmer Nachtleben-Feeling.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Rival&query_place_id=ChIJmyzqNeR3X0YRfhATfm0KISQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=2603373524979748990",
       "placeId": "ChIJmyzqNeR3X0YRfhATfm0KISQ",
       "coordinates": {
         "lat": 59.3181838,
@@ -214,7 +214,7 @@
     {
       "name": "Tjoget",
       "description": "Platz 36 der World's 50 Best Bars — Nachbarschaftsrestaurant mit Weltklasse-Bar in Hornstull. Wein, Cocktails und Craft Beer unter einem Dach, entspannte Södermalm-Atmosphäre.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Tjoget&query_place_id=ChIJrZBLWMR3X0YR-K4amPgKyas",
+      "googleMapsUrl": "https://maps.google.com/?cid=12378437113624571640",
       "placeId": "ChIJrZBLWMR3X0YR-K4amPgKyas",
       "coordinates": {
         "lat": 59.3162112,
@@ -226,7 +226,7 @@
     {
       "name": "Mosebacke Terrassen",
       "description": "Legendäre Sommerterrasse mit Panoramablick über die Altstadt. Öffnet im Frühling — in unserem Mai-Reisefenster perfekt für einen Sundowner mit Aussicht.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mosebacketerrassen&query_place_id=ChIJRZYadlZ3X0YREnx9XvTFzxk",
+      "googleMapsUrl": "https://maps.google.com/?cid=1859922824475278354",
       "placeId": "ChIJRZYadlZ3X0YREnx9XvTFzxk",
       "coordinates": {
         "lat": 59.318476,

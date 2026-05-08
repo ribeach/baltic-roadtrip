@@ -16,7 +16,7 @@
       "description": "Das Wahrzeichen des Seebads Warnemünde — der 1898 erbaute Leuchtturm bietet nach 135 Stufen einen fantastischen Rundblick über Ostsee und Hafen.",
       "duration": "30min",
       "price": "ca. €3",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Warnem%C3%BCnde%20lighthouse&query_place_id=ChIJnXIXxqH4rEcR0eqDTHcAaP4",
+      "googleMapsUrl": "https://maps.google.com/?cid=18331902795596425937",
       "placeId": "ChIJnXIXxqH4rEcR0eqDTHcAaP4",
       "coordinates": {
         "lat": 54.181421099999994,
@@ -32,7 +32,7 @@
       "description": "Architektonische Ikone von 1968 — die geschwungene Hyparschalen-Konstruktion direkt neben dem Leuchtturm ist ein Paradebeispiel der DDR-Moderne. Heute beherbergt der Teepott mehrere Restaurants.",
       "duration": "30min",
       "price": "Kostenlos (Außenbesichtigung)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Teepott%20Warnem%C3%BCnde&query_place_id=ChIJDcZOx6H4rEcRsB8-NXbj63U",
+      "googleMapsUrl": "https://maps.google.com/?cid=8497135218803482544",
       "placeId": "ChIJDcZOx6H4rEcRsB8-NXbj63U",
       "coordinates": {
         "lat": 54.181690599999996,
@@ -48,7 +48,7 @@
       "description": "Norddeutschlands größtes Museum für zeitgenössische Kunst — perfekte Schlechtwetter-Alternative mit wechselnden Ausstellungen.",
       "duration": "1-2h",
       "price": "ca. €8",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Rostock%20Art%20Gallery&query_place_id=ChIJ5_fO7ihXrEcR3pqglDqm_v8",
+      "googleMapsUrl": "https://maps.google.com/?cid=18446363894287997662",
       "placeId": "ChIJ5_fO7ihXrEcR3pqglDqm_v8",
       "coordinates": {
         "lat": 54.0986031,
@@ -65,7 +65,7 @@
       "priceRange": "€€",
       "description": "Uriges Brauhaus in der Rostocker Altstadt mit hauseigenem Bier und deftiger norddeutscher Küche. Gemütliche Atmosphäre nach einem Tag am Meer.",
       "mustTry": "Frischer Ostseefisch mit hausgebrautem Bier",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Braugasthaus%20Zum%20alten%20Fritz&query_place_id=ChIJp6Yl3lFXrEcRmrMHtROMARE",
+      "googleMapsUrl": "https://maps.google.com/?cid=1225414589890933658",
       "placeId": "ChIJp6Yl3lFXrEcRmrMHtROMARE",
       "coordinates": {
         "lat": 54.0921417,
@@ -82,7 +82,7 @@
       "priceRange": "120-200€",
       "evCharging": false,
       "description": "Ikonisches Beachfront-Hotel in Warnemünde mit direktem Meerblick und Spa-Bereich. Das markante Hochhaus aus den 1970er-Jahren ist selbst ein Stück DDR-Architekturgeschichte.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Neptun&query_place_id=ChIJl25AJVJXrEcR-HRQcpbLvS8",
+      "googleMapsUrl": "https://maps.google.com/?cid=3440129537404335352",
       "placeId": "ChIJl25AJVJXrEcR-HRQcpbLvS8",
       "coordinates": {
         "lat": 54.178979999999996,

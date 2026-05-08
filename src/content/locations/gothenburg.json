@@ -16,7 +16,7 @@
       "description": "Göteborgs besterhaltenes Viertel mit Holzhäusern aus dem 17. Jahrhundert, legendären Zimtschnecken (so groß wie ein Teller), gemütlichen Cafés und kleinen Boutiquen. Die Haga Nygata ist die Hauptstraße zum Flanieren.",
       "duration": "1-2h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Haga&query_place_id=ChIJB_eTm2vzT0YR60eTfh0lMiQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=2608187942808799211",
       "placeId": "ChIJB_eTm2vzT0YR60eTfh0lMiQ",
       "coordinates": {
         "lat": 57.698553000000004,
@@ -30,7 +30,7 @@
       "description": "Wahrzeichen von 1874 im Stil einer Stabkirche — Göteborgs ikonische Fischhalle wurde 2024 nach vierjähriger Renovierung wiedereröffnet. Drei Restaurants und eine 28 Meter lange Fischtheke mit den besten Meeresfrüchten der Westküste.",
       "duration": "1-2h",
       "price": "Kostenlos (Eintritt)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Feskek%C3%B6rka&query_place_id=ChIJ16JcrWnzT0YRFDeNKgFBHhI",
+      "googleMapsUrl": "https://maps.google.com/?cid=1305552415248693012",
       "placeId": "ChIJ16JcrWnzT0YRFDeNKgFBHhI",
       "coordinates": {
         "lat": 57.7010542,
@@ -47,7 +47,7 @@
       "priceRange": "€€-€€€",
       "description": "Moderne Brasserie mit saisonaler schwedischer Küche in stilvollem Ambiente. Die Terrasse ist im Sommer ein Hotspot — serviert werden kreative Gerichte mit Fokus auf Westküsten-Zutaten.",
       "mustTry": "Saisonale schwedische Meeresfrüchte",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Familjen&query_place_id=ChIJ_cKfbnHzT0YRQsIyJ3paSeE",
+      "googleMapsUrl": "https://maps.google.com/?cid=16233605812523811394",
       "placeId": "ChIJ_cKfbnHzT0YRQsIyJ3paSeE",
       "coordinates": {
         "lat": 57.69756369999999,
@@ -64,7 +64,7 @@
       "priceRange": "130-200€",
       "evCharging": false,
       "description": "Pariser Eleganz an der Avenyn — opulente Interieurs mit Samt, Marmor und Kronleuchtern, Dachterrasse mit Stadtblick und eine theatralische Atmosphäre, die an ein französisches Grandhotel erinnert.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Pigalle&query_place_id=ChIJCTJX9GTzT0YR9tPbLDpN3aI",
+      "googleMapsUrl": "https://maps.google.com/?cid=11735621116253426678",
       "placeId": "ChIJCTJX9GTzT0YR9tPbLDpN3aI",
       "coordinates": {
         "lat": 57.707057299999995,

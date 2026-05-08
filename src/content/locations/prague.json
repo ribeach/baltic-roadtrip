@@ -134,7 +134,7 @@
       "googleMapsUrl": "https://maps.google.com/?cid=7922229676285648697",
       "placeId": "ChIJ6b6z1OaUC0cROV8QtOpp8W0",
       "coordinates": {
-        "lat": 50.0904030,
+        "lat": 50.090403,
         "lng": 14.4078806
       },
       "rating": 4.8,
@@ -213,8 +213,8 @@
       "googleMapsUrl": "https://maps.google.com/?cid=8374228555743226964",
       "placeId": "ChIJfTJOb-OUC0cRVOwBvYA8N3Q",
       "coordinates": {
-        "lat": 50.0847610,
-        "lng": 14.4057350
+        "lat": 50.084761,
+        "lng": 14.405735
       },
       "rating": 4.7,
       "userRatingCount": 1818
@@ -229,8 +229,8 @@
       "googleMapsUrl": "https://maps.google.com/?cid=17265092997640151146",
       "placeId": "ChIJxyKFfMKUC0cRauBsYpvume8",
       "coordinates": {
-        "lat": 50.0918240,
-        "lng": 14.4220600
+        "lat": 50.091824,
+        "lng": 14.42206
       },
       "rating": 4.6,
       "userRatingCount": 2100
@@ -341,7 +341,7 @@
     {
       "name": "Bunkr Parukářka",
       "description": "Echter Kalter-Krieg-Atombunker unter dem Parukářka-Park — massiver Schutzraum aus den 1950er-Jahren, heute Veranstaltungsort für Partys und kulturelle Events. Schwere Stahltüren, Dekontaminationsduschen und Kommunikationsausrüstung sind erhalten. Ein düster-faszinierendes Erlebnis.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nuclear%20Bunker&query_place_id=ChIJlYevlJuTC0cRBR5RKX6Vj1s",
+      "googleMapsUrl": "https://maps.google.com/?cid=6597656348212665861",
       "placeId": "ChIJlYevlJuTC0cRBR5RKX6Vj1s",
       "coordinates": {
         "lat": 50.0842732,
@@ -353,7 +353,7 @@
     {
       "name": "Anonymous Bar",
       "description": "Speakeasy-Bar im Vinohrady-Viertel — die Cocktailkarte ist ein Rorschach-Test und die Barkeeper spielen 'Therapeuten'. UV-Licht enthüllt die geheime Karte. Kreative Drinks in verwunschenem Ambiente.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Anonymous%20Bar&query_place_id=ChIJMfepuO6UC0cRyCS058Lx7GI",
+      "googleMapsUrl": "https://maps.google.com/?cid=7128338129633944776",
       "placeId": "ChIJMfepuO6UC0cRyCS058Lx7GI",
       "coordinates": {
         "lat": 50.085353,
