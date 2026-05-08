@@ -18,10 +18,10 @@
       "description": "Die 1214 gegründete Burg des Livländischen Ordens gehört zu den am besten erhaltenen mittelalterlichen Burgruinen Lettlands. Der Clou: Besucher bekommen am Eingang eine echte Kerzenlaterne und erkunden die unbeleuchteten Innenräume, Treppentürme und Verliese eigenhändig im flackernden Licht. Atmosphärisch unvergleichlich — vor allem morgens, wenn man die Burg fast für sich hat.",
       "duration": "1,5–2 Std.",
       "price": "~€10",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C4%93sis%20Castle&query_place_id=ChIJJ9l5X4_h60YRmf0SBG57hFQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=6090128308556725657",
       "placeId": "ChIJJ9l5X4_h60YRmf0SBG57hFQ",
       "coordinates": {
-        "lat": 57.3131710,
+        "lat": 57.313171,
         "lng": 25.2715356
       },
       "rating": 4.8,
@@ -34,11 +34,11 @@
       "description": "Auf einer Insel im Āraiši-See steht die einzige in Europa rekonstruierte lettgallische Pfahlbau-Festung aus dem 9.–10. Jahrhundert — Holzhäuser auf Eichenpfählen, mit einer schmalen Brücke vom Ufer aus erreichbar. Ein begehbares Open-Air-Archäologisches Museum und ein nahezu meditativer Ort am späten Nachmittag, kurz bevor die Sonne hinter den Birken untergeht. ~15 km südwestlich von Cēsis, direkt auf der Strecke vom Bunker.",
       "duration": "1 Std.",
       "price": "~€4",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C4%80rai%C5%A1u%20Lake%20Dwelling%20Site&query_place_id=ChIJ7T8K0NTd60YRSF7hJiUBs1Q",
-      "placeId": "ChIJ7T8K0NTd60YRSF7hJiUBs1Q",
+      "googleMapsUrl": "https://maps.google.com/?cid=3497559044423683435",
+      "placeId": "ChIJ48zVXnVf6UYRaw3Uh2vTiTA",
       "coordinates": {
-        "lat": 57.2522,
-        "lng": 25.2746
+        "lat": 57.249840999999996,
+        "lng": 25.280571
       },
       "rating": 4.7,
       "userRatingCount": 980
@@ -50,11 +50,11 @@
       "description": "Kompakte, lebendige Hansestadt-Altstadt mit Pflasterstein-Gassen, der mittelalterlichen Johanniskirche und einem überraschend gut sortierten Wochenmarkt. In 60 Minuten gut zu Fuß zu schaffen, ideal als Sonntag-Vormittag-Aufwärmer vor der Grenzfahrt nach Estland.",
       "duration": "1 Std.",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C4%93sis%20Old%20Town&query_place_id=ChIJq2u4iY7h60YRsAcKuwzCAAQ",
-      "placeId": "ChIJq2u4iY7h60YRsAcKuwzCAAQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=6090128308556725657",
+      "placeId": "ChIJJ9l5X4_h60YRmf0SBG57hFQ",
       "coordinates": {
-        "lat": 57.3132,
-        "lng": 25.2727
+        "lat": 57.313171000000004,
+        "lng": 25.2715356
       },
       "rating": 4.6,
       "userRatingCount": 412
@@ -68,11 +68,11 @@
       "isSplurge": true,
       "description": "Das beste Restaurant im Gauja-Tal — vom Michelin-Guide 2026 mit dem Bib Gourmand ausgezeichnet. Chef Jānis Vanadziņš kocht moderne nordisch-lettische Küche mit Zutaten aus dem Wald, dem Garten und vom Bauern um die Ecke. Klein, ruhig, hochkonzentriert. Reservierung essenziell.",
       "mustTry": "Saisonales Tasting-Menü mit lettischen Wildkräutern und Gauja-Forelle",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=H.E.%20Vanadzi%C5%86%C5%A1%20C%C4%93sis&query_place_id=ChIJg7P3SYzh60YRA4RuS8WRSeM",
-      "placeId": "ChIJg7P3SYzh60YRA4RuS8WRSeM",
+      "googleMapsUrl": "https://maps.google.com/?cid=17339372574154319485",
+      "placeId": "ChIJBzyWT3_h60YRfWae_nzTofA",
       "coordinates": {
-        "lat": 57.3128,
-        "lng": 25.2701
+        "lat": 57.311704000000006,
+        "lng": 25.2726093
       },
       "rating": 4.8,
       "userRatingCount": 387
@@ -83,11 +83,11 @@
       "priceRange": "€-€€",
       "description": "Lebendiges Café in der Altstadt mit lokalem Sauerteigbrot, hausgemachtem Granola und einem starken Espresso aus Rigaer Röstung. Idealer Sonntag-Brunch-Stop vor der langen Fahrt nach Tartu.",
       "mustTry": "Avocadobrot mit pochiertem Ei und Cēsis-Honig",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Popular%20Cesis&query_place_id=ChIJzdt-pIvh60YRplBQE4kmMc8",
-      "placeId": "ChIJzdt-pIvh60YRplBQE4kmMc8",
+      "googleMapsUrl": "https://maps.google.com/?cid=6620676943706049010",
+      "placeId": "ChIJwYKD2PXh60YR8sk3Oppe4Vs",
       "coordinates": {
-        "lat": 57.3134,
-        "lng": 25.2705
+        "lat": 57.3140156,
+        "lng": 25.274543299999998
       },
       "rating": 4.6,
       "userRatingCount": 521
@@ -100,7 +100,7 @@
       "priceRange": "140-220€",
       "evCharging": false,
       "description": "Elegantes Boutique-Landhaus außerhalb der Altstadt mit liebevoll eingerichteten Zimmern und einem hervorragenden Restaurant. Falls die Apartment-Option nicht verfügbar ist, lassen sich hier zwei Zimmer separat buchen.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Villa%20Santa%20Hotel&query_place_id=ChIJLUz3nD3i60YRWMoosfPc3i0",
+      "googleMapsUrl": "https://maps.google.com/?cid=3305322115743926872",
       "placeId": "ChIJLUz3nD3i60YRWMoosfPc3i0",
       "coordinates": {
         "lat": 57.3112587,
@@ -120,11 +120,12 @@
       "source": "Booking.com",
       "rating": 4.95,
       "bookingUrl": "https://www.booking.com/searchresults.html?ss=Cesis+apartment+2+bedrooms&checkin=2026-05-09&checkout=2026-05-10",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=C%C4%93sis%20Concert%20Hall%20Apartment&query_place_id=ChIJq2u4iY7h60YRsAcKuwzCAAQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=18419531540539182724",
       "coordinates": {
-        "lat": 57.3128,
-        "lng": 25.2718
-      }
+        "lat": 57.31335449999999,
+        "lng": 25.276971999999997
+      },
+      "placeId": "ChIJMa_HnYXh60YRhA7xYlhSn_8"
     },
     {
       "name": "Cēsis Old Town 2BR Apartment",
@@ -135,8 +136,8 @@
       "source": "Booking.com",
       "bookingUrl": "https://www.booking.com/searchresults.html?ss=Cesis+old+town+2+bedroom&checkin=2026-05-09&checkout=2026-05-10",
       "coordinates": {
-        "lat": 57.3140,
-        "lng": 25.2700
+        "lat": 57.314,
+        "lng": 25.27
       }
     }
   ],

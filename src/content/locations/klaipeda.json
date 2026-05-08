@@ -16,7 +16,7 @@
       "description": "Das kleinste historische Zentrum der baltischen Städte hat seinen deutschen Fachwerk-Charakter bewahrt. Kopfsteinpflaster, Skulpturen an jeder Ecke und das Theater am Theaterplatz, wo 1939 Hitler die Rückgabe Memels verkündete.",
       "duration": "1-1.5h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Theatre%20Square%20Klaipeda&query_place_id=ChIJ99tTW_Db5EYRTniIeJMoqRs",
+      "googleMapsUrl": "https://maps.google.com/?cid=1993168923935668302",
       "placeId": "ChIJ99tTW_Db5EYRTniIeJMoqRs",
       "coordinates": {
         "lat": 55.705311599999995,
@@ -32,7 +32,7 @@
       "description": "Die Smiltynė-Fähre bringt uns in nur 10 Minuten auf die Kurische Nehrung. Fähren verkehren alle 20-30 Minuten, das Auto fährt mit.",
       "duration": "10min Überfahrt",
       "price": "~€18 Hin+Rück (Auto + 2 Personen)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=New%20Ferry%20Terminal%2C%20Smiltyn%C4%97&query_place_id=ChIJHZqfFHjc5EYRQbu_MHuS-dA",
+      "googleMapsUrl": "https://maps.google.com/?cid=15058227886886468417",
       "placeId": "ChIJHZqfFHjc5EYRQbu_MHuS-dA",
       "coordinates": {
         "lat": 55.685664599999996,
@@ -48,7 +48,7 @@
       "description": "Das Meeresmuseum in einer alten Festung auf der Nehrungsseite bietet Aquarien und Delfin-Shows. Besonders lohnenswert, wenn man Kinder dabeihat.",
       "duration": "2h",
       "price": "€10-12",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lithuanian%20Sea%20Museum&query_place_id=ChIJPwdPNdvb5EYRdbTqTfouGxI",
+      "googleMapsUrl": "https://maps.google.com/?cid=1304688169637819509",
       "placeId": "ChIJPwdPNdvb5EYRdbTqTfouGxI",
       "coordinates": {
         "lat": 55.716667699999995,
@@ -64,7 +64,7 @@
       "description": "Freiluft-Skulpturenpark mit über 100 Werken litauischer Künstler auf 12 Hektar — nahe der Fähranlegestelle auf der Nehrungsseite. Gut kombinierbar mit dem Meeresmuseum.",
       "duration": "1 Std.",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Klaip%C4%97da%20Sculpture%20Park&query_place_id=ChIJx9yc_fzb5EYRhxK1AfWrNwY",
+      "googleMapsUrl": "https://maps.google.com/?cid=448015756730634887",
       "placeId": "ChIJx9yc_fzb5EYRhxK1AfWrNwY",
       "coordinates": {
         "lat": 55.717338,
@@ -80,7 +80,7 @@
       "description": "Litauens älteste Brauerei (gegründet 1784) — Führungen und Verkostungen in der historischen Produktionsstätte. Das Švyturys Ekstra ist ein Klassiker.",
       "duration": "1-1.5h",
       "price": "Führung ca. €10",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C5%A0vyturys%20Brewery&query_place_id=ChIJXZ-lXqPb5EYRL4RA23eA3R0",
+      "googleMapsUrl": "https://maps.google.com/?cid=2152017449220867119",
       "placeId": "ChIJXZ-lXqPb5EYRL4RA23eA3R0",
       "coordinates": {
         "lat": 55.707033599999995,
@@ -97,7 +97,7 @@
       "priceRange": "€€",
       "description": "In einer historischen Passage serviert dieses stilvolle Restaurant moderne litauische Küche mit saisonalen Zutaten. Eine der besten Adressen der Stadt.",
       "mustTry": "Frischer Ostseefisch — je nach Tagesfang",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Friedricho%20pasa%C5%BEas&query_place_id=ChIJG3kPOvfb5EYRTbn-FwMUX8M",
+      "googleMapsUrl": "https://maps.google.com/?cid=14077992963703486797",
       "placeId": "ChIJG3kPOvfb5EYRTbn-FwMUX8M",
       "coordinates": {
         "lat": 55.706980699999995,
@@ -112,7 +112,7 @@
       "priceRange": "€",
       "description": "Gemütliche Craft-Beer-Bar im Herzen der Altstadt mit einer guten Auswahl litauischer Mikrobrauereien und solider Pub-Küche.",
       "mustTry": "Lokales Craft Beer — die litauische Bierszene ist unterschätzt",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Memelio%20maistas&query_place_id=ChIJ3dXwfmXc5EYRCUt6cvdPVHs",
+      "googleMapsUrl": "https://maps.google.com/?cid=8886815888904964873",
       "placeId": "ChIJ3dXwfmXc5EYRCUt6cvdPVHs",
       "coordinates": {
         "lat": 55.683450099999995,
@@ -128,7 +128,7 @@
       "isSplurge": true,
       "description": "Zwei Jahre in Folge im Michelin Guide — offene Küche mit raffinierten Gerichten aus frischem Ostseefisch und hyperregionalen Zutaten. Eines der besten Restaurants im Baltikum.",
       "mustTry": "Degustationsmenü mit Ostseefisch",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=monai&query_place_id=ChIJg496xvrb5EYRB1Mj7CjhU_E",
+      "googleMapsUrl": "https://maps.google.com/?cid=17389490152084296455",
       "placeId": "ChIJg496xvrb5EYRB1Mj7CjhU_E",
       "coordinates": {
         "lat": 55.711715005,
@@ -145,7 +145,7 @@
       "priceRange": "80-120€",
       "evCharging": false,
       "description": "Zentral gelegenes Hotel direkt am Fluss mit modernen Zimmern und gutem Frühstück. Separate Zimmer buchbar. Perfekte Basis für den Abend vor der Nehrung.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Amberton%20Hotel%20Klaip%C4%97da&query_place_id=ChIJBTWSUuXb5EYRfID8wMj5KDo",
+      "googleMapsUrl": "https://maps.google.com/?cid=4190874093894795388",
       "placeId": "ChIJBTWSUuXb5EYRfID8wMj5KDo",
       "coordinates": {
         "lat": 55.7105937,

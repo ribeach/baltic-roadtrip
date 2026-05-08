@@ -68,14 +68,10 @@ async function lookupPlace(query) {
   return {
     placeId: place.id,
     displayName: place.displayName?.text || query,
+    googleMapsUri: place.googleMapsUri,
     lat: place.location?.latitude,
     lng: place.location?.longitude,
   };
-}
-
-function buildSmartUrl(displayName, placeId) {
-  const encodedName = encodeURIComponent(displayName);
-  return `https://www.google.com/maps/search/?api=1&query=${encodedName}&query_place_id=${placeId}`;
 }
 
 function extractQuery(url) {
@@ -128,13 +124,18 @@ async function main() {
         continue;
       }
 
-      const newUrl = buildSmartUrl(result.displayName, result.placeId);
+      if (!result.googleMapsUri) {
+        console.log(`  ⚠️  [${count}/${allUrls.size}] No googleMapsUri for: ${query}`);
+        failures.push({ url, query, reason: 'no googleMapsUri' });
+        continue;
+      }
+
       mapping.set(url, {
         placeId: result.placeId,
         displayName: result.displayName,
         lat: result.lat,
         lng: result.lng,
-        newUrl,
+        newUrl: result.googleMapsUri,
       });
 
       console.log(`  ✅ [${count}/${allUrls.size}] "${query}" → ${result.displayName} (${result.placeId})`);

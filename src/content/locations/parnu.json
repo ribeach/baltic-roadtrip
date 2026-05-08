@@ -16,7 +16,7 @@
       "description": "Über 2 Kilometer lange Promenade durch das Kurviertel aus der russischen Zarenzeit mit weißem Sandstrand, historischen Holzvillen und gepflegten Parkanlagen. Der breite, flach abfallende Strand gehört zu den schönsten an der Ostsee.",
       "duration": "1-2h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C3%A4rnu%20Beach&query_place_id=ChIJXduDxRr97EYRYGXoH5u31v0",
+      "googleMapsUrl": "https://maps.google.com/?cid=18291008813494986080",
       "placeId": "ChIJXduDxRr97EYRYGXoH5u31v0",
       "coordinates": {
         "lat": 58.3720152,
@@ -32,7 +32,7 @@
       "description": "Außergewöhnliches Jugendstil-Meisterwerk von 1905 — erbaut als Privatvilla, später Casino, sowjetische Zahnklinik und Bibliothek, bevor es liebevoll restauriert wurde. Auch wer hier nicht übernachtet, sollte die prachtvolle Fassade und den Garten besichtigen.",
       "duration": "30-60min",
       "price": "Kostenlos (Besichtigung außen)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Villa%20Ammende%20Restoran%20ja%20Hotell&query_place_id=ChIJs5WRJfD97EYRN1gp4UoH3ew",
+      "googleMapsUrl": "https://maps.google.com/?cid=17067806180990605367",
       "placeId": "ChIJs5WRJfD97EYRN1gp4UoH3ew",
       "coordinates": {
         "lat": 58.3805696,
@@ -48,7 +48,7 @@
       "description": "Kompakte Altstadt mit dem Roten Turm (letzter Rest der mittelalterlichen Stadtmauer), dem Tallinner Tor (barockes Stadttor von 1710) und der Elisabethkirche (1747). Ein gemütlicher Rundgang verbindet alle Sehenswürdigkeiten.",
       "duration": "1h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Town%20Hall&query_place_id=ChIJMf6WZz397EYRw62UMm5IALo",
+      "googleMapsUrl": "https://maps.google.com/?cid=13402792129186803139",
       "placeId": "ChIJMf6WZz397EYRw62UMm5IALo",
       "coordinates": {
         "lat": 58.3854602,
@@ -65,7 +65,7 @@
       "priceRange": "€€",
       "description": "Beliebte lokale Institution in einem 150 Jahre alten Holzblockhaus mit bohèmem Interieur — Vintage-Möbel, Bücherregale und Kerzenlicht. Die Küche setzt auf regionale estnische Wohlfühlgerichte mit saisonalen Zutaten von lokalen Bauernhöfen.",
       "mustTry": "Saisonale estnische Gerichte mit lokalen Zutaten",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Supelsaksad%20P%C3%A4rnu&query_place_id=ChIJlXxEpBn97EYRNGdhy--6xT0",
+      "googleMapsUrl": "https://maps.google.com/?cid=4451169345797711668",
       "placeId": "ChIJlXxEpBn97EYRNGdhy--6xT0",
       "coordinates": {
         "lat": 58.3803825,
@@ -80,7 +80,7 @@
       "priceRange": "€€-€€€",
       "description": "Fine-Dining-Option im Hedon-Komplex direkt am Strand. Die Küche kombiniert gesammelte Zutaten aus den Soomaa-Wäldern mit frischem Ostseefisch — kreative nordische Gerichte in elegantem Ambiente mit Meerblick.",
       "mustTry": "Frischer Ostseefisch mit saisonaler Beilage",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restoran%20Raimond&query_place_id=ChIJnyRU7hr97EYRu7f2JueYObM",
+      "googleMapsUrl": "https://maps.google.com/?cid=12914521525020178363",
       "placeId": "ChIJnyRU7hr97EYRu7f2JueYObM",
       "coordinates": {
         "lat": 58.3755639,
@@ -97,7 +97,7 @@
       "priceRange": "90-200€",
       "evCharging": true,
       "description": "Übernachten in einem der schönsten Jugendstilgebäude des Baltikums — 5 individuell gestaltete Zimmer mit Originaldetails und Stilmöbeln. Kostenlose EV-Ladestation, Gartenrestaurant und eine Atmosphäre wie aus einem Wes-Anderson-Film.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Villa%20Ammende%20Restoran%20ja%20Hotell&query_place_id=ChIJs5WRJfD97EYRN1gp4UoH3ew",
+      "googleMapsUrl": "https://maps.google.com/?cid=17067806180990605367",
       "placeId": "ChIJs5WRJfD97EYRN1gp4UoH3ew",
       "coordinates": {
         "lat": 58.3805696,
@@ -112,7 +112,7 @@
       "priceRange": "100-180€",
       "evCharging": false,
       "description": "Klassisches Pärnu-Spa-Erlebnis im historischen neoklassizistischen Moorbad-Gebäude. Umfangreiches Wellness-Angebot mit buchbaren Spa-Paketen, Schwimmbad und Saunalandschaft — ideal nach einem langen Fahrtag.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hedon%20SPA%20%26%20HOTEL&query_place_id=ChIJvw_P8Rr97EYRiydXj6-GQgk",
+      "googleMapsUrl": "https://maps.google.com/?cid=667243783386507147",
       "placeId": "ChIJvw_P8Rr97EYRiydXj6-GQgk",
       "coordinates": {
         "lat": 58.3758583,
@@ -127,7 +127,7 @@
       "priceRange": "80-120€",
       "evCharging": false,
       "description": "Designorientiertes Kleinhotel in einem renovierten historischen Gebäude mitten in der Altstadt. Modernes, skandinavisch-minimalistisches Interieur und ein hauseigenes Restaurant mit saisonaler Karte.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Frost%20Boutique%20Hotel&query_place_id=ChIJkcGR7hf97EYRIBwMElx2LHo",
+      "googleMapsUrl": "https://maps.google.com/?cid=8803541509414329376",
       "placeId": "ChIJkcGR7hf97EYRIBwMElx2LHo",
       "coordinates": {
         "lat": 58.3837357,

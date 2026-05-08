@@ -16,7 +16,7 @@
       "description": "Die von Wasser umgebene Altstadtinsel beeindruckt mit ihrer geschlossenen Backsteinarchitektur aus der Hansezeit. Sieben Kirchtürme prägen die Silhouette — ein perfektes Postkartenmotiv.",
       "duration": "1.5-2h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=L%C3%BCbecker%20Altstadt&query_place_id=ChIJC48H7lkJskcRoOhXxmOJJAU",
+      "googleMapsUrl": "https://maps.google.com/?cid=370572130973640864",
       "placeId": "ChIJC48H7lkJskcRoOhXxmOJJAU",
       "coordinates": {
         "lat": 53.867646099999995,
@@ -30,7 +30,7 @@
       "description": "Das schiefe Stadttor von 1478 ist Lübecks Wahrzeichen und eines der bekanntesten Bauwerke Norddeutschlands. Im Inneren befindet sich ein Museum zur Hansegeschichte.",
       "duration": "30-45min",
       "price": "€8 (Museum)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Museum%20Holstentor&query_place_id=ChIJrS2izlYJskcRCN7u5pIYUOo",
+      "googleMapsUrl": "https://maps.google.com/?cid=16884022022230695432",
       "placeId": "ChIJrS2izlYJskcRCN7u5pIYUOo",
       "coordinates": {
         "lat": 53.866140699999995,
@@ -46,7 +46,7 @@
       "description": "Die Uferpromenade an der Obertrave mit ihren historischen Salzspeichern und dem Blick auf die beleuchtete Altstadt ist der perfekte Ausklang eines langen Reisetags.",
       "duration": "30-60min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=An%20der%20Obertrave&query_place_id=ChIJCyBu7VAJskcRuRasjgYNFLc",
+      "googleMapsUrl": "https://maps.google.com/?cid=13192183530289632953",
       "placeId": "ChIJCyBu7VAJskcRuRasjgYNFLc",
       "coordinates": {
         "lat": 53.863692,
@@ -60,7 +60,7 @@
       "description": "Eines der besten Hanseatischen Geschichtsmuseen der Welt — immersive Multimedia-Ausstellung erzählt die gesamte Geschichte der Hanse. 2015 eröffnet und preisgekrönt.",
       "duration": "2-3h",
       "price": "ca. €15",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=European%20Hansemuseum&query_place_id=ChIJMzCT6VcJskcR9GYxaQ7gmww",
+      "googleMapsUrl": "https://maps.google.com/?cid=908566102344296180",
       "placeId": "ChIJMzCT6VcJskcR9GYxaQ7gmww",
       "coordinates": {
         "lat": 53.8741412,
@@ -76,7 +76,7 @@
       "description": "Institution seit 1806 — das kostenlose Marzipan-Museum im Obergeschoss zeigt lebensgroße Marzipan-Figuren. Lübecker Marzipan hat EU-geschützten Herkunftsstatus wie Champagner.",
       "duration": "30-60min",
       "price": "Museum kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Niederegger%20-%20arcades%20Cafe&query_place_id=ChIJU8HM5lkJskcRj1xyKlVhF8Y",
+      "googleMapsUrl": "https://maps.google.com/?cid=14273984562386328719",
       "placeId": "ChIJU8HM5lkJskcRj1xyKlVhF8Y",
       "coordinates": {
         "lat": 53.866588,
@@ -93,7 +93,7 @@
       "priceRange": "€€",
       "description": "Lübecks traditionsreichstes Restaurant in der ehemaligen Seefahrer-Gilde seit 1535. Unter Schiffsmodellen und maritimen Artefakten gibt es norddeutsche Klassiker in einzigartiger Atmosphäre.",
       "mustTry": "Lübecker Pannfisch oder Labskaus — hanseatische Hafenküche vom Feinsten",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Schiffergesellschaft&query_place_id=ChIJLbw8o-ILskcRXGv7QbghQq8",
+      "googleMapsUrl": "https://maps.google.com/?cid=12628693380364987228",
       "placeId": "ChIJLbw8o-ILskcRXGv7QbghQq8",
       "coordinates": {
         "lat": 53.8711802,
@@ -110,7 +110,7 @@
       "priceRange": "160-260€",
       "evCharging": false,
       "description": "Komfortables Hotel in bester Lage mit Blick auf die Altstadt und die Trave. Perfekt für eine Nacht, um die Rückreise aufzuteilen.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Radisson%20Blu%20Senator%20Hotel%2C%20L%C3%BCbeck&query_place_id=ChIJfwivm1YJskcRMZ1Wh7YWzcY",
+      "googleMapsUrl": "https://maps.google.com/?cid=14325130962945875249",
       "placeId": "ChIJfwivm1YJskcRMZ1Wh7YWzcY",
       "coordinates": {
         "lat": 53.867801,
@@ -125,7 +125,7 @@
       "priceRange": "130-200€",
       "evCharging": false,
       "description": "Lübecks ältestes Backsteingebäude (erstmals erwähnt 1305) — Rokoko-Wandmalereien, venezianischer Stuck und Deckenfreken mit dem Sonnengott Helios. Freistehende Badewannen und echter historischer Charme.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Anno%201216&query_place_id=ChIJ_zpC-FYJskcR7sKABDBkJ6c",
+      "googleMapsUrl": "https://maps.google.com/?cid=12044705885822436078",
       "placeId": "ChIJ_zpC-FYJskcR7sKABDBkJ6c",
       "coordinates": {
         "lat": 53.8683263,

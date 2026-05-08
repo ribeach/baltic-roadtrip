@@ -16,7 +16,7 @@
       "description": "Das historische Eisenhüttendorf aus dem 17. Jahrhundert ist heute ein lebendiges Zentrum für Kunsthandwerk und Design. Über 30 aktive Werkstätten — von Glasbläsern über Keramiker bis zu Messerschmieden — laden zum Stöbern und Zuschauen ein. Die backsteinerne Industriearchitektur am Fluss bildet eine einzigartige Kulisse.",
       "duration": "2-3h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fiskars&query_place_id=ChIJ9RWp32mujUYRweMYPFK1ACY",
+      "googleMapsUrl": "https://maps.google.com/?cid=2738387938241471425",
       "placeId": "ChIJ9RWp32mujUYRweMYPFK1ACY",
       "coordinates": {
         "lat": 60.1296265,
@@ -30,7 +30,7 @@
       "description": "Das Dorfmuseum erzählt die faszinierende Geschichte der Eisenhütte von der Gründung 1649 über die industrielle Blütezeit bis zur heutigen Transformation in eine Design-Gemeinde. Originalwerkzeuge, historische Fotografien und interaktive Ausstellungen beleuchten 375 Jahre Handwerkskultur.",
       "duration": "1h",
       "price": "ca. €8",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Fiskars%20Museum&query_place_id=ChIJ0zjU10CujUYRJcUejbbyueQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=16481471177204614437",
       "placeId": "ChIJ0zjU10CujUYRJcUejbbyueQ",
       "coordinates": {
         "lat": 60.1317482,
@@ -46,7 +46,7 @@
       "description": "Handwerklich gebrannter Gin und Aquavit aus wild gesammelten finnischen Botanicals — Wacholder, Birkenblätter und Waldbeeren aus der Umgebung. Im Taproom können Verkostungen gebucht werden, bei denen die Destillateure persönlich durch das Sortiment führen.",
       "duration": "1h",
       "price": "Verkostung ca. €15",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%C3%84gr%C3%A4s%20Taproom&query_place_id=ChIJHeLXjUGujUYRSxejgAF5938",
+      "googleMapsUrl": "https://maps.google.com/?cid=9220971809424480075",
       "placeId": "ChIJHeLXjUGujUYRSxejgAF5938",
       "coordinates": {
         "lat": 60.1309696,
@@ -63,7 +63,7 @@
       "priceRange": "€€-€€€",
       "description": "Dining in der historischen Kupferschmiede direkt am Fluss — das Flaggschiff-Restaurant von Fiskars Village. Die Küche setzt auf lokales Wild, Flussfisch und gesammelte Waldkräuter aus der Umgebung. Die Terrasse über dem Wasser ist bei gutem Wetter ein Traum.",
       "mustTry": "Saisonale finnische Wildgerichte",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Kuparipaja&query_place_id=ChIJcdar32mujUYRkBluMLa637g",
+      "googleMapsUrl": "https://maps.google.com/?cid=13321571514444552592",
       "placeId": "ChIJcdar32mujUYRkBluMLa637g",
       "coordinates": {
         "lat": 60.1274912,
@@ -78,7 +78,7 @@
       "priceRange": "€€",
       "description": "Finnlands ältester durchgehend betriebener Gasthof (seit 1836) serviert klassische nordische Küche in gemütlich-rustikaler Atmosphäre. Deftige Hausmannskost mit frischen Zutaten aus der Region — ein Stück lebendige Geschichte.",
       "mustTry": "Traditioneller finnischer Lachs",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Oy%20W%C3%A4rssy%20Ravintolat%20Ab&query_place_id=ChIJ01_X4R6ujUYRBXC0ah7YWbc",
+      "googleMapsUrl": "https://maps.google.com/?cid=13211828607018889221",
       "placeId": "ChIJ01_X4R6ujUYRBXC0ah7YWbc",
       "coordinates": {
         "lat": 60.1273221,
@@ -95,7 +95,7 @@
       "priceRange": "120-180€",
       "evCharging": true,
       "description": "24-Zimmer-Designhotel in der ehemaligen Messerwerkstatt von 1832, in der einst die berühmten Fiskars-Scheren erfunden wurden. Eingerichtet mit finnischen Designermöbeln von Nikari, dazu eine hauseigene Weinbar. 4 EV-Ladestationen auf dem Gelände.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=The%20Torby&query_place_id=ChIJ2xKZ6aivjUYRxI--HTbdNos",
+      "googleMapsUrl": "https://maps.google.com/?cid=10031448444511358916",
       "placeId": "ChIJ2xKZ6aivjUYRxI--HTbdNos",
       "coordinates": {
         "lat": 60.1276304,

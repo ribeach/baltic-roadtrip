@@ -16,7 +16,7 @@
       "description": "Die um 1280 gegründete Burg ist das größte erhaltene mittelalterliche Gebäude Finnlands. Mächtige Steinmauern, Renaissance-Säle und ein faszinierendes Historisches Museum erzählen von 750 Jahren finnischer Geschichte — von Kreuzrittern bis zu schwedischen Königen.",
       "duration": "1.5-2h",
       "price": "~15 €",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Turku%20Castle&query_place_id=ChIJ_Y5Id6Z3jEYRALVvYF0_1V4",
+      "googleMapsUrl": "https://maps.google.com/?cid=6833437679887037696",
       "placeId": "ChIJ_Y5Id6Z3jEYRALVvYF0_1V4",
       "coordinates": {
         "lat": 60.4353436,
@@ -32,7 +32,7 @@
       "description": "Finnlands bedeutendste mittelalterliche Kirche und Nationalheiligtum. Der im 13. Jahrhundert begonnene Backsteindom beherbergt beeindruckende Fresken, Königsgräber und ein kleines Kirchenmuseum. Der 101 Meter hohe Turm prägt die Skyline der Stadt.",
       "duration": "30-45min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Turku%20Cathedral&query_place_id=ChIJoZOTUeV2jEYRLnmeRZBioCE",
+      "googleMapsUrl": "https://maps.google.com/?cid=2423044971308153134",
       "placeId": "ChIJoZOTUeV2jEYRLnmeRZBioCE",
       "coordinates": {
         "lat": 60.4524802,
@@ -48,7 +48,7 @@
       "description": "Die Uferpromenade entlang des Aurajoki ist Turkus Lebensader — gesäumt von umgebauten Restaurantbooten, gemütlichen Cafés und Kulturstätten. Der Spaziergang vom Dom flussabwärts zur Burg verbindet die beiden Hauptattraktionen perfekt.",
       "duration": "1-2h",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aurajoki%20Riverside%20Turku&query_place_id=ChIJ9ywJgfx2jEYRMJHXBOT6OsM",
+      "googleMapsUrl": "https://maps.google.com/?cid=14067832243285889328",
       "placeId": "ChIJ9ywJgfx2jEYRMJHXBOT6OsM",
       "coordinates": {
         "lat": 60.4483684,
@@ -64,7 +64,7 @@
       "description": "Einzigartiges Doppelmuseum am Flussufer: Im Untergeschoss führen archäologische Ausgrabungen durch mittelalterliche Straßen und Keller, darüber zeigt Ars Nova zeitgenössische Kunst. Ein spannender Kontrast zwischen Alt und Neu.",
       "duration": "1-1.5h",
       "price": "~12 €",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aboa%20Vetus%20Ars%20Nova&query_place_id=ChIJOXoaF_t2jEYRJ-_7twWqjRU",
+      "googleMapsUrl": "https://maps.google.com/?cid=1553084388050988839",
       "placeId": "ChIJOXoaF_t2jEYRJ-_7twWqjRU",
       "coordinates": {
         "lat": 60.4496232,
@@ -80,7 +80,7 @@
       "description": "Freilichtmuseum mit über 30 original erhaltenen Handwerkerhäusern aus dem 18./19. Jahrhundert — das einzige Viertel, das den Großbrand von 1827 überstand. Lebendige Vorführungen zeigen traditionelles Handwerk von Druckerei bis Sattlerei.",
       "duration": "1-1.5h",
       "price": "~10 €",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Luostarinm%C3%A4ki%20Handicrafts%20Museum&query_place_id=ChIJDdGgUON2jEYRR3eJpVw87pQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=10731581330682378055",
       "placeId": "ChIJDdGgUON2jEYRR3eJpVw87pQ",
       "coordinates": {
         "lat": 60.4469068,
@@ -98,7 +98,7 @@
       "isSplurge": true,
       "description": "Eines der besten Restaurants Finnlands — Kaskis serviert saisonale, nordische Menüs aus lokalen Zutaten in einem minimalistisch-eleganten Ambiente. Perfekt für ein besonderes Abendessen vor der Fähre.",
       "mustTry": "Saisonales Überraschungsmenü mit finnischen Wildkräutern und Ostseefisch",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Kaskis%20Turku&query_place_id=ChIJQZaTtfx2jEYRWtEVeMZa6DA",
+      "googleMapsUrl": "https://maps.google.com/?cid=3524166516882133338",
       "placeId": "ChIJQZaTtfx2jEYRWtEVeMZa6DA",
       "coordinates": {
         "lat": 60.4466246,
@@ -113,7 +113,7 @@
       "priceRange": "€€-€€€",
       "description": "Smör (schwedisch für Butter) setzt auf hochwertige, saisonale Zutaten aus der Region Turku. Die wechselnde Karte kombiniert finnische Tradition mit modernem nordischem Einfluss. Gemütliches Ambiente in Altstadtnähe.",
       "mustTry": "Saisonaler Fisch aus dem Turku-Archipel",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Restaurant%20Sm%C3%B6r%20Turku&query_place_id=ChIJ1WF0Bft2jEYRQMb8VgPaI4U",
+      "googleMapsUrl": "https://maps.google.com/?cid=9593751339108451904",
       "placeId": "ChIJ1WF0Bft2jEYRQMb8VgPaI4U",
       "coordinates": {
         "lat": 60.4501573,
@@ -130,7 +130,7 @@
       "priceRange": "€€-€€€",
       "evCharging": true,
       "description": "Spektakuläres Designhotel in einem umgebauten Gefängnis aus dem 19. Jahrhundert auf dem Kakolanmäki-Hügel. Die ehemaligen Zellen wurden in stilvolle Zimmer verwandelt — mit Blick über die Stadt und den Fluss. E-Ladesäulen vor Ort.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Kakola%20Turku&query_place_id=ChIJrddLKeZ3jEYRRrnx8LFog5E",
+      "googleMapsUrl": "https://maps.google.com/?cid=10485339470909520198",
       "placeId": "ChIJrddLKeZ3jEYRRrnx8LFog5E",
       "coordinates": {
         "lat": 60.4446173,
@@ -145,7 +145,7 @@
       "priceRange": "€€-€€€",
       "evCharging": true,
       "description": "Direkt am Aurajoki gelegen, fußläufig zu Dom und Burg. Modernes 4-Sterne-Haus mit Flussblick. E-Laden über das Virta-Netzwerk in der Hotelgarage.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Radisson%20Blu%20Marina%20Palace%20Turku&query_place_id=ChIJX_xFZv52jEYRML_xv0JuyxU",
+      "googleMapsUrl": "https://maps.google.com/?cid=1570470128035938096",
       "placeId": "ChIJX_xFZv52jEYRML_xv0JuyxU",
       "coordinates": {
         "lat": 60.4466147,
@@ -161,7 +161,7 @@
       "isSplurge": true,
       "evCharging": false,
       "description": "Historisches Boutique-Hotel im Herzen der Stadt, mehrfach als bestes Hotel Finnlands ausgezeichnet. Individuell gestaltete Zimmer mit viel Charakter. Hauseigenes Restaurant mit finnischer Küche.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Solo%20Sokos%20Hotel%20Turun%20Seurahuone&query_place_id=ChIJPYY0yPt2jEYR2fhC31JZHKA",
+      "googleMapsUrl": "https://maps.google.com/?cid=11537194557884266713",
       "placeId": "ChIJPYY0yPt2jEYR2fhC31JZHKA",
       "coordinates": {
         "lat": 60.4490313,
@@ -205,7 +205,7 @@
     {
       "name": "Restaurant-Boote am Aurajoki",
       "description": "Turkus einzigartige Bar-Szene spielt sich auf umgebauten Schiffen am Flussufer ab. Die schwimmenden Restaurants und Bars zwischen Dom und Burg sind der perfekte Ort für einen Drink vor der Fähre.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Aurajoki%20Riverside%20Turku&query_place_id=ChIJ9ywJgfx2jEYRMJHXBOT6OsM",
+      "googleMapsUrl": "https://maps.google.com/?cid=14067832243285889328",
       "placeId": "ChIJ9ywJgfx2jEYRMJHXBOT6OsM",
       "coordinates": {
         "lat": 60.4483684,

@@ -16,7 +16,7 @@
       "description": "Seit 1405 wird hier das berühmte Rauchbier gebraut — dunkles Bier mit intensivem Raucharoma, direkt vom Holzfass gezapft. Die gotische Taverne mit niedrigen Decken und schweren Holztischen ist atmosphärisch einzigartig. Der wichtigste kulinarische Stopp der gesamten Reise.",
       "duration": "1-2h",
       "price": "Bier ab €3,50",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Schlenkerla%2C%20Rauchbierbrauerei&query_place_id=ChIJjSbp9RYjokcRPgC6cIlZSb0",
+      "googleMapsUrl": "https://maps.google.com/?cid=13639531393304887358",
       "placeId": "ChIJjSbp9RYjokcRPgC6cIlZSb0",
       "coordinates": {
         "lat": 49.891703299999996,
@@ -32,7 +32,7 @@
       "description": "Absurd malerisches Rathaus auf einer künstlichen Insel im Fluss Regnitz — barocke Fassadenfresken und eine Brücke, die zwei Stadtteile verbindet. Bambergs Wahrzeichen.",
       "duration": "30min",
       "price": "Kostenlos (Außenbesichtigung)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Altes%20Rathaus&query_place_id=ChIJSR4exxYjokcR8Hgp7XBufDo",
+      "googleMapsUrl": "https://maps.google.com/?cid=4214364782606252272",
       "placeId": "ChIJSR4exxYjokcR8Hgp7XBufDo",
       "coordinates": {
         "lat": 49.891644899999996,
@@ -48,7 +48,7 @@
       "description": "Der einzige Papstgrab nördlich der Alpen — romanisch-gotischer Dom aus dem 13. Jahrhundert mit dem berühmten Bamberger Reiter.",
       "duration": "30-60min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bamberg%20Cathedral&query_place_id=ChIJvTmYNBYjokcRwWcNRzrydwg",
+      "googleMapsUrl": "https://maps.google.com/?cid=610222606646077377",
       "placeId": "ChIJvTmYNBYjokcRwWcNRzrydwg",
       "coordinates": {
         "lat": 49.8907746,
@@ -65,7 +65,7 @@
       "priceRange": "€-€€",
       "description": "Die andere authentische Rauchbier-Brauerei — subtilerer Rauch als Schlenkerla, gemütliche Gaststube, bei Einheimischen sehr beliebt. Deftige fränkische Küche.",
       "mustTry": "Spezial Rauchbier Lagerbier und Schäufele (Schweineschulter)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Brauerei%20Spezial&query_place_id=ChIJvwayOhMjokcR6wYyeoNAZ4M",
+      "googleMapsUrl": "https://maps.google.com/?cid=9468607675004749547",
       "placeId": "ChIJvwayOhMjokcR6wYyeoNAZ4M",
       "coordinates": {
         "lat": 49.8968596,
@@ -82,7 +82,7 @@
       "priceRange": "120-180€",
       "evCharging": false,
       "description": "Einzigartige Lage direkt am Kanal neben dem Alten Rathaus — Flussblick aus den Zimmern und ein gehobenes Restaurant mit Blick auf das UNESCO-Ensemble.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Nepomuk&query_place_id=ChIJcR73yRAjokcRrmnFoy94qTU",
+      "googleMapsUrl": "https://maps.google.com/?cid=3866753901080701358",
       "placeId": "ChIJcR73yRAjokcRrmnFoy94qTU",
       "coordinates": {
         "lat": 49.889234699999996,

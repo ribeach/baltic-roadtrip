@@ -16,7 +16,7 @@
       "description": "Die UNESCO-geschützte Seefestung auf sechs Inseln vor Helsinki ist ein Labyrinth aus Bastionen, Tunneln und Museen. Die Fähre vom Marktplatz braucht nur 15 Minuten — und die Festung verdient locker 2-3 Stunden.",
       "duration": "2-3h",
       "price": "Fähre ~€5 (Hin+Rück), Festung kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Suomenlinna&query_place_id=ChIJ-1ZkcY4LkkYRsDmSuVO1AAo",
+      "googleMapsUrl": "https://maps.google.com/?cid=720775311579560368",
       "placeId": "ChIJ-1ZkcY4LkkYRsDmSuVO1AAo",
       "coordinates": {
         "lat": 60.1446643,
@@ -30,7 +30,7 @@
       "description": "Der Marktplatz am Hafen und die historische Markthalle von 1889 sind Helsinkis kulinarisches Herz. Fangfrischer Lachs, Rentier-Produkte und die berühmte Lachssuppe machen jeden Besuch zum Genuss.",
       "duration": "1-1.5h",
       "price": "Kostenlos (Essen extra)",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Old%20Market%20Hall&query_place_id=ChIJWS7idIkLkkYRnDd0_KVobL4",
+      "googleMapsUrl": "https://maps.google.com/?cid=13721457226805426076",
       "placeId": "ChIJWS7idIkLkkYRnDd0_KVobL4",
       "coordinates": {
         "lat": 60.1661637,
@@ -46,7 +46,7 @@
       "description": "Die 2018 eröffnete Zentralbibliothek ist ein architektonisches Meisterwerk aus Holz und Glas — und gleichzeitig ein öffentliches Wohnzimmer mit 3D-Druckern, Tonstudio und Panoramaterrasse. Eintritt frei.",
       "duration": "30-60min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Helsinki%20Central%20Library%20Oodi&query_place_id=ChIJ67v8tsoLkkYR3XU-Jmnz2m4",
+      "googleMapsUrl": "https://maps.google.com/?cid=7987964522033739229",
       "placeId": "ChIJ67v8tsoLkkYR3XU-Jmnz2m4",
       "coordinates": {
         "lat": 60.1736833,
@@ -62,7 +62,7 @@
       "description": "In den nackten Fels gesprengt und mit einer Kupferkuppel gekrönt — diese Kirche ist ein architektonisches Unikat. Die Akustik unter der Kuppel ist atemberaubend.",
       "duration": "30min",
       "price": "€5",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Temppeliaukio%20Church&query_place_id=ChIJsQw2ZzEKkkYRn0OBJ6_9uoA",
+      "googleMapsUrl": "https://maps.google.com/?cid=9276005311246844831",
       "placeId": "ChIJsQw2ZzEKkkYRn0OBJ6_9uoA",
       "coordinates": {
         "lat": 60.1730251,
@@ -78,7 +78,7 @@
       "description": "Der strahlend weiße neoklassizistische Dom thront über dem Senatsplatz und ist Helsinkis bekanntestes Wahrzeichen. Die breite Treppe davor ist der beliebteste Sitzplatz der Stadt.",
       "duration": "20-30min",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Helsinki%20Cathedral&query_place_id=ChIJtxnDRs4LkkYRousRCbTXpyg",
+      "googleMapsUrl": "https://maps.google.com/?cid=2929547250874051490",
       "placeId": "ChIJtxnDRs4LkkYRousRCbTXpyg",
       "coordinates": {
         "lat": 60.17037069999999,
@@ -94,7 +94,7 @@
       "description": "25 Straßen, über 200 Designläden, Studios und Galerien in den Vierteln Punavuori und Kaartinkaupunki — das Epizentrum der finnischen Designkultur mit Marimekko, Iittala und unabhängigen Designern.",
       "duration": "1–2 Std.",
       "price": "Kostenlos",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Design%20District&query_place_id=ChIJ5ajml8kLkkYRaXdKH8RxGn8",
+      "googleMapsUrl": "https://maps.google.com/?cid=9158757879363827561",
       "placeId": "ChIJ5ajml8kLkkYRaXdKH8RxGn8",
       "coordinates": {
         "lat": 60.1633589,
@@ -108,7 +108,7 @@
       "description": "Spektakuläre Design-Sauna direkt am Meer — die skulpturale Holzfassade ist ein Wahrzeichen moderner finnischer Architektur. Zwischen den Saunagängen springt man direkt in die Ostsee. Restaurant mit nordischer Küche auf der Terrasse. Vorab buchen!",
       "duration": "2-3h",
       "price": "Sauna ca. €21",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=L%C3%B6yly%20Helsinki&query_place_id=ChIJ7WWs57ELkkYRJJRbVu2rgfo",
+      "googleMapsUrl": "https://maps.google.com/?cid=18050897817322099748",
       "placeId": "ChIJ7WWs57ELkkYRJJRbVu2rgfo",
       "coordinates": {
         "lat": 60.1520656,
@@ -125,7 +125,7 @@
       "priceRange": "€-€€",
       "description": "In der historischen Markthalle von 1889 reihen sich Stände mit finnischen Delikatessen aneinander. Die Lachssuppe hier ist legendär und der perfekte Start in den Helsinki-Tag.",
       "mustTry": "Lachssuppe (Lohikeitto) — cremig, reichhaltig und mit großen Lachsstücken",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Old%20Market%20Hall&query_place_id=ChIJWS7idIkLkkYRnDd0_KVobL4",
+      "googleMapsUrl": "https://maps.google.com/?cid=13721457226805426076",
       "placeId": "ChIJWS7idIkLkkYRnDd0_KVobL4",
       "coordinates": {
         "lat": 60.1661637,
@@ -140,7 +140,7 @@
       "priceRange": "€",
       "description": "Winzige rote Holzhütte am Wasser in Töölö — hier grillt man eigene Würstchen am offenen Feuer und trinkt Kaffee am Kamin. Ein Stück echtes Finnland fernab der Touristenpfade.",
       "mustTry": "Korvapuusti (Finnische Zimtschnecke) am Lagerfeuer",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Cafe%20Regatta&query_place_id=ChIJPQrZrSQKkkYRxPQN1mE_SUM",
+      "googleMapsUrl": "https://maps.google.com/?cid=4848476163276666052",
       "placeId": "ChIJPQrZrSQKkkYRxPQN1mE_SUM",
       "coordinates": {
         "lat": 60.1801568,
@@ -174,7 +174,7 @@
       "isSplurge": true,
       "evCharging": true,
       "description": "Elegantes Boutique-Hotel direkt am Südhafen, wo die Tallinn-Fähren anlegen. Stilvolle Zimmer mit Hafenblick. E-Laden im nahegelegenen Parkhaus Kasarmitori (Aimo Park).",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hotel%20Haven%20Helsinki&query_place_id=ChIJ8RnOOc8LkkYRtiWlf4Y8iXQ",
+      "googleMapsUrl": "https://maps.google.com/?cid=8397309528573814198",
       "placeId": "ChIJ8RnOOc8LkkYRtiWlf4Y8iXQ",
       "coordinates": {
         "lat": 60.1665672,
@@ -190,7 +190,7 @@
       "isSplurge": true,
       "evCharging": true,
       "description": "Beeindruckendes Hotel im historischen Bahnhofsgebäude. Zentrale Lage, moderne Zimmer mit nordischem Design. E-Ladesäulen in der Tiefgarage.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Scandic%20Grand%20Central%20Helsinki&query_place_id=ChIJ2xFhdM0LkkYRECP_gSOOnIw",
+      "googleMapsUrl": "https://maps.google.com/?cid=10132129544832754448",
       "placeId": "ChIJ2xFhdM0LkkYRECP_gSOOnIw",
       "coordinates": {
         "lat": 60.1720869,
@@ -205,7 +205,7 @@
       "priceRange": "100-180€",
       "evCharging": false,
       "description": "Ehemaliges zaristisches Gefängnis von 1837 — heute ein atmosphärisches Boutique-Hotel mit 106 Zimmern in ehemaligen Zelltrakten. Meterdicke Mauern sorgen für absolute Ruhe. Frühstück im ehemaligen Speisesaal der Häftlinge.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Home%20Hotel%20Katajanokka&query_place_id=ChIJ-QaGV24LkkYRYK2oSABHmKY",
+      "googleMapsUrl": "https://maps.google.com/?cid=12004422873300643168",
       "placeId": "ChIJ-QaGV24LkkYRYK2oSABHmKY",
       "coordinates": {
         "lat": 60.1666837,
@@ -237,7 +237,7 @@
     {
       "name": "Ateljee Bar",
       "description": "Rooftop-Bar im historischen Hotel Torni — Helsinkis ikonischste Aussichtsbar mit 360°-Panorama über die Stadt. Perfekt für einen Drink bei Sonnenuntergang, besonders an langen Mai-Abenden.",
-      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ateljee%20Bar&query_place_id=ChIJPcJLgssLkkYRY7ufctWDEAY",
+      "googleMapsUrl": "https://maps.google.com/?cid=436994116629281635",
       "placeId": "ChIJPcJLgssLkkYRY7ufctWDEAY",
       "coordinates": {
         "lat": 60.1676916,
