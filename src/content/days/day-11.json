@@ -2,50 +2,46 @@
   "dayNumber": 11,
   "date": "2026-05-10",
   "status": "planned",
-  "title": "Cēsis-Burg, Grenze nach Estland und das südestnische Hochland",
-  "subtitle": "Kerzenlicht-Tour in Cēsis, Suur Munamägi (höchster Punkt des Baltikums), Taevaskoja Sandsteinklippen, Übernachtung in Tartu",
-  "locationId": "tartu",
-  "previousLocationId": "cesis",
-  "overnightLocationId": "tartu",
+  "title": "Tartu → Narva → Tallinn — Ostgrenze und Hauptstadt",
+  "subtitle": "Tagesausflug zur Hermannsfeste an der russischen Grenze, Mittagessen in Narva, Mole von Narva-Jõesuu am Finnischen Meerbusen, Abendankunft in Tallinn",
+  "locationId": "tallinn",
+  "previousLocationId": "tartu",
+  "overnightLocationId": "tallinn",
   "additionalLocationIds": [
-    "taevaskoja-otepaa"
+    "narva"
   ],
   "transitLocationIds": [
-    "taevaskoja-otepaa"
+    "narva"
   ],
   "driving": {
-    "distance": "~280 km",
-    "duration": "~4:00",
+    "distance": "~390 km",
+    "duration": "~5:00",
     "mode": "drive",
-    "routeDescription": "Cēsis → Valka/Valga-Grenzübergang (~120 km, 1:40), dann nordöstlich zum Suur Munamägi (~70 km), weiter nördlich nach Taevaskoja (~60 km) und schließlich über Otepää nach Tartu (~50 km). Mother's-Day-Sonntag in Lettland und Estland — Restaurants entlang der Strecke füllen sich früh. Picknick aus Cēsis-Markt mitnehmen.",
-    "encodedPolyline": "{~x|I{agyCp@kLcOwMwCsNiVw|@siAssDsYi}@wV}d@_Xg[oh@qgA}M}h@w\\me@ii@}xAiB_QuIu@}JuNyZkl@i]ap@av@gyAcPg_@yFrB_nAonAcg@iZy^cCu]kAwo@mRyRfAe[aO_OiAu`@lm@oi@tb@s`@fl@kk@~`@kUxNu[xs@y\\{Eq~@k^i{Aim@ss@wYoSqDie@~OoUhAi[wC{HdRkSaIqPe[n@oImG`FwOtIe@qDyAeKoFxC}KsPqM_Rk@MgSwLcG_Qg\\qw@{QmZijAqkB{u@oxBmPmo@uLayAkk@kzEkj@u}CeYqg@ae@y|Au}@kpDyi@ktE{Ke_Bb@a{BuGwZA_YmJgbBmL{uCdUed@lGwQjIw{AxH{~Ab@mu@_m@}mC{l@mkCqg@k`Ao\\gfBsc@cfAuuAsq@wu@okAyt@qn@q_@}WsOgFia@u^kw@sNaN_`@mIet@mIgd@iXiYspA{l@ot@k^cQ}I_Uir@yq@uuByj@ugCu_@ew@_H{Rkr@ysA_Yc^oRkx@a]w_AsAwFGQo\\qp@uZgw@adA_fB{`BqmCah@{bByU_Xep@kQok@u]e_@c\\sByQvJu|@rBifAmH_VwX}aAwNaa@cOy\\cG_N{DuP|SqrABi^}CkbAe]kqA{Mms@qGclBwH{tA}CgUuYmSaeAcp@gj@{Lsi@nU}JiLeXcj@cjA}cCiQeg@_Isp@k@{j@}LsXyi@waBmZoaAcYa|@uKicA_Gkv@oLgb@@{zAqOwvBsc@aqAwWqS{a@cq@cTqAaNyNyj@_Py_AaxBu^cq@_h@oWuOqHaKfHqRtUis@y^qXaU_Ya`@oQsEqXz@o]pOkLvE}J_EcO{@q]|Zog@nXaSfD{C{E{Bu`AgEsZfF_f@rJgc@nJqlAnDwcBIgzBiL{fAi[{`AwMcF{KtEsNfBaGg\\gHak@aSqg@{J}kAyIud@sT}r@uXa_BvZipAhAwg@~Ji]xGgL}@iUxJyw@~]ibAlVsx@|Lct@x@wn@iHmMsFgbAyBuu@rJ|tAQjm@kI{Bce@qN_q@`Cse@Kqn@u]a^cE_a@pJgq@nVqj@hSga@xVuk@~_Acm@beAqPhYwf@|f@{k@|Mom@lE_x@rCswAsTerA}lAeRyBu\\vGgl@bRshAlh@gf@~Xk}@lgAwSfOoViImy@yw@m_B}`BmfAsfAm\\cSwWkBmt@zLid@mHeW`A}iAdTsj@zJol@lImFfGgFfn@_CfZi\\fm@mj@~u@wR_c@ys@}eCwb@guAmK{NsBsFcDqIuBbFvAqBPG"
+    "routeDescription": "Tartu → Narva (~180 km, 2:15) auf der E263 nach Norden, dann E20 ostwärts zur EU-Außengrenze. Narva → Narva-Jõesuu (12 km nördlich, ~20 Min.). Rückfahrt nach Tallinn (~210 km, 2:30) auf der E20 entlang der Nordküste — unterwegs spontan entscheiden zwischen direktem Durchzug oder einem Stopp in Sillamäe (Sowjet-Stalin-Stadt) oder im Toila-Oru-Park (Klippenpromenade).",
+    "encodedPolyline": "q}hcJemcbDxD~FmI_QyUhLsXtGi]oVkqA_zAadAscA{^atBmjA__BkaAmcBk[sFmiA~sBwL|Oe]{Ai`@qCos@ln@ylBp[aqBnd@egA{L{iBhpAyf@~[ua@gBeeCmSwm@yYc|@{iA{pBqs@}jCmp@_iBi]wg@bCceAtEkzA}mA{lAkcA{k@{E{f@cQiyAi_BmuAwzAsp@uv@cn@kcBcsAczCqnBapFk[k[mUb@}lAhf@c}@xGugA}Min@r~@cb@tfAsp@zPe]wPaf@_gAmaBy~BwoAqkBqzAsqDw^ao@ug@gUuaAihA{t@ybBop@ucBeg@ew@y`BqlG}_B}tIsPkkAoP{Uga@k\\yLgfCqZwkDo[gIkh@pXmf@{A}l@qQulAkdBqr@ygB{t@qrBycAsxDuo@c`@u}@_Nks@LomA{DgkB_Wun@cm@an@ofAsfAu|BcZmuBgz@mpFky@cwDkh@y_Acp@qOcr@imA}Lim@cp@os@ej@s_Au_@odAsVaOmJyF_IjIgMjUwTvKsk@c]gj@eq@im@aKmjAtf@ieAxNy`AndAqs@f^{^~CwfByQ_eCraCyZz{@gKgBwmApE_t@hb@qu@m}CsTmwBiRiwDmYykDkp@}{AgIugA{NaqE~@ovCbJcpPdLcjJveAsjO|B{kIxKidBgnAcjDsl@ugCugAktDfSc`Dda@omCz_@ciAfPyqBhCcaE|l@_jEhMi}@iMh}@}l@~iEiCbaEgPxqB{_@biA}]leC_WffDr~@~tCft@~eDvmAxdDEpnAgPb~AhEzrFaj@lwHkd@baIkHnyNwHpkN`OpqEzHt}@vp@x|Ah`@xmE`Kp_Df_@rlCpb@hpBgBpp@gWv_EsEvrCaPbfBel@b|@ea@|~A}ZlfBci@tl@}`@tZ_k@ngA}u@hdDcY~iBe@pyA}@bmIcDlhDf`A`|Hlq@b{F{HvuCkk@lwDd@puDiC~eByYttAmpAniDat@vhFC`qIwJxeDlBdjCmP~xAuMhpCnG~iCrk@r}DxMjdAln@tuCx^voCvm@dy@l_A~gBjpAx~Ad}@paBfSr_AtXxpAxYdkDfQjgO\\p|E_jAb}Akj@|`Bmq@bzA{fA~eCe{@tbBeJhm@{a@ptH{fAjdSse@x~Iox@ljJgt@l`E{e@n{D`VpwEbZneFpBl|BqUtsL_f@hjWjPnjWbmAd__@rk@dxWdi@fhVoCrmDm`@fsEgq@p{H{OhqGxI``Lfb@diJ}PvcAt\\|oE`VzuHf^~nDpDtgAaKj_BkEfOoGtGFbMJ~R"
   },
   "evCharging": {
     "stopsNeeded": 1,
-    "notes": "Vor Abfahrt in Cēsis am Maxima-Center (Eleport) auf 100% laden. An der Valga-Grenze bietet Eleport/Enefit Volt mehrere DC-Lader für einen optionalen Top-up. Tartu hat über die Stadt verteilte 50 kW Enefit-Volt-Lader für die Nacht.",
-    "criticalLevel": "green"
+    "notes": "Tartu-Volltank-Start am Hugo.Stay-nahen Lader. Narva selbst hat Eleport-Lader am Astri-Center, Jõhvi auf dem Rückweg nach Tallinn ist die alternative Boost-Station. Tallinn hat dichtes Ladenetz für die Nacht.",
+    "criticalLevel": "yellow"
   },
   "activities": [
-    "08:30 — 90-minütiger Cēsis-Burg-Spaziergang mit der Kerzenlaterne (€10, am frühen Sonntag fast für sich allein); Picknick aus dem Wochenmarkt für unterwegs einpacken",
-    "10:30 — Aufbruch nach Valka/Valga, Grenzübergang ohne Kontrolle (beide Schengen)",
+    "Frühstück in Tartu, ~08:30 Aufbruch nach Norden auf der E263 Richtung Narva (~2:15)",
     {
-      "highlightRef": "Suur Munamägi — Aussichtsturm",
-      "note": "12:30 — der höchste Punkt des Baltikums (318 m + 29 m Turm). 800 m Walk vom Parkplatz, Aufzug oder Treppe. Bei klarer Sicht 50–70 km Panorama"
-    },
-    "13:30 Picknick-Mittagessen am Aussichtsturm-Pavillon — die Edgar Bakery in Otepää als Plan B (Mother's Day, ländliche Restaurants oft geschlossen)",
-    {
-      "highlightRef": "Taevaskoja Sandsteinklippen am Ahja",
-      "note": "14:30–16:30 — vom Parkplatz Taevaskodade ein 3 km Bohlensteg-Rundweg an den 22 m hohen Devon-Sandsteinwänden, Maiden's Cave und dem Ahja-Fluss. Der schönste Wald-Walk Estlands"
+      "highlightRef": "Narva-Burg / Narva-Museum (Narva Muuseum)",
+      "note": "11:00 — die Hermannsfeste der Dänen aus dem 14. Jh. mit dem 51 m hohen Langen Hermann, direkt gegenüber der russischen Iwangorod-Festung über die Narva. Aussichtsplattform mit dem ikonischen Blick auf die russische Flagge auf der anderen Flussseite, Stadtmuseum im Burginneren"
     },
     {
-      "highlightRef": "Pühajärve-See — Aussichtspunkt",
-      "note": "17:30 — kurzer Boxenstop, 20 Min. Beine vertreten, See-Panorama mit den fünf kleinen Inseln"
+      "restaurantRef": "Old Trafford restaurant",
+      "note": "13:00 Mittagessen in Narva — wenige Gehminuten von der Burg, lokal-russisch-baltische Klassiker (Pelmeni, Soljanka) und Steaks"
     },
-    "18:30 — Schlussstrecke nach Tartu (~50 km auf der 92), Check-in im 'Spacious & Quiet 2BR Apartment' (zwei Schlafzimmer, ruhige Hofansicht, kostenloser Privatparkplatz, 800 m zum Rathausplatz)",
     {
-      "restaurantRef": "JOYCE",
-      "note": "20:00 Dinner im Quartier V — Reservierung wegen Mother's Day Vortag empfehlenswert. Kreatives modern-estnisches Menü"
+      "highlightRef": "Narva-Jõesuu Mole (muul)",
+      "note": "14:30 — 12 km nördlich an die Mündung der Narva: ~700 m langer Spaziergang auf der Stein-Mole im Finnischen Meerbusen, anschließend Strandpromenade im Vorkriegs-Badeort mit den restaurierten Holzvillen aus der Belle Époque"
     },
-    "Schlechtwetter-Backup: Suur Munamägi-Turm streichen (exponiert, ungemütlich im Regen) und Taevaskoja zur Hauptattraktion machen — die Sandsteinwände schützen den Weg. Optional in Tartu noch das AHHAA Wissenschaftszentrum am Abend (geöffnet bis 19:00) für 90 Min. Indoor-Programm"
+    "16:00 Aufbruch nach Tallinn auf der E20 westwärts — unterwegs spontan entscheiden: direkt (~2:30) oder kurzer Stopp in Sillamäe (Stalin-Architektur der ehemaligen sowjetischen Uran-Geheimstadt, ~30 Min. Umweg) bzw. im Toila-Oru-Park (Klippenpromenade des ehemaligen Präsidenten-Sommersitzes, ~45 Min. Umweg)",
+    "Ankunft Tallinn am frühen Abend — Unterkunft vor Ort buchen (Booking/Airbnb), siehe /ort/tallinn für Hotel- und Apartment-Optionen",
+    "Optionales Abend-Programm in der Tallinner Altstadt — Restaurant- und Bar-Empfehlungen ebenfalls unter /ort/tallinn",
+    "Schlechtwetter-Backup: bei Sturm Narva-Jõesuu Mole streichen (sehr exponiert) und stattdessen in Narva das KGB-Zellen-Museum oder das Schwedische Tor besuchen, dann etwas früher nach Tallinn fahren"
   ]
 }
