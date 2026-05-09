@@ -1,0 +1,84 @@
+{
+  "id": "narva",
+  "name": "Narva",
+  "country": "estonia",
+  "coordinates": {
+    "lat": 59.3796931,
+    "lng": 28.179075
+  },
+  "description": "Estlands östlichste Stadt liegt direkt an der EU-Außengrenze zu Russland. Die mächtige Hermannsfeste aus dem 14. Jh. starrt über die Narva-Mündung hinüber zur russischen Iwangorod-Festung — eines der dramatischsten Burgen-Duos Europas, getrennt nur durch 150 m Fluss. 12 km nördlich liegt Narva-Jõesuu, der elegante Vorkriegs-Badeort mit langer Mole am Finnischen Meerbusen, weißem Sandstrand und Holzvillen aus der russischen Belle-Époque.",
+  "region": "Ida-Viru / Ostgrenze",
+  "suggestedDays": "1 Tag (Tagesausflug von Tartu oder Tallinn)",
+  "placeId": "ChIJh7Bmi9c3lEYR9CF9TV8qSrk",
+  "highlights": [
+    {
+      "name": "Narva-Burg / Narva-Museum (Narva Muuseum)",
+      "type": "castle",
+      "icon": "star",
+      "description": "Die Hermannsfeste der Dänen aus dem 14. Jh. mit dem 51 m hohen Langen Hermann-Turm thront direkt am Westufer der Narva — auf der anderen Flussseite, nur 150 m entfernt, antwortet die russische Iwangorod-Festung Ivans III. aus dem Jahr 1492. Im Burginneren das umfangreiche Stadtmuseum mit Sammlungen zur Hanse, zur sowjetischen Industriegeschichte und zum Stadt-Wiederaufbau nach den schweren Kriegszerstörungen 1944. Aussichtsplattform am Langen Hermann mit dem ikonischen Blick auf die russische Flagge auf der anderen Flussseite.",
+      "duration": "2 Std.",
+      "price": "€10",
+      "googleMapsUrl": "https://maps.google.com/?cid=18069826525014316567",
+      "placeId": "ChIJTeN8vSdIlEYRF9ZoiHzrxPo",
+      "coordinates": {
+        "lat": 59.3756894,
+        "lng": 28.2013699
+      },
+      "rating": 4.6,
+      "userRatingCount": 4097
+    },
+    {
+      "name": "Narva-Jõesuu Mole (muul)",
+      "type": "nature",
+      "icon": "star",
+      "description": "Lange Stein-Mole an der Mündung der Narva in den Finnischen Meerbusen. 12 km nördlich der Stadt führt der Spaziergang vom Strandparkplatz auf der ~700 m langen Mole zwischen Ostsee und Flussmündung — Möwen, Frachtschiffe Richtung Sankt Petersburg im Hintergrund, weiße Sanddünen am Ufer. Direkt anschließend der weite Sandstrand des einstmals zaristischen Kurorts mit den restaurierten Holzvillen aus der Belle Époque.",
+      "duration": "1–1,5 Std.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=432557268270793788",
+      "placeId": "ChIJERRcBwA_lEYRPERLMIvAAAY",
+      "coordinates": {
+        "lat": 59.4696698,
+        "lng": 28.0406177
+      },
+      "rating": 5,
+      "userRatingCount": 2
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Old Trafford restaurant",
+      "cuisine": "Steakhouse / International",
+      "priceRange": "€€",
+      "description": "Das beliebteste Restaurant Narvas, nur wenige Gehminuten von der Hermannsfeste entfernt. Trotz des britischen Fußball-Themas auf der Karte: solide Steaks, lokal-russisch-baltische Klassiker (Pelmeni, Soljanka, Hering), große Sommerterrasse. Reservierung am Wochenende empfohlen.",
+      "mustTry": "Hausgemachte Pelmeni oder das Steak vom estnischen Rind",
+      "googleMapsUrl": "https://maps.google.com/?cid=9715394351573175868",
+      "placeId": "ChIJ58TjIydIlEYRPA5bOrAD1IY",
+      "coordinates": {
+        "lat": 59.3755755,
+        "lng": 28.1947354
+      },
+      "rating": 4.3,
+      "userRatingCount": 980
+    }
+  ],
+  "hotels": [],
+  "apartments": [],
+  "tips": [
+    {
+      "type": "info",
+      "text": "Narva ist zu über 95 % russischsprachig — viele Schilder kyrillisch, das Stadtbild fühlt sich eher russisch als estnisch an. Eine der spannendsten Grenz-Erfahrungen Europas."
+    },
+    {
+      "type": "warnung",
+      "text": "Nicht versehentlich auf die Freundschaftsbrücke fahren — der Grenzübergang nach Russland ist seit 2024 für PKW geschlossen, nur Fußgänger mit Visum dürfen passieren. GPS auf der Castle Square-Seite halten."
+    },
+    {
+      "type": "geheimtipp",
+      "text": "Die Aussichtsplattform am Langen Hermann der Hermannsfeste bietet den ikonischen 360°-Blick auf Iwangorod, die russische Flagge auf der anderen Flussseite und die Wasserkraftwerks-Staumauer dahinter. Im Eintritt enthalten."
+    },
+    {
+      "type": "info",
+      "text": "Narva-Jõesuu liegt 12 km nördlich von Narva (~20 Min. Fahrt). Die Mole steht in der Verlängerung der Aia tänav am Ende des Strandparkplatzes — kostenlose Parkplätze direkt am Beginn des Mole-Spaziergangs."
+    }
+  ]
+}

@@ -1,11 +1,56 @@
 {
-  "trakai/apvalaus-stalo-klubas": {
-    "placeId": "ChIJX_TDtLPz3UYRwCc9CWORNaM",
-    "displayName": "Apvalaus Stalo Klubas restaurant and hotel",
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Apvalaus%20Stalo%20Klubas%20restaurant%20and%20hotel&query_place_id=ChIJX_TDtLPz3UYRwCc9CWORNaM",
+  "tartu/hugo-stay": {
+    "placeId": "ChIJXR7ldN0260YR3arevoOSf_Y",
+    "displayName": "Hugo.Stay",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Hugo.Stay&query_place_id=ChIJXR7ldN0260YR3arevoOSf_Y",
     "coordinates": {
-      "lat": 54.6496435,
-      "lng": 24.930711
+      "lat": 58.382020100000005,
+      "lng": 26.7316695
+    }
+  },
+  "tartu/gunpowder-cellar": {
+    "placeId": "ChIJUWPjG-E260YRJ19NR1vt4co",
+    "displayName": "Gunpowder Cellar of Tartu",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Gunpowder%20Cellar%20of%20Tartu&query_place_id=ChIJUWPjG-E260YRJ19NR1vt4co",
+    "coordinates": {
+      "lat": 58.37921,
+      "lng": 26.719074
+    }
+  },
+  "narva/castle": {
+    "placeId": "ChIJTeN8vSdIlEYRF9ZoiHzrxPo",
+    "displayName": "Narva Muuseum",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Narva%20Muuseum&query_place_id=ChIJTeN8vSdIlEYRF9ZoiHzrxPo",
+    "coordinates": {
+      "lat": 59.3756894,
+      "lng": 28.2013699
+    }
+  },
+  "narva/joesuu-muul": {
+    "placeId": "ChIJERRcBwA_lEYRPERLMIvAAAY",
+    "displayName": "Narva-Jõesuu muul",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Narva-J%C3%B5esuu%20muul&query_place_id=ChIJERRcBwA_lEYRPERLMIvAAAY",
+    "coordinates": {
+      "lat": 59.4696698,
+      "lng": 28.0406177
+    }
+  },
+  "narva/old-trafford": {
+    "placeId": "ChIJ58TjIydIlEYRPA5bOrAD1IY",
+    "displayName": "Old Trafford restaurant",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Old%20Trafford%20restaurant&query_place_id=ChIJ58TjIydIlEYRPA5bOrAD1IY",
+    "coordinates": {
+      "lat": 59.3755755,
+      "lng": 28.1947354
+    }
+  },
+  "narva/city": {
+    "placeId": "ChIJh7Bmi9c3lEYR9CF9TV8qSrk",
+    "displayName": "Narva",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Narva&query_place_id=ChIJh7Bmi9c3lEYR9CF9TV8qSrk",
+    "coordinates": {
+      "lat": 59.379693100000004,
+      "lng": 28.179074999999997
     }
   }
 }

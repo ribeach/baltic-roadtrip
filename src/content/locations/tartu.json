@@ -88,6 +88,22 @@
       },
       "rating": 4.6,
       "userRatingCount": 839
+    },
+    {
+      "name": "Gunpowder Cellar of Tartu (Püssirohukelder)",
+      "cuisine": "Estnisch / Pub-Klassiker im Pulvergewölbe",
+      "priceRange": "€€",
+      "description": "Spektakuläres Restaurant im 18.-Jh.-Pulverkeller am Fuß des Domberges — laut Guinness-Buch das Lokal mit der höchsten Decken-Tonne der Welt. Deftige estnische Küche, hauseigenes Bier aus eigener Mikrobrauerei, dröhnende Live-Musik am Wochenende.",
+      "mustTry": "Hauseigenes Pulverkeller-Bier mit Schweinerippchen oder Wildpfanne",
+      "googleMapsUrl": "https://maps.google.com/?cid=14619226841715400487",
+      "placeId": "ChIJUWPjG-E260YRJ19NR1vt4co",
+      "coordinates": {
+        "lat": 58.37921,
+        "lng": 26.719074
+      },
+      "rating": 4.4,
+      "userRatingCount": 3789,
+      "visited": true
     }
   ],
   "hotels": [
@@ -105,6 +121,22 @@
       },
       "rating": 4.8,
       "userRatingCount": 382
+    },
+    {
+      "name": "Hugo.Stay",
+      "type": "Apart-Hotel",
+      "priceRange": "90-120€",
+      "evCharging": false,
+      "description": "Modernes Apart-Hotel in Gehnähe zum Rathausplatz mit komplett ausgestatteten Studios und Apartments. Eigene Parkplätze, kontaktloser Self-Check-in. Diente als Basis nach der langen Riga–Tartu-Etappe am 9. Mai.",
+      "googleMapsUrl": "https://maps.google.com/?cid=17762076549913160413",
+      "placeId": "ChIJXR7ldN0260YR3arevoOSf_Y",
+      "coordinates": {
+        "lat": 58.3820201,
+        "lng": 26.7316695
+      },
+      "rating": 4.5,
+      "userRatingCount": 168,
+      "visited": true
     }
   ],
   "apartments": [

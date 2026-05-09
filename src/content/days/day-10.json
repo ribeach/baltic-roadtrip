@@ -1,57 +1,57 @@
 {
   "dayNumber": 10,
   "date": "2026-05-09",
-  "status": "planned",
-  "title": "Riga → Gauja → Līgatne — der geheime Sowjet-Bunker",
-  "subtitle": "Aufbruch aus Riga, Turaida-Burg, Gūtmanis-Höhle, 12:00 Bunker-Tour auf Englisch, Pavāru-Māja-Mittagessen, Āraišu Pfahlbaudorf, Übernachtung in Cēsis",
-  "locationId": "cesis",
+  "status": "completed",
+  "title": "Riga → Sigulda → Līgatne → Āraišu → Suur Munamägi → Tartu",
+  "subtitle": "Großer Tag durchs Gauja-Tal: Gūtmanis-Höhle, geheimer Sowjet-Bunker, Pfahlbaudorf, höchster Punkt des Baltikums und Abend im Pulverkeller von Tartu",
+  "locationId": "tartu",
   "previousLocationId": "riga",
-  "overnightLocationId": "cesis",
+  "overnightLocationId": "tartu",
   "additionalLocationIds": [
-    "sigulda-gauja"
+    "sigulda-gauja",
+    "cesis",
+    "taevaskoja-otepaa"
   ],
   "transitLocationIds": [
-    "sigulda-gauja"
+    "sigulda-gauja",
+    "cesis",
+    "taevaskoja-otepaa"
   ],
   "driving": {
-    "distance": "~210 km",
-    "duration": "~3:30",
+    "distance": "~430 km",
+    "duration": "~5:30",
     "mode": "drive",
-    "routeDescription": "Aufbruch Riga 08:30, A2 nach Sigulda (~53 km, 50 Min.), kurzer Stop an Turaida und Gūtmanis (~5 km), dann P8 nordöstlich nach Skaļupes zum Bunker (~35 km, 45 Min.). Nach Mittag und Āraišu (~25 km) abends 15 km nach Cēsis.",
-    "encodedPolyline": "e`rzIyacrCU?M}@o@mE_EaPE_DgBxDa@hFWnDgAtCaCxCa@l@Me@Y}@yHkU_GkWsK}UkIoQUgAZu@pAwC`BwD`EaL{BcF{EqV_GwT}BkFmAkCy@mD}B_IgNcc@_DoKuBqJuBsIkGqWsK}g@u^ieBkQk|@iQkz@eHq_@oCyPqFy^}AyNuG}fAsDso@aEem@qCa_@cBcMgBiJuHq^oLel@wMwn@_GeYaGaXcG}YyIy`@uOas@_UucAkc@mqBkg@k|BgaAmlEoRyz@mTwbAgC}PiBaVe@sWEc\\_Bq\\iAyKuEaVwGqYgTe~@_FsSmJu[cDqIwJqSaOuU}NkUkFoLuD{KwP{t@aWyiAcUqbAcaA_kEi]g{A{S_`Aag@gzBmmAwrFql@ynCuMys@uKko@eEk]aCuXyHkwAwAqWoCs_@eG_k@iD}ZqCuW}F_q@}@qMgBwa@cGu_B}GaoAsCyb@cDqh@}Coj@gFmyAs@_VSiTTuLdAoVtDso@PoR}@}RoCmVyFga@yD{[uE{d@yAsOBkB[{@gCyRsImq@iFcb@oHmi@yBoOwCaV{Ek`@sE}^sAaLYm@uSjRyN~M{DpDiD`DFh@lAvJzBnQ^zCf@tDOZPKR`BHj@dDlUFl@\\p@\\G^Qd@Cc@uHe@eIk@_IT[bB}BdGoJfNqMfHaEbCyAn@_@{D}ZwBmQsAuJ}C{WcJwq@qNuhA}Fge@mNwgAu^evCoi@khEmB_LmAuEmEeKgBuCcUwZeSqXyG_NcE{KgFqS}BeOeAmKmAgTg@_ZZwV`Be{@bAcd@Lga@g@oSwAuTyCwX{Gei@kMs_AoI{q@_Ze~B}{@}|GeFea@qAkLi@qLLiQJwU]cMmB_ViDq\\yCuZoBwXuDgg@}AaJyCgImEeGsHoJgFwLiDsMwJiv@mGag@iSs}AoB}T}@kXCaEDqOHwSWcWoBeTyKuq@yJem@u@mE{AgJNeCz@uJXsFQiC_@aAwAq@wCz@wD`BuBz@{OnDgIt@eKFmHY}C]uC]gKcCiEuAmEwBi\\mQwHcFeG{Cqh@cY_SgL}VcReSiPeLsKm@i@MrAMl@_Bp@{An@iChAoFfC_NxGkDfBsFjCeBbCcFdPi@`AoBfAeDzAoCRkA?aJJ}Dl@eC@yEgAyFeAmPiDm[oGoR}D{FgAaEQyENuFDcI~AqDzBsGbDiIxCuAJmA[{DwC{@_AkAY_BE{@LOv@KlAeAfCaAv@}@L{@?kFuAoBi@g@D_Cv@_BC}Bw@s@}AwCiH]sAxAkDfG{I|A}EjBoE^m@h@dBf@dA[lA"
+    "routeDescription": "Riga → A2 nach Sigulda zur Gūtmanis-Höhle (~50 km) → P8 nach Skaļupes zum geheimen Sowjet-Bunker (~35 km) → Āraišu Pfahlbaudorf (~30 km) → Valka/Valga-Grenze nach Estland (~120 km) → Haanja zum Suur Munamägi (~70 km) → Tartu (~125 km). Schengen-Grenzübergang ohne Kontrolle, Tartu-Ankunft am späten Abend.",
+    "encodedPolyline": "e`rzIyacrCaKsWcGhUw_@kfAgHukAak@clBkw@mqD{{@wyEkSweDca@geCmwAowG}vDy{P}Gw}A_i@ezCcaBwlEqjE{qR_{BqbKsd@g|CaPqpC_YsqC}c@}yIsE}jD_GwpC}]{}Cg_@ouCaImm@oc@ja@oGtVnLlz@lJcn@nWsSGw^mUwhBoV}nBcn@}~Eoi@khE{x@{xAw]iaBtA}mBm@qpBa[qcCmaB_oM}R{gDwT_rBs[ao@eSk~A{X_sCwBsqAsW{_BuDcp@{bAnK}kA}h@{uBmwAkg@lW}Zz_@{a@FehA}Tqe@ZoWxLgNaGeTdGaUoLlOi_@~BaDcJ}FiGaTcF}Sqh@ieBufAmnDusAabC{o@_tAwe@cmAwKwe@kNqF_w@kzAkuA{dCeeAo`Ayd@y`@{d@mJgjAeU{d@H_`@cRo\\~b@qo@di@ckA`qAaW|I{Uvp@kWdJmu@mYwaBkp@i_Aw_@i_@mCos@jKuV}@gO~P}b@{\\oDgN_UnMkEyNkJ_B{Sw\\g@g@sY_Vkg@cmA}dAicBk~@}_Ca`@a{Bae@wlE{n@opD_}@wgCa`AmlDcj@opEuP}nBlBapBwLw}@mFw`BgQgzCrc@gcBtQygEic@ewBgq@e_Dc`@{x@e]gqAak@ekBkdAii@wo@am@_{@kfAs`BolA_{@mQ{Z_kAiVudAmnAah@a}@ah@eTyGcVwe@cj@ieBgq@qyC_j@wnAinAs~Bkv@obCes@m_BwdCkcE_gAwmCub@sj@yhAm`@ke@ya@oKgJbEmb@~HiqBqm@{sBsa@{v@xTorBwSouBs_@_gCiUcrDgjBahA}e@wEiWrNgOjDqM}\\snAygCyd@_xAsJyoA_i@uxAo|@mwCk]wkCcMgjEg\\gsAk`AsmA}d@oX}h@sMkt@a|Ayg@ilAsc@qU}_@wQgUnXkXwFqToJ}t@}h@uTqZkRdCeT@mh@nQaQaDcZ`Usc@pXq_@bKgDgs@oFyy@~ZilB~GkgFuH_qAm[_dAaZsOkNxHmJwOs[mmAqJawAez@qmDb@sl@jQk^nM{uAhKcg@vBaj@`eAicDzCsoAiHeaAqGcgA`E~~@lEzb@cEp`@eV{Gsj@mJsi@hImf@yLceAwXsaAj\\}yA`t@gaB~qCe^be@udA`[mjAjIucBuQgjAigAud@sKyc@~KkaBhn@srAnjA_j@`n@_Mq@k~@ot@cjDomDo_@}WmdA|D{_A_F}jA`U_bBvXsK``Ag[`w@{e@jk@iJjOwHaPq]slAyn@qtBee@ojAqEnEvCcE"
   },
   "evCharging": {
-    "stopsNeeded": 0,
-    "notes": "Vor Abfahrt in Riga am Galleria Riga oder Domina Shopping voll laden — bei 100% reicht der Akku locker für die ganze Bunker-Schleife inkl. Cēsis. Cēsis hat einen CSDD e-mobi DC-Lader und einen Eleport am Maxima-Center für die Nacht.",
-    "criticalLevel": "green"
+    "stopsNeeded": 1,
+    "notes": "Vor Abfahrt in Riga voll geladen, ein Boost-Stop an der Valga-Grenze (Eleport/Enefit Volt) reichte für die zweite Hälfte. Tartu hat mehrere 50 kW Enefit-Volt-Lader für die Nacht.",
+    "criticalLevel": "yellow"
   },
   "activities": [
-    "08:00 Frühstück im Aparthotel Aurum, Auto bereits voll geladen — 08:30 Aufbruch auf der A2 nach Sigulda",
-    "09:30 Ankunft Sigulda — direkt zu Turaida (5 km nordöstlich)",
-    {
-      "highlightRef": "Turaida Burg",
-      "note": "09:45 Eintritt — die rote Backsteinburg aus dem 13. Jahrhundert mit kletterbarem Turm; das Reservatsgelände öffnet vor dem Ticketschalter, also den Spaziergang an den Volkslied-Skulpturen beginnen und um 10:00 hochsteigen"
-    },
+    "Aufbruch aus Riga am Morgen — Volltank-Ladung am Galleria Riga vor der Abfahrt auf der A2 Richtung Sigulda",
     {
       "highlightRef": "Gutmanis-Höhle",
-      "note": "10:45 — fünf Minuten Foto-Stop in der größten Höhle des Baltikums, mit eingravierten Inschriften aus dem 17. Jahrhundert"
+      "note": "Größte Höhle des Baltikums im Gauja-Nationalpark — eingravierte Inschriften aus dem 17. Jh. an den Sandsteinwänden, kurzer Foto-Stop am Höhleneingang"
     },
-    "11:00 Aufbruch zum Bunker — 35 km auf der P8 durch das Gauja-Tal, Ankunft Skaļupes 11:45 zum Einchecken",
     {
       "highlightRef": "Līgatne Geheimer Sowjetbunker",
-      "note": "🎯 12:00 englische Führung (heute Abend gebucht, +371 64161915 / ligatne.info@gmail.com). 9 Meter unter der Rehabilitationsklinik versteckt — originale sowjetische Telekommunikation, Filteranlagen, Lenin-Porträt an der Wand. 1,5-stündige Führung, anschließend Sowjetkantine mit den traditionellen Teigtaschen"
+      "note": "9 m unter der Rehabilitationsklinik versteckt — englische Führung durch die originale sowjetische Telekommunikationszentrale, Filteranlagen und Lenin-Porträt an der Wand. 1,5-stündiger Rundgang in einem authentischen Stück Kalter-Krieg-Geschichte"
     },
-    "14:00 — kurzer Transfer zur Pavāru Māja in Līgatne",
-    "Mittagessen in der Pavāru Māja (Pilsoņu iela 2, Līgatne) — Michelin Green Star, 4-Gänge-Tasting-Menü ~€60–80 pp, vorab über pavarumaja.lv reserviert. Wilhelma-Gebäude von 1901 am Rand des Dorfs. Ende ~16:30",
     {
       "highlightRef": "Āraišu See-Pfahlbaudorf",
-      "note": "17:00 — die einzige rekonstruierte 9.–10.-Jh. lettgallische Pfahlbau-Festung Europas auf einer Insel im See. 60-Minuten-Walk-Through der Eisenzeit-Holzhäuser, Eintritt €4. Im goldenen Spätnachmittagslicht besonders fotogen"
+      "note": "Die einzige rekonstruierte 9.–10.-Jh. lettgallische Pfahlbau-Festung Europas auf einer Insel im Āraišu-See — Walk-Through der Eisenzeit-Holzhäuser am späten Nachmittag im goldenen Licht"
     },
-    "18:30 — 15 km Schlussstück nach Cēsis, Check-in im Concert Hall Boutique Apartment (zwei Schlafzimmer, zwei Bäder, Kamin, kostenloser Parkplatz)",
+    "Grenzübergang Valka/Valga — direkt von Lettland nach Estland ohne Kontrolle (beide Schengen), kurzer Lade-Stop in Valga",
     {
-      "restaurantRef": "H.E. Vanadziņš",
-      "note": "🎯 19:30 Dinner in der Cēsis-Altstadt — Michelin Bib Gourmand 2026, modern nordisch-lettisch (heute Abend reserviert: info@vanadzinarestorans.lv / +371 24771771)"
+      "highlightRef": "Suur Munamägi — Aussichtsturm",
+      "note": "Höchster Punkt des Baltikums (318 m + 29 m Turm = 346,7 m) — Panorama über die südestnischen Wälder und Seen. Aufstieg über die Treppe, anschließend kurze Pause am Pavillon"
     },
-    "Schlechtwetter-Backup: Turaida draußen streichen, Bunker-Tour um die Object-X-Simulationsspiel-Erweiterung verlängern (€10–15), Mittagessen entspannter ziehen lassen. Āraišu funktioniert auch bei leichtem Regen"
+    "Letzte ~125 km nach Tartu auf der 92 — Ankunft am späten Abend, Check-in im Hugo.Stay (Self-Check-in mit Code)",
+    {
+      "restaurantRef": "Gunpowder Cellar of Tartu (Püssirohukelder)",
+      "note": "Late dinner im 18.-Jh.-Pulvergewölbe am Fuß des Domberges — herzhafte estnische Küche und hauseigenes Pulverkeller-Bier in dem Lokal mit der höchsten Tonnen-Gewölbedecke der Welt (laut Guinness-Buch)"
+    }
   ]
 }
