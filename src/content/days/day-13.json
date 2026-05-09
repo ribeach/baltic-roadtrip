@@ -2,56 +2,60 @@
   "dayNumber": 13,
   "date": "2026-05-12",
   "status": "planned",
-  "title": "Sagadi → Tallinn → Helsinki-Fähre → Mathildedal",
-  "subtitle": "Linnahall am Vormittag, 13:30 Tallink-Fähre, Eisenwerksdorf am Abend, Sauna am See bei Mitternacht",
+  "title": "Helsinki am Vormittag → Mathildedal — Suomenlinna, dann Eisenwerksdorf und Sauna am See",
+  "subtitle": "Suomenlinna-Inselfestung am Vormittag, Lachssuppe in der Markthalle, Nachmittagsfahrt nach Mathildedal, lakeside Sauna am Matildanjärvi am späten Abend",
   "locationId": "mathildedal-teijo",
-  "previousLocationId": "lahemaa",
+  "previousLocationId": "helsinki",
   "overnightLocationId": "mathildedal-teijo",
-  "additionalLocationIds": [
-    "tallinn",
-    "helsinki"
-  ],
-  "transitLocationIds": [
-    "tallinn",
-    "helsinki"
-  ],
+  "additionalLocationIds": [],
+  "transitLocationIds": [],
   "driving": {
-    "distance": "~225 km",
-    "duration": "~3:30 (plus 2-Std.-Fähre)",
+    "distance": "~135 km",
+    "duration": "~1:45",
     "mode": "drive",
-    "routeDescription": "Sagadi → Tallinn (~90 km) → Tallink Megastar/MyStar Tallinn-D nach Helsinki-West-T2 (13:30–15:30) → Mathildedal (~135 km auf der E18 Richtung Salo, dann Abzweig nach Süden). Auf der Fähre ist kein Laden möglich (universelle Baltikum-Regel), deshalb in Lohja zwischen Helsinki und Mathildedal optional nachladen.",
-    "encodedPolyline": "ihjjJwaz|CuMo^iGVwGj[wBbfAdHbi@}Fh_As@zoBqt@`oCyWn`@}IpAzGpdAfv@`qCvDru@}@~c@rJnXtXvi@pa@xbBt^puAlc@fz@|aBx}Brz@baAz}At_CbsA{LhLv\\bF~kE~^fjOn`AdlYtk@nzW`UreKeFzoD}tA`}OiO~{Lfl@~dRaLzf@|SjlBhXrzHn]jeElM|xAiBt}@cObjAmHbL?da@pBrU_CHeRkHxAaw@uU}kBcHfNhIpx@yc@sw@}NuNuk@lDquEz}A_bBfdAy|QvsLuw@gBwz@gd@gjNukMmjR}oM_zDo~@ym`@moF}fLs_BeaLi`@onAokA_EjAsB`@qLkMw@`AwG}C{BjCwV_@oE}r@qVwbAcEwKyHtMcEhYxJtZUbG^TxI|UdDzVsEnnAS~{BzSzfCsk@dbJpQf|HyCpv@}S{Fyb@uIgc@|_@sw@z[o_@tI_j@kPcMUjAaJf[n|Bj@~nByV`mA_lAreGqe@nyDoUh~Bo^|pBuu@`eAqVpx@gbAh_IkXlzB}k@t~Aud@xnC}p@ljA_{@dqGiUhxCoDpiDrJ~fDo_@d_Cg_@xyEvCfiBbCf_EfAf}Cnr@bqCdj@nlCjNvwCmCztD}oAbyEom@f}Aci@|lEkK`yCga@z{Ba[tu@oWltByaAr{A}v@rgCsqA~cBwn@dsB_WdyDca@rwBgHbbBgRv{CtMfiEj[|nDre@hvCn@pmBeKrbCu|@zsDmdAhuIaD`~DdKdhDtn@h~BdHp|@}@ryIzW~wBzVdpBtDv~BiR`fEoQzuAkIvRhFtEnO|PxLrYgGfTe[jcAaJxY}Lfz@jHr`BhMd{AuO|zCpDjnGZtt@dAjO`RcBds@vaAbWbW~_@ht@tk@rz@rQrChf@~r@ff@vq@~^~]jc@bxArf@p}@~RnAjvA{}@tiAwl@dsAmf@tb@em@~`A}Qpj@}\\rVrAfzAby@h{A|Ynd@l^|d@l_@rZ}Cx\\naDp`@vxAju@~y@j|@llC|^bxAnYnvBnGfzAqW~~Agh@loCkLzwAbMdrByFlbB{n@z~@iTj}Bl[vlB`j@jfEde@p`DrNnaCyGry@tGr~@d[nsAfp@vjDl_@l_BtDtEn@mTbEcXzLaKpU~AvZiO~y@un@zUyd@p\\gIfZr@rKYpGeM|YaRtPks@xGah@|EsMrJhF`SxD|PiQl[qEdM{^r[q\\dMqk@jWcT|Nhs@tG~s@hInV`QfBjm@qIhGlMlFkBzV_Np]cExL`JjJoBr\\wBdk@oq@pImcArE``@`JvO"
+    "routeDescription": "Helsinki Süd-/West-Innenstadt → E18 westwärts Richtung Salo → Abzweig nach Süden zur Küste, Ankunft Mathildedal. Optionaler Lohja-ABC-HPC-Stop (~60 km) für die Schnellladung.",
+    "encodedPolyline": "{|fnJ}wewCfNpk@Mz@bF~GxCxMbEhzA{Kf[eAfo@|VtoDzC`_@oF|_Ak`@dvDcCzcCxEn_DfKj{CiCrN}FSm[aLsQqCqO~GeQxSuW|IkUdF}T~TeOfEuVmN{UuEyNpDiCwItCc@zKts@`PfxBqDnpA}_@tsA}`@xvBsk@f}CuLdtAkf@rcF}Ntq@_d@pw@_e@fv@yHrXuM|oAq]peCyUraBwEfhAq`@paBwZxo@cRdmAac@bnBg\\f^_Tx`AiQz~A{S||@aLfuAqOzyAc@daA}C|pBlO|wCoIxbAeQfeAgSfnAkRtvBZllAlLtoD_JheDrB`gAhMrz@vu@lnClXrtAfHzz@`MtdDUdhAkMdlAyc@drBwr@~cBaX|q@iTzoAke@vwEgHpkC}Sdz@qZxl@gYdsByVp{@_\\|[ie@r}@qYvjAyf@nbAal@~k@}[pl@mV|`AkJ|z@wIhpBw\\zgB{OftBcFjqA_OvmCzFjaBbZveEva@rvBhNd{AWls@k@|{Bsr@p`D_\\xbBuNbbBeb@v|BkLbwBGjmErBpfAbZr_Bl`@|bBnCphAyEpgFlEh_B|Lv_AxXtiBzKjzB{NzrEcGfz@iUxhAlAvJnJhGdOhVfAfTwXd~@_]`rAe@ffAfKvkAhI~nAeNfhAiBht@`Dl{@dEbiAkE``BtBdrB`DvDxGgAjSfKpY|j@tRxQlTvVrP`Zt]zz@rSjQnM~Az`@|[`]p{@n\\`R|\\~d@jn@dtBn]xYjWiDh|AmeAtd@ePj^}Slu@mPr`@wg@bNyQlTqGbl@eJ|WiQl_@mNbmArl@ny@nXbgAlTrh@`o@pNpIbWs@nIgAv@|I|PlcBnRbuA`Phi@n[nf@re@hf@hd@`oAv[`hAr_@x|BbYjzAb@~r@sLxl@kW~vAuNhiAgXh`AsCrs@nEjt@~FvjBeCpr@kFl^iMlOuSrPsShv@mHpaAvH`{@j[zfBtLhx@pAll@nZr~A|SpiArNjjCpF~_@qElw@Pbz@pNxi@|TbrAzYxuAf^|uA~Nxy@rGrUr@wEnDgb@fJ{TjU~DpM{@bLcF|OuM`[kX~[yXnRma@pO^pPwK~VhMtGqLtOuGjUw^`Iuq@nKse@rJ?pGlCfKrD~GgGzPcOzMmDtKtEpEm]pKyGxNuJzCuZjVyk@~G_FxHlMfOr|@|Fdp@`QtFpUh@lS{EdIuChCpFzDxD~GgAjMaJhOqB|CwH~Ea@~NtIzHfF|LuM`OjE~KmFbEgPrKeJxJmHpEic@vDga@vA}BtBdCr@nHt@jN~C|KnEjF"
   },
   "evCharging": {
     "stopsNeeded": 1,
-    "notes": "Sagadi morgens mit ausreichend Reichweite verlassen (~70%), Tallinn-Hafen-Schnelllader vor Boarding optional. Auf finnischer Seite: Lohja ABC HPC (150 kW Recharge) ist der natürliche Pit-Stop nach der Fähre. In Mathildedal selbst keine Schnelllader — die echte Vollladung folgt am Donnerstagnachmittag in Paimio (Ionity 350 kW) vor der Stockholm-Fähre.",
+    "notes": "Aus Helsinki mit ~80% starten (Hotel-Lader über Nacht). 🎯 Lohja ABC HPC (150 kW Recharge) ist der natürliche Pit-Stop nach 60 km — Café und schnelle 25-Min.-Pause. In Mathildedal selbst keine Schnelllader; die echte Vollladung folgt am Mittwochnachmittag in Paimio (Ionity 350 kW, 6 Plätze) vor der Stockholm-Fähre.",
     "criticalLevel": "green"
   },
   "activities": [
-    "07:30 Frühstück im Sagadi-Gutshof, 08:30 Aufbruch — 90 km nach Tallinn, Ankunft 09:45",
-    "09:45 — Auto im Solaris-Keskus oder Roosikrantsi-Tiefgarage parken (mit Gepäck), Altstadt-Loop zu Fuß",
+    "08:30 Frühstück im Hotel — keine Eile",
+    "09:30 — Marktplatz (Kauppatori) am Südhafen, von dort die Suomenlinna-Fähre (15 Min. Crossing, ~€5 Hin+Rück, alle 20 Min. ab Kauppatori)",
     {
-      "highlightRef": "Toompea — Kohtuotsa & Patkuli Aussichtsplattformen",
-      "note": "10:00 — Patkuli- und Kohtuotsa-Plattformen, der Postkartenblick auf rote Dächer und Hafen. Alexander-Newski-Kathedrale aus der Nähe, dann hinunter über Pikk jalg in die Unterstadt"
+      "highlightRef": "Festung Suomenlinna",
+      "note": "🎯 09:45–11:30 — UNESCO-Inselfestung auf sechs Inseln: Bastionen, Tunnel, das King's Gate am Südufer, das U-Boot Vesikko (Außen), kleine Cafés in den ehemaligen Kasernen. ~2 Std. ist sportlich-zackig — wer mehr Zeit will, lässt die Innenmuseen aus und konzentriert sich auf den Walk-Loop"
     },
-    "Linnahall — 10 Min. Fußweg Richtung Hafen. Brutalistisches Sowjet-Beton-Plateau am Meer (Innenraum geschlossen seit 2009, aber Plaza, Treppen und Dach voll begehbar). Direkter Cold-War-Anker zum Līgatne-Bunker. Nahe Terminal D",
+    "12:00 Rückfähre nach Kauppatori",
     {
-      "restaurantRef": "Rataskaevu 16",
-      "note": "11:30 frühes Mittagessen in der Altstadt — vorab reservieren wegen Mittags-Andrang"
+      "restaurantRef": "Alte Markthalle (Vanha Kauppahalli)",
+      "note": "12:30 Mittagessen — die historische Markthalle von 1889 direkt am Hafen. Lohikeitto (Lachs-Sahne-Suppe) ist hier Pflicht, dazu Roggenbrot und ein Stück Rentierwurst zum Mitnehmen"
     },
-    "12:45 — Auto-Check-in am Tallinn-D-Terminal (Uus-Sadama 24). Online-Check-in im Voraus erledigt; Fahrzeug-Gate schließt 30 Min. vor Abfahrt",
-    "🎯 13:30 Tallink Megastar oder MyStar nach Helsinki — beide LNG-Schiffe, voll ausgestattet, 2 Std. Crossing. Star Class für die kurze Strecke vollkommen ausreichend",
-    "15:30 Ankunft Helsinki West Terminal 2, direkt aufs Auto und auf die E18 westwärts — kein Helsinki-Sightseeing heute (das volle Finnland-Erlebnis kommt morgen)",
-    "16:30 — optionaler Lohja ABC HPC-Schnellladestop (150 kW Recharge, 20 Min., Café)",
-    "17:30 Ankunft Hotel Mathildedal — WICHTIG: zwei separate Standardzimmer gebucht, nicht ein Standard-Twin (das wäre zwei Betten in einem Raum, verstößt gegen unsere Zwei-Schlafräume-Regel). Direkt über mathildedal.fi reservieren",
+    {
+      "highlightRef": "Dom von Helsinki",
+      "note": "13:30 — kurzer Loop: Senatsplatz, breite Treppe vor dem strahlend weißen neoklassizistischen Dom, daneben das Universitätsviertel und der Esplanadi-Park"
+    },
+    {
+      "highlightRef": "Felsenkirche Temppeliaukio",
+      "note": "14:00 — falls Zeit reicht: in den nackten Fels gesprengte Kirche mit Kupferkuppel, ~15 Min. Innenbesuch, atemberaubende Akustik. Sonst direkt zum Auto"
+    },
+    "14:30 — Auto holen (Aimo Park Kasarmitori oder Hotel-Tiefgarage), Aufbruch westwärts auf der E18 Richtung Salo",
+    "🎯 15:30 — Lohja ABC HPC Schnellladestop (150 kW Recharge, ~25 Min., Café). Das ist der natürliche Pit-Stop nach 60 km — in Mathildedal selbst gibt es keinen Schnelllader",
+    "16:30 Ankunft Hotel Mathildedal — WICHTIG: zwei separate Standardzimmer gebucht, nicht ein Standard-Twin (das wäre zwei Betten in einem Raum, verstößt gegen unsere Zwei-Schlafräume-Regel). Direkt über mathildedal.fi reservieren",
+    {
+      "highlightRef": "Mathildedal — Eisenwerksdorf-Spaziergang",
+      "note": "17:00 — kostenloser Außenrundgang durch das Eisenwerksdorf von 1850: Geschichts-Pavillon mit dem Winha-Schneemobil und dem Teijo-Wagen, die Brauerei (Mathildedal Bryggeri), der Schreiner-Hof, die Alpakas am Hof"
+    },
     {
       "restaurantRef": "Café Mathildedal",
-      "note": "18:00 leichtes Abendessen — die Hauseigene Bäckerei, Zimtschnecken (kaneelipulla), Sauerteigbrot mit Eiern von Mathildedaler Hühnern. Der ausführliche Schmelzhaus-Lunch kommt morgen Mittag bei Bistro Bruket"
+      "note": "18:30 leichtes Abendessen — die Hauseigene Bäckerei, Zimtschnecken (kaneelipulla), Sauerteigbrot mit Eiern von Mathildedaler Hühnern. Der ausführliche Schmelzhaus-Lunch kommt morgen Mittag bei Bistro Bruket"
     },
     {
       "highlightRef": "Matildanjärvi — Lakeside Sauna",
       "note": "🎯 21:00–22:30 — Natura Vivas private Mietsauna am Matildanjärvi-See: holzbeheizte Terrassensauna, Sandstrand für die kurze Plunge ins 8–12 °C-Wasser, 1,5-Std.-Slot komplett für euch (~€90 für zwei). Vorab über naturaviva.fi gebucht. Das authentischste finnische Saunaerlebnis der Reise"
     },
-    "Schlechtwetter-Backup: Tallinn-Outdoor durch Kiek in de Kök Bastions-Tunnel ersetzen (90 Min. Untergrund). Mathildedal-Abend bleibt im Boutique-Hotel-Hauptgebäude wettergeschützt"
+    "Schlechtwetter-Backup: Suomenlinna durch Oodi Zentralbibliothek + Felsenkirche ersetzen (beide indoor, 1,5 Std. zusammen). Mathildedal-Abend bleibt im Boutique-Hotel-Hauptgebäude und Café wettergeschützt; die Sauna ist holzbeheizt-überdacht und funktioniert auch bei Regen"
   ]
 }
