@@ -1,0 +1,34 @@
+{
+  "dayNumber": 24,
+  "date": "2026-05-23",
+  "status": "planned",
+  "title": "Rostock-Ankunft und Heimfahrt nach Aalen",
+  "subtitle": "Letzter Tag — 05:30 Disembark, A19/A24/A7 durch Deutschland, abends auf der Schwäbischen Alb",
+  "locationId": "aalen",
+  "previousLocationId": "rostock",
+  "overnightLocationId": null,
+  "additionalLocationIds": [],
+  "transitLocationIds": [],
+  "driving": {
+    "distance": "~880 km",
+    "duration": "~9:30 (inkl. Ladestopps)",
+    "mode": "drive",
+    "routeDescription": "Rostock Seehafen → A19 südwärts → A24 westlich zum Dreieck Wittstock → A7 südwärts über Hamburg-Umfahrung → Hannover → Würzburg → Aalen-Region. ~880 km, 2–3 Ladestopps.",
+    "encodedPolyline": "k|ciImbzhAxDuoKyyAclDnq@ky@~{AtSb}Cv@|zCsP~oDcSzpDtb@jwCkOxfByqBhlFkxEtqDmf@|vBstAnmBu}CdrCdBbwGokDtnCgmA~jCawB`zCabA`_ChSnkHmgA|iCdr@v}C~aG~yBbu@`cCawDnrBq|@j|AycCfaCoRdbC{HpnA}hAdkBixCvnB{rBhnE_qBjqBm|AluBaR|{Fk@hsE|eChnF~IvaE_ZzmHp`@xwFirCrpEmbIvkCekA|tBadDdsDcoDznHkrJvaFmpK|}Do}EnzEg{B~zCweC|eFeTprCysBlzAwcEvrCkvNjaCgkOdmHnd@ndFljCdqE|jAjaCyItkCnu@hiE`EhsDoFxgChfC`|CncAtaCfz@vmA`hFxjBdaJrlBhfAvdCpDjcCwVftAiuGtgCyqGx}@}h@z`Dvh@nlBoy@l_CnjArcBhkBjvDv}I|gAlkGt|AppB`iBbxB`tD`rHhlFldHbtDpyEpsGvaNdoErdOnrGz~ChjGzjIvlC`~HfcC~bBx{EvtFpwEnkGzoGfrBvlJhdA|aIhsB|wHy^|zFyy@hzFkjB~`Dbe@jnDndBtuCvlA~aDan@ngDb[xxD|uC~qGpaJv`HvnJzjEviEffHrmFp_CjdBrpE`H`~F`uAhyHx}CxbDbsIfaBnnCzkCbKfvFin@tyF}pAdeDurCjrA}mAdfDy@~bFxmEl~BztAtrAoa@|cAp^huF|sDnfC~qBbtL|bDf~CscCfeBav@dcDjgA~zB_iAnuDl`@rhB_Wf}@ni@h`DftDnt@jSn\\qr@bcAecBt{ApP|xAsApxDkv@fgFqiBpqFrjDrzAhg@daBkSv{Gx}EzvBwHtpBnb@`pDtvFfbD~rH~bAncEpmCji@tuCj~@xeBy[xcH~IhwH`OrsBdo@x]veE`qAfuGh~EhwBneClHliAng@|fAw|Apy@sU`~@pc@tuDiw@~x@fTbq@~tClu@hpAniB~y@vhCsRnfCzxAdyApcDvdC`~Dhr@pgDhcB~}BpcBzr@t|C`uBvoBha@tsFndFlfNxtNxzBxS~k@buFrgFdnIzjEb`KhcBz|PmnAtyOlr@tmGrK~|GhkBnrGzgDx|HxeAd~Jsq@hnGm\\pqKjlA`rEsUbgFlfAdaMfyAzvMxz@jqE``BniDz{Aac@joCqaClaC}d@pyB~t@|qA~{C`aBxyBbvCtgBdhBzfBzbCsiAhjDy^d}Fby@rqHio@nkEpxDuYdkA|Xn~A~{AldDzvB`aApB`g@`WvRlq@kR"
+  },
+  "evCharging": {
+    "stopsNeeded": 3,
+    "notes": "Hervorragendes deutsches HPC-Netz. Empfohlene Stopps: 1) Ionity Hamburg-Maschen (A1/A7) für die nördliche Etappe, 2) Ionity Würzburg/Kitzingen oder EnBW HyperHub Untertürkheim-Geiselwind für die Mitte, 3) optional ein dritter Top-up vor Aalen falls nötig. Mit We Charge M-Tarif gut planbar.",
+    "criticalLevel": "green"
+  },
+  "activities": [
+    "05:30 — Disembark TT-Line Rostock Seehafen, kurzer Auto-Check, dann sofort auf die A19 südwärts",
+    "06:30 — Frühstücks-Stop an einer Tank- und Rast-Anlage oder bei einem Bäcker in Rostock — die ersten 100 km schnell hinter sich bringen",
+    "🎯 ~09:30 — erster Ladestop im Raum Hamburg (Ionity Hamburg-Maschen oder EnBW-Hyperhub), ~30 Min. Pause für Kaffee",
+    "Weiter auf der A7 südwärts durch Niedersachsen — die längste durchgehende Strecke des Tages",
+    "🎯 ~13:30 — zweiter Ladestop im Raum Würzburg oder Kitzingen, kurzer Lunch-Stop an der Raststätte",
+    "A7 durch Franken — vertraute Landschaft, der Schwabenanstieg beginnt",
+    "Letzter Optionsstop bei Bedarf — Ulm-Seligweiler oder Aalen-Süd",
+    "🏁 ~17:00 — Ankunft Aalen. 24 Tage rund um die Ostsee, 9 Länder, 4 Schiffsfahrten, ein langer Schweden-Stop in der Wahlheimat, ein Bunker, ein Wasserfall und unzählige Eindrücke später"
+  ]
+}

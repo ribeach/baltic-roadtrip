@@ -1,0 +1,33 @@
+{
+  "dayNumber": 22,
+  "date": "2026-05-21",
+  "status": "planned",
+  "title": "Halmstad — Letzter Tag am Hagöns Naturreservat",
+  "subtitle": "Donnerstag — packen, Auto auf 100% laden, Abschiedsabend in der Wahlheimat",
+  "locationId": "halmstad",
+  "previousLocationId": null,
+  "overnightLocationId": "halmstad",
+  "additionalLocationIds": [],
+  "transitLocationIds": [],
+  "driving": null,
+  "evCharging": null,
+  "activities": [
+    "Letzter Morgen am Hagöns Naturreservat — langes Frühstück, Strand-Spaziergang, in Ruhe ankommen, dass es vorbei ist",
+    "Packen und das Stuga aufräumen, Wäsche fertig machen, alle Reise-Souvenirs verstauen",
+    "🎯 Auto auf 100% laden — entweder am First-Camp-AC-Lader über den Tag oder am Halmstad Eurostop Recharge (E6, 5 Min. Fahrt) für eine garantierte Vollladung. Morgen ~270 km nach Trelleborg, danach Nachtfähre ohne Ladelust",
+    {
+      "restaurantRef": "Hanôi Quán",
+      "note": "Mittagessen — der vertraute Vietnam-Favorit als ruhiger Abschluss-Lunch"
+    },
+    "Nachmittag spontan: ein letzter Bummel durch die Halmstad-Innenstadt, vielleicht ein Eis bei Riccardo, ein Kaffee am Stora Torg",
+    {
+      "restaurantRef": "Pio Restaurang & Bar",
+      "note": "Abschieds-Abendessen in der Wahlheimat — Storgatan-Institution seit 1969, Planka auf dem Eichenbrett, die richtige Schließung des Halmstad-Kapitels"
+    },
+    {
+      "nightlifeRef": "Halmstad Brygghus",
+      "note": "Letztes lokales Craft Beer — IPA und NEIPA aus der alten Slottsmöllan zum Abschluss"
+    },
+    "Früh ins Bett — morgen früh raus, ~3 Std. Fahrt nach Trelleborg plus Boarding"
+  ]
+}

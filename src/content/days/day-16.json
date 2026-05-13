@@ -2,41 +2,40 @@
   "dayNumber": 16,
   "date": "2026-05-15",
   "status": "planned",
-  "title": "Glasriket → Store Mosse → Danska Fall → Halmstad",
-  "subtitle": "Letzter Reisetag — eine Moor-Klammer zu Ķemeri, ein 36-m-Wasserfall mit Eisenwerksruinen, Ankunft am Halland-Meer",
+  "title": "Halmstad — Mjellby Konstmuseum und Schwedische Surrealisten",
+  "subtitle": "Freitag in Halmstad — Halmstadgruppen am Vormittag, Eis bei Riccardo, Abend mit lokalem Bier",
   "locationId": "halmstad",
-  "previousLocationId": "kosta-smaland",
+  "previousLocationId": null,
   "overnightLocationId": "halmstad",
   "additionalLocationIds": [],
   "transitLocationIds": [],
-  "driving": {
-    "distance": "~260 km",
-    "duration": "~3:30",
-    "mode": "drive",
-    "routeDescription": "Kosta → Växjö → Värnamo → Store Mosse (kurzer Abstecher 30 km nördlich) → zurück auf die Rv25 → Ljungby → Danska Fall (20 km östlich von Halmstad) → Halmstad. Klämdag (Brückentag) in Schweden = leichter Verkehr, viele kleine Cafés geschlossen, aber Naturreservate funktionieren wie immer.",
-    "encodedPolyline": "wj|yI{`_}AjBhC@jB|DnCvTsAfDgA|BdAfBpIjH|RjZng@p\\hh@`MfSnRfQtPzLfNnSlTrh@`Qh`A~Mxp@nIjx@`SpdBdS|U``@xSvXbXl`@nb@pcAnt@rfAjw@`NhRoCxLaGzPuErf@HbTcOnB}WdNkY~Oo_@d\\}Xrf@aObj@iLlqBlAx|@fDrbAu^dsBaDt_@pAre@pCt{AkCxj@uM`{@ab@xcCyFtMiQdSidAdaA{b@nd@ckAbfBklBtdD_lAdtBsVdYyQlb@kXfkBsJxcClAryBuGvfAw@~nA_MrdAmMdmAmJpbBcMxdAuPnkAwIzaAz@xjAbF~eB|Blf@pC`QiA~OiTpQ_H~DyNg@cH_A}WuDmSh@sLlIyFxPyCn`AzMbrCtFj_@bS~q@~S~aA`Ehh@Dje@}Fxe@iUrxAyKpmAEr~@dIjzB{Ddl@oi@j_Cgb@ziC_n@rtC}Mnv@wDpz@gBxzCuFjuAZn|AbFb|@zV~lBjNbfB|@j`AvJpt@n\\r|@pQjmA`Bp[mCloA|@jg@pQxzCmAdmAgClYwD~a@cCrk@tAdlAbH`iAzKvoBx\\`pBrSrbDpV|uB|B~t@qAx_AP~dAjJ|iAlNznAbH~kA~It|@bW|iAzXtyBdMfnAhPr_Apn@pjBrKjd@|KlcAzBloBxI|`CzG|_ApDjpAd@hyCiBvyA~DleA~H~qAi@z_@oMnfAqE~d@mDlI{Ip|@mP|l@hKCh\\~W|b@zq@ja@zeAd[|h@h]~YpZ|KrKvAf`ApJjKxJdMnr@lYdaA~WjlA~Mxt@fNdb@dd@tmAxSdbApQ`i@xOxZvdAzdBhk@ftAlLhu@tEjt@~S`bBhEru@|Cl|BaClwAHnmAbBpwBgBzy@iMdcBaBdl@rBfl@|IhbBpO|rAzIfu@aBjaAqQvwA{@z_@rEjq@xFjs@|D`hBnCbiB~@jfB`M`z@lm@|hCrJhm@rAnt@b@r_A`If~@vNxeAdEhdAnGvp@nLhWtOdm@zIzcAbHzhAh@ffBxJ~z@rGfnAfGpzA`LzaAdAxrA~Lhx@rKzeAhFx{BmIx}@iBxt@eBnoBb@baAo@thA}_@``DyOjzArC~ZlM|_@`AzXwC|s@qDpYdFz`@lIz`A|^~wAbJxhALzi@`Gvi@vIdc@|CfdAwJxzBhGp`@|Mvb@`Mhk@|Pde@fO~j@rH|m@`Hlv@tBvn@rHr_AtJtg@`UvlAx}@teE`RdaCvExuAZngAfDnVhGd_@eAjI}BvG{BbVaDcAqB|Cu@fG"
-  },
-  "evCharging": {
-    "stopsNeeded": 0,
-    "notes": "Im Kosta Boda Art Hotel über Nacht an einem Destination-Lader voll laden, dann reicht die Reichweite bis Halmstad. Bei Bedarf am Värnamo Ionity-Hub oder am Halmstad Eurostop Recharge nachladen.",
-    "criticalLevel": "green"
-  },
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    "09:30 entspanntes Frühstück im Kosta Boda Art Hotel — die Glas-Bar als unfreiwilliges Frühstücks-Entertainment",
-    "10:00 Aufbruch westwärts — Rv25 Richtung Växjö, dann Värnamo",
+    "Frühstück am Hagöns Naturreservat — Vögel im Schilfgürtel, schwedischer Mai-Morgen",
     {
-      "highlightRef": "Store Mosse-Nationalpark — Wibecksplatsen",
-      "note": "11:30 — kurzer Abstecher 30 km nördlich nach Hillerstorp. Schwedens größtes Hochmoor südlich von Lappland — 8.000 Jahre alt, Sonnentau, alte Sand-Dünen-Inseln. 45-Min.-Bohlensteg-Walk reicht, plus 15 Min. naturum-Besucherzentrum. Schließt die Moor-Klammer zum Ķemeri-Bohlensteg, den ihr am 7. Mai gegangen seid"
+      "highlightRef": "Mjellby Konstmuseum",
+      "note": "Vormittag mit der Halmstadgruppen — schwedischer Surrealismus, der einst mit Dalí und Ernst auf Augenhöhe ausstellte. 1–2 Std., Kombiticket für Hallands Konstmuseum merken"
     },
-    "13:00 — Picknick-Mittagessen am naturum (im Park selbst kein Food Service — Brot und Käse aus Kosta einpacken)",
-    "13:30 — zurück auf die Rv25 westwärts: Värnamo → Ljungby → Halmstad-Region (~120 km, 1:45)",
     {
-      "highlightRef": "Danska Fall — Wasserfall und Eisenwerksruinen",
-      "note": "🎯 15:00–16:30 — der 36-m-Wasserfall an der Assman, eingefasst von Buchenwald, mit den 1727er Eisenwerksruinen auf der Insel im Fluss. 2 km Schotterweg zum Hauptfall oder der 2,3 km 'Blue Path' über die Ruineninsel. Der Tag-16-Schluss-Anker mit perfekt kombinierter Natur-und-Industrie-DNA. GPS 56°42'33\"N, 13°7'25\"E. Kostenlos"
+      "restaurantRef": "Hanôi Quán",
+      "note": "Mittagessen — persönlicher Favorit aus der Halmstad-Zeit. Authentische Phở für eine entspannte Mittagspause"
     },
-    "16:45 — letzter 20-km-Drive nach Halmstad. Optional 8 km westlich kurzer Foto-Stop am Tylösand-Strand (Schwedens berühmteste Westküsten-Sanddüne)",
-    "17:30 — Ankunft Halmstad. Drei Tage zum Ankommen, bevor am Montag 18. Mai die Remote-Work-Woche startet",
-    "Halmstad-Endcheck: Recharge-Schnelllader am Halmstad Eurostop (E6) oder Mer am Hallarna für die kommende Arbeitswoche, falls nötig",
-    "Schlechtwetter-Backup: Danska Fall durch einen kürzeren Halmstad-Slott-Spaziergang ersetzen, der vom angrenzenden Café-Terrassen überdacht ist. Store Mosse bleibt funktional auch im leichten Regen"
+    {
+      "highlightRef": "Hallands Konstmuseum",
+      "note": "Nachmittag — die Halmstad-Gruppe in der zweiten Sammlung, schwedische Moderne und wechselnde Ausstellungen"
+    },
+    {
+      "restaurantRef": "Riccardo Glassfabrik",
+      "note": "Süßer Zwischenstopp — handgemachtes italienisches Eis in der alten Glasfabrik in Möllegård, gilt als das beste Eis in ganz Halland"
+    },
+    {
+      "restaurantRef": "Fridolfs Krog",
+      "note": "Schwedische Hausmannskost zum Abendessen — Husmanskost-Klassiker, gemütliche Atmosphäre"
+    },
+    {
+      "nightlifeRef": "The Fox & Anchor",
+      "note": "Gastropub am Lilla Torg mit 240 Bieren, für Whisky-Liebhaber besonders interessant"
+    }
   ]
 }

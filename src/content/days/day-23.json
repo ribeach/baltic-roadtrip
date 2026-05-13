@@ -1,0 +1,35 @@
+{
+  "dayNumber": 23,
+  "date": "2026-05-22",
+  "status": "planned",
+  "title": "Halmstad → Trelleborg — Nachtfähre nach Rostock",
+  "subtitle": "Letzter Schweden-Tag — E6/E22 südwärts an die Skåne-Spitze, TT-Line-Nachtfähre über die Ostsee",
+  "locationId": "rostock",
+  "previousLocationId": "halmstad",
+  "overnightLocationId": null,
+  "additionalLocationIds": [],
+  "transitLocationIds": [],
+  "driving": {
+    "distance": "~270 km",
+    "duration": "~3:30 (plus Nachtfähre)",
+    "mode": "drive",
+    "routeDescription": "Halmstad → E6 südwärts über Helsingborg → Malmö-Bypass → E22/E65 nach Trelleborg (~270 km, 3:00). Optional Mittagsstop in Lund oder Malmö. TT-Line-Nachtfähre Trelleborg → Rostock (typisch ~22:00 Abfahrt, ~05:30 Ankunft am nächsten Morgen, ~6:30 Crossing über die Ostsee). Keine Lademöglichkeit auf der Fähre.",
+    "encodedPolyline": "ie|xI}qnmAbeAy~Cfn@yvBxk@`Cp_AcDb|@yx@vx@}NzaAeUxc@mb@roA_bBlhA}l@hk@yBpm@yY``BqoApy@gUll@pQpqAfJbxB`o@loDfaBjw@sC|j@m[rpAql@hcErv@`zCrt@bpBxM~d@}Dnk@fNrk@xnAv}@fa@baCzNn|Anc@txBlr@dfB|WloA{Y~lB[j|@fEp`Ax}@vwAvtCtxArjAdcDfo@`hA_Dr`Alh@~u@b|@rvAh_BlfA~lAra@j|@jy@xz@ndA|OrmAqSfwDk\\tlDpf@tbBmBhzBacAzzDkbDv`A_y@vjAgzBvw@elApn@kf@puBukA|wA}Kpi@gWh_@yh@lhAwsBhu@ydBtcBwgAhxAomBl_@}f@~i@aVd`B_g@dmAgjBrq@_p@r[aw@ve@uwBnlAeiHvVux@li@_r@rvBor@nxEgM|cBfH~eA}c@p{Ccx@z{AyVt}AhMtkAxz@`v@hrBbmAtyB|Tl}C|O`dJgOpqDev@|_BiZpu@wPx{AE`fEkUh|DyoAjhJwaAx|DwmA|hDseCzeIsa@z~AvGjeCpLfgIhDnmJfqApjBxBtcCaJrfDrBpjCyg@x}@}d@~i@qJllBbZz}HfvAjrGz|BfhH|eCjpEdj@`s@blAzt@ht@drAhVrl@pf@lc@feA~Vr|@|pAxlB`{@`n@`f@ve@rjBxB`lAbs@zy@hx@xXjcAkDxiAnMxl@pMj`@t^|i@~v@`r@dQ~sBzb@lmAtRpq@rq@vfBbbApf@`s@rZjqAdm@r}@~{@vYjrBnq@xsB`|@njB~gA~~@`g@jj@dy@zsBpo@tgAz\\xoAvXrh@mGneApPxgA|cAlz@lXbfAbPzq@~g@`\\nc@f`Arj@d`AvOdeAgH|`AaBfgAgSvkBunBzdBenAnuA}|Afa@yRfp@qDt{Aj[dvAi_@djAsr@`cAcg@`fApDfgAxn@bz@hbAtzArjCbmAfmCtw@ru@vcB`y@rx@fd@hp@zy@~qA|cFnX`tAK`[hm@oU~wAgU|~@sc@bzAoZ|sCsPx~@o~@`SeeBzYgyA~]ef@~rAiKlp@dWlO|PdfAim@ls@oHhlAnQbuBpm@xqAvk@z_Dya@zuI}sCzeDbbAlK}DnuMarBniUeuDjiAqRnrAk[hsJahF|iOkfIbaBo|@n[yPftCcyA~aAiHrv@|QpCeIsEs@jDgGbZo@^}KdIkc@bPoQtOkZmA_TtHTdPb{CcTriCj@rx@yE}EvtBkP~pAGdJlGfDaVhS}iAx]_nA~Xoc@@_F"
+  },
+  "evCharging": {
+    "stopsNeeded": 1,
+    "notes": "Bereits am Vorabend in Halmstad auf 100% geladen. Auf der E6 zwischen Helsingborg und Malmö liegen mehrere Ionity-Stationen (z.B. Helsingborg Süd, Lödde) als Sicherheits-Backup. Vor Trelleborg-Boarding sicherheitshalber den Trelleborg Recharge oder Ionity Trelleborg ansteuern — danach folgt der ~880-km-Tag durch Deutschland, in dem Reserven gut sind.",
+    "criticalLevel": "green"
+  },
+  "activities": [
+    "08:30 Aufbruch aus dem First Camp Hagön — Stuga-Schlüssel an der Rezeption abgeben",
+    "E6 südwärts entlang der schwedischen Westküste — vorbei an Helsingborg mit Blick auf die dänische Küste",
+    "🎯 12:00 — Mittagspause in Lund oder Malmö. Lund-Domkirche (kostenlos, 15 Min. Stop) als kultureller Abschluss, oder Malmö-Möllevångstorget für Streetfood",
+    "13:30 — weiter auf der E22/E65 nach Trelleborg (~50 km / 50 Min.)",
+    "🎯 15:00 — Ankunft Trelleborg, optionaler Schnellladen-Top-up am Trelleborg Recharge oder Ionity Trelleborg",
+    "16:00 — Spaziergang am Trelleborg-Hafen, klein und überschaubar, Imbisspause",
+    "20:00 — Auto-Check-in für die TT-Line-Nachtfähre nach Rostock. Online-Check-in vorab erledigt, Fahrzeug-Gate schließt ~45 Min. vor Abfahrt",
+    "🎯 22:00 — TT-Line Nils Dacke oder Peter Pan, Kabine mit Außenfenster gebucht. ~6:30 Crossing über die Ostsee, voll ausgestattet (Buffet, Bar, Sauna an Bord)",
+    "Abendessen im Bord-Restaurant oder Buffet, dann früh in die Koje — morgen 05:30 Rostock-Ankunft und der ~880-km-Marsch nach Aalen"
+  ]
+}

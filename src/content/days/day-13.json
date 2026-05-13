@@ -1,61 +1,53 @@
 {
   "dayNumber": 13,
   "date": "2026-05-12",
-  "status": "planned",
-  "title": "Helsinki am Vormittag → Mathildedal — Suomenlinna, dann Eisenwerksdorf und Sauna am See",
-  "subtitle": "Suomenlinna-Inselfestung am Vormittag, Lachssuppe in der Markthalle, Nachmittagsfahrt nach Mathildedal, lakeside Sauna am Matildanjärvi am späten Abend",
-  "locationId": "mathildedal-teijo",
-  "previousLocationId": "helsinki",
-  "overnightLocationId": "mathildedal-teijo",
-  "additionalLocationIds": [],
-  "transitLocationIds": [],
+  "status": "completed",
+  "title": "Lohja → Fiskars → Mathildedal → Turku — Nachtfähre nach Stockholm",
+  "subtitle": "Design-Werkstätten in Fiskars Village, ein kurzer Naturpfad am Matildanjärvi, Ladestop in Paimio, dann 20:55 Viking Grace durch den Turku-Archipel",
+  "locationId": "turku",
+  "previousLocationId": "lohja",
+  "overnightLocationId": null,
+  "additionalLocationIds": [
+    "fiskars",
+    "mathildedal-teijo"
+  ],
+  "transitLocationIds": [
+    "fiskars",
+    "mathildedal-teijo"
+  ],
   "driving": {
-    "distance": "~135 km",
-    "duration": "~1:45",
+    "distance": "~180 km",
+    "duration": "~3:30 (plus Nachtfähre)",
     "mode": "drive",
-    "routeDescription": "Helsinki Süd-/West-Innenstadt → E18 westwärts Richtung Salo → Abzweig nach Süden zur Küste, Ankunft Mathildedal. Optionaler Lohja-ABC-HPC-Stop (~60 km) für die Schnellladung.",
-    "encodedPolyline": "{|fnJ}wewCfNpk@Mz@bF~GxCxMbEhzA{Kf[eAfo@|VtoDzC`_@oF|_Ak`@dvDcCzcCxEn_DfKj{CiCrN}FSm[aLsQqCqO~GeQxSuW|IkUdF}T~TeOfEuVmN{UuEyNpDiCwItCc@zKts@`PfxBqDnpA}_@tsA}`@xvBsk@f}CuLdtAkf@rcF}Ntq@_d@pw@_e@fv@yHrXuM|oAq]peCyUraBwEfhAq`@paBwZxo@cRdmAac@bnBg\\f^_Tx`AiQz~A{S||@aLfuAqOzyAc@daA}C|pBlO|wCoIxbAeQfeAgSfnAkRtvBZllAlLtoD_JheDrB`gAhMrz@vu@lnClXrtAfHzz@`MtdDUdhAkMdlAyc@drBwr@~cBaX|q@iTzoAke@vwEgHpkC}Sdz@qZxl@gYdsByVp{@_\\|[ie@r}@qYvjAyf@nbAal@~k@}[pl@mV|`AkJ|z@wIhpBw\\zgB{OftBcFjqA_OvmCzFjaBbZveEva@rvBhNd{AWls@k@|{Bsr@p`D_\\xbBuNbbBeb@v|BkLbwBGjmErBpfAbZr_Bl`@|bBnCphAyEpgFlEh_B|Lv_AxXtiBzKjzB{NzrEcGfz@iUxhAlAvJnJhGdOhVfAfTwXd~@_]`rAe@ffAfKvkAhI~nAeNfhAiBht@`Dl{@dEbiAkE``BtBdrB`DvDxGgAjSfKpY|j@tRxQlTvVrP`Zt]zz@rSjQnM~Az`@|[`]p{@n\\`R|\\~d@jn@dtBn]xYjWiDh|AmeAtd@ePj^}Slu@mPr`@wg@bNyQlTqGbl@eJ|WiQl_@mNbmArl@ny@nXbgAlTrh@`o@pNpIbWs@nIgAv@|I|PlcBnRbuA`Phi@n[nf@re@hf@hd@`oAv[`hAr_@x|BbYjzAb@~r@sLxl@kW~vAuNhiAgXh`AsCrs@nEjt@~FvjBeCpr@kFl^iMlOuSrPsShv@mHpaAvH`{@j[zfBtLhx@pAll@nZr~A|SpiArNjjCpF~_@qElw@Pbz@pNxi@|TbrAzYxuAf^|uA~Nxy@rGrUr@wEnDgb@fJ{TjU~DpM{@bLcF|OuM`[kX~[yXnRma@pO^pPwK~VhMtGqLtOuGjUw^`Iuq@nKse@rJ?pGlCfKrD~GgGzPcOzMmDtKtEpEm]pKyGxNuJzCuZjVyk@~G_FxHlMfOr|@|Fdp@`QtFpUh@lS{EdIuChCpFzDxD~GgAjMaJhOqB|CwH~Ea@~NtIzHfF|LuM`OjE~KmFbEgPrKeJxJmHpEic@vDga@vA}BtBdCr@nHt@jN~C|KnEjF"
+    "routeDescription": "Koivulan Kartano → Fiskars Village (~50 km, 50 Min. über die 25/E18) → Mathildedal/Teijo (~45 km, 50 Min. südlich über Salo) → Paimio (Ionity-Stop) → Turku-Hafen (~50 km, 45 Min.). 20:55 Viking Grace nach Stockholm — keine Lademöglichkeit auf der Fähre.",
+    "encodedPolyline": "uxvnJeu{qC|JiFxJ~DrH~Aw@qF~KjH|mBzsEff@je@rq@oAntAn|AbdAvTnb@p]tPfr@nCpx@jZ|}Adw@faDn~@nqD`^zcBpo@lnA``@~_AnSr_CdJxJeNb`@w^xWo]hKsZ|k@_f@nlB_t@hyBae@zqCqc@`e@wMx`@iXlOg_@zG_Vbk@eM`aDYhiA}YtpBs[tbBig@xr@yJ`V|D~Xzd@zk@nz@bgBb]|^v[pw@~j@bvBnNf~@bYdo@hhAhyBhi@vnAf]lLxr@lr@r[kElLzXnr@ty@z[~@jXkTlb@@tVvJxRoSdHuN~CtT{@xi@bXhmB`Z`aBd@v_B}C|yBpMp`BxBtsBxIdyAfPxSbNfaAgL`pAtGvuAjA~gAbZb}@`Pdk@x@n{@cL|s@vF`_AYj{@`Pr`Atg@`dBkhAbmDwe@tcCms@hv@}aBbr@ss@hh@sg@rpAil@riA_c@x^aaAhBiy@x\\gg@jc@oUzj@yt@zyA}iBxsCkaAdv@eJb@vGd`Avp@zvDhuAroB``AjtDbY~vBbJjwAmp@pkDi_@byCtM~qBwEbhBak@jw@iYl_Crs@`tE`i@lwDhR~mC`K|}@_BdwBpn@zgD~}@fxDfFdM`@aMzD_\\dLeQlUpCr[}LnX_Rx_@o]fV{c@fZ_Hf]iAzJ~@nGaM`ZeSdZm{A~PiJhSfGfj@w[|I`CrEg^`\\kYdLem@tV}WjYzfBvYb\\tl@{GfPhIbVeM`]}H|WhLpLiJpOxCrQeX|XmVvIwdAhOfk@{HuY}CyQ_HpYqLrx@gUnR}HfNiPkAuVrHyLaJmMCeZvPgSzEiGmMeTnKgj@eDyI{o@oLys@uSsWog@`tAkVpe@oUeAqg@jVmUmGmLfc@q^|uA}VbQaWcHkb@dIoR|_@yu@vq@q^tXic@eA{L`KcEbXo@lTuDuEeNwp@}]_{Ag^k`BaDaRqOtN_]~]kn@`o@mj@~yAo]tvAmFtiCou@~kBmn@tiBqrAndAc^`eBe\\fq@yZjHgoA{yAs`@_c@}We{@_f@}aB{]{dBaZ_Kci@s@{\\qYyd@jEue@ee@ed@}\\{VmUyRiF}^eo@em@{~AmOcNwV`AqZni@c`@zj@uIds@iF~Vwi@~i@a[h_AuXfA_h@_Vs]bCs]fOs]xU{b@uOwp@w^{{@hD_w@`p@uu@lPuT_h@uMuO{LjeA}d@brAer@|jF}PtjJ}CvyG`f@`vExiArpErU`cCe@h{CvKvcDcH|cD{n@v~As}@`bAmrAncCcb@nr@pCnnAxNdm@tM{SfJlSxF_E"
   },
   "evCharging": {
     "stopsNeeded": 1,
-    "notes": "Aus Helsinki mit ~80% starten (Hotel-Lader über Nacht). 🎯 Lohja ABC HPC (150 kW Recharge) ist der natürliche Pit-Stop nach 60 km — Café und schnelle 25-Min.-Pause. In Mathildedal selbst keine Schnelllader; die echte Vollladung folgt am Mittwochnachmittag in Paimio (Ionity 350 kW, 6 Plätze) vor der Stockholm-Fähre.",
-    "criticalLevel": "green"
+    "notes": "🎯 Paimio Neste K Ionity (350 kW, ~€8 mit We Charge M-Tarif) ist der wichtigste Lade-Hub der Strecke — die Fähre hat keinen Lader, und morgen früh muss der Wagen in Stockholm Stadsgården mit voller Reichweite vom Schiff. Reservebackup: Turku Skanssi Recharge (150 kW, 5 km vom Hafen).",
+    "criticalLevel": "yellow"
   },
   "activities": [
-    "08:30 Frühstück im Hotel — keine Eile",
-    "09:30 — Marktplatz (Kauppatori) am Südhafen, von dort die Suomenlinna-Fähre (15 Min. Crossing, ~€5 Hin+Rück, alle 20 Min. ab Kauppatori)",
+    "Spätes Frühstück im Koivulan Kartano am Seeufer",
+    "Aufbruch nach Fiskars Village, ~50 Min. Fahrt über die 25",
     {
-      "highlightRef": "Festung Suomenlinna",
-      "note": "🎯 09:45–11:30 — UNESCO-Inselfestung auf sechs Inseln: Bastionen, Tunnel, das King's Gate am Südufer, das U-Boot Vesikko (Außen), kleine Cafés in den ehemaligen Kasernen. ~2 Std. ist sportlich-zackig — wer mehr Zeit will, lässt die Innenmuseen aus und konzentriert sich auf den Walk-Loop"
-    },
-    "12:00 Rückfähre nach Kauppatori",
-    {
-      "restaurantRef": "Alte Markthalle (Vanha Kauppahalli)",
-      "note": "12:30 Mittagessen — die historische Markthalle von 1889 direkt am Hafen. Lohikeitto (Lachs-Sahne-Suppe) ist hier Pflicht, dazu Roggenbrot und ein Stück Rentierwurst zum Mitnehmen"
+      "highlightRef": "Fiskars Eisenhüttendorf & Werkstätten",
+      "note": "Vormittagsbummel durch das Eisenhüttendorf von 1649 — über 30 aktive Werkstätten von Glasbläsern, Keramikern und Messerschmieden, die backsteinerne Industriearchitektur am Fluss"
     },
     {
-      "highlightRef": "Dom von Helsinki",
-      "note": "13:30 — kurzer Loop: Senatsplatz, breite Treppe vor dem strahlend weißen neoklassizistischen Dom, daneben das Universitätsviertel und der Esplanadi-Park"
+      "restaurantRef": "Fiskars Wärdshus",
+      "note": "Mittagessen im ältesten durchgehend betriebenen Gasthof Finnlands (seit 1836) — klassische nordische Küche, gemütlich-rustikale Atmosphäre"
     },
+    "Weiterfahrt südlich nach Mathildedal/Teijo, ~45 km / 50 Min.",
     {
-      "highlightRef": "Felsenkirche Temppeliaukio",
-      "note": "14:00 — falls Zeit reicht: in den nackten Fels gesprengte Kirche mit Kupferkuppel, ~15 Min. Innenbesuch, atemberaubende Akustik. Sonst direkt zum Auto"
+      "highlightRef": "Teijo-Nationalpark — Matildanjärvi-Rundweg",
+      "note": "Kurzer Naturpfad-Stop am Matildanjärvi — Kiefernwald, Moor-Bohlensteg, Granitklippen. Nicht der volle 5,5-km-Rundweg, sondern eine 45-60-Min.-Schleife am Seeufer"
     },
-    "14:30 — Auto holen (Aimo Park Kasarmitori oder Hotel-Tiefgarage), Aufbruch westwärts auf der E18 Richtung Salo",
-    "🎯 15:30 — Lohja ABC HPC Schnellladestop (150 kW Recharge, ~25 Min., Café). Das ist der natürliche Pit-Stop nach 60 km — in Mathildedal selbst gibt es keinen Schnelllader",
-    "16:30 Ankunft Hotel Mathildedal — WICHTIG: zwei separate Standardzimmer gebucht, nicht ein Standard-Twin (das wäre zwei Betten in einem Raum, verstößt gegen unsere Zwei-Schlafräume-Regel). Direkt über mathildedal.fi reservieren",
-    {
-      "highlightRef": "Mathildedal — Eisenwerksdorf-Spaziergang",
-      "note": "17:00 — kostenloser Außenrundgang durch das Eisenwerksdorf von 1850: Geschichts-Pavillon mit dem Winha-Schneemobil und dem Teijo-Wagen, die Brauerei (Mathildedal Bryggeri), der Schreiner-Hof, die Alpakas am Hof"
-    },
-    {
-      "restaurantRef": "Café Mathildedal",
-      "note": "18:30 leichtes Abendessen — die Hauseigene Bäckerei, Zimtschnecken (kaneelipulla), Sauerteigbrot mit Eiern von Mathildedaler Hühnern. Der ausführliche Schmelzhaus-Lunch kommt morgen Mittag bei Bistro Bruket"
-    },
-    {
-      "highlightRef": "Matildanjärvi — Lakeside Sauna",
-      "note": "🎯 21:00–22:30 — Natura Vivas private Mietsauna am Matildanjärvi-See: holzbeheizte Terrassensauna, Sandstrand für die kurze Plunge ins 8–12 °C-Wasser, 1,5-Std.-Slot komplett für euch (~€90 für zwei). Vorab über naturaviva.fi gebucht. Das authentischste finnische Saunaerlebnis der Reise"
-    },
-    "Schlechtwetter-Backup: Suomenlinna durch Oodi Zentralbibliothek + Felsenkirche ersetzen (beide indoor, 1,5 Std. zusammen). Mathildedal-Abend bleibt im Boutique-Hotel-Hauptgebäude und Café wettergeschützt; die Sauna ist holzbeheizt-überdacht und funktioniert auch bei Regen"
+    "🎯 Spätnachmittag Paimio Ionity 350 kW Schnellladen auf 95–100%, ~30 Min. Pause für Espresso und Brötchen",
+    "Turku-Hafen (Linnansatama, Ensimmäinen Linja) ~19:00 — Wichtig: Linnankatu ist Sept 2025–Sommer 2026 zwischen Vallihaudankatu und Satamakatu gesperrt, Umweg über Vallihaudankatu",
+    "19:30 — Fahrzeug-Check-in für die Viking-Grace-Fähre, Online-Check-in im Voraus erledigt",
+    "🎯 20:55 — Viking Grace Abfahrt. Seaside-A4-Vier-Berth-Kabine: Fenster, zwei untere Betten als getrennte Schlafplätze, ganze Kabine für euch zwei",
+    "Abendessen im Food Garden Buffet, Sitzung 20:30 (mit Fähre vorab gebucht): baltisches Hering vier Wege, Lachs vielfach, Schärenbrot, geräucherter Fisch, regionale Käse. Unbegrenzt Hauswein und Bier ~€42–55 pp",
+    "Späterer Abend optional: Top-Deck-Spa-und-Sauna (~€20 pp, geöffnet bis 22:00), oder an der Reling die Schären beobachten, durch die das Schiff bei Tageslicht noch eine Stunde fährt — der Turku-Archipel mit über 40.000 Inseln ist eine der schönsten Fährstrecken Europas"
   ]
 }

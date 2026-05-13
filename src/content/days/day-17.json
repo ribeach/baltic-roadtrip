@@ -1,38 +1,35 @@
 {
   "dayNumber": 17,
   "date": "2026-05-16",
-  "title": "Halmstad — Tylösand und Mjellby Surrealismus",
-  "subtitle": "Erster Wochenend-Tag in der Wahlheimat — Strand am Vormittag, Halmstadgruppen am Nachmittag",
+  "status": "planned",
+  "title": "Halmstad — Galgberget, Hallandsgården und Wochenend-Stimmung",
+  "subtitle": "Samstag in Halmstad — Aussichtspunkt am Vormittag, Freilichtmuseum am Nachmittag, ehrliche Burger am Abend",
   "locationId": "halmstad",
   "previousLocationId": null,
   "overnightLocationId": "halmstad",
+  "additionalLocationIds": [],
+  "transitLocationIds": [],
   "driving": null,
   "evCharging": null,
   "activities": [
-    "Entspannter Vormittag — ausschlafen, schwedisches Frühstück mit Kanelbullar und Hafermilch-Latte",
+    "Langes Frühstück am Hagöns Naturreservat",
     {
-      "highlightRef": "Tylösand & Prins Bertils Stig",
-      "note": "Vormittags-Strandtag — der 7-km-Sandstrand ist im Mai noch fast leer. Teilstrecke des 18-km-Prins-Bertils-Stigs vom Schloss Richtung Möllegård laufen, je nach Lust 1–2 Stunden"
+      "highlightRef": "Galgberget & Hallandsgården",
+      "note": "Vormittag auf dem Galgberget — Aussichtspunkt über die Stadt und die Nissan-Mündung, danach das angeschlossene Freilichtmuseum Hallandsgården mit historischen Holzhäusern aus ganz Halland"
     },
     {
-      "restaurantRef": "Restaurang Fyr",
-      "note": "Mittagessen direkt am Tylösand — Sternekoch Jacob Holmströms Grill-Restaurant mit Blick auf die Insel Tylön. Der wilde Fisch des Tages vom Holzkohlegrill"
+      "restaurantRef": "Balkan Grill - Burek & Cevapi",
+      "note": "Mittagessen — Balkan-Spezialitäten, Cevapi vom Holzkohlegrill, schnell und herzhaft"
+    },
+    "Nachmittag in Ruhe: Spaziergang am Nissan-Ufer, Halmstad-Bibliothek-Stop für ein Buch, Café-Pause am Lilla Torg",
+    "Sankt Nikolai Kyrka am Stora Torg — eine der wenigen Gebäude, die den großen Stadtbrand 1619 überstanden. Beeindruckende Einar-Forseth-Glasfenster, freier Eintritt",
+    {
+      "restaurantRef": "Zigges Garage",
+      "note": "Abendessen — legendäre Burger in der ehemaligen Werkstatt, ein Halmstad-Klassiker für entspannte Samstagabende"
     },
     {
-      "highlightRef": "Mjellby Konstmuseum",
-      "note": "Nachmittag mit der Halmstadgruppen — schwedischer Surrealismus, der einst mit Dalí und Ernst auf Augenhöhe ausstellte. 1–2 Std., Kombiticket merken (gilt auch für Hallands Konstmuseum am Montag)"
-    },
-    {
-      "restaurantRef": "Riccardo Glassfabrik",
-      "note": "Süßer Zwischenstopp auf dem Rückweg in die Stadt — handgemachtes italienisches Eis in der alten Glasfabrik in Möllegård, gilt als das beste Eis in ganz Halland"
-    },
-    {
-      "restaurantRef": "Pio Restaurang & Bar",
-      "note": "Willkommens-Abendessen in der Wahlheimat — Storgatan-Institution seit 1969, Planka auf dem Eichenbrett"
-    },
-    {
-      "nightlifeRef": "Halmstad Brygghus",
-      "note": "Lokales Craft Beer in der alten Slottsmöllan — IPA, NEIPA und Stout frisch vom Tank. Ölprovning vorab buchbar"
+      "nightlifeRef": "The Fox & Anchor",
+      "note": "Letzter Drink am Lilla Torg — gemütlicher Gastropub, gut für ein langsames Abendgespräch"
     }
   ]
 }
