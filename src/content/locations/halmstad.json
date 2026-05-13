@@ -273,6 +273,21 @@
       },
       "rating": 4.2,
       "userRatingCount": 1228
+    },
+    {
+      "name": "First Camp Hagön — Halmstad",
+      "type": "Campingplatz & Stugor am Hagöns Naturreservat",
+      "priceRange": "60-150€",
+      "evCharging": true,
+      "description": "Großer Campingplatz direkt am Hagöns Naturreservat südlich von Halmstad, 5 km vom Stadtzentrum. Stellplätze, Stugor (Ferienhütten) verschiedener Größen, Restaurant, Pool und direkter Strandzugang. Ruhige Basis für längere Aufenthalte mit dem Auto — bequem für Remote-Work-Wochen mit Naturanschluss. EV-Lader auf dem Gelände.",
+      "googleMapsUrl": "https://maps.google.com/?cid=9116084232631784990",
+      "placeId": "ChIJkZ46kua8UUYRHpaOfE_Wgn4",
+      "coordinates": {
+        "lat": 56.6354863,
+        "lng": 12.9003096
+      },
+      "rating": 3.9,
+      "userRatingCount": 1052
     }
   ],
   "tips": [

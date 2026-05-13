@@ -1,55 +1,38 @@
 {
   "dayNumber": 14,
   "date": "2026-05-13",
-  "status": "planned",
-  "title": "Teijo-Nationalpark, Pargas-Schären und die Viking-Grace-Nachtfähre",
-  "subtitle": "Der Finnland-Tag — Kiefernwald-Bohlensteg, Eisenwerksdorf-Mittagessen, Schären-Kabelfähre, dann 20:55 nach Stockholm",
-  "locationId": "turku",
-  "previousLocationId": "mathildedal-teijo",
-  "overnightLocationId": null,
+  "status": "completed",
+  "title": "Stockholm Stadsgården → Halmstad — direkter Westküsten-Transfer",
+  "subtitle": "Morgendliches Disembark in Stockholm, E4/E6 südwärts ohne Stadtbummel, abends Check-in im First Camp Hagön am Hagöns Naturreservat",
+  "locationId": "halmstad",
+  "previousLocationId": "turku",
+  "overnightLocationId": "halmstad",
   "additionalLocationIds": [
-    "mathildedal-teijo"
+    "stockholm"
   ],
-  "transitLocationIds": [],
+  "transitLocationIds": [
+    "stockholm"
+  ],
   "driving": {
-    "distance": "~200 km",
-    "duration": "~3:00 (plus Nachtfähre)",
+    "distance": "~570 km",
+    "duration": "~6:30 (inkl. Ladestopps)",
     "mode": "drive",
-    "routeDescription": "Mathildedal → Pargas (~50 km) → Pargas-Nagu Kabelfähre Round-Trip → Turku (~30 km) → 20:55 Viking Grace nach Stockholm. Die finale Fahrzeugladung in Paimio (Ionity 350 kW, 6 Plätze) auf 95–100% bringen — keine Lademöglichkeit auf der Fähre, und die Stockholm-Süd-Strecke morgen früh braucht Reichweite.",
-    "encodedPolyline": "evkmJae}iC_GqIkC}Kg@kOe@iDOaCeBCwA|Bi@~BgCzTF~TmAnPuFfHyCjDoEh@wKlJu@vGuBjHwOrEoFeEyAy@gB~AiFdGoDbDwI}H_OoJkE`G_EfEkIc@wDzEsEzCsFhAiFnCgBw@_AqHoBgCoBTcJtEwIxD_HmAgVa@{IgBqDwIeBoXiCgYmGmZoFe^eDaFiCYgJvH}G`MgDvMyErOm@rLqCtMqG`EyHfA_EfDsA|HuBnSgBlBcMoFoEjAqGrFiFhBiIjKiCjCkCoAyKuAsGiFwDUeCvDcErQeDrTElSeL|c@eItJ_EpGwFGsFdCuClF{BxE_FzCeIqHgFiD}EjAqHlF_H~AyHkA_DtC}CrC{DvKkB`K_EpB{EnGgI|CkJnLuOlMyBtDmHnBsD`AmA~C{FtJsElAyCk@qSvCuIiEmBs@cC`C_ErK}@jImDxa@[~@uCiIgGmWaMws@cJgTcFcWoLoj@wQyo@gEgd@_@sE_Bt@gGjEmJxLaOlPiUfTmSnYsOtIwGtJ{Wl{@wTxl@mJ~XeCtROnm@y@jl@eGncA_NjWaNfS{KxYkUjgAwI|[wOnWmT|Xox@rh@kKjLiEpNyPn_AoFrVoJpSuObZuFvGwGrBiLgDkQmWeZae@qPoOkNqI_WsZwJoIkH{MqFySwDcVeJs_@mTam@qJch@qDw]uF_[kLmUsLqHuNIeUpC_JcBkGoEyOsQwMwDuOzD}GrAsGaAeO_NkR}SqPgIcIyCqHuK}IyQaKeF_NyAyF_DeVa\\eHuSwH_`@qDuPyG}NoIeJaKaQeJeJ}EmB_NFaGjCeLtNgMb\\eOtS{GtGuEdK{D`XwC|ZiD|M_@r@yAlIwJfPmWtNkIrOsLhe@iHjNeF`DoF`@uKiFqH}DcIa@ySaNyK}A_F`AgJfHiKtJqQlA_NxLeN|GeHd@iHwAcPkQmMeMuG}@eM_D{LmHwKxA}M~FiOyBuRj@oL`GmZv\\}OtMid@pKsIiA_@_@iCWyImWgH_UsCwCgDs@sBzc@mKte@{DdLmUhk@mN|r@eMpcAyKnk@gLp`AeCly@kApqBqHdwAmDxwAz@njAmFdjA}C|w@`BhoAvF`~@tL`dArItk@vFpt@dGli@rRxt@bi@jjBpPb|@`If|@tB``Au@ftAj@bxAvEpeAvDz|A{CpkAkE|h@wElWmHdVsNhYc`@xc@_c@zc@y]tq@{Ybo@_DgEkDw@yBzWvAxJ`C`ItGxMxM`l@kDxImCzEqJ|P_EnHmOpWoHzMdDfN~EhSpAhFl@aAfDcF"
+    "routeDescription": "Stockholm Stadsgården (Vikingterminalen, Södermalm) → E4 südwärts ohne Stadtbummel → Jönköping/Värnamo Ionity-Hub für die zentrale Lade- und Mittagspause → E4 weiter südwärts → Abzweig E6 westwärts an der Halland-Küste → Halmstad → First Camp Hagön am Hagöns Naturreservat (~5 km südlich vom Stadtzentrum).",
+    "encodedPolyline": "o~}oJ_t{fC|j@n|DbW|n@tvCbnQppWvrS`hCliPhx@fnKt{@lwJtaDllNpuCt_i@zuCltOjoLhwa@nhCvtd@fUzom@inAnxNmR|`IgaDdaQtI~yEpr@l`PbgAdfCeQhrE_iAlmUsDfhA|Mfn@~k@rsBx}BvcA~j@|wEvbAh|W|QthDfNdfC_e@~_BytB|h@csA~nAkt@pXaIhkDeWvgB~Rh|Ehs@v]x`A_T`_A\\vaApNf_EnrE|fD~nGzzHpwL`hUf}g@lnMvoc@|fG`d`@hmAle[m@zHvF`X_FzGgAnLcNdtArJllCfTfgHih@bhUkz@pePkm@dqWlJlhH`jBtgG~qArnBlQ`_CdDhpA~h@d~B~jA~}HzzDfaLl_D~iGxbFxhIrxBjxDhhCr`Ah|DboGpnErlCjnBxTlx@jmAb{ArmBd]bvDznBbmFdqAjfDdrBgYrfBiRfsAs}@|dAfAr_Ayx@|jAsUdYvoAa]`mEf^toAp_@d`Avz@su@~`AwvA~w@|cCfUlkGjfA`oFhuA~gCf_Av{EzwAnyD`eAxqFd|AjfChi@xcOzcBhwE`f@pz@lm@kFp}A{]`wAaEpqAjZvvBvgErcHfgD`xKzbHn_Clr@boAvfCj`AzkIlfBjyCbzBtwGr~D|pV~pBtiF~pCxjDngGzkNvyEbaQ|ZxgEjpB`qCrBbhJyu@tsThe@diHog@vuK~ZdhSljAv~V~}@voI~wBd~GjfA~_DpcBfhApo@jkHxb@tlJjgD`rItpDhmChgA|gB``Cva@nvA`iGbzAliCftBttBfs@~`C~vCf~D`kAtzCv[~~Ef`BxwSvfB||GzbB`gLvi@jvHkWtrJhKxxLjmDvyMhqDxbUd{A`dL|tDrn\\zmDz_W|eAhrMjuAjfIheBryBty@xlDfjAlyMfgAtgIzfBpbHfjBfkEvyFvoEzcKvrDnuKnfK~gDddEprBvzH|eCjpHf|BdgC|kIbtHjpCfhBvaI_Gz{Cfs@za@~yDnaAdyD|w@twAfg@f}D~WfJrrFaSd`BbUbuBmw@jlFonCzaEt|Ar~DvsCdcJpoEfcKntBdfFkf@pxD~Zx_Fae@huDf\\f}JxrBhoFl]foC_]tzCzLlhH|qB~|HeJx~C~A|xCzpAhoDrpApkBr_B~xCdqAp|@zj@xqCnvBzcDzyAhqDruA~}CboBfiAveCnbBb|@x|AvvBbiA`lEv}EbhO|QnzRf]bk\\xpB|mStdBbsUhP|aKgUn_IuPjvHj}@fsI|h@f}IjyArvJldB`yNuChkC"
   },
   "evCharging": {
     "stopsNeeded": 1,
-    "notes": "🎯 Paimio Neste K Ionity (350 kW, ~€8 mit We Charge M-Tarif) ist der wichtigste Lade-Hub der Reise — die Fähre hat keinen Lader, und am Donnerstagmorgen muss der Wagen in Stockholm Stadsgården mit voller Reichweite vom Schiff. Reservebackup: Turku Skanssi Recharge (150 kW, 5 km vom Hafen).",
-    "criticalLevel": "yellow"
+    "notes": "🎯 Värnamo Bredasten Ionity-Hub (16 Plätze, 350 kW × 4 + 200 kW × 12, eröffnet 2025) ist Schwedens größter Ionity und der natürliche Lade- und Mittagspause-Stop auf halbem Weg. Backup: Ionity Jönköping. In Halmstad lädt First Camp Hagön über AC auf dem Gelände, alternativ die Recharge-Schnelllader am Halmstad Eurostop (E6).",
+    "criticalLevel": "green"
   },
   "activities": [
-    "08:30 Frühstück bei Café Mathildedal — Kaneelipulla mit Kardemumma, Hafermilch-Latte, lokales Brot mit Eiern aus dem Hof",
-    {
-      "highlightRef": "Teijo-Nationalpark — Matildanjärvi-Rundweg",
-      "note": "🎯 09:00–11:30 — der 5,5 km Rundweg vom Trailhead Matildanjärventie 86: Kiefernwald, Moor-Bohlensteg, Granitklippen, Biber-Bach, ein Stück Mathildedal-Dorf zum Abschluss. ~2 Std. Geh-Zeit, mittlere Schwierigkeit"
-    },
-    {
-      "highlightRef": "Mathildedal — Eisenwerksdorf-Spaziergang",
-      "note": "11:30–12:00 — der freie Geschichts-Pavillon, der Winha-Schneemobil und der Teijo-Wagen, die Brauerei, der Schreiner-Hof, die Alpakas. Kostenloser Außen-Walk"
-    },
-    {
-      "restaurantRef": "Bistro Bruket",
-      "note": "🎯 12:30–13:45 Mittagessen — BBQ-Smoker im Hof, Lohikeitto (Lachs-Sahne-Suppe), Saaristolaisleipä (Schärenbrot). Vorab über bistrobruket.fi reserviert"
-    },
-    "14:00 — Aufbruch nach Pargas, ~50 km / 50 Min. via Salo und E18 zur Schäreninsel-Brücke",
-    "15:00–16:30 — Schären-Mikro-Loop: über die kostenlose Lielax-Brücke nach Pargas, dann mit der Lielax–Nagu Kabelfähre (frei, alle 30 Min., 7 Min. Crossing) auf die Insel Nagu. Nagus winziger Hafen, die bemalten Bootshäuser fotografieren, mit der nächsten Kabelfähre zurück. So bekommt ihr die Saaristotie ('Schärenstraße') in Mikroform, mit dem 2-Std.-Excursion-Limit und ohne Boot/Kanu/Kayak",
-    "17:00 — 30 km nach Turku",
-    "🎯 17:30 — Paimio Ionity 350 kW Schnellladen auf 95–100%. ~30 Min. Pause für Espresso und Brötchen",
-    "18:30 — Turku-Hafen (Linnansatama, Ensimmäinen Linja). Wichtig: Linnankatu ist Sept 2025–Sommer 2026 zwischen Vallihaudankatu und Satamakatu gesperrt — Umweg über Vallihaudankatu",
-    {
-      "highlightRef": "Burg von Turku",
-      "note": "19:00 — kurzer Außen-Spaziergang an der 13.-Jh.-Burg direkt neben dem Fährterminal, 30 Min. max"
-    },
-    "19:30 — Fahrzeug-Check-in für die Viking-Grace-Fähre. Online-Check-in im Voraus erledigt",
-    "🎯 20:55 — Viking Grace Abfahrt (NICHT Viking Glory — Glory hat nur Jan 6–29 die Abendrotation während Graces Drydock übernommen). Seaside-A4-Vier-Berth-Kabine: Fenster, zwei untere Betten als getrennte Schlafplätze, ganze Kabine für euch zwei (Viking weist nie Fremde einer teilbelegten Buchung zu)",
-    "21:00–22:30 — Abendessen im Food Garden Buffet, Sitzung 20:30 (mit Fähre vorab gebucht): baltisches Hering vier Wege, Lachs vielfach, Schärenbrot, geräucherter Fisch, regionale Käse. Unbegrenzt Hauswein und Bier ~€42–55 pp",
-    "Späterer Abend optional: Top-Deck-Spa-und-Sauna (~€20 pp, geöffnet bis 22:00), oder einfach an der Reling die Schären beobachten, durch die das Schiff bei Tageslicht noch eine Stunde fährt — der Turku-Archipel mit über 40.000 Inseln ist eine der schönsten Fährstrecken Europas",
-    "Schlechtwetter-Backup: Pargas-Schären-Loop durch Kurjenrahka-Nationalpark nördlich von Turku ersetzen — Bohlenstege, Kuhankuono-Kreuzweg, vollständig waldgeschützt. Gleiche 90-Min.-Excursion"
+    "06:30 Ankunft Stockholm Stadsgården, Vikingterminalen am Södermalm-Wasser, NICHT Värtahamnen",
+    "Schnelles Frühstück on the go (Johan & Nyström am Slussen oder im 7-Eleven), keine Stadt-Sightseeing — Vasa und Skansen öffnen erst um 10:00, das wären drei verlorene Fahrtstunden",
+    "07:30 — auf der E4 südwärts. Verkehr typisch entspannt am Mittwochmorgen außerhalb der Pendlerzeiten",
+    "🎯 11:30 — Värnamo Bredasten Ionity-Stop, ~45 Min. Schnellladen plus Mittagspause am Hub (Café und Sandwiches direkt vor Ort)",
+    "13:00 — weiter südwärts, in der Halland-Region E4 verlassen und auf die E6 westwärts wechseln",
+    "15:30 — Ankunft First Camp Hagön Halmstad, Check-in",
+    "Settle-in im Stuga: Auto am AC-Lader anschließen, Lebensmittel-Run zum Coop oder ICA in Halmstad, leichtes Abendessen am Platz",
+    "Spaziergang am Hagöns Naturreservat-Strand zum Sonnenuntergang — direkt vor der Haustür, nach drei Wochen Reise endlich Routine im Stillstand"
   ]
 }

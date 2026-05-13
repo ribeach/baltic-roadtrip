@@ -1,0 +1,90 @@
+{
+  "id": "lohja",
+  "name": "Lohja",
+  "country": "finland",
+  "coordinates": {
+    "lat": 60.251176,
+    "lng": 24.0674709
+  },
+  "description": "Ruhige Kleinstadt am gleichnamigen See Lohjanjärvi, rund 60 km westlich von Helsinki an der Helsinki–Turku-Achse gelegen. Bekannt für die mittelalterliche Sankt-Lorenz-Kirche mit Wandmalereien aus dem 15. Jahrhundert, das Tytyri-Bergwerk-Erlebnis (Kalkstein-Schacht in 100 m Tiefe) und den langen Aurlahti-Sandstrand. Eine entspannte Alternative zum Helsinki-Stadthotel für Reisende, die abends nach Westen weiterfahren.",
+  "region": "Uusimaa / Greater Helsinki",
+  "placeId": "ChIJC6NZcVG_jUYRMLdLVVG1AAQ",
+  "highlights": [
+    {
+      "name": "Kirche des heiligen Laurentius (Pyhän Laurin kirkko)",
+      "type": "church",
+      "icon": "star",
+      "description": "Mittelalterliche Steinkirche aus dem späten 15. Jahrhundert mit über 60 Wandmalereien im Inneren — eine der besterhaltenen mittelalterlichen Kirchen Finnlands. Die typisch finnische Granit- und Backstein-Architektur, freier Eintritt im Sommer.",
+      "duration": "30-45 Min.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=6654852835659992956",
+      "placeId": "ChIJsx0aY3u_jUYRfM8DJmXJWlw",
+      "coordinates": {
+        "lat": 60.2531489,
+        "lng": 24.0679822
+      },
+      "rating": 4.6,
+      "userRatingCount": 364
+    },
+    {
+      "name": "Aurlahti — Sandstrand am Lohjanjärvi",
+      "type": "nature",
+      "icon": "gem",
+      "description": "Stadtnaher Sandstrand am See Lohjanjärvi mit langer Promenade, Saunaboot und Cafés in der Saison. Im Mai noch ruhig — gute Gelegenheit für einen Sonnenuntergangs-Spaziergang am Wasser.",
+      "duration": "30-60 Min.",
+      "price": "Kostenlos",
+      "googleMapsUrl": "https://maps.google.com/?cid=11896499965653985869",
+      "placeId": "ChIJSVszvm-_jUYRTapAO7DbGKU",
+      "coordinates": {
+        "lat": 60.2480295,
+        "lng": 24.0534691
+      },
+      "rating": 4.2,
+      "userRatingCount": 495
+    },
+    {
+      "name": "Tytyri Mine Experience",
+      "type": "museum",
+      "icon": "gem",
+      "description": "Aktives Kalksteinbergwerk mit einer Besucherebene 100 m unter Tage — geführte Touren mit Aufzug, Bergbau-Geschichte und Geologie der Region. Ein verlässlicher Indoor-Backup-Plan bei Regen.",
+      "duration": "1-1.5h",
+      "price": "ca. €25",
+      "googleMapsUrl": "https://maps.google.com/?cid=1761089763140232077",
+      "placeId": "ChIJl9NCa53AjUYRjeOMFc-lcBg",
+      "coordinates": {
+        "lat": 60.2636439,
+        "lng": 24.0684914
+      },
+      "rating": 4.5,
+      "userRatingCount": 1495
+    }
+  ],
+  "restaurants": [],
+  "hotels": [
+    {
+      "name": "Koivulan Kartano",
+      "type": "Historisches Manor-B&B am Lohjanjärvi",
+      "priceRange": "120-180€",
+      "evCharging": false,
+      "description": "Restauriertes Herrenhaus aus dem 19. Jahrhundert direkt am Ufer des Lohjanjärvi-Sees, umgeben von Birkenwald und eigener Bootsanlegestelle. Familiengeführt, individuell eingerichtete Zimmer im Haupthaus, Frühstück mit lokalen Zutaten. Ruhige Übernachtungsalternative zum Helsinki-Stadthotel für die Helsinki–Turku-Strecke.",
+      "googleMapsUrl": "https://maps.google.com/?cid=17498364071679557676",
+      "placeId": "ChIJT2FvesbAjUYRLADrsmmt1vI",
+      "coordinates": {
+        "lat": 60.2916526,
+        "lng": 24.0613422
+      },
+      "rating": 4,
+      "userRatingCount": 145
+    }
+  ],
+  "tips": [
+    {
+      "type": "geheimtipp",
+      "text": "Auf der natürlichen Helsinki–Turku-Achse (E18) ist eine Übernachtung am Lohjanjärvi ein ruhiger Kontrast zur Großstadt — 50 Min. westlich vom Helsinki West Terminal, 90 Min. östlich von Turku."
+    },
+    {
+      "type": "info",
+      "text": "Für Schnellladen unterwegs gibt es das Lohja ABC mit 150 kW Recharge direkt an der E18 — der natürliche Pit-Stop zwischen Helsinki und Turku."
+    }
+  ]
+}

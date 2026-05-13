@@ -2,52 +2,37 @@
   "dayNumber": 15,
   "date": "2026-05-14",
   "status": "planned",
-  "title": "Stockholm Stadsgården → Norrköping → Glasriket Småland",
-  "subtitle": "Christi Himmelfahrt — Stockholm umfahren, Norrköpings Industrielandschaft, Übernachtung im Kosta Boda Art Hotel",
-  "locationId": "kosta-smaland",
-  "previousLocationId": "turku",
-  "overnightLocationId": "kosta-smaland",
-  "additionalLocationIds": [
-    "stockholm"
-  ],
-  "transitLocationIds": [
-    "stockholm"
-  ],
-  "driving": {
-    "distance": "~370 km",
-    "duration": "~5:00",
-    "mode": "drive",
-    "routeDescription": "Stockholm Stadsgården 06:30 → E4 südwärts ohne Stadtbummel → Norrköping Industrilandskapet (~160 km, 1:45) → Värnamo Bredasten Ionity-Hub auf der E4 → Abzweig nach Lessebo/Kosta (~210 km, 2:30). Christi Himmelfahrt = leichter Verkehr (alle sind schon am Wochenende), aber kleinere Cafés und Museen geschlossen — Outdoor-Programm und Hotel-Restaurant tragen den Tag.",
-    "encodedPolyline": "o~}oJ_t{fC|j@n|DbW|n@tvCbnQppWvrS`hCliPhx@fnKt{@lwJtaDllNpuCt_i@zuCltOjoLhwa@nhCvtd@fUzom@inAnxNmR|`IgaDdaQtI~yEpr@l`PbgAdfCeQhrE_iAlmUn@lx@lExy@lj@|sBh}BffAhn@|nEtdAb_WtC|qLgyBti@cqA~qAyy@xS{J~}CqWpmBxOnmFbq@hXd}@{L|cCrFzjFjiGbhK`sPjnMnrYbsK`zVlmIfpZv}F`q]~tBlh_@}Avc@`BfUqA`Qe@nJaP|rApJviCpTz}G_h@jbUyy@ztPqm@`qWnHzhHraBvdGtmBbqFfDtqAlg@z_ChkAnwHhyDfgLp~C`eG~bFtmIfzBxyDxdC~`Ad~DrlGrmEdsChpBxOvx@pmAlzAzlBd`@dwD|lBdlFfkAbeDfuBkL|fBuR|uAodAfeA\\v`Aiz@`kAoSvXjoAg[hlE`[fmAb`@jbAfy@eq@`cA_{Ahv@h`C|WfmGfcAfmFdtAf`Cz~@zyEl{Ah~D~cAttFh}AzeCri@nbOph@vcDqSjcBjIzr@lYnBrn@ecAhT|[pn@vSvy@gv@zxAnWrjA_\\|vAn`AppBxsDb~CfpAvzIrzFdnEl~BrzBjw@fcAx~Crr@ppIbdClwC`|DxkSloBnqJ|yBpwEfrGteMjgFpnNrdBjeJ~o@z_Db_Bx~DwZp{Ikb@~xH~]vqSaTprUf^|~Rf~@ffNlmAhbH|_CvpHj~ClwErZlcIni@`~Cn]joFhkDvjGhbD|}CxsAnbAbjAGht@p`CpgAdvEdqBfkCptCpuFtvClhDtqAlnK`nB`|S`_FtoYya@|vRru@zmKruDvpMlcDhvVznDjcXvxAh{Mb]vlBtu@}PpqBkiCl}FbiEx}ArTfcEjkBnkA?fq@ltB|xBpxE|wCt_Epz@rhA|_AgPv|@oq@ziBaV`vBfj@pnAraBbvDfiAlrA}OvuAt~AbdCxdB|iIj_@|eCld@rcCzvB|pEnjCbuC}j@~eClqAzoG{pDzjCklFnzCi_AlwDqdBhaEaJbiBhNlq@mcA~dCoj@nuEzCv}Ei`CdjD~Hpu@mJjk@ywAd`DeuDldCon@h{AwmCjeAtu@vpAkTrl@qyBgMwrAf~@b@~aApu@bcA_ExwBsvCtgAg_AleBpm@zsCsaAb|Bcp@v~BhMzyCqgAl|Bwa@zgDmnAnpEec@vrAnUtfByjAnqDan@prCukArxEyo@xyEgkJpiEc}F|_HyvFtxAqiDvrA{OzgFwtBdmFcy@}i@wa@"
-  },
-  "evCharging": {
-    "stopsNeeded": 1,
-    "notes": "🎯 Värnamo Bredasten Ionity-Hub (16 Plätze, 350 kW × 4 + 200 kW × 12, eröffnet 2025) ist Schwedens größter Ionity und der natürliche Lade- und Mittagspause-Stop. Backup: Ionity Jönköping (Elmiavägen 11) oder Ionity Mantorp. Kosta Boda Art Hotel hat Destination-Lader für die Nacht.",
-    "criticalLevel": "green"
-  },
+  "title": "Halmstad — Ankommen am Hallandsmeer",
+  "subtitle": "Erster echter Tag am Hagöns Naturreservat — Strand am Vormittag, Stadtbummel am Nachmittag, vertraute Abendküche",
+  "locationId": "halmstad",
+  "previousLocationId": null,
+  "overnightLocationId": "halmstad",
+  "additionalLocationIds": [],
+  "transitLocationIds": [],
+  "driving": null,
+  "evCharging": null,
   "activities": [
-    "06:30 Ankunft Stockholm Stadsgården — Vikingterminalen am Södermalm-Wasser, NICHT Värtahamnen (das ist Tallink)",
-    "Frühstück: Johan & Nyström (Swedenborgsgatan 7, oft an Christi Himmelfahrt geöffnet) oder ein 7-Eleven am Slussen — gezielter Kurz-Stopp, nicht Stockholm-Sightseeing. Vasa, Skansen und Fotografiska öffnen alle erst um 10:00, das wären drei verlorene Fahrtstunden",
-    "07:30 — auf der E4 südwärts. An Christi Himmelfahrt ist der Verkehr leicht, weil die Schweden längst zu ihren Sommer-Cottages gefahren sind",
+    "Entspannter Morgen am First Camp Hagön — Frühstück im Stuga, Kaffee am Strand",
     {
-      "highlightRef": "Norrköping Industrilandskapet",
-      "note": "🎯 10:30–12:30 — Schwedens schönster Industriekultur-Spaziergang: rote Backstein-Mühlen am Motala-Strom, echte Wasserfälle zwischen den Häusern, das Strykjärnet ('Bügeleisen') als brutalistisches Highlight. Selbstgeführt, kostenlos, vollständig outdoor (also Christi-Himmelfahrt-tauglich). Park bei Kungsgatan/Holmen"
+      "highlightRef": "Tylösand & Prins Bertils Stig",
+      "note": "Vormittags-Strandtag — der 7-km-Sandstrand ist im Mai noch fast leer. Teilstrecke des 18-km-Prins-Bertils-Stigs Richtung Möllegård laufen, je nach Lust 1–2 Stunden. Vom Hagöns Naturreservat direkt erreichbar"
     },
     {
-      "restaurantRef": "Knäppingsborg — Norrköping Cafés",
-      "note": "12:30 Mittagspause im Knäppingsborg-Innenhof — Pappa Grappa oder Brogyllen sind beide am Feiertag verlässlich offen. Kanelbullar, Lachs-Sandwich"
+      "restaurantRef": "Restaurang Fyr",
+      "note": "Mittagessen direkt am Tylösand — Sternekoch Jacob Holmströms Grill-Restaurant mit Blick auf die Insel Tylön. Der wilde Fisch des Tages vom Holzkohlegrill"
     },
-    "13:00 — weiter auf der E4 südwärts, ~210 km bis Lessebo/Kosta",
-    "🎯 14:30 — Värnamo Bredasten Ionity-Stop, ~30 Min. Schnellladen plus Beine vertreten",
+    "Nachmittagsbummel durch das Halmstad-Stadtzentrum — Storgatans Fußgängerzone, der Picasso-Brunnen 'Woman's Head' am Stora Torg",
     {
-      "highlightRef": "Kosta Glasbruk — Hot Shop",
-      "note": "16:00–17:00 — der Hot Shop läuft typisch Mo-Fr bis 15:00, am Christi-Himmelfahrt-Tag oft kein aktives Glas-Blasen, aber Outlet, Showroom und das angeschlossene Glasmuseum sind in der Regel offen. Beim Hotel-Empfang nachfragen"
+      "highlightRef": "Halmstads Slott & Slottsparken",
+      "note": "Spaziergang am Nissan entlang zum Schloss und durch den Schlosspark"
     },
-    "17:30 — Check-in im Kosta Boda Art Hotel: WICHTIG zwei Standard-Doppelzimmer separat gebucht. 102 Zimmer, Glas-Bar aus mundgeblasenem Kristall, Spa, drei Indoor-Pools",
     {
-      "restaurantRef": "Restaurant Linnéa — Kosta Boda Art Hotel",
-      "note": "19:30 — Hauseigenes Restaurant. An Christi Himmelfahrt funktioniert es zuverlässig, wenn andere Småland-Restaurants geschlossen sind. Geräucherte Forelle, Småland-Wild, hausgemachtes Knäckebrot"
+      "restaurantRef": "Pio Restaurang & Bar",
+      "note": "Willkommens-Abendessen in der Wahlheimat — Storgatan-Institution seit 1969, Planka auf dem Eichenbrett"
     },
-    "Schlechtwetter-Backup: Norrköping-Walk durch das Arbetets Museum ('Museum der Arbeit') im Strykjärnet ersetzen — gleicher Standort, indoor, oft an Feiertagen geöffnet"
+    {
+      "nightlifeRef": "Halmstad Brygghus",
+      "note": "Lokales Craft Beer in der alten Slottsmöllan — IPA, NEIPA und Stout frisch vom Tank"
+    }
   ]
 }

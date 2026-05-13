@@ -1,29 +1,28 @@
 {
   "dayNumber": 18,
   "date": "2026-05-17",
-  "title": "Halmstad — Søndag-Slow-Pace",
-  "subtitle": "Zweiter Wochenend-Tag — Stadtbummel, Sankt Nikolai, vertraute Lieblingsorte vor der Arbeitswoche",
+  "status": "planned",
+  "title": "Halmstad — Søndag-Slow-Pace am Hagöns Naturreservat",
+  "subtitle": "Sonntag in Halmstad — Strand am Vormittag, Café-Bummel, Sonntagspizza am Abend",
   "locationId": "halmstad",
   "previousLocationId": null,
   "overnightLocationId": "halmstad",
+  "additionalLocationIds": [],
+  "transitLocationIds": [],
   "driving": null,
   "evCharging": null,
   "activities": [
     "Søndagsfrukost in Ruhe — schwedischer Sonntag startet spät, kein Programm vor Mittag",
-    "Stadtbummel: Stora Torg mit dem Picasso-Brunnen 'Woman's Head', Storgatans Fußgängerzone, Spaziergang am Nissan entlang",
-    "Sankt Nikolai Kyrka am Stora Torg — eine der wenigen Gebäude, die den großen Stadtbrand 1619 überstanden. Beeindruckende Einar-Forseth-Glasfenster, freier Eintritt",
+    "Vormittagsspaziergang am Hagöns Naturreservat-Strand — Schilfgürtel, Sandstrand, Möwen, der Wind aus Westen",
+    "Stadtbummel in Halmstad: Storgatans Fußgängerzone, der Picasso-Brunnen 'Woman's Head' am Stora Torg, kurzer Stop am Schloss",
     {
-      "restaurantRef": "Hanôi Quán",
-      "note": "Mittagessen — persönlicher Favorit aus der Halmstad-Zeit. Authentische Phở für einen ruhigen Sonntag"
+      "restaurantRef": "Max Burgers",
+      "note": "Schwedische Fast-Food-Kette als Kontrastpunkt — eine ehrliche Pause für einen langsamen Sonntag-Lunch"
     },
     "Nachmittag bei Freunden und Familie — die Halmstad-Vertrautheit nutzen, kein Programm",
     {
       "restaurantRef": "Klackerups Pizzeria",
       "note": "Sonntagabend-Pizza — keine Haute Cuisine, dafür ehrliche, gute Pizza mit Tradition"
-    },
-    {
-      "nightlifeRef": "The Fox & Anchor",
-      "note": "Letzter Abend vor der Arbeitswoche — Gastropub am Lilla Torg mit 240 Bieren, für Whisky-Liebhaber besonders interessant"
     },
     "Wäsche und Vorbereitung für die Remote-Work-Woche ab Montag"
   ]

@@ -1,50 +1,44 @@
 {
   "dayNumber": 12,
   "date": "2026-05-11",
-  "status": "planned",
-  "title": "Tallinn — Altstadt, Kadriorg und Abendfähre nach Helsinki",
-  "subtitle": "Entspannter Altstadt-Vormittag mit Toompea und Linnahall, Kadriorg am Nachmittag, dann Abend-Tallink-Crossing zum Übernachten in Helsinki",
-  "locationId": "helsinki",
+  "status": "completed",
+  "title": "Tallinn → Helsinki → Lohja — Vormittagsfähre, Markthalle und Dom, Abend am Lohjanjärvi",
+  "subtitle": "Morgendliche Tallink-Crossing über den Finnischen Meerbusen, Mittag in der Alten Markthalle, Senatsplatz am Dom, dann westwärts ans Lohja-See-Manor",
+  "locationId": "lohja",
   "previousLocationId": "tallinn",
-  "overnightLocationId": "helsinki",
-  "additionalLocationIds": [],
-  "transitLocationIds": [],
+  "overnightLocationId": "lohja",
+  "additionalLocationIds": [
+    "helsinki"
+  ],
+  "transitLocationIds": [
+    "helsinki"
+  ],
   "driving": {
-    "distance": "~85 km (Großteil Fähre)",
-    "duration": "~2:30 (inkl. 2-Std.-Fähre)",
+    "distance": "~145 km",
+    "duration": "~4:00 (inkl. 2-Std.-Fähre)",
     "mode": "drive",
-    "routeDescription": "Tallinner Altstadt → Tallinn-D-Terminal (Uus-Sadama 24, ~3 km) → Tallink Megastar oder MyStar nach Helsinki West Terminal 2 (2 Std. Crossing über den Finnischen Meerbusen) → ~5 km ins Stadtzentrum zum Hotel.",
-    "encodedPolyline": "{wwiJmravCPIL]H{@e@eBMYMEGDK\\KpAGBK\\ITIFKCuB{AkAOuAAgF^i@Bs@JGIKCIEEIEWCQp@uCt@uDn@eDh@iD^sEFaBBmF?iBEwA_@sFg@_Fi@uEk@gEyAqNaD{UcAuHwDcYmAuJSyCKwCA_Bm@Aq@Lq@T_@Te@`@Y`@g@xAq@xCMv@Lp@DXlBjIfA`Gp@nExB~Nz@xF\\jFk@R}@HQ?SEa@OMMu@s@wF_EaXyn@uBsFgBcCkBiAsDs@yE?_EAcZ|B{]dIm{DfuAgf@tXwz@pj@}kBnqAyoMfsIa_@~LiYdBk]mEsToGce@w[sYmWwqB_kBcrG{|FwiAkiA}~AuvAojOgxJ_zDo~@ym`@moF}fLs_BeaLi`@qCs@}iA{iA}@i@w@CSVu@`BMn@UjAk@q@uC_DkD_E{BeCMMO@Yn@IJIBGAc@FYIa@_@iAqAo@c@i@CM?g@LKRU|@EFINKJODeCXsBNED{APqBFmB\\MM_@UI]Qa@QSKCoA?IGIO_@e@QKe@KqA[o@[V]\\k@X{@Vq@p@wAf@wARgBTcC?g@IaAoAgFi@uB[iAMq@C[?u@H{@J]S[c@kCiCiKcEsPeCkJkAyE_DwMwBeJiAqEUcAQ\\iArBcAbBiDzFi@`AqBhDkDbGMTLf@"
+    "routeDescription": "Tallinn-D-Terminal (Uus-Sadama 24) → Tallink Megastar/MyStar nach Helsinki West Terminal 2 (2 Std. Crossing) → kurzer Vormittags-Loop durch Helsinki (Vanha Kauppahalli, Senatsplatz/Dom) → westwärts auf der E18 nach Lohja (~60 km, 50 Min.) → Koivulan Kartano am Lohjanjärvi.",
+    "encodedPolyline": "{wwiJmravCh@cBaAeCs@vC_@XaEkB}H\\qB@Ug@|DmTj@cPmAuSoDo[_OejAMwF_BJqAj@gB|Cq@bGzDfRjDnUxAdNk@R}@He@E}IqGw[mv@sEmEmKs@c`@zB{]dIm{DfuAgf@tXugD`}ByoMfsIa_@~LiYdBk]mEsToGce@w[sYmW{dK{hJwiAkiA}~AuvAojOgxJ_zDo~@wum@apIweL}a@{kAekAkARcApCUjAk@q@uC_DkD_EiCsCi@p@_ATuD_D_BHq@hBeRjBmAiB{ACeAiAwBg@Wy@v@gBhAiCpAkJcC_Lc@iGuDoQuKyb@wG}XiAqEg@e@mCvEsE|HqBhDkDbG?|@tAnF|CnLLr@XF^m@~ArGF\\z@pDP~@I~DQRVl@^WtCpBX~DnCtLBZnC~Nz@tUP|g@S|JyEbHaEbR}Ah\\pDd~@fExv@pFxq@zFze@hA~QKzSsLppAyIrz@oH~e@qE`n@yCfgATr{@xC||@h@rj@T|u@lD~aAjE`~@LhYc@hHeBhEgBh@uC}@uKwDoFaBgGgC{HcCwGMaFbAoHzEeQxSkHpEiNjCsLpAwGrCsHtGiKhLwG~CmFf@uFcAkCsAsJuIeG}CaEw@sG?yNpDqA[[s@[gGr@qC|@Tb@vAlFx]lDzTfI|m@`Djg@v@|`@G`d@iDlk@sErX_G|RiQbf@kOdo@yHvi@wFz[aUnmAiCpQqEbYuJ`b@sEhX}Cne@cAjTuF|i@uDt]eAnTmCjf@yH~_@{BtRuDlh@cFfZyGlVeO`^gIvMqIvIkFdEoJvLwMtXkCrHyHrXcEpUqGjy@uC~_@qGzf@iPt|@iNv{@oFzd@_B|Wc@dZsAbTeEtUyIv]qF~V_HbTuHdPuI`OkFpNsH~g@oHdd@cPhz@}FjZ_JlWyI|LmMhK_C~CmJ~UqHxi@_Ipj@wBjVqC|[{B|LsH`WkF|V{Cto@eGpd@qEvd@uEtYiBlYAd_@a@~`@j@pm@i@n\\_Dzd@CrPhBbl@pG`v@tCbb@s@j^}QxnAcGzYyDtXmMpt@{Epe@aCfd@mGzj@w@~b@rAlh@z@peApJbiBv@hYY`TkCt^wC`e@yAdp@Fra@jBld@~Dr^hG~Z|]fpAxVd}@tLdf@vJlm@fHzz@`EfoAhA`ZIvLyB|UnAtKzAnBxCTbGNbG`BzFHlHaDlMuIxGuAxFP`@fA~@x@fFv@rCtCfHfMtVnh@~Sl[nLvKdI`GpDfEjGpLnN~g@xGdWpDlQ`AhJc@tXoClf@KdDEdQ"
   },
   "evCharging": {
     "stopsNeeded": 0,
-    "notes": "Tallinn hat dichtes Ladenetz für die Tagsüber-Aufladung; vor Boarding optional am Hafen-Lader nachladen. Auf der Fähre ist kein Laden möglich (universelle Baltikum-Regel). In Helsinki ein Hotel mit EV-Laden bevorzugen — Scandic Grand Central oder Hotel Haven (über das Aimo-Park-Kasarmitori-Parkhaus) — damit der Wagen über Nacht für die Mathildedal-Fahrt am Dienstag fit ist.",
+    "notes": "Vor Boarding in Tallinn auf 80–100% laden — auf der Fähre ist kein Laden möglich (universelle Baltikum-Regel). In Helsinki kein Lade-Stop nötig; auf der E18 ist das Lohja ABC (150 kW Recharge, direkt an der Ausfahrt) der natürliche Pit-Stop, falls die Restreichweite knapp ist. In Lohja selbst keine Schnelllader — Koivulan Kartano hat keine eigene EV-Wallbox, daher abends am ABC voll laden, falls für die Fiskars-Strecke morgen frische Reserven gewünscht.",
     "criticalLevel": "green"
   },
   "activities": [
-    "Spätes Frühstück in Tallinn (Hotel oder Café in der Altstadt) — keine Eile, der Tag bleibt entspannt",
+    "Frühes Frühstück in der Tallinner Altstadt, dann Auto-Check-in am Tallinn-D-Terminal (Uus-Sadama 24). Online-Check-in vorab erledigt",
+    "Vormittags Tallink Megastar oder MyStar nach Helsinki — 2 Std. Crossing, LNG-Schiff, Star Class für die kurze Strecke vollkommen ausreichend",
+    "Ankunft Helsinki West Terminal 2, ~15 Min. ins Stadtzentrum",
     {
-      "highlightRef": "Toompea — Kohtuotsa & Patkuli Aussichtsplattformen",
-      "note": "10:00 — Patkuli- und Kohtuotsa-Plattformen, der Postkartenblick auf rote Dächer und Hafen. Alexander-Newski-Kathedrale aus der Nähe, dann hinunter über Pikk jalg in die Unterstadt"
+      "highlightRef": "Marktplatz & Alte Markthalle (Vanha Kauppahalli)",
+      "note": "Mittagessen in der historischen Markthalle von 1889 direkt am Südhafen. Lohikeitto (Lachs-Sahne-Suppe) als Pflicht, dazu Roggenbrot und ein Stück Rentierwurst zum Mitnehmen"
     },
     {
-      "highlightRef": "Linnahall",
-      "note": "11:00 — Beton-Plateau am Hafen, ein 10-Min.-Fußweg von der Altstadt. Innenraum geschlossen seit 2009, aber Plaza, Treppen und Dach voll begehbar. Direkter Cold-War-Anker zum Līgatne-Bunker, Drehort für Christopher Nolans 'Tenet'"
+      "highlightRef": "Dom von Helsinki",
+      "note": "Kurzer Loop: Senatsplatz, breite Treppe vor dem strahlend weißen neoklassizistischen Dom, daneben das Universitätsviertel und der Esplanadi-Park"
     },
-    {
-      "restaurantRef": "Rataskaevu 16",
-      "note": "12:30 Mittagessen in der Altstadt — vorab reservieren wegen Mittags-Andrang"
-    },
-    {
-      "highlightRef": "Kadriorg-Palast & KUMU Kunstmuseum",
-      "note": "14:30 — 15 Min. mit der Tram 1/3 vom Zentrum: barocker Park von Peter dem Großen, dazu KUMU mit estnischer Kunst vom 18. Jh. bis zur Gegenwart. Bei gutem Wetter reicht ein Park-Spaziergang allein; bei Regen ist KUMU der Wettergewinner"
-    },
-    "16:30 — Auto im Hotel oder Tiefgarage holen, kurze Fahrt zum Tallinn-D-Terminal (Uus-Sadama 24)",
-    "17:30 — Auto-Check-in am D-Terminal. Online-Check-in vorab erledigt; Fahrzeug-Gate schließt 30 Min. vor Abfahrt",
-    "🎯 19:30 — Tallink Megastar oder MyStar nach Helsinki, beide LNG-Schiffe, voll ausgestattet, 2 Std. Crossing. Star Class für die kurze Strecke vollkommen ausreichend. Hinweis: Abfahrtszeit vor Buchung verifizieren — Tallink hat mehrere Abendslots zwischen 16:00 und 22:30",
-    "21:30 Ankunft Helsinki West Terminal 2, ~15 Min. ins Stadtzentrum",
-    "22:00 Hotel Check-in (Empfehlung: Scandic Grand Central oder Hotel Haven mit EV-Laden, siehe /ort/helsinki). Wagen über Nacht laden",
-    "Optional: später Drink in der Ateljee Bar (Rooftop im Hotel Torni, 360°-Panorama) — je nach Öffnungszeit und Restenergie",
-    "Schlechtwetter-Backup: Kadriorg/KUMU streichen, stattdessen Kiek in de Kök Bastions-Tunnel (90 Min. Untergrund, vollwettergeschützt) oder Telliskivi Creative City + Fotografiska. Linnahall bei starkem Wind ohnehin nur kurzer Stop"
+    "Am späten Nachmittag Auto holen und westwärts auf der E18 nach Lohja (~60 km, 50 Min.)",
+    "Check-in im Koivulan Kartano — restauriertes Manor-Haus aus dem 19. Jh. direkt am Ufer des Lohjanjärvi-Sees, eigene Bootsanlegestelle",
+    "Ruhiger Abend am See: Spaziergang am Ufer, Birkenwald, Sonnenuntergang über dem Lohjanjärvi"
   ]
 }
