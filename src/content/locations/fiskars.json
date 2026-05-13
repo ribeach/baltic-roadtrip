@@ -86,6 +86,57 @@
       },
       "rating": 4.3,
       "userRatingCount": 402
+    },
+    {
+      "name": "Cafe Antique",
+      "cuisine": "Café",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=15690011863762946905&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x468dae69dfa915f5:0xd9be1ea92d414b59",
+      "coordinates": {
+        "lat": 60.129382400000004,
+        "lng": 23.5416764
+      },
+      "rating": 4.4,
+      "userRatingCount": 264,
+      "visited": true
+    },
+    {
+      "name": "Billnäs Chocolate Factory shop",
+      "cuisine": "Café / Schokolade",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=10350338992998757714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x468daf0050fcf6c3:0x8fa3ca79c690b552",
+      "coordinates": {
+        "lat": 60.129497099999995,
+        "lng": 23.5418552
+      },
+      "rating": 5,
+      "userRatingCount": 15,
+      "visited": true
+    },
+    {
+      "name": "Loimukeisarin Rullaamo",
+      "cuisine": "Finnisch",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=3432828304983573439&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x468daf2577ff6277:0x2fa3db27cd73c3bf",
+      "coordinates": {
+        "lat": 60.127039200000006,
+        "lng": 23.5377174
+      },
+      "rating": 5,
+      "userRatingCount": 90,
+      "visited": true
     }
   ],
   "hotels": [
@@ -113,6 +164,19 @@
     {
       "type": "info",
       "text": "Die meisten Geschäfte und Werkstätten sind ganzjährig geöffnet, aber einzelne Betriebe können im Mai eingeschränkte Öffnungszeiten haben."
+    }
+  ],
+  "practical": [
+    {
+      "name": "Desico - Traditional Candle Factory",
+      "googleMapsUrl": "https://maps.google.com/?cid=1898787582163712293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x468dae69dfa915f5:0x1a59d93eeaca7925",
+      "coordinates": {
+        "lat": 60.132303300000004,
+        "lng": 23.550074
+      },
+      "type": "shop",
+      "visited": true
     }
   ]
 }

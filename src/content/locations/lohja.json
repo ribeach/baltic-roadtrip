@@ -57,9 +57,44 @@
       },
       "rating": 4.5,
       "userRatingCount": 1495
+    },
+    {
+      "name": "Aurlahti Plaza",
+      "type": "nature",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=457035156434561039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x468dbf4bfb6c8919:0x657b70da525a80f",
+      "coordinates": {
+        "lat": 60.2496403,
+        "lng": 24.053029199999997
+      },
+      "rating": 4.4,
+      "userRatingCount": 14,
+      "visited": true
     }
   ],
-  "restaurants": [],
+  "restaurants": [
+    {
+      "name": "Hesburger Prisma Lohja",
+      "cuisine": "Fast Food",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=15795782302717792129&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x468dbf7a7dc4ee3d:0xdb35e4508ee54f81",
+      "coordinates": {
+        "lat": 60.248239899999994,
+        "lng": 24.061982099999998
+      },
+      "rating": 3.6,
+      "userRatingCount": 299,
+      "visited": true
+    }
+  ],
   "hotels": [
     {
       "name": "Koivulan Kartano",
@@ -74,7 +109,8 @@
         "lng": 24.0613422
       },
       "rating": 4,
-      "userRatingCount": 145
+      "userRatingCount": 145,
+      "visited": true
     }
   ],
   "tips": [

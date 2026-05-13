@@ -16,7 +16,7 @@ interface POI {
   name: string;
   lat: number;
   lng: number;
-  category: 'highlight' | 'restaurant' | 'hotel' | 'nightlife';
+  category: 'highlight' | 'restaurant' | 'hotel' | 'nightlife' | 'charging' | 'practical';
   googleMapsUrl: string;
   placeId?: string;
 }
@@ -51,6 +51,8 @@ const POI_STYLES: Record<POI['category'], { background: string; border: string; 
   restaurant: { background: '#22c55e', border: '#16a34a', glyph: '\uD83C\uDF74' }, // 🍴
   hotel: { background: '#3b82f6', border: '#2563eb', glyph: '\uD83C\uDFE8' },     // 🏨
   nightlife: { background: '#a855f7', border: '#7c3aed', glyph: '\uD83C\uDF78' }, // 🍸
+  charging: { background: '#10b981', border: '#047857', glyph: '⚡' },         // ⚡
+  practical: { background: '#9ca3af', border: '#4b5563', glyph: '●' },        // ●
 };
 
 interface Props {

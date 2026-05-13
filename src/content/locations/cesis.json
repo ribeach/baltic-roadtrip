@@ -41,7 +41,8 @@
         "lng": 25.280571
       },
       "rating": 4.7,
-      "userRatingCount": 980
+      "userRatingCount": 980,
+      "visited": true
     },
     {
       "name": "Cēsis Altstadt",

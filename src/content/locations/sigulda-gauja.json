@@ -39,7 +39,8 @@
         "lng": 24.8423584
       },
       "rating": 4.4,
-      "userRatingCount": 5004
+      "userRatingCount": 5004,
+      "visited": true
     },
     {
       "name": "Gauja-Tal Wanderwege",
@@ -87,7 +88,8 @@
         "lng": 25.069069400000004
       },
       "rating": 4.7,
-      "userRatingCount": 1621
+      "userRatingCount": 1621,
+      "visited": true
     },
     {
       "name": "Cēsis Mittelalterliche Burg",

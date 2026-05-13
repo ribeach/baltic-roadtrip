@@ -88,6 +88,23 @@
       },
       "rating": 4.6,
       "userRatingCount": 2149
+    },
+    {
+      "name": "Teijo National Park",
+      "type": "nature",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=16907898418320755894&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x468c5babcc726227:0xeaa4ec079265ccb6",
+      "coordinates": {
+        "lat": 60.2099945,
+        "lng": 22.937816599999998
+      },
+      "rating": 4.5,
+      "userRatingCount": 414,
+      "visited": true
     }
   ],
   "restaurants": [
@@ -121,6 +138,23 @@
       },
       "rating": 4.6,
       "userRatingCount": 630
+    },
+    {
+      "name": "Burger King",
+      "cuisine": "Fast Food",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=11531297044185105078&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x468c6b0067f755c3:0xa0076590f62a42b6",
+      "coordinates": {
+        "lat": 60.425984899999996,
+        "lng": 22.7235725
+      },
+      "rating": 3.3,
+      "userRatingCount": 22,
+      "visited": true
     }
   ],
   "hotels": [
@@ -257,6 +291,32 @@
       "bookingUrl": "https://www.booking.com/hotel/fi/two-room-aura-river-apartment.html",
       "rating": 4.5,
       "userRatingCount": 10
+    }
+  ],
+  "practical": [
+    {
+      "name": "Viking Line Cargo / Car Check-In",
+      "googleMapsUrl": "https://maps.google.com/?cid=14591501528862609494&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x468c77a6859736d3:0xca7f6d54d76cd056",
+      "coordinates": {
+        "lat": 60.4336826,
+        "lng": 22.2283856
+      },
+      "type": "ferry-terminal",
+      "visited": true
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "IONITY Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=1871056939117848203&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x468c6beed54efb97:0x19f7545f72a6268b",
+      "coordinates": {
+        "lat": 60.426366,
+        "lng": 22.722645999999997
+      },
+      "network": "IONITY",
+      "visited": true
     }
   ]
 }

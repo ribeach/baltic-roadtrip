@@ -153,7 +153,25 @@
         "lng": 21.5461554
       },
       "rating": 4.2,
-      "userRatingCount": 193
+      "userRatingCount": 193,
+      "visited": true
+    },
+    {
+      "name": "Restauracja McDonald's",
+      "cuisine": "Fast Food",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=12173740296910524573&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x471dbf3af783edef:0xa8f1d04d0135d09d",
+      "coordinates": {
+        "lat": 53.3350625,
+        "lng": 20.435867
+      },
+      "rating": 3.8,
+      "userRatingCount": 1862,
+      "visited": true
     }
   ],
   "hotels": [
@@ -219,6 +237,43 @@
       "source": "Booking.com",
       "rating": 4.75,
       "bookingUrl": "https://www.booking.com/hotel/pl/wiatrak-ryn.html"
+    }
+  ],
+  "practical": [
+    {
+      "name": "MOP Budzisko Wschód",
+      "googleMapsUrl": "https://maps.google.com/?cid=7585563286520775147&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e11f0021355793:0x6945559e7a50c1eb",
+      "coordinates": {
+        "lat": 54.3025625,
+        "lng": 23.118187499999998
+      },
+      "type": "parking",
+      "visited": true
+    },
+    {
+      "name": "Poczta Polska",
+      "googleMapsUrl": "https://maps.google.com/?cid=9654395038574354119&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e22158f34cd65f:0x85fb4d22eb849ec7",
+      "coordinates": {
+        "lat": 53.937535,
+        "lng": 21.5468179
+      },
+      "type": "post",
+      "visited": true
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "IONITY Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=12320420406411023519&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x471dbe79757ecad5:0xaafaed154f9a549f",
+      "coordinates": {
+        "lat": 53.335356999999995,
+        "lng": 20.436093
+      },
+      "network": "IONITY",
+      "visited": true
     }
   ]
 }

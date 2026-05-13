@@ -366,7 +366,8 @@
         "lng": 24.7327444
       },
       "rating": 4.4,
-      "userRatingCount": 1104
+      "userRatingCount": 1104,
+      "visited": true
     },
     {
       "name": "Schlössle Hotel",

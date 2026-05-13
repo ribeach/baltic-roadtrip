@@ -28,5 +28,31 @@
       "visited": true
     }
   ],
-  "tips": []
+  "tips": [],
+  "chargingStations": [
+    {
+      "name": "Ionity Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=2497941207588674965&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e433b2809e845f:0x22aa784b2c221d95",
+      "coordinates": {
+        "lat": 55.484277899999995,
+        "lng": 22.5883409
+      },
+      "network": "IONITY",
+      "visited": true
+    }
+  ],
+  "practical": [
+    {
+      "name": "Circle K Kryžkalnis II",
+      "googleMapsUrl": "https://maps.google.com/?cid=11759637288084303448&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e4336dfc8435a7:0xa3329fceebb3ee58",
+      "coordinates": {
+        "lat": 55.4841866,
+        "lng": 22.5879939
+      },
+      "type": "gas",
+      "visited": true
+    }
+  ]
 }

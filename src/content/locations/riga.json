@@ -101,7 +101,8 @@
         "lng": 24.1133043
       },
       "rating": 4.7,
-      "userRatingCount": 11936
+      "userRatingCount": 11936,
+      "visited": true
     },
     {
       "name": "Petrikirche — Turmaussicht",
@@ -117,7 +118,8 @@
         "lng": 24.1086532
       },
       "rating": 4.6,
-      "userRatingCount": 7962
+      "userRatingCount": 7962,
+      "visited": true
     },
     {
       "name": "Drei Brüder",
@@ -310,7 +312,8 @@
         "lng": 24.119785699999998
       },
       "rating": 4.4,
-      "userRatingCount": 9455
+      "userRatingCount": 9455,
+      "visited": true
     },
     {
       "name": "Lidojošā varde",
@@ -327,6 +330,40 @@
       },
       "rating": 4.4,
       "userRatingCount": 1899
+    },
+    {
+      "name": "Big Bad Bagels Old Town",
+      "cuisine": "Bagels",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=12267709203295625926&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46eecfccac2b29af:0xaa3fa885f639e2c6",
+      "coordinates": {
+        "lat": 56.947128799999994,
+        "lng": 24.112178999999998
+      },
+      "rating": 4.7,
+      "userRatingCount": 867,
+      "visited": true
+    },
+    {
+      "name": "Province restaurant",
+      "cuisine": "Lettisch",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=2792198085766685994&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46eecfd6e7806d6d:0x26bfe15d84a6252a",
+      "coordinates": {
+        "lat": 56.947640299999996,
+        "lng": 24.1076296
+      },
+      "rating": 4.3,
+      "userRatingCount": 2336,
+      "visited": true
     }
   ],
   "hotels": [
@@ -390,6 +427,23 @@
       },
       "rating": 4.9,
       "userRatingCount": 16,
+      "visited": true
+    },
+    {
+      "name": "Mercure Riga Centre",
+      "type": "Hotel",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "evCharging": false,
+      "description": "Während der Reise besucht.",
+      "googleMapsUrl": "https://maps.google.com/?cid=5676881862379062388&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46eece2cb098446f:0x4ec855f9f6f64474",
+      "coordinates": {
+        "lat": 56.9475978,
+        "lng": 24.1238693
+      },
+      "rating": 4.2,
+      "userRatingCount": 2365,
       "visited": true
     }
   ],
@@ -500,6 +554,30 @@
       "bookingUrl": "https://www.booking.com/hotel/lv/panorama-apartment.html",
       "rating": 4.45,
       "userRatingCount": 922
+    }
+  ],
+  "practical": [
+    {
+      "name": "Riga Tourism Information Centre",
+      "googleMapsUrl": "https://maps.google.com/?cid=4740337683992577962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46eecfd6f84d5afb:0x41c9100219c687aa",
+      "coordinates": {
+        "lat": 56.947308899999996,
+        "lng": 24.106962
+      },
+      "type": "tourist-info",
+      "visited": true
+    },
+    {
+      "name": "River boat \"Vecriga\", dock",
+      "googleMapsUrl": "https://maps.google.com/?cid=265225743312216488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46eecfd9d1bad6cf:0x3ae45688769e1a8",
+      "coordinates": {
+        "lat": 56.952186299999994,
+        "lng": 24.098018099999997
+      },
+      "type": "ferry-terminal",
+      "visited": true
     }
   ]
 }

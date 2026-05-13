@@ -2,7 +2,10 @@
   "id": "kuldiga",
   "name": "Kuldīga",
   "country": "latvia",
-  "coordinates": { "lat": 56.9678, "lng": 21.9702 },
+  "coordinates": {
+    "lat": 56.9678,
+    "lng": 21.9702
+  },
   "description": "Eine der atmosphärischsten Kleinstädte des Baltikums — mit dem breitesten Wasserfall Europas, einer historischen Backsteinbrücke und einer UNESCO-geschützten Holzarchitektur-Altstadt. Kuldīga belohnt vor allem jene, die sich einen Umweg gönnen und den langsamen Charme der lettischen Provinz genießen.",
   "placeId": "ChIJNyEjEHDa70YRN3Zdkx44boQ",
   "highlights": [
@@ -15,9 +18,13 @@
       "price": "Kostenlos",
       "googleMapsUrl": "https://maps.google.com/?cid=14654828804408107178",
       "placeId": "ChIJxyGJEbjb70YRqmDoKidpYMs",
-      "coordinates": { "lat": 56.968069899999996, "lng": 21.9793164 },
+      "coordinates": {
+        "lat": 56.968069899999996,
+        "lng": 21.9793164
+      },
       "rating": 4.9,
-      "userRatingCount": 3521
+      "userRatingCount": 3521,
+      "visited": true
     },
     {
       "name": "Altstadt Kuldīga",
@@ -28,7 +35,10 @@
       "price": "Kostenlos",
       "googleMapsUrl": "https://maps.google.com/?cid=12966834266374537382",
       "placeId": "ChIJyfbMwnva70YRpgCeZBBz87M",
-      "coordinates": { "lat": 56.970054299999994, "lng": 21.97756 },
+      "coordinates": {
+        "lat": 56.970054299999994,
+        "lng": 21.97756
+      },
       "rating": 4.8,
       "userRatingCount": 1059
     },
@@ -41,7 +51,10 @@
       "price": "~€4",
       "googleMapsUrl": "https://maps.google.com/?cid=1943014855037637497",
       "placeId": "ChIJAw7Tn3va70YReVPTU7f59ho",
-      "coordinates": { "lat": 56.968225399999994, "lng": 21.9765263 },
+      "coordinates": {
+        "lat": 56.968225399999994,
+        "lng": 21.9765263
+      },
       "rating": 4.8,
       "userRatingCount": 445
     },
@@ -54,9 +67,30 @@
       "price": "~€8",
       "googleMapsUrl": "https://maps.google.com/?cid=16730638152862304873",
       "placeId": "ChIJ_____z_R70YRaYr03sEqL-g",
-      "coordinates": { "lat": 57.0072707, "lng": 21.97855 },
+      "coordinates": {
+        "lat": 57.0072707,
+        "lng": 21.97855
+      },
       "rating": 4.7,
-      "userRatingCount": 1207
+      "userRatingCount": 1207,
+      "visited": true
+    },
+    {
+      "name": "Kuldīga Observation Tower",
+      "type": "viewpoint",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=173061464502440234&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46efdb0077876285:0x266d67c2bfa112a",
+      "coordinates": {
+        "lat": 56.9732287,
+        "lng": 21.9768391
+      },
+      "rating": 4.8,
+      "userRatingCount": 721,
+      "visited": true
     }
   ],
   "restaurants": [
@@ -68,7 +102,10 @@
       "mustTry": "Steinofenpizza oder Pasta mit regionalen Zutaten",
       "googleMapsUrl": "https://maps.google.com/?cid=4574334967024920575",
       "placeId": "ChIJ--fAv3ra70YR_ycrqWpNez8",
-      "coordinates": { "lat": 56.967880199999996, "lng": 21.9705186 },
+      "coordinates": {
+        "lat": 56.967880199999996,
+        "lng": 21.9705186
+      },
       "rating": 4.5,
       "userRatingCount": 1874
     },
@@ -80,7 +117,10 @@
       "mustTry": "Lettische Hausmannskost und saisonale Gerichte",
       "googleMapsUrl": "https://maps.google.com/?cid=3365276406149823315",
       "placeId": "ChIJQdsrwHra70YRUzuQtw_dsy4",
-      "coordinates": { "lat": 56.967712999999996, "lng": 21.971038 },
+      "coordinates": {
+        "lat": 56.967712999999996,
+        "lng": 21.971038
+      },
       "rating": 4.4,
       "userRatingCount": 2009
     }
@@ -94,7 +134,10 @@
       "description": "Stilvolles Boutique-Hotel im historischen Herrenhaus, nur wenige Gehminuten von Wasserfall und Altstadt. Ideal für eine Übernachtung, um Kuldīga in Ruhe zu genießen.",
       "googleMapsUrl": "https://maps.google.com/?cid=9620035398418633757",
       "placeId": "ChIJq_fl_i3b70YRHRRtyTk7gYU",
-      "coordinates": { "lat": 56.9794961, "lng": 21.962495099999998 },
+      "coordinates": {
+        "lat": 56.9794961,
+        "lng": 21.962495099999998
+      },
       "rating": 4.6,
       "userRatingCount": 569
     }

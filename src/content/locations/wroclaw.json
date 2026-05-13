@@ -116,6 +116,23 @@
       },
       "rating": 4.4,
       "userRatingCount": 15704
+    },
+    {
+      "name": "Piekarnia Ślęzak",
+      "cuisine": "Bäckerei",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=14825469829063298887&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470e55006a2411a1:0xcdbea642c596cf47",
+      "coordinates": {
+        "lat": 50.8086513,
+        "lng": 16.2805799
+      },
+      "rating": 5,
+      "userRatingCount": 4,
+      "visited": true
     }
   ],
   "hotels": [
@@ -172,6 +189,32 @@
       },
       "rating": 4.6,
       "userRatingCount": 5636
+    }
+  ],
+  "practical": [
+    {
+      "name": "bi1",
+      "googleMapsUrl": "https://maps.google.com/?cid=1183610603578645661&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470e543defaebfb5:0x106d0792aab0dc9d",
+      "coordinates": {
+        "lat": 50.8087138,
+        "lng": 16.279620299999998
+      },
+      "type": "supermarket",
+      "visited": true
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "Powerdot Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=8036211879981442325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470e543d96fa7ca3:0x6f865c208e116515",
+      "coordinates": {
+        "lat": 50.807955,
+        "lng": 16.277872000000002
+      },
+      "network": "Powerdot",
+      "visited": true
     }
   ]
 }

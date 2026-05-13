@@ -90,6 +90,21 @@
       },
       "rating": 4.8,
       "userRatingCount": 1293
+    },
+    {
+      "name": "Liberty Square",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=7486873413759909700",
+      "placeId": "0x471bcb0022ea8119:0x67e6b7b3e179bf44",
+      "coordinates": {
+        "lat": 51.7768642,
+        "lng": 19.4546129
+      },
+      "visited": true
     }
   ],
   "restaurants": [
@@ -153,6 +168,23 @@
       },
       "rating": 4.5,
       "userRatingCount": 4907
+    },
+    {
+      "name": "Wild Bean Cafe",
+      "cuisine": "Autobahn-Café",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=6956297301336716488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x471a31f962d97983:0x6089bb8a1e2ef4c8",
+      "coordinates": {
+        "lat": 51.6327053,
+        "lng": 19.4373234
+      },
+      "rating": 3.7,
+      "userRatingCount": 20,
+      "visited": true
     }
   ],
   "hotels": [
@@ -230,6 +262,32 @@
     {
       "type": "info",
       "text": "Die Stadt ist Polens Filmhauptstadt — Polanski, Wajda und Kieślowski haben hier studiert. Das Filmmuseum in der Piotrkowska 135 ist sehenswert."
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "bp pulse Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=11380443185829988120&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x471a30d41f9a61db:0x9def74c805e94718",
+      "coordinates": {
+        "lat": 51.632823099999996,
+        "lng": 19.4373313
+      },
+      "network": "bp pulse",
+      "visited": true
+    }
+  ],
+  "practical": [
+    {
+      "name": "Łódź Tourist Information Center",
+      "googleMapsUrl": "https://maps.google.com/?cid=10043906033438971903&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x471bcad56f590385:0x8b631f52908857ff",
+      "coordinates": {
+        "lat": 51.7732422,
+        "lng": 19.455731399999998
+      },
+      "type": "tourist-info",
+      "visited": true
     }
   ]
 }

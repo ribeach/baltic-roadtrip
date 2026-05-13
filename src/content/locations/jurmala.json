@@ -2,7 +2,10 @@
   "id": "jurmala",
   "name": "Jūrmala",
   "country": "latvia",
-  "coordinates": { "lat": 56.9680, "lng": 23.7726 },
+  "coordinates": {
+    "lat": 56.968,
+    "lng": 23.7726
+  },
   "description": "Lettlands legendärer Badeort erstreckt sich über 32 Kilometer entlang des Rigaer Meerbusens. Hinter dem breiten Sandstrand verbirgt sich eine einzigartige Sammlung pastellfarbener Holzvillen im Jugendstil — Sommerresidenzen des russischen Adels und später der sowjetischen Elite. Nur 25 Minuten von Riga entfernt, ist Jūrmala der perfekte Halbtagesausflug.",
   "placeId": "ChIJ0wSh6Afd7kYR3xZsbFh-U3g",
   "highlights": [
@@ -15,7 +18,10 @@
       "price": "Kostenlos",
       "googleMapsUrl": "https://maps.google.com/?cid=11413228853482312287",
       "placeId": "ChIJw4SDcxvd7kYRX1INICzvY54",
-      "coordinates": { "lat": 56.9730044, "lng": 23.8011081 }
+      "coordinates": {
+        "lat": 56.9730044,
+        "lng": 23.8011081
+      }
     },
     {
       "name": "Dzintari-Waldpark & Baumkronenpfad",
@@ -26,7 +32,10 @@
       "price": "Kostenlos",
       "googleMapsUrl": "https://maps.google.com/?cid=4112214712652489275",
       "placeId": "ChIJzd1X_-Dc7kYRO2LJY36FETk",
-      "coordinates": { "lat": 56.9760157, "lng": 23.818993000000003 },
+      "coordinates": {
+        "lat": 56.9760157,
+        "lng": 23.818993000000003
+      },
       "rating": 4.8,
       "userRatingCount": 11211
     },
@@ -39,7 +48,10 @@
       "price": "Kostenlos",
       "googleMapsUrl": "https://maps.google.com/?cid=17845830570892258361",
       "placeId": "ChIJ0VL-gxnd7kYROezWW1ogqfc",
-      "coordinates": { "lat": 56.977090999999994, "lng": 23.798246 },
+      "coordinates": {
+        "lat": 56.977090999999994,
+        "lng": 23.798246
+      },
       "rating": 4.7,
       "userRatingCount": 692
     },
@@ -52,9 +64,46 @@
       "price": "~€3",
       "googleMapsUrl": "https://maps.google.com/?cid=11411321055024909849",
       "placeId": "ChIJ_4HWwBzd7kYRGQ6yLgooXZ4",
-      "coordinates": { "lat": 56.9712396, "lng": 23.801396999999998 },
+      "coordinates": {
+        "lat": 56.9712396,
+        "lng": 23.801396999999998
+      },
       "rating": 4.5,
       "userRatingCount": 689
+    },
+    {
+      "name": "Kemeri Bog Board Walk Tower",
+      "type": "nature",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=297165253053269552&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46eee32664009fed:0x41fbe3923d44630",
+      "coordinates": {
+        "lat": 56.9027094,
+        "lng": 23.4546151
+      },
+      "rating": 4.9,
+      "userRatingCount": 1330,
+      "visited": true
+    },
+    {
+      "name": "Start of the Kemeri Bog walk",
+      "type": "nature",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=6188514914792638172&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46eee240a5b0acef:0x55e20586df6c06dc",
+      "coordinates": {
+        "lat": 56.9125105,
+        "lng": 23.4594399
+      },
+      "rating": 4.9,
+      "userRatingCount": 1178,
+      "visited": true
     }
   ],
   "restaurants": [
@@ -66,7 +115,10 @@
       "mustTry": "Saisonale baltische Spezialitäten und frischer Fisch vom Grill",
       "googleMapsUrl": "https://maps.google.com/?cid=6047752741537252467",
       "placeId": "ChIJrVcNnlrD7kYRcwS5eBPv7VM",
-      "coordinates": { "lat": 56.971496699999996, "lng": 23.7703049 },
+      "coordinates": {
+        "lat": 56.971496699999996,
+        "lng": 23.7703049
+      },
       "rating": 4.6,
       "userRatingCount": 2843
     },
@@ -78,9 +130,29 @@
       "mustTry": "Frischer Fisch und Meeresfrüchte der Saison",
       "googleMapsUrl": "https://maps.google.com/?cid=16457075944786451463",
       "placeId": "ChIJK60xvUfQ7kYRB1yf4mBHY-Q",
-      "coordinates": { "lat": 56.980795, "lng": 23.8225962 },
+      "coordinates": {
+        "lat": 56.980795,
+        "lng": 23.8225962
+      },
       "rating": 4.5,
       "userRatingCount": 1345
+    },
+    {
+      "name": "Selgas beķereja un Ciema pizza",
+      "cuisine": "Bäckerei / Pizza",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=8113887938117124877&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46eee5d0d5b5d2b9:0x709a52172acc430d",
+      "coordinates": {
+        "lat": 57.024169199999996,
+        "lng": 23.4921676
+      },
+      "rating": 4.7,
+      "userRatingCount": 169,
+      "visited": true
     }
   ],
   "hotels": [],
@@ -96,6 +168,19 @@
     {
       "type": "geheimtipp",
       "text": "Im Mai ist Jūrmala angenehm leer — die Hochsaison beginnt erst im Juni. Perfekte Zeit für entspannte Spaziergänge ohne Menschenmassen."
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "Ignitis ON Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=14527340320702750693&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46eee51e9cea13ab:0xc99b7b0d72b25fe5",
+      "coordinates": {
+        "lat": 57.0237288,
+        "lng": 23.492666699999997
+      },
+      "network": "Ignitis ON",
+      "visited": true
     }
   ]
 }

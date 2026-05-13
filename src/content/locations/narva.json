@@ -42,6 +42,57 @@
       },
       "rating": 5,
       "userRatingCount": 2
+    },
+    {
+      "name": "Sun Square",
+      "type": "monument",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=1616045210964741458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x469437db2571a847:0x166d588ea4864d52",
+      "coordinates": {
+        "lat": 59.3772789,
+        "lng": 28.203246699999998
+      },
+      "rating": 5,
+      "userRatingCount": 14,
+      "visited": true
+    },
+    {
+      "name": "Hahn's Steps",
+      "type": "monument",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=3777772027718284044&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46944827f63acd13:0x346d57a4ca8e330c",
+      "coordinates": {
+        "lat": 59.3769838,
+        "lng": 28.2022245
+      },
+      "rating": 4.7,
+      "userRatingCount": 86,
+      "visited": true
+    },
+    {
+      "name": "Eesti SEJ settebassein",
+      "type": "soviet",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=1695019588022617187&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x469445243df5621d:0x4e9f256708981abe",
+      "coordinates": {
+        "lat": 59.30415670000001,
+        "lng": 27.964586299999997
+      },
+      "rating": 4.6,
+      "userRatingCount": 18,
+      "visited": true
     }
   ],
   "restaurants": [
@@ -79,6 +130,43 @@
     {
       "type": "info",
       "text": "Narva-Jõesuu liegt 12 km nördlich von Narva (~20 Min. Fahrt). Die Mole steht in der Verlängerung der Aia tänav am Ende des Strandparkplatzes — kostenlose Parkplätze direkt am Beginn des Mole-Spaziergangs."
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "Lidl Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=10654410754067525420&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46944820c250d76d:0x93dc12219f4bef2c",
+      "coordinates": {
+        "lat": 59.3777118,
+        "lng": 28.190275300000003
+      },
+      "network": "Lidl",
+      "visited": true
+    }
+  ],
+  "practical": [
+    {
+      "name": "Lidl",
+      "googleMapsUrl": "https://maps.google.com/?cid=7375557545860638901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46944940fdec868b:0x665b3e82b579a8b5",
+      "coordinates": {
+        "lat": 59.377280000000006,
+        "lng": 28.19017
+      },
+      "type": "supermarket",
+      "visited": true
+    },
+    {
+      "name": "Circle K Narva kesklinna",
+      "googleMapsUrl": "https://maps.google.com/?cid=6060788242355601591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x4694481e4e10832b:0x541c3ecb847840b7",
+      "coordinates": {
+        "lat": 59.380359899999995,
+        "lng": 28.177407
+      },
+      "type": "gas",
+      "visited": true
     }
   ]
 }
