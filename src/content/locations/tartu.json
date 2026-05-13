@@ -104,6 +104,23 @@
       "rating": 4.4,
       "userRatingCount": 3789,
       "visited": true
+    },
+    {
+      "name": "PäikesePann",
+      "cuisine": "Pfannkuchen",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=2768651509618862555&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x469497167f6d2adf:0x266c39e109ae69db",
+      "coordinates": {
+        "lat": 58.8950946,
+        "lng": 26.974453999999998
+      },
+      "rating": 5,
+      "userRatingCount": 10,
+      "visited": true
     }
   ],
   "hotels": [
@@ -189,6 +206,19 @@
     {
       "type": "geheimtipp",
       "text": "Bei sehr schlechtem Wetter am Sonntagnachmittag: AHHAA Wissenschaftszentrum als 90-Minuten-Backup — Tesla-Spulen-Demos zur vollen Stunde, perfekter Indoor-Ersatz für den Suur Munamägi-Aussichtsturm."
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "Enefit Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=8728914281756553993&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46eb36de40daaae5:0x2e0eb021b2f2b9a6",
+      "coordinates": {
+        "lat": 58.377458700000005,
+        "lng": 26.728823499999997
+      },
+      "network": "Enefit",
+      "visited": true
     }
   ]
 }

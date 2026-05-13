@@ -8,8 +8,39 @@
   },
   "description": "Nordwestlichste Spitze der Halbinsel Kurzeme, wo Ostsee und Rigaer Bucht aufeinandertreffen — wilde Strände, livisches Fischerdorf und Eingangstor zum Slītere-Nationalpark. Wichtiger Rastplatz auf einem der größten Vogelzugkorridore Europas.",
   "placeId": "ChIJk9wR3C4B7kYRpXZT598ED8A",
-  "highlights": [],
+  "highlights": [
+    {
+      "name": "Cape Kolka",
+      "type": "nature",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=13839285539638048421&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46ee012edc11dc93:0xc00f04dfe75376a5",
+      "coordinates": {
+        "lat": 57.7588758,
+        "lng": 22.6047543
+      },
+      "rating": 4.7,
+      "userRatingCount": 3850,
+      "visited": true
+    }
+  ],
   "restaurants": [],
   "hotels": [],
-  "tips": []
+  "tips": [],
+  "practical": [
+    {
+      "name": "Maksas autostāvvieta",
+      "googleMapsUrl": "https://maps.google.com/?cid=9915873938634969225&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46ee01000df6d125:0x899c42cf85e41089",
+      "coordinates": {
+        "lat": 57.75662439999999,
+        "lng": 22.599979299999998
+      },
+      "type": "parking",
+      "visited": true
+    }
+  ]
 }

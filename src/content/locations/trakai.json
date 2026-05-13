@@ -23,7 +23,8 @@
         "lng": 24.933695999999998
       },
       "rating": 4.7,
-      "userRatingCount": 29886
+      "userRatingCount": 29886,
+      "visited": true
     },
     {
       "name": "Karäer-Gemeinschaft",
@@ -72,7 +73,25 @@
         "lng": 24.9335259
       },
       "rating": 4,
-      "userRatingCount": 2742
+      "userRatingCount": 2742,
+      "visited": true
+    },
+    {
+      "name": "VERO CAFE | Drive Thru",
+      "cuisine": "Coffee Drive-Thru",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=10522519381786758507&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e767f0aa9d6f9f:0x92077fa085900d6b",
+      "coordinates": {
+        "lat": 54.7893981,
+        "lng": 24.6730995
+      },
+      "rating": 4.3,
+      "userRatingCount": 126,
+      "visited": true
     }
   ],
   "hotels": [
@@ -102,6 +121,32 @@
     {
       "type": "geheimtipp",
       "text": "Morgens vor 10 Uhr ankommen, dann hat man die Burg fast für sich allein. Am Nachmittag kommen die Reisebusse."
+    }
+  ],
+  "practical": [
+    {
+      "name": "Lidl",
+      "googleMapsUrl": "https://maps.google.com/?cid=12486789717176574333&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e7676fc2aecb2d:0xad49fd17054f617d",
+      "coordinates": {
+        "lat": 54.78991,
+        "lng": 24.67328
+      },
+      "type": "supermarket",
+      "visited": true
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "Eleport Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=1950547342933966043&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e766e1b33d50fd:0x1b11bc7955293cdb",
+      "coordinates": {
+        "lat": 54.789423199999995,
+        "lng": 24.672582799999997
+      },
+      "network": "Eleport",
+      "visited": true
     }
   ]
 }

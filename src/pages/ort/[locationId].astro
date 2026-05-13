@@ -60,6 +60,20 @@ const mapLocations = [{
 
 const pois = deduplicateMapPois(collectLocationPois(location));
 
+const practicalTypeLabels: Record<string, string> = {
+  supermarket: 'Supermarkt',
+  parking: 'Parkplatz',
+  gas: 'Tankstelle',
+  pharmacy: 'Drogerie',
+  'tourist-info': 'Tourist-Info',
+  sports: 'Sportgeschäft',
+  shop: 'Laden',
+  'ferry-terminal': 'Fährterminal',
+  swimming: 'Bademöglichkeit',
+  post: 'Post',
+  other: 'Sonstiges',
+};
+
 // Derive location type tags from existing data
 const tags: Array<{ label: string; color: string }> = [];
 if (location.hotels.length > 0) tags.push({ label: 'Übernachtung', color: 'bg-teal-600 text-white' });
@@ -268,6 +282,52 @@ if (location.id === 'halmstad') tags.push({ label: 'Remote Work', color: 'bg-nav
             />
           ))}
         </div>
+      </section>
+    )}
+
+    <!-- Charging stations -->
+    {location.chargingStations && location.chargingStations.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-navy-800 mb-4">⚡ Ladestationen</h2>
+        <ul class="bg-paper rounded-xl border border-sand-200 divide-y divide-sand-200">
+          {location.chargingStations.map(cs => (
+            <li class="flex items-center gap-3 px-4 py-3">
+              <span class="text-emerald-600 text-lg" aria-hidden="true">⚡</span>
+              <div class="flex-1 min-w-0">
+                <a href={cs.googleMapsUrl} target="_blank" rel="noopener noreferrer" class="font-medium text-navy-800 hover:text-teal-600 transition-colors">{cs.name}</a>
+                {(cs.network || cs.power) && (
+                  <div class="text-xs text-gray-500 mt-0.5">
+                    {[cs.network, cs.power].filter(Boolean).join(' · ')}
+                  </div>
+                )}
+              </div>
+              {cs.visited && (
+                <span class="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium whitespace-nowrap">✓ Geladen</span>
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <!-- Practical stops -->
+    {location.practical && location.practical.length > 0 && (
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold text-navy-800 mb-4">📍 Praktische Stops</h2>
+        <ul class="bg-paper rounded-xl border border-sand-200 divide-y divide-sand-200">
+          {location.practical.map(p => (
+            <li class="flex items-center gap-3 px-4 py-3">
+              <span class="text-gray-500 text-lg" aria-hidden="true">●</span>
+              <div class="flex-1 min-w-0">
+                <a href={p.googleMapsUrl} target="_blank" rel="noopener noreferrer" class="font-medium text-navy-800 hover:text-teal-600 transition-colors">{p.name}</a>
+                <div class="text-xs text-gray-500 mt-0.5">{practicalTypeLabels[p.type] ?? p.type}</div>
+              </div>
+              {p.visited && (
+                <span class="text-xs bg-green-100 text-green-700 px-2 py-0.5 rounded-full font-medium whitespace-nowrap">✓ Besucht</span>
+              )}
+            </li>
+          ))}
+        </ul>
       </section>
     )}
 

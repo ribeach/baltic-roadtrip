@@ -36,7 +36,7 @@
       "placeId": "ChIJT9RphhQcmUcRAkUAXkvdMgo",
       "coordinates": {
         "lat": 48.855287,
-        "lng": 10.120390
+        "lng": 10.12039
       },
       "rating": 4.9,
       "userRatingCount": 1031
@@ -119,6 +119,23 @@
       },
       "rating": 4.6,
       "userRatingCount": 568
+    },
+    {
+      "name": "Stadtbäckerei Schaller",
+      "cuisine": "Bäckerei",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=7899918749241383308&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x47a024a799139ac7:0x6da2263f32fb198c",
+      "coordinates": {
+        "lat": 49.532416399999995,
+        "lng": 12.137565799999999
+      },
+      "rating": 2.8,
+      "userRatingCount": 28,
+      "visited": true
     }
   ],
   "hotels": [
@@ -164,6 +181,32 @@
       },
       "rating": 4.2,
       "userRatingCount": 529
+    }
+  ],
+  "practical": [
+    {
+      "name": "dm-drogerie markt",
+      "googleMapsUrl": "https://maps.google.com/?cid=15280236510504213647&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x47a024a7bbca5a67:0xd40e4e25ec8edc8f",
+      "coordinates": {
+        "lat": 49.532841399999995,
+        "lng": 12.136145599999999
+      },
+      "type": "pharmacy",
+      "visited": true
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "IONITY Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=3412213201809982759&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x47a0253856fe6421:0x2f5a9dd40fc84527",
+      "coordinates": {
+        "lat": 49.532356,
+        "lng": 12.13491
+      },
+      "network": "IONITY",
+      "visited": true
     }
   ]
 }

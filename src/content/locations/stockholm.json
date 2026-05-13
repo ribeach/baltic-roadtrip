@@ -259,5 +259,18 @@
       "rating": 4.4,
       "bookingUrl": "https://www.booking.com/hotel/se/gamla-stan-apartments.html"
     }
+  ],
+  "practical": [
+    {
+      "name": "Vikingterminalen",
+      "googleMapsUrl": "https://maps.google.com/?cid=3157783650684223782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x465f79f49cb4fdf1:0x2bd2b37fe891c126",
+      "coordinates": {
+        "lat": 59.315948399999996,
+        "lng": 18.0971469
+      },
+      "type": "ferry-terminal",
+      "visited": true
+    }
   ]
 }

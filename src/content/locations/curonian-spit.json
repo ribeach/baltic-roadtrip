@@ -118,6 +118,57 @@
       },
       "rating": 4.9,
       "userRatingCount": 47
+    },
+    {
+      "name": "Sundial",
+      "type": "monument",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=2618868424527825894&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e497edf2f99211:0x245816f4ed77cbe6",
+      "coordinates": {
+        "lat": 55.2949616,
+        "lng": 20.9907488
+      },
+      "rating": 4.8,
+      "userRatingCount": 1865,
+      "visited": true
+    },
+    {
+      "name": "Avikalnis Observation Deck",
+      "type": "viewpoint",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=7024456916277156563&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e4c22179763f55:0x617be25922bc5ad3",
+      "coordinates": {
+        "lat": 55.5136635,
+        "lng": 21.110512999999997
+      },
+      "rating": 4.6,
+      "userRatingCount": 295,
+      "visited": true
+    },
+    {
+      "name": "Juodkrantė Colony of Grey Herons and Great Cormorants",
+      "type": "nature",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=18110200879631931091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e4c1ea52ec6fbb:0xfb545bbf816d96d3",
+      "coordinates": {
+        "lat": 55.5188278,
+        "lng": 21.111835799999998
+      },
+      "rating": 4.5,
+      "userRatingCount": 960,
+      "visited": true
     }
   ],
   "restaurants": [
@@ -234,6 +285,43 @@
       "description": "Einer der wenigen klar budgettauglichen Nida-Treffer mit echten zwei Schlafzimmern und einer Terrasse mit Gartenblick. Gepflegtes Sommerhaus-Ambiente statt anonymer Ferienanlage – ruhig und authentisch auf der Kurischen Nehrung.",
       "source": "Booking.com",
       "bookingUrl": "https://www.booking.com/hotel/lt/2-bedrooms-appartment-with-terrace-nida.html"
+    }
+  ],
+  "practical": [
+    {
+      "name": "Automobilių stovėjimo aikštelė",
+      "googleMapsUrl": "https://maps.google.com/?cid=12253651858901771194",
+      "placeId": "0x46e49700251ae41b:0xaa0db7716b2523ba",
+      "coordinates": {
+        "lat": 55.2951756,
+        "lng": 20.9865867
+      },
+      "type": "parking",
+      "visited": true
+    },
+    {
+      "name": "Aibė",
+      "googleMapsUrl": "https://maps.google.com/?cid=3168092729665665304&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e4c3002e6a3571:0x2bf7538d67383918",
+      "coordinates": {
+        "lat": 55.5434217,
+        "lng": 21.1207045
+      },
+      "type": "supermarket",
+      "visited": true
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "Ignitis ON Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=3808729721854237756&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e4c3fc6eddaf27:0x34db5380a4981c3c",
+      "coordinates": {
+        "lat": 55.542215999999996,
+        "lng": 21.1220893
+      },
+      "network": "Ignitis ON",
+      "visited": true
     }
   ]
 }

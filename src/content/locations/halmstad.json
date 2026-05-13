@@ -86,6 +86,23 @@
         "lat": 56.684734,
         "lng": 12.8491
       }
+    },
+    {
+      "name": "Östra strandens handikappbad",
+      "type": "nature",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=1680761233253867976&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x4651a3158270d825:0x1753436fc45821c8",
+      "coordinates": {
+        "lat": 56.6504975,
+        "lng": 12.8744034
+      },
+      "rating": 4.5,
+      "userRatingCount": 212,
+      "visited": true
     }
   ],
   "restaurants": [
@@ -163,7 +180,8 @@
         "lng": 12.878697
       },
       "rating": 4.3,
-      "userRatingCount": 368
+      "userRatingCount": 368,
+      "visited": true
     },
     {
       "name": "Balkan Grill - Burek & Cevapi",
@@ -224,6 +242,23 @@
       },
       "rating": 4.4,
       "userRatingCount": 2082
+    },
+    {
+      "name": "MAX Burgers",
+      "cuisine": "Burger",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=3503032847558081406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x465a351b09eca05f:0x309d45d0a3397b7e",
+      "coordinates": {
+        "lat": 58.2268643,
+        "lng": 14.667586199999999
+      },
+      "rating": 3.8,
+      "userRatingCount": 135,
+      "visited": true
     }
   ],
   "hotels": [
@@ -287,7 +322,8 @@
         "lng": 12.9003096
       },
       "rating": 3.9,
-      "userRatingCount": 1052
+      "userRatingCount": 1052,
+      "visited": true
     }
   ],
   "tips": [
@@ -361,6 +397,54 @@
       "bookingUrl": "https://www.airbnb.com/rooms/662318051393220495",
       "rating": 4.82,
       "userRatingCount": 17
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "Tesla Supercharger",
+      "googleMapsUrl": "https://maps.google.com/?cid=17097687721374372322&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x465a3490080682f1:0xed4730652913d1e2",
+      "coordinates": {
+        "lat": 58.227036299999995,
+        "lng": 14.668373299999999
+      },
+      "network": "Tesla",
+      "visited": true
+    },
+    {
+      "name": "IONITY Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=13501338073904806105&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x4651a33ad73efbfd:0x3e4ca033406bdae6",
+      "coordinates": {
+        "lat": 56.666086099999994,
+        "lng": 12.906572599999999
+      },
+      "network": "IONITY",
+      "visited": true
+    },
+    {
+      "name": "E.ON Drive Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=14606049873854771450&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46593753d2562e69:0xcab31cf95ec0b0fa",
+      "coordinates": {
+        "lat": 58.647034999999995,
+        "lng": 16.168743
+      },
+      "network": "E.ON Drive",
+      "visited": true
+    }
+  ],
+  "practical": [
+    {
+      "name": "City Gross Halmstad",
+      "googleMapsUrl": "https://maps.google.com/?cid=4205631424817273862&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x4651a3a8c6c3c385:0x3a5d677f9c741c06",
+      "coordinates": {
+        "lat": 56.6668075,
+        "lng": 12.906408200000001
+      },
+      "type": "supermarket",
+      "visited": true
     }
   ]
 }

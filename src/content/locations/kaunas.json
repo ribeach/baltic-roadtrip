@@ -151,6 +151,23 @@
       },
       "rating": 4.3,
       "userRatingCount": 3925
+    },
+    {
+      "name": "Prienų Čeburekai",
+      "cuisine": "Čeburekai",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=11104988609785292012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e736b159076a01:0x9a1cd84dc902e4ec",
+      "coordinates": {
+        "lat": 54.632261199999995,
+        "lng": 23.9434446
+      },
+      "rating": 4.7,
+      "userRatingCount": 1952,
+      "visited": true
     }
   ],
   "hotels": [
@@ -186,6 +203,19 @@
     {
       "type": "info",
       "text": "Kaunas' Zwischenkriegs-Modernismus hat seit 2023 UNESCO-Weltkulturerbe-Status — die Art-Déco-Fassaden auf der Laisvės Alėja und in der Neustadt sind offiziell geschützt."
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "Ignitis ON Charging Station",
+      "googleMapsUrl": "https://maps.google.com/?cid=5259159156118567445&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e736b135dad77f:0x48fc496365b0ba15",
+      "coordinates": {
+        "lat": 54.6322781,
+        "lng": 23.9461126
+      },
+      "network": "Ignitis ON",
+      "visited": true
     }
   ]
 }

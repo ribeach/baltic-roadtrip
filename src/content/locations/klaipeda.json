@@ -39,7 +39,8 @@
         "lng": 21.130498499999998
       },
       "rating": 4.6,
-      "userRatingCount": 4301
+      "userRatingCount": 4301,
+      "visited": true
     },
     {
       "name": "Smiltynė Meeresmuseum & Delfin-Show",
@@ -88,6 +89,57 @@
       },
       "rating": 4.7,
       "userRatingCount": 3508
+    },
+    {
+      "name": "Pastaigu laipa",
+      "type": "nature",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=16293287133431178814&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46fab1006ca34fe5:0xe21d6252839ba63e",
+      "coordinates": {
+        "lat": 56.3662693,
+        "lng": 20.9743612
+      },
+      "rating": 5,
+      "userRatingCount": 2,
+      "visited": true
+    },
+    {
+      "name": "Pūsēnu kāpa",
+      "type": "nature",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=8502077531615118980&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46fab13c6c162c2f:0x75fd727814bfc684",
+      "coordinates": {
+        "lat": 56.3266147,
+        "lng": 20.986278799999997
+      },
+      "rating": 4.7,
+      "userRatingCount": 343,
+      "visited": true
+    },
+    {
+      "name": "Liepajas Southern Forts",
+      "type": "soviet",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=9280953399847567909&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46faa5f7c485beeb:0x80cc91f1cede4225",
+      "coordinates": {
+        "lat": 56.478490799999996,
+        "lng": 21.0059613
+      },
+      "rating": 4.3,
+      "userRatingCount": 284,
+      "visited": true
     }
   ],
   "restaurants": [
@@ -153,6 +205,23 @@
       },
       "rating": 4.1,
       "userRatingCount": 3997
+    },
+    {
+      "name": "Grand Baltic Dunes",
+      "type": "Hotel",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "evCharging": false,
+      "description": "Während der Reise besucht.",
+      "googleMapsUrl": "https://maps.google.com/?cid=16311191819884220490&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46e52934ed058209:0xe25cfe8a2f74d04a",
+      "coordinates": {
+        "lat": 55.919223499999994,
+        "lng": 21.0584414
+      },
+      "rating": 4.5,
+      "userRatingCount": 1225,
+      "visited": true
     }
   ],
   "tips": [
@@ -204,6 +273,19 @@
       "bookingUrl": "https://www.booking.com/hotel/lt/sau-tau.html",
       "rating": 4.95,
       "userRatingCount": 241
+    }
+  ],
+  "practical": [
+    {
+      "name": "Bezmaksas autostāvvieta",
+      "googleMapsUrl": "https://maps.google.com/?cid=15746197832327016056&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46fab142d0c53a21:0xda85bb8066e0ae78",
+      "coordinates": {
+        "lat": 56.3662127,
+        "lng": 20.9767303
+      },
+      "type": "parking",
+      "visited": true
     }
   ]
 }

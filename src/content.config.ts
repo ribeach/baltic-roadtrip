@@ -130,6 +130,29 @@ const locations = defineCollection({
       userRatingCount: z.number().int().nonnegative().optional(),
       visited: z.boolean().default(false),
     })).optional().default([]),
+    chargingStations: z.array(z.object({
+      name: z.string(),
+      network: z.string().optional(),
+      power: z.string().optional(),
+      description: z.string().optional(),
+      googleMapsUrl: z.string().url(),
+      placeId: z.string(),
+      coordinates: z.object({ lat: z.number(), lng: z.number() }),
+      visited: z.boolean().default(false),
+    })).optional().default([]),
+    practical: z.array(z.object({
+      name: z.string(),
+      type: z.enum([
+        'supermarket', 'parking', 'gas', 'pharmacy', 'tourist-info',
+        'sports', 'shop', 'ferry-terminal', 'swimming', 'post',
+        'other',
+      ]),
+      description: z.string().optional(),
+      googleMapsUrl: z.string().url(),
+      placeId: z.string(),
+      coordinates: z.object({ lat: z.number(), lng: z.number() }),
+      visited: z.boolean().default(false),
+    })).optional().default([]),
   }),
 });
 

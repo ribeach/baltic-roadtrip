@@ -39,7 +39,7 @@ export interface MapPOI {
   name: string;
   lat: number;
   lng: number;
-  category: 'highlight' | 'restaurant' | 'hotel' | 'nightlife';
+  category: 'highlight' | 'restaurant' | 'hotel' | 'nightlife' | 'charging' | 'practical';
   googleMapsUrl: string;
   placeId: string;
 }
@@ -51,12 +51,14 @@ type LocWithCoords = {
   placeId: string;
 };
 
-/** Collect POIs from all four category arrays of a location. */
+/** Collect POIs from all category arrays of a location. */
 export function collectLocationPois(loc: {
   highlights: LocWithCoords[];
   restaurants: LocWithCoords[];
   hotels: LocWithCoords[];
   nightlife?: LocWithCoords[];
+  chargingStations?: LocWithCoords[];
+  practical?: LocWithCoords[];
 }): MapPOI[] {
   const toMapPoi = (category: MapPOI['category']) =>
     (item: LocWithCoords): MapPOI => ({
@@ -68,11 +70,13 @@ export function collectLocationPois(loc: {
     ...loc.restaurants.map(toMapPoi('restaurant')),
     ...loc.hotels.map(toMapPoi('hotel')),
     ...(loc.nightlife || []).map(toMapPoi('nightlife')),
+    ...(loc.chargingStations || []).map(toMapPoi('charging')),
+    ...(loc.practical || []).map(toMapPoi('practical')),
   ];
 }
 
 const CATEGORY_PRIORITY: Record<MapPOI['category'], number> = {
-  highlight: 0, restaurant: 1, nightlife: 2, hotel: 3,
+  highlight: 0, restaurant: 1, nightlife: 2, hotel: 3, charging: 4, practical: 5,
 };
 
 /** Deduplicate POIs by placeId, keeping the highest-priority category. */

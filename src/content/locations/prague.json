@@ -155,6 +155,91 @@
       },
       "rating": 4.5,
       "visited": true
+    },
+    {
+      "name": "Výtoň",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=3962986074097491444&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470b945eeb28e5b7:0xc4931549b1742272",
+      "coordinates": {
+        "lat": 50.067736800000006,
+        "lng": 14.414966
+      },
+      "rating": 4.5,
+      "userRatingCount": 56,
+      "visited": true
+    },
+    {
+      "name": "Prague Astronomical Clock",
+      "type": "monument",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=17400577118091478678&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470b94e939c02f49:0xf17b44b25aa20696",
+      "coordinates": {
+        "lat": 50.0870215,
+        "lng": 14.420706500000001
+      },
+      "rating": 4.7,
+      "userRatingCount": 95594,
+      "visited": true
+    },
+    {
+      "name": "Old Town Square",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=10948008834901111492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470b94e93451fa21:0x97ef2407c21e72c4",
+      "coordinates": {
+        "lat": 50.0875692,
+        "lng": 14.421187399999999
+      },
+      "rating": 4.8,
+      "userRatingCount": 119643,
+      "visited": true
+    },
+    {
+      "name": "Vyšehradské casemates",
+      "type": "soviet",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=7740832270001103921&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470b946754067c19:0x6b6cf5efd74be431",
+      "coordinates": {
+        "lat": 50.0652173,
+        "lng": 14.419523499999999
+      },
+      "rating": 4.8,
+      "userRatingCount": 539,
+      "visited": true
+    },
+    {
+      "name": "Brick Gate",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=7639543480244292822&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470b946754adc7b3:0x6a051c51ba1cccd6",
+      "coordinates": {
+        "lat": 50.0652919,
+        "lng": 14.4191609
+      },
+      "rating": 4.7,
+      "userRatingCount": 1060,
+      "visited": true
     }
   ],
   "restaurants": [
@@ -249,6 +334,57 @@
       },
       "rating": 4.5,
       "userRatingCount": 5004
+    },
+    {
+      "name": "Starbucks",
+      "cuisine": "Coffee",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=17282085246338580179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470bbe0c7bcfd3fd:0xefd64cf79607bed3",
+      "coordinates": {
+        "lat": 50.049657499999995,
+        "lng": 14.297611499999999
+      },
+      "rating": 4.3,
+      "userRatingCount": 1390,
+      "visited": true
+    },
+    {
+      "name": "Tradice Original Czech Restaurant",
+      "cuisine": "Tschechisch",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=15508583626659215246&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470b9456e897e4fd:0xd7398ea3f476378e",
+      "coordinates": {
+        "lat": 50.069119699999995,
+        "lng": 14.4013825
+      },
+      "rating": 4.3,
+      "userRatingCount": 2288,
+      "visited": true
+    },
+    {
+      "name": "U Kroka",
+      "cuisine": "Tschechisch",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=10644314521069821426&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470b945e1381f9c7:0x93b833a931e61df2",
+      "coordinates": {
+        "lat": 50.066610399999995,
+        "lng": 14.4179643
+      },
+      "rating": 4.7,
+      "userRatingCount": 8234,
+      "visited": true
     }
   ],
   "hotels": [
@@ -394,6 +530,43 @@
       "source": "Airbnb",
       "rating": 4.9,
       "bookingUrl": "https://www.airbnb.com/rooms/15367687"
+    }
+  ],
+  "practical": [
+    {
+      "name": "MR.PARKIT - Parking Anděl Park - Radlická 3201/14",
+      "googleMapsUrl": "https://maps.google.com/?cid=154029825195646071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470b95e11f1d7653:0x223394f579a1c77",
+      "coordinates": {
+        "lat": 50.070543099999995,
+        "lng": 14.401012600000001
+      },
+      "type": "parking",
+      "visited": true
+    },
+    {
+      "name": "Decathlon",
+      "googleMapsUrl": "https://maps.google.com/?cid=6838808844903931987&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470bbe72259139cb:0x5ee854692f4c6053",
+      "coordinates": {
+        "lat": 50.0493689,
+        "lng": 14.2958457
+      },
+      "type": "sports",
+      "visited": true
+    }
+  ],
+  "chargingStations": [
+    {
+      "name": "Tesla Supercharger",
+      "googleMapsUrl": "https://maps.google.com/?cid=2171925487124119149&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x470bbe74aa577ffd:0x1e243ab922a67e6d",
+      "coordinates": {
+        "lat": 50.049732,
+        "lng": 14.293277
+      },
+      "network": "Tesla",
+      "visited": true
     }
   ]
 }

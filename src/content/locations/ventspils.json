@@ -8,8 +8,110 @@
   },
   "description": "Hansestadt an der lettischen Ostseeküste mit Livländischer Ordensburg, breiter Strandpromenade und den bunten Kuh-Skulpturen der Govju parāde. Praktische Zwischenübernachtung zwischen Kurland und Kap Kolka.",
   "placeId": "ChIJ2UhCZpbI8UYRoP7yaM3PAAQ",
-  "highlights": [],
-  "restaurants": [],
+  "highlights": [
+    {
+      "name": "VIRAC (LATVIA)",
+      "type": "soviet",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=10413591393232708660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46f1c30073639883:0x90848232d5b36434",
+      "coordinates": {
+        "lat": 57.553447500000004,
+        "lng": 21.8549215
+      },
+      "rating": 5,
+      "userRatingCount": 7,
+      "visited": true
+    },
+    {
+      "name": "Oviši Lighthouse",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=4419086547532517352&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46f1c1b794ad8609:0x3d53bfcd39620fe8",
+      "coordinates": {
+        "lat": 57.5686087,
+        "lng": 21.7158659
+      },
+      "rating": 4.6,
+      "userRatingCount": 832,
+      "visited": true
+    },
+    {
+      "name": "Irbene Ghost City",
+      "type": "soviet",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=12194649029197886283&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46f1c3003af71877:0xa93c18ae99e6f34b",
+      "coordinates": {
+        "lat": 57.564481799999996,
+        "lng": 21.863103
+      },
+      "visited": true
+    },
+    {
+      "name": "Jūrkalne seashore",
+      "type": "nature",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=4953455571850385307&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46f03b76d88362c7:0x44be35991ad2579b",
+      "coordinates": {
+        "lat": 57.006844099999995,
+        "lng": 21.3785107
+      },
+      "rating": 4.8,
+      "userRatingCount": 2920,
+      "visited": true
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Restorāns Olivia, Ventspils",
+      "cuisine": "International",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=10132942187395853964&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46f1c99a09ac29d7:0x8c9f713b994cae8c",
+      "coordinates": {
+        "lat": 57.402749699999994,
+        "lng": 21.5846899
+      },
+      "rating": 4,
+      "userRatingCount": 10,
+      "visited": true
+    },
+    {
+      "name": "Zvejnieku māja (zivju veikals)",
+      "cuisine": "Fischladen",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=1596737571548493020&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46f03b00458bb9ab:0x1628c05c87aaf4dc",
+      "coordinates": {
+        "lat": 57.005089999999996,
+        "lng": 21.386924699999998
+      },
+      "rating": 5,
+      "userRatingCount": 5,
+      "visited": true
+    }
+  ],
   "hotels": [
     {
       "name": "Hotel Vento",
@@ -28,5 +130,29 @@
       "visited": true
     }
   ],
-  "tips": []
+  "tips": [],
+  "practical": [
+    {
+      "name": "LaTS",
+      "googleMapsUrl": "https://maps.google.com/?cid=7379382416465369619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46f03b7110fbb425:0x6668d535cb2e9a13",
+      "coordinates": {
+        "lat": 57.0053125,
+        "lng": 21.3865625
+      },
+      "type": "supermarket",
+      "visited": true
+    },
+    {
+      "name": "Bezmaksas stāvvieta",
+      "googleMapsUrl": "https://maps.google.com/?cid=5167051239646328614&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46f03bdc5f01d4e3:0x47b50db9eb5c7726",
+      "coordinates": {
+        "lat": 57.0051388,
+        "lng": 21.3815007
+      },
+      "type": "parking",
+      "visited": true
+    }
+  ]
 }

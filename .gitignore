@@ -6,6 +6,9 @@ dist/
 # dependencies
 node_modules/
 
+# import-script cache (Google Places API responses)
+scripts/.places-cache.json
+
 # logs
 npm-debug.log*
 yarn-debug.log*

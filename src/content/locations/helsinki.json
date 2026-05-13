@@ -85,7 +85,8 @@
         "lng": 24.9521309
       },
       "rating": 4.6,
-      "userRatingCount": 13535
+      "userRatingCount": 13535,
+      "visited": true
     },
     {
       "name": "Design District",
@@ -116,6 +117,23 @@
       },
       "rating": 4.4,
       "userRatingCount": 7489
+    },
+    {
+      "name": "Uspenski Cathedral",
+      "type": "architecture",
+      "icon": "info",
+      "description": "Während der Reise besucht.",
+      "duration": null,
+      "price": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=11546607373975112873&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46920bd2278b8df1:0xa03dca3ae6b14ca9",
+      "coordinates": {
+        "lat": 60.168602299999996,
+        "lng": 24.9598971
+      },
+      "rating": 4.6,
+      "userRatingCount": 8617,
+      "visited": true
     }
   ],
   "restaurants": [
@@ -148,6 +166,40 @@
       },
       "rating": 4.6,
       "userRatingCount": 6289
+    },
+    {
+      "name": "SOUP+MORE Vanha Kauppahalli",
+      "cuisine": "Suppe",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=4923293653914405819&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46920b3bb357b531:0x44530d7e5680cbbb",
+      "coordinates": {
+        "lat": 60.166049099999995,
+        "lng": 24.9527309
+      },
+      "rating": 4.5,
+      "userRatingCount": 742,
+      "visited": true
+    },
+    {
+      "name": "Way Bakery Vanha kauppahalli",
+      "cuisine": "Bäckerei",
+      "priceRange": "€€",
+      "isSplurge": false,
+      "description": "Während der Reise besucht.",
+      "mustTry": null,
+      "googleMapsUrl": "https://maps.google.com/?cid=15445969917530512535&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "placeId": "0x46920bc4409832e3:0xd65b1bcdc1c69c97",
+      "coordinates": {
+        "lat": 60.1665277,
+        "lng": 24.9528034
+      },
+      "rating": 4.8,
+      "userRatingCount": 17,
+      "visited": true
     }
   ],
   "hotels": [
