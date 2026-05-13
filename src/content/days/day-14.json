@@ -32,7 +32,11 @@
     "🎯 11:30 — Värnamo Bredasten Ionity-Stop, ~45 Min. Schnellladen plus Mittagspause am Hub (Café und Sandwiches direkt vor Ort)",
     "13:00 — weiter südwärts, in der Halland-Region E4 verlassen und auf die E6 westwärts wechseln",
     "15:30 — Ankunft First Camp Hagön Halmstad, Check-in",
-    "Settle-in im Stuga: Auto am AC-Lader anschließen, Lebensmittel-Run zum Coop oder ICA in Halmstad, leichtes Abendessen am Platz",
+    "Settle-in im Stuga: Auto am AC-Lader anschließen, kurzer Lebensmittel-Run für die ersten Tage",
+    {
+      "restaurantRef": "Klackerups Pizzeria",
+      "note": "Ankunfts-Abendessen — ehrliche, gute Pizza ohne Aufwand, der vertraute Halmstad-Klassiker zum sofortigen Wieder-Ankommen"
+    },
     "Spaziergang am Hagöns Naturreservat-Strand zum Sonnenuntergang — direkt vor der Haustür, nach drei Wochen Reise endlich Routine im Stillstand"
   ]
 }
